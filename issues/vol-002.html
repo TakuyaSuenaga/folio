@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!-- AD NOTE vol.002
+特集: 氷 / 特色: #0F6E8C(厚氷の青)。面(帯・肩ラベル地)と太罫のみに使用、文字はink
+扉: 縦組みVOL(縦中横)・タイトル「氷」一文字を超特大の文字主役 / 本文: 1段 / 反転: なし / アクセント書体: なし
+前号との差分: vol.001が横組み扉・数字主役・黄・2段だったため、縦組み・文字主役・寒色・1段へ
+責了対応: P-01を適用(奥付の号数表記をVOL.002に統一)
+-->
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VOL.002 氷 — folio</title>
+<meta property="og:title" content="VOL.002 氷">
+<meta property="og:description" content="氷は最も短命な鉱物である。冬の池でゆっくり結晶し、夏の口の中で一分と持たずに消える。アンナ・カヴァンは迫りくる氷に世界の終わりを見た。">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --spot: #0F6E8C;
+  --ink: #111;
+  --paper: #FBFBF8;
+  --desk: #D9D9D6;
+  --rule: 1px solid var(--ink);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 32px 0;
+  background: var(--desk); color: var(--ink);
+  font-family: "Noto Sans JP", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.hanmen {
+  width: 390px; max-width: 100%; margin: 0 auto;
+  background: var(--paper);
+  box-shadow: 0 0 24px rgba(0,0,0,.18);
+  overflow: hidden;
+}
+a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+
+/* ---- 扉 ---- */
+.band { height: 10px; background: var(--spot); }
+.tobira-in { padding: 12px 16px 24px; }
+.masthead {
+  display: flex; justify-content: space-between; align-items: baseline;
+  font-size: 10px; letter-spacing: .18em; font-weight: 700;
+  border-bottom: var(--rule); padding-bottom: 8px;
+}
+.masthead .logo { font-weight: 900; font-size: 13px; letter-spacing: .3em; }
+.tobira-main { display: flex; align-items: stretch; margin-top: 10px; }
+.hyoudai {
+  margin: 0; flex: 1;
+  font-weight: 900; font-feature-settings: "palt";
+  font-size: 230px; line-height: 1.02; letter-spacing: 0;
+  text-align: center;
+}
+.vol-v {
+  writing-mode: vertical-rl;
+  font-weight: 900; font-size: 19px; letter-spacing: .24em;
+  border-left: 4px solid var(--spot);
+  padding-left: 8px; margin-left: 4px;
+}
+.tcy { text-combine-upright: all; }
+.tobira-foot {
+  display: flex; justify-content: space-between; align-items: center;
+  border-top: 4px solid var(--spot); margin-top: 14px; padding-top: 10px;
+}
+.tokushu-tag {
+  display: inline-block; border: var(--rule);
+  padding: 2px 8px; font-size: 10px; letter-spacing: .3em; font-weight: 700;
+}
+.tobira-genres { font-size: 10px; letter-spacing: .18em; }
+
+/* ---- リード(縦組み) ---- */
+.lead-wrap {
+  border-top: var(--rule);
+  padding: 26px 16px 30px;
+  display: flex; justify-content: flex-end;
+}
+.lead-v {
+  writing-mode: vertical-rl;
+  height: 264px; font-size: 13px; line-height: 2.15;
+  letter-spacing: .06em; text-align: justify; margin: 0;
+}
+
+/* ---- 記事 ---- */
+.kiji { border-top: 3px solid var(--ink); }
+.kiji-in { padding: 18px 16px 20px; }
+.kata {
+  display: inline-block; background: var(--spot); color: #fff;
+  padding: 3px 10px; font-size: 10px; font-weight: 700;
+  letter-spacing: .22em;
+}
+.kiji-title {
+  margin: 12px 0 2px;
+  font-weight: 900; font-feature-settings: "palt";
+  font-size: 26px; line-height: 1.22; letter-spacing: -.03em;
+}
+.kiji-creator { font-size: 11px; letter-spacing: .08em; margin-bottom: 14px; }
+.honbun { font-size: 12px; line-height: 2; text-align: justify; }
+.honbun p { margin: 0; text-indent: 1em; }
+.shoei {
+  float: right; width: 104px; height: auto;
+  border: 1px solid var(--ink);
+  margin: 4px 0 8px 12px;
+}
+
+/* ---- DATA欄 ---- */
+.data { width: 100%; border-collapse: collapse; font-size: 10px; margin-top: 18px; clear: both; }
+.data th, .data td {
+  border: var(--rule); padding: 4px 6px;
+  text-align: left; font-weight: 400; line-height: 1.7;
+}
+.data th { width: 5em; font-weight: 700; letter-spacing: .08em; }
+
+/* ---- ノンブル・柱 ---- */
+.folio {
+  display: flex; justify-content: space-between;
+  font-size: 9px; letter-spacing: .12em;
+  border-top: var(--rule); padding: 6px 12px;
+}
+
+/* ---- 奥付 ---- */
+.okuzuke {
+  border-top: 7px double var(--ink);
+  padding: 16px 16px 22px;
+  font-size: 9.5px; line-height: 1.9; letter-spacing: .04em;
+}
+.okuzuke p { margin: 0 0 6px; }
+.okuzuke .credit { font-weight: 700; letter-spacing: .1em; }
+</style>
+</head>
+<body>
+<div class="hanmen">
+
+  <header>
+    <div class="band"></div>
+    <div class="tobira-in">
+      <div class="masthead"><span class="logo">folio</span><span>2026.07.19 — DAILY</span></div>
+      <div class="tobira-main">
+        <h1 class="hyoudai">氷</h1>
+        <div class="vol-v">VOL.<span class="tcy">002</span></div>
+      </div>
+      <div class="tobira-foot">
+        <span class="tokushu-tag">特集</span>
+        <span class="tobira-genres">BOOK ／ CAFE</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="lead-wrap">
+    <p class="lead-v">氷は最も短命な鉱物である。冬の池でゆっくり結晶し、夏の口の中で一分と持たずに消える。アンナ・カヴァンは迫りくる氷に世界の終わりを見た。谷中の店先では、日光の冬がガラスの器に積み上げられていく。凍ることと溶けることのあいだの、短い時間を特集する。</p>
+  </section>
+
+  <article class="kiji">
+    <div class="kiji-in">
+      <span class="kata">BOOK</span>
+      <h2 class="kiji-title">氷</h2>
+      <div class="kiji-creator">アンナ・カヴァン</div>
+      <div class="honbun">
+        <img class="shoei" src="https://tshop.r10s.jp/book/cabinet/2506/9784480432506_1_183.jpg" alt="『氷』(ちくま文庫)書影">
+        <p>一九六七年に発表されたアンナ・カヴァンの最後の長編である。異常な寒波の世界で、語り手の「私」は姿を消した少女を追い続ける。筋はそれだけだと言っていい。壁のような氷が北からも南からも迫り、都市を呑み、少女は何度も見失われては現れる。同じ追跡が悪夢の反復として書き直されていくうち、読んでいるこちらの現実の輪郭が溶けはじめる。氷はここで気象ではなく他者である。交渉も懇願も通じず、ただ白く増え続けるものの前で、人間の執着だけが最後まで凍らずに残る。真夏に読むべき本である。冷房の効いた部屋で頁を繰るとき、窓の外の炎暑と紙の上の氷河が等しく非現実に見えてくる。その眩暈こそカヴァンの氷の温度である。</p>
+      </div>
+      <table class="data">
+        <tr><th>題名</th><td>氷</td></tr>
+        <tr><th>著者</th><td>アンナ・カヴァン</td></tr>
+        <tr><th>訳</th><td>山田和子</td></tr>
+        <tr><th>原作</th><td>Ice(1967)</td></tr>
+        <tr><th>版元</th><td>筑摩書房(ちくま文庫)</td></tr>
+        <tr><th>刊行</th><td>2015</td></tr>
+        <tr><th>頁数</th><td>288p</td></tr>
+        <tr><th>ISBN</th><td>9784480432506</td></tr>
+        <tr><th>入手</th><td><a href="https://books.rakuten.co.jp/rb/13102372/" rel="sponsored noopener">楽天ブックスで購入 [PR]</a><br><a href="https://www.chikumashobo.co.jp/product/9784480432506/" rel="noopener">版元ページ</a></td></tr>
+      </table>
+    </div>
+    <div class="folio"><span>folio — 氷</span><span>002 — 01</span></div>
+  </article>
+
+  <article class="kiji">
+    <div class="kiji-in">
+      <span class="kata">CAFE</span>
+      <h2 class="kiji-title">ひみつ堂</h2>
+      <div class="kiji-creator">東京・谷中</div>
+      <div class="honbun">
+        <p>氷がこの店に届くまでに、二つの季節を経ている。日光の山あいの氷池で、真冬、沢の水が二週間ほどかけてゆっくり凍る。天然氷と呼ばれるそれを氷室で夏まで貯え、谷中の店先で手回しの機械が一杯ずつ削っていく。ひみつ堂が使うのは三ツ星氷室の氷——全国に数軒しか残らない天然氷の蔵元のひとつである。電動の刃が一定に削るのに対し、手回しの刃は速度も圧もわずかに揺れる。その揺れのぶんだけ、削られた氷は薄く、空気を含み、舌に載った瞬間に水へ戻る。ひと冬がそのまま閉じ込められた結晶が、口の中で一分足らずで消える。この店で食べているのは果実の蜜である以上に、貯蔵された時間そのものだ。谷中という、古い時間が層をなす町にこの店があることは、だから偶然ではないように思える。</p>
+      </div>
+      <table class="data">
+        <tr><th>屋号</th><td>ひみつ堂</td></tr>
+        <tr><th>所在地</th><td>東京都台東区谷中3-11-18</td></tr>
+        <tr><th>氷</th><td>日光・三ツ星氷室の天然氷</td></tr>
+        <tr><th>削り</th><td>手回しの氷削機</td></tr>
+        <tr><th>案内</th><td><a href="http://himitsudo.com/natural_ice.html" rel="noopener">公式サイト(天然氷について)</a></td></tr>
+      </table>
+    </div>
+    <div class="folio"><span>folio — 氷</span><span>002 — 02</span></div>
+  </article>
+
+  <footer class="okuzuke">
+    <p>本誌の一部リンクはアフィリエイトプログラムを利用しており、リンク経由の購入等により発行元が収益を得ることがあります。</p>
+    <p>VOL.002は編集部制の通し稽古号である。</p>
+    <p class="credit">folio ／ VOL.002 氷 ／ 発行日 2026.07.19 ／ 発行 合同会社noroa</p>
+  </footer>
+
+</div>
+</body>
+</html>
