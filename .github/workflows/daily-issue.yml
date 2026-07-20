@@ -15,6 +15,7 @@ jobs:
     timeout-minutes: 45
     permissions:
       contents: write
+      id-token: write
       issues: write
     outputs:
       hantei: ${{ steps.kouryou_check.outputs.hantei }}
