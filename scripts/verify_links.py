@@ -9,16 +9,20 @@ kousei_machine.pyもCIでのリンク死活実測に使う。
 import json
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 
 TIMEOUT_SEC = 10
 USER_AGENT = "Mozilla/5.0 (compatible; folio-linkcheck/1.0)"
 HTTP_ERROR_THRESHOLD = 400
+ALLOWED_SCHEMES = {"http", "https"}
 
 
 def check_url(url: str) -> int | None:
-    """HTTPステータスを実測する。到達不能ならNone。"""
+    """HTTPステータスを実測する。到達不能・非http(s)スキームならNone。"""
+    if urllib.parse.urlparse(url).scheme.lower() not in ALLOWED_SCHEMES:
+        return None
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     try:
         with urllib.request.urlopen(req, timeout=TIMEOUT_SEC) as res:

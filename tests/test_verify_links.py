@@ -52,3 +52,16 @@ def test_main_outputs_json(monkeypatch, capsys):
 def test_main_without_urls_exits():
     with pytest.raises(SystemExit):
         verify_links.main([])
+
+
+def test_check_url_returns_none_for_non_http_scheme(monkeypatch):
+    # Arrange: file:// 等の非http(s)スキームはurlopenを呼ばずNoneを返す
+    def fail_if_called(req, timeout):
+        raise AssertionError("非http(s)スキームでurlopenが呼ばれてはいけない")
+    monkeypatch.setattr(verify_links.urllib.request, "urlopen", fail_if_called)
+
+    # Act
+    result = verify_links.check_url("file:///etc/passwd")
+
+    # Assert
+    assert result is None
