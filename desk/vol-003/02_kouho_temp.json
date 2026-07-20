@@ -1,0 +1,209 @@
+{
+  "vol": 3,
+  "genres": [
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1755606068",
+          "title": "SINGALONG",
+          "creator": "緑黄色社会",
+          "year": null,
+          "publisher": "",
+          "meta": {},
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://itunes.apple.com/album/id1755606068",
+              "kind": "stream"
+            }
+          ],
+          "verify": {},
+          "researcher_note": "季節と政治の交差点での音楽作品"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1744127227",
+          "title": "TURN IT UP (feat. Candee & Zot On the Wave) - Single",
+          "creator": "LANA",
+          "year": null,
+          "publisher": "",
+          "meta": {},
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://itunes.apple.com/album/id1744127227",
+              "kind": "stream"
+            }
+          ],
+          "verify": {},
+          "researcher_note": "季節と政治の交差点での音楽作品"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1750348815",
+          "title": "B'z The Best \"ULTRA Pleasure\"",
+          "creator": "B'z",
+          "year": null,
+          "publisher": "",
+          "meta": {},
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://itunes.apple.com/album/id1750348815",
+              "kind": "stream"
+            }
+          ],
+          "verify": {},
+          "researcher_note": "季節と政治の交差点での音楽作品"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1739254647",
+          "title": "HYPNOSISMIC Nagoya Division \"Bad Ass Temple Funky Sounds\"",
+          "creator": "ヒプノシスマイク -D.R.B- (Bad Ass Temple)",
+          "year": null,
+          "publisher": "",
+          "meta": {},
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://itunes.apple.com/album/id1739254647",
+              "kind": "stream"
+            }
+          ],
+          "verify": {},
+          "researcher_note": "季節と政治の交差点での音楽作品"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1748485462",
+          "title": "神曲たち",
+          "creator": "AKB48",
+          "year": null,
+          "publisher": "",
+          "meta": {},
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://itunes.apple.com/album/id1748485462",
+              "kind": "stream"
+            }
+          ],
+          "verify": {},
+          "researcher_note": "季節と政治の交差点での音楽作品"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1750348814",
+          "title": "B'z The Best \"ULTRA Treasure\"",
+          "creator": "B'z",
+          "year": null,
+          "publisher": "",
+          "meta": {},
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://itunes.apple.com/album/id1750348814",
+              "kind": "stream"
+            }
+          ],
+          "verify": {},
+          "researcher_note": "季節と政治の交差点での音楽作品"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1744698154",
+          "title": "NEW KAWAII",
+          "creator": "FRUITS ZIPPER",
+          "year": null,
+          "publisher": "",
+          "meta": {},
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://itunes.apple.com/album/id1744698154",
+              "kind": "stream"
+            }
+          ],
+          "verify": {},
+          "researcher_note": "季節と政治の交差点での音楽作品"
+        },
+        {
+          "cand_id": "mus-08",
+          "source_api": "itunes",
+          "source_id": "1743813256",
+          "title": "PAINT - Single",
+          "creator": "I Don't Like Mondays.",
+          "year": null,
+          "publisher": "",
+          "meta": {},
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://itunes.apple.com/album/id1743813256",
+              "kind": "stream"
+            }
+          ],
+          "verify": {},
+          "researcher_note": "季節と政治の交差点での音楽作品"
+        },
+        {
+          "cand_id": "mus-09",
+          "source_api": "itunes",
+          "source_id": "1746810868",
+          "title": "願い - Single",
+          "creator": "sumika",
+          "year": null,
+          "publisher": "",
+          "meta": {},
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://itunes.apple.com/album/id1746810868",
+              "kind": "stream"
+            }
+          ],
+          "verify": {},
+          "researcher_note": "季節と政治の交差点での音楽作品"
+        },
+        {
+          "cand_id": "mus-10",
+          "source_api": "itunes",
+          "source_id": "1745267181",
+          "title": "ENCORE",
+          "creator": "清水 翔太",
+          "year": null,
+          "publisher": "",
+          "meta": {},
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://itunes.apple.com/album/id1745267181",
+              "kind": "stream"
+            }
+          ],
+          "verify": {},
+          "researcher_note": "季節と政治の交差点での音楽作品"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": []
+    },
+    {
+      "genre": "photo",
+      "candidates": []
+    }
+  ],
+  "ng": []
+}
