@@ -45,10 +45,6 @@ jobs:
       - name: 工程2 リサーチ(researcher)
         uses: anthropics/claude-code-action@v1
         env:
-          RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
-          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -101,8 +97,6 @@ jobs:
           claude_args: "--model claude-haiku-4-5-20251001 --allowedTools Bash,Read,Write,Edit,Glob,Grep"
 
       - name: 工程5 リンク加工(スクリプト)
-        env:
-          RAKUTEN_AFF_PARAM: ${{ secrets.RAKUTEN_AFF_PARAM }}
         run: >
           python scripts/link_decorator.py
           "desk/vol-${{ steps.seed.outputs.nnn }}/03_genko.json"
@@ -196,15 +190,11 @@ jobs:
         id: secrets_scan
         if: always()
         env:
-          RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
-          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
         run: |
           set -u
           leaked=0
-          for name in RAKUTEN_APP_ID SPOTIFY_CLIENT_ID SPOTIFY_CLIENT_SECRET TMDB_API_KEY GOOGLE_PLACES_API_KEY; do
+          for name in GOOGLE_PLACES_API_KEY; do
             value="${!name}"
             if [ -z "$value" ]; then
               continue   # 空のSecretはスキップ

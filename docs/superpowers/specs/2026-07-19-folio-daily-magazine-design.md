@@ -15,7 +15,7 @@ folio は AI 編集部が毎日発行する Web 雑誌である。GitHub Actions
 | 技術スタック | 生 HTML 継続。React/Next.js/Tailwind は不採用 |
 | Claude 認証 | `CLAUDE_CODE_OAUTH_TOKEN`(サブスクリプションの OAuth トークン) |
 | モデル | 全工程 `claude-haiku-4-5-20251001` |
-| 外部 API | 楽天ブックス / openBD / Spotify / TMDB / Google Places — 全キー取得済み前提 |
+| 外部 API | NDLサーチ + openBD(book系)/ iTunes Search API(film・music)/ Google Places(cafe・restaurant)。キー必須は Places のみ(2026-07-20 改訂) |
 | 既存 vol.001/002 | 正式発行として公開アーカイブに載せ、台帳を引き継ぐ。自動発行は vol.003 から |
 | 実行時刻 | JST 0:00(GitHub cron の遅延数分〜数十分は許容) |
 
@@ -145,3 +145,14 @@ FLOW.md の写像どおり **1 工程 = 1 ステップ = 1 回の claude-code-ac
 - 天気 API・記念日データベースの統合(シードは RSS 見出しで足りる)
 - コメント・RSS 配信・検索などの読者機能
 - 独自ドメイン設定(Pages 公開後にいつでも追加可能)
+
+## 改訂履歴
+
+### 2026-07-20: APIソース改訂
+
+楽天ブックス・Spotify・TMDB のキーが取得不可(有料/登録不可)だったため、キー不要APIへ切替:
+
+- book/poetry: NDLサーチ(キーワード検索→ISBN)+ openBD(ISBN照合)。openBD にヒットしない書籍は候補にしない
+- film/music: iTunes Search API(source_id は trackId / collectionId)
+- ジャンル8種は全て維持。必要な Secrets は `CLAUDE_CODE_OAUTH_TOKEN` と `GOOGLE_PLACES_API_KEY` の2つに縮小
+- `scripts/link_decorator.py` の楽天アフィリエイト対応表は将来の再契約に備え温存
