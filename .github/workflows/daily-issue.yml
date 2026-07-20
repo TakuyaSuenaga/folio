@@ -215,6 +215,8 @@ jobs:
 
       - name: コミット&プッシュ(desk/は結果に関わらず残す)
         if: always() && steps.secrets_scan.outcome != 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -223,7 +225,8 @@ jobs:
             echo "変更なし"
           else
             git commit -m "issue: $(TZ=Asia/Tokyo date +%F) vol.${{ steps.seed.outputs.vol || 'unknown' }}"
-            git push
+            # claude-code-actionが実行後にgit認証情報を除去するため、トークンを明示して push する
+            git push "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" HEAD:main
           fi
 
   deploy:
