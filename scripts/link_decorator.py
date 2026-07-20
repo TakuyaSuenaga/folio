@@ -11,7 +11,9 @@ import json
 import os
 import sys
 import urllib.parse
-from datetime import date
+from datetime import datetime, timedelta, timezone
+
+JST = timezone(timedelta(hours=9))
 
 AFF_TABLE = {
     "books.rakuten.co.jp": {"env": "RAKUTEN_AFF_PARAM", "sponsored": True},
@@ -29,14 +31,20 @@ def decorate(link: dict) -> dict:
         return out
     out["sponsored"] = rule["sponsored"]
     aff = os.environ.get(rule["env"], "")
-    if aff:
-        u = urllib.parse.urlparse(link["url"])
-        q = dict(urllib.parse.parse_qsl(u.query))
-        k, _, v = aff.partition("=")
-        q[k] = v
-        out["url"] = urllib.parse.urlunparse(u._replace(query=urllib.parse.urlencode(q)))
-    else:
+    if not aff:
         print(f"[warn] {rule['env']} 未設定: {host} はsponsored扱いのままURL無改変", file=sys.stderr)
+        return out
+
+    k, sep, v = aff.partition("=")
+    if not sep or not k:
+        print(f"[warn] {rule['env']} の形式が不正(key=value形式でない): "
+              f"{host} はsponsored扱いのままURL無改変", file=sys.stderr)
+        return out
+
+    u = urllib.parse.urlparse(link["url"])
+    q = dict(urllib.parse.parse_qsl(u.query, keep_blank_values=True))
+    q[k] = v
+    out["url"] = urllib.parse.urlunparse(u._replace(query=urllib.parse.urlencode(q)))
     return out
 
 
@@ -53,7 +61,7 @@ def main(src: str, dst: str) -> None:
     }
     if "colophon" in genko:
         goudata["colophon"] = genko["colophon"]
-    goudata["decorated_at"] = date.today().isoformat()
+    goudata["decorated_at"] = datetime.now(JST).date().isoformat()
     with open(dst, "w", encoding="utf-8") as f:
         json.dump(goudata, f, ensure_ascii=False, indent=2)
     n_sp = sum(1 for i in goudata["items"] for l in i["links"] if l["sponsored"])
