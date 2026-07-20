@@ -1,0 +1,215 @@
+name: daily-issue
+
+on:
+  schedule:
+    - cron: "0 15 * * *"   # JST 0:00
+  workflow_dispatch:
+
+concurrency:
+  group: daily-issue
+  cancel-in-progress: false
+
+jobs:
+  issue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+      issues: write
+    outputs:
+      hantei: ${{ steps.kouryou_check.outputs.hantei }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 工程0 号数決定とシード生成
+        id: seed
+        run: python scripts/seed.py >> "$GITHUB_OUTPUT"
+
+      - name: 工程1 企画(editor-in-chief)
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: >-
+            vol.${{ steps.seed.outputs.vol }} の企画を立てて。
+            起点シードは desk/vol-${{ steps.seed.outputs.nnn }}/seed.md を読むこと。
+            出力は desk/vol-${{ steps.seed.outputs.nnn }}/01_kikaku.json へ。
+          claude_args: "--model claude-haiku-4-5-20251001 --allowedTools Bash,Read,Write,Edit,Glob,Grep"
+
+      - name: 工程1 検品
+        run: jq -e '.title and .genres' "desk/vol-${{ steps.seed.outputs.nnn }}/01_kikaku.json"
+
+      - name: 工程2 リサーチ(researcher)
+        uses: anthropics/claude-code-action@v1
+        env:
+          RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: >-
+            vol.${{ steps.seed.outputs.vol }} の候補を集めて。
+            desk/vol-${{ steps.seed.outputs.nnn }}/01_kikaku.json の発注に従うこと。
+            URL検証には scripts/verify_links.py を使うこと。
+            出力は desk/vol-${{ steps.seed.outputs.nnn }}/02_kouho.json へ。
+          claude_args: "--model claude-haiku-4-5-20251001 --allowedTools Bash,Read,Write,Edit,Glob,Grep"
+
+      - name: 工程2 検品
+        run: jq -e '.genres | length > 0' "desk/vol-${{ steps.seed.outputs.nnn }}/02_kouho.json"
+
+      - name: 工程3 執筆(genre-editor)
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: >-
+            vol.${{ steps.seed.outputs.vol }} の原稿を書いて。
+            入力は desk/vol-${{ steps.seed.outputs.nnn }}/ の 01_kikaku.json と 02_kouho.json。
+            出力は desk/vol-${{ steps.seed.outputs.nnn }}/03_genko.json へ。
+          claude_args: "--model claude-haiku-4-5-20251001 --allowedTools Bash,Read,Write,Edit,Glob,Grep"
+
+      - name: 工程3 検品
+        run: jq -e '.issue and (.items | length > 0)' "desk/vol-${{ steps.seed.outputs.nnn }}/03_genko.json"
+
+      - name: 工程4 校閲(koetsu)
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: >-
+            vol.${{ steps.seed.outputs.vol }} の校閲をして。
+            入力は desk/vol-${{ steps.seed.outputs.nnn }}/ の 01〜03 のJSON。
+            出力は desk/vol-${{ steps.seed.outputs.nnn }}/04_koetsu.json へ。
+          claude_args: "--model claude-haiku-4-5-20251001 --allowedTools Bash,Read,Write,Edit,Glob,Grep"
+
+      - name: 工程4 判定読取
+        id: koetsu_check
+        run: echo "verdict=$(jq -r '.verdict' "desk/vol-${{ steps.seed.outputs.nnn }}/04_koetsu.json")" >> "$GITHUB_OUTPUT"
+
+      - name: 工程4b 改稿(fix_required時のみ)
+        if: steps.koetsu_check.outputs.verdict == 'fix_required'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: >-
+            vol.${{ steps.seed.outputs.vol }} の校閲対応をして(改稿モード)。
+            desk/vol-${{ steps.seed.outputs.nnn }}/04_koetsu.json の指摘に従い、
+            desk/vol-${{ steps.seed.outputs.nnn }}/03_genko.json を更新すること。
+          claude_args: "--model claude-haiku-4-5-20251001 --allowedTools Bash,Read,Write,Edit,Glob,Grep"
+
+      - name: 工程5 リンク加工(スクリプト)
+        env:
+          RAKUTEN_AFF_PARAM: ${{ secrets.RAKUTEN_AFF_PARAM }}
+        run: >
+          python scripts/link_decorator.py
+          "desk/vol-${{ steps.seed.outputs.nnn }}/03_genko.json"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/05_goudata.json"
+
+      - name: 工程6 組版(art-director)
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: >-
+            vol.${{ steps.seed.outputs.vol }} の誌面を組んで。
+            入力は desk/vol-${{ steps.seed.outputs.nnn }}/05_goudata.json。
+            出力は desk/vol-${{ steps.seed.outputs.nnn }}/gera.html へ。
+          claude_args: "--model claude-haiku-4-5-20251001 --allowedTools Bash,Read,Write,Edit,Glob,Grep"
+
+      - name: 工程6 検品
+        run: |
+          test -s "desk/vol-${{ steps.seed.outputs.nnn }}/gera.html"
+          ! grep -q "<script" "desk/vol-${{ steps.seed.outputs.nnn }}/gera.html"
+
+      - name: 工程7 機械校正(スクリプト・URL実測)
+        env:
+          FOLIO_CHECK_URLS: "1"
+        run: >
+          python scripts/kousei_machine.py
+          "desk/vol-${{ steps.seed.outputs.nnn }}/05_goudata.json"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/gera.html"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/machine.json"
+
+      - name: 工程7 校正(kousei)
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: >-
+            vol.${{ steps.seed.outputs.vol }} の校正をして。
+            機械チェックは実行済みで desk/vol-${{ steps.seed.outputs.nnn }}/machine.json にある(再実行不要)。
+            ゲラは desk/vol-${{ steps.seed.outputs.nnn }}/gera.html、照合元は 05_goudata.json。
+            出力は desk/vol-${{ steps.seed.outputs.nnn }}/06_kousei.json へ。
+          claude_args: "--model claude-haiku-4-5-20251001 --allowedTools Bash,Read,Write,Edit,Glob,Grep"
+
+      - name: 工程7 検品
+        run: jq -e '.machine' "desk/vol-${{ steps.seed.outputs.nnn }}/06_kousei.json"
+
+      - name: 工程8 校了(editor-in-chief)
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: >-
+            vol.${{ steps.seed.outputs.vol }} の校了判定をして。
+            desk/vol-${{ steps.seed.outputs.nnn }}/ の gera.html と 01〜06 を読み、
+            desk/vol-${{ steps.seed.outputs.nnn }}/07_kouryou.json を出力すること。
+          claude_args: "--model claude-haiku-4-5-20251001 --allowedTools Bash,Read,Write,Edit,Glob,Grep"
+
+      - name: 工程8 判定読取
+        id: kouryou_check
+        run: echo "hantei=$(jq -r '.hantei' "desk/vol-${{ steps.seed.outputs.nnn }}/07_kouryou.json")" >> "$GITHUB_OUTPUT"
+
+      - name: 工程8b 責了対応(責了時のみ)
+        if: steps.kouryou_check.outputs.hantei == '責了'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: >-
+            vol.${{ steps.seed.outputs.vol }} の責了対応をして(修正モード)。
+            desk/vol-${{ steps.seed.outputs.nnn }}/07_kouryou.json の sekiryo_shiji を
+            desk/vol-${{ steps.seed.outputs.nnn }}/gera.html に適用すること。
+          claude_args: "--model claude-haiku-4-5-20251001 --allowedTools Bash,Read,Write,Edit,Glob,Grep"
+
+      - name: 工程9 発行(スクリプト)
+        if: steps.kouryou_check.outputs.hantei != '休刊'
+        run: python scripts/publish.py "${{ steps.seed.outputs.vol }}"
+
+      - name: 休刊Issueを起票
+        if: steps.kouryou_check.outputs.hantei == '休刊'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          riyu=$(jq -r '.riyu // "理由未記載"' "desk/vol-${{ steps.seed.outputs.nnn }}/07_kouryou.json")
+          gh issue create --title "休刊: vol.${{ steps.seed.outputs.vol }} ($(TZ=Asia/Tokyo date +%F))" --body "$riyu"
+
+      - name: 工程失敗Issueを起票
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: >-
+          gh issue create
+          --title "工程失敗: vol.${{ steps.seed.outputs.vol || '?' }} ($(TZ=Asia/Tokyo date +%F))"
+          --body "daily-issue ワークフローが失敗した。ログ: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+      - name: コミット&プッシュ(desk/は結果に関わらず残す)
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A desk editorial issues
+          if git diff --cached --quiet; then
+            echo "変更なし"
+          else
+            git commit -m "issue: $(TZ=Asia/Tokyo date +%F) vol.${{ steps.seed.outputs.vol || 'unknown' }}"
+            git push
+          fi
+
+  deploy:
+    needs: issue
+    if: needs.issue.outputs.hantei == '校了' || needs.issue.outputs.hantei == '責了'
+    permissions:
+      pages: write
+      id-token: write
+      contents: read
+    uses: ./.github/workflows/deploy-pages.yml
