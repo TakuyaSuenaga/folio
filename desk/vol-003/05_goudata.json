@@ -23,9 +23,10 @@
         {
           "label": "iTunesで見る",
           "url": "https://music.apple.com/jp/album/flamenco/1318182467",
-          "kind": "stream"
+          "sponsored": false
         }
       ]
     }
-  ]
+  ],
+  "decorated_at": "2026-07-20"
 }

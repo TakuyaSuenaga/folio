@@ -1,0 +1,288 @@
+{
+  "vol": 3,
+  "genres": [
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1538137544",
+          "title": "SINGALONG",
+          "creator": "緑黄色社会",
+          "year": 2020,
+          "publisher": "℗ 2020 Sony Music Labels Inc.",
+          "meta": {
+            "genre": "J-Pop",
+            "track_count": 13
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/singalong/1538137544?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "url_status": 200,
+            "ok": true,
+            "checked_at": "2026-07-20T13:51:58+00:00"
+          },
+          "researcher_note": "季節と政治が交差する音楽作品"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1666450367",
+          "title": "TURN IT UP (feat. Candee & Zot On the Wave) - Single",
+          "creator": "LANA",
+          "year": 2023,
+          "publisher": "℗ 2023 LANA MUSIC",
+          "meta": {
+            "genre": "ヒップホップ／ラップ",
+            "track_count": 1
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/turn-it-up-feat-candee-zot-on-the-wave-single/1666450367?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "url_status": 200,
+            "ok": true,
+            "checked_at": "2026-07-20T13:51:58+00:00"
+          },
+          "researcher_note": "季節と政治が交差する音楽作品"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "283000073",
+          "title": "B'z The Best “ULTRA Pleasure”",
+          "creator": "B'z",
+          "year": 2008,
+          "publisher": "℗ VERMILLION RECORDS",
+          "meta": {
+            "genre": "ロック",
+            "track_count": 30
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/bz-the-best-ultra-pleasure/283000073?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "url_status": 200,
+            "ok": true,
+            "checked_at": "2026-07-20T13:51:58+00:00"
+          },
+          "researcher_note": "季節と政治が交差する音楽作品"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1486753960",
+          "title": "HYPNOSISMIC Nagoya Division \"Bad Ass Temple Funky Sounds\"",
+          "creator": "ヒプノシスマイク -D.R.B- (Bad Ass Temple)",
+          "year": 2019,
+          "publisher": "℗ 2019 King Record Co.,Ltd.",
+          "meta": {
+            "genre": "アニメ",
+            "track_count": 5
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/hypnosismic-nagoya-division-bad-ass-temple-funky-sounds/1486753960?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "url_status": 200,
+            "ok": true,
+            "checked_at": "2026-07-20T13:51:58+00:00"
+          },
+          "researcher_note": "季節と政治が交差する音楽作品"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "365242894",
+          "title": "神曲たち",
+          "creator": "AKB48",
+          "year": 2010,
+          "publisher": "℗ 2010 King Record Co.,Ltd",
+          "meta": {
+            "genre": "J-Pop",
+            "track_count": 15
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/%E7%A5%9E%E6%9B%B2%E3%81%9F%E3%81%A1/365242894?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "url_status": 200,
+            "ok": true,
+            "checked_at": "2026-07-20T13:51:58+00:00"
+          },
+          "researcher_note": "季節と政治が交差する音楽作品"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "292067907",
+          "title": "B'z The Best “ULTRA Treasure”",
+          "creator": "B'z",
+          "year": 2008,
+          "publisher": "℗ VERMILLION RECORDS",
+          "meta": {
+            "genre": "ロック",
+            "track_count": 32
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/bz-the-best-ultra-treasure/292067907?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "url_status": 200,
+            "ok": true,
+            "checked_at": "2026-07-20T13:51:58+00:00"
+          },
+          "researcher_note": "季節と政治が交差する音楽作品"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1807963023",
+          "title": "NEW KAWAII",
+          "creator": "FRUITS ZIPPER",
+          "year": 2024,
+          "publisher": "℗ 2024 KAWAII LAB.",
+          "meta": {
+            "genre": "J-Pop",
+            "track_count": 16
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/new-kawaii/1807963023?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "url_status": 200,
+            "ok": true,
+            "checked_at": "2026-07-20T13:51:58+00:00"
+          },
+          "researcher_note": "季節と政治が交差する音楽作品"
+        },
+        {
+          "cand_id": "mus-08",
+          "source_api": "itunes",
+          "source_id": "1600252840",
+          "title": "PAINT - Single",
+          "creator": "I Don't Like Mondays.",
+          "year": 2022,
+          "publisher": "℗ 2022 AVEX ENTERTAINMENT INC.",
+          "meta": {
+            "genre": "J-Pop",
+            "track_count": 1
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/paint-single/1600252840?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "url_status": 200,
+            "ok": true,
+            "checked_at": "2026-07-20T13:51:58+00:00"
+          },
+          "researcher_note": "季節と政治が交差する音楽作品"
+        },
+        {
+          "cand_id": "mus-09",
+          "source_api": "itunes",
+          "source_id": "1537779548",
+          "title": "願い - Single",
+          "creator": "sumika",
+          "year": 2019,
+          "publisher": "℗ 2019 Sony Music Labels Inc.",
+          "meta": {
+            "genre": "J-Pop",
+            "track_count": 1
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/%E9%A1%98%E3%81%84-single/1537779548?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "url_status": 200,
+            "ok": true,
+            "checked_at": "2026-07-20T13:51:58+00:00"
+          },
+          "researcher_note": "季節と政治が交差する音楽作品"
+        },
+        {
+          "cand_id": "mus-10",
+          "source_api": "itunes",
+          "source_id": "1538274205",
+          "title": "ENCORE",
+          "creator": "清水 翔太",
+          "year": 2014,
+          "publisher": "℗ 2014 Sony Music Entertainment (Japan) Inc.",
+          "meta": {
+            "genre": "J-Pop",
+            "track_count": 11
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/encore/1538274205?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "url_status": 200,
+            "ok": true,
+            "checked_at": "2026-07-20T13:51:58+00:00"
+          },
+          "researcher_note": "季節と政治が交差する音楽作品"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": []
+    },
+    {
+      "genre": "photo",
+      "candidates": []
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "architecture: 異常気象対応の建築設計・都市計画",
+      "reason": "API からの有効な候補取得失敗（NDL Search 応答不安定）"
+    },
+    {
+      "hacchu": "photo: 小暑の日本の気象風景",
+      "reason": "API からの有効な候補取得失敗（NDL Search 応答不安定）"
+    }
+  ]
+}

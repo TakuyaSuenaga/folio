@@ -1,0 +1,34 @@
+{
+  "vol": 3,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://music.apple.com/jp/album/flamenco/1318182467",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": ".folio 左右両欄（ノンブル・柱）",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "folio — 優勝と別れ / 003 — 01",
+      "teisei": "folio —— 優勝と別れ / 003 —— 01（ダッシュは2倍「——」に統一）"
+    },
+    {
+      "id": "P-02",
+      "location": ".honbun 本文3文目",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "問い続けた巨匠だ。",
+      "teisei": "問い続けた巨匠である。（敬体を「である調」に統一）"
+    }
+  ]
+}

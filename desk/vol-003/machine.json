@@ -1,0 +1,24 @@
+{
+  "genko_match": true,
+  "genko_detail": {
+    "lead": true,
+    "items[0].essay": true
+  },
+  "links_ok": true,
+  "links_detail": {
+    "present": {
+      "https://music.apple.com/jp/album/flamenco/1318182467": true
+    },
+    "unknown_external": [],
+    "unsafe_schemes": []
+  },
+  "pr_labels_ok": true,
+  "html_ok": true,
+  "okuzuke_ok": true,
+  "url_status": [
+    {
+      "url": "https://music.apple.com/jp/album/flamenco/1318182467",
+      "status": 200
+    }
+  ]
+}

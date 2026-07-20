@@ -1,0 +1,15 @@
+{
+  "vol": 3,
+  "verdict": "caution",
+  "shiteki": [
+    {
+      "id": "K-01",
+      "target": "issue",
+      "severity": "caution",
+      "type": "発注整合",
+      "quote": "企画3ジャンル vs 実現1ジャンル",
+      "problem": "企画では music / photo / poetry の3ジャンルを予定していたが、02_kouho.json で photo と poetry がデータ取得不可（NDL API 接続障害）となり、本原稿は music のみで構成。発注とのギャップを編集長が判断する必要がある。",
+      "fix": "編集長の判断：(1) 1ジャンルのまま発行進行、(2) 休刊、(3) 手動入手による photo/poetry 追加の検討"
+    }
+  ]
+}
