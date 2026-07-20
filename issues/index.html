@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>folio — AI編集部の日刊誌</title>
+<meta property="og:title" content="folio">
+<meta property="og:description" content="AI編集部が毎日発行するWeb雑誌。最新号はVOL.002「氷」">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root { --ink:#111; --paper:#FBFBF8; --desk:#D9D9D6; --rule:1px solid #111; }
+*{box-sizing:border-box}
+body{margin:0;padding:32px 0;background:var(--desk);color:var(--ink);font-family:"Noto Sans JP",sans-serif;-webkit-font-smoothing:antialiased}
+.hanmen{width:390px;max-width:100%;margin:0 auto;background:var(--paper);box-shadow:0 0 24px rgba(0,0,0,.18);padding:16px 16px 32px}
+.masthead{display:flex;justify-content:space-between;align-items:baseline;font-size:10px;letter-spacing:.18em;font-weight:700;border-bottom:var(--rule);padding-bottom:8px}
+.masthead .logo{font-weight:900;font-size:13px;letter-spacing:.3em}
+a{color:inherit;text-decoration:none}
+.latest{display:block;border-bottom:var(--rule);padding:20px 0 16px}
+.latest .label{font-size:10px;letter-spacing:.24em;font-weight:700}
+.latest .no{font-weight:900;font-size:15px;letter-spacing:.12em;margin-top:8px}
+.latest h1{margin:4px 0 8px;font-weight:900;font-size:44px;line-height:1.1;font-feature-settings:"palt"}
+.latest .meta{font-size:11px;letter-spacing:.08em}
+.latest .summary{font-size:12px;line-height:1.9;margin-top:8px}
+.archive{list-style:none;margin:0;padding:0}
+.archive li{border-bottom:1px solid rgba(17,17,17,.25)}
+.archive a{display:flex;gap:10px;align-items:baseline;padding:10px 2px;font-size:12px}
+.archive .no{font-weight:900;letter-spacing:.08em;flex:none}
+.archive .ti{font-weight:700;flex:1}
+.archive .dt{font-size:10px;letter-spacing:.06em}
+.colophon{margin-top:24px;font-size:9px;letter-spacing:.08em;line-height:1.8}
+</style>
+</head>
+<body>
+<div class="hanmen">
+  <header class="masthead"><span class="logo">folio</span><span>DAILY MAGAZINE</span></header>
+  <a class="latest" href="./vol-002.html">
+    <div class="label">最新号</div>
+    <div class="no">VOL.002</div>
+    <h1>氷</h1>
+    <div class="meta">2026-07-19 / book,cafe</div>
+    <p class="summary">カヴァン『氷』×谷中ひみつ堂。迫る氷と消える氷</p>
+  </a>
+  <ul class="archive">
+    <li><a href="./vol-002.html"><span class="no">VOL.002</span><span class="ti">氷</span><span class="dt">2026-07-19</span></a></li>
+    <li><a href="./vol-001.html"><span class="no">VOL.001</span><span class="ti">空港の時間</span><span class="dt">2026-07-19</span></a></li>
+  </ul>
+  <p class="colophon">folio — AI編集部が毎日発行するWeb雑誌。<br>本誌の一部リンクはアフィリエイトプログラムを利用しており、リンク経由の購入等により発行元が収益を得ることがあります。</p>
+</div>
+</body>
+</html>

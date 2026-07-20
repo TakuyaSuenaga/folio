@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!-- AD NOTE vol.001
+特集: 空港の時間 / 特色: #F2C400(誘導路サインの黄)。輝度が高いため文字には使わず、面(帯・肩ラベル)のみに使用
+扉: 白地に黄帯、数字「001」を右裁ち落とし、特集タイトル横組み特大 / 本文: 2段+段間罫 / 反転: なし / アクセント書体: なし
+前号: 初号のため比較なし / 誌名「SPREAD」は仮
+-->
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VOL.001 空港の時間 — SPREAD</title>
+<meta property="og:title" content="VOL.001 空港の時間">
+<meta property="og:description" content="空港は目的地ではない。誰もが通過し、誰もが待たされるためだけの場所である。その宙吊りの時間を、音楽家は作曲し、映画作家は喜劇に変え、建築家は一・七キロメートルの屋根で覆った。">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --spot: #F2C400;
+  --ink: #111;
+  --paper: #FBFBF8;
+  --desk: #D9D9D6;
+  --rule: 1px solid var(--ink);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 32px 0;
+  background: var(--desk); color: var(--ink);
+  font-family: "Noto Sans JP", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.hanmen {
+  width: 390px; max-width: 100%; margin: 0 auto;
+  background: var(--paper);
+  box-shadow: 0 0 24px rgba(0,0,0,.18);
+  overflow: hidden;
+}
+a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+
+/* ---- 扉 ---- */
+.band { height: 14px; background: var(--spot); border-bottom: var(--rule); }
+.tobira-in { padding: 12px 16px 26px; }
+.masthead {
+  display: flex; justify-content: space-between; align-items: baseline;
+  font-size: 10px; letter-spacing: .18em; font-weight: 700;
+  border-bottom: var(--rule); padding-bottom: 8px;
+}
+.masthead .logo { font-weight: 900; font-size: 13px; letter-spacing: .3em; }
+.vol-label {
+  margin-top: 18px; text-align: right;
+  font-size: 12px; font-weight: 700; letter-spacing: .3em;
+}
+.vol {
+  font-weight: 900; font-feature-settings: "palt";
+  font-size: 148px; line-height: .82; letter-spacing: -.06em;
+  text-align: right; margin-right: -18px; /* 右裁ち落とし */
+}
+.tokushu-tag {
+  display: inline-block; margin-top: 22px;
+  border: var(--rule); padding: 2px 8px;
+  font-size: 10px; letter-spacing: .3em; font-weight: 700;
+}
+.h-feature {
+  margin: 8px 0 0;
+  font-weight: 900; font-feature-settings: "palt";
+  font-size: 64px; line-height: 1.08; letter-spacing: -.04em;
+}
+.tobira-date { margin-top: 14px; font-size: 10px; letter-spacing: .18em; }
+
+/* ---- リード(縦組み) ---- */
+.lead-wrap {
+  border-top: var(--rule);
+  padding: 26px 16px 30px;
+  display: flex; justify-content: flex-end;
+}
+.lead-v {
+  writing-mode: vertical-rl;
+  height: 264px; font-size: 13px; line-height: 2.15;
+  letter-spacing: .06em; text-align: justify;
+}
+
+/* ---- 記事 ---- */
+.kiji { border-top: 3px solid var(--ink); }
+.kiji-in { padding: 18px 16px 20px; }
+.kata {
+  display: inline-block; background: var(--spot);
+  padding: 3px 10px; font-size: 10px; font-weight: 700;
+  letter-spacing: .22em; border: var(--rule);
+}
+.kiji-title {
+  margin: 12px 0 2px;
+  font-weight: 900; font-feature-settings: "palt";
+  font-size: 26px; line-height: 1.22; letter-spacing: -.03em;
+}
+.kiji-creator { font-size: 11px; letter-spacing: .08em; margin-bottom: 14px; }
+.honbun { font-size: 12px; line-height: 2; text-align: justify; }
+.cols-2 { column-count: 2; column-gap: 14px; column-rule: 1px solid var(--ink); }
+.honbun p { margin: 0; text-indent: 1em; }
+
+/* ---- DATA欄 ---- */
+.data { width: 100%; border-collapse: collapse; font-size: 10px; margin-top: 18px; }
+.data th, .data td {
+  border: var(--rule); padding: 4px 6px;
+  text-align: left; font-weight: 400; line-height: 1.7;
+}
+.data th { width: 5em; font-weight: 700; letter-spacing: .08em; }
+
+/* ---- ノンブル・柱 ---- */
+.folio {
+  display: flex; justify-content: space-between;
+  font-size: 9px; letter-spacing: .12em;
+  border-top: var(--rule); padding: 6px 12px;
+}
+
+/* ---- 奥付 ---- */
+.okuzuke {
+  border-top: 7px double var(--ink);
+  padding: 16px 16px 22px;
+  font-size: 9.5px; line-height: 1.9; letter-spacing: .04em;
+}
+.okuzuke p { margin: 0 0 6px; }
+.okuzuke .credit { font-weight: 700; letter-spacing: .1em; }
+</style>
+</head>
+<body>
+<div class="hanmen">
+
+  <header>
+    <div class="band"></div>
+    <div class="tobira-in">
+      <div class="masthead"><span class="logo">SPREAD</span><span>2026.07.19 — DAILY</span></div>
+      <div class="vol-label">VOL.</div>
+      <div class="vol">001</div>
+      <div class="tokushu-tag">特集</div>
+      <h1 class="h-feature">空港の時間</h1>
+      <div class="tobira-date">MUSIC ／ FILM ／ ARCHITECTURE</div>
+    </div>
+  </header>
+
+  <section class="lead-wrap">
+    <p class="lead-v" style="margin:0">空港は目的地ではない。誰もが通過し、誰もが待たされるためだけの場所である。その宙吊りの時間を、音楽家は作曲し、映画作家は喜劇に変え、建築家は一・七キロメートルの屋根で覆った。一九七八年、一九六七年、一九九四年。三つの空港の時間を、同じ紙面に並べる。</p>
+  </section>
+
+  <article class="kiji">
+    <div class="kiji-in">
+      <span class="kata">MUSIC</span>
+      <h2 class="kiji-title">Ambient 1: Music for Airports</h2>
+      <div class="kiji-creator">ブライアン・イーノ</div>
+      <div class="honbun cols-2"><p>一九七〇年代半ば、ブライアン・イーノはケルンの空港で長時間の待機を強いられ、そこに流れる音の貧しさに苛立った。この逸話から生まれたのが『Ambient 1: Music for Airports』である。彼はライナーノーツで、環境音楽とは聴き流すことも聴き込むこともできる音でなければならない、という趣旨の定義を書きつけた。BGMのように意識を奪わず、しかし耳を傾ければ細部が立ち上がる。テープループの位相が少しずつずれ、ピアノと声が二度と同じ形では重ならない。それは出発時刻を待つ身体のための、終わりも頂点も持たない音楽だった。系譜をたどればサティの「家具の音楽」に遡り、下れば八〇年代日本の環境音楽——吉村弘らの仕事——へ流れ込む。空港という、誰のものでもない時間のための設計。アンビエントの原点は、移動の合間の宙吊りにある。</p></div>
+      <table class="data">
+        <tr><th>題名</th><td>Ambient 1: Music for Airports</td></tr>
+        <tr><th>作者</th><td>ブライアン・イーノ</td></tr>
+        <tr><th>年</th><td>1978</td></tr>
+        <tr><th>版元</th><td>EG / Polydor</td></tr>
+        <tr><th>形式</th><td>LP・CD・配信</td></tr>
+        <tr><th>入手</th><td><a href="https://example.com/rakuten/ambient-1" rel="sponsored noopener">楽天で購入 [PR]</a><br><a href="https://example.com/spotify/ambient-1" rel="noopener">Spotifyで聴く</a></td></tr>
+      </table>
+    </div>
+    <div class="folio"><span>SPREAD — 空港の時間</span><span>001 — 01</span></div>
+  </article>
+
+  <article class="kiji">
+    <div class="kiji-in">
+      <span class="kata">FILM</span>
+      <h2 class="kiji-title">プレイタイム</h2>
+      <div class="kiji-creator">ジャック・タチ</div>
+      <div class="honbun cols-2"><p>ジャック・タチは『プレイタイム』のために、パリ郊外に丸ごとひとつの都市を建てた。ガラスと鉄骨のオフィス街「タチヴィル」。製作費は膨れ上がり、タチは私財を投じ、この映画で経済的に破綻する。カメラは寄らない。七〇ミリの巨大な画面のなか、遠景に置かれた無数の人物のどこで笑いが起きるか、観客が自分で探すしかない。物語は空港の待合から始まる。磨き上げられた床、揃いの制服、反射するガラス。どこの国とも知れない均質な空間を、ユロ氏と観光客たちはただ迷い続ける。タチが一九六七年に築いた笑いは、その後に世界中へ増殖する「どこでもない場所」——空港、ロビー、ショッピングモール——の予言だった。モダニズム建築への批評として、これほど可笑しく、これほど精密な映画はいまだにない。</p></div>
+      <table class="data">
+        <tr><th>題名</th><td>プレイタイム</td></tr>
+        <tr><th>監督</th><td>ジャック・タチ</td></tr>
+        <tr><th>年</th><td>1967</td></tr>
+        <tr><th>撮影</th><td>70mm</td></tr>
+        <tr><th>入手</th><td><a href="https://example.com/unext/playtime" rel="sponsored noopener">U-NEXTで視聴 [PR]</a></td></tr>
+      </table>
+    </div>
+    <div class="folio"><span>SPREAD — 空港の時間</span><span>001 — 02</span></div>
+  </article>
+
+  <article class="kiji">
+    <div class="kiji-in">
+      <span class="kata">ARCHITECTURE</span>
+      <h2 class="kiji-title">関西国際空港 旅客ターミナルビル</h2>
+      <div class="kiji-creator">レンゾ・ピアノ・ビルディング・ワークショップ</div>
+      <div class="honbun cols-2"><p>一九九四年、大阪湾の沖合五キロに造られた人工島に、関西国際空港が開港した。設計競技を制したのはレンゾ・ピアノ。全長およそ一・七キロメートルの旅客ターミナルは、竣工時、世界でもっとも長い建築のひとつだった。緩やかに反る大屋根の断面は、空調の気流がそのまま天井を渡っていくよう、空気の流れから導かれた曲線である。構造と設備を隠さず見せる手つきは、ポンピドゥー・センター以来のピアノの系譜にある。そしてこの建築は、沈み続ける地盤の上で今も静かに闘っている。空港とは、出発を待つ数万人の時間を一枚の屋根の下に収める装置である。ピアノはその「待つこと」を、土木のスケールで建築にした。翼のような屋根の下で搭乗を待つとき、私たちはこの建物の主題そのものを生きている。</p></div>
+      <table class="data">
+        <tr><th>題名</th><td>関西国際空港 旅客ターミナルビル</td></tr>
+        <tr><th>設計</th><td>レンゾ・ピアノ・ビルディング・ワークショップ</td></tr>
+        <tr><th>竣工</th><td>1994</td></tr>
+        <tr><th>所在地</th><td>大阪府泉佐野市</td></tr>
+      </table>
+    </div>
+    <div class="folio"><span>SPREAD — 空港の時間</span><span>001 — 03</span></div>
+  </article>
+
+  <footer class="okuzuke">
+    <p>本誌の一部リンクはアフィリエイトプログラムを利用しており、リンク経由の購入等により発行元が収益を得ることがあります。</p>
+    <p>本号は試し刷である。入手リンクはすべてダミー。</p>
+    <p class="credit">SPREAD ／ VOL.001 空港の時間 ／ 発行日 2026.07.19 ／ 発行 合同会社noroa</p>
+  </footer>
+
+</div>
+</body>
+</html>
