@@ -72,6 +72,55 @@ def test_publish_unknown_hantei_exits(tmp_path):
         publish.publish(root, 2)
 
 
+def test_publish_malformed_daicho_line_exits_and_writes_nothing(tmp_path):
+    # Arrange: DAICHO_LINE_REにマッチしない不正形式のdaicho_line
+    root = make_repo(tmp_path)
+    kouryou_path = root / "desk" / "vol-002" / "07_kouryou.json"
+    kouryou = json.loads(kouryou_path.read_text(encoding="utf-8"))
+    kouryou["daicho_line"] = "これは台帳行の形式ではない"
+    kouryou_path.write_text(json.dumps(kouryou, ensure_ascii=False), encoding="utf-8")
+
+    # Act & Assert
+    with pytest.raises(SystemExit):
+        publish.publish(root, 2)
+
+    # Assert: 号ページも台帳も書き換わらない
+    assert not (root / "issues" / "vol-002.html").exists()
+    assert "vol.002" not in (root / "editorial" / "daicho.md").read_text(encoding="utf-8")
+
+
+def test_publish_daicho_line_vol_mismatch_exits_and_writes_nothing(tmp_path):
+    # Arrange: daicho_line内のvol番号(003)が引数vol(2)と食い違う
+    root = make_repo(tmp_path)
+    kouryou_path = root / "desk" / "vol-002" / "07_kouryou.json"
+    kouryou = json.loads(kouryou_path.read_text(encoding="utf-8"))
+    kouryou["daicho_line"] = kouryou["daicho_line"].replace("vol.002", "vol.003")
+    kouryou_path.write_text(json.dumps(kouryou, ensure_ascii=False), encoding="utf-8")
+
+    # Act & Assert
+    with pytest.raises(SystemExit):
+        publish.publish(root, 2)
+
+    assert not (root / "issues" / "vol-002.html").exists()
+    assert "vol.002" not in (root / "editorial" / "daicho.md").read_text(encoding="utf-8")
+
+
+def test_publish_kouryou_vol_field_mismatch_exits_and_writes_nothing(tmp_path):
+    # Arrange: 07_kouryou.json自体のvolフィールドが引数volと食い違う
+    root = make_repo(tmp_path)
+    kouryou_path = root / "desk" / "vol-002" / "07_kouryou.json"
+    kouryou = json.loads(kouryou_path.read_text(encoding="utf-8"))
+    kouryou["vol"] = 3
+    kouryou_path.write_text(json.dumps(kouryou, ensure_ascii=False), encoding="utf-8")
+
+    # Act & Assert
+    with pytest.raises(SystemExit):
+        publish.publish(root, 2)
+
+    assert not (root / "issues" / "vol-002.html").exists()
+    assert "vol.002" not in (root / "editorial" / "daicho.md").read_text(encoding="utf-8")
+
+
 def test_update_moushiokuri_appends_and_trims():
     text = "# 申し送り\n"
     for i in range(20):
@@ -87,6 +136,18 @@ def test_update_moushiokuri_splits_nakaguro_bullets():
     out = publish.update_moushiokuri("# 申し送り\n", "2026-07-19", 2, "・一つ目 ・二つ目")
     assert "- 一つ目" in out
     assert "- 二つ目" in out
+
+
+def test_update_moushiokuri_keeps_proper_noun_nakaguro_intact():
+    # Arrange: 固有名詞中の中黒(空白を伴わない)は分割対象ではない
+    message = "アンナ・カヴァンの新刊情報 ・氷菓子の記事も追加"
+
+    # Act
+    out = publish.update_moushiokuri("# 申し送り\n", "2026-07-19", 2, message)
+
+    # Assert: 「アンナ・カヴァン」は分断されず、箇条書き区切りだけ分割される
+    assert "- アンナ・カヴァンの新刊情報" in out
+    assert "- 氷菓子の記事も追加" in out
 
 
 def test_render_index_escapes_html():

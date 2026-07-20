@@ -192,8 +192,38 @@ jobs:
           --title "工程失敗: vol.${{ steps.seed.outputs.vol || '?' }} ($(TZ=Asia/Tokyo date +%F))"
           --body "daily-issue ワークフローが失敗した。ログ: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
 
-      - name: コミット&プッシュ(desk/は結果に関わらず残す)
+      - name: Secretsスキャン(desk/editorial/issues にキーが混入していないか検査)
+        id: secrets_scan
         if: always()
+        env:
+          RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
+        run: |
+          set -u
+          leaked=0
+          for name in RAKUTEN_APP_ID SPOTIFY_CLIENT_ID SPOTIFY_CLIENT_SECRET TMDB_API_KEY GOOGLE_PLACES_API_KEY; do
+            value="${!name}"
+            if [ -z "$value" ]; then
+              continue   # 空のSecretはスキップ
+            fi
+            hits=$(grep -rlF -- "$value" desk editorial issues 2>/dev/null || true)
+            if [ -n "$hits" ]; then
+              echo "[error] Secret ${name} が以下のファイルに含まれている(値はログに出さない):"
+              echo "$hits"
+              leaked=1
+            fi
+          done
+          if [ "$leaked" -ne 0 ]; then
+            echo "[error] Secretsスキャンで漏洩を検出。コミット&プッシュを中止する"
+            exit 1
+          fi
+          echo "[ok] Secretsスキャン: 漏洩なし"
+
+      - name: コミット&プッシュ(desk/は結果に関わらず残す)
+        if: always() && steps.secrets_scan.outcome != 'failure'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

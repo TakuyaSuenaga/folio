@@ -120,7 +120,12 @@ def render_index(entries: list[dict]) -> str:
 
 
 def update_moushiokuri(text: str, date_str: str, vol: int, message: str) -> str:
-    parts = [p.strip() for p in re.split(r"[・\n]+", message) if p.strip()]
+    raw_parts = re.split(r"\n+|[ 　]+・", message)
+    parts = []
+    for p in raw_parts:
+        p = p.strip().lstrip("・").strip()
+        if p:
+            parts.append(p)
     body = "\n".join(f"- {p}" for p in parts)
     new_entry = f"## {date_str} (vol.{vol:03d} 校了時)\n{body}"
     chunks = re.split(r"\n(?=## )", text.strip())
@@ -147,6 +152,10 @@ def publish(root: Path, vol: int) -> int:
     if missing:
         raise SystemExit(f"[error] 07_kouryou.json に必須キーが無い: {missing}")
 
+    if kouryou["vol"] != vol:
+        raise SystemExit(
+            f"[error] 07_kouryou.json の vol({kouryou['vol']}) が引数vol({vol})と不一致")
+
     hantei = kouryou["hantei"]
     if hantei == "休刊":
         print(f"[kyukan] vol.{vol:03d}: {kouryou.get('riyu', '(理由未記載)')}",
@@ -154,6 +163,14 @@ def publish(root: Path, vol: int) -> int:
         return EXIT_KYUKAN
     if hantei not in ("校了", "責了"):
         raise SystemExit(f"[error] 不明なhantei: {hantei}")
+
+    daicho_line = kouryou["daicho_line"].strip()
+    daicho_match = DAICHO_LINE_RE.match(daicho_line)
+    if not daicho_match:
+        raise SystemExit(f"[error] daicho_line の形式が不正: {daicho_line!r}")
+    if int(daicho_match.group(1)) != vol:
+        raise SystemExit(
+            f"[error] daicho_line のvol({daicho_match.group(1)}) が引数vol({vol})と不一致")
 
     gera = desk / "gera.html"
     if not gera.exists():
@@ -167,10 +184,10 @@ def publish(root: Path, vol: int) -> int:
     text = daicho_path.read_text(encoding="utf-8")
     if not text.endswith("\n"):
         text += "\n"
-    text += kouryou["daicho_line"].strip() + "\n"
+    text += daicho_line + "\n"
     daicho_path.write_text(text, encoding="utf-8")
 
-    m = DATE_RE.search(kouryou["daicho_line"])
+    m = DATE_RE.search(daicho_line)
     date_str = m.group(1) if m else datetime.now(JST).date().isoformat()
     moushiokuri_path = root / "editorial" / "moushiokuri.md"
     existing = (moushiokuri_path.read_text(encoding="utf-8")
