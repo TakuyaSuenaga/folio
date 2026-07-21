@@ -2,128 +2,389 @@
   "vol": 4,
   "genres": [
     {
-      "genre": "music",
+      "genre": "book",
       "candidates": [
         {
-          "cand_id": "mus-01",
-          "source_api": "itunes",
-          "source_id": "1440782229",
-          "title": "DON'T MESS UP MY TEMPO – The 5th Album",
-          "creator": "EXO",
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784480094889",
+          "title": "江戸奇談怪談集",
+          "creator": "須永朝彦 編訳",
+          "year": 2012,
+          "publisher": "筑摩書房",
+          "meta": { "series": "ちくま学芸文庫 ; ス14-1" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024034204", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T01:43:05+00:00" },
+          "researcher_note": "国書刊行会版『奇談』『怪談』を再編集した江戸怪談アンソロジー。発注の「江戸期の怪談集」に直接合致する"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784642306270",
+          "title": "大江戸怪談事情 : 『耳嚢』の怪異をひもとく",
+          "creator": "堤邦彦",
+          "year": 2026,
+          "publisher": "吉川弘文館",
+          "meta": { "series": "歴史文化ライブラリー ; 627" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034459417", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T01:43:05+00:00" },
+          "researcher_note": "根岸鎮衛『耳嚢』の怪異譚を近年の研究で読み解いた一冊。江戸怪談随筆そのものへの導入として発注に合う"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003022030",
+          "title": "雨月物語",
+          "creator": "上田秋成 著 / 長島弘明 校注",
           "year": 2018,
-          "publisher": "SM Entertainment",
-          "meta": {
-            "trackCount": 12,
-            "collectionExplicitness": "notExplicit",
-            "primaryGenreName": "K-Pop"
-          },
+          "publisher": "岩波書店",
+          "meta": { "series": "岩波文庫" },
           "links": [
-            {
-              "label": "Apple Musicで聴く",
-              "url": "https://music.apple.com/jp/album/dont-mess-up-my-tempo-the-5th-album/1440782229",
-              "kind": "stream"
-            }
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028791559", "kind": "detail" }
           ],
-          "verify": {
-            "id_confirmed": true,
-            "url_status": 200,
-            "checked_at": "2026-07-21T01:14:59+00:00"
-          },
-          "researcher_note": "テンポという言葉をタイトルに掲げたK-popアルバム。速さが音のテーマとなっている"
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T01:43:05+00:00" },
+          "researcher_note": "江戸期の怪異小説の代表作。怪談文学の源流として発注に合う"
         },
         {
-          "cand_id": "mus-02",
-          "source_api": "itunes",
-          "source_id": "1444300284",
-          "title": "The Fast and the Furious: Tokyo Drift - Single",
-          "creator": "TERIYAKI BOYZ",
-          "year": 2006,
-          "publisher": "Universal Records",
-          "meta": {
-            "trackCount": 1,
-            "collectionExplicitness": "notExplicit",
-            "primaryGenreName": "ヒップホップ/ラップ"
-          },
+          "cand_id": "book-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784000073455",
+          "title": "怪談 : 不思議なことの物語と研究",
+          "creator": "Lafcadio Hearn(小泉八雲) 著 / 平井呈一 訳",
+          "year": 2011,
+          "publisher": "岩波書店",
+          "meta": { "series": "ワイド版岩波文庫" },
           "links": [
-            {
-              "label": "Apple Musicで聴く",
-              "url": "https://music.apple.com/jp/album/the-fast-and-the-furious-tokyo-drift-single/1444300284",
-              "kind": "stream"
-            }
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I023246690", "kind": "detail" }
           ],
-          "verify": {
-            "id_confirmed": true,
-            "url_status": 200,
-            "checked_at": "2026-07-21T01:14:59+00:00"
-          },
-          "researcher_note": "「ファスト・アンド・ファリアス」のサウンドトラック。車とスピードを直接的に扱う作品"
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T01:43:05+00:00" },
+          "researcher_note": "近代怪談随筆の代表作『怪談』そのもの。発注文の「近代の怪談随筆」に直接合致する"
         },
         {
-          "cand_id": "mus-03",
-          "source_api": "itunes",
-          "source_id": "1566220568",
-          "title": "Fast (Motion) - Single",
-          "creator": "Saweetie",
-          "year": 2021,
-          "publisher": "ICY/Warner Records Inc.",
-          "meta": {
-            "trackCount": 1,
-            "collectionExplicitness": "cleaned",
-            "contentAdvisoryRating": "Clean",
-            "primaryGenreName": "ヒップホップ/ラップ"
-          },
+          "cand_id": "book-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784336035271",
+          "title": "百物語怪談集成 続",
+          "creator": "太刀川清",
+          "year": 1993,
+          "publisher": "国書刊行会",
+          "meta": { "series": "叢書江戸文庫 ; 27" },
           "links": [
-            {
-              "label": "Apple Musicで聴く",
-              "url": "https://music.apple.com/jp/album/fast-motion-single/1566220568",
-              "kind": "stream"
-            }
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002293672", "kind": "detail" }
           ],
-          "verify": {
-            "id_confirmed": true,
-            "url_status": 200,
-            "checked_at": "2026-07-21T01:14:59+00:00"
-          },
-          "researcher_note": "タイトルで直接的に『速さと運動』を扱うヒップホップシングル"
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T01:43:05+00:00" },
+          "researcher_note": "江戸期の百物語怪談本を集成した校訂本。怪談集そのものの一次資料として発注に合う"
         },
         {
-          "cand_id": "mus-04",
-          "source_api": "itunes",
-          "source_id": "1479359131",
-          "title": "Fast - Single",
-          "creator": "CHUNG HA & Mommy Son",
-          "year": 2019,
-          "publisher": "Kakao Entertainment",
+          "cand_id": "book-06",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003025734",
+          "title": "江戸怪談集 下",
+          "creator": "高田衛 編",
+          "year": 1989,
+          "publisher": "岩波書店",
+          "meta": { "series": "岩波文庫" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000001993872", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T01:43:05+00:00" },
+          "researcher_note": "江戸期の怪談集を編纂した文庫版アンソロジー。発注文の「江戸期の怪談集」にそのまま合致する"
+        },
+        {
+          "cand_id": "book-07",
+          "source_api": "ndl+openbd",
+          "source_id": "9784309028965",
+          "title": "怪談「諸国百物語」 : 現代語訳",
+          "creator": "志村有弘",
+          "year": 2020,
+          "publisher": "河出書房新社",
+          "meta": {},
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030444340", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T01:43:05+00:00" },
+          "researcher_note": "江戸初期の怪談集『諸国百物語』の現代語訳。読みやすさの観点で発注に合う候補"
+        },
+        {
+          "cand_id": "book-08",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003021316",
+          "title": "東海道四谷怪談",
+          "creator": "鶴屋南北",
+          "year": 1956,
+          "publisher": "岩波書店",
+          "meta": { "series": "岩波文庫" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I23111100046573", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T01:43:05+00:00" },
+          "researcher_note": "江戸怪談歌舞伎の代表作。夏の怪談興行の定番として発注に合う"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJA8WJaJwIAWARDt-FtDT-s44",
+          "title": "杉本家住宅",
+          "creator": null,
+          "year": null,
+          "publisher": null,
           "meta": {
-            "trackCount": 2,
-            "collectionExplicitness": "notExplicit",
-            "primaryGenreName": "K-Pop"
+            "formatted_address": "京都府京都市下京区矢田町116",
+            "types": ["historical_landmark", "tourist_attraction", "historical_place", "point_of_interest", "establishment"],
+            "rating": 4.2,
+            "business_status": "OPERATIONAL"
           },
           "links": [
-            {
-              "label": "Apple Musicで聴く",
-              "url": "https://music.apple.com/jp/album/fast-single/1479359131",
-              "kind": "stream"
-            }
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10282841876537401102", "kind": "map" },
+            { "label": "公式サイト", "url": "https://www.sugimotoke.or.jp/", "kind": "official" }
           ],
-          "verify": {
-            "id_confirmed": true,
-            "url_status": 200,
-            "checked_at": "2026-07-21T01:14:59+00:00"
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T01:44:17+00:00" },
+          "researcher_note": "重要文化財指定の京町家。通り庭形式の大規模町家として発注文の「通り庭」に合致する"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJN3DECAAJAWARoFiYQw4wG0g",
+          "title": "杉本氏庭園",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "京都府京都市下京区新釜座町734",
+            "types": ["garden", "point_of_interest", "establishment"],
+            "business_status": "OPERATIONAL"
           },
-          "researcher_note": "テンポの速さを直接的にタイトルテーマにしたK-pop協業作品"
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5195799432923732128", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T01:44:17+00:00" },
+          "researcher_note": "国指定名勝。杉本家住宅に付属する坪庭にあたる庭園で、発注文の「坪庭」に合致する"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJJ_mBQ94HAWARtvhhCwUz4aI",
+          "title": "西陣くらしの美術館 冨田屋",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "京都府京都市上京区石薬師町697",
+            "types": ["tourist_attraction", "point_of_interest", "establishment"],
+            "rating": 4.3,
+            "business_status": "OPERATIONAL"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11736718200663046326", "kind": "map" },
+            { "label": "公式サイト", "url": "https://tondaya.co.jp/", "kind": "official" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T01:44:17+00:00" },
+          "researcher_note": "西陣の京町家を公開する施設。坪庭を持つ町家建築として発注文に合う"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJZ6YCvkIIAWARmGwJaHsXx8M",
+          "title": "旧三井家下鴨別邸",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "京都府京都市左京区下鴨宮河町58-2",
+            "types": ["cultural_landmark", "historical_landmark", "garden", "historical_place", "museum", "point_of_interest", "establishment"],
+            "rating": 4.1,
+            "business_status": "OPERATIONAL"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14107270176555232408", "kind": "map" },
+            { "label": "京都市観光協会の紹介ページ", "url": "https://ja.kyoto.travel/tourism/article/mitsuike/", "kind": "official" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T01:44:17+00:00" },
+          "researcher_note": "重要文化財指定の邸宅。庭園を取り込んだ数寄屋建築として発注文の「涼を設計に組み込んだ」実例に合う"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJpwBpv50IAWAR_M_5oVr2yYY",
+          "title": "秦家住宅",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "京都府京都市下京区太子山町 仏光寺下ル 太子山町594番地",
+            "types": ["historical_landmark", "historical_place", "point_of_interest", "establishment"],
+            "rating": 4.2,
+            "business_status": "OPERATIONAL"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9712564940526178300", "kind": "map" },
+            { "label": "公式サイト", "url": "http://www.hata-ke.jp/", "kind": "official" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T01:44:17+00:00" },
+          "researcher_note": "京都市指定有形文化財の京町家。坪庭を持つ商家建築として発注文に合う"
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJNcjekCMFAWARhCq66e9hqaw",
+          "title": "京町家 まち美術館",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "京都府京都市南区上鳥羽鍋ケ淵町532",
+            "types": ["art_museum", "museum", "point_of_interest", "establishment"],
+            "rating": 3.0,
+            "business_status": "OPERATIONAL"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12441583128634075780", "kind": "map" },
+            { "label": "公式サイト", "url": "https://machi-museum.com/", "kind": "official" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T01:44:17+00:00" },
+          "researcher_note": "移築復元された京町家を公開する美術館。坪庭を含む町家構造の実例として発注文に合う"
+        }
+      ]
+    },
+    {
+      "genre": "cafe",
+      "candidates": [
+        {
+          "cand_id": "cafe-01",
+          "source_api": "google_places",
+          "source_id": "ChIJ2-df4NONGGARslLOZGRmWZ8",
+          "title": "ひみつ堂",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "東京都台東区谷中3丁目11-18",
+            "types": ["dessert_restaurant", "cafe", "restaurant", "point_of_interest", "food", "establishment"],
+            "rating": 3.7,
+            "business_status": "OPERATIONAL"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11482321306331796146", "kind": "map" },
+            { "label": "公式サイト", "url": "http://himitsudo.com/", "kind": "official" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T01:45:13+00:00" },
+          "researcher_note": "谷中の天然氷かき氷専門店。行列必至の代表格として発注文の「かき氷を体感として提供する実店舗」に合う"
+        },
+        {
+          "cand_id": "cafe-02",
+          "source_api": "google_places",
+          "source_id": "ChIJvWxfBENOGGARrxWVUr-HPTM",
+          "title": "埜庵",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "神奈川県藤沢市鵠沼海岸3丁目5-11",
+            "types": ["cafe", "food", "point_of_interest", "establishment"],
+            "rating": 4.4,
+            "business_status": "OPERATIONAL"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3692256525307680175", "kind": "map" },
+            { "label": "公式サイト", "url": "https://kohori-noan.com/", "kind": "official" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T01:45:13+00:00" },
+          "researcher_note": "天然氷かき氷ブームの草分けとされる名店。発注文に合う"
+        },
+        {
+          "cand_id": "cafe-03",
+          "source_api": "google_places",
+          "source_id": "ChIJoSsu9p6OGGARkMMvEf8kUHQ",
+          "title": "上野かき氷専門店 四代目大野屋氷室",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "東京都台東区上野6丁目14-1 ヒダリキキ 1F",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "rating": 4.2,
+            "business_status": "OPERATIONAL"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8381239584460096400", "kind": "map" },
+            { "label": "公式サイト", "url": "https://www.yondaimeoonoya.com/", "kind": "official" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T01:45:13+00:00" },
+          "researcher_note": "氷室の屋号を継ぐ老舗のかき氷専門店。発注文に合う"
+        },
+        {
+          "cand_id": "cafe-04",
+          "source_api": "google_places",
+          "source_id": "ChIJPfVqLnvzGGARn4kbAa2CbOo",
+          "title": "天然氷のかき氷 天ノ屋 下北沢本店",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "東京都世田谷区北沢2丁目36-14 ガーデンテラス下北沢 1F",
+            "types": ["dessert_restaurant", "restaurant", "point_of_interest", "food", "establishment"],
+            "rating": 4.1,
+            "business_status": "OPERATIONAL"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16892019981919422879", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T01:45:13+00:00" },
+          "researcher_note": "天然氷を用いたかき氷専門店。発注文に合う"
+        },
+        {
+          "cand_id": "cafe-05",
+          "source_api": "google_places",
+          "source_id": "ChIJrf9t-pyNGGARe8H3CCxcJ0w",
+          "title": "かき氷工房 雪菓(せっか)",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "東京都豊島区巣鴨3丁目37-6",
+            "types": ["ice_cream_shop", "dessert_shop", "confectionery", "food_store", "store", "food", "point_of_interest", "establishment"],
+            "rating": 4.3,
+            "business_status": "OPERATIONAL"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5487456015173009787", "kind": "map" },
+            { "label": "公式サイト", "url": "http://www.atelier-sekka.com/", "kind": "official" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T01:45:13+00:00" },
+          "researcher_note": "巣鴨のかき氷専門店。発注文に合う"
+        },
+        {
+          "cand_id": "cafe-06",
+          "source_api": "google_places",
+          "source_id": "ChIJia8SNVkJAWARqj8jr77eB7U",
+          "title": "甘味処 旅氷 京都先斗町",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "京都府京都市中京区材木町190-1 先斗町",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "rating": 4.9,
+            "business_status": "OPERATIONAL"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13044639756265406378", "kind": "map" },
+            { "label": "公式サイト", "url": "https://tabigoori.studio.site/", "kind": "official" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T01:45:13+00:00" },
+          "researcher_note": "先斗町の甘味処。発注文の建築(坪庭・町家)候補と同都市で誌面の地理的つながりを持たせられる"
         }
       ]
     }
   ],
-  "ng": [
-    {
-      "hacchu": "自動車映画やカーアクション映画から、スピードが美学から秩序へと転換する瞬間を表現する1作品を選定してください",
-      "reason": "iTunes Japan ストアで該当する映画が見つかりません。複数のクエリ('car','drive','motion','racing','action','Tokyo Drift','Fast & Furious')での検索が全て0件でした"
-    },
-    {
-      "hacchu": "道路・高速道路・交通設計から、スピードを物理的に実装する構造や事例を1つ選定してください",
-      "reason": "建築ジャンルは書籍(NDL/openBD)またはGoogle Places APIで実在確認するよう仕様されていますが、NDL検索が応答を返さず、Places APIもエラー(400 Bad Request)を返しました。API障害または検索条件の問題"
-    }
-  ]
+  "ng": []
 }

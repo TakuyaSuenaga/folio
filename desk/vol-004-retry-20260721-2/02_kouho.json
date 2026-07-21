@@ -1,0 +1,129 @@
+{
+  "vol": 4,
+  "genres": [
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1440782229",
+          "title": "DON'T MESS UP MY TEMPO – The 5th Album",
+          "creator": "EXO",
+          "year": 2018,
+          "publisher": "SM Entertainment",
+          "meta": {
+            "trackCount": 12,
+            "collectionExplicitness": "notExplicit",
+            "primaryGenreName": "K-Pop"
+          },
+          "links": [
+            {
+              "label": "Apple Musicで聴く",
+              "url": "https://music.apple.com/jp/album/dont-mess-up-my-tempo-the-5th-album/1440782229",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-07-21T01:14:59+00:00"
+          },
+          "researcher_note": "テンポという言葉をタイトルに掲げたK-popアルバム。速さが音のテーマとなっている"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1444300284",
+          "title": "The Fast and the Furious: Tokyo Drift - Single",
+          "creator": "TERIYAKI BOYZ",
+          "year": 2006,
+          "publisher": "Universal Records",
+          "meta": {
+            "trackCount": 1,
+            "collectionExplicitness": "notExplicit",
+            "primaryGenreName": "ヒップホップ/ラップ"
+          },
+          "links": [
+            {
+              "label": "Apple Musicで聴く",
+              "url": "https://music.apple.com/jp/album/the-fast-and-the-furious-tokyo-drift-single/1444300284",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-07-21T01:14:59+00:00"
+          },
+          "researcher_note": "「ファスト・アンド・ファリアス」のサウンドトラック。車とスピードを直接的に扱う作品"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1566220568",
+          "title": "Fast (Motion) - Single",
+          "creator": "Saweetie",
+          "year": 2021,
+          "publisher": "ICY/Warner Records Inc.",
+          "meta": {
+            "trackCount": 1,
+            "collectionExplicitness": "cleaned",
+            "contentAdvisoryRating": "Clean",
+            "primaryGenreName": "ヒップホップ/ラップ"
+          },
+          "links": [
+            {
+              "label": "Apple Musicで聴く",
+              "url": "https://music.apple.com/jp/album/fast-motion-single/1566220568",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-07-21T01:14:59+00:00"
+          },
+          "researcher_note": "タイトルで直接的に『速さと運動』を扱うヒップホップシングル"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1479359131",
+          "title": "Fast - Single",
+          "creator": "CHUNG HA & Mommy Son",
+          "year": 2019,
+          "publisher": "Kakao Entertainment",
+          "meta": {
+            "trackCount": 2,
+            "collectionExplicitness": "notExplicit",
+            "primaryGenreName": "K-Pop"
+          },
+          "links": [
+            {
+              "label": "Apple Musicで聴く",
+              "url": "https://music.apple.com/jp/album/fast-single/1479359131",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-07-21T01:14:59+00:00"
+          },
+          "researcher_note": "テンポの速さを直接的にタイトルテーマにしたK-pop協業作品"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "自動車映画やカーアクション映画から、スピードが美学から秩序へと転換する瞬間を表現する1作品を選定してください",
+      "reason": "iTunes Japan ストアで該当する映画が見つかりません。複数のクエリ('car','drive','motion','racing','action','Tokyo Drift','Fast & Furious')での検索が全て0件でした"
+    },
+    {
+      "hacchu": "道路・高速道路・交通設計から、スピードを物理的に実装する構造や事例を1つ選定してください",
+      "reason": "建築ジャンルは書籍(NDL/openBD)またはGoogle Places APIで実在確認するよう仕様されていますが、NDL検索が応答を返さず、Places APIもエラー(400 Bad Request)を返しました。API障害または検索条件の問題"
+    }
+  ]
+}
