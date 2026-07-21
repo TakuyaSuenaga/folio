@@ -3,6 +3,7 @@
 特集: 強奪の系譜 / 特色: #1F6F43(金庫室・帳簿の緑)。扉のグリッド罫・VOL反転面・肩ラベル・段間罫に使用、本文はink
 扉: 図面(青写真)グリッドを背景罫として敷き、VOL数字を黒地反転のスタンプとして左寄せ、特集タイトルは一行・右寄せの大字。日付・VOL数字・柱にはアクセント書体JetBrains Monoを用い「図面の注記」の質感を出す / 本文: 2段+段間罫 / 反転: 扉のVOLスタンプのみ黒地白抜き(DATA欄は反転なし) / アクセント書体: JetBrains Mono(数字要素のみ)
 前号との差分: vol.003が褐色・横組みタイトル主役・DATA欄反転・アクセント書体なしだったため、緑・VOL数字反転主役・タイトルは右寄せ一行・DATA欄は素のまま・モノスペースの注記書体を追加へ
+遡及修正(2026-07-21): art-directorスキル改訂によりlead-vをmin-height→height固定480pxに変更(縦書きが折り返さず伸び続ける不具合の修正)
 -->
 <html lang="ja">
 <head>
@@ -69,7 +70,7 @@ a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 /* ---- リード ---- */
 .lead-v {
   writing-mode: vertical-rl; line-height: 2.1;
-  min-height: 300px; padding: 24px 16px;
+  height: 480px; padding: 24px 16px;
   font-size: 13px; letter-spacing: .06em; font-weight: 400;
   border-bottom: var(--rule);
   text-align: justify;

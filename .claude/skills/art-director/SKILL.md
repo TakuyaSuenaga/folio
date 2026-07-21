@@ -154,11 +154,12 @@ body { margin: 0; background: var(--desk); color: var(--ink);
 リード文は必ず縦組み。これがこの雑誌のwebにおける署名になる。
 
 ```css
-.lead-v { writing-mode: vertical-rl; line-height: 2.15;
-  height: 264px; font-size: 13px; letter-spacing: .06em; }
+.lead-v { writing-mode: vertical-rl; line-height: 2;
+  height: 480px; font-size: 13px; letter-spacing: .06em; }
 ```
 
-- 高さはリードの文字数から逆算し、判型内に収まる行数にする。
+- **`height` は固定値で指定する(`min-height` は使わない)**。vertical-rlでは`height`が1列の長さの上限になり、これを超えた文字は自動で隣の列へ折り返される。`min-height`にすると上限が効かず、長いリードが1列のまま伸び続けてスマホ画面何倍分もの高さになる(vol.003・004で実際に発生した不具合)。
+- 高さの上限は**スマホ1画面のおよそ70%(480〜560px)**を超えないこと。文字数が少ない号はこれより低くしてよいが、上げてはならない。列数はリードの文字数に応じて自動で増減するので、号ごとに高さを再計算する必要はなく、この上限を守ればよい。
 - 縦組み内の2桁数字は `<span style="text-combine-upright: all">23</span>` で縦中横にする(原稿が漢数字なら不要)。
 
 ### 誌面構成【固定・この順序】
@@ -252,7 +253,7 @@ body { margin: 0; background: var(--desk); color: var(--ink);
 - [ ] 特色と扉構成が直前号のADノートと被っていない
 - [ ] 判型390px内で横スクロールが発生しない(裁ち落としは `overflow: hidden` で処理済み)
 - [ ] palt は見出しのみ、本文は justify のベタ組み
-- [ ] リード縦組みが判型内に収まっている
+- [ ] リード縦組みが判型内に収まっており、`.lead-v` に `height`(固定値・560px以下)が指定されている(`min-height` になっていない)
 - [ ] `lang="ja"`、h1は1つ、画像に `alt`、OGPタグあり
 - [ ] 外部リソースは Google Fonts と許可画像のみ、JSなし
 - [ ] 冒頭にADノートコメントあり(責了対応時は適用記録も)
