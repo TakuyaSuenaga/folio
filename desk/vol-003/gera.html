@@ -4,6 +4,7 @@
 扉: 横組みタイトル大きく左右展開、VOL上小さく・日付右。重厚でシンプル / 本文: 1段・深さ重視 / 反転: DATA欄黒地白抜き / アクセント書体: なし
 前号との差分: vol.002が青縦組み・文字主役だったため、褐色横組み・タイトル主役へ。寒冷⟷温暖、喪失と継承の表現
 責了対応: P-01(ノンブル・柱ダッシュを2倍に), P-02(本文敬体統一)を適用
+遡及修正(2026-07-21): art-directorスキル改訂によりlead-vをmin-height→height固定に変更。vol.001・002と同じ.lead-wrap(flex右寄せ)構造・height:264pxに揃えた
 -->
 <html lang="ja">
 <head>
@@ -61,11 +62,15 @@ a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 }
 
 /* ---- リード ---- */
+.lead-wrap {
+  display: flex; justify-content: flex-end;
+  padding: 24px 16px;
+  border-bottom: var(--rule);
+}
 .lead-v {
   writing-mode: vertical-rl; line-height: 2;
-  min-height: 320px; padding: 24px 16px;
+  height: 264px;
   font-size: 13px; letter-spacing: .06em; font-weight: 400;
-  border-bottom: var(--rule);
   text-align: justify;
 }
 .lead-v span[style*="text-combine"] { text-combine-upright: all; }
@@ -141,7 +146,7 @@ a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 </div>
 
 <!-- リード -->
-<div class="lead-v">優勝と別れが同じ日に重なる。スペインがW杯で四度目の栄光を掴み、日本の地方球団で活躍した選手が引退の時を迎える。二つの『勝利』と『終焉』の照合から、私たちは何を読むのか。一度の頂点に到達することの意味と、その後に待つ時間。栄光と別れが交わる時、系譜は何を語るのか。</div>
+<div class="lead-wrap"><div class="lead-v">優勝と別れが同じ日に重なる。スペインがW杯で四度目の栄光を掴み、日本の地方球団で活躍した選手が引退の時を迎える。二つの『勝利』と『終焉』の照合から、私たちは何を読むのか。一度の頂点に到達することの意味と、その後に待つ時間。栄光と別れが交わる時、系譜は何を語るのか。</div></div>
 
 <!-- MUSIC セクション -->
 <div class="section">

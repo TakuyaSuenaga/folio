@@ -3,6 +3,7 @@
 特集: 強奪の系譜 / 特色: #1F6F43(金庫室・帳簿の緑)。扉のグリッド罫・VOL反転面・肩ラベル・段間罫に使用、本文はink
 扉: 図面(青写真)グリッドを背景罫として敷き、VOL数字を黒地反転のスタンプとして左寄せ、特集タイトルは一行・右寄せの大字。日付・VOL数字・柱にはアクセント書体JetBrains Monoを用い「図面の注記」の質感を出す / 本文: 2段+段間罫 / 反転: 扉のVOLスタンプのみ黒地白抜き(DATA欄は反転なし) / アクセント書体: JetBrains Mono(数字要素のみ)
 前号との差分: vol.003が褐色・横組みタイトル主役・DATA欄反転・アクセント書体なしだったため、緑・VOL数字反転主役・タイトルは右寄せ一行・DATA欄は素のまま・モノスペースの注記書体を追加へ
+遡及修正(2026-07-21): art-directorスキル改訂によりlead-vをmin-height→height固定に変更。vol.001・002と同じ.lead-wrap(flex右寄せ)構造・height:264pxに揃えた
 -->
 <html lang="ja">
 <head>
@@ -67,11 +68,15 @@ a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 }
 
 /* ---- リード ---- */
+.lead-wrap {
+  display: flex; justify-content: flex-end;
+  padding: 24px 16px;
+  border-bottom: var(--rule);
+}
 .lead-v {
   writing-mode: vertical-rl; line-height: 2.1;
-  min-height: 300px; padding: 24px 16px;
+  height: 264px;
   font-size: 13px; letter-spacing: .06em; font-weight: 400;
-  border-bottom: var(--rule);
   text-align: justify;
 }
 .lead-v span[style*="text-combine"] { text-combine-upright: all; }
@@ -143,7 +148,7 @@ a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 </div>
 
 <!-- リード -->
-<div class="lead-v">羽田空港で発覚した一億九千五百万円の強盗未遂事件は、杜撰な現実を露呈した。だが物語のなかの強奪は、常に緻密な段取りとして描かれてきた。映画、小説、建築——奪う者と守る者が交わる場所から、暴力ではなく設計としての犯罪を読む。</div>
+<div class="lead-wrap"><div class="lead-v">羽田空港で発覚した一億九千五百万円の強盗未遂事件は、杜撰な現実を露呈した。だが物語のなかの強奪は、常に緻密な段取りとして描かれてきた。映画、小説、建築——奪う者と守る者が交わる場所から、暴力ではなく設計としての犯罪を読む。</div></div>
 
 <!-- FILM セクション -->
 <div class="section">
