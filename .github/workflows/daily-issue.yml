@@ -34,6 +34,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
           prompt: >-
             vol.${{ steps.seed.outputs.vol }} の企画を立てて。
             起点シードは desk/vol-${{ steps.seed.outputs.nnn }}/seed.md を読むこと。
@@ -49,6 +50,7 @@ jobs:
           GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
           prompt: >-
             vol.${{ steps.seed.outputs.vol }} の候補を集めて。
             desk/vol-${{ steps.seed.outputs.nnn }}/01_kikaku.json の発注に従うこと。
@@ -63,6 +65,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
           prompt: >-
             vol.${{ steps.seed.outputs.vol }} の原稿を書いて。
             入力は desk/vol-${{ steps.seed.outputs.nnn }}/ の 01_kikaku.json と 02_kouho.json。
@@ -76,6 +79,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
           prompt: >-
             vol.${{ steps.seed.outputs.vol }} の校閲をして。
             入力は desk/vol-${{ steps.seed.outputs.nnn }}/ の 01〜03 のJSON。
@@ -91,6 +95,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
           prompt: >-
             vol.${{ steps.seed.outputs.vol }} の校閲対応をして(改稿モード)。
             desk/vol-${{ steps.seed.outputs.nnn }}/04_koetsu.json の指摘に従い、
@@ -107,6 +112,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
           prompt: >-
             vol.${{ steps.seed.outputs.vol }} の誌面を組んで。
             入力は desk/vol-${{ steps.seed.outputs.nnn }}/05_goudata.json。
@@ -131,6 +137,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
           prompt: >-
             vol.${{ steps.seed.outputs.vol }} の校正をして。
             機械チェックは実行済みで desk/vol-${{ steps.seed.outputs.nnn }}/machine.json にある(再実行不要)。
@@ -145,6 +152,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
           prompt: >-
             vol.${{ steps.seed.outputs.vol }} の校了判定をして。
             desk/vol-${{ steps.seed.outputs.nnn }}/ の gera.html と 01〜06 を読み、
@@ -160,6 +168,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
           prompt: >-
             vol.${{ steps.seed.outputs.vol }} の責了対応をして(修正モード)。
             desk/vol-${{ steps.seed.outputs.nnn }}/07_kouryou.json の sekiryo_shiji を
