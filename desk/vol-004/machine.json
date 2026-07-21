@@ -1,0 +1,36 @@
+{
+  "genko_match": true,
+  "genko_detail": {
+    "lead": true,
+    "items[0].essay": true,
+    "items[1].essay": true,
+    "items[2].essay": true
+  },
+  "links_ok": true,
+  "links_detail": {
+    "present": {
+      "https://itunes.apple.com/us/movie/no-sudden-move/id1574763860?uo=4": true,
+      "https://ndlsearch.ndl.go.jp/books/R100000002-I000008091675": true,
+      "http://www3.boj.or.jp/otaru-m/": true
+    },
+    "unknown_external": [],
+    "unsafe_schemes": []
+  },
+  "pr_labels_ok": true,
+  "html_ok": true,
+  "okuzuke_ok": true,
+  "url_status": [
+    {
+      "url": "https://itunes.apple.com/us/movie/no-sudden-move/id1574763860?uo=4",
+      "status": 200
+    },
+    {
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000008091675",
+      "status": 200
+    },
+    {
+      "url": "http://www3.boj.or.jp/otaru-m/",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<!-- AD NOTE vol.004
+特集: 強奪の系譜 / 特色: #1F6F43(金庫室・帳簿の緑)。扉のグリッド罫・VOL反転面・肩ラベル・段間罫に使用、本文はink
+扉: 図面(青写真)グリッドを背景罫として敷き、VOL数字を黒地反転のスタンプとして左寄せ、特集タイトルは一行・右寄せの大字。日付・VOL数字・柱にはアクセント書体JetBrains Monoを用い「図面の注記」の質感を出す / 本文: 2段+段間罫 / 反転: 扉のVOLスタンプのみ黒地白抜き(DATA欄は反転なし) / アクセント書体: JetBrains Mono(数字要素のみ)
+前号との差分: vol.003が褐色・横組みタイトル主役・DATA欄反転・アクセント書体なしだったため、緑・VOL数字反転主役・タイトルは右寄せ一行・DATA欄は素のまま・モノスペースの注記書体を追加へ
+-->
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VOL.004 強奪の系譜 — folio</title>
+<meta property="og:title" content="VOL.004 強奪の系譜">
+<meta property="og:description" content="羽田空港で発覚した一億九千五百万円の強盗未遂事件は、杜撰な現実を露呈した。だが物語のなかの強奪は、常に緻密な段取りとして描かれてきた。映画、小説、建築——奪う者と">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --spot: #1F6F43;
+  --ink: #111;
+  --paper: #FBFBF8;
+  --desk: #D9D9D6;
+  --rule: 1px solid var(--ink);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 32px 0;
+  background: var(--desk); color: var(--ink);
+  font-family: "Noto Sans JP", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.hanmen {
+  width: 390px; max-width: 100%; margin: 0 auto;
+  background: var(--paper);
+  box-shadow: 0 0 24px rgba(0,0,0,.18);
+  overflow: hidden;
+}
+a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.mono { font-family: "JetBrains Mono", monospace; }
+
+/* ---- 扉 ---- */
+.band { height: 12px; background: var(--spot); }
+.tobira-in {
+  padding: 28px 16px 32px;
+  background-image:
+    repeating-linear-gradient(0deg, rgba(31,111,67,.14) 0 1px, transparent 1px 24px),
+    repeating-linear-gradient(90deg, rgba(31,111,67,.14) 0 1px, transparent 1px 24px);
+}
+.masthead {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  font-size: 9px; letter-spacing: .18em; font-weight: 700;
+  border-bottom: var(--rule); padding-bottom: 12px; margin-bottom: 20px;
+}
+.masthead .logo { font-weight: 900; font-size: 11px; letter-spacing: .3em; }
+.masthead .date { font-size: 10px; letter-spacing: .05em; }
+.vol-stamp {
+  display: inline-block;
+  background: var(--ink); color: var(--paper);
+  font-weight: 700; font-size: 38px; letter-spacing: -.02em;
+  padding: 6px 14px; margin-bottom: 24px;
+}
+.title-main {
+  font-size: 42px; font-weight: 900; line-height: 1.15;
+  letter-spacing: -.04em; margin: 0; text-align: right;
+  font-feature-settings: "palt";
+}
+
+/* ---- リード ---- */
+.lead-v {
+  writing-mode: vertical-rl; line-height: 2.1;
+  min-height: 300px; padding: 24px 16px;
+  font-size: 13px; letter-spacing: .06em; font-weight: 400;
+  border-bottom: var(--rule);
+  text-align: justify;
+}
+.lead-v span[style*="text-combine"] { text-combine-upright: all; }
+
+/* ---- セクション ---- */
+.section { padding: 28px 16px 20px; border-bottom: var(--rule); }
+.genre-label {
+  font-size: 10px; letter-spacing: .15em; font-weight: 700;
+  color: var(--spot); margin-bottom: 12px; display: block;
+}
+.item-title {
+  font-size: 18px; font-weight: 900; line-height: 1.2;
+  letter-spacing: -.03em; font-feature-settings: "palt";
+  margin: 0 0 4px; word-break: break-word;
+}
+.item-meta {
+  font-size: 11px; font-weight: 400; color: #555;
+  margin-bottom: 12px;
+}
+.honbun {
+  font-size: 12px; line-height: 2; text-align: justify;
+  margin: 0 0 16px;
+}
+.cols-2 { column-count: 2; column-gap: 14px; column-rule: 1px solid var(--ink); }
+
+/* ---- DATA欄 ---- */
+.data {
+  width: 100%; border-collapse: collapse;
+  font-size: 10px; margin: 16px 0;
+}
+.data th, .data td {
+  border: 1px solid var(--ink);
+  padding: 6px 8px; text-align: left; font-weight: 400;
+}
+.data th {
+  width: 5em; font-weight: 700; letter-spacing: .08em;
+}
+
+/* ---- ノンブル・柱 ---- */
+.folio {
+  display: flex; justify-content: space-between;
+  font-size: 9px; letter-spacing: .12em; font-weight: 700;
+  border-top: var(--rule); padding: 8px 16px;
+  color: #555;
+}
+
+/* ---- 奥付 ---- */
+.colophon {
+  padding: 24px 16px; font-size: 9px; line-height: 1.8;
+  border-top: 3px double var(--ink);
+}
+.colophon-title { font-weight: 700; letter-spacing: .1em; margin-bottom: 8px; }
+.colophon-text { color: #666; }
+</style>
+</head>
+<body>
+
+<div class="hanmen">
+
+<!-- 扉 -->
+<div class="band"></div>
+<div class="tobira-in">
+  <div class="masthead">
+    <div class="logo">folio</div>
+    <div class="date mono">2026.07.21</div>
+  </div>
+  <div class="vol-stamp mono">VOL.004</div>
+  <h1 class="title-main">強奪の系譜</h1>
+</div>
+
+<!-- リード -->
+<div class="lead-v">羽田空港で発覚した一億九千五百万円の強盗未遂事件は、杜撰な現実を露呈した。だが物語のなかの強奪は、常に緻密な段取りとして描かれてきた。映画、小説、建築——奪う者と守る者が交わる場所から、暴力ではなく設計としての犯罪を読む。</div>
+
+<!-- FILM セクション -->
+<div class="section">
+  <span class="genre-label">FILM</span>
+  <h2 class="item-title">No Sudden Move</h2>
+  <div class="item-meta">Steven Soderbergh / 2021</div>
+
+  <p class="honbun cols-2">スティーヴン・ソダーバーグは『オーシャンズ』三部作で、強奪の段取りを精密な振付として様式化した作家である。二千二十一年の『ノー・サドゥン・ムーヴ』は、その作家自身が様式を裏側から検証する一作といえる。舞台は千九百五十年代のデトロイト。ある文書を奪うだけの単純な依頼だったはずの仕事が、着手した直後から破綻し、実行者たちは依頼主の正体とその目的を追う側に回る。段取りが崩れる瞬間とは、爆発的な破綻ではなく、計画を握っていたはずの手が実は末端にすぎなかったと露呈する瞬間である。追跡はやがて、人種の分断を抱えたまま変貌し続ける都市の、あらゆる階層を横断していく。強奪を美学として洗練させてきた映画史の系譜のなかで、本作は美学が誰の意図にも回収されない構造を提示する一本である。</p>
+
+  <table class="data">
+    <tr><th>題名</th><td>No Sudden Move</td></tr>
+    <tr><th>監督</th><td>Steven Soderbergh</td></tr>
+    <tr><th>公開年</th><td>2021</td></tr>
+    <tr><th>ジャンル</th><td>Thriller</td></tr>
+    <tr><th>レーティング</th><td>R</td></tr>
+    <tr><th>入手</th><td><a href="https://itunes.apple.com/us/movie/no-sudden-move/id1574763860?uo=4" rel="noopener">iTunesで見る</a></td></tr>
+  </table>
+
+  <div class="folio">
+    <div>folio —— 強奪の系譜</div>
+    <div>004 —— 01</div>
+  </div>
+</div>
+
+<!-- BOOK セクション -->
+<div class="section">
+  <span class="genre-label">BOOK</span>
+  <h2 class="item-title">陽気なギャングが地球を回す</h2>
+  <div class="item-meta">伊坂,幸太郎 / 2006 / 祥伝社</div>
+
+  <p class="honbun cols-2">伊坂幸太郎『陽気なギャングが地球を回す』は、銀行強盗を稼業とする四人組を語り手に据えた長編である。特徴は、犯罪そのものよりも段取りの精緻さを語りの推進力に変える構成にある。各人物の得意技——嘘を見抜く耳、正確無比な体内時計、演説の才——が交互に視点を渡り歩きながら積み重なり、一つの計画へと収斂していく構造は、ミステリの謎解きに似た快楽を生む。文体は軽やかで会話の応酬が多く、緊張と諧謔が同じ文の中に同居する。強奪という主題を扱いながら、暴力の記述よりも役割分担の妙を丁寧に描く点で、本作は同ジャンルの他作とは異なる位置に立つ。読み進めるほどに、犯罪計画が精密なチームワークの物語へと変換されていく過程そのものが、この小説の構造的な骨格である。</p>
+
+  <table class="data">
+    <tr><th>書名</th><td>陽気なギャングが地球を回す : 長編サスペンス</td></tr>
+    <tr><th>著者</th><td>伊坂,幸太郎</td></tr>
+    <tr><th>刊行年</th><td>2006</td></tr>
+    <tr><th>版元</th><td>祥伝社</td></tr>
+    <tr><th>入手</th><td><a href="https://ndlsearch.ndl.go.jp/books/R100000002-I000008091675" rel="noopener">NDLサーチで見る</a></td></tr>
+  </table>
+
+  <div class="folio">
+    <div>folio —— 強奪の系譜</div>
+    <div>004 —— 02</div>
+  </div>
+</div>
+
+<!-- ARCHITECTURE セクション -->
+<div class="section">
+  <span class="genre-label">ARCHITECTURE</span>
+  <h2 class="item-title">日本銀行旧小樽支店金融資料館</h2>
+
+  <p class="honbun cols-2">日本銀行旧小樽支店金融資料館は、かつての銀行支店建築をそのまま転用した資料館であり、金庫室が一般公開されている点に特色がある。現金を守るための空間が、現在では見学者を迎え入れる展示空間として開かれている。防御を目的として設計された建築が、価値そのものを失った後も構法だけを残して立ち続ける点に、この建物の特異さがある。奪う側の視点で見れば、金庫室へ至る経路は幾重もの障壁として機能していたはずであり、守る側の視点で見れば、その障壁の一つひとつが信頼を可視化するための装置でもあった。強奪という主題において、この建物は暴力の記録ではなく、暴力を未然に防ぐために積み重ねられた設計思想そのものを体現している。</p>
+
+  <table class="data">
+    <tr><th>名称</th><td>日本銀行旧小樽支店金融資料館</td></tr>
+    <tr><th>所在地</th><td>1-chōme-11-16 Ironai, Otaru, Hokkaido 047-0031, Japan</td></tr>
+    <tr><th>分類</th><td>historical_landmark, tourist_attraction, museum, historical_place</td></tr>
+    <tr><th>入手</th><td><a href="http://www3.boj.or.jp/otaru-m/" rel="noopener">公式サイト</a></td></tr>
+  </table>
+
+  <div class="folio">
+    <div>folio —— 強奪の系譜</div>
+    <div>004 —— 03</div>
+  </div>
+</div>
+
+<!-- 奥付 -->
+<div class="colophon">
+  <div class="colophon-title">folio VOL.004</div>
+  <div class="colophon-text">
+    発行日: 2026年7月21日<br>
+    発行元: folio編集部<br>
+    <br>
+    本誌の一部リンクはアフィリエイトプログラムを利用しており、リンク経由の購入等により発行元が収益を得ることがあります。
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>
