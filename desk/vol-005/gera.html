@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!-- AD NOTE vol.005
+特集: 四十度線 / 特色: #C5311D(体温計の警告赤・危険水位線の色)。文字にも面にも使用可(彩度は高いが明度は文字に足る暗さ)
+扉: 白地に特大数字「40」を右裁ち落とし、直下に太い二重罫(=「線」のモチーフを文字通り視覚化)を引いてから特集タイトルへ。VOL・誌名は上部に小さく横並び / 本文: 1段(段間罫なし) / 反転: architectureセクションのみ黒地白抜き(地中に潜る=暗闇に沈む建築を象徴) / アクセント書体: なし
+前号との差分: vol.004が緑・図面グリッド・VOLスタンプ反転・2段・モノスペース併用だったため、赤・数字「40」単体の裁ち落とし・二重罫の線モチーフ・1段・追加書体なしへ。反転もVOLスタンプではなくセクション単位に変更
+-->
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VOL.005 四十度線 — folio</title>
+<meta property="og:title" content="VOL.005 四十度線">
+<meta property="og:description" content="気温が四十度を超えた日、都市はそれまでの日常運転をやめ、耐えるための様式に切り替わる。建築は庇を深くして影をつくり、飲食店は冷たい一皿に賭ける。">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --spot: #C5311D;
+  --ink: #111;
+  --paper: #FBFBF8;
+  --desk: #D9D9D6;
+  --rule: 1px solid var(--ink);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 32px 0;
+  background: var(--desk); color: var(--ink);
+  font-family: "Noto Sans JP", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.hanmen {
+  width: 390px; max-width: 100%; margin: 0 auto;
+  background: var(--paper);
+  box-shadow: 0 0 24px rgba(0,0,0,.18);
+  overflow: hidden;
+}
+a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+
+/* ---- 扉 ---- */
+.tobira { padding: 32px 0 28px; }
+.masthead-row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 0 16px; margin-bottom: 22px;
+  font-size: 9px; letter-spacing: .18em; font-weight: 700;
+}
+.masthead-row .logo { font-weight: 900; font-size: 11px; letter-spacing: .3em; }
+.numeral-block { padding: 0 0 0 16px; }
+.num40 {
+  display: block;
+  font-size: 168px; font-weight: 900; line-height: .78;
+  letter-spacing: -.07em; color: var(--spot);
+  font-feature-settings: "palt";
+  margin-right: -10px;
+}
+.deg {
+  font-size: 26px; font-weight: 900; color: var(--spot);
+  vertical-align: top; margin-left: 2px;
+}
+.gauge-rule {
+  height: 6px; border-top: 3px solid var(--ink); border-bottom: 3px solid var(--ink);
+  margin: 10px 0 24px;
+}
+.title-main {
+  padding: 0 16px; margin: 0 0 16px;
+  font-size: 34px; font-weight: 900; line-height: 1.2;
+  letter-spacing: -.03em; font-feature-settings: "palt";
+}
+.tobira-date { padding: 0 16px; font-size: 10px; letter-spacing: .05em; color: #555; }
+
+/* ---- リード ---- */
+.lead-wrap {
+  display: flex; justify-content: flex-end;
+  padding: 24px 16px;
+  border-bottom: var(--rule);
+}
+.lead-v {
+  writing-mode: vertical-rl; line-height: 2.15;
+  height: 264px;
+  font-size: 13px; letter-spacing: .06em; font-weight: 400;
+  text-align: justify;
+}
+.lead-v span[style*="text-combine"] { text-combine-upright: all; }
+
+/* ---- セクション ---- */
+.section { padding: 28px 16px 20px; border-bottom: var(--rule); }
+.genre-label {
+  font-size: 10px; letter-spacing: .15em; font-weight: 700;
+  color: var(--spot); margin-bottom: 12px; display: block;
+}
+.item-title {
+  font-size: 19px; font-weight: 900; line-height: 1.25;
+  letter-spacing: -.03em; font-feature-settings: "palt";
+  margin: 0 0 12px; word-break: break-word;
+}
+.honbun { font-size: 12px; line-height: 2; text-align: justify; margin: 0 0 16px; }
+
+/* ---- DATA欄 ---- */
+.data { width: 100%; border-collapse: collapse; font-size: 10px; margin: 16px 0; }
+.data th, .data td { border: 1px solid var(--ink); padding: 6px 8px; text-align: left; font-weight: 400; }
+.data th { width: 5em; font-weight: 700; letter-spacing: .08em; }
+
+/* ---- 反転セクション(地中美術館=地下に沈む建築) ---- */
+.section.invert { background: var(--ink); color: var(--paper); }
+.section.invert .data th, .section.invert .data td { border-color: var(--paper); }
+.section.invert .folio { border-top-color: var(--paper); color: #aaa; }
+.section.invert a { color: var(--paper); }
+
+/* ---- ノンブル・柱 ---- */
+.folio {
+  display: flex; justify-content: space-between;
+  font-size: 9px; letter-spacing: .12em; font-weight: 700;
+  border-top: var(--rule); padding: 8px 0; margin-top: 4px;
+  color: #555;
+}
+
+/* ---- 奥付 ---- */
+.colophon { padding: 24px 16px; font-size: 9px; line-height: 1.8; border-top: 3px double var(--ink); }
+.colophon-title { font-weight: 700; letter-spacing: .1em; margin-bottom: 8px; }
+.colophon-text { color: #666; }
+</style>
+</head>
+<body>
+
+<div class="hanmen">
+
+<!-- 扉 -->
+<div class="tobira">
+  <div class="masthead-row">
+    <span class="logo">folio</span>
+    <span class="vol-tag">VOL.005</span>
+  </div>
+  <div class="numeral-block">
+    <span class="num40">40<span class="deg">℃</span></span>
+  </div>
+  <div class="gauge-rule"></div>
+  <h1 class="title-main">四十度線</h1>
+  <div class="tobira-date">2026.07.22</div>
+</div>
+
+<!-- リード -->
+<div class="lead-wrap"><div class="lead-v">気温が四十度を超えた日、都市はそれまでの日常運転をやめ、耐えるための様式に切り替わる。建築は庇を深くして影をつくり、飲食店は冷たい一皿に賭ける。数字がひとつの一線を越えるとき、都市がどんな顔に変わるのかを、二つの現場から見る特集である。</div></div>
+
+<!-- ARCHITECTURE セクション(反転) -->
+<div class="section invert">
+  <span class="genre-label">ARCHITECTURE</span>
+  <h2 class="item-title">地中美術館</h2>
+
+  <p class="honbun">香川県直島に建つ地中美術館は、その名の通り建物の大半を地中に沈めている。来館者は坂を下りながら回廊を通って展示室へと至る。地表に構造体を露出させないという選択は、日照や外気の影響を地形そのもので遮断する発想に近く、庇や通風口を設けるのではなく大地の質量そのものを断熱材として扱っているとも言える。館内にはモネの『睡蓮』からインスピレーションを得た庭園が併設され、屋外の庭と地中の展示空間とが対になって配置されている。地上の陽光と地下の陰影という対比そのものが展示体験の一部として組み込まれており、光を遮ることと光を見せることが同じ設計のなかで両立している。予約はオンライン制に限られている。地下に潜ることは逃避ではなく、都市が四十度線を越えたときに建築が選び得る、もっとも徹底した遮熱の姿勢である。</p>
+
+  <table class="data">
+    <tr><th>名称</th><td>地中美術館</td></tr>
+    <tr><th>所在地</th><td>日本、〒761-3110 香川県香川郡直島町3449-1</td></tr>
+    <tr><th>分類</th><td>art_museum, museum, point_of_interest, establishment</td></tr>
+    <tr><th>概要</th><td>地中に建設された現代美術館。モネの「睡蓮」からインスピレーションを得た庭園がある。オンライン予約制。</td></tr>
+    <tr><th>入手</th><td><a href="https://maps.google.com/?cid=4369426658944645129" rel="noopener">Google マップで見る</a></td></tr>
+  </table>
+
+  <div class="folio">
+    <div>folio —— 四十度線</div>
+    <div>005 —— 01</div>
+  </div>
+</div>
+
+<!-- RESTAURANT セクション -->
+<div class="section">
+  <span class="genre-label">RESTAURANT</span>
+  <h2 class="item-title">冷やし中華専門店 Hiyachu(ひやちゅう)</h2>
+
+  <p class="honbun">西荻窪の路地に、冷やし中華だけを供する専門店がある。夏場だけの品として扱われることの多い冷やし中華を、一年を通して看板に据える店はまだ少数派である。冷やし中華は本来、麺・具・タレの三層を器の上で組み合わせる料理であり、氷を口に含んで体温を下げるかき氷とは異なり、酢の酸味と具材の彩りによって食欲そのものを保たせながら涼をとらせる構造を持つ。専門店として独立させるという判断は、季節料理を通年の主役に据え直す判断でもあり、酷暑が一時的な例外ではなく毎年の恒常になった都市の側の変化を映してもいる。店名がそのまま業態を示している点にも、看板を掲げる潔さが表れている。二階の店内で供される一杯は、暑さをやり過ごすための儀式ではなく、暑さの渦中にとどまりながら涼を保つための工夫として置かれている。</p>
+
+  <table class="data">
+    <tr><th>名称</th><td>冷やし中華専門店 Hiyachu(ひやちゅう)</td></tr>
+    <tr><th>所在地</th><td>日本、〒167-0053 東京都杉並区西荻南3丁目8−10 中根ビル 2F</td></tr>
+    <tr><th>分類</th><td>noodle_shop, restaurant, point_of_interest, food, establishment</td></tr>
+    <tr><th>評価</th><td>3.9</td></tr>
+    <tr><th>営業状況</th><td>OPERATIONAL</td></tr>
+    <tr><th>入手</th><td><a href="https://maps.google.com/?cid=11776249288929953765" rel="noopener">Google マップで見る</a></td></tr>
+  </table>
+
+  <div class="folio">
+    <div>folio —— 四十度線</div>
+    <div>005 —— 02</div>
+  </div>
+</div>
+
+<!-- 奥付 -->
+<div class="colophon">
+  <div class="colophon-title">folio VOL.005</div>
+  <div class="colophon-text">
+    発行日: 2026年7月22日<br>
+    発行元: folio編集部<br>
+    <br>
+    filmはiTunes Search API(media=movie)の応答不能によりリサーチ段階で候補を確保できず、本号は落とした。<br>
+    <br>
+    本誌の一部リンクはアフィリエイトプログラムを利用しており、リンク経由の購入等により発行元が収益を得ることがあります。
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>

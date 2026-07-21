@@ -1,0 +1,37 @@
+{
+  "vol": 5,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://maps.google.com/?cid=4369426658944645129": true,
+        "https://maps.google.com/?cid=11776249288929953765": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      { "url": "https://maps.google.com/?cid=4369426658944645129", "status": 200 },
+      { "url": "https://maps.google.com/?cid=11776249288929953765", "status": 200 }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[0] DATA欄「概要」行",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "「睡蓮」(DATA欄「概要」、Google Places API editorial_summaryの逐語引用)",
+      "teisei": "本文では同じ作品を『睡蓮』(作品名の約物)と表記しており、DATA欄のみ「」表記で揃っていない。本文の『睡蓮』に統一するか検討。ただしDATA欄は実在チェーンの根拠となるAPI原文の逐語引用であり、書き換えると引用の逐語性が失われる点に留意し、編集部判断とする"
+    }
+  ]
+}

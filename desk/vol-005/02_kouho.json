@@ -1,0 +1,345 @@
+{
+  "vol": 5,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJ4WHu5yvuUzURCXiEZmVSozw",
+          "title": "地中美術館",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "日本、〒761-3110 香川県香川郡直島町3449-1",
+            "types": ["art_museum", "museum", "point_of_interest", "establishment"],
+            "editorial_summary": "地中に建設された現代美術館。モネの「睡蓮」からインスピレーションを得た庭園がある。オンライン予約制。"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4369426658944645129", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T16:22:19+00:00" },
+          "researcher_note": "editorial_summaryが「地中に建設された」と明記しており、発注の地下空間による遮熱という切り口に直接該当する。設計者・竣工年はAPIレスポンスに含まれず未確認"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJ93v6K5TrUzURFm8UqRbF71A",
+          "title": "香川県庁舎",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "日本、〒760-0017 香川県高松市番町4丁目1−10",
+            "types": ["government_office", "point_of_interest", "establishment"]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5832096743584722710", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T16:22:19+00:00" },
+          "researcher_note": "editorial_summaryがなく、庇・通風等の様式的根拠はPlacesレスポンス外。所在地の実在確認のみ"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJtyvayxKiWjURgIGSanFnMPE",
+          "title": "広島平和記念資料館",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "日本、〒730-0811 広島県広島市中区中島町1−2",
+            "types": ["history_museum", "tourist_attraction", "museum", "point_of_interest", "establishment"],
+            "editorial_summary": "被爆資料や被爆者の遺品、証言などを通じて、第二次世界大戦中に広島に投下された原子爆弾について伝える有名な博物館。"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17379504698839695744", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T16:22:19+00:00" },
+          "researcher_note": "editorial_summaryは展示内容についてのみで、庇・ピロティ等の様式言及はなし。発注が求める遮熱様式の根拠はPlacesレスポンス外"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJ7YLXnaLM-V8RzkOi9ORu4rU",
+          "title": "金沢海みらい図書館",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "日本、〒920-0341 石川県金沢市寺中町イ−1−1",
+            "types": ["library", "service", "point_of_interest", "establishment"]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13106159795237438414", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T16:22:19+00:00" },
+          "researcher_note": "editorial_summaryがなく、素材選定等の様式的根拠はPlacesレスポンス外。所在地の実在確認のみ"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJEwyaTjAoil8RsaujmBJpV60",
+          "title": "せんだいメディアテーク",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "日本、〒980-0821 宮城県仙台市青葉区春日町2−1 1F",
+            "types": ["cultural_center", "community_center", "event_venue", "service", "point_of_interest", "establishment"],
+            "editorial_summary": "現代的な公共図書館。書籍、映像音響資料、映画を借りられるほか、アート ギャラリー、カフェ、劇場も併設。"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12490567620126550961", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T16:22:19+00:00" },
+          "researcher_note": "editorial_summaryは複合施設としての機能説明のみで、通風構造への言及はなし。発注が求める様式的根拠はPlacesレスポンス外"
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJAbhT24Az-F8RwWhli9sBKlE",
+          "title": "金沢21世紀美術館",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "日本、〒920-8509 石川県金沢市広坂1丁目2−1",
+            "types": ["art_museum", "museum", "point_of_interest", "establishment"],
+            "editorial_summary": "近代の日本や海外の大型芸術作品を所蔵する美術館。ガラス張りの円形建築。"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5848489108542154945", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T16:22:19+00:00" },
+          "researcher_note": "editorial_summaryは「ガラス張り」とあり、パッシブクーリングよりも採光重視の構造を示唆する。発注との整合性は低い可能性がある"
+        },
+        {
+          "cand_id": "arch-07",
+          "source_api": "google_places",
+          "source_id": "ChIJj9oKtCkIAWAREyhhor42_1M",
+          "title": "国立京都国際会館",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "日本、〒606-0001 京都府京都市左京区岩倉大鷺町422",
+            "types": ["convention_center", "event_venue", "service", "point_of_interest", "establishment"]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6052616616605198355", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T16:22:19+00:00" },
+          "researcher_note": "editorial_summaryがなく、庇・素材選定等の様式的根拠はPlacesレスポンス外。所在地の実在確認のみ"
+        },
+        {
+          "cand_id": "arch-08",
+          "source_api": "google_places",
+          "source_id": "ChIJ4zoFKDA2GmARtHYunkhIS48",
+          "title": "静岡市立登呂博物館",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "日本、〒422-8033 静岡県静岡市駿河区登呂5丁目10−5",
+            "types": ["tourist_attraction", "museum", "point_of_interest", "establishment"],
+            "editorial_summary": "弥生時代の農耕集落である登呂遺跡の出土品を展示する考古博物館。体験型の展示もある。ボランティア室や交流ホールも備える。"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10325426047405684404", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T16:22:19+00:00" },
+          "researcher_note": "editorial_summaryは弥生集落の出土品展示館という説明で、敷地内の竪穴式住居再現棟の遮熱様式には触れていない。発注との接続は間接的"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "rest-01",
+          "source_api": "google_places",
+          "source_id": "ChIJi2PkJ4KLGGAR5ccdxVWkbaM",
+          "title": "冷やし中華専門店 Hiyachu(ひやちゅう)",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "日本、〒167-0053 東京都杉並区西荻南3丁目8−10 中根ビル 2F",
+            "types": ["noodle_shop", "restaurant", "point_of_interest", "food", "establishment"],
+            "rating": 3.9,
+            "business_status": "OPERATIONAL"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11776249288929953765", "kind": "map" },
+            { "label": "Instagram", "url": "https://instagram.com/hiyachu_nyc", "kind": "official" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T16:22:36+00:00" },
+          "researcher_note": "店名自体が「冷やし中華専門店」。冷たい麺類でかき氷ではないという発注条件に直接合致"
+        },
+        {
+          "cand_id": "rest-02",
+          "source_api": "google_places",
+          "source_id": "ChIJg2yGHeGLGGARsE4Ws0Tl51g",
+          "title": "中華そば 萬福",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "日本、〒104-0061 東京都中央区銀座2丁目13−13 1階",
+            "types": ["chinese_restaurant", "ramen_restaurant", "japanese_restaurant", "restaurant", "point_of_interest", "food", "establishment"],
+            "rating": 3.7,
+            "price_level": "PRICE_LEVEL_MODERATE",
+            "business_status": "OPERATIONAL",
+            "editorial_summary": "冷やし中華、焼き餃子を提供する落ち着きのある昔ながらの店。"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6406341078182940336", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T16:22:36+00:00" },
+          "researcher_note": "editorial_summaryが冷やし中華の提供を明記。銀座の昔ながらの中華そば店"
+        },
+        {
+          "cand_id": "rest-03",
+          "source_api": "google_places",
+          "source_id": "ChIJX-yVohyMGGARUTdpnpXyQNQ",
+          "title": "かんだ やぶそば",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "日本、〒101-0063 東京都千代田区神田淡路町2丁目10",
+            "types": ["restaurant", "point_of_interest", "food", "establishment"],
+            "rating": 4.1,
+            "price_level": "PRICE_LEVEL_MODERATE",
+            "business_status": "OPERATIONAL",
+            "editorial_summary": "純和風の落ちついた雰囲気の店内では、国産の厳選そば粉を使用した上質な蕎麦が堪能できる。コース料理も用意されている。"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15294491058971948881", "kind": "map" },
+            { "label": "公式サイト", "url": "https://www.yabusoba.net/", "kind": "official" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T16:22:36+00:00" },
+          "researcher_note": "editorial_summaryはそば粉の品質に言及するが、ざるそば(冷たい提供)自体への言及はなし。老舗蕎麦店としての実在は確認済み"
+        },
+        {
+          "cand_id": "rest-04",
+          "source_api": "google_places",
+          "source_id": "ChIJOVajM56LGGARz8yztBKxm0I",
+          "title": "総本家更科堀井 本店",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "日本、〒106-0046 東京都港区元麻布3丁目11−4",
+            "types": ["restaurant", "food", "point_of_interest", "establishment"],
+            "rating": 4.2,
+            "price_level": "PRICE_LEVEL_EXPENSIVE",
+            "business_status": "OPERATIONAL",
+            "editorial_summary": "更科蕎麦の老舗。手打ち蕎麦や天ぷら、一品料理が楽しめる。"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4799624521792605391", "kind": "map" },
+            { "label": "公式サイト", "url": "https://www.sarashina-horii.com/", "kind": "official" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T16:22:36+00:00" },
+          "researcher_note": "更科蕎麦の老舗という実在確認は取れるが、ざるそば(冷たい提供)自体への言及はeditorial_summaryにはない"
+        },
+        {
+          "cand_id": "rest-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ0zOUsOWLGGARm0ceXunUqos",
+          "title": "ぴょんぴょん舎 GINZA UNA",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "日本、〒104-0061 東京都中央区銀座3丁目2−15 11F",
+            "types": ["yakiniku_restaurant", "korean_barbecue_restaurant", "japanese_restaurant", "korean_restaurant", "restaurant", "point_of_interest", "food", "establishment"],
+            "rating": 4.0,
+            "price_level": "PRICE_LEVEL_MODERATE",
+            "business_status": "OPERATIONAL",
+            "editorial_summary": "シックで広々とした店内で韓国料理が楽しめる。床から天井までの全面窓から市街が一望できる。"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10064090416084305819", "kind": "map" },
+            { "label": "公式サイト", "url": "https://www.pyonpyonsya.co.jp/shop/shop03/", "kind": "official" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T16:22:36+00:00" },
+          "researcher_note": "「冷麺 東京」の検索でヒットしたが、editorial_summaryは焼肉店としての説明のみで冷麺への言及はなし。types分類も焼肉が主。冷麺提供の裏付けはPlacesレスポンス外"
+        },
+        {
+          "cand_id": "rest-06",
+          "source_api": "google_places",
+          "source_id": "ChIJjcurFjyNGGARnViYkqXgAUQ",
+          "title": "冷麺てっちゃん上野店",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "日本、〒110-0005 東京都台東区上野2丁目2−3 コロンビアビル 1F",
+            "types": ["yakiniku_restaurant", "japanese_restaurant", "korean_restaurant", "restaurant", "point_of_interest", "food", "establishment"],
+            "rating": 4.6,
+            "business_status": "OPERATIONAL"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4900444871289493661", "kind": "map" },
+            { "label": "公式サイト", "url": "http://www.u-dining.co.jp/brand/techan.html", "kind": "official" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T16:23:15+00:00" },
+          "researcher_note": "店名自体に「冷麺」を冠する。冷たい麺類でかき氷ではないという発注条件に直接合致"
+        },
+        {
+          "cand_id": "rest-07",
+          "source_api": "google_places",
+          "source_id": "ChIJDaaJEuGLGGARslcpSKebCEs",
+          "title": "素麺屋 糸 六本木店",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "日本、〒106-0031 東京都港区西麻布1丁目1−1 EDGEビル 1階",
+            "types": ["japanese_restaurant", "japanese_izakaya_restaurant", "restaurant", "point_of_interest", "food", "establishment"],
+            "rating": 4.6,
+            "business_status": "OPERATIONAL"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5406742495430793138", "kind": "map" },
+            { "label": "公式サイト", "url": "https://www.somen-ito.com/", "kind": "official" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T16:22:36+00:00" },
+          "researcher_note": "店名自体が「素麺屋」。冷たい麺類でかき氷ではないという発注条件に直接合致"
+        },
+        {
+          "cand_id": "rest-08",
+          "source_api": "google_places",
+          "source_id": "ChIJK5zH7ISLGGARojqdLKmCBQ4",
+          "title": "そうめん そそそ 研究室(渋谷ヒカリエ店)",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "日本、〒150-8510 東京都渋谷区渋谷2丁目21−1 6F",
+            "types": ["noodle_shop", "restaurant", "point_of_interest", "food", "establishment"],
+            "rating": 3.3,
+            "business_status": "OPERATIONAL"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1010357354524129954", "kind": "map" },
+            { "label": "公式サイト", "url": "https://so-mensososo.com/", "kind": "official" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-21T16:22:36+00:00" },
+          "researcher_note": "店名自体が「そうめん」専門。冷たい麺類でかき氷ではないという発注条件に直接合致"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "film: 酷暑・炎天下を舞台に、暑さが人間の理性や段取りを溶かしていく作品から一本を。気象条件そのものが登場人物の判断を変えていく描写があるものを優先する。",
+      "reason": "API障害: iTunes Search API(media=movie)がJP/USいずれのストアでも0件を返した。「heat」「titanic」「君の名は」「スパイダーマン」「ジブリ」等、著名かつ広い語で計8通り試行したが全て0件。同API(media=music)は正常に結果を返しているため、クエリ設計の狭さではなくmedia=movie自体の応答不能(Appleが同APIの映画カタログ提供を終了している可能性)と判断した。スキルが指定するfilmの代替ソースがないため、候補を確保できなかった"
+    }
+  ]
+}
