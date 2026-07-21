@@ -156,3 +156,11 @@ FLOW.md の写像どおり **1 工程 = 1 ステップ = 1 回の claude-code-ac
 - film/music: iTunes Search API(source_id は trackId / collectionId)
 - ジャンル8種は全て維持。必要な Secrets は `CLAUDE_CODE_OAUTH_TOKEN` と `GOOGLE_PLACES_API_KEY` の2つに縮小
 - `scripts/link_decorator.py` の楽天アフィリエイト対応表は将来の再契約に備え温存
+
+### 2026-07-21: 書影・ジャケット画像の復活(フォールバック付き)
+
+book/poetry と music に画像を追加。いずれもレスポンスの値をそのまま使い、無ければ `image` を付けない(誌面側は元々 `image` 省略時にタイポグラフィで組む設計だったため、AD側の変更は表記の更新のみで済んだ):
+
+- book/poetry: openBDレスポンスの `summary.cover` が空文字でなければ採用。ライブ確認では書籍によって空文字のことが多く、フォールバックが実際に効く場面は多い見込み
+- music: iTunes Search API の `artworkUrl100` を採用(`100x100bb`→`600x600bb` 置換で高解像度化可)。film は対象外のまま(画像は候補に含めない方針を維持)
+- `image` は `researcher`(02)→`genre-editor`(03)→`link_decorator.py`(05、無改変で素通し)→`art-director`(06、無ければ非表示)とそのまま流れる。`link_decorator.py` は元々フィールドをホワイトリストしない設計のためスクリプト変更は不要だった
