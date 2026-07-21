@@ -1,0 +1,17 @@
+{
+  "vol": 4,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://music.apple.com/jp/album/the-fast-and-the-furious-tokyo-drift-single/1444300284",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": []
+}

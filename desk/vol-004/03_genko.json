@@ -1,0 +1,32 @@
+{
+  "issue": {
+    "vol": 4,
+    "date": "2026-07-21",
+    "title": "スピード",
+    "lead": "スピードの定義が変わる。かつて自動車は自由の象徴で、高速の追求は文化だった。だが時代は、速さを法が規制する側に傾いた。数字で区切られた速度は、もはや美学でなく秩序である。映像・音・空間の中で、スピードがどう意味を変えるのか。もう一度、速さと法の関係を問い直す。"
+  },
+  "items": [
+    {
+      "genre": "music",
+      "cand_id": "mus-02",
+      "sentei_riyu": "発注「テンポ・加速度・運動感から、速さが音として意味を持つ作品」に最も応える。ヒップホップビート内部での細かな加速と減速が音響的運動感を生み出し、テンポを物理的刻みで実装する。filmとarchitectureの落選により、本選定は映画のサウンドトラック（視覚的想像＝film的）と東京という都市交通空間（architecture的）を暗に包含する。企画テーゼ「速度が文化から法へ」の転換点を、ビート上の美学と秩序の競合として音響的に表現する唯一の接点。",
+      "title": "The Fast and the Furious: Tokyo Drift - Single",
+      "creator": "TERIYAKI BOYZ",
+      "year": 2006,
+      "publisher": "Universal Records",
+      "meta": {
+        "trackCount": 1,
+        "collectionExplicitness": "notExplicit",
+        "primaryGenreName": "ヒップホップ/ラップ"
+      },
+      "essay": "TERIYAKI BOYZの『The Fast and the Furious: Tokyo Drift - Single』は、映画のサウンドトラックとして、スピードを音響の刻みで実装する。ヒップホップのビートは一定のテンポを守りながらも、その内部で細かな加速と減速を繰り返し、音響的な運動感を生み出す。東京の夜間走行という映像と結合することで、速さは都市空間の運動法則となり、リズムそのものが移動体の軌跡を描く。二〇〇六年の制作時点では、自動車は依然として自由と美学の象徴だったが、同時に違法な街中走行は既に規制の対象へと傾きかけていた。この楽曲に刻まれたテンポと加速度は、その転換点における音響的な記録である。速度の定義が文化から法へと移行する時代の中で、ビート上で美学と秩序が競合する。",
+      "links": [
+        {
+          "label": "Apple Musicで聴く",
+          "url": "https://music.apple.com/jp/album/the-fast-and-the-furious-tokyo-drift-single/1444300284",
+          "kind": "stream"
+        }
+      ]
+    }
+  ]
+}

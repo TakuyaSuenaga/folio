@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!-- AD NOTE vol.004
+特集: スピード / 特色: #0050D8(法と秩序の都市ブルー)
+扉: 縦組みVOL数字右寄せ・裁ち落とし、タイトル縦書き左寄せ / 本文: 2段+段間罫 / 反転: なし / アクセント書体: 明朝（リード用）
+前号との差分: vol.003が褐色横組み・深さ重視だったため、青縦組み・速度感重視へ。温暖⟷冷感、文化⟷法の転換を表現
+-->
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VOL.004 スピード — folio</title>
+<meta property="og:title" content="VOL.004 スピード">
+<meta property="og:description" content="スピードの定義が変わる。かつて自動車は自由の象徴で、高速の追求は文化だった。だが時代は、速さを法が規制する側に傾いた。数字で区切られた速度は、もはや美学でなく秩序である。">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Zen+Old+Mincho&display=swap" rel="stylesheet">
+<style>
+:root {
+  --spot: #0050D8;
+  --ink: #111;
+  --paper: #FBFBF8;
+  --desk: #D9D9D6;
+  --rule: 1px solid var(--ink);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 32px 0;
+  background: var(--desk); color: var(--ink);
+  font-family: "Noto Sans JP", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.hanmen {
+  width: 390px; max-width: 100%; margin: 0 auto;
+  background: var(--paper);
+  box-shadow: 0 0 24px rgba(0,0,0,.18);
+  overflow: hidden;
+}
+a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+
+/* ---- 扉 ---- */
+.tobira-in {
+  position: relative; height: 480px; padding: 24px 16px;
+  border-bottom: var(--rule);
+  display: flex; flex-direction: column; justify-content: space-between;
+}
+.masthead {
+  font-size: 9px; letter-spacing: .18em; font-weight: 700;
+}
+.masthead .logo {
+  font-weight: 900; font-size: 11px; letter-spacing: .3em;
+}
+.title-vertical {
+  writing-mode: vertical-rl; transform: rotate(180deg);
+  font-size: 64px; font-weight: 900; line-height: 1;
+  letter-spacing: -.05em;
+  align-self: flex-start; margin: 0;
+  flex: 1; display: flex; align-items: center;
+}
+.vol-number {
+  position: absolute; bottom: 16px; right: -8px;
+  writing-mode: vertical-rl; transform: rotate(180deg);
+  font-size: 120px; font-weight: 900; letter-spacing: -.08em;
+  line-height: 1; color: var(--spot);
+  opacity: 0.15;
+}
+
+/* ---- リード ---- */
+.lead-v {
+  writing-mode: vertical-rl; line-height: 2.15;
+  height: 264px; font-size: 13px; letter-spacing: .06em;
+  padding: 24px 16px; font-weight: 400;
+  border-bottom: var(--rule);
+  font-family: "Zen Old Mincho", serif;
+  text-align: justify;
+}
+
+/* ---- セクション ---- */
+.section { padding: 28px 16px 20px; border-bottom: var(--rule); }
+.genre-label {
+  font-size: 10px; letter-spacing: .15em; font-weight: 700;
+  color: var(--ink); margin-bottom: 12px; display: block;
+}
+.item-title {
+  font-size: 18px; font-weight: 900; line-height: 1.2;
+  letter-spacing: -.03em; font-feature-settings: "palt";
+  margin: 0 0 4px; word-break: break-word;
+}
+.item-meta {
+  font-size: 11px; font-weight: 400; color: #555;
+  margin-bottom: 12px;
+}
+.honbun {
+  font-size: 12px; line-height: 2; text-align: justify;
+  margin: 0 0 16px;
+  column-count: 2; column-gap: 14px; column-rule: var(--rule);
+}
+
+/* ---- DATA欄 ---- */
+.data {
+  width: 100%; border-collapse: collapse;
+  font-size: 10px; margin: 16px 0;
+  background: var(--paper);
+}
+.data th, .data td {
+  border: var(--rule); padding: 6px 8px; text-align: left; font-weight: 400;
+}
+.data th {
+  width: 5em; font-weight: 700; letter-spacing: .08em;
+  color: var(--spot);
+}
+
+/* ---- ノンブル・柱 ---- */
+.folio {
+  display: flex; justify-content: space-between;
+  font-size: 9px; letter-spacing: .12em; font-weight: 700;
+  border-top: var(--rule); padding: 8px 16px;
+  color: #555;
+}
+
+/* ---- 奥付 ---- */
+.colophon {
+  padding: 24px 16px; font-size: 9px; line-height: 1.8;
+  border-top: 3px double var(--ink);
+}
+.colophon-title { font-weight: 700; letter-spacing: .1em; margin-bottom: 8px; }
+.colophon-text { color: #666; }
+</style>
+</head>
+<body>
+
+<div class="hanmen">
+
+<!-- 扉 -->
+<div class="tobira-in">
+  <div class="masthead">
+    <div class="logo">folio</div>
+    <div class="date">2026.07.21</div>
+  </div>
+  <h1 class="title-vertical">スピード</h1>
+  <div class="vol-number">004</div>
+</div>
+
+<!-- リード -->
+<div class="lead-v">スピードの定義が変わる。かつて自動車は自由の象徴で、高速の追求は文化だった。だが時代は、速さを法が規制する側に傾いた。数字で区切られた速度は、もはや美学でなく秩序である。映像・音・空間の中で、スピードがどう意味を変えるのか。もう一度、速さと法の関係を問い直す。</div>
+
+<!-- MUSIC セクション -->
+<div class="section">
+  <span class="genre-label">MUSIC</span>
+  <h2 class="item-title">The Fast and the Furious: Tokyo Drift - Single</h2>
+  <div class="item-meta">TERIYAKI BOYZ / 2006 / Universal Records</div>
+
+  <p class="honbun">TERIYAKI BOYZの『The Fast and the Furious: Tokyo Drift - Single』は、映画のサウンドトラックとして、スピードを音響の刻みで実装する。ヒップホップのビートは一定のテンポを守りながらも、その内部で細かな加速と減速を繰り返し、音響的な運動感を生み出す。東京の夜間走行という映像と結合することで、速さは都市空間の運動法則となり、リズムそのものが移動体の軌跡を描く。二〇〇六年の制作時点では、自動車は依然として自由と美学の象徴だったが、同時に違法な街中走行は既に規制の対象へと傾きかけていた。この楽曲に刻まれたテンポと加速度は、その転換点における音響的な記録である。速度の定義が文化から法へと移行する時代の中で、ビート上で美学と秩序が競合する。</p>
+
+  <table class="data">
+    <tr><th>作品</th><td>The Fast and the Furious: Tokyo Drift - Single</td></tr>
+    <tr><th>演奏</th><td>TERIYAKI BOYZ</td></tr>
+    <tr><th>年</th><td>2006</td></tr>
+    <tr><th>版元</th><td>Universal Records</td></tr>
+    <tr><th>トラック数</th><td>1</td></tr>
+    <tr><th>ジャンル</th><td>ヒップホップ/ラップ</td></tr>
+    <tr><th>入手</th><td><a href="https://music.apple.com/jp/album/the-fast-and-the-furious-tokyo-drift-single/1444300284" rel="noopener">Apple Musicで聴く</a></td></tr>
+  </table>
+
+  <div class="folio">
+    <div>folio —— スピード</div>
+    <div>004 —— 01</div>
+  </div>
+</div>
+
+<!-- 奥付 -->
+<div class="colophon">
+  <div class="colophon-title">folio VOL.004</div>
+  <div class="colophon-text">
+    発行日: 2026年7月21日<br>
+    発行元: folio編集部<br>
+    <br>
+    本誌の一部リンクはアフィリエイトプログラムを利用しており、リンク経由の購入等により発行元が収益を得ることがあります。
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>
