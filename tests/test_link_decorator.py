@@ -54,6 +54,48 @@ def test_main_writes_goudata(tmp_path, monkeypatch):
     assert "decorated_at" in out
 
 
+def test_image_field_passes_through_unchanged(tmp_path, monkeypatch):
+    # Arrange: image フィールドを持つitem(researcher/genre-editorが転記したもの)
+    monkeypatch.delenv("RAKUTEN_AFF_PARAM", raising=False)
+    image = {"url": "https://cover.openbd.jp/9784480432506.jpg", "source": "openbd"}
+    genko = {
+        "issue": {"vol": 99, "date": "2026-07-21", "title": "テスト", "lead": "リード"},
+        "items": [{"genre": "book", "cand_id": "b-01", "title": "t", "essay": "e",
+                   "image": image,
+                   "links": [{"label": "L", "url": "https://example.com/"}]}],
+    }
+    src = tmp_path / "03_genko.json"
+    dst = tmp_path / "05_goudata.json"
+    src.write_text(json.dumps(genko, ensure_ascii=False), encoding="utf-8")
+
+    # Act
+    link_decorator.main(str(src), str(dst))
+
+    # Assert: image は加工されず無改変で goudata に残る
+    out = json.loads(dst.read_text(encoding="utf-8"))
+    assert out["items"][0]["image"] == image
+
+
+def test_item_without_image_field_has_no_image_key(tmp_path, monkeypatch):
+    # Arrange: image を持たないitem(film/候補が空文字covorだった書籍など)
+    monkeypatch.delenv("RAKUTEN_AFF_PARAM", raising=False)
+    genko = {
+        "issue": {"vol": 99, "date": "2026-07-21", "title": "テスト", "lead": "リード"},
+        "items": [{"genre": "film", "cand_id": "f-01", "title": "t", "essay": "e",
+                   "links": [{"label": "L", "url": "https://example.com/"}]}],
+    }
+    src = tmp_path / "03_genko.json"
+    dst = tmp_path / "05_goudata.json"
+    src.write_text(json.dumps(genko, ensure_ascii=False), encoding="utf-8")
+
+    # Act
+    link_decorator.main(str(src), str(dst))
+
+    # Assert: image キー自体が生成されない(空URLの捏造がない)
+    out = json.loads(dst.read_text(encoding="utf-8"))
+    assert "image" not in out["items"][0]
+
+
 def test_parse_qsl_keeps_blank_query_values(monkeypatch):
     # Arrange: 空値クエリ(ref=)を含むURL
     monkeypatch.setenv("RAKUTEN_AFF_PARAM", "scid=af_test123")
