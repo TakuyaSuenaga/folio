@@ -63,6 +63,11 @@ def build_machine(d: dict, html: str, check_urls: bool) -> dict:
 
     ext_hrefs = set(re.findall(r'(?:href|src)="(https?://[^"]+)"', html))
     known = {l["url"] for l in links}
+    # goudataの image.url も許可済み外部リソースとして通す。実在チェーンでリサーチが
+    # 採用した画像(openBD書影・iTunesジャケット・Places写真)であり、ホストを直書き
+    # せずJSONに載った事実で許可する
+    known |= {it["image"]["url"] for it in d["items"]
+              if isinstance(it.get("image"), dict) and it["image"].get("url")}
     unknown = []
     for u in ext_hrefs:
         host = re.match(r"https?://([^/]+)", u).group(1)

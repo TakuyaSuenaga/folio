@@ -96,6 +96,33 @@ def test_item_without_image_field_has_no_image_key(tmp_path, monkeypatch):
     assert "image" not in out["items"][0]
 
 
+def test_places_image_with_attributions_passes_through_unchanged(tmp_path, monkeypatch):
+    # Arrange: Places写真(撮影者クレジット付き)を持つitem
+    monkeypatch.delenv("RAKUTEN_AFF_PARAM", raising=False)
+    image = {
+        "url": "https://lh3.googleusercontent.com/places/abc=w1200",
+        "source": "google-places",
+        "attributions": [{"name": "撮影者A", "uri": "https://maps.google.com/x"}],
+    }
+    genko = {
+        "issue": {"vol": 99, "date": "2026-07-22", "title": "テスト", "lead": "リード"},
+        "items": [{"genre": "restaurant", "cand_id": "r-01", "title": "t", "essay": "e",
+                   "image": image,
+                   "links": [{"label": "L", "url": "https://example.com/"}]}],
+    }
+    src = tmp_path / "03_genko.json"
+    dst = tmp_path / "05_goudata.json"
+    src.write_text(json.dumps(genko, ensure_ascii=False), encoding="utf-8")
+
+    # Act
+    link_decorator.main(str(src), str(dst))
+
+    # Assert: attributions(入れ子配列)ごと無改変で残る
+    out = json.loads(dst.read_text(encoding="utf-8"))
+    assert out["items"][0]["image"] == image
+    assert out["items"][0]["image"]["attributions"][0]["name"] == "撮影者A"
+
+
 def test_parse_qsl_keeps_blank_query_values(monkeypatch):
     # Arrange: 空値クエリ(ref=)を含むURL
     monkeypatch.setenv("RAKUTEN_AFF_PARAM", "scid=af_test123")

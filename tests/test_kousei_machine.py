@@ -38,6 +38,42 @@ def test_unknown_external_link_fails_links_ok():
     assert "https://evil.example/x" in machine["links_detail"]["unknown_external"]
 
 
+def test_goudata_image_url_is_recognized_as_known_resource():
+    # Arrange: Places写真(googleusercontentのキー無しURL。許可ホストリストには無い)を
+    # image に持つ item と、それを src で参照するゲラ
+    d, html = load_fixture()
+    photo_url = "https://lh3.googleusercontent.com/places/abc123=w1200"
+    d["items"][0]["image"] = {
+        "url": photo_url,
+        "source": "google-places",
+        "attributions": [{"name": "撮影者", "uri": "https://maps.google.com/x"}],
+    }
+    html_with_img = html.replace(
+        "</body>", f'<img src="{photo_url}" alt="写真"></body>')
+
+    # Act
+    machine = kousei_machine.build_machine(d, html_with_img, check_urls=False)
+
+    # Assert: goudataのimage.urlはknown扱いでunknown_externalに入らない
+    assert photo_url not in machine["links_detail"]["unknown_external"]
+    assert machine["links_ok"] is True
+
+
+def test_image_url_not_in_goudata_still_flagged_as_unknown():
+    # Arrange: JSONに載っていない画像srcはknownにならず弾かれる(host直書き許可ではない)
+    d, html = load_fixture()
+    rogue = "https://lh3.googleusercontent.com/rogue=w1200"
+    html_with_img = html.replace(
+        "</body>", f'<img src="{rogue}" alt="x"></body>')
+
+    # Act
+    machine = kousei_machine.build_machine(d, html_with_img, check_urls=False)
+
+    # Assert
+    assert machine["links_ok"] is False
+    assert rogue in machine["links_detail"]["unknown_external"]
+
+
 def test_check_urls_records_measured_status(monkeypatch):
     d, html = load_fixture()
     monkeypatch.setattr(kousei_machine.verify_links, "check_url", lambda u: 200)
