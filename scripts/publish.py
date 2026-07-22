@@ -22,7 +22,8 @@ from pathlib import Path
 
 EXIT_KYUKAN = 2
 MOUSHIOKURI_KEEP = 14
-REQUIRED_KEYS = ("vol", "hantei", "daicho_line", "moushiokuri")
+# LLMが書く07_kouryou.jsonは型が揺れうるため、書き込み開始前にキーの存在と型の両方を検証する
+REQUIRED_KEYS = (("vol", int), ("hantei", str), ("daicho_line", str), ("moushiokuri", str))
 JST = timezone(timedelta(hours=9))
 
 DAICHO_LINE_RE = re.compile(
@@ -103,6 +104,7 @@ def render_index(entries: list[dict]) -> str:
     if not entries:
         raise SystemExit("[error] 台帳が空。indexを生成できない")
     e = html_mod.escape
+    entries = sorted(entries, key=lambda x: x["vol"])  # 台帳の行順が崩れていても最新号=vol最大
     latest = entries[-1]
     rows = "\n".join(
         f'    <li><a href="./vol-{x["vol"]:03d}.html">'
@@ -148,9 +150,12 @@ def publish(root: Path, vol: int) -> int:
     if not kouryou_path.exists():
         raise SystemExit(f"[error] {kouryou_path} が無い")
     kouryou = json.loads(kouryou_path.read_text(encoding="utf-8"))
-    missing = [k for k in REQUIRED_KEYS if k not in kouryou]
+    missing = [k for k, _ in REQUIRED_KEYS if k not in kouryou]
     if missing:
         raise SystemExit(f"[error] 07_kouryou.json に必須キーが無い: {missing}")
+    wrong_type = [k for k, t in REQUIRED_KEYS if not isinstance(kouryou[k], t)]
+    if wrong_type:
+        raise SystemExit(f"[error] 07_kouryou.json のキーの型が不正: {wrong_type}")
 
     if kouryou["vol"] != vol:
         raise SystemExit(
@@ -176,27 +181,29 @@ def publish(root: Path, vol: int) -> int:
     if not gera.exists():
         raise SystemExit(f"[error] {gera} が無い")
 
-    issues = root / "issues"
-    issues.mkdir(exist_ok=True)
-    shutil.copyfile(gera, issues / f"vol-{vol:03d}.html")
-
+    # ここまでで検証を終え、新しい内容を全て生成してから書き込む。
+    # 途中で失敗しても中途半端な状態(号ページだけ公開・台帳だけ追記)を残さないため
     daicho_path = root / "editorial" / "daicho.md"
     text = daicho_path.read_text(encoding="utf-8")
     if not text.endswith("\n"):
         text += "\n"
     text += daicho_line + "\n"
-    daicho_path.write_text(text, encoding="utf-8")
 
     m = DATE_RE.search(daicho_line)
     date_str = m.group(1) if m else datetime.now(JST).date().isoformat()
     moushiokuri_path = root / "editorial" / "moushiokuri.md"
     existing = (moushiokuri_path.read_text(encoding="utf-8")
                 if moushiokuri_path.exists() else "# 申し送り\n")
-    moushiokuri_path.write_text(
-        update_moushiokuri(existing, date_str, vol, kouryou["moushiokuri"]),
-        encoding="utf-8")
+    new_moushiokuri = update_moushiokuri(
+        existing, date_str, vol, kouryou["moushiokuri"])
+    index_html = render_index(parse_daicho(text))
 
-    rebuild_index(root, text)
+    issues = root / "issues"
+    issues.mkdir(exist_ok=True)
+    shutil.copyfile(gera, issues / f"vol-{vol:03d}.html")
+    daicho_path.write_text(text, encoding="utf-8")
+    moushiokuri_path.write_text(new_moushiokuri, encoding="utf-8")
+    (issues / "index.html").write_text(index_html, encoding="utf-8")
     print(f"[ok] vol.{vol:03d} 発行。台帳追記・申し送り更新・index再生成済み")
     return 0
 
@@ -209,7 +216,11 @@ def main(argv: list[str]) -> None:
         rebuild_index(root, (root / "editorial" / "daicho.md").read_text(encoding="utf-8"))
         print("[ok] index.html を再生成")
         return
-    sys.exit(publish(root, int(argv[0])))
+    try:
+        vol = int(argv[0])
+    except ValueError:
+        raise SystemExit(f"[error] volは数値で指定する: {argv[0]!r}")
+    sys.exit(publish(root, vol))
 
 
 if __name__ == "__main__":

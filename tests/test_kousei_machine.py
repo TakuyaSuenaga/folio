@@ -132,6 +132,100 @@ def test_javascript_scheme_href_fails_links_ok():
     assert "javascript:alert(1)" in machine["links_detail"]["unsafe_schemes"]
 
 
+def test_uppercase_script_tag_fails_html_ok():
+    # Arrange: 大文字の<SCRIPT>タグ(HTMLとしては等価に実行される)
+    d, html = load_fixture()
+    evil = html.replace("</body>", "<SCRIPT>alert(1)</SCRIPT></body>")
+
+    # Act
+    machine = kousei_machine.build_machine(d, evil, check_urls=False)
+
+    # Assert
+    assert machine["html_ok"] is False
+
+
+def test_single_quoted_javascript_href_fails_links_ok():
+    # Arrange: シングルクォート属性のjavascript:スキーム
+    d, html = load_fixture()
+    evil = html.replace("</body>", "<a href='javascript:alert(1)'>x</a></body>")
+
+    # Act
+    machine = kousei_machine.build_machine(d, evil, check_urls=False)
+
+    # Assert
+    assert machine["links_ok"] is False
+    assert "javascript:alert(1)" in machine["links_detail"]["unsafe_schemes"]
+
+
+def test_entity_encoded_javascript_scheme_fails_links_ok():
+    # Arrange: javascript&#58; はブラウザが実体参照を復号して実行するため検出対象
+    d, html = load_fixture()
+    evil = html.replace("</body>", '<a href="javascript&#58;alert(1)">x</a></body>')
+
+    # Act
+    machine = kousei_machine.build_machine(d, evil, check_urls=False)
+
+    # Assert
+    assert machine["links_ok"] is False
+
+
+def test_uppercase_href_attr_unknown_external_is_flagged():
+    # Arrange: HREF=(大文字属性名)でも未知外部リンクとして検出する
+    d, html = load_fixture()
+    evil = html.replace("</body>", '<a HREF="https://evil.example/x">x</a></body>')
+
+    # Act
+    machine = kousei_machine.build_machine(d, evil, check_urls=False)
+
+    # Assert
+    assert machine["links_ok"] is False
+    assert "https://evil.example/x" in machine["links_detail"]["unknown_external"]
+
+
+def test_escaped_ampersand_in_known_href_is_not_false_positive():
+    # Arrange: クエリ付きURLをADが正しく&amp;でエスケープして組んだ場合
+    d, html = load_fixture()
+    url = "https://example.com/item?a=1&b=2"
+    d["items"][0]["links"].append({"label": "L", "url": url, "sponsored": False})
+    html2 = html.replace(
+        "</body>",
+        '<a href="https://example.com/item?a=1&amp;b=2" rel="noopener">x</a></body>')
+
+    # Act
+    machine = kousei_machine.build_machine(d, html2, check_urls=False)
+
+    # Assert: 存在照合も未知外部判定も偽陽性にならない
+    assert machine["links_detail"]["present"][url] is True
+    assert machine["links_detail"]["unknown_external"] == []
+    assert machine["links_ok"] is True
+
+
+def test_hostless_url_does_not_crash_and_is_flagged():
+    # Arrange: ホスト部が空のURL(http:///x)でもクラッシュせず未知扱いにする
+    d, html = load_fixture()
+    evil = html.replace("</body>", '<a href="http:///x">x</a></body>')
+
+    # Act
+    machine = kousei_machine.build_machine(d, evil, check_urls=False)
+
+    # Assert
+    assert machine["links_ok"] is False
+    assert "http:///x" in machine["links_detail"]["unknown_external"]
+
+
+def test_inline_event_handler_fails_links_ok():
+    # Arrange: インラインイベントハンドラ(scriptタグを使わないJS実行経路)
+    d, html = load_fixture()
+    evil = html.replace("</body>", '<img src="./x.jpg" onerror="alert(1)"></body>')
+
+    # Act
+    machine = kousei_machine.build_machine(d, evil, check_urls=False)
+
+    # Assert
+    assert machine["links_ok"] is False
+    assert "onerror" in machine["links_detail"]["event_handlers"]
+
+
 def test_relative_and_hash_and_mailto_hrefs_are_handled():
     # Arrange: 相対パス・#・mailtoが仕様通りに扱われる
     d, html = load_fixture()
