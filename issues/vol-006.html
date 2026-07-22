@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!-- AD NOTE vol.006
+特集: 副首都 / 特色: #4B3B8C(複写伝票・控え用紙のインク紫)。彩度中庸で明度も文字に足るため、文字・面の両方に使用可
+扉: 特集タイトル「副首都」を数px オフセットした二層(墨+特色)で重ね刷りし、控え(複製)の版ズレそのものを視覚化した。VOL・誌名は上部に小さく横並び、日付はタイトル下 / 本文: 2段+段間罫 / 反転: book(『首都消失』)セクションのみ黒地白抜き(首都機能の停止=暗転を表現) / アクセント書体: なし
+前号との差分: vol.005が赤・数字単体裁ち落とし・1段・architectureセクション反転だったため、紫・タイトル二重刷りのズレ・2段・反転対象をbookセクションへ変更した
+本号は2点構成(cafeはGoogle Places API接続不能のため候補ゼロで見送り。colophonに記載)
+責了対応: P-01を適用(リード文言をlead_finalに差し替え。3ジャンル前提の文言を2ジャンル構成に整合させた)
+-->
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VOL.006 副首都 — folio</title>
+<meta property="og:title" content="VOL.006 副首都">
+<meta property="og:description" content="国家は中心を一つに定めた瞬間、その複製をひそかに必要とする。副首都構想法案は防災を名分に語られるが、実際には奠都の失敗をあらかじめ演習する思想でもある。">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --spot: #4B3B8C;
+  --ink: #111;
+  --paper: #FBFBF8;
+  --desk: #D9D9D6;
+  --rule: 1px solid var(--ink);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 32px 0;
+  background: var(--desk); color: var(--ink);
+  font-family: "Noto Sans JP", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.hanmen {
+  width: 390px; max-width: 100%; margin: 0 auto;
+  background: var(--paper);
+  box-shadow: 0 0 24px rgba(0,0,0,.18);
+  overflow: hidden;
+}
+a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+
+/* ---- 扉 ---- */
+.tobira { padding: 32px 0 26px; }
+.masthead-row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 0 16px; margin-bottom: 26px;
+  font-size: 9px; letter-spacing: .18em; font-weight: 700;
+}
+.masthead-row .logo { font-weight: 900; font-size: 11px; letter-spacing: .3em; }
+.title-dup { position: relative; padding: 0 16px 14px; margin-bottom: 6px; }
+.title-dup .ghost, .title-dup .main {
+  display: block; font-size: 72px; font-weight: 900; line-height: 1.05;
+  letter-spacing: -.04em; font-feature-settings: "palt"; white-space: nowrap;
+}
+.title-dup .ghost {
+  position: absolute; top: 7px; left: 23px; z-index: 0;
+  color: var(--spot);
+}
+.title-dup .main { position: relative; z-index: 1; margin: 0; color: var(--ink); }
+.tobira-date { padding: 0 16px; font-size: 10px; letter-spacing: .05em; color: #555; }
+
+/* ---- リード ---- */
+.lead-wrap {
+  display: flex; justify-content: flex-end;
+  padding: 24px 16px;
+  border-bottom: var(--rule);
+}
+.lead-v {
+  writing-mode: vertical-rl; line-height: 2.15;
+  height: 264px;
+  font-size: 13px; letter-spacing: .06em; font-weight: 400;
+  text-align: justify;
+}
+.lead-v span[style*="text-combine"] { text-combine-upright: all; }
+
+/* ---- セクション ---- */
+.section { padding: 28px 16px 20px; border-bottom: var(--rule); }
+.genre-label {
+  font-size: 10px; letter-spacing: .15em; font-weight: 700;
+  color: var(--spot); margin-bottom: 12px; display: block;
+}
+.item-title {
+  font-size: 18px; font-weight: 900; line-height: 1.3;
+  letter-spacing: -.03em; font-feature-settings: "palt";
+  margin: 0 0 12px; word-break: break-word;
+}
+.honbun {
+  font-size: 12px; line-height: 2; text-align: justify; margin: 0 0 16px;
+  column-count: 2; column-gap: 14px; column-rule: 1px solid var(--ink);
+}
+.cover { display: block; width: 96px; height: auto; margin: 0 0 14px; border: 1px solid var(--ink); }
+
+/* ---- DATA欄 ---- */
+.data { width: 100%; border-collapse: collapse; font-size: 10px; margin: 16px 0; }
+.data th, .data td { border: 1px solid var(--ink); padding: 6px 8px; text-align: left; font-weight: 400; }
+.data th { width: 5em; font-weight: 700; letter-spacing: .08em; }
+
+/* ---- 反転セクション(首都消失=暗転) ---- */
+.section.invert { background: var(--ink); color: var(--paper); }
+.section.invert .data th, .section.invert .data td { border-color: var(--paper); }
+.section.invert .honbun { column-rule-color: var(--paper); }
+.section.invert .folio { border-top-color: var(--paper); color: #aaa; }
+.section.invert a { color: var(--paper); }
+
+/* ---- ノンブル・柱 ---- */
+.folio {
+  display: flex; justify-content: space-between;
+  font-size: 9px; letter-spacing: .12em; font-weight: 700;
+  border-top: var(--rule); padding: 8px 0; margin-top: 4px;
+  color: #555;
+}
+
+/* ---- 奥付 ---- */
+.colophon { padding: 24px 16px; font-size: 9px; line-height: 1.8; border-top: 3px double var(--ink); }
+.colophon-title { font-weight: 700; letter-spacing: .1em; margin-bottom: 8px; }
+.colophon-text { color: #666; }
+</style>
+</head>
+<body>
+
+<div class="hanmen">
+
+<!-- 扉 -->
+<div class="tobira">
+  <div class="masthead-row">
+    <span class="logo">folio</span>
+    <span class="vol-tag">VOL.006</span>
+  </div>
+  <div class="title-dup">
+    <span class="ghost">副首都</span>
+    <h1 class="main">副首都</h1>
+  </div>
+  <div class="tobira-date">2026.07.23</div>
+</div>
+
+<!-- リード -->
+<div class="lead-wrap"><div class="lead-v">国家は中心を一つに定めた瞬間、その複製をひそかに必要とする。副首都構想法案は防災を名分に語られるが、実際には奠都の失敗をあらかじめ演習する思想でもある。計画都市として遷都を完遂した建築と、複製を持たぬまま首都を失う物語——隔たった二つの視点が、保険としての「もう一つの場所」を照らし出す。</div></div>
+
+<!-- ARCHITECTURE セクション -->
+<div class="section">
+  <span class="genre-label">ARCHITECTURE</span>
+  <h2 class="item-title">ナイジェリアを知るための56章</h2>
+
+  <img class="cover" src="https://cover.openbd.jp/9784750359731.jpg" alt="『ナイジェリアを知るための56章』書影">
+
+  <p class="honbun">首都を国土の中心に据え直すという判断は、沿岸に偏っていた旧都の限界を国家丸ごとで引き受け直す作業である。ナイジェリアは、旧首都ラゴスが担ってきた行政機能を、国の中央に新しく計画された都市アブジャへと移し替えた。ブラジリアが旧都リオデジャネイロを、キャンベラが臨時首都メルボルンを退けたのと同じ理路が、ここでも働いている。ただし、いずれの都市も旧都を副として温存したわけではない。行政機能は新都市へ一括して移され、旧都はただの経済都市として残された。副首都構想が思い描く「もう一つの中枢を予備として保つ」という保険とは異なり、計画都市の歴史が実際に選んできたのは、中枢をまるごと入れ替える一回きりの賭けである。並置の中では、この一点だけが、保険としての複製ではなく代替としての遷都を体現し、他ジャンルの選定と緊張関係をつくる。</p>
+
+  <table class="data">
+    <tr><th>書名</th><td>ナイジェリアを知るための56章</td></tr>
+    <tr><th>著者</th><td>島田,周平 / 落合,雄彦</td></tr>
+    <tr><th>刊行年</th><td>2025</td></tr>
+    <tr><th>版元</th><td>明石書店</td></tr>
+    <tr><th>シリーズ</th><td>エリア・スタディーズ 219</td></tr>
+    <tr><th>目次抜粋</th><td>第44章　アブジャ――国の中央に創られた首都</td></tr>
+    <tr><th>入手</th><td><a href="https://ndlsearch.ndl.go.jp/books/R100000002-I034348923" rel="noopener">NDLサーチで見る</a></td></tr>
+  </table>
+
+  <div class="folio">
+    <div>folio —— 副首都</div>
+    <div>006 —— 01</div>
+  </div>
+</div>
+
+<!-- BOOK セクション(反転) -->
+<div class="section invert">
+  <span class="genre-label">BOOK</span>
+  <h2 class="item-title">首都消失 : 長編小説</h2>
+
+  <p class="honbun">小松左京の『首都消失』は、東京が正体不明の雲に覆われ、外部から完全に遮断される場面から始まる。作中で焦点が当たるのは雲という現象そのものではなく、行政と情報の中枢が突然失われたとき、残りの国土がどう振る舞うかという思考実験である。副首都という制度が本来ならば備えているはずの代替回路を、この小説はあらかじめ持たない国家として設定し、その欠落がどこまで国家を追い詰めるかを検証している。建築が計画都市という肯定形で複製を先取りするのに対し、この小説は複製を持たない国家の脆さを反対側から照らす。首都が失われた瞬間に露わになるのは、平時には意識されない冗長性の不在であり、それこそが副首都構想の隠れた前提である。</p>
+
+  <table class="data">
+    <tr><th>書名</th><td>首都消失 : 長編小説</td></tr>
+    <tr><th>著者</th><td>小松,左京</td></tr>
+    <tr><th>刊行年</th><td>2016</td></tr>
+    <tr><th>版元</th><td>城西国際大学出版会</td></tr>
+    <tr><th>シリーズ</th><td>小松左京全集 : 完全版</td></tr>
+    <tr><th>巻</th><td>9</td></tr>
+    <tr><th>入手</th><td><a href="https://ndlsearch.ndl.go.jp/books/R100000136-I1970304959963170191" rel="noopener">NDLサーチで見る</a></td></tr>
+  </table>
+
+  <div class="folio">
+    <div>folio —— 副首都</div>
+    <div>006 —— 02</div>
+  </div>
+</div>
+
+<!-- 奥付 -->
+<div class="colophon">
+  <div class="colophon-title">folio VOL.006</div>
+  <div class="colophon-text">
+    発行日: 2026年7月23日<br>
+    発行元: folio編集部<br>
+    <br>
+    cafe(暖簾分け・二号店文化の実在喫茶店)は、Google Places APIへの接続がセッション制限でブロックされ実在確認ができなかったため候補ゼロとなり、本号は見送った。<br>
+    <br>
+    本誌の一部リンクはアフィリエイトプログラムを利用しており、リンク経由の購入等により発行元が収益を得ることがあります。
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>

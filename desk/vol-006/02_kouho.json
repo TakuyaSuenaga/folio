@@ -1,0 +1,110 @@
+{
+  "vol": 6,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784324070956",
+          "title": "都市をつくった巨匠たち : シティプランナーの横顔",
+          "creator": "新谷,洋二 / 越沢,明 / 都市みらい推進機構",
+          "year": 2004,
+          "publisher": "ぎょうせい",
+          "meta": {
+            "ndc_subject": "都市計画--歴史"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000007289535", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-22T16:27:47+00:00" },
+          "researcher_note": "都市計画史上のプランナーたちの評伝集。ブラジリア(ルシオ・コスタ)やキャンベラ(W.B.グリフィン)の設計者が収録対象に含まれるかは、NDL/openBDのレスポンスに目次情報がなく未確認"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784750359731",
+          "title": "ナイジェリアを知るための56章",
+          "creator": "島田,周平 / 落合,雄彦",
+          "year": 2025,
+          "publisher": "明石書店",
+          "meta": {
+            "series": "エリア・スタディーズ 219",
+            "toc_excerpt": "第44章　アブジャ――国の中央に創られた首都"
+          },
+          "image": { "url": "https://cover.openbd.jp/9784750359731.jpg", "source": "openbd" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034348923", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-22T16:27:47+00:00" },
+          "researcher_note": "openBDの目次テキストで第44章がナイジェリアの計画首都アブジャを扱うことを確認済み。建築の設計思想そのものより国家形成史の文脈での記述である点に留意。発注が例示するブラジリア/キャンベラ/プトラジャヤの系列ではなくアブジャである"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784903624099",
+          "title": "首都消失 : 長編小説",
+          "creator": "小松,左京",
+          "year": 2016,
+          "publisher": "城西国際大学出版会",
+          "meta": {
+            "series": "小松左京全集 : 完全版",
+            "volume": "9"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970304959963170191", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-22T16:27:47+00:00" },
+          "researcher_note": "1985年発表のSF長編(初刊は徳間書店)。首都が雲に覆われ突然失われる設定そのものが、複製を持たない国家が機能を失う思考実験になっている。openBD収録は2016年刊の全集完全版第9巻"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784309462295",
+          "title": "見えない都市",
+          "creator": "Calvino,Italo / 米川,良夫(訳)",
+          "year": 2003,
+          "publisher": "河出書房新社",
+          "meta": {
+            "series": "河出文庫",
+            "note_from_ndl": "「マルコ・ポーロの見えない都市」(1977年刊)の改訂、原タイトル: Le citta invisibili"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004175768", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-22T16:27:47+00:00" },
+          "researcher_note": "マルコ・ポーロが語る無数の都市の寓話集。語られるたびに都市が複製・変奏されていく構造を持つ作品"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784847062407",
+          "title": "関西奠都論 : 「副首都構想」を超えて、「東西両都」で日本創世!",
+          "creator": "松沢,成文",
+          "year": 2026,
+          "publisher": "ワニブックス",
+          "meta": {
+            "series": "ワニブックスPLUS新書"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034507574", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-22T16:27:47+00:00" },
+          "researcher_note": "元参議院議員による2026年2月刊の副首都構想論(政策提言書)。喪失や不安を描いた作品ではなく主題の直接的な政治論である点で、発注の「喪失や不安を描いた作品」という条件との距離に留意"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "cafe(order 3): 暖簾分け・二号店文化を持つ実在喫茶店から一点",
+      "reason": "API障害。cafe/restaurantの実在確認手段はGoogle Places APIのみと定められているが、本セッションのサンドボックス制限によりGOOGLE_PLACES_API_KEYを参照する操作(環境変数の読み取り、Bashコマンド内での変数展開、鍵を用いたAPI呼び出しのいずれも)が承認待ちでブロックされ、一度もPlaces APIを呼び出せなかった。書籍APIなど代替の無鍵ソースはcafeジャンルに定められていないため、候補はゼロ件である"
+    }
+  ]
+}
