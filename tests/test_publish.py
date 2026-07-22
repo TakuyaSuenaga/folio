@@ -121,6 +121,42 @@ def test_publish_kouryou_vol_field_mismatch_exits_and_writes_nothing(tmp_path):
     assert "vol.002" not in (root / "editorial" / "daicho.md").read_text(encoding="utf-8")
 
 
+def test_publish_non_string_moushiokuri_exits_and_writes_nothing(tmp_path):
+    # Arrange: LLMがやりがちな型逸脱(moushiokuriをリストで出力)
+    root = make_repo(tmp_path)
+    kouryou_path = root / "desk" / "vol-002" / "07_kouryou.json"
+    kouryou = json.loads(kouryou_path.read_text(encoding="utf-8"))
+    kouryou["moushiokuri"] = ["リスト", "形式"]
+    kouryou_path.write_text(json.dumps(kouryou, ensure_ascii=False), encoding="utf-8")
+
+    # Act & Assert: TypeErrorではなく整形されたSystemExitで落ちる
+    with pytest.raises(SystemExit):
+        publish.publish(root, 2)
+
+    # Assert: 部分書き込みが一切残らない
+    assert not (root / "issues" / "vol-002.html").exists()
+    assert "vol.002" not in (root / "editorial" / "daicho.md").read_text(encoding="utf-8")
+
+
+def test_render_index_latest_is_max_vol_even_if_daicho_out_of_order():
+    # Arrange: 台帳の行順が崩れていても最新号はvol最大の号
+    entries = publish.parse_daicho(
+        "vol.002 | 2026-07-20 | 後の号 | book | b\n"
+        "vol.001 | 2026-07-19 | 先の号 | book | a\n")
+
+    # Act
+    html = publish.render_index(entries)
+
+    # Assert: 最新号ブロックがvol.002を指す
+    assert 'class="latest" href="./vol-002.html"' in html
+
+
+def test_main_non_numeric_vol_exits_with_usage():
+    # Act & Assert: 生のValueErrorトレースバックではなくSystemExit
+    with pytest.raises(SystemExit):
+        publish.main(["abc"])
+
+
 def test_update_moushiokuri_appends_and_trims():
     text = "# 申し送り\n"
     for i in range(20):

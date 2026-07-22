@@ -54,6 +54,22 @@ def test_main_without_urls_exits():
         verify_links.main([])
 
 
+def test_check_url_logs_failure_reason_to_stderr(monkeypatch, capsys):
+    # Arrange: 到達不能の失敗理由がstderrに一行残る(silent swallowしない)
+    def raise_err(req, timeout):
+        raise urllib.error.URLError("dns failure")
+    monkeypatch.setattr(verify_links.urllib.request, "urlopen", raise_err)
+
+    # Act
+    result = verify_links.check_url("https://nx.invalid/")
+
+    # Assert
+    assert result is None
+    err = capsys.readouterr().err
+    assert "https://nx.invalid/" in err
+    assert "dns failure" in err
+
+
 def test_check_url_returns_none_for_non_http_scheme(monkeypatch):
     # Arrange: file:// 等の非http(s)スキームはurlopenを呼ばずNoneを返す
     def fail_if_called(req, timeout):

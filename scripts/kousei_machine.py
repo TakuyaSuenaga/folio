@@ -19,34 +19,65 @@ import verify_links
 OKUZUKE = "本誌の一部リンクはアフィリエイトプログラムを利用しており、リンク経由の購入等により発行元が収益を得ることがあります。"
 ALLOWED_RESOURCE_HOSTS = {"fonts.googleapis.com", "fonts.gstatic.com", "tshop.r10s.jp"}
 
-REL_ATTR_RE = re.compile(r'<a\b[^>]*\brel="([^"]*)"[^>]*>')
-HREF_SRC_RE = re.compile(r'(?:href|src)="([^"]*)"')
+# 属性は大文字・シングルクォートでも等価に解釈されるため両対応で拾う(取りこぼしはfail-openになる)
+REL_ATTR_RE = re.compile(r'<a\b[^>]*\brel\s*=\s*(?:"([^"]*)"|\'([^\']*)\')', re.IGNORECASE)
+HREF_SRC_RE = re.compile(r'(?:href|src)\s*=\s*(?:"([^"]*)"|\'([^\']*)\')', re.IGNORECASE)
 SAFE_SCHEME_RE = re.compile(r'^https?://', re.IGNORECASE)
 ANY_SCHEME_RE = re.compile(r'^[a-zA-Z][a-zA-Z0-9+.\-]*:')
+# タグ内のインラインイベントハンドラ(onerror= 等。scriptタグを使わないJS実行経路)
+EVENT_HANDLER_RE = re.compile(r'<[^>]*?\b(on[a-z]+)\s*=', re.IGNORECASE)
+HOST_RE = re.compile(r'https?://([^/]+)', re.IGNORECASE)
+
+
+def _attr_values(html: str) -> list[str]:
+    """href/src属性の値を、引用符の種類・属性名の大文字小文字に依らず列挙する。"""
+    return [dq or sq for dq, sq in HREF_SRC_RE.findall(html)]
+
+
+def _normalize_url(value: str) -> str:
+    """属性値のHTMLエスケープ(&amp;)だけを狭く復号してURL照合に使う。
+    html.unescapeはセミコロン無しのレガシー実体(&para等)まで復号しURLを壊すため使わない。"""
+    return value.replace("&amp;", "&")
 
 
 def _count_sponsored_rel(html: str) -> int:
     """rel属性値がsponsoredとnoopenerの両方を含む<a>タグの数を数える(属性順に依存しない)。"""
     count = 0
-    for rel_value in re.findall(REL_ATTR_RE, html):
-        tokens = rel_value.split()
+    for dq, sq in REL_ATTR_RE.findall(html):
+        tokens = (dq or sq).split()
         if "sponsored" in tokens and "noopener" in tokens:
             count += 1
     return count
 
 
-def _find_unsafe_schemes(html: str) -> list[str]:
-    """href/srcがhttp(s)・相対パス・#のいずれでもない値を列挙する(javascript:/data:/mailto:等)。"""
+def _find_unsafe_schemes(values: list[str]) -> list[str]:
+    """href/srcがhttp(s)・相対パス・#のいずれでもない値を列挙する(javascript:/data:/mailto:等)。
+    ブラウザ挙動に合わせ、実体参照の復号とタブ・改行の除去をしてからスキームを判定する。"""
     unsafe = []
-    for value in re.findall(HREF_SRC_RE, html):
-        if SAFE_SCHEME_RE.match(value):
+    for value in values:
+        decoded = re.sub(r"[\t\r\n]", "", html_mod.unescape(value))
+        if SAFE_SCHEME_RE.match(decoded):
             continue
-        if value.startswith("#"):
+        if decoded.startswith("#"):
             continue
-        if not ANY_SCHEME_RE.match(value):
+        if not ANY_SCHEME_RE.match(decoded):
             continue  # スキームを持たない相対パス
         unsafe.append(value)
     return unsafe
+
+
+def _find_unknown_external(attr_values: list[str], known: set[str]) -> list[str]:
+    """既知URL(links/image)にも許可ホストにも該当しない外部参照を列挙する。"""
+    ext = {_normalize_url(v) for v in attr_values if SAFE_SCHEME_RE.match(v)}
+    unknown = []
+    for u in sorted(ext):
+        if u in known:
+            continue
+        m = HOST_RE.match(u)
+        host = m.group(1).lower() if m else None
+        if host not in ALLOWED_RESOURCE_HOSTS:
+            unknown.append(u)
+    return unknown
 
 
 def build_machine(d: dict, html: str, check_urls: bool) -> dict:
@@ -56,25 +87,25 @@ def build_machine(d: dict, html: str, check_urls: bool) -> dict:
     genko = {name: ((t in html) or (html_mod.escape(t) in html)) for name, t in texts}
 
     links = [l for it in d["items"] for l in it["links"]]
-    link_present = {l["url"]: (l["url"] in html) for l in links}
+    attr_values = _attr_values(html)
+    # 生のURL・正しく&amp;エスケープされたhrefのどちらで組まれても照合できるようにする
+    normalized_attrs = {_normalize_url(v) for v in attr_values}
+    link_present = {l["url"]: (l["url"] in html or l["url"] in normalized_attrs)
+                    for l in links}
     n_sp = sum(1 for l in links if l["sponsored"])
     rel_ok = _count_sponsored_rel(html) == n_sp
     pr_ok = html.count("[PR]") == n_sp
 
-    ext_hrefs = set(re.findall(r'(?:href|src)="(https?://[^"]+)"', html))
     known = {l["url"] for l in links}
     # goudataの image.url も許可済み外部リソースとして通す。実在チェーンでリサーチが
     # 採用した画像(openBD書影・iTunesジャケット・Places写真)であり、ホストを直書き
     # せずJSONに載った事実で許可する
     known |= {it["image"]["url"] for it in d["items"]
               if isinstance(it.get("image"), dict) and it["image"].get("url")}
-    unknown = []
-    for u in ext_hrefs:
-        host = re.match(r"https?://([^/]+)", u).group(1)
-        if u not in known and host not in ALLOWED_RESOURCE_HOSTS:
-            unknown.append(u)
+    unknown = _find_unknown_external(attr_values, known)
 
-    unsafe_schemes = sorted(set(_find_unsafe_schemes(html)))
+    unsafe_schemes = sorted(set(_find_unsafe_schemes(attr_values)))
+    event_handlers = sorted({m.lower() for m in EVENT_HANDLER_RE.findall(html)})
 
     if check_urls:
         url_status = [{"url": l["url"], "status": verify_links.check_url(l["url"])}
@@ -85,14 +116,16 @@ def build_machine(d: dict, html: str, check_urls: bool) -> dict:
     return {
         "genko_match": all(genko.values()),
         "genko_detail": genko,
-        "links_ok": all(link_present.values()) and not unknown and not unsafe_schemes,
-        "links_detail": {"present": link_present, "unknown_external": sorted(unknown),
-                          "unsafe_schemes": unsafe_schemes},
+        "links_ok": (all(link_present.values()) and not unknown
+                     and not unsafe_schemes and not event_handlers),
+        "links_detail": {"present": link_present, "unknown_external": unknown,
+                          "unsafe_schemes": unsafe_schemes,
+                          "event_handlers": event_handlers},
         "pr_labels_ok": rel_ok and pr_ok,
         "html_ok": all([
             'lang="ja"' in html,
-            html.count("<h1") == 1,
-            "<script" not in html,
+            len(re.findall(r"<h1", html, re.IGNORECASE)) == 1,
+            re.search(r"<script", html, re.IGNORECASE) is None,
             'name="viewport"' in html,
             'property="og:title"' in html,
         ]),

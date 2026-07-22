@@ -29,7 +29,8 @@ def check_url(url: str) -> int | None:
             return res.status
     except urllib.error.HTTPError as e:
         return e.code
-    except Exception:
+    except Exception as e:
+        print(f"[warn] {url}: {type(e).__name__}: {e}", file=sys.stderr)
         return None
 
 
