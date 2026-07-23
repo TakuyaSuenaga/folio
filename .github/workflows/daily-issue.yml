@@ -55,10 +55,14 @@ jobs:
             vol.${{ steps.seed.outputs.vol }} の候補を集めて。
             desk/vol-${{ steps.seed.outputs.nnn }}/01_kikaku.json の発注に従うこと。
             URL検証には scripts/verify_links.py を使うこと。
+            cafe/restaurant/architectureのPlaces検索には scripts/places_search.py を使うこと。
             出力は desk/vol-${{ steps.seed.outputs.nnn }}/02_kouho.json へ。
           # リサーチのみBashが必要(API取得と検証スクリプト)。外部データがコンテキストに入る工程のため
-          # コマンドパターンで最小化する
-          claude_args: '--model claude-sonnet-5 --allowedTools "Bash(curl *),Bash(python scripts/verify_links.py *),Bash(python3 scripts/verify_links.py *),Read,Write,Edit,Glob,Grep"'
+          # コマンドパターンで最小化する。
+          # Places APIは places_search.py 経由に限る —— curlで叩くとキーの受け渡しに
+          # `$GOOGLE_PLACES_API_KEY` が必要になり、シェル展開を含むコマンドは静的検証できないため
+          # このパターン照合が拒否する(vol.006のcafe全滅の原因)。キーはスクリプトが環境変数から直接読む
+          claude_args: '--model claude-sonnet-5 --allowedTools "Bash(curl *),Bash(python scripts/verify_links.py *),Bash(python3 scripts/verify_links.py *),Bash(python scripts/places_search.py *),Bash(python3 scripts/places_search.py *),Read,Write,Edit,Glob,Grep"'
 
       - name: 工程2 検品
         run: jq -e '.genres | length > 0' "desk/vol-${{ steps.seed.outputs.nnn }}/02_kouho.json"
