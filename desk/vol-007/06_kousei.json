@@ -1,0 +1,59 @@
+{
+  "vol": 7,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true,
+      "items[2].essay": true
+    },
+    "links_ok": false,
+    "links_detail": {
+      "present": {
+        "https://ndlsearch.ndl.go.jp/books/R100000001-I10111101597585": true,
+        "https://music.apple.com/jp/album/%E6%B5%AA%E6%BC%AB%E9%A3%9B%E8%A1%8C-%E3%83%88%E3%83%AA%E3%83%93%E3%83%A5%E3%83%BC%E3%83%88%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0/1699349811?uo=4": true,
+        "https://maps.google.com/?cid=15961073296868431117&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true
+      },
+      "unknown_external": [
+        "https://maps.google.com/maps/contrib/103804547337646880105"
+      ],
+      "unsafe_schemes": [],
+      "event_handlers": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      { "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I10111101597585", "status": 200 },
+      { "url": "https://music.apple.com/jp/album/%E6%B5%AA%E6%BC%AB%E9%A3%9B%E8%A1%8C-%E3%83%88%E3%83%AA%E3%83%93%E3%83%A5%E3%83%BC%E3%83%88%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0/1699349811?uo=4", "status": 200 },
+      { "url": "https://maps.google.com/?cid=15961073296868431117&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "status": 200 }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "links_detail.unknown_external(machine.json)/items[2] 写真クレジット行",
+      "severity": "minor",
+      "type": "リンク照合(誤検知の疑い)",
+      "genzai": "machine.jsonがunknown_externalとして https://maps.google.com/maps/contrib/103804547337646880105 を検出しlinks_ok: falseとしている",
+      "teisei": "訂正不要。このURLは05_goudata items[2].image.attributions[0].uriそのものであり、Google Places写真の撮影者クレジット(帰属表示義務)として画像直下に正しく設置されている。機械チェックがitemの`links`配列のみを照合対象としており`image.attributions`を見ていないための誤検知と判断する。ゲラ側の欠落・不正リンクではないため実害なし。ただしlinks_ok自体は現状falseのままである点は編集長への申し送りが必要"
+    },
+    {
+      "id": "P-02",
+      "location": "items[1](music)本文冒頭「『浪漫飛行トリビュートアルバム』は」",
+      "severity": "minor",
+      "type": "表記統一(固有名詞三点不一致)",
+      "genzai": "浪漫飛行トリビュートアルバム(本文中、空白なし)",
+      "teisei": "浪漫飛行 トリビュートアルバム(見出しh2・DATA欄「作品名」は空白ありで統一されている。本文のみ空白が欠落。※05_goudataのessay自体が空白なしのため、修正するなら4b改稿を要する)"
+    },
+    {
+      "id": "P-03",
+      "location": "items[2](restaurant)本文冒頭「大田区池上六丁目の「炭火焼鳥三代目」は」",
+      "severity": "minor",
+      "type": "表記統一(固有名詞三点不一致)",
+      "genzai": "炭火焼鳥三代目(本文中、空白なし)",
+      "teisei": "炭火焼鳥 三代目(見出しh2・DATA欄「店名」は空白ありで統一されている。本文のみ空白が欠落。※05_goudataのessay自体が空白なしのため、修正するなら4b改稿を要する)"
+    }
+  ]
+}

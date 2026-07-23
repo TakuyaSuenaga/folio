@@ -1,0 +1,340 @@
+{
+  "vol": 7,
+  "genres": [
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poetry-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003020647",
+          "title": "芭蕉七部集",
+          "creator": "松尾芭蕉 / 中村俊定(校注)",
+          "year": 1966,
+          "publisher": "岩波書店",
+          "meta": {
+            "series": "岩波文庫"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I10111101597585", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-23T16:28:00+00:00" },
+          "researcher_note": "芭蕉一門の俳諧七部集。一座の発句を次の詠み手が脇句・第三へと受けて続ける連句形式そのものであり、発注が示す「一人の句を次の詠み手が受けて続ける形式」の原典に当たる"
+        },
+        {
+          "cand_id": "poetry-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784004311218",
+          "title": "歌仙の愉しみ",
+          "creator": "大岡,信,1931-2017 / 岡野,弘彦,1924- / 丸谷,才一,1925-2012",
+          "year": 2008,
+          "publisher": "岩波書店",
+          "meta": {
+            "series": "岩波新書"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009321470", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-23T16:28:00+00:00" },
+          "researcher_note": "三名で実際に巻いた歌仙作品とその成立過程の解説を収める。句が詠み手ごとに手渡されていく過程が記録として残る一冊"
+        },
+        {
+          "cand_id": "poetry-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784783736424",
+          "title": "歌仙永遠の一瞬",
+          "creator": "岡野,弘彦,1924- / 三浦,雅士,1946- / 長谷川,櫂,1954-",
+          "year": 2019,
+          "publisher": "思潮社",
+          "meta": {
+            "ndl_description": "NDLの責任表示には岡野弘彦・三浦雅士・長谷川櫂のほか谷川俊太郎・三角みづ紀・蜂飼耳・小島ゆかりの名も記載されるが、openBDのcontributorは3名分のみ"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029479042", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-23T16:28:00+00:00" },
+          "researcher_note": "複数世代の歌人が同座で歌仙を巻いた記録集。世代の異なる詠み手間での句の受け渡しという点で、交代を主題とする本号との距離が近い"
+        },
+        {
+          "cand_id": "poetry-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784048713993",
+          "title": "花下微笑 : 現代連句選集",
+          "creator": "岡本,春人,1910-1992",
+          "year": 1993,
+          "publisher": "角川書店",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002279599", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-23T16:28:00+00:00" },
+          "researcher_note": "現代連句の実作を集めた選集。複数の座・複数の連句作品を収めるため、交代のたびに何が受け継がれるかを比較しながら選べる一冊"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "music-01",
+          "source_api": "itunes",
+          "source_id": "1699349811",
+          "title": "浪漫飛行 トリビュートアルバム",
+          "creator": "Various Artists",
+          "year": 2023,
+          "publisher": "",
+          "meta": {
+            "primary_genre": "J-Pop",
+            "track_count": 14,
+            "copyright": "℗ 2007(14),2022(10),2023(1,4,5,7,9,11-13) Sony Music Labels Inc. / 2019(2) JVCKENWOOD Victor Entertainment / 2023(3) Flying High / 2023(6) Meychan / 2023(8) COVER Corp."
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/75/25/dd/7525ddfc-b830-e00e-fa31-c9d3c2b96120/4547366637175.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E6%B5%AA%E6%BC%AB%E9%A3%9B%E8%A1%8C-%E3%83%88%E3%83%AA%E3%83%93%E3%83%A5%E3%83%BC%E3%83%88%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0/1699349811?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-23T16:28:00+00:00" },
+          "researcher_note": "米米CLUB「浪漫飛行」一曲を異なる年代・アーティストが歌い継いだ音源を集めたトリビュートアルバム。「一つの楽曲が異なる歌い手へ歌い継がれてきた」という発注の条件に最も直接的に合致する"
+        },
+        {
+          "cand_id": "music-02",
+          "source_api": "itunes",
+          "source_id": "1712036582",
+          "title": "Studio Ghibli Tribute Album \"Ghibli o Utau\"",
+          "creator": "Various Artists",
+          "year": 2023,
+          "publisher": "",
+          "meta": {
+            "primary_genre": "J-Pop",
+            "track_count": 13,
+            "copyright": "℗ 2023 Victor Entertainment"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e8/c0/19/e8c0194a-dfe9-fae0-4914-12e15427cd61/VICL-65894.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/studio-ghibli-tribute-album-ghibli-o-utau/1712036582?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-23T16:28:00+00:00" },
+          "researcher_note": "スタジオジブリ作品群の主題歌を複数アーティストが歌い直したトリビュートアルバム。一曲単位ではなく楽曲群単位での歌い継ぎである点に留意"
+        },
+        {
+          "cand_id": "music-03",
+          "source_api": "itunes",
+          "source_id": "1761946493",
+          "title": "THE ALFEE Tribute Album Gojuunensai",
+          "creator": "Various Artists",
+          "year": 2024,
+          "publisher": "",
+          "meta": {
+            "primary_genre": "ロック",
+            "track_count": 11,
+            "copyright": "A Virgin Music release; This Compilation ℗ 2024 UNIVERSAL MUSIC LLC"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/12/38/e6123808-b43e-921f-72c1-d92bad043a19/24UMGIM84832.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/the-alfee-tribute-album-gojuunensai/1761946493?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-23T16:28:00+00:00" },
+          "researcher_note": "THE ALFEE五十周年を機に後続世代のアーティストが楽曲群を歌い継いだトリビュートアルバム。アーティスト単位の継承であり、一曲単位ではない"
+        },
+        {
+          "cand_id": "music-04",
+          "source_api": "itunes",
+          "source_id": "1745648373",
+          "title": "TM NETWORK TRIBUTE ALBUM -40th CELEBRATION-",
+          "creator": "Various Artists",
+          "year": 2024,
+          "publisher": "",
+          "meta": {
+            "primary_genre": "J-Pop",
+            "track_count": 22
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/28/ba/c3/28bac3ef-bd6a-9e4d-af53-48e348d7bce4/4547366685886.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/tm-network-tribute-album-40th-celebration/1745648373?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-23T16:28:00+00:00" },
+          "researcher_note": "TM NETWORK活動40周年を機に多数アーティストが楽曲群を歌い継いだトリビュートアルバム。原盤(1985-1991年)と新録が混在する22曲構成"
+        },
+        {
+          "cand_id": "music-05",
+          "source_api": "itunes",
+          "source_id": "1807962584",
+          "title": "Meikyo: Tribute to Akina Nakamori (Deluxe Edition)",
+          "creator": "Various Artists",
+          "year": 2025,
+          "publisher": "",
+          "meta": {
+            "primary_genre": "J-Pop",
+            "track_count": 26,
+            "copyright": "℗ 2025 WARNER MUSIC JAPAN INC."
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/39/53/d3/3953d370-2bf0-fb31-7801-fce358b9c95d/5021732770202.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/meikyo-tribute-to-akina-nakamori-deluxe-edition/1807962584?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-23T16:28:00+00:00" },
+          "researcher_note": "中森明菜の楽曲群を後続世代のアーティストが歌い継いだトリビュートアルバム(26曲)。アーティスト単位の継承である"
+        },
+        {
+          "cand_id": "music-06",
+          "source_api": "itunes",
+          "source_id": "1536257437",
+          "title": "JUDY AND MARY 15th Anniversary Tribute Album",
+          "creator": "Various Artists",
+          "year": 2009,
+          "publisher": "",
+          "meta": {
+            "primary_genre": "ロック",
+            "track_count": 11,
+            "copyright": "℗ 2009 Sony Music Entertainment (Japan) Inc."
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/80/f1/2d/80f12dde-4697-8b25-2f64-309d9ba2075c/jacket_ESCL03177B00Z_550.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/judy-and-mary-15th-anniversary-tribute-album/1536257437?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-23T16:28:00+00:00" },
+          "researcher_note": "解散から時を経てJUDY AND MARYの楽曲群を他アーティストが歌い継いだトリビュートアルバム。バンド解散という交代の一形態を背景に持つ"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "restaurant-01",
+          "source_api": "google_places",
+          "source_id": "ChIJKQfwblShA2ARVmvhfecXip4",
+          "title": "十割そば 二代目長助 稲沢店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "愛知県稲沢市横地５丁目５４",
+            "primary_type": "レストラン"
+          },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDwdJKL_OS8AnpZAbcMBXC-fxUXIsmPOzy-ZbUr1K9qqGGkMw7Y9SdQFlFuK7mwmWE7_1GkmpsTW6WpSSXPvyxAdwtnb4AL17K6KsC1YggKJ0H4tTyrv-Lreu8nufd0WDyGd4KUO6DpOjbK0g=s4800-w1200", "source": "google-places", "attributions": [ { "name": "十割そば 二代目長助 稲沢店", "uri": "https://maps.google.com/maps/contrib/114329080811949076755" } ] },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=11423969687795493718&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-23T16:28:27+00:00" },
+          "researcher_note": "屋号に「二代目」を明示する十割そばの多店舗チェーン。稲沢店の実在をPlacesで確認。先代との関係の詳細(継承年・居抜きの有無等)はPlacesのレスポンスに含まれず未確認であり、屋号表記の事実にとどめる"
+        },
+        {
+          "cand_id": "restaurant-02",
+          "source_api": "google_places",
+          "source_id": "ChIJw8QPh7idA2ARnbsgO1wdgFI",
+          "title": "二代目かつみや",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "愛知県あま市七宝町鷹居１丁目１１４",
+            "primary_type": "とんかつ店"
+          },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAHul_6eEHRtZdISHQIAgUe8h3mzyMLTtJ7WuXuArs2EQoKeQdhCVhImeRVb1rhLOUQXzTgK7-YPHUXlkVaKPdBJx0tz9iy-RAZpi5y5vmAMIrYvRLiwB12TZm-6pNfMhHaorjiCVd3amagog=s4800-w1200", "source": "google-places", "attributions": [ { "name": "二代目かつみや", "uri": "https://maps.google.com/maps/contrib/110714148671730121250" } ] },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=5944783790095252381&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-23T16:28:27+00:00" },
+          "researcher_note": "屋号そのものに「二代目」を冠するとんかつ店。実在をPlacesで確認。先代店舗との関係の詳細は未確認であり、屋号表記の事実にとどめる"
+        },
+        {
+          "cand_id": "restaurant-03",
+          "source_api": "google_places",
+          "source_id": "ChIJM_vfFVXVPTURix2N3ueq-P8",
+          "title": "元祖 指宿らーめん二代目",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "鹿児島県指宿市十町４１２−４",
+            "primary_type": "ラーメン屋"
+          },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCOqkBkmlPlXuYVB4C7OFVZ0xZPxRR-aCqJPLeWIiRapkzWxAQwtdJDUl8jMhOWyN1t9aeVFNcw9DddT-B9JPoxHP48UQv8gQgm9An_4q3XmuCmNPMb3Air9E4mC4gVy1a5Y2QeanzWzS5xdw=s4800-w1200", "source": "google-places", "attributions": [ { "name": "元祖 指宿らーめん二代目", "uri": "https://maps.google.com/maps/contrib/102486024011765778380" } ] },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=18444680186743823755&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-23T16:28:27+00:00" },
+          "researcher_note": "「元祖」と「二代目」を併記する屋号のラーメン店。初代からの継承を屋号自体が名乗っている実例。継承の具体的な経緯はPlacesのレスポンスに含まれず未確認"
+        },
+        {
+          "cand_id": "restaurant-04",
+          "source_api": "google_places",
+          "source_id": "ChIJi5Bx37UPA2ARZ_VEQI67qHE",
+          "title": "五代目食堂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "岐阜県加茂郡坂祝町勝山１０２１−２",
+            "primary_type": "和食店"
+          },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA-uIZd7CPt8RIe0Ptno-v2ENJN8tgJ-16Fp4KqwXeBtmtCM4Bk3mOQwfBlnG3JAfqwzANNYIG7y9k1LGJ2Tnm0L9-VDRTl1l9C0TduZOmeIx6ab41X8qBbLHZi_SzrgsPHbu5diFAzv3iltPBvWeN2jA=s4800-w1200", "source": "google-places", "attributions": [ { "name": "Azuki mayo", "uri": "https://maps.google.com/maps/contrib/116022243689996152027" } ] },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=8190002142011258215&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-23T16:28:27+00:00" },
+          "researcher_note": "屋号に「五代目」を明示する食堂。他候補より継承代数が多く、長期にわたる屋号の引き継ぎを示唆するが、具体的な継承年や経緯はPlacesのレスポンスに含まれず未確認"
+        },
+        {
+          "cand_id": "restaurant-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ9wIthnuKGGARdUyX-jZE2rY",
+          "title": "三代目うなぎ・むら上",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都品川区東大井５丁目７−１５ サンローランハイツ",
+            "primary_type": "和食店"
+          },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBoM3HhOXAmANvrrnNLpI628_F0ImRYf43wdYpUbEpBDuFz_NI3N-oIpPcTYc3N9OMKQ24VKtOKCkgpHM0eX4GCeJ2O-_vyLBK9uMQrehKBjFqfaNrQJdCLpUFY6qNuWOTVsC2lh6XmxlIys4e81Is2oQ=s4800-w1200", "source": "google-places", "attributions": [ { "name": "Takahiro Morikawa", "uri": "https://maps.google.com/maps/contrib/100497233703723823853" } ] },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=13175918662748949621&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-23T16:28:27+00:00" },
+          "researcher_note": "屋号に「三代目」を明示する鰻店。大森山王店という支店の存在も別途確認しており(同一チェーン)、屋号の継承が複数店舗に及んでいることが分かる"
+        },
+        {
+          "cand_id": "restaurant-06",
+          "source_api": "google_places",
+          "source_id": "ChIJZ-2rdBNgGGARDdXQHZkfgd0",
+          "title": "炭火焼鳥 三代目",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都大田区池上６丁目６−８ 第2黄金ビル 101",
+            "primary_type": "焼き鳥店"
+          },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBWd74G79RpXVrxPuv4d2-EksFdvnkmRz5lnLOt9lu2xN9wq9g0Y6YanAAKsPF5qjLkOLbrAtluY_rKLtEYVx8QhW9u_JwYizTzaU-7LwHePmPBJYxOrgU5bGOmxv-u7vnbcRqdvr0eD1wR=s4800-w1200", "source": "google-places", "attributions": [ { "name": "吉持歩", "uri": "https://maps.google.com/maps/contrib/103804547337646880105" } ] },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=15961073296868431117&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-23T16:28:27+00:00" },
+          "researcher_note": "「三代目」を屋号に据える焼き鳥店。単独店舗であり、地域の個人店としての継承を示す実例"
+        },
+        {
+          "cand_id": "restaurant-07",
+          "source_api": "google_places",
+          "source_id": "ChIJy4do9tqMGGARcy2zyGhWNd8",
+          "title": "三代目鳥メロ 新宿南口店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都新宿区新宿３丁目３４−１６ 池田プラザビル 3F",
+            "primary_type": "居酒屋",
+            "note": "全国展開する居酒屋チェーンの一支店。「三代目」を冠するブランド名自体が屋号であり、個別店舗ごとの実際の代替わりを示すものではない"
+          },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDlZUfZZWZP2RBg3b0vOICOA7bOB8Wcgh8-5xnzMUXlkBzgb5QdgiFqlSOoGvhUKPQ6uI8RvFp6dIe8-oz0meF-4fjFUIo7bUZBeafJS3J-NTH83Y-uVTqC-wvhrHrisaVggvs5fRLCyve58w=s4800-w1200", "source": "google-places", "attributions": [ { "name": "三代目鳥メロ 新宿南口店", "uri": "https://maps.google.com/maps/contrib/114461070257983028786" } ] },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=16083856652267367795&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-23T16:28:27+00:00" },
+          "researcher_note": "全国チェーンのブランド名として「三代目」を冠する居酒屋。個々の店舗の代替わりの実話ではなくブランドコンセプトである点が他候補と異なり、発注の「実在チェーンで確認できる継承の事実」との距離に留意"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

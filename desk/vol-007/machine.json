@@ -1,0 +1,39 @@
+{
+  "genko_match": true,
+  "genko_detail": {
+    "lead": true,
+    "items[0].essay": true,
+    "items[1].essay": true,
+    "items[2].essay": true
+  },
+  "links_ok": false,
+  "links_detail": {
+    "present": {
+      "https://ndlsearch.ndl.go.jp/books/R100000001-I10111101597585": true,
+      "https://music.apple.com/jp/album/%E6%B5%AA%E6%BC%AB%E9%A3%9B%E8%A1%8C-%E3%83%88%E3%83%AA%E3%83%93%E3%83%A5%E3%83%BC%E3%83%88%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0/1699349811?uo=4": true,
+      "https://maps.google.com/?cid=15961073296868431117&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true
+    },
+    "unknown_external": [
+      "https://maps.google.com/maps/contrib/103804547337646880105"
+    ],
+    "unsafe_schemes": [],
+    "event_handlers": []
+  },
+  "pr_labels_ok": true,
+  "html_ok": true,
+  "okuzuke_ok": true,
+  "url_status": [
+    {
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I10111101597585",
+      "status": 200
+    },
+    {
+      "url": "https://music.apple.com/jp/album/%E6%B5%AA%E6%BC%AB%E9%A3%9B%E8%A1%8C-%E3%83%88%E3%83%AA%E3%83%93%E3%83%A5%E3%83%BC%E3%83%88%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0/1699349811?uo=4",
+      "status": 200
+    },
+    {
+      "url": "https://maps.google.com/?cid=15961073296868431117&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "status": 200
+    }
+  ]
+}
