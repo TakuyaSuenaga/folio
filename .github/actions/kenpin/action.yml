@@ -1,0 +1,39 @@
+name: 検品
+description: >-
+  生成物が次工程へ渡せる形かを決定論的に検査する。
+  生成のたびに呼ぶこと —— 改稿(4b)や責了対応(8b)は検品済みの成果物を
+  上書きするため、そこで呼び直さないと検品を迂回した成果物が発行まで通ってしまう。
+
+inputs:
+  kind:
+    description: "検査種別: kikaku | kouho | genko | kousei | gera"
+    required: true
+  path:
+    description: 検査対象ファイルのパス
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      env:
+        KIND: ${{ inputs.kind }}
+        TARGET: ${{ inputs.path }}
+      run: |
+        set -euo pipefail
+        test -s "$TARGET" || { echo "[error] 空か存在しない: $TARGET"; exit 1; }
+        case "$KIND" in
+          kikaku) jq -e '.title and .genres' "$TARGET" ;;
+          kouho)  jq -e '.genres | length > 0' "$TARGET" ;;
+          genko)  jq -e '.issue and (.items | length > 0)' "$TARGET" ;;
+          kousei) jq -e '.machine' "$TARGET" ;;
+          gera)
+            # 誌面は自己完結HTML(1号=1ファイル)。スクリプトは載せない
+            if grep -qi "<script" "$TARGET"; then
+              echo "[error] ゲラに <script> がある: $TARGET"
+              exit 1
+            fi
+            ;;
+          *) echo "[error] 未知の検査種別: $KIND"; exit 1 ;;
+        esac
+        echo "[ok] 検品($KIND): $TARGET"
