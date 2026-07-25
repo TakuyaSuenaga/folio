@@ -98,7 +98,27 @@ jobs:
           kind: genko
           path: desk/vol-${{ steps.seed.outputs.nnn }}/03_genko.json
 
+      - name: 工程3b 実在チェーン検証
+        id: chain
+        run: >
+          python scripts/validate_chain.py
+          "desk/vol-${{ steps.seed.outputs.nnn }}/01_kikaku.json"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/02_kouho.json"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/03_genko.json"
+          >> "$GITHUB_OUTPUT"
+
+      - name: 全ジャンル失敗を休刊として確定
+        if: steps.chain.outputs.has_items == 'false'
+        run: |
+          jq -n \
+            --argjson vol "${{ steps.seed.outputs.vol }}" \
+            '{vol:$vol,hantei:"休刊",lead_final:"",sekiryo_shiji:[],
+              daicho_line:"",moushiokuri:"全ジャンルで候補選定に至らず休刊。",
+              riyu:"全ジャンルで候補収集または選定に失敗し、発行可能な記事が0件だったため。"}' \
+            > "desk/vol-${{ steps.seed.outputs.nnn }}/07_kouryou.json"
+
       - name: 工程4 校閲(koetsu)
+        if: steps.chain.outputs.has_items == 'true'
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -111,6 +131,7 @@ jobs:
 
       - name: 工程4 判定読取
         id: koetsu_check
+        if: steps.chain.outputs.has_items == 'true'
         # LLM由来の値をGITHUB_OUTPUTへ書く前に許容値で検証する(改行混入による出力インジェクション対策)
         run: |
           verdict=$(jq -r '.verdict' "desk/vol-${{ steps.seed.outputs.nnn }}/04_koetsu.json")
@@ -121,7 +142,7 @@ jobs:
           printf 'verdict=%s\n' "$verdict" >> "$GITHUB_OUTPUT"
 
       - name: 工程4b 改稿(fix_required時のみ)
-        if: steps.koetsu_check.outputs.verdict == 'fix_required'
+        if: steps.chain.outputs.has_items == 'true' && steps.koetsu_check.outputs.verdict == 'fix_required'
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -133,13 +154,22 @@ jobs:
           claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit,Glob,Grep"
 
       - name: 工程4b 検品(改稿は検品済みの03を上書きするため再検査する)
-        if: steps.koetsu_check.outputs.verdict == 'fix_required'
+        if: steps.chain.outputs.has_items == 'true' && steps.koetsu_check.outputs.verdict == 'fix_required'
         uses: ./.github/actions/kenpin
         with:
           kind: genko
           path: desk/vol-${{ steps.seed.outputs.nnn }}/03_genko.json
 
+      - name: 工程4b後 実在チェーン再検証
+        if: steps.chain.outputs.has_items == 'true' && steps.koetsu_check.outputs.verdict == 'fix_required'
+        run: >
+          python scripts/validate_chain.py
+          "desk/vol-${{ steps.seed.outputs.nnn }}/01_kikaku.json"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/02_kouho.json"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/03_genko.json"
+
       - name: 工程5 リンク加工(スクリプト)
+        if: steps.chain.outputs.has_items == 'true'
         # RAKUTEN_AFF_PARAM は未契約のため意図的に未設定(sponsored判定とPR表記のみ行われ、IDは付与されない)。
         # 契約後は env: でSecretから渡す。公開URLに載る設計値のためSecretsスキャン対象には加えないこと
         run: >
@@ -148,6 +178,7 @@ jobs:
           "desk/vol-${{ steps.seed.outputs.nnn }}/05_goudata.json"
 
       - name: 工程6 組版(art-director)
+        if: steps.chain.outputs.has_items == 'true'
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -159,12 +190,14 @@ jobs:
           claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit,Glob,Grep"
 
       - name: 工程6 検品
+        if: steps.chain.outputs.has_items == 'true'
         uses: ./.github/actions/kenpin
         with:
           kind: gera
           path: desk/vol-${{ steps.seed.outputs.nnn }}/gera.html
 
       - name: 工程7 機械校正(スクリプト・URL実測)
+        if: steps.chain.outputs.has_items == 'true'
         env:
           FOLIO_CHECK_URLS: "1"
         run: >
@@ -174,6 +207,7 @@ jobs:
           "desk/vol-${{ steps.seed.outputs.nnn }}/machine.json"
 
       - name: 工程7 校正(kousei)
+        if: steps.chain.outputs.has_items == 'true'
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -186,12 +220,14 @@ jobs:
           claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit,Glob,Grep"
 
       - name: 工程7 検品
+        if: steps.chain.outputs.has_items == 'true'
         uses: ./.github/actions/kenpin
         with:
           kind: kousei
           path: desk/vol-${{ steps.seed.outputs.nnn }}/06_kousei.json
 
       - name: 工程8 校了(editor-in-chief)
+        if: steps.chain.outputs.has_items == 'true'
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -231,6 +267,16 @@ jobs:
         with:
           kind: gera
           path: desk/vol-${{ steps.seed.outputs.nnn }}/gera.html
+
+      - name: 発行直前 最終機械校正ゲート(責了変更・lead_finalを含む)
+        if: steps.kouryou_check.outputs.hantei != '休刊'
+        run: >
+          python scripts/kousei_machine.py
+          "desk/vol-${{ steps.seed.outputs.nnn }}/05_goudata.json"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/gera.html"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/final-machine.json"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/07_kouryou.json"
+          --enforce
 
       - name: 工程9 発行(スクリプト)
         if: steps.kouryou_check.outputs.hantei != '休刊'

@@ -25,7 +25,8 @@ runs:
         case "$KIND" in
           kikaku) jq -e '.title and .genres' "$TARGET" ;;
           kouho)  jq -e '.genres | length > 0' "$TARGET" ;;
-          genko)  jq -e '.issue and (.items | length > 0)' "$TARGET" ;;
+          # items:[] は「全ジャンル失敗=休刊」を表す正規の出力。後続のchain判定で分岐する
+          genko)  jq -e '.issue and (.items | type == "array")' "$TARGET" ;;
           kousei) jq -e '.machine' "$TARGET" ;;
           gera)
             # 誌面は自己完結HTML(1号=1ファイル)。スクリプトは載せない

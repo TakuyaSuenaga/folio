@@ -22,16 +22,27 @@ ALLOWED_RESOURCE_HOSTS = {"fonts.googleapis.com", "fonts.gstatic.com", "tshop.r1
 # 属性は大文字・シングルクォートでも等価に解釈されるため両対応で拾う(取りこぼしはfail-openになる)
 REL_ATTR_RE = re.compile(r'<a\b[^>]*\brel\s*=\s*(?:"([^"]*)"|\'([^\']*)\')', re.IGNORECASE)
 HREF_SRC_RE = re.compile(r'(?:href|src)\s*=\s*(?:"([^"]*)"|\'([^\']*)\')', re.IGNORECASE)
+UNQUOTED_HREF_SRC_RE = re.compile(
+    r'(?:href|src)\s*=\s*([^\s"\'=<>`]+)', re.IGNORECASE)
 SAFE_SCHEME_RE = re.compile(r'^https?://', re.IGNORECASE)
 ANY_SCHEME_RE = re.compile(r'^[a-zA-Z][a-zA-Z0-9+.\-]*:')
 # タグ内のインラインイベントハンドラ(onerror= 等。scriptタグを使わないJS実行経路)
 EVENT_HANDLER_RE = re.compile(r'<[^>]*?\b(on[a-z]+)\s*=', re.IGNORECASE)
 HOST_RE = re.compile(r'https?://([^/]+)', re.IGNORECASE)
+META_REFRESH_RE = re.compile(
+    r'<meta\b[^>]*\bhttp-equiv\s*=\s*(?:"refresh"|\'refresh\'|refresh)(?:\s|/?>)',
+    re.IGNORECASE,
+)
+CSS_EXTERNAL_RE = re.compile(
+    r'(?:url\s*\(\s*[\'"]?|@import\s+[\'"])(https?://[^\'")\s]+)',
+    re.IGNORECASE,
+)
 
 
 def _attr_values(html: str) -> list[str]:
     """href/src属性の値を、引用符の種類・属性名の大文字小文字に依らず列挙する。"""
-    return [dq or sq for dq, sq in HREF_SRC_RE.findall(html)]
+    quoted = [dq or sq for dq, sq in HREF_SRC_RE.findall(html)]
+    return quoted + UNQUOTED_HREF_SRC_RE.findall(html)
 
 
 def _normalize_url(value: str) -> str:
@@ -102,10 +113,20 @@ def build_machine(d: dict, html: str, check_urls: bool) -> dict:
     # せずJSONに載った事実で許可する
     known |= {it["image"]["url"] for it in d["items"]
               if isinstance(it.get("image"), dict) and it["image"].get("url")}
+    # Places写真の撮影者クレジットリンクも05に含まれる既知URLである。
+    known |= {
+        attribution["uri"]
+        for it in d["items"]
+        if isinstance(it.get("image"), dict)
+        for attribution in it["image"].get("attributions", [])
+        if isinstance(attribution, dict) and attribution.get("uri")
+    }
     unknown = _find_unknown_external(attr_values, known)
 
     unsafe_schemes = sorted(set(_find_unsafe_schemes(attr_values)))
     event_handlers = sorted({m.lower() for m in EVENT_HANDLER_RE.findall(html)})
+    meta_refresh = META_REFRESH_RE.search(html) is not None
+    css_external = sorted(set(CSS_EXTERNAL_RE.findall(html)))
 
     if check_urls:
         url_status = [{"url": l["url"], "status": verify_links.check_url(l["url"])}
@@ -117,10 +138,13 @@ def build_machine(d: dict, html: str, check_urls: bool) -> dict:
         "genko_match": all(genko.values()),
         "genko_detail": genko,
         "links_ok": (all(link_present.values()) and not unknown
-                     and not unsafe_schemes and not event_handlers),
+                     and not unsafe_schemes and not event_handlers
+                     and not meta_refresh and not css_external),
         "links_detail": {"present": link_present, "unknown_external": unknown,
                           "unsafe_schemes": unsafe_schemes,
-                          "event_handlers": event_handlers},
+                          "event_handlers": event_handlers,
+                          "meta_refresh": meta_refresh,
+                          "css_external": css_external},
         "pr_labels_ok": rel_ok and pr_ok,
         "html_ok": all([
             'lang="ja"' in html,
@@ -134,16 +158,39 @@ def build_machine(d: dict, html: str, check_urls: bool) -> dict:
     }
 
 
-def main(goudata_path: str, gera_path: str, out_path: str) -> None:
+def main(goudata_path: str, gera_path: str, out_path: str,
+         kouryou_path: str | None = None, enforce: bool = False) -> None:
     with open(goudata_path, encoding="utf-8") as f:
         d = json.load(f)
+    if kouryou_path:
+        with open(kouryou_path, encoding="utf-8") as f:
+            kouryou = json.load(f)
+        lead_final = kouryou.get("lead_final")
+        if isinstance(lead_final, str) and lead_final:
+            d = {**d, "issue": {**d["issue"], "lead": lead_final}}
     with open(gera_path, encoding="utf-8") as f:
         html = f.read()
     machine = build_machine(d, html, os.environ.get("FOLIO_CHECK_URLS") == "1")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(machine, f, ensure_ascii=False, indent=2)
     print(json.dumps(machine, ensure_ascii=False, indent=2))
+    if enforce:
+        assert_publishable(machine)
+
+
+def assert_publishable(machine: dict) -> None:
+    """リンク死活を除く決定論項目を発行必須ゲートとして強制する。"""
+    required = ("genko_match", "links_ok", "pr_labels_ok", "html_ok", "okuzuke_ok")
+    failed = [key for key in required if machine.get(key) is not True]
+    if failed:
+        raise SystemExit(f"[error] 機械校正ゲート失敗: {', '.join(failed)}")
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2], sys.argv[3])
+    args = sys.argv[1:]
+    enforce = "--enforce" in args
+    args = [arg for arg in args if arg != "--enforce"]
+    if len(args) not in (3, 4):
+        raise SystemExit(
+            "usage: kousei_machine.py 05.json gera.html out.json [07.json] [--enforce]")
+    main(args[0], args[1], args[2], args[3] if len(args) == 4 else None, enforce)

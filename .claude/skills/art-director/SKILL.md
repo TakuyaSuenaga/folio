@@ -38,6 +38,7 @@ description: AI編集部の雑誌サイトの誌面を組むアートディレ�
 ```
 
 - `spot_color`・`image`・`meta`・`colophon` は無いことがある。無いフィールドは黙って省略し、埋まっている情報だけで組む(DATA欄は存在する行だけ出す)。
+- 部分成功によりitemが企画時より減ることがある。残った1件以上だけを順序どおり組み、欠けたジャンルの空枠や断り書きを作らない。`items: []` は休刊なのでこの工程には来ない。
 - `genre` の想定値: `film` / `music` / `book` / `poetry` / `photo` / `architecture` / `cafe` / `restaurant`。未知の値が来たらそのまま英大文字で肩ラベルに使う。
 - 責了対応モードではさらに `07_kouryou.json`(`sekiryo_shiji` と `lead_final`)と `06_kousei.json` を読む。
 

@@ -7,6 +7,8 @@ researcherが02_kouho.jsonのverify欄を埋めるために使う。
 kousei_machine.pyもCIでのリンク死活実測に使う。
 """
 import json
+import ipaddress
+import socket
 import sys
 import urllib.error
 import urllib.parse
@@ -19,13 +21,43 @@ HTTP_ERROR_THRESHOLD = 400
 ALLOWED_SCHEMES = {"http", "https"}
 
 
+def _is_public_host(host: str) -> bool:
+    """接続前に、解決された全アドレスがグローバルな場合だけ許可する。"""
+    if not host or host.lower() == "localhost":
+        return False
+    try:
+        infos = socket.getaddrinfo(host, None, type=socket.SOCK_STREAM)
+    except socket.gaierror:
+        return False
+    addresses = {info[4][0] for info in infos}
+    return bool(addresses) and all(ipaddress.ip_address(addr).is_global for addr in addresses)
+
+
+class PublicOnlyRedirectHandler(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        parts = urllib.parse.urlparse(newurl)
+        if parts.scheme.lower() not in ALLOWED_SCHEMES or not _is_public_host(parts.hostname or ""):
+            raise urllib.error.URLError("公開ネットワーク外へのリダイレクトを拒否")
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+
+_OPENER = urllib.request.build_opener(PublicOnlyRedirectHandler)
+
+
+def _open(req: urllib.request.Request):
+    return _OPENER.open(req, timeout=TIMEOUT_SEC)
+
+
 def check_url(url: str) -> int | None:
     """HTTPステータスを実測する。到達不能・非http(s)スキームならNone。"""
-    if urllib.parse.urlparse(url).scheme.lower() not in ALLOWED_SCHEMES:
+    parts = urllib.parse.urlparse(url)
+    if (parts.scheme.lower() not in ALLOWED_SCHEMES
+            or not _is_public_host(parts.hostname or "")):
+        print(f"[warn] 公開HTTP(S) URLではないため拒否: {url}", file=sys.stderr)
         return None
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     try:
-        with urllib.request.urlopen(req, timeout=TIMEOUT_SEC) as res:
+        with _open(req) as res:
             return res.status
     except urllib.error.HTTPError as e:
         return e.code

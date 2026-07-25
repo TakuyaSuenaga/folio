@@ -10,6 +10,7 @@
 4. **issues/ には校了済みのみ**: ゲラは `desk/` に置く。校了判定だけが発行を許す。
 5. **落丁より休刊**: 品質が確保できない日は休刊する。休刊はvol番号を消費しない(欠番を作らない)。
 6. **desk/ は全てコミットする**: 企画書・候補・校閲レポートを含む編集のログは資産である(将来のコンテンツ候補)。
+7. **部分成功で発行する**: 発注したジャンルの一部で候補収集・選定・執筆に失敗しても、実在性と品質を満たすitemが1件以上あれば、成功したitemだけで以後の工程を続けて発行する。失敗ジャンルを捏造や妥協選定で穴埋めしない。全ジャンルが失敗してitemが0件になった場合に限り、その日は休刊とする。
 
 ## 工程と受け渡し
 
@@ -20,6 +21,7 @@
 | 1 | 企画 | editor-in-chief(企画モード) | 台帳・申し送り・起点シード | `01_kikaku.json` |
 | 2 | リサーチ | researcher | 01 | `02_kouho.json` |
 | 3 | 執筆 | genre-editor | 01, 02 | `03_genko.json` |
+| 3b | 実在チェーン検証 | **スクリプト** | 01, 02, 03 | 採用itemの転記一致・1件以上なら続行。0件なら休刊 |
 | 4 | 校閲 | koetsu | 01, 02, 03 | `04_koetsu.json` |
 | 4b | 改稿 | genre-editor(改稿モード) | 03, 04 | 03を更新 ※fix_required時のみ・1回 |
 | 5 | リンク加工 | **スクリプト** | 03 | `05_goudata.json` |
@@ -30,6 +32,8 @@
 | 9 | 発行 | **スクリプト** | gera, 07 | `issues/vol-{NNN}.html`・台帳追記・index更新 |
 
 **ループ上限**: 4bは1回、8bは1回。それでも解決しない場合は休刊とし、GitHub Issueに理由を起票して当日を終了する。
+
+**部分失敗の扱い**: リサーチは候補を得られなかったジャンルを `ng` に記録し、エディターは選べないジャンルを落とす。後工程は残ったitemだけを扱う。企画時の2〜3ジャンルが1ジャンルへ減っても、それだけを理由に休刊しない。休刊となるのは全ジャンルが落ちて `items: []` になった場合、または残ったitemに実在性・権利・品質上のblockingが残る場合である。
 
 ## 起点シード
 
@@ -60,7 +64,7 @@
 ```
 01_kikaku.json   … vol, date, title, thesis, kigen_card, genres[{genre, order, hacchu}], lead_draft, spot_color?, kinshi[]
 02_kouho.json    … vol, genres[{genre, candidates[{cand_id, source_api, source_id, title, creator, year, publisher, meta, links[], verify, researcher_note}]}], ng[]
-03_genko.json    … issue{vol, date, title, lead}, items[{genre, cand_id, sentei_riyu, title, creator, year, publisher?, meta?, essay, links[]}], colophon?{note}
+03_genko.json    … issue{vol, date, title, lead}, items[{genre, cand_id, sentei_riyu, title, creator, year, publisher?, meta?, essay, links[]}], colophon?{note}。部分失敗時は成功分のみ、全失敗時はitems:[]
 04_koetsu.json   … vol, verdict, shiteki[{id, target, severity, type, quote, problem, fix}]
 05_goudata.json  … 03と同形 + 各linkにsponsored確定(=ADの入力)
 06_kousei.json   … vol, machine{...}, shiteki[{id, location, severity, type, genzai, teisei}]
