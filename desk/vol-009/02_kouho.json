@@ -1,0 +1,381 @@
+{
+  "vol": 9,
+  "genres": [
+    {
+      "genre": "photo",
+      "candidates": [
+        {
+          "cand_id": "photo-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784309273488",
+          "title": "気仙川",
+          "creator": "畠山直哉",
+          "year": 2012,
+          "publisher": "河出書房新社",
+          "meta": {
+            "ndl_title_transcription": "ケセンガワ"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I023893403", "kind": "source" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:05:52+00:00" },
+          "researcher_note": "畠山直哉が撮り続けた気仙川の同一地点を、被災前後にわたって収めた写真集。発注の再撮影実践に該当しうる。"
+        },
+        {
+          "cand_id": "photo-02",
+          "source_api": "ndl",
+          "source_id": "R100000094-I11954",
+          "title": "あかしあ通り・学園中央通り交差点北 定点撮影写真",
+          "creator": "小平市立図書館",
+          "year": 1981,
+          "meta": {
+            "coordinates": "北緯35°43′25″ 東経139°29′16″",
+            "license": "クリエイティブ・コモンズ 表示 4.0 国際",
+            "category": "文書・図像類"
+          },
+          "links": [
+            { "label": "1981年(NDLサーチ)", "url": "https://ndlsearch.ndl.go.jp/books/R100000094-I11954", "kind": "source" },
+            { "label": "1981年(小平市立図書館アーカイブ)", "url": "https://adeac.jp/kodaira-lib/catalog/mp1981107-200010", "kind": "web" },
+            { "label": "1985年(同地点・比較)", "url": "https://adeac.jp/kodaira-lib/catalog/mp1985107-200010", "kind": "compare" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:05:06+00:00" },
+          "researcher_note": "小平市立図書館が同一交差点(北向き)を毎年定点撮影した公共アーカイブ。1981年から連年で同一フレームが確認できる。"
+        },
+        {
+          "cand_id": "photo-03",
+          "source_api": "ndl",
+          "source_id": "R100000094-I11955",
+          "title": "あかしあ通り・学園中央通り交差点西 定点撮影写真",
+          "creator": "小平市立図書館",
+          "year": 1981,
+          "meta": {
+            "coordinates": "北緯35°43′24″ 東経139°29′15″",
+            "license": "クリエイティブ・コモンズ 表示 4.0 国際",
+            "category": "文書・図像類"
+          },
+          "links": [
+            { "label": "1981年(NDLサーチ)", "url": "https://ndlsearch.ndl.go.jp/books/R100000094-I11955", "kind": "source" },
+            { "label": "1981年(小平市立図書館アーカイブ)", "url": "https://adeac.jp/kodaira-lib/catalog/mp1981108-200010", "kind": "web" },
+            { "label": "1985年(同地点・比較)", "url": "https://adeac.jp/kodaira-lib/catalog/mp1985108-200010", "kind": "compare" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:05:27+00:00" },
+          "researcher_note": "同アーカイブの西向き定点撮影。1981年から連年で同一フレームが確認できる。"
+        },
+        {
+          "cand_id": "photo-04",
+          "source_api": "ndl",
+          "source_id": "R100000094-I11956",
+          "title": "あかしあ通り・学園中央通り交差点南 定点撮影写真",
+          "creator": "小平市立図書館",
+          "year": 1981,
+          "meta": {
+            "coordinates": "北緯35°43′23″ 東経139°29′17″",
+            "license": "クリエイティブ・コモンズ 表示 4.0 国際",
+            "category": "文書・図像類"
+          },
+          "links": [
+            { "label": "1981年(NDLサーチ)", "url": "https://ndlsearch.ndl.go.jp/books/R100000094-I11956", "kind": "source" },
+            { "label": "1981年(小平市立図書館アーカイブ)", "url": "https://adeac.jp/kodaira-lib/catalog/mp1981109-200010", "kind": "web" },
+            { "label": "1985年(同地点・比較)", "url": "https://adeac.jp/kodaira-lib/catalog/mp1985109-200010", "kind": "compare" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:05:27+00:00" },
+          "researcher_note": "同アーカイブの南向き定点撮影。1981年から連年で同一フレームが確認できる。"
+        },
+        {
+          "cand_id": "photo-05",
+          "source_api": "ndl",
+          "source_id": "R100000094-I11957",
+          "title": "あかしあ通り・学園中央通り交差点東 定点撮影写真",
+          "creator": "小平市立図書館",
+          "year": 1981,
+          "meta": {
+            "coordinates": "北緯35°43′24″ 東経139°29′18″",
+            "license": "クリエイティブ・コモンズ 表示 4.0 国際",
+            "category": "文書・図像類"
+          },
+          "links": [
+            { "label": "1981年(NDLサーチ)", "url": "https://ndlsearch.ndl.go.jp/books/R100000094-I11957", "kind": "source" },
+            { "label": "1981年(小平市立図書館アーカイブ)", "url": "https://adeac.jp/kodaira-lib/catalog/mp1981110-200010", "kind": "web" },
+            { "label": "1985年(同地点・比較)", "url": "https://adeac.jp/kodaira-lib/catalog/mp1985110-200010", "kind": "compare" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:05:27+00:00" },
+          "researcher_note": "同アーカイブの東向き定点撮影。1981年から連年で同一フレームが確認できる。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784334751371",
+          "title": "赤と黒 : 十九世紀年代記 上",
+          "creator": "スタンダール 著、野崎歓 訳",
+          "year": 2007,
+          "publisher": "光文社(光文社古典新訳文庫)",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970023484884175682", "kind": "source" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:09:55+00:00" },
+          "researcher_note": "スタンダール『赤と黒』の新訳(上巻)。光文社古典新訳文庫。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784334751463",
+          "title": "赤と黒 : 十九世紀年代記 下",
+          "creator": "スタンダール 著、野崎歓 訳",
+          "year": 2007,
+          "publisher": "光文社(光文社古典新訳文庫)",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009197244", "kind": "source" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:09:55+00:00" },
+          "researcher_note": "スタンダール『赤と黒』の新訳(下巻)。上巻と同年に刊行。"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784334752118",
+          "title": "悪霊 1",
+          "creator": "ドストエフスキー 著、亀山郁夫 訳",
+          "year": 2010,
+          "publisher": "光文社(光文社古典新訳文庫)",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000010980529", "kind": "source" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:09:55+00:00" },
+          "researcher_note": "ドストエフスキー『悪霊』新訳の第1巻。2010〜2012年にかけて巻を重ねた。"
+        },
+        {
+          "cand_id": "book-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784334752279",
+          "title": "悪霊 2",
+          "creator": "ドストエフスキー 著、亀山郁夫 訳",
+          "year": 2011,
+          "publisher": "光文社(光文社古典新訳文庫)",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000011164391", "kind": "source" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:09:55+00:00" },
+          "researcher_note": "『悪霊』新訳の第2巻。"
+        },
+        {
+          "cand_id": "book-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784334752422",
+          "title": "悪霊 3",
+          "creator": "ドストエフスキー 著、亀山郁夫 訳",
+          "year": 2011,
+          "publisher": "光文社(光文社古典新訳文庫)",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I023173502", "kind": "source" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:09:55+00:00" },
+          "researcher_note": "『悪霊』新訳の第3巻。本編完結。"
+        },
+        {
+          "cand_id": "book-06",
+          "source_api": "ndl+openbd",
+          "source_id": "9784334752453",
+          "title": "悪霊 別巻(「スタヴローギンの告白」異稿)",
+          "creator": "ドストエフスキー 著、亀山郁夫 訳",
+          "year": 2012,
+          "publisher": "光文社(光文社古典新訳文庫)",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I023360547", "kind": "source" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:09:55+00:00" },
+          "researcher_note": "本編完結後に追加刊行された別巻。異稿を収める。初版(1〜3巻)から何が足されたかを跡づけられる巻。"
+        },
+        {
+          "cand_id": "book-07",
+          "source_api": "ndl+openbd",
+          "source_id": "9784334752194",
+          "title": "青い麦",
+          "creator": "コレット 著、河野万里子 訳",
+          "year": 2010,
+          "publisher": "光文社(光文社古典新訳文庫)",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000011030248", "kind": "source" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:09:55+00:00" },
+          "researcher_note": "コレット『青い麦』の新訳。"
+        },
+        {
+          "cand_id": "book-08",
+          "source_api": "ndl+openbd",
+          "source_id": "9784334753139",
+          "title": "あしながおじさん",
+          "creator": "ウェブスター 著、土屋京子 訳",
+          "year": 2015,
+          "publisher": "光文社(光文社古典新訳文庫)",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026518142", "kind": "source" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:09:55+00:00" },
+          "researcher_note": "ウェブスター『あしながおじさん』の新訳。"
+        },
+        {
+          "cand_id": "book-09",
+          "source_api": "ndl+openbd",
+          "source_id": "9784868310075",
+          "title": "LIME WORKS(新版)",
+          "creator": "畠山直哉",
+          "year": 2025,
+          "publisher": "青幻舎",
+          "meta": {
+            "ndl_edition": "新版"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034336753", "kind": "source" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:09:55+00:00" },
+          "researcher_note": "畠山直哉の写真集『LIME WORKS』の新版。NDL書誌のdcndl:editionに「新版」と明記。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "rest-01",
+          "source_api": "google_places",
+          "source_id": "ChIJnwHZJOSLGGARVkzvTyfHi0Y",
+          "title": "煉瓦亭",
+          "creator": "",
+          "meta": {
+            "address": "日本、〒104-0061 東京都中央区銀座３丁目５−１６",
+            "primary_type": "和食店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAFgJjLPr2B0rBvGrHkmmc-nmo0ErpHghJGijn9eT87XHRzl193bNnkjKD0yBBGRMTtqA8fjlg0CEeL259fRyiuLrf2U-Cdc-BN90WcqquUd4qnKVU_-AgsgZKsutz-Hx5S_da-Te0HsxpKecH_5sJppw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "能勢靖", "uri": "https://maps.google.com/maps/contrib/108084357719651702906" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5083375576076471382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:11:15+00:00" },
+          "researcher_note": "銀座の老舗洋食店。代替わり・業態変遷の具体的な取材はエディター判断。"
+        },
+        {
+          "cand_id": "rest-02",
+          "source_api": "google_places",
+          "source_id": "ChIJVVVhhsCOGGARRyUgGMUOAXY",
+          "title": "洋食 ヨシカミ",
+          "creator": "",
+          "meta": {
+            "address": "日本、〒111-0032 東京都台東区浅草１丁目４１−４",
+            "primary_type": "和食店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBcL6zu4JwUvbsZORBFoifn4ml6tSgXItDE9UxomY3c60q6vv-i-JZv9jkWE2Q4Mj-IbcMME3LFw-zcygXjqUCxp_P4FnqAQgaefB29AfWo1zGy59gtCel6nswWVYHJOGPLHCiE11tl3Sum7rjtfYg44g=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "くさまっちhideo", "uri": "https://maps.google.com/maps/contrib/105092816793268081337" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8503093811128313159&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:11:15+00:00" },
+          "researcher_note": "浅草の老舗洋食店。代替わり・業態変遷の具体的な取材はエディター判断。"
+        },
+        {
+          "cand_id": "rest-03",
+          "source_api": "google_places",
+          "source_id": "ChIJeRg0L56OGGARje4XjxmdLO4",
+          "title": "黒船亭",
+          "creator": "",
+          "meta": {
+            "address": "日本、〒110-0005 東京都台東区上野２丁目１３−１３ キクヤビル 4Ｆ",
+            "primary_type": "洋食レストラン"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjC9Zpo-fw-7KzMG19xfZqxKImrMlpcIod0yLA7Rbns1JpsiDUlDlNJGPy4wjrW1GwILcEfx-9D87-OGNRaEkXL5C9qOeYOrP_kSgHSzCrk04Lh-4U_pPwnFEe4msD6LS4JCOvIcaK_W3-9HArFVf0Ne=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "黒船亭", "uri": "https://maps.google.com/maps/contrib/113798261347911914758" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17162265013102571149&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:11:15+00:00" },
+          "researcher_note": "上野の老舗洋食店。代替わり・業態変遷の具体的な取材はエディター判断。"
+        },
+        {
+          "cand_id": "rest-04",
+          "source_api": "google_places",
+          "source_id": "ChIJy3CfE_KLGGARRpErqoBuCUE",
+          "title": "日比谷松本楼",
+          "creator": "",
+          "meta": {
+            "address": "日本、〒100-0012 東京都千代田区日比谷公園１−２",
+            "primary_type": "洋食レストラン"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDlmXmUJkoQa7sjESJrqTBrfIS6JCP_2uHEal7KTFCWcsS9glvRYssWqp6jBXVtTyy2x7nEtug1tXE-55rvOyTFF-z0lDQeylnplCAr8ymBz3pT0Z6TCpvL73jMb7DbQpCHGjns_6KsNxSlmg=s4800-w611",
+            "source": "google-places",
+            "attributions": [ { "name": "日比谷松本楼", "uri": "https://maps.google.com/maps/contrib/106777282521719657404" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4686398386145562950&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:11:15+00:00" },
+          "researcher_note": "日比谷公園内の老舗洋食レストラン。代替わり・業態変遷の具体的な取材はエディター判断。"
+        },
+        {
+          "cand_id": "rest-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ4Qv1zU-JGGARx5y6yk6B-yI",
+          "title": "芳味亭 人形町本店",
+          "creator": "",
+          "meta": {
+            "address": "日本、〒103-0013 東京都中央区日本橋人形町２丁目３−４",
+            "primary_type": "洋食レストラン"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCqR84ml9Mo2DSKQ6fXUPHyLFUJ83RAvM_HHnaV2zsHFwGRG0FJZrl8FldKcNQFkJYPRdGiEjGHGPtEUxcOxcoUU8Z0wH1Bt5zqnR1Z04tkw95sHEpKiiwSA4av0bc01ZpcyXxJeNPVPI9IXpI=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "芳味亭 人形町本店", "uri": "https://maps.google.com/maps/contrib/103228977953281958746" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2520750591852584135&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:11:15+00:00" },
+          "researcher_note": "人形町の老舗洋食店。代替わり・業態変遷の具体的な取材はエディター判断。"
+        },
+        {
+          "cand_id": "rest-06",
+          "source_api": "google_places",
+          "source_id": "ChIJrZEE_dKMGGARU4h1yE7wsnQ",
+          "title": "中国老舗 天津飯店 新宿本店",
+          "creator": "",
+          "meta": {
+            "address": "日本、〒160-0023 東京都新宿区西新宿３丁目２−１１ B1",
+            "primary_type": "中華料理店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjD4E-6okXaiWurYmeUAzSaRIXKC0ql2RC5bVIXm1G7OgKdI5Wc5GuajBK98nGzp37NRQf5bdRJITrHl1yyHy8drVaBy-wTbnCiTg0uDcOxsThrENaRd5ymC8lYOLI-lyFmKpdMp8OnuMrMs=s4800-w1080",
+            "source": "google-places",
+            "attributions": [ { "name": "中国老舗 天津飯店 新宿本店", "uri": "https://maps.google.com/maps/contrib/100699981859572898962" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8409047675415398483&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:11:15+00:00" },
+          "researcher_note": "新宿の中華料理店。「老舗」を屋号に掲げる。代替わり・業態変遷の具体的な取材はエディター判断。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
