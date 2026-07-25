@@ -1,0 +1,39 @@
+{
+  "genko_match": true,
+  "genko_detail": {
+    "lead": true,
+    "items[0].essay": true,
+    "items[1].essay": true,
+    "items[2].essay": true
+  },
+  "links_ok": false,
+  "links_detail": {
+    "present": {
+      "https://maps.google.com/?cid=6493224742864903052&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true,
+      "https://itunes.apple.com/jp/movie/%E3%82%A2%E3%83%B3%E3%82%BD%E3%83%8B%E3%83%BC-%E3%83%9B%E3%83%97%E3%82%AD%E3%83%B3%E3%82%B9%E3%81%AE%E3%83%AA%E3%82%A2%E7%8E%8B-%E5%AD%97%E5%B9%95%E7%89%88/id1579837681?uo=4": true,
+      "https://ndlsearch.ndl.go.jp/books/R100000002-I034411972": true
+    },
+    "unknown_external": [
+      "https://maps.google.com/maps/contrib/115433417175341252753"
+    ],
+    "unsafe_schemes": [],
+    "event_handlers": []
+  },
+  "pr_labels_ok": true,
+  "html_ok": true,
+  "okuzuke_ok": true,
+  "url_status": [
+    {
+      "url": "https://maps.google.com/?cid=6493224742864903052&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "status": 200
+    },
+    {
+      "url": "https://itunes.apple.com/jp/movie/%E3%82%A2%E3%83%B3%E3%82%BD%E3%83%8B%E3%83%BC-%E3%83%9B%E3%83%97%E3%82%AD%E3%83%B3%E3%82%B9%E3%81%AE%E3%83%AA%E3%82%A2%E7%8E%8B-%E5%AD%97%E5%B9%95%E7%89%88/id1579837681?uo=4",
+      "status": 200
+    },
+    {
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034411972",
+      "status": 200
+    }
+  ]
+}

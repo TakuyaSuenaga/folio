@@ -1,0 +1,60 @@
+{
+  "vol": 8,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true,
+      "items[2].essay": true
+    },
+    "links_ok": false,
+    "links_detail": {
+      "present": {
+        "https://maps.google.com/?cid=6493224742864903052&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true,
+        "https://itunes.apple.com/jp/movie/%E3%82%A2%E3%83%B3%E3%82%BD%E3%83%8B%E3%83%BC-%E3%83%9B%E3%83%97%E3%82%AD%E3%83%B3%E3%82%B9%E3%81%AE%E3%83%AA%E3%82%A2%E7%8E%8B-%E5%AD%97%E5%B9%95%E7%89%88/id1579837681?uo=4": true,
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I034411972": true
+      },
+      "unknown_external": [
+        "https://maps.google.com/maps/contrib/115433417175341252753"
+      ],
+      "unsafe_schemes": [],
+      "event_handlers": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=6493224742864903052&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://itunes.apple.com/jp/movie/%E3%82%A2%E3%83%B3%E3%82%BD%E3%83%8B%E3%83%BC-%E3%83%9B%E3%83%97%E3%82%AD%E3%83%B3%E3%82%B9%E3%81%AE%E3%83%AA%E3%82%A2%E7%8E%8B-%E5%AD%97%E5%B9%95%E7%89%88/id1579837681?uo=4",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034411972",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "links_detail.unknown_external(machine.json)/items[0] 写真クレジット行",
+      "severity": "minor",
+      "type": "リンク照合(誤検知の疑い)",
+      "genzai": "machine.jsonがunknown_externalとして https://maps.google.com/maps/contrib/115433417175341252753 を検出しlinks_ok: falseとしている",
+      "teisei": "訂正不要。このURLは05_goudata items[0].image.attributions[0].uriそのものであり、Google Places写真の撮影者(Kim)クレジットとして画像直下に正しく設置されている。機械チェックがitemの`links`配列のみを照合対象とし`image.attributions`を見ていないための誤検知と判断する(vol.007のP-01と同型)。ゲラ側の欠落・不正リンクではないため実害なし。ただしlinks_ok自体は現状falseのままである点は編集長への申し送りが必要"
+    },
+    {
+      "id": "P-02",
+      "location": "奥付「店舗写真: Powered by Google」行",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "店舗写真: Powered by Google",
+      "teisei": "本号でgoogle-places写真を使用しているitems[0]は「旧第一銀行 横浜支店」という建築物(architecture)であり、営業中の店舗ではない。「店舗写真」の語はvol.007(restaurant掲載回)の奥付文言をそのまま流用したものと見られ、被写体と整合しない。「掲載写真: Powered by Google」等、対象を限定しない表記への変更を提案する"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<!-- AD NOTE vol.008
+特集: 空席 / 特色: #6B6355(石灰漆喰のくすんだ灰褐色——空き家の壁に家具の跡だけが残る色)。彩度は低いが明度は文字にも面にも足るため両方に使用可
+扉: 特集タイトル「空席」を輪郭のみの中抜き文字(-webkit-text-stroke、塗りは透明)で組み、判型右へ裁ち落として「席」の右側を欠けさせた。文字そのものが不在を体現する。下に罫で囲んだ小さな額(プラカード)を置き、日付だけを収める——中身のない「空席」プレートのつもり。VOL・誌名は上部に小さく横並び / 本文: 2段+段間罫 / 反転: film(アンソニー・ホプキンスのリア王)セクションのみ黒地白抜き(王が退位し玉座の灯が落ちる瞬間を暗転で表現) / アクセント書体: Zen Old Mincho(VOL数字・日付・奥付見出しのみ、議会や教皇庁の公示文書の質感を狙った)
+前号との差分: vol.007が焦茶・二文字分割+交換ゾーン罫・1段・restaurantセクション反転・アクセント書体なしだったため、灰褐色・中抜き文字の裁ち落とし・2段・filmセクション反転・明朝アクセント追加へ変更した
+本号は3点構成。architectureセクションのみgoogle-places写真を掲載したため、写真直下にクレジット、奥付にPowered by Googleを付記
+責了対応: P-02を適用(奥付「店舗写真」→「掲載写真」。被写体の旧第一銀行横浜支店は非営業の建築物のため)
+-->
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VOL.008 空席 — folio</title>
+<meta property="og:title" content="VOL.008 空席">
+<meta property="og:description" content="議長の椅子はまだ定まらない。福岡県議会の攻防が示すのは、空席とは喪失の跡ではなく、次の主体を選び直すための猶予だという逆説である。">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Zen+Old+Mincho:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --spot: #6B6355;
+  --ink: #111;
+  --paper: #FBFBF8;
+  --desk: #D9D9D6;
+  --rule: 1px solid var(--ink);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 32px 0;
+  background: var(--desk); color: var(--ink);
+  font-family: "Noto Sans JP", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.hanmen {
+  width: 390px; max-width: 100%; margin: 0 auto;
+  background: var(--paper);
+  box-shadow: 0 0 24px rgba(0,0,0,.18);
+  overflow: hidden;
+}
+a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+
+/* ---- 扉 ---- */
+.tobira { padding: 32px 0 26px; }
+.masthead-row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 0 16px; margin-bottom: 34px;
+  font-size: 9px; letter-spacing: .18em; font-weight: 700;
+}
+.masthead-row .logo { font-weight: 900; font-size: 11px; letter-spacing: .3em; }
+.masthead-row .vol-tag { font-family: "Zen Old Mincho", serif; font-weight: 700; letter-spacing: .1em; }
+.tobira-title {
+  margin: 0 -18px 22px 2px; padding: 0;
+  font-size: 138px; font-weight: 900; line-height: .88;
+  letter-spacing: -.06em; font-feature-settings: "palt";
+  white-space: nowrap; text-align: right;
+  color: var(--ink);
+}
+@supports (-webkit-text-stroke: 1px black) {
+  .tobira-title { color: transparent; -webkit-text-stroke: 2px var(--ink); }
+}
+.tobira-frame {
+  margin: 0 16px; padding: 8px 12px;
+  border: 1px solid var(--spot);
+  display: flex; justify-content: flex-end;
+}
+.tobira-date {
+  font-family: "Zen Old Mincho", serif; font-weight: 400;
+  font-size: 12px; letter-spacing: .1em; color: var(--spot);
+}
+
+/* ---- リード ---- */
+.lead-wrap {
+  display: flex; justify-content: flex-end;
+  padding: 24px 16px;
+  border-bottom: var(--rule);
+}
+.lead-v {
+  writing-mode: vertical-rl; line-height: 2.15;
+  height: 264px;
+  font-size: 13px; letter-spacing: .06em; font-weight: 400;
+  text-align: justify;
+}
+.lead-v span[style*="text-combine"] { text-combine-upright: all; }
+
+/* ---- セクション ---- */
+.section { padding: 28px 16px 20px; border-bottom: var(--rule); }
+.genre-label {
+  font-size: 10px; letter-spacing: .15em; font-weight: 700;
+  color: var(--spot); margin-bottom: 12px; display: block;
+}
+.item-title {
+  font-size: 18px; font-weight: 900; line-height: 1.3;
+  letter-spacing: -.03em; font-feature-settings: "palt";
+  margin: 0 0 12px; word-break: break-word;
+}
+.honbun {
+  font-size: 12px; line-height: 2; text-align: justify; margin: 0 0 16px;
+}
+.cols-2 { column-count: 2; column-gap: 14px; column-rule: 1px solid var(--ink); }
+.photo { display: block; width: 100%; height: auto; margin: 0 0 6px; border: 1px solid var(--ink); }
+.photo-credit { font-size: 9px; color: #888; margin: 0 0 14px; }
+
+/* ---- DATA欄 ---- */
+.data { width: 100%; border-collapse: collapse; font-size: 10px; margin: 16px 0; }
+.data th, .data td { border: 1px solid var(--ink); padding: 6px 8px; text-align: left; font-weight: 400; }
+.data th { width: 5em; font-weight: 700; letter-spacing: .08em; }
+
+/* ---- 反転セクション(退位=玉座の灯が落ちる暗転) ---- */
+.section.invert { background: var(--ink); color: var(--paper); }
+.section.invert .cols-2 { column-rule-color: var(--paper); }
+.section.invert .data th, .section.invert .data td { border-color: var(--paper); }
+.section.invert .folio { border-top-color: var(--paper); color: #aaa; }
+.section.invert a { color: var(--paper); }
+
+/* ---- ノンブル・柱 ---- */
+.folio {
+  display: flex; justify-content: space-between;
+  font-size: 9px; letter-spacing: .12em; font-weight: 700;
+  border-top: var(--rule); padding: 8px 0; margin-top: 4px;
+  color: #555;
+}
+
+/* ---- 奥付 ---- */
+.colophon { padding: 24px 16px; font-size: 9px; line-height: 1.8; border-top: 3px double var(--ink); }
+.colophon-title { font-family: "Zen Old Mincho", serif; font-weight: 700; letter-spacing: .1em; margin-bottom: 8px; }
+.colophon-text { color: #666; }
+</style>
+</head>
+<body>
+
+<div class="hanmen">
+
+<!-- 扉 -->
+<div class="tobira">
+  <div class="masthead-row">
+    <span class="logo">folio</span>
+    <span class="vol-tag">VOL.008</span>
+  </div>
+  <h1 class="tobira-title">空席</h1>
+  <div class="tobira-frame"><span class="tobira-date">2026.07.25</span></div>
+</div>
+
+<!-- リード -->
+<div class="lead-wrap"><div class="lead-v">議長の椅子はまだ定まらない。福岡県議会の攻防が示すのは、空席とは喪失の跡ではなく、次の主体を選び直すための猶予だという逆説である。空き家に残る建築の空白、後継者選びを描く映画、不在の人物を軸に置く小説——空席は終わりでなく、始まりの構えとして立つ。</div></div>
+
+<!-- ARCHITECTURE セクション -->
+<div class="section">
+  <span class="genre-label">ARCHITECTURE</span>
+  <h2 class="item-title">旧第一銀行 横浜支店</h2>
+
+  <img class="photo" src="https://lh3.googleusercontent.com/place-photos/AG9NLjDC2enenR9btUoWLHbzPXLfykM6EVyAPBKoToWX_QAVk5U06_5XamcHq-zGxaMpqp42kzDWvlSp20J_kL55yMpA1dMXYan7xnUDFYfyRiVdNi77E1E8DQ_nFAGvJUEVbVCIvaQQgWdYS7s3krzV8HLcig=s4800-w1200" alt="旧第一銀行 横浜支店 の写真">
+  <div class="photo-credit">写真: <a href="https://maps.google.com/maps/contrib/115433417175341252753">Kim</a></div>
+
+  <div class="cols-2">
+  <p class="honbun">横浜市中区本町、かつて第一銀行横浜支店として窓口を構えていた建物は、いまも同じ番地に建つ。銀行としての営業を終えて久しいが、次に何の場として使われているかは、公にされた情報からは読み取れない。地図上の記録において、この建物の用途を記す欄は空白のまま置かれている。取り壊されて更地になるのでもなく、文化財として名指されて保存の物語を与えられるのでもない。銀行という主体が占めていた輪郭だけが、いまも建物の外形として残っている。次の使用者がいつ現れるか、あるいは現れないままなのかも、公式には示されていない。地図が示すのは所在地という事実のみであり、そこに何が起きているかについては沈黙している。銀行という主体を失った空間が、次の主体を迎える前の、まさに宙づりの時間をそのまま留めている。</p>
+  </div>
+
+  <table class="data">
+    <tr><th>名称</th><td>旧第一銀行 横浜支店</td></tr>
+    <tr><th>住所</th><td>神奈川県横浜市中区本町６丁目５０−１</td></tr>
+    <tr><th>入手</th><td><a href="https://maps.google.com/?cid=6493224742864903052&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" rel="noopener">Google Mapsで見る</a></td></tr>
+  </table>
+
+  <div class="folio">
+    <div>folio —— 空席</div>
+    <div>008 —— 01</div>
+  </div>
+</div>
+
+<!-- FILM セクション(反転) -->
+<div class="section invert">
+  <span class="genre-label">FILM</span>
+  <h2 class="item-title">アンソニー・ホプキンスのリア王</h2>
+
+  <div class="cols-2">
+  <p class="honbun">戯曲の翻案としての本作は、舞台をエリザベス朝の宮廷から、超軍備化が進んだ二十一世紀のロンドンへ移す。監督はリチャード・エア、主演はアンソニー・ホプキンス。主権者が引退にあたり自ら地位を明け渡す場面は、簒奪や暗殺による空席とは異なる——王自らが空席を作り出す瞬間として画面に置かれる。王は退位にあたり、愛する三人の娘に領土を分け与えようとするが、姉二人(エマ・トンプソン、エミリー・ワトソン)は父への忠誠を偽って誓う。カメラは三人の娘の位置取りを丹念に追い、誰がどの角度で王に対峙しているかによって、まだ埋まらない権力の配分を可視化する。忠誠の言葉が真実か偽りかを見分けがたいまま、空席となる玉座の行方だけが画面の焦点であり続ける。</p>
+  </div>
+
+  <table class="data">
+    <tr><th>作品名</th><td>アンソニー・ホプキンスのリア王</td></tr>
+    <tr><th>監督</th><td>リチャード・エア</td></tr>
+    <tr><th>年</th><td>2021</td></tr>
+    <tr><th>ジャンル</th><td>ドラマ</td></tr>
+    <tr><th>入手</th><td><a href="https://itunes.apple.com/jp/movie/%E3%82%A2%E3%83%B3%E3%82%BD%E3%83%8B%E3%83%BC-%E3%83%9B%E3%83%97%E3%82%AD%E3%83%B3%E3%82%B9%E3%81%AE%E3%83%AA%E3%82%A2%E7%8E%8B-%E5%AD%97%E5%B9%95%E7%89%88/id1579837681?uo=4" rel="noopener">iTunesで見る</a></td></tr>
+  </table>
+
+  <div class="folio">
+    <div>folio —— 空席</div>
+    <div>008 —— 02</div>
+  </div>
+</div>
+
+<!-- BOOK セクション -->
+<div class="section">
+  <span class="genre-label">BOOK</span>
+  <h2 class="item-title">教皇選挙</h2>
+
+  <div class="cols-2">
+  <p class="honbun">ロバート・ハリス著『教皇選挙』は、原題および邦題の読みコンクラーベが示す通り、教皇の死によって生じた空位を埋める選挙そのものを構成の軸に据える。廣井書房から二〇二五年に刊行された邦訳は人見謙剛の手による。物語は投票の失敗と再投票という手続きの反復で進む。選挙人である枢機卿たちはシスティーナ礼拝堂に外部との通信を断たれたまま留め置かれ、読者もまた候補者の思惑以外の情報を与えられない。この情報の絞り込みが、密室の手続き文学としての読書体験を作る。地位の不在は誰か一人の物語ではなく、投票という制度そのものが次の主体を選び出す過程として描かれ、空席は埋められるべき穴ではなく手続きを駆動する装置として機能する。</p>
+  </div>
+
+  <table class="data">
+    <tr><th>書名</th><td>教皇選挙</td></tr>
+    <tr><th>著者</th><td>Harris, Robert, 1957- / 人見, 謙剛, 1958-</td></tr>
+    <tr><th>刊行年</th><td>2025</td></tr>
+    <tr><th>版元</th><td>廣井書房</td></tr>
+    <tr><th>読み</th><td>コンクラーベ</td></tr>
+    <tr><th>入手</th><td><a href="https://ndlsearch.ndl.go.jp/books/R100000002-I034411972" rel="noopener">NDLサーチで見る</a></td></tr>
+  </table>
+
+  <div class="folio">
+    <div>folio —— 空席</div>
+    <div>008 —— 03</div>
+  </div>
+</div>
+
+<!-- 奥付 -->
+<div class="colophon">
+  <div class="colophon-title">folio VOL.008</div>
+  <div class="colophon-text">
+    発行日: 2026年7月25日<br>
+    発行元: folio編集部<br>
+    <br>
+    掲載写真: Powered by Google<br>
+    <br>
+    本誌の一部リンクはアフィリエイトプログラムを利用しており、リンク経由の購入等により発行元が収益を得ることがあります。
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>

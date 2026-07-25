@@ -1,0 +1,292 @@
+{
+  "vol": 8,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "architecture-01",
+          "source_api": "google_places",
+          "source_id": "ChIJ10ec-L4SHmAR1A44bdSP1Jc",
+          "title": "泊まれる学校 さる小 （社）猿ヶ京小学校 スポーツアカデミー",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "群馬県利根郡みなかみ町相俣１７４４−１５",
+            "primary_type": "宿泊所"
+          },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDFbGAHPUd23iocXon3DVF1mkgNGVMrCVjCTKhGd4EVUMs4sN9BWlmnY70xyZyvLEGyyGX9Z8Uj-oZO8XL4jygykET0pe_lo3sThMCAq1SkPefqu_RfPLPRGCU9ZXPT1MJz_MoMPBFlxICVUw=s4800-w1200", "source": "google-places", "attributions": [ { "name": "泊まれる学校 さる小 （社）猿ヶ京小学校 スポーツアカデミー", "uri": "https://maps.google.com/maps/contrib/109318713734818706204" } ] },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=10940527537318006484&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T00:54:59+00:00" },
+          "researcher_note": "廃校となった旧猿ヶ京小学校の校舎を宿泊施設として転用した実例。屋号自体が「泊まれる学校」を名乗り、機能を失った建築が次の使用を待つ状態そのものを体現する"
+        },
+        {
+          "cand_id": "architecture-02",
+          "source_api": "google_places",
+          "source_id": "ChIJWUPQrR-MGGARa622uywYz2E",
+          "title": "3331 Arts Chiyoda",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都千代田区外神田６丁目１１−１４",
+            "primary_type": "アート ギャラリー"
+          },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDc0W_waWokRMnmJoQ50j2HbxnvqAOqbunbx13--1PQcuXdnhRXy0rEB-pIQOpUhxc72QvrYDedlqwH7MRfdB6s5lGrPD614Up0GTD9bBk3KEq3MT4jMzm5MDxJE2kHLRNikXSQ390GZWfP8A=s4800-w1200", "source": "google-places", "attributions": [ { "name": "yutaka saito", "uri": "https://maps.google.com/maps/contrib/111660771123323946250" } ] },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=7047878522265054571&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T00:54:59+00:00" },
+          "researcher_note": "廃校になった旧練成中学校の校舎をアートセンターに転用した実例。学校建築という公共機能を失った建物が、次の用途としてアートスペースへ転じた過程を体現する"
+        },
+        {
+          "cand_id": "architecture-03",
+          "source_api": "google_places",
+          "source_id": "ChIJ0cbgSgJdGGARjFs9RYCRHFo",
+          "title": "旧第一銀行 横浜支店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "神奈川県横浜市中区本町６丁目５０−１",
+            "primary_type": ""
+          },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDC2enenR9btUoWLHbzPXLfykM6EVyAPBKoToWX_QAVk5U06_5XamcHq-zGxaMpqp42kzDWvlSp20J_kL55yMpA1dMXYan7xnUDFYfyRiVdNi77E1E8DQ_nFAGvJUEVbVCIvaQQgWdYS7s3krzV8HLcig=s4800-w1200", "source": "google-places", "attributions": [ { "name": "Kim", "uri": "https://maps.google.com/maps/contrib/115433417175341252753" } ] },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=6493224742864903052&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T00:54:59+00:00" },
+          "researcher_note": "銀行支店としての営業を終えた建物。primary_typeがPlacesレスポンス上空欄であり、現在の用途はレスポンスから確認できない。旧用途の喪失と現況の間にある空白そのものが発注に近い"
+        },
+        {
+          "cand_id": "architecture-04",
+          "source_api": "google_places",
+          "source_id": "ChIJ41V6qRuLGGAR3hfLAFHax1A",
+          "title": "旧朝香宮鳩彦王邸宅",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都港区白金台５丁目２１−９",
+            "primary_type": "史跡"
+          },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBBWUNXM0c53P1SsUifXs0wYGQ4NEkn8tWhmZRgR-pirTEILKicXPx8HeabmmNCA57Eq0cvEwHYjz5lh-IX3leEC8eHoFHdJH5WKwKzY877ItsnGLTKSEHjcXo5dYA9RPXqMyUHXh8ChPaQWQ=s4800-w1200", "source": "google-places", "attributions": [ { "name": "T K", "uri": "https://maps.google.com/maps/contrib/111438113266184072820" } ] },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=5820861084840171486&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T00:54:59+00:00" },
+          "researcher_note": "皇族の邸宅としての機能を失い史跡として現存する建物。居住という当初機能が失われてから次の公開用途に至るまでの空白期間を持つ点が発注に近いが、既に用途が確立して久しく「待つ」状態からは離れている点に留意"
+        },
+        {
+          "cand_id": "architecture-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ7x2-BSSMGGARahVDg6WIAag",
+          "title": "旧岩崎邸庭園",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都台東区池之端１丁目３−４５",
+            "primary_type": "庭園"
+          },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBIfYmYSfP7O42oRHZAYmVBJLRHhfdW9NqIPVpcxdkgNg1rd35nBq3Kvx12BVq-Q9VqLGdpu4MEukJL_jSzt3m_nOOb-fNNd8Sh4-KOiCBpYZxyI5FpE1UnCYi7HZ-tR1rGrrYySjexKhf7rUWslnvrlQ=s4800-w1200", "source": "google-places", "attributions": [ { "name": "chika hpo", "uri": "https://maps.google.com/maps/contrib/104597224981835069308" } ] },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=12106107517801796970&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T00:54:59+00:00" },
+          "researcher_note": "三菱財閥・岩崎家本邸としての居住機能を失った建物が庭園として現存する実例。旧邸宅系候補のうち敷地全体が公開されている点でarchitecture-04と性格が近く、比較対象になる"
+        }
+      ]
+    },
+    {
+      "genre": "film",
+      "candidates": [
+        {
+          "cand_id": "film-01",
+          "source_api": "itunes",
+          "source_id": "978181009",
+          "title": "蜘蛛巣城",
+          "creator": "黒澤明",
+          "year": 1957,
+          "publisher": "",
+          "meta": {
+            "primary_genre": "日本映画",
+            "short_description": "戦国時代、蜘蛛巣城の城主・国春に仕える鷲津武時は謎の老婆の予言を聞く。それによれば武時はやがて城主になれるという。もとより権力欲の強い武時は妻の勧めも手伝い君主を殺害、城主に収まる。"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://itunes.apple.com/jp/movie/%E8%9C%98%E8%9B%9B%E5%B7%A3%E5%9F%8E/id978181009?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T00:53:38+00:00" },
+          "researcher_note": "シェイクスピア『マクベス』の戦国時代翻案。城主殺害による地位簒奪が主軸であり、発注が求める「空席が引き起こす力学」よりも簒奪そのものの心理劇に重心がある点に留意"
+        },
+        {
+          "cand_id": "film-02",
+          "source_api": "itunes",
+          "source_id": "1506895312",
+          "title": "関ヶ原",
+          "creator": "原田眞人",
+          "year": 2017,
+          "publisher": "",
+          "meta": {
+            "primary_genre": "日本映画",
+            "short_description": "関ヶ原の戦い――それは、戦乱の世に終止符を打ち、後の日本のありようを決定づけた。豊臣家への忠義から立ちあがる石田三成と、天下取りの野望を抱く徳川家康。三成と家康は、いかにして正規の合戦に向かうのか?"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://itunes.apple.com/jp/movie/%E9%96%A2%E3%83%B6%E5%8E%9F/id1506895312?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T00:53:38+00:00" },
+          "researcher_note": "豊臣秀吉没後、幼い後継者では治まらない権力の空白を石田三成と徳川家康が争って埋めようとする合戦を描く。空白そのものよりも両者の合戦・思想対立に重心がある点に留意"
+        },
+        {
+          "cand_id": "film-03",
+          "source_api": "itunes",
+          "source_id": "1531007571",
+          "title": "本能寺ホテル",
+          "creator": "鈴木雅之",
+          "year": 2017,
+          "publisher": "",
+          "meta": {
+            "primary_genre": "日本映画",
+            "short_description": "倉本繭子(綾瀬はるか)は、ふとしたきっかけで京都の路地裏に佇むレトロな宿“本能寺ホテル”に宿泊する事に。なんとそこは戦国時代に繋がる不思議なホテルだった。一方、時は1582年。"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://itunes.apple.com/jp/movie/%E6%9C%AC%E8%83%BD%E5%AF%BA%E3%83%9B%E3%83%86%E3%83%AB/id1531007571?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T00:53:38+00:00" },
+          "researcher_note": "本能寺の変前夜が舞台の時空移動コメディ。信長没後の権力力学ではなく現代人と信長個人の交流が主軸であり、発注(後継者未定の空白が物語を動かす)からは距離がある候補として収録"
+        },
+        {
+          "cand_id": "film-04",
+          "source_api": "itunes",
+          "source_id": "1766528507",
+          "title": "ゴールデン・スローン 黄金の玉座 (字幕/吹替)",
+          "creator": "ルステム・アブドラシェヴ",
+          "year": 2024,
+          "publisher": "",
+          "meta": {
+            "primary_genre": "ドラマ",
+            "long_description": "ケレイをハンとして創設されたカザフ汗国で、人々は自由を謳歌し平和に暮らしていた。だが、ケレイとジャニベクは、亡くなったモグーリスタンの統治者エセンブカの葬儀のことで頭を悩ませていたが、二人の息子のカシムとブルンダクに行かせることにした。そして、エセンブカの後を継いでハンとなった息子のドスモハメド（父親を殺した張本人である）の元へ向かうカシムとブルンダクであったが、道中でオイラトのゼングと遭遇。互いに口論に発展し、カシムとゼングが一騎打ちで戦うことになる。"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://itunes.apple.com/jp/movie/%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3-%E3%82%B9%E3%83%AD%E3%83%BC%E3%83%B3-%E9%BB%84%E9%87%91%E3%81%AE%E7%8E%89%E5%BA%A7-%E5%AD%97%E5%B9%95-%E5%90%B9%E6%9B%BF/id1766528507?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T00:53:38+00:00" },
+          "researcher_note": "カザフ汗国の統治者エセンブカ没後の後継争いを描く歴史劇。父殺しによる簒奪という具体的経緯がレスポンスに明記されており、空席そのものより簒奪の力学が主軸である点に留意"
+        },
+        {
+          "cand_id": "film-05",
+          "source_api": "itunes",
+          "source_id": "1579837681",
+          "title": "アンソニー・ホプキンスのリア王 (字幕版)",
+          "creator": "リチャード・エア",
+          "year": 2021,
+          "publisher": "",
+          "meta": {
+            "primary_genre": "ドラマ",
+            "short_description": "21世紀の超軍備化が進んだロンドン。主権者のリア王(アンソニー・ホプキンス)は、退位にあたり愛する3人の娘に領土を与えるが、姉二人(エマ・トンプソン、エミリー・ワトソン)の父への偽の忠誠を誓うのに対し"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://itunes.apple.com/jp/movie/%E3%82%A2%E3%83%B3%E3%82%BD%E3%83%8B%E3%83%BC-%E3%83%9B%E3%83%97%E3%82%AD%E3%83%B3%E3%82%B9%E3%81%AE%E3%83%AA%E3%82%A2%E7%8E%8B-%E5%AD%97%E5%B9%95%E7%89%88/id1579837681?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T00:53:38+00:00" },
+          "researcher_note": "シェイクスピア『リア王』翻案。国王が自ら退位して領土を分割することで生じる権力の空白と、その空白を娘たちが埋めようとする力学が主軸であり、発注の「後継者未定の空白が物語を動かす」に最も直接的に合致する"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784569849386",
+          "title": "プリンス",
+          "creator": "真山,仁,1962-",
+          "year": 2021,
+          "publisher": "PHP研究所",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031452673", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T01:00:03+00:00" },
+          "researcher_note": "真山仁の長編小説。NDL/openBDのレスポンスには書誌情報のみでプロット要約が含まれず、地位の空席という主題との適合度は本文確認が必要"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784167900021",
+          "title": "コラプティオ",
+          "creator": "真山,仁,1962-",
+          "year": 2014,
+          "publisher": "文藝春秋",
+          "meta": {
+            "series": "文春文庫",
+            "volume": "ま33-1"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025088617", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T01:00:03+00:00" },
+          "researcher_note": "真山仁の政治小説。NDL/openBDのレスポンスには書誌情報のみでプロット要約が含まれず、地位の空席という主題との適合度は本文確認が必要"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784991291715",
+          "title": "教皇選挙",
+          "creator": "Harris, Robert, 1957- / 人見, 謙剛, 1958-",
+          "year": 2025,
+          "publisher": "廣井書房",
+          "meta": {
+            "title_transcription": "コンクラーベ"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034411972", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T01:00:03+00:00" },
+          "researcher_note": "ロバート・ハリスによる小説の邦訳(原題Conclave)。タイトルの読みが「コンクラーベ」であることがNDLレスポンスの titleTranscription に明記されており、教皇不在の間の選挙という地位の空席そのものを扱う作品であることが書誌情報からも裏付けられる"
+        },
+        {
+          "cand_id": "book-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784101240596",
+          "title": "図南の翼",
+          "creator": "小野,不由美,1960-",
+          "year": 2013,
+          "publisher": "新潮社",
+          "meta": {
+            "series": "新潮文庫",
+            "volume": "お-37-59. 十二国記"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024836094", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T01:00:03+00:00" },
+          "researcher_note": "「十二国記」シリーズの一冊。シリーズ名が volume 欄に明記される。NDL/openBDのレスポンスにはプロット要約が含まれず、王不在の国という主題との適合度は本文確認が必要"
+        },
+        {
+          "cand_id": "book-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784198944384",
+          "title": "木曜組曲",
+          "creator": "恩田,陸,1964-",
+          "year": 2019,
+          "publisher": "徳間書店",
+          "meta": {
+            "series": "徳間文庫",
+            "volume": "お30-3"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029460931", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T01:00:03+00:00" },
+          "researcher_note": "恩田陸の長編小説。NDL/openBDのレスポンスには書誌情報のみでプロット要約が含まれず、不在の人物を軸とする構造か(喪失の物語に寄っていないか)は本文確認が必要"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
