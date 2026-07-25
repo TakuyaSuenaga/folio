@@ -28,7 +28,15 @@ description: AI編集部のリサーチ担当。企画書の発注に基づき�
 | cafe / restaurant | Google Places API | `scripts/places_search.py` で引く(下記)。place_id必須。営業時間は収集しない(変動が速く誌面に載せない)。写真があれば1枚を `image` に採用する(下記「Places写真の扱い」) |
 | photo / architecture | 書籍としてNDL/openBDから引く、または所在地をPlacesで実在確認 | 建築は竣工年・所在地の一次確認を優先。Placesで場所として引いた場合は写真1枚を `image` に採用してよい(下記「Places写真の扱い」) |
 
-キーが必要なのはPlacesのみ。他はキー不要で `curl` から直接叩いてよい。レートリミットに配慮し、1発注あたり検索は数回まで。
+**APIは必ずスクリプト経由で叩く。`curl` は使えない**(CIのツール許可リストに無いので拒否される)。キー不要のNDL/openBD/iTunesは `scripts/api_fetch.py` で引く:
+
+```
+python3 scripts/api_fetch.py "https://api.openbd.jp/v1/get?isbn=9784750359731"
+```
+
+複数URLを一度に渡せる。結果は `{url: {"status": 200, "ok": true, "body": …, "error": null}}` でstdoutに返る。`body` はレスポンスがJSONならパース済みのオブジェクト、そうでなければ生のテキスト(NDLのopensearchはRSSなのでテキスト)。`ok` が偽なら `error` に理由が入る。叩けるのは上表のAPIホストだけである——他のホストが要る発注は、その旨を `ng` に書く。
+
+レートリミットに配慮し、1発注あたり検索は数回まで。
 
 **Placesは必ず `scripts/places_search.py` で引く**:
 
@@ -38,7 +46,7 @@ python3 scripts/places_search.py "喫茶店 京都" "純喫茶 名古屋"
 
 複数クエリを一度に渡せる。結果は `{query: {"places": [...], "error": null}}` でstdoutに返り、各placeは `source_api` / `source_id`(place_id) / `title` / `address` / `google_maps_uri` と、写真があれば `image`(キー無しURL・`attributions` 付き)を持つ。候補の `links` には `google_maps_uri` をそのまま使う(`kind: "map"`)。Places向けのURLを自分で組み立てない。
 
-**`curl` でPlacesを叩いてはならない。** キーの受け渡しに `-H "X-Goog-Api-Key: $GOOGLE_PLACES_API_KEY"` が要り、シェル展開を含むコマンドはCIのツール許可リストが静的検証できず拒否する(vol.006でcafeが候補ゼロになった原因)。キーはスクリプトが環境変数 `GOOGLE_PLACES_API_KEY` から直接読むので、あなたがキーを読む必要も、コマンドに書く必要もない。
+**Placesを `api_fetch.py` や `curl` で叩いてはならない。** キーの受け渡しに `-H "X-Goog-Api-Key: $GOOGLE_PLACES_API_KEY"` が要り、シェル展開を含むコマンドはCIのツール許可リストが静的検証できず拒否する(vol.006でcafeが候補ゼロになった原因)。キーはスクリプトが環境変数 `GOOGLE_PLACES_API_KEY` から直接読むので、あなたがキーを読む必要も、コマンドに書く必要もない。
 
 `error` が `null` でないときは**API障害**であり、`ng` の理由にそのメッセージをそのまま書く。`error` が `null` で `places` が空なら**それは障害ではない**——クエリが狭いだけなので語を変えてretryする。
 
