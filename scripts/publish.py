@@ -181,6 +181,12 @@ def publish(root: Path, vol: int) -> int:
     if not gera.exists():
         raise SystemExit(f"[error] {gera} が無い")
 
+    issue_path = root / "issues" / f"vol-{vol:03d}.html"
+    existing_vols = {entry["vol"] for entry in parse_daicho(
+        (root / "editorial" / "daicho.md").read_text(encoding="utf-8"))}
+    if issue_path.exists() or vol in existing_vols:
+        raise SystemExit(f"[error] vol.{vol:03d} は発行済み。上書き・重複追記を拒否する")
+
     # ここまでで検証を終え、新しい内容を全て生成してから書き込む。
     # 途中で失敗しても中途半端な状態(号ページだけ公開・台帳だけ追記)を残さないため
     daicho_path = root / "editorial" / "daicho.md"
@@ -200,7 +206,7 @@ def publish(root: Path, vol: int) -> int:
 
     issues = root / "issues"
     issues.mkdir(exist_ok=True)
-    shutil.copyfile(gera, issues / f"vol-{vol:03d}.html")
+    shutil.copyfile(gera, issue_path)
     daicho_path.write_text(text, encoding="utf-8")
     moushiokuri_path.write_text(new_moushiokuri, encoding="utf-8")
     (issues / "index.html").write_text(index_html, encoding="utf-8")

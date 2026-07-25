@@ -10,6 +10,7 @@
 4. **issues/ には校了済みのみ**: ゲラは `desk/` に置く
 5. **落丁より休刊**: 品質が確保できない日は休刊する。休刊はvol番号を消費しない
 6. **desk/ は全てコミットする**: 編集ログは資産である
+7. **部分成功で発行する**: 一部ジャンルが失敗しても、実在性と品質を満たす記事が1件以上あれば成功分だけで発行する。全ジャンルが失敗して `items: []` の場合に限り休刊する
 
 ## 工程(担当スキルは .claude/skills/)
 
@@ -18,6 +19,7 @@
 | 1 | 企画 | editor-in-chief | desk/vol-NNN/01_kikaku.json |
 | 2 | リサーチ | researcher | 02_kouho.json |
 | 3 | 執筆 | genre-editor | 03_genko.json |
+| 3b | 実在チェーン検証 | scripts/validate_chain.py | 成功itemあり=続行 / 0件=休刊 |
 | 4 | 校閲 | koetsu | 04_koetsu.json |
 | 4b | 改稿(fix_required時のみ・1回) | genre-editor | 03を更新 |
 | 5 | リンク加工 | scripts/link_decorator.py | 05_goudata.json |

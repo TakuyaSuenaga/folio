@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
 
+import pytest
+
 import kousei_machine
 
 FIXTURES = Path(__file__).resolve().parent / "fixtures" / "vol-002"
@@ -72,6 +74,22 @@ def test_image_url_not_in_goudata_still_flagged_as_unknown():
     # Assert
     assert machine["links_ok"] is False
     assert rogue in machine["links_detail"]["unknown_external"]
+
+
+def test_places_attribution_uri_is_known_external():
+    d, html = load_fixture()
+    photo_url = "https://lh3.googleusercontent.com/places/abc=w1200"
+    credit_url = "https://maps.google.com/maps/contrib/123"
+    d["items"][0]["image"] = {
+        "url": photo_url, "source": "google-places",
+        "attributions": [{"name": "撮影者", "uri": credit_url}],
+    }
+    html = html.replace(
+        "</body>",
+        f'<img src="{photo_url}" alt="写真"><a href="{credit_url}">撮影者</a></body>')
+    machine = kousei_machine.build_machine(d, html, check_urls=False)
+    assert credit_url not in machine["links_detail"]["unknown_external"]
+    assert machine["links_ok"] is True
 
 
 def test_check_urls_records_measured_status(monkeypatch):
@@ -242,3 +260,52 @@ def test_relative_and_hash_and_mailto_hrefs_are_handled():
     assert "./other.html" not in machine["links_detail"]["unsafe_schemes"]
     assert "#note" not in machine["links_detail"]["unsafe_schemes"]
     assert "mailto:a@example.com" in machine["links_detail"]["unsafe_schemes"]
+
+
+def test_unquoted_javascript_href_fails_links_ok():
+    d, html = load_fixture()
+    evil = html.replace("</body>", "<a href=javascript:alert(1)>x</a></body>")
+    machine = kousei_machine.build_machine(d, evil, check_urls=False)
+    assert machine["links_ok"] is False
+    assert "javascript:alert(1)" in machine["links_detail"]["unsafe_schemes"]
+
+
+def test_meta_refresh_fails_links_ok():
+    d, html = load_fixture()
+    evil = html.replace(
+        "</head>", '<meta http-equiv="refresh" content="0;url=https://evil.example"></head>')
+    machine = kousei_machine.build_machine(d, evil, check_urls=False)
+    assert machine["links_ok"] is False
+    assert machine["links_detail"]["meta_refresh"] is True
+
+
+def test_external_css_url_fails_links_ok():
+    d, html = load_fixture()
+    evil = html.replace(
+        "</style>", "body{background:url(https://evil.example/track)}</style>", 1)
+    machine = kousei_machine.build_machine(d, evil, check_urls=False)
+    assert machine["links_ok"] is False
+    assert machine["links_detail"]["css_external"] == ["https://evil.example/track"]
+
+
+def test_enforce_rejects_failed_machine():
+    with pytest.raises(SystemExit):
+        kousei_machine.assert_publishable({
+            "genko_match": True, "links_ok": False, "pr_labels_ok": True,
+            "html_ok": True, "okuzuke_ok": True,
+        })
+
+
+def test_final_check_uses_lead_final(tmp_path):
+    d, html = load_fixture()
+    goudata = tmp_path / "05.json"
+    goudata.write_text(json.dumps(d, ensure_ascii=False), encoding="utf-8")
+    gera = tmp_path / "gera.html"
+    gera.write_text(html, encoding="utf-8")
+    kouryou = tmp_path / "07.json"
+    kouryou.write_text(json.dumps({"lead_final": "ゲラに存在しない確定リード"}),
+                        encoding="utf-8")
+    with pytest.raises(SystemExit):
+        kousei_machine.main(
+            str(goudata), str(gera), str(tmp_path / "machine.json"),
+            str(kouryou), enforce=True)

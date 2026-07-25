@@ -193,3 +193,13 @@ def test_render_index_escapes_html():
     assert "&lt;氷&gt;" in html
     assert "a&amp;b" in html
     assert "<script" not in html
+
+
+def test_publish_rejects_existing_volume(tmp_path):
+    root = make_repo(tmp_path)
+    issues = root / "issues"
+    issues.mkdir()
+    (issues / "vol-002.html").write_text("既存", encoding="utf-8")
+    with pytest.raises(SystemExit):
+        publish.publish(root, 2)
+    assert (issues / "vol-002.html").read_text(encoding="utf-8") == "既存"

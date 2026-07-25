@@ -19,22 +19,24 @@ class FakeResponse:
 
 
 def test_check_url_returns_status(monkeypatch):
-    monkeypatch.setattr(verify_links.urllib.request, "urlopen",
-                        lambda req, timeout: FakeResponse(200))
+    monkeypatch.setattr(verify_links, "_is_public_host", lambda host: True)
+    monkeypatch.setattr(verify_links, "_open", lambda req: FakeResponse(200))
     assert verify_links.check_url("https://example.com/") == 200
 
 
 def test_check_url_returns_http_error_code(monkeypatch):
     def raise_404(req, timeout):
         raise urllib.error.HTTPError("https://example.com/", 404, "NF", {}, io.BytesIO())
-    monkeypatch.setattr(verify_links.urllib.request, "urlopen", raise_404)
+    monkeypatch.setattr(verify_links, "_is_public_host", lambda host: True)
+    monkeypatch.setattr(verify_links, "_open", lambda req: raise_404(req, None))
     assert verify_links.check_url("https://example.com/") == 404
 
 
 def test_check_url_returns_none_when_unreachable(monkeypatch):
     def raise_err(req, timeout):
         raise urllib.error.URLError("dns failure")
-    monkeypatch.setattr(verify_links.urllib.request, "urlopen", raise_err)
+    monkeypatch.setattr(verify_links, "_is_public_host", lambda host: True)
+    monkeypatch.setattr(verify_links, "_open", lambda req: raise_err(req, None))
     assert verify_links.check_url("https://nx.invalid/") is None
 
 
@@ -58,7 +60,8 @@ def test_check_url_logs_failure_reason_to_stderr(monkeypatch, capsys):
     # Arrange: 到達不能の失敗理由がstderrに一行残る(silent swallowしない)
     def raise_err(req, timeout):
         raise urllib.error.URLError("dns failure")
-    monkeypatch.setattr(verify_links.urllib.request, "urlopen", raise_err)
+    monkeypatch.setattr(verify_links, "_is_public_host", lambda host: True)
+    monkeypatch.setattr(verify_links, "_open", lambda req: raise_err(req, None))
 
     # Act
     result = verify_links.check_url("https://nx.invalid/")
@@ -81,3 +84,14 @@ def test_check_url_returns_none_for_non_http_scheme(monkeypatch):
 
     # Assert
     assert result is None
+
+
+@pytest.mark.parametrize("url", [
+    "http://127.0.0.1/",
+    "http://169.254.169.254/latest/meta-data/",
+    "http://localhost/",
+])
+def test_check_url_rejects_non_public_targets(monkeypatch, url):
+    monkeypatch.setattr(verify_links, "_open",
+                        lambda req: pytest.fail("内部URLへ接続してはいけない"))
+    assert verify_links.check_url(url) is None
