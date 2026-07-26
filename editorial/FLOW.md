@@ -20,12 +20,12 @@
 |---|------|--------------|------|------|
 | 1 | 企画 | editor-in-chief(企画モード) | 台帳・申し送り・起点シード | `01_kikaku.json` |
 | 2 | リサーチ | researcher | 01 | `02_kouho.json` |
-| 3 | 執筆 | genre-editor | 01, 02 | `03_genko.json` |
-| 3b | 実在チェーン検証 | **スクリプト** | 01, 02, 03 | 採用itemの転記一致・1件以上なら続行。0件なら休刊 |
+| 3 | 執筆 | genre-editor | 01, 02 | `03_draft.json`(cand_id・選定理由・essayのみ) |
+| 3b | 正規化・実在チェーン検証 | **スクリプト** | 01, 02, 03_draft | 上流情報を機械転記して`03_genko.json`生成。無効itemは除外、1件以上なら続行、0件なら休刊 |
 | 4 | 校閲 | koetsu | 01, 02, 03 | `04_koetsu.json` |
 | 4b | 改稿 | genre-editor(改稿モード) | 03, 04 | 03を更新 ※fix_required時のみ・1回 |
 | 5 | リンク加工 | **スクリプト** | 03 | `05_goudata.json` |
-| 6 | 組版 | art-director | 05 | `gera.html` |
+| 6 | AD・組版 | art-director + **スクリプト** | 05 | `design.json` → `gera.html` |
 | 7 | 校正 | kousei | 05, gera | `06_kousei.json` |
 | 8 | 校了 | editor-in-chief(校了モード) | 01〜06, gera | `07_kouryou.json` |
 | 8b | 責了対応 | art-director(修正モード) | 07 | geraを更新 ※責了時のみ・1回 |

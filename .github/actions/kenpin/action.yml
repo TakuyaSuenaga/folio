@@ -6,7 +6,7 @@ description: >-
 
 inputs:
   kind:
-    description: "検査種別: kikaku | kouho | genko | kousei | gera"
+    description: "検査種別: kikaku | kouho | genko | design | kousei | gera"
     required: true
   path:
     description: 検査対象ファイルのパス
@@ -27,6 +27,11 @@ runs:
           kouho)  jq -e '.genres | length > 0' "$TARGET" ;;
           # items:[] は「全ジャンル失敗=休刊」を表す正規の出力。後続のchain判定で分岐する
           genko)  jq -e '.issue and (.items | type == "array")' "$TARGET" ;;
+          design) jq -e '
+            (.spot_color | type == "string") and
+            (.cover_layout | IN("type","grid","vertical")) and
+            (.columns | IN(1,2)) and
+            (.reverse_data | type == "boolean")' "$TARGET" ;;
           kousei) jq -e '.machine' "$TARGET" ;;
           gera)
             # 誌面は自己完結HTML(1号=1ファイル)。スクリプトは載せない

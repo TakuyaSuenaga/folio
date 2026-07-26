@@ -10,18 +10,19 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  issue:
+  generate:
     runs-on: ubuntu-latest
     # claude-code-actionが最大9回(4b/8b含む)+ Places検索 + URL実測が走る。
     # ジョブがタイムアウトすると always() を付けた desk/ の保存ごと殺され、
     # 落ちた号のデバッグ材料が丸ごと消えるため余裕を持たせる
     timeout-minutes: 90
     permissions:
-      contents: write
+      contents: read
       id-token: write
-      issues: write
     outputs:
       hantei: ${{ steps.kouryou_check.outputs.hantei }}
+      vol: ${{ steps.seed.outputs.vol }}
+      nnn: ${{ steps.seed.outputs.nnn }}
     steps:
       - uses: actions/checkout@v4
 
@@ -45,6 +46,25 @@ jobs:
           claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit,Glob,Grep"
 
       - name: 工程1 検品
+        id: kikaku_kenpin
+        continue-on-error: true
+        uses: ./.github/actions/kenpin
+        with:
+          kind: kikaku
+          path: desk/vol-${{ steps.seed.outputs.nnn }}/01_kikaku.json
+
+      - name: 工程1 自動修復(検品失敗時のみ)
+        if: steps.kikaku_kenpin.outcome == 'failure'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          prompt: >-
+            desk/vol-${{ steps.seed.outputs.nnn }}/01_kikaku.json が形式検品に失敗した。
+            editor-in-chiefスキルのスキーマに合わせ、内容を増やさずJSON形式と必須項目だけ修復して。
+          claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit"
+
+      - name: 工程1 最終検品
         uses: ./.github/actions/kenpin
         with:
           kind: kikaku
@@ -76,6 +96,27 @@ jobs:
           claude_args: '--model claude-sonnet-5 --allowedTools "Bash(python scripts/api_fetch.py *),Bash(python3 scripts/api_fetch.py *),Bash(python scripts/verify_links.py *),Bash(python3 scripts/verify_links.py *),Bash(python scripts/places_search.py *),Bash(python3 scripts/places_search.py *),Read,Write,Edit,Glob,Grep"'
 
       - name: 工程2 検品
+        id: kouho_kenpin
+        continue-on-error: true
+        uses: ./.github/actions/kenpin
+        with:
+          kind: kouho
+          path: desk/vol-${{ steps.seed.outputs.nnn }}/02_kouho.json
+
+      - name: 工程2 自動修復(検品失敗時のみ)
+        if: steps.kouho_kenpin.outcome == 'failure'
+        uses: anthropics/claude-code-action@v1
+        env:
+          GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          prompt: >-
+            desk/vol-${{ steps.seed.outputs.nnn }}/02_kouho.json が形式検品に失敗した。
+            researcherスキルのスキーマに合わせ、API由来情報を創作せずJSON形式と必須項目だけ修復して。
+          claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit"
+
+      - name: 工程2 最終検品
         uses: ./.github/actions/kenpin
         with:
           kind: kouho
@@ -89,8 +130,35 @@ jobs:
           prompt: >-
             vol.${{ steps.seed.outputs.vol }} の原稿を書いて。
             入力は desk/vol-${{ steps.seed.outputs.nnn }}/ の 01_kikaku.json と 02_kouho.json。
-            出力は desk/vol-${{ steps.seed.outputs.nnn }}/03_genko.json へ。
+            出力は desk/vol-${{ steps.seed.outputs.nnn }}/03_draft.json へ。
           claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit,Glob,Grep"
+
+      - name: 工程3 draft形式確認
+        id: draft_kenpin
+        continue-on-error: true
+        run: jq -e '.items | type == "array"' "desk/vol-${{ steps.seed.outputs.nnn }}/03_draft.json"
+
+      - name: 工程3 draft自動修復(形式不正時のみ)
+        if: steps.draft_kenpin.outcome == 'failure'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          prompt: >-
+            desk/vol-${{ steps.seed.outputs.nnn }}/03_draft.json の形式が不正である。
+            items配列の各要素をcand_id・sentei_riyu・essayだけにし、内容を増やさずJSONを修復して。
+          claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit"
+
+      - name: 工程3 draft最終確認
+        run: jq -e '.items | type == "array"' "desk/vol-${{ steps.seed.outputs.nnn }}/03_draft.json"
+
+      - name: 工程3b 上流データから03を正規化(不正itemは記事単位で除外)
+        run: >
+          python scripts/hydrate_genko.py
+          "desk/vol-${{ steps.seed.outputs.nnn }}/01_kikaku.json"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/02_kouho.json"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/03_draft.json"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/03_genko.json"
 
       - name: 工程3 検品
         uses: ./.github/actions/kenpin
@@ -130,9 +198,32 @@ jobs:
           claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit,Glob,Grep"
 
       - name: 工程4 判定読取
+        id: koetsu_initial
+        if: steps.chain.outputs.has_items == 'true'
+        continue-on-error: true
+        # LLM由来の値をGITHUB_OUTPUTへ書く前に許容値で検証する(改行混入による出力インジェクション対策)
+        run: |
+          verdict=$(jq -r '.verdict' "desk/vol-${{ steps.seed.outputs.nnn }}/04_koetsu.json")
+          case "$verdict" in
+            pass|fix_required) ;;
+            *) echo "[error] 不正なverdict: $verdict"; exit 1 ;;
+          esac
+          printf 'verdict=%s\n' "$verdict" >> "$GITHUB_OUTPUT"
+
+      - name: 工程4 出力自動修復(判定不正時のみ)
+        if: steps.chain.outputs.has_items == 'true' && steps.koetsu_initial.outcome == 'failure'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          prompt: >-
+            desk/vol-${{ steps.seed.outputs.nnn }}/04_koetsu.json の形式またはverdictが不正である。
+            koetsuスキルのスキーマに合わせ、既存の指摘内容を変えずJSONとverdictだけ修復して。
+          claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit"
+
+      - name: 工程4 最終判定読取
         id: koetsu_check
         if: steps.chain.outputs.has_items == 'true'
-        # LLM由来の値をGITHUB_OUTPUTへ書く前に許容値で検証する(改行混入による出力インジェクション対策)
         run: |
           verdict=$(jq -r '.verdict' "desk/vol-${{ steps.seed.outputs.nnn }}/04_koetsu.json")
           case "$verdict" in
@@ -150,8 +241,17 @@ jobs:
           prompt: >-
             vol.${{ steps.seed.outputs.vol }} の校閲対応をして(改稿モード)。
             desk/vol-${{ steps.seed.outputs.nnn }}/04_koetsu.json の指摘に従い、
-            desk/vol-${{ steps.seed.outputs.nnn }}/03_genko.json を更新すること。
+            desk/vol-${{ steps.seed.outputs.nnn }}/03_draft.json を更新すること。
           claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit,Glob,Grep"
+
+      - name: 工程4b後 03を再正規化
+        if: steps.chain.outputs.has_items == 'true' && steps.koetsu_check.outputs.verdict == 'fix_required'
+        run: >
+          python scripts/hydrate_genko.py
+          "desk/vol-${{ steps.seed.outputs.nnn }}/01_kikaku.json"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/02_kouho.json"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/03_draft.json"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/03_genko.json"
 
       - name: 工程4b 検品(改稿は検品済みの03を上書きするため再検査する)
         if: steps.chain.outputs.has_items == 'true' && steps.koetsu_check.outputs.verdict == 'fix_required'
@@ -186,10 +286,25 @@ jobs:
           prompt: >-
             vol.${{ steps.seed.outputs.vol }} の誌面を組んで。
             入力は desk/vol-${{ steps.seed.outputs.nnn }}/05_goudata.json。
-            出力は desk/vol-${{ steps.seed.outputs.nnn }}/gera.html へ。
+            HTMLは書かず、出力は desk/vol-${{ steps.seed.outputs.nnn }}/design.json へ。
           claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit,Glob,Grep"
 
-      - name: 工程6 検品
+      - name: 工程6 デザイン値を正規化して決定論組版
+        if: steps.chain.outputs.has_items == 'true'
+        run: >
+          python scripts/render_issue.py
+          "desk/vol-${{ steps.seed.outputs.nnn }}/05_goudata.json"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/design.json"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/gera.html"
+
+      - name: 工程6 デザイン設定検品(不正値は組版時に修復済み)
+        if: steps.chain.outputs.has_items == 'true'
+        uses: ./.github/actions/kenpin
+        with:
+          kind: design
+          path: desk/vol-${{ steps.seed.outputs.nnn }}/design.json
+
+      - name: 工程6 HTML検品
         if: steps.chain.outputs.has_items == 'true'
         uses: ./.github/actions/kenpin
         with:
@@ -220,6 +335,27 @@ jobs:
           claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit,Glob,Grep"
 
       - name: 工程7 検品
+        id: kousei_kenpin
+        if: steps.chain.outputs.has_items == 'true'
+        continue-on-error: true
+        uses: ./.github/actions/kenpin
+        with:
+          kind: kousei
+          path: desk/vol-${{ steps.seed.outputs.nnn }}/06_kousei.json
+
+      - name: 工程7 出力自動修復(検品失敗時のみ)
+        if: steps.chain.outputs.has_items == 'true' && steps.kousei_kenpin.outcome == 'failure'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          prompt: >-
+            desk/vol-${{ steps.seed.outputs.nnn }}/06_kousei.json の形式が不正である。
+            desk/vol-${{ steps.seed.outputs.nnn }}/machine.json の値を改変せずmachineへ転記し、
+            既存の指摘を保ったままkouseiスキルのJSON形式だけ修復して。
+          claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit"
+
+      - name: 工程7 最終検品
         if: steps.chain.outputs.has_items == 'true'
         uses: ./.github/actions/kenpin
         with:
@@ -239,8 +375,30 @@ jobs:
           claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit,Glob,Grep"
 
       - name: 工程8 判定読取
-        id: kouryou_check
+        id: kouryou_initial
+        continue-on-error: true
         # LLM由来の値をGITHUB_OUTPUTへ書く前に許容値で検証する(改行混入による出力インジェクション対策)
+        run: |
+          hantei=$(jq -r '.hantei' "desk/vol-${{ steps.seed.outputs.nnn }}/07_kouryou.json")
+          case "$hantei" in
+            校了|責了|休刊) ;;
+            *) echo "[error] 不正なhantei: $hantei"; exit 1 ;;
+          esac
+          printf 'hantei=%s\n' "$hantei" >> "$GITHUB_OUTPUT"
+
+      - name: 工程8 出力自動修復(判定不正時のみ)
+        if: steps.kouryou_initial.outcome == 'failure'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          prompt: >-
+            desk/vol-${{ steps.seed.outputs.nnn }}/07_kouryou.json の形式またはhanteiが不正である。
+            editor-in-chiefスキルのスキーマに合わせ、判定理由と内容を変えずJSON形式だけ修復して。
+          claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit"
+
+      - name: 工程8 最終判定読取
+        id: kouryou_check
         run: |
           hantei=$(jq -r '.hantei' "desk/vol-${{ steps.seed.outputs.nnn }}/07_kouryou.json")
           case "$hantei" in
@@ -257,16 +415,34 @@ jobs:
           show_full_output: true
           prompt: >-
             vol.${{ steps.seed.outputs.vol }} の責了対応をして(修正モード)。
-            desk/vol-${{ steps.seed.outputs.nnn }}/07_kouryou.json の sekiryo_shiji を
-            desk/vol-${{ steps.seed.outputs.nnn }}/gera.html に適用すること。
+            desk/vol-${{ steps.seed.outputs.nnn }}/07_kouryou.json の sekiryo_shiji に従い、
+            desk/vol-${{ steps.seed.outputs.nnn }}/design.json のデザイン値だけを更新すること。
           claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit,Glob,Grep"
 
-      - name: 工程8b 検品(責了対応は検品済みのゲラを上書きするため再検査する)
+      - name: 工程8 校了時もlead_finalを決定論的に反映
+        if: steps.kouryou_check.outputs.hantei == '校了'
+        run: >
+          python scripts/render_issue.py
+          "desk/vol-${{ steps.seed.outputs.nnn }}/05_goudata.json"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/design.json"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/gera.html"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/07_kouryou.json"
+
+      - name: 工程8b lead_final・デザインを反映して再組版
+        if: steps.kouryou_check.outputs.hantei == '責了'
+        run: >
+          python scripts/render_issue.py
+          "desk/vol-${{ steps.seed.outputs.nnn }}/05_goudata.json"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/design.json"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/gera.html"
+          "desk/vol-${{ steps.seed.outputs.nnn }}/07_kouryou.json"
+
+      - name: 工程8b デザイン設定再検品(不正値は再組版時に修復済み)
         if: steps.kouryou_check.outputs.hantei == '責了'
         uses: ./.github/actions/kenpin
         with:
-          kind: gera
-          path: desk/vol-${{ steps.seed.outputs.nnn }}/gera.html
+          kind: design
+          path: desk/vol-${{ steps.seed.outputs.nnn }}/design.json
 
       - name: 発行直前 最終機械校正ゲート(責了変更・lead_finalを含む)
         if: steps.kouryou_check.outputs.hantei != '休刊'
@@ -277,39 +453,6 @@ jobs:
           "desk/vol-${{ steps.seed.outputs.nnn }}/final-machine.json"
           "desk/vol-${{ steps.seed.outputs.nnn }}/07_kouryou.json"
           --enforce
-
-      - name: 工程9 発行(スクリプト)
-        if: steps.kouryou_check.outputs.hantei != '休刊'
-        run: python scripts/publish.py "${{ steps.seed.outputs.vol }}"
-
-      - name: 休刊Issueを起票
-        if: steps.kouryou_check.outputs.hantei == '休刊'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          riyu=$(jq -r '.riyu // "理由未記載"' "desk/vol-${{ steps.seed.outputs.nnn }}/07_kouryou.json")
-          gh issue create --title "休刊: vol.${{ steps.seed.outputs.vol }} ($(TZ=Asia/Tokyo date +%F))" --body "$riyu"
-
-      - name: 工程失敗Issueを起票(オープンな同件があればコメント追記)
-        if: failure()
-        env:
-          GH_TOKEN: ${{ github.token }}
-          VOL: ${{ steps.seed.outputs.vol || '?' }}
-          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-        run: |
-          set -euo pipefail
-          # タイトルに日付を入れない —— 同じ原因で連日コケたときに1件へ集約するためである。
-          # 直した人がcloseし、次に落ちたらそこで新しい1件が立つ
-          title="工程失敗: daily-issue"
-          body="vol.${VOL}($(TZ=Asia/Tokyo date +%F))で失敗した。ログ: ${RUN_URL}"
-          number=$(gh issue list --state open --limit 100 --json number,title \
-            | jq -r --arg t "$title" 'map(select(.title == $t)) | .[0].number // empty')
-          if [ -n "$number" ]; then
-            echo "既存の #${number} へ追記する"
-            gh issue comment "$number" --body "$body"
-          else
-            gh issue create --title "$title" --body "$body"
-          fi
 
       - name: Secretsスキャン(desk/editorial/issues にキーが混入していないか検査)
         id: secrets_scan
@@ -335,30 +478,136 @@ jobs:
             fi
           done
           if [ "$leaked" -ne 0 ]; then
-            echo "[error] Secretsスキャンで漏洩を検出。コミット&プッシュを中止する"
+              echo "[error] Secretsスキャンで漏洩を検出。Artifact保存を中止する"
             exit 1
           fi
           echo "[ok] Secretsスキャン: 漏洩なし"
 
-      - name: コミット&プッシュ(desk/は結果に関わらず残す)
-        if: always() && steps.secrets_scan.outcome != 'failure'
+      - name: 規定外の一時ファイルを除去
+        if: always() && steps.seed.outputs.nnn != ''
+        env:
+          DESK_PATH: desk/vol-${{ steps.seed.outputs.nnn }}
+        run: |
+          find "$DESK_PATH" -maxdepth 1 -type f \
+            \( -name '_*.py' -o -name '_*.txt' -o -name '*_temp.json' \) \
+            -print -delete
+
+      - name: 制作机をArtifactへ保存(mainは変更しない)
+        if: always() && steps.seed.outputs.nnn != '' && steps.secrets_scan.outcome != 'failure'
+        uses: actions/upload-artifact@v4
+        with:
+          name: desk-${{ github.run_id }}-${{ github.run_attempt }}
+          path: desk/vol-${{ steps.seed.outputs.nnn }}
+          if-no-files-found: error
+          retention-days: 14
+
+  finalize:
+    needs: generate
+    if: needs.generate.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      issues: write
+    outputs:
+      hantei: ${{ needs.generate.outputs.hantei }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 同じ号の未完成机を衝突しない名前へ退避
+        env:
+          NNN: ${{ needs.generate.outputs.nnn }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          target="desk/vol-${NNN}"
+          if [ -d "$target" ]; then
+            mv "$target" "${target}-retry-run-${RUN_ID}"
+          fi
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: desk-${{ github.run_id }}-${{ github.run_attempt }}
+          path: desk/vol-${{ needs.generate.outputs.nnn }}
+
+      - name: 最新main上で最終検証・発行
+        if: needs.generate.outputs.hantei != '休刊'
+        run: |
+          python scripts/kousei_machine.py \
+            "desk/vol-${{ needs.generate.outputs.nnn }}/05_goudata.json" \
+            "desk/vol-${{ needs.generate.outputs.nnn }}/gera.html" \
+            "desk/vol-${{ needs.generate.outputs.nnn }}/final-machine.json" \
+            "desk/vol-${{ needs.generate.outputs.nnn }}/07_kouryou.json" --enforce
+          python scripts/publish.py "${{ needs.generate.outputs.vol }}"
+
+      - name: 最新mainへコミット・競合時はrebaseして再試行
         env:
           GH_TOKEN: ${{ github.token }}
+          VOL: ${{ needs.generate.outputs.vol }}
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A desk editorial issues
-          if git diff --cached --quiet; then
-            echo "変更なし"
+          git commit -m "issue: $(TZ=Asia/Tokyo date +%F) vol.${VOL}"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort
+              echo "[error] mainとの競合は自動解決しない"
+              exit 1
+            fi
+            if git push "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" HEAD:main; then
+              exit 0
+            fi
+            echo "[warn] push競合。再試行 ${attempt}/3"
+          done
+          echo "[error] 3回のpush再試行で確定できなかった"
+          exit 1
+
+      - name: 休刊Issueを起票
+        if: needs.generate.outputs.hantei == '休刊'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          riyu=$(jq -r '.riyu // "理由未記載"' \
+            "desk/vol-${{ needs.generate.outputs.nnn }}/07_kouryou.json")
+          gh issue create --title "休刊: vol.${{ needs.generate.outputs.vol }} ($(TZ=Asia/Tokyo date +%F))" --body "$riyu"
+
+  report-failure:
+    needs: [generate, finalize]
+    if: always() && (needs.generate.result == 'failure' || needs.finalize.result == 'failure')
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: 工程失敗Issueへ追記
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VOL: ${{ needs.generate.outputs.vol || '?' }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          title="工程失敗: daily-issue"
+          body="vol.${VOL}($(TZ=Asia/Tokyo date +%F))で失敗した。ログ: ${RUN_URL}"
+          number=$(gh issue list --repo "${{ github.repository }}" --state open --limit 100 \
+            --json number,title | jq -r --arg t "$title" \
+            'map(select(.title == $t)) | .[0].number // empty')
+          if [ -n "$number" ]; then
+            gh issue comment --repo "${{ github.repository }}" "$number" --body "$body"
           else
-            git commit -m "issue: $(TZ=Asia/Tokyo date +%F) vol.${{ steps.seed.outputs.vol || 'unknown' }}"
-            # claude-code-actionが実行後にgit認証情報を除去するため、トークンを明示して push する
-            git push "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" HEAD:main
+            gh issue create --repo "${{ github.repository }}" --title "$title" --body "$body"
           fi
 
   deploy:
-    needs: issue
-    if: needs.issue.outputs.hantei == '校了' || needs.issue.outputs.hantei == '責了'
+    needs: finalize
+    if: needs.finalize.result == 'success' && (needs.finalize.outputs.hantei == '校了' || needs.finalize.outputs.hantei == '責了')
     permissions:
       pages: write
       id-token: write

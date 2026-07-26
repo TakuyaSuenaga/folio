@@ -40,41 +40,38 @@ description: AI編集部のジャンル別エディター(film/music/book/poetry
 - **architecture**: 空間体験・構法・都市との関係。竣工年と所在地はメタデータの値のまま使う
 - **cafe / restaurant**: 時間の質と空間の来歴を書く。「映え」的記述と価格・営業時間の記載は禁止(変動が速い)。**実在の店に否定的な評は一切書かない**——批評はそもそも選定で示されている。料理は品名の記述に留める
 
-### 出力: `desk/vol-{NNN}/03_genko.json`
+### 出力: `desk/vol-{NNN}/03_draft.json`
 
 ```json
 {
-  "issue": { "vol": 24, "date": "2026-07-20", "title": "企画書から転記", "lead": "lead_draftをそのまま転記" },
   "items": [
     {
-      "genre": "music",
       "cand_id": "mus-01",
       "sentei_riyu": "選定理由と並置上の役割",
-      "title": "", "creator": "", "year": 1978, "publisher": "",
-      "meta": {},
-      "essay": "原稿",
-      "image": { "url": "候補にあればそのまま", "source": "openbd" },
-      "links": [ { "label": "", "url": "候補のURLをそのまま" } ]
+      "essay": "原稿"
     }
   ]
 }
 ```
 
-メタデータ・リンク・画像は候補から**そのまま転記**する(`image` は候補にあれば転記し、無ければ付けない。Places写真の `attributions`(撮影者クレジット)も含めて丸ごと転記し、間引かない。sponsoredフラグは付けない。後工程のスクリプトが確定する)。任意で `colophon: { "note": "..." }` を添えてよい(奥付に載る一言)。
+書誌・メタデータ・リンク・画像・issue情報は一切転記しない。後続の
+`scripts/hydrate_genko.py` が01/02から機械的に補い `03_genko.json` を生成する。
+これにより、欠落フィールドの補完や表記調整で実在チェーンを壊す余地をなくす。
+任意で `colophon: { "note": "..." }` を添えてよい。
 
 ## 改稿モード
 
 - `04_koetsu.json` の shiteki を読み、**blocking と caution のみ**対応する。memo は対応しない
 - 校閲の fix 案を尊重しつつ、原稿の声(文体・視点)を保って最小限に直す。指摘外の箇所を勝手に書き直さない
 - 事実の指摘に根拠を返せない場合は、その記述を削る。粘らない
-- `03_genko.json` を上書きし、変更箇所を `revision_note` フィールドに一行ずつ記録する
+- `03_draft.json` を上書きし、変更箇所を `revision_note` フィールドに一行ずつ記録する
 
 ## セルフチェック
 
-- [ ] 全itemに候補由来の cand_id がある(チェーン切れゼロ)
+- [ ] 全itemに候補由来の cand_id があり、それ以外の候補情報を転記していない
 - [ ] 一部ジャンルが落ちても成功itemを残した。全失敗時だけitemsが空である
 - [ ] essayの固有名詞・年号がメタデータと一致している
 - [ ] 字数300〜450、である調、推薦語ゼロ、引用は規定内
 - [ ] 三本の原稿が論点・構文・結句で被っていない
 - [ ] sentei_riyu に並置上の役割が書いてある
-- [ ] リンク・メタ・画像を一切改変していない
+- [ ] 出力はcand_id・sentei_riyu・essayと任意のcolophon/revision_noteだけである

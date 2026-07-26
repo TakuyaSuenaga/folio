@@ -18,8 +18,8 @@
 |---|------|------|------|
 | 1 | 企画 | editor-in-chief | desk/vol-NNN/01_kikaku.json |
 | 2 | リサーチ | researcher | 02_kouho.json |
-| 3 | 執筆 | genre-editor | 03_genko.json |
-| 3b | 実在チェーン検証 | scripts/validate_chain.py | 成功itemあり=続行 / 0件=休刊 |
+| 3 | 執筆 | genre-editor | 03_draft.json |
+| 3b | 正規化・実在チェーン検証 | scripts/hydrate_genko.py + validate_chain.py | 03_genko.json生成 / 成功itemあり=続行 / 0件=休刊 |
 | 4 | 校閲 | koetsu | 04_koetsu.json |
 | 4b | 改稿(fix_required時のみ・1回) | genre-editor | 03を更新 |
 | 5 | リンク加工 | scripts/link_decorator.py | 05_goudata.json |
