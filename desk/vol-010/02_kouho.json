@@ -1,0 +1,200 @@
+{
+  "vol": 10,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "architecture-01",
+          "source_api": "google_places",
+          "source_id": "ChIJu_VYqbTMBmARCi22i41TXx8",
+          "title": "藤原宮跡",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "奈良県橿原市醍醐町", "primary_type": "史跡" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDEQMn7XtffpguCSzzImN-HH0L--43gYWUaCAwGqF75K_wFJdw25K7vXCa8KTqm_MircNskIdCS-5cYZvy6Lj943K4HUQRzrfDByMvs-jO_IIGdhiLa692TA9IXsygo17P69WDzSCjRAW19Ow=s4800-w1200", "source": "google-places", "attributions": [ { "name": "H i", "uri": "https://maps.google.com/maps/contrib/101904240832027188515" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=2260617405362744586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T16:07:41+00:00" },
+          "researcher_note": "持統天皇が営んだ藤原京の中心施設跡。primary_typeが「史跡」として登録されており、政治施設が広場として保存されている状態そのものをPlacesで確認できる"
+        },
+        {
+          "cand_id": "architecture-02",
+          "source_api": "google_places",
+          "source_id": "ChIJFXQACKM7AWARz0w2-yovBZU",
+          "title": "第二次大極殿跡",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "奈良県奈良市佐紀町", "primary_type": "史跡" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBNqT490dFyiRRTSjhY6xZcYzlr8hXK32VMSzxxHwJvYVNyGdwUYRL3s1j3RCF975OzyMZ9vNlEn_GIxLxymmlv2fBCAl_LyQk1vURwUblmz7HYeDM2l-o8IQXkov5M-BT-RVA4hDzcM5qAIe0=s4800-w1200", "source": "google-places", "attributions": [ { "name": "今西浩二", "uri": "https://maps.google.com/maps/contrib/104421267670340707332" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=10738040748184587471&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T16:07:41+00:00" },
+          "researcher_note": "平城宮の第二次大極殿(聖武朝)跡。同じ検索で復原された第一次大極殿(観光名所として整備済み)もヒットしており、同一宮跡内で「復原された区画」と「更地のまま保存された区画」が併存することが分かる"
+        },
+        {
+          "cand_id": "architecture-03",
+          "source_api": "google_places",
+          "source_id": "ChIJc5huccqbQTURdxql-byMVjQ",
+          "title": "大宰府政庁跡",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "福岡県太宰府市観世音寺四丁目", "primary_type": "史跡" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBCla0NDS6j7dMGgITEN3WqhV2En0-r4lS9Y3eSA6ydS_S992HpCTsIlaiF9Eip6UlcrMM5nm0Qs78oIci5JvMxAWNDeWJV9Qtg4UBzXnEZ3pMIAs0J-2-EetY63FqpCNWvTCd_H-wpzu3RrEClu1mdBQ=s4800-w1200", "source": "google-places", "attributions": [ { "name": "みゆ", "uri": "https://maps.google.com/maps/contrib/106083324606181678379" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=3771356481239456375&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T16:07:57+00:00" },
+          "researcher_note": "九州の地方統治拠点だった大宰府政庁跡。都そのものではないが、政治機能を失った施設が礎石のみの広場として史跡指定されている点で発注の主題に近い"
+        },
+        {
+          "cand_id": "architecture-04",
+          "source_api": "google_places",
+          "source_id": "ChIJ19bwBJEFAWARnJ22VdnMEFc",
+          "title": "長岡宮跡大極殿遺址之碑",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "京都府向日市鶏冠井町秡所", "primary_type": "史跡" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAONQlmNBUn8yGJHqnNg6hHXXlT68uWjTDw-sjFefQsx8RAuwk5NePNdBnSWHW-GBDQtx6BP1OmYfQ0o6TyPNF0ehlSxNXpy4mI767472aw2T22-EiTdUY5gTBounVEKv8rO4tDDMj4hHWAzg=s4800-w1200", "source": "google-places", "attributions": [ { "name": "otamayアクロ", "uri": "https://maps.google.com/maps/contrib/102094605357996360043" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=6273739514745101724&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T16:07:57+00:00" },
+          "researcher_note": "わずか十年で放棄された長岡京の大極殿跡。碑のみが遺構の位置を示す形で保存されており、四候補中もっとも短命だった宮都の痕跡"
+        },
+        {
+          "cand_id": "architecture-05",
+          "source_api": "google_places",
+          "source_id": "ChIJL2-kizTnAGAR_F3-zrROOQY",
+          "title": "難波宮跡",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "大阪府大阪市中央区大手前四丁目", "primary_type": "史跡" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBTayO86JnM1BZdCGFs8QuKOzN8NiH-ztVPYLhBDCLTFAsSOfkqb7-h-cjK3hZ6JQlOmv-fLfUDH1nWga2U4iBGq1AQeRlGWi1p_RrnhO5W5pOpWDk1EhAgbJoYwumXd5VXpls7ZHilgclAQw=s4800-w1200", "source": "google-places", "attributions": [ { "name": "檜川等", "uri": "https://maps.google.com/maps/contrib/116471486071994028690" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=448476176373931516&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T16:07:57+00:00" },
+          "researcher_note": "前期・後期二度にわたり営まれた難波宮の跡。現在は大阪城のそばの公園として整備され、遺構は地表に復元表示のみで保存されている"
+        },
+        {
+          "cand_id": "architecture-06",
+          "source_api": "google_places",
+          "source_id": "ChIJCcsRIwBnAWARBaMaE0ypJ7I",
+          "title": "紫香楽宮跡宮町史跡公園",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "滋賀県甲賀市信楽町宮町", "primary_type": "史跡" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBLuIaMitYCDJRno4dQIsOwhUnGdHyTZguq7-Fx-et3Jz-fXlP6D_359H_M1dof3kCdHMAIO0c3E_ZoE3HswaOS86TFNK4vi8bDq-XJEuIpErK37dzowgF_kY-I1GbY7qNsfjdZFfoXZkd4qZHDB9e9SA=s4800-w1200", "source": "google-places", "attributions": [ { "name": "yama", "uri": "https://maps.google.com/maps/contrib/102322009371958035563" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=12837415407046009605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T16:08:13+00:00" },
+          "researcher_note": "聖武天皇が短期間営んだ紫香楽宮の跡。史跡公園として整備されており、宮跡が観光施設ではなく緑地・公園として保存対象化されている一例"
+        },
+        {
+          "cand_id": "architecture-07",
+          "source_api": "google_places",
+          "source_id": "ChIJGdS3K49nAWARbnrnt6Z-t8M",
+          "title": "紫香楽宮跡 内裏野地区",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "滋賀県甲賀市信楽町黄瀬", "primary_type": "史跡" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAqFm5bu3-_ZsAJ75lSy5CTcmyNUW0012qYJ1gWx94R4D8DFd1Ln-Q5q1IvtKFDiXlgaG9Yx-9aBBeDBE-Y2SZMPJO28WJbBnInlT-08QsOb46q52k7KQqTT7R9jpQ1Pn8ZgULx7vG6vIw2fg=s4800-w1200", "source": "google-places", "attributions": [ { "name": "da monde", "uri": "https://maps.google.com/maps/contrib/110199937740774173291" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=14102880012649069166&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T16:08:13+00:00" },
+          "researcher_note": "紫香楽宮跡のうち内裏(天皇の居所)にあたるとされる地区。architecture-06(宮町地区)とは同一宮跡内の別地区であり、発掘によって複数地区に分割指定されている実例"
+        },
+        {
+          "cand_id": "architecture-08",
+          "source_api": "google_places",
+          "source_id": "ChIJFZVuxKM7AWARireR0ZR8XiQ",
+          "title": "奈良文化財研究所 平城宮跡資料館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "奈良県奈良市佐紀町", "primary_type": "博物館" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDUsqtuch9XiWXDK3ybFObBYYMIfKPobLjs1lDMvQbRqkuqHwAUWlWctJAEt6DtfV0vuVgB5Efu4zuSi7TA0JfbvgEF8spgSiVoYyTNB1itt893rQtOc9swZo9vnYhtuiBMorqMNNQnfyQSmA=s4800-w1200", "source": "google-places", "attributions": [ { "name": "akimustang", "uri": "https://maps.google.com/maps/contrib/110643723190210053407" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=2620669011789199242&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T16:08:13+00:00" },
+          "researcher_note": "平城宮跡内にある発掘調査機関の資料館。primary_typeは「博物館」であり、他候補(史跡そのもの)とは異なり、更地の保存を発掘・研究側から支える施設。宮跡そのものではない点に留意"
+        }
+      ]
+    },
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poetry-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784884054199",
+          "title": "中西進著作集 19 (万葉集全訳注原文付 1)",
+          "creator": "中西,進,1929-",
+          "year": 2008,
+          "publisher": "四季社",
+          "meta": { "volume_range": "巻第1-巻第6" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009403772", "kind": "source" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T16:04:20+00:00" },
+          "researcher_note": "『万葉集』原文・訳注の全集版第1分冊(巻第1-6)。遷都・望郷の歌は巻ごとに散在するため、複数巻を候補として揃える"
+        },
+        {
+          "cand_id": "poetry-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784884054205",
+          "title": "中西進著作集 20 (万葉集全訳注原文付 2)",
+          "creator": "中西,進,1929-",
+          "year": 2008,
+          "publisher": "四季社",
+          "meta": { "volume_range": "巻第7-巻第13" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009493678", "kind": "source" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T16:04:20+00:00" },
+          "researcher_note": "同全集の第2分冊(巻第7-13)。近江大津宮など旧都を詠んだ歌が多く含まれる巻域"
+        },
+        {
+          "cand_id": "poetry-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784884054212",
+          "title": "中西進著作集 21 (万葉集全訳注原文付 3)",
+          "creator": "中西,進,1929-",
+          "year": 2008,
+          "publisher": "四季社",
+          "meta": { "volume_range": "巻第14-巻第20、初句索引" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009415381", "kind": "source" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T16:04:20+00:00" },
+          "researcher_note": "同全集の第3分冊(巻第14-20)と初句索引を収める。索引により遷都・故郷詠を横断的に探せる"
+        },
+        {
+          "cand_id": "poetry-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784043268023",
+          "title": "古代史で楽しむ万葉集",
+          "creator": "中西,進,1929-",
+          "year": 2010,
+          "publisher": "角川学芸出版",
+          "meta": { "series": "角川文庫 (角川ソフィア文庫)", "description": "『万葉集入門』(昭和56年刊)の加筆・修正" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000010850472", "kind": "source" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T16:04:20+00:00" },
+          "researcher_note": "万葉集の歌を古代史の出来事(遷都を含む)と結びつけて読む文庫版解説書。全訳注版の副読本として使える一冊"
+        }
+      ]
+    },
+    {
+      "genre": "photo",
+      "candidates": [
+        {
+          "cand_id": "photo-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784909179128",
+          "title": "飛鳥|藤原 = Asuka|Fujiwara",
+          "creator": "石川,直樹,1977-",
+          "year": 2025,
+          "publisher": "夕書房",
+          "meta": { "subject": "明日香村(奈良県)--写真集", "extent": "167p" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033950137", "kind": "source" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T16:08:19+00:00" },
+          "researcher_note": "写真家・石川直樹による飛鳥・藤原地域の写真集(2025年刊)。『飛鳥・藤原の宮都』の世界文化遺産登録と同時期に刊行された、史跡としての現在の姿を撮った作品"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    { "hacchu": "photo: 古代遺跡・史跡を記録した写真作品を一点", "reason": "該当なし(部分)。NDLサーチでは入江泰吉『うつろいの大和』『飛鳥光と風』等、旧都・史跡を被写体とした写真集の書誌が複数確認できたが、いずれもopenBDに未収録のため候補から除外した。openBD照合が取れた候補はphoto-01の1点のみ" }
+  ]
+}

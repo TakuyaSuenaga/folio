@@ -1,0 +1,39 @@
+{
+  "genko_match": true,
+  "genko_detail": {
+    "lead": true,
+    "items[0].essay": true,
+    "items[1].essay": true,
+    "items[2].essay": true
+  },
+  "links_ok": true,
+  "links_detail": {
+    "present": {
+      "https://maps.google.com/?cid=2260617405362744586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true,
+      "https://ndlsearch.ndl.go.jp/books/R100000002-I000009403772": true,
+      "https://ndlsearch.ndl.go.jp/books/R100000002-I033950137": true
+    },
+    "unknown_external": [],
+    "unsafe_schemes": [],
+    "event_handlers": [],
+    "meta_refresh": false,
+    "css_external": []
+  },
+  "pr_labels_ok": true,
+  "html_ok": true,
+  "okuzuke_ok": true,
+  "url_status": [
+    {
+      "url": "https://maps.google.com/?cid=2260617405362744586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "status": 200
+    },
+    {
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009403772",
+      "status": 200
+    },
+    {
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033950137",
+      "status": 200
+    }
+  ]
+}

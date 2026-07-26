@@ -1,0 +1,68 @@
+{
+  "vol": 10,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true,
+      "items[2].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://maps.google.com/?cid=2260617405362744586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true,
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I000009403772": true,
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I033950137": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=2260617405362744586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009403772",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033950137",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[0](architecture) DATA欄「address」「primary_type」行 / items[1](poetry) DATA欄「volume_range」行 / items[2](photo) DATA欄「subject」「extent」行",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "題名・作者・年・版元・入手は日本語ラベルなのに対し、address / primary_type / volume_range / subject / extent はGoogle Places・NDLメタデータの生フィールド名のまま表示されている",
+      "teisei": "所在地 / 種別 / 巻次 / 件名 / ページ数 のように日本語ラベルへ統一する(vol.009 P-01・P-02と同型の指摘)"
+    },
+    {
+      "id": "P-02",
+      "location": "items[2](photo) 本文「『飛鳥・藤原の宮都』の世界文化遺産登録と同じ時期に刊行された」",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "『飛鳥・藤原の宮都』(世界遺産登録名という制度上の名称に、作品名用の『』を使用している)",
+      "teisei": "「飛鳥・藤原の宮都」(作品名ではなく登録名称の引用のため、引用・強調に用いる「」の方が規定に合う)"
+    },
+    {
+      "id": "P-03",
+      "location": "表紙header h1(design.json cover_layout: \"vertical\" 用CSS `.hanmen[data-layout=\"vertical\"] h1`)",
+      "severity": "minor",
+      "type": "組版",
+      "genzai": "vertical指定時のh1に`margin-left:auto`が指定されているが、親`.cover`はflex/grid化されておらず、h1はwidth:autoの通常ブロック要素のままである。widthがautoの場合margin-left:autoは0に解決されるため右揃えの効果を持たず、直下の`.lead-v`(flexで右寄せされている)とは異なり見出しだけ左詰め・全幅表示になる可能性が高い",
+      "teisei": "scripts/render_issue.pyの`.hanmen[data-layout=\"vertical\"] h1`規定について、`.cover`側にdisplay:flex; justify-content:flex-endを加えるか、h1にwidth:fit-contentを与えて右揃えを実効化する(cover_layout: verticalの初回使用のため要確認)"
+    }
+  ]
+}
