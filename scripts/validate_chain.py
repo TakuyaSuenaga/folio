@@ -84,8 +84,11 @@ def validate(kikaku: dict, kouho: dict, genko: dict) -> list[str]:
         for field in TRANSFER_FIELDS:
             if field in candidate and item.get(field) != candidate[field]:
                 errors.append(f"03.items[{index}].{field}が02から改変されている")
-            if field not in candidate and field in item and field not in ("publisher", "meta", "image"):
-                errors.append(f"03.items[{index}].{field}が02にないのに追加されている")
+            if field not in candidate and field in item:
+                defaults = {"year": None, "publisher": "", "meta": {},
+                            "image": None, "links": []}
+                if field not in defaults or item[field] != defaults[field]:
+                    errors.append(f"03.items[{index}].{field}が02にないのに追加されている")
     return errors
 
 

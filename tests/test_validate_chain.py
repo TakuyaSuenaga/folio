@@ -55,6 +55,14 @@ def test_candidate_metadata_modification_fails():
     assert any(".title" in e for e in validate_chain.validate(kikaku, kouho, genko))
 
 
+def test_missing_and_null_optional_values_are_equivalent_after_normalization():
+    kikaku, kouho, genko = sample()
+    kouho["genres"][0]["candidates"][0].pop("year")
+    genko["items"][0]["year"] = None
+    # hydrate_genkoが正規化する前提だが、validator単体でも無害なnullを拒否しない
+    assert not any(".year" in e for e in validate_chain.validate(kikaku, kouho, genko))
+
+
 def test_dead_candidate_url_fails():
     kikaku, kouho, genko = sample()
     kouho["genres"][0]["candidates"][0]["verify"]["url_status"] = 404
