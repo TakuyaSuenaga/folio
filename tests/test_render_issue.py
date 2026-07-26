@@ -1,3 +1,5 @@
+import json
+
 import kousei_machine
 import render_issue
 
@@ -48,3 +50,34 @@ def test_lead_final_is_rendered_instead_of_original():
     html = render_issue.render(goudata(), {}, lead_final="確定リード")
     assert "確定リード" in html
     assert "安全&amp;確実" not in html
+
+
+def test_main_creates_default_design_when_ad_does_not_write(tmp_path):
+    goudata_path = tmp_path / "05_goudata.json"
+    design_path = tmp_path / "design.json"
+    gera_path = tmp_path / "gera.html"
+    goudata_path.write_text(json.dumps(goudata(), ensure_ascii=False), encoding="utf-8")
+
+    render_issue.main([str(goudata_path), str(design_path), str(gera_path)])
+
+    assert json.loads(design_path.read_text(encoding="utf-8")) == {
+        "spot_color": "#123456",
+        "cover_layout": "type",
+        "columns": 1,
+        "reverse_data": False,
+    }
+    assert "<!DOCTYPE html>" in gera_path.read_text(encoding="utf-8")
+
+
+def test_main_replaces_malformed_or_non_object_design(tmp_path):
+    goudata_path = tmp_path / "05_goudata.json"
+    goudata_path.write_text(json.dumps(goudata(), ensure_ascii=False), encoding="utf-8")
+
+    for content in ("{broken", "[]"):
+        design_path = tmp_path / "design.json"
+        gera_path = tmp_path / "gera.html"
+        design_path.write_text(content, encoding="utf-8")
+
+        render_issue.main([str(goudata_path), str(design_path), str(gera_path)])
+
+        assert json.loads(design_path.read_text(encoding="utf-8"))["cover_layout"] == "type"
