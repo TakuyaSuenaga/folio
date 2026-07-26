@@ -29,3 +29,4 @@ def test_llm_does_not_generate_final_html_or_copy_candidate_metadata():
     assert "python scripts/hydrate_genko.py" in WORKFLOW
     assert "python scripts/render_issue.py" in WORKFLOW
     assert "HTMLは書かず" in WORKFLOW
+    assert "後続工程が安全な既定値で補完する" in WORKFLOW

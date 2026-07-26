@@ -13,7 +13,9 @@ ALLOWED_COLUMNS = {1, 2}
 HEX_COLOR_RE = re.compile(r"^#[0-9a-fA-F]{6}$")
 
 
-def normalize_design(raw: dict, fallback_color: str = "#1740C8") -> dict:
+def normalize_design(raw: object, fallback_color: str = "#1740C8") -> dict:
+    if not isinstance(raw, dict):
+        raw = {}
     color = raw.get("spot_color", fallback_color)
     if not isinstance(color, str) or not HEX_COLOR_RE.fullmatch(color):
         color = fallback_color if HEX_COLOR_RE.fullmatch(fallback_color) else "#1740C8"
@@ -120,8 +122,15 @@ def main(argv: list[str]) -> None:
         raise SystemExit("usage: render_issue.py 05.json design.json gera.html [07.json]")
     with open(argv[0], encoding="utf-8") as f:
         goudata = json.load(f)
-    with open(argv[1], encoding="utf-8") as f:
-        design = json.load(f)
+    try:
+        with open(argv[1], encoding="utf-8") as f:
+            design = json.load(f)
+    except FileNotFoundError:
+        print(f"[warn] デザイン設定が未生成のため既定値で補完: {argv[1]}")
+        design = {}
+    except json.JSONDecodeError:
+        print(f"[warn] デザイン設定が不正JSONのため既定値で補完: {argv[1]}")
+        design = {}
     design = normalize_design(design, goudata["issue"].get("spot_color", "#1740C8"))
     with open(argv[1], "w", encoding="utf-8") as f:
         json.dump(design, f, ensure_ascii=False, indent=2)

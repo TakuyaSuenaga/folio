@@ -287,6 +287,8 @@ jobs:
             vol.${{ steps.seed.outputs.vol }} の誌面を組んで。
             入力は desk/vol-${{ steps.seed.outputs.nnn }}/05_goudata.json。
             HTMLは書かず、出力は desk/vol-${{ steps.seed.outputs.nnn }}/design.json へ。
+            Skillツールを呼ぶ指示を返さず、入力をReadしてdesign.jsonをWriteで直接作成すること。
+            ファイルを作成できなくても後続工程が安全な既定値で補完する。
           claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit,Glob,Grep"
 
       - name: 工程6 デザイン値を正規化して決定論組版
@@ -417,6 +419,7 @@ jobs:
             vol.${{ steps.seed.outputs.vol }} の責了対応をして(修正モード)。
             desk/vol-${{ steps.seed.outputs.nnn }}/07_kouryou.json の sekiryo_shiji に従い、
             desk/vol-${{ steps.seed.outputs.nnn }}/design.json のデザイン値だけを更新すること。
+            Skillツールを呼ぶ指示を返さず、対象JSONをReadしてWriteまたはEditで直接更新すること。
           claude_args: "--model claude-sonnet-5 --allowedTools Read,Write,Edit,Glob,Grep"
 
       - name: 工程8 校了時もlead_finalを決定論的に反映
