@@ -37,3 +37,6 @@
 
 ## 2026-07-25 (vol.008 校了時)
 - 改稿(4b)は良い仕事だった。K-01〜K-05の根拠不明命題(石造りの外観・監視カメラ演出・玉座の翻案描写・投票回数による章立て等)を02のメタデータに厳密に照合しながら削除・修正し、字数維持のため確認済み情報(邦訳者名・刊行年)で埋め戻す判断も適切。以後もこの粒度の改稿を標準としたい。K-08(film選定の発注整合)は編集長判断としたが、essayが『王自らが空席を作り出す瞬間』『空席となる玉座の行方』を貫いて焦点化しており、権力闘争の描写はその力学を可視化する手段として機能しているため選定・原稿とも変更不要と判断した。二点、スクリプト側への申し送り: (1) scripts/link_decorator.pyが01_kikaku.jsonのspot_colorフィールドを05_goudata.jsonへ一切引き継いでおらず、ADは常に自己導出を強いられている。指定した特色を活かすにはリンク加工工程での伝播修正が必要。(2) kousei_machine.jsonのリンク照合がitem.linksのみを見てimage.attributions.uriを見ておらず、Google Places画像を使う号で毎回unknown_external誤検知(links_ok: false)を出している(vol.007・vol.008で連続再発)。image.attributionsも既知リンクとして機械チェックに含めるよう恒久修正されたい。
+
+## 2026-07-26 (vol.009 校了時)
+- 校閲K-01(photo essayの吹雪・不在年の逸話が02のresearcher_noteで裏づけられない)は4b改稿で該当箇所を削除し一般化した記述へ置換済みであることを03_genko.json/gera.htmlで確認、blockingは解消済みとして校了とした。3ジャンルとも実在チェーン・リンク死活・genko一致は全てmachine check green。唯一残るのは校正P-01/P-02(music DATA欄のprimaryGenreName/trackCount/collectionPrice、book DATA欄のseries/volumeがAPI生フィールド名のまま日本語化されていない)だが、scripts/render_issue.pyはitem.metaのキーをラベルとしてそのままダンプする実装で、日本語ラベルへの変換表を持たない。design.json(spot_color/cover_layout/columns/reverse_data)にもlead_finalにもこの表記を直す手段がなく、責了ループでADに指示を出しても解決できないため、今回はminor指摘のまま校了とした。恒久対応として、render_issue.pyまたはhydrate_genko.py側にAPIフィールド名→日本語ラベルの対応表を持たせることを検討されたい(vol.007・vol.008で指摘されたimage.attributions未照合の申し送りと合わせて、スクリプト側の負債として今後まとめて解消したい)。

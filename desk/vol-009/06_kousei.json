@@ -1,0 +1,51 @@
+{
+  "vol": 9,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true,
+      "items[2].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://music.apple.com/jp/album/autumn-leaves/911300306?uo=4": true,
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I030000907": true,
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I000010543428": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      { "url": "https://music.apple.com/jp/album/autumn-leaves/911300306?uo=4", "status": 200 },
+      { "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030000907", "status": 200 },
+      { "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000010543428", "status": 200 }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[0](music) DATA欄「primaryGenreName」「trackCount」「collectionPrice」行",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "同じDATA欄内で題名・作者・年・入手は日本語ラベルなのに対し、primaryGenreName / trackCount / collectionPrice はiTunes APIの生フィールド名のまま表示されている",
+      "teisei": "ジャンル / 収録曲数 / 価格(917円)のように日本語ラベル・表記に統一する"
+    },
+    {
+      "id": "P-02",
+      "location": "items[1](book) DATA欄「series」「volume」行",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "題名・作者・年・版元は日本語ラベルなのに対し、series / volume はNDLメタデータの英語フィールド名のまま表示されている",
+      "teisei": "叢書 / 巻次 のように日本語ラベルに統一する"
+    }
+  ]
+}

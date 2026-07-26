@@ -2,104 +2,91 @@
   "vol": 9,
   "genres": [
     {
-      "genre": "photo",
+      "genre": "music",
       "candidates": [
         {
-          "cand_id": "photo-01",
-          "source_api": "ndl+openbd",
-          "source_id": "9784309273488",
-          "title": "気仙川",
-          "creator": "畠山直哉",
-          "year": 2012,
-          "publisher": "河出書房新社",
-          "meta": {
-            "ndl_title_transcription": "ケセンガワ"
-          },
-          "links": [
-            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I023893403", "kind": "source" }
-          ],
-          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:05:52+00:00" },
-          "researcher_note": "畠山直哉が撮り続けた気仙川の同一地点を、被災前後にわたって収めた写真集。発注の再撮影実践に該当しうる。"
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "911300306",
+          "title": "Autumn Leaves (枯葉)",
+          "creator": "ビル・エヴァンス・トリオ",
+          "year": 2014,
+          "publisher": "",
+          "meta": { "primaryGenreName": "ジャズ", "trackCount": 16, "collectionPrice": 917.0 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/97/22/f4/9722f43f-f961-dde3-4e54-919f16b34588/888831643517.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/autumn-leaves/911300306?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T04:11:10+00:00" },
+          "researcher_note": "ジャズスタンダード『枯葉』の一録音。同一検索でRay Brown、Nikki Parrot、Jacintha、ザ・グレイト・ジャズ・トリオ等、複数アーティストの同曲録音がヒットしており、幾度も再演されてきた楽曲であることをiTunes側のカタログで確認できる。"
         },
         {
-          "cand_id": "photo-02",
-          "source_api": "ndl",
-          "source_id": "R100000094-I11954",
-          "title": "あかしあ通り・学園中央通り交差点北 定点撮影写真",
-          "creator": "小平市立図書館",
-          "year": 1981,
-          "meta": {
-            "coordinates": "北緯35°43′25″ 東経139°29′16″",
-            "license": "クリエイティブ・コモンズ 表示 4.0 国際",
-            "category": "文書・図像類"
-          },
-          "links": [
-            { "label": "1981年(NDLサーチ)", "url": "https://ndlsearch.ndl.go.jp/books/R100000094-I11954", "kind": "source" },
-            { "label": "1981年(小平市立図書館アーカイブ)", "url": "https://adeac.jp/kodaira-lib/catalog/mp1981107-200010", "kind": "web" },
-            { "label": "1985年(同地点・比較)", "url": "https://adeac.jp/kodaira-lib/catalog/mp1985107-200010", "kind": "compare" }
-          ],
-          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:05:06+00:00" },
-          "researcher_note": "小平市立図書館が同一交差点(北向き)を毎年定点撮影した公共アーカイブ。1981年から連年で同一フレームが確認できる。"
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1823927255",
+          "title": "House of the Rising Sun",
+          "creator": "Erik Grönwall",
+          "year": 2024,
+          "publisher": "",
+          "meta": { "primaryGenreName": "ロック", "trackCount": 1, "collectionPrice": 255.0 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/6c/40/b36c401b-d702-77ec-2834-794d1c973f4e/cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/house-of-the-rising-sun-single/1823927255?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T04:11:10+00:00" },
+          "researcher_note": "同一検索でHeavy Young Heathens、Geoff Castellucci、Scott Bradlee's Postmodern Jukebox等、多数のアーティストによる同曲録音がヒットしており、繰り返し演奏され直されてきた楽曲であることをカタログ上で確認できる。"
         },
         {
-          "cand_id": "photo-03",
-          "source_api": "ndl",
-          "source_id": "R100000094-I11955",
-          "title": "あかしあ通り・学園中央通り交差点西 定点撮影写真",
-          "creator": "小平市立図書館",
-          "year": 1981,
-          "meta": {
-            "coordinates": "北緯35°43′24″ 東経139°29′15″",
-            "license": "クリエイティブ・コモンズ 表示 4.0 国際",
-            "category": "文書・図像類"
-          },
-          "links": [
-            { "label": "1981年(NDLサーチ)", "url": "https://ndlsearch.ndl.go.jp/books/R100000094-I11955", "kind": "source" },
-            { "label": "1981年(小平市立図書館アーカイブ)", "url": "https://adeac.jp/kodaira-lib/catalog/mp1981108-200010", "kind": "web" },
-            { "label": "1985年(同地点・比較)", "url": "https://adeac.jp/kodaira-lib/catalog/mp1985108-200010", "kind": "compare" }
-          ],
-          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:05:27+00:00" },
-          "researcher_note": "同アーカイブの西向き定点撮影。1981年から連年で同一フレームが確認できる。"
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1893886954",
+          "title": "Hallelujah",
+          "creator": "[Alexandros]",
+          "year": 2026,
+          "publisher": "",
+          "meta": { "primaryGenreName": "ロック", "trackCount": 1, "collectionPrice": 255.0 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/db/aa/ee/dbaaeee1-dee5-7690-ad6f-590fabaaa949/26UMGIM24425.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/hallelujah-single/1893886954?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T04:11:10+00:00" },
+          "researcher_note": "同一検索でペンタトニックス、THE NOVEMBERS、FIVE NEW OLD等、多数のアーティストによる同曲録音がヒットしており、長く再演され続けてきた楽曲であることをカタログ上で確認できる。"
         },
         {
-          "cand_id": "photo-04",
-          "source_api": "ndl",
-          "source_id": "R100000094-I11956",
-          "title": "あかしあ通り・学園中央通り交差点南 定点撮影写真",
-          "creator": "小平市立図書館",
-          "year": 1981,
-          "meta": {
-            "coordinates": "北緯35°43′23″ 東経139°29′17″",
-            "license": "クリエイティブ・コモンズ 表示 4.0 国際",
-            "category": "文書・図像類"
-          },
-          "links": [
-            { "label": "1981年(NDLサーチ)", "url": "https://ndlsearch.ndl.go.jp/books/R100000094-I11956", "kind": "source" },
-            { "label": "1981年(小平市立図書館アーカイブ)", "url": "https://adeac.jp/kodaira-lib/catalog/mp1981109-200010", "kind": "web" },
-            { "label": "1985年(同地点・比較)", "url": "https://adeac.jp/kodaira-lib/catalog/mp1985109-200010", "kind": "compare" }
-          ],
-          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:05:27+00:00" },
-          "researcher_note": "同アーカイブの南向き定点撮影。1981年から連年で同一フレームが確認できる。"
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1348122484",
+          "title": "Fly Me to the Moon",
+          "creator": "The Macarons Project",
+          "year": 2018,
+          "publisher": "",
+          "meta": { "primaryGenreName": "ポップ", "trackCount": 1, "collectionPrice": 204.0 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c8/0c/b1/c80cb14b-3312-2860-75bf-de6485c47b19/7a27c08b-f1da-45bf-b8b6-97fd48e81288.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/fly-me-to-the-moon-single/1348122484?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T04:11:10+00:00" },
+          "researcher_note": "同一検索でSiaによる『FINAL FANTASY XIV』インスパイア版など別編曲の録音もヒットしており、複数のアーティスト・文脈で再演されてきた楽曲であることをカタログ上で確認できる。"
         },
         {
-          "cand_id": "photo-05",
-          "source_api": "ndl",
-          "source_id": "R100000094-I11957",
-          "title": "あかしあ通り・学園中央通り交差点東 定点撮影写真",
-          "creator": "小平市立図書館",
-          "year": 1981,
-          "meta": {
-            "coordinates": "北緯35°43′24″ 東経139°29′18″",
-            "license": "クリエイティブ・コモンズ 表示 4.0 国際",
-            "category": "文書・図像類"
-          },
-          "links": [
-            { "label": "1981年(NDLサーチ)", "url": "https://ndlsearch.ndl.go.jp/books/R100000094-I11957", "kind": "source" },
-            { "label": "1981年(小平市立図書館アーカイブ)", "url": "https://adeac.jp/kodaira-lib/catalog/mp1981110-200010", "kind": "web" },
-            { "label": "1985年(同地点・比較)", "url": "https://adeac.jp/kodaira-lib/catalog/mp1985110-200010", "kind": "compare" }
-          ],
-          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:05:27+00:00" },
-          "researcher_note": "同アーカイブの東向き定点撮影。1981年から連年で同一フレームが確認できる。"
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1443456452",
+          "title": "My Way (Expanded Edition)",
+          "creator": "フランク・シナトラ",
+          "year": 1969,
+          "publisher": "",
+          "meta": { "primaryGenreName": "ヴォーカル", "trackCount": 12, "collectionPrice": 1630.0 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5f/af/ed/5fafede5-320c-a7fd-438a-115bd8fe5ab3/00602537569076.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/my-way-expanded-edition/1443456452?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T04:11:10+00:00" },
+          "researcher_note": "同一検索でアッシャー、ウィリー・ネルソン、ロジック等、ジャンルを跨いだ複数アーティストによる同曲録音がヒットしており、幾度も再演されてきた楽曲であることをカタログ上で確認できる。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1866454057",
+          "title": "Amazing Grace",
+          "creator": "手嶌葵",
+          "year": 2026,
+          "publisher": "",
+          "meta": { "primaryGenreName": "J-Pop", "trackCount": 1, "collectionPrice": 255.0 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/93/c5/7093c509-499c-06ad-6521-54cb43e417da/VEATP-44709.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/amazing-grace-single/1866454057?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T04:11:10+00:00" },
+          "researcher_note": "同一検索でEXILE ATSUSHI、華原朋美等、複数アーティストによる同曲録音がヒットしており、世代を跨いで再演されてきた楽曲であることをカタログ上で確認できる。"
         }
       ]
     },
@@ -109,270 +96,190 @@
         {
           "cand_id": "book-01",
           "source_api": "ndl+openbd",
-          "source_id": "9784334751371",
-          "title": "赤と黒 : 十九世紀年代記 上",
-          "creator": "スタンダール 著、野崎歓 訳",
-          "year": 2007,
-          "publisher": "光文社(光文社古典新訳文庫)",
-          "meta": {},
-          "links": [
-            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970023484884175682", "kind": "source" }
-          ],
-          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:09:55+00:00" },
-          "researcher_note": "スタンダール『赤と黒』の新訳(上巻)。光文社古典新訳文庫。"
+          "source_id": "9784101240602",
+          "title": "華胥の幽夢(ゆめ)",
+          "creator": "小野,不由美,1960-",
+          "year": 2014,
+          "publisher": "新潮社",
+          "meta": { "series": "新潮文庫", "volume": "お-37-60. 十二国記" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025082204", "kind": "source" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T04:11:21+00:00" },
+          "researcher_note": "小野不由美『十二国記』(新潮文庫)の一巻。短編集。同シリーズの新潮文庫版はNDLサーチ上で2012年刊行分から2019年刊行分まで確認できる。"
         },
         {
           "cand_id": "book-02",
           "source_api": "ndl+openbd",
-          "source_id": "9784334751463",
-          "title": "赤と黒 : 十九世紀年代記 下",
-          "creator": "スタンダール 著、野崎歓 訳",
-          "year": 2007,
-          "publisher": "光文社(光文社古典新訳文庫)",
-          "meta": {},
-          "links": [
-            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009197244", "kind": "source" }
-          ],
-          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:09:55+00:00" },
-          "researcher_note": "スタンダール『赤と黒』の新訳(下巻)。上巻と同年に刊行。"
+          "source_id": "9784101240541",
+          "title": "風の海迷宮の岸",
+          "creator": "小野,不由美,1960-",
+          "year": 2012,
+          "publisher": "新潮社",
+          "meta": { "series": "新潮文庫", "volume": "お-37-54. 十二国記" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I023944519", "kind": "source" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T04:11:21+00:00" },
+          "researcher_note": "『十二国記』シリーズの一巻。主人公の少年期を描く巻。"
         },
         {
           "cand_id": "book-03",
           "source_api": "ndl+openbd",
-          "source_id": "9784334752118",
-          "title": "悪霊 1",
-          "creator": "ドストエフスキー 著、亀山郁夫 訳",
-          "year": 2010,
-          "publisher": "光文社(光文社古典新訳文庫)",
-          "meta": {},
-          "links": [
-            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000010980529", "kind": "source" }
-          ],
-          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:09:55+00:00" },
-          "researcher_note": "ドストエフスキー『悪霊』新訳の第1巻。2010〜2012年にかけて巻を重ねた。"
+          "source_id": "9784101240565",
+          "title": "風の万里黎明の空. 上",
+          "creator": "小野,不由美,1960-",
+          "year": 2013,
+          "publisher": "新潮社",
+          "meta": { "series": "新潮文庫", "volume": "お-37-56. 十二国記" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024334128", "kind": "source" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T04:11:21+00:00" },
+          "researcher_note": "『十二国記』シリーズの一巻(上巻)。"
         },
         {
           "cand_id": "book-04",
           "source_api": "ndl+openbd",
-          "source_id": "9784334752279",
-          "title": "悪霊 2",
-          "creator": "ドストエフスキー 著、亀山郁夫 訳",
-          "year": 2011,
-          "publisher": "光文社(光文社古典新訳文庫)",
-          "meta": {},
-          "links": [
-            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000011164391", "kind": "source" }
-          ],
-          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:09:55+00:00" },
-          "researcher_note": "『悪霊』新訳の第2巻。"
+          "source_id": "9784101240572",
+          "title": "風の万里黎明の空. 下",
+          "creator": "小野,不由美,1960-",
+          "year": 2013,
+          "publisher": "新潮社",
+          "meta": { "series": "新潮文庫", "volume": "お-37-57. 十二国記" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024334129", "kind": "source" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T04:11:21+00:00" },
+          "researcher_note": "『十二国記』シリーズの一巻(下巻)。上巻と同年刊行。"
         },
         {
           "cand_id": "book-05",
           "source_api": "ndl+openbd",
-          "source_id": "9784334752422",
-          "title": "悪霊 3",
-          "creator": "ドストエフスキー 著、亀山郁夫 訳",
-          "year": 2011,
-          "publisher": "光文社(光文社古典新訳文庫)",
-          "meta": {},
-          "links": [
-            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I023173502", "kind": "source" }
-          ],
-          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:09:55+00:00" },
-          "researcher_note": "『悪霊』新訳の第3巻。本編完結。"
+          "source_id": "9784101240626",
+          "title": "白銀(しろがね)の墟 玄(くろ)の月. 第1巻",
+          "creator": "小野,不由美,1960-",
+          "year": 2019,
+          "publisher": "新潮社",
+          "meta": { "series": "新潮文庫", "volume": "お-37-62. 十二国記" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029957505", "kind": "source" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T04:11:21+00:00" },
+          "researcher_note": "『十二国記』シリーズの一巻。全4巻構成で、2019年に第1巻から第4巻まで刊行された(NDLサーチ確認分)。"
         },
         {
           "cand_id": "book-06",
           "source_api": "ndl+openbd",
-          "source_id": "9784334752453",
-          "title": "悪霊 別巻(「スタヴローギンの告白」異稿)",
-          "creator": "ドストエフスキー 著、亀山郁夫 訳",
-          "year": 2012,
-          "publisher": "光文社(光文社古典新訳文庫)",
-          "meta": {},
-          "links": [
-            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I023360547", "kind": "source" }
-          ],
-          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:09:55+00:00" },
-          "researcher_note": "本編完結後に追加刊行された別巻。異稿を収める。初版(1〜3巻)から何が足されたかを跡づけられる巻。"
+          "source_id": "9784101240633",
+          "title": "白銀(しろがね)の墟 玄(くろ)の月. 第2巻",
+          "creator": "小野,不由美,1960-",
+          "year": 2019,
+          "publisher": "新潮社",
+          "meta": { "series": "新潮文庫", "volume": "お-37-63. 十二国記" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029957506", "kind": "source" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T04:11:21+00:00" },
+          "researcher_note": "『白銀の墟 玄の月』第2巻。"
         },
         {
           "cand_id": "book-07",
           "source_api": "ndl+openbd",
-          "source_id": "9784334752194",
-          "title": "青い麦",
-          "creator": "コレット 著、河野万里子 訳",
-          "year": 2010,
-          "publisher": "光文社(光文社古典新訳文庫)",
-          "meta": {},
-          "links": [
-            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000011030248", "kind": "source" }
-          ],
-          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:09:55+00:00" },
-          "researcher_note": "コレット『青い麦』の新訳。"
+          "source_id": "9784101240640",
+          "title": "白銀(しろがね)の墟 玄(くろ)の月. 第3巻",
+          "creator": "小野,不由美,1960-",
+          "year": 2019,
+          "publisher": "新潮社",
+          "meta": { "series": "新潮文庫", "volume": "お-37-64. 十二国記" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030000905", "kind": "source" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T04:11:21+00:00" },
+          "researcher_note": "『白銀の墟 玄の月』第3巻。"
         },
         {
           "cand_id": "book-08",
           "source_api": "ndl+openbd",
-          "source_id": "9784334753139",
-          "title": "あしながおじさん",
-          "creator": "ウェブスター 著、土屋京子 訳",
-          "year": 2015,
-          "publisher": "光文社(光文社古典新訳文庫)",
-          "meta": {},
-          "links": [
-            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026518142", "kind": "source" }
-          ],
-          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:09:55+00:00" },
-          "researcher_note": "ウェブスター『あしながおじさん』の新訳。"
-        },
-        {
-          "cand_id": "book-09",
-          "source_api": "ndl+openbd",
-          "source_id": "9784868310075",
-          "title": "LIME WORKS(新版)",
-          "creator": "畠山直哉",
-          "year": 2025,
-          "publisher": "青幻舎",
-          "meta": {
-            "ndl_edition": "新版"
-          },
-          "links": [
-            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034336753", "kind": "source" }
-          ],
-          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:09:55+00:00" },
-          "researcher_note": "畠山直哉の写真集『LIME WORKS』の新版。NDL書誌のdcndl:editionに「新版」と明記。"
+          "source_id": "9784101240657",
+          "title": "白銀(しろがね)の墟 玄(くろ)の月. 第4巻",
+          "creator": "小野,不由美,1960-",
+          "year": 2019,
+          "publisher": "新潮社",
+          "meta": { "series": "新潮文庫", "volume": "お-37-65. 十二国記" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030000907", "kind": "source" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T04:11:21+00:00" },
+          "researcher_note": "『白銀の墟 玄の月』第4巻。シリーズ完結巻。"
         }
       ]
     },
     {
-      "genre": "restaurant",
+      "genre": "photo",
       "candidates": [
         {
-          "cand_id": "rest-01",
-          "source_api": "google_places",
-          "source_id": "ChIJnwHZJOSLGGARVkzvTyfHi0Y",
-          "title": "煉瓦亭",
-          "creator": "",
-          "meta": {
-            "address": "日本、〒104-0061 東京都中央区銀座３丁目５−１６",
-            "primary_type": "和食店"
-          },
-          "image": {
-            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAFgJjLPr2B0rBvGrHkmmc-nmo0ErpHghJGijn9eT87XHRzl193bNnkjKD0yBBGRMTtqA8fjlg0CEeL259fRyiuLrf2U-Cdc-BN90WcqquUd4qnKVU_-AgsgZKsutz-Hx5S_da-Te0HsxpKecH_5sJppw=s4800-w1200",
-            "source": "google-places",
-            "attributions": [ { "name": "能勢靖", "uri": "https://maps.google.com/maps/contrib/108084357719651702906" } ]
-          },
-          "links": [
-            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5083375576076471382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
-          ],
-          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:11:15+00:00" },
-          "researcher_note": "銀座の老舗洋食店。代替わり・業態変遷の具体的な取材はエディター判断。"
+          "cand_id": "photo-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784484032016",
+          "title": "愛の物語",
+          "creator": "星野,道夫,1952-1996",
+          "year": 2003,
+          "publisher": "ティビーエス・ブリタニカ",
+          "meta": { "series": "Alaskan dream", "volume": "3" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970023484882455938", "kind": "source" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T04:11:32+00:00" },
+          "researcher_note": "「Alaskan dream」全3巻の第3巻。著者は1952年生、1996年没(openBD収録データ)。"
         },
         {
-          "cand_id": "rest-02",
-          "source_api": "google_places",
-          "source_id": "ChIJVVVhhsCOGGARRyUgGMUOAXY",
-          "title": "洋食 ヨシカミ",
-          "creator": "",
-          "meta": {
-            "address": "日本、〒111-0032 東京都台東区浅草１丁目４１−４",
-            "primary_type": "和食店"
-          },
-          "image": {
-            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBcL6zu4JwUvbsZORBFoifn4ml6tSgXItDE9UxomY3c60q6vv-i-JZv9jkWE2Q4Mj-IbcMME3LFw-zcygXjqUCxp_P4FnqAQgaefB29AfWo1zGy59gtCel6nswWVYHJOGPLHCiE11tl3Sum7rjtfYg44g=s4800-w1200",
-            "source": "google-places",
-            "attributions": [ { "name": "くさまっちhideo", "uri": "https://maps.google.com/maps/contrib/105092816793268081337" } ]
-          },
-          "links": [
-            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8503093811128313159&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
-          ],
-          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:11:15+00:00" },
-          "researcher_note": "浅草の老舗洋食店。代替わり・業態変遷の具体的な取材はエディター判断。"
+          "cand_id": "photo-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784484022253",
+          "title": "風の物語",
+          "creator": "星野,道夫,1952-1996",
+          "year": 2002,
+          "publisher": "ティビーエス・ブリタニカ",
+          "meta": { "series": "Alaskan dream", "volume": "2" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971993809739706884", "kind": "source" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T04:11:32+00:00" },
+          "researcher_note": "「Alaskan dream」全3巻の第2巻。"
         },
         {
-          "cand_id": "rest-03",
-          "source_api": "google_places",
-          "source_id": "ChIJeRg0L56OGGARje4XjxmdLO4",
-          "title": "黒船亭",
-          "creator": "",
-          "meta": {
-            "address": "日本、〒110-0005 東京都台東区上野２丁目１３−１３ キクヤビル 4Ｆ",
-            "primary_type": "洋食レストラン"
-          },
-          "image": {
-            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjC9Zpo-fw-7KzMG19xfZqxKImrMlpcIod0yLA7Rbns1JpsiDUlDlNJGPy4wjrW1GwILcEfx-9D87-OGNRaEkXL5C9qOeYOrP_kSgHSzCrk04Lh-4U_pPwnFEe4msD6LS4JCOvIcaK_W3-9HArFVf0Ne=s4800-w1200",
-            "source": "google-places",
-            "attributions": [ { "name": "黒船亭", "uri": "https://maps.google.com/maps/contrib/113798261347911914758" } ]
-          },
-          "links": [
-            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17162265013102571149&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
-          ],
-          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:11:15+00:00" },
-          "researcher_note": "上野の老舗洋食店。代替わり・業態変遷の具体的な取材はエディター判断。"
+          "cand_id": "photo-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784582768459",
+          "title": "グリズリー = GRIZZLY : アラスカの王者(新装版)",
+          "creator": "星野,道夫,1952-1996",
+          "year": 2016,
+          "publisher": "平凡社",
+          "meta": { "series": "平凡社ライブラリー", "volume": "845" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970586434843366409", "kind": "source" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T04:11:32+00:00" },
+          "researcher_note": "初版2002年刊(平凡社ライブラリー・Offシリーズ)の新装版。長期にわたり同じ被写体を撮り続けた仕事が版を重ねて読み継がれている例。"
         },
         {
-          "cand_id": "rest-04",
-          "source_api": "google_places",
-          "source_id": "ChIJy3CfE_KLGGARRpErqoBuCUE",
-          "title": "日比谷松本楼",
-          "creator": "",
-          "meta": {
-            "address": "日本、〒100-0012 東京都千代田区日比谷公園１−２",
-            "primary_type": "洋食レストラン"
-          },
-          "image": {
-            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDlmXmUJkoQa7sjESJrqTBrfIS6JCP_2uHEal7KTFCWcsS9glvRYssWqp6jBXVtTyy2x7nEtug1tXE-55rvOyTFF-z0lDQeylnplCAr8ymBz3pT0Z6TCpvL73jMb7DbQpCHGjns_6KsNxSlmg=s4800-w611",
-            "source": "google-places",
-            "attributions": [ { "name": "日比谷松本楼", "uri": "https://maps.google.com/maps/contrib/106777282521719657404" } ]
-          },
-          "links": [
-            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4686398386145562950&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
-          ],
-          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:11:15+00:00" },
-          "researcher_note": "日比谷公園内の老舗洋食レストラン。代替わり・業態変遷の具体的な取材はエディター判断。"
+          "cand_id": "photo-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784911003572",
+          "title": "ナヌーク 氷原の静かなる物語",
+          "creator": "星野道夫",
+          "year": 2026,
+          "publisher": "クレヴィス",
+          "meta": { "ndl_pubdate": "2026-08-04" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000137-I9784911003572", "kind": "source" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T04:11:32+00:00" },
+          "researcher_note": "刊行予定日2026年8月4日(NDLサーチ登録データ)。没後約30年を経てなお編まれ続けている仕事。"
         },
         {
-          "cand_id": "rest-05",
-          "source_api": "google_places",
-          "source_id": "ChIJ4Qv1zU-JGGARx5y6yk6B-yI",
-          "title": "芳味亭 人形町本店",
-          "creator": "",
-          "meta": {
-            "address": "日本、〒103-0013 東京都中央区日本橋人形町２丁目３−４",
-            "primary_type": "洋食レストラン"
-          },
-          "image": {
-            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCqR84ml9Mo2DSKQ6fXUPHyLFUJ83RAvM_HHnaV2zsHFwGRG0FJZrl8FldKcNQFkJYPRdGiEjGHGPtEUxcOxcoUU8Z0wH1Bt5zqnR1Z04tkw95sHEpKiiwSA4av0bc01ZpcyXxJeNPVPI9IXpI=s4800-w1200",
-            "source": "google-places",
-            "attributions": [ { "name": "芳味亭 人形町本店", "uri": "https://maps.google.com/maps/contrib/103228977953281958746" } ]
-          },
-          "links": [
-            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2520750591852584135&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
-          ],
-          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:11:15+00:00" },
-          "researcher_note": "人形町の老舗洋食店。代替わり・業態変遷の具体的な取材はエディター判断。"
+          "cand_id": "photo-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784480439925",
+          "title": "ゴンべの森へ アフリカ旅日記",
+          "creator": "星野道夫／本文",
+          "year": 2025,
+          "publisher": "筑摩書房",
+          "meta": { "series": "ちくま文庫", "volume": "ほ-29-1" },
+          "image": { "url": "https://cover.openbd.jp/9784480439925.jpg", "source": "openbd" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033968915", "kind": "source" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T04:11:32+00:00" },
+          "researcher_note": "アフリカ旅日記であり、被写体はアラスカではない。ちくま文庫版として2025年に新たに文庫化された。"
         },
         {
-          "cand_id": "rest-06",
-          "source_api": "google_places",
-          "source_id": "ChIJrZEE_dKMGGARU4h1yE7wsnQ",
-          "title": "中国老舗 天津飯店 新宿本店",
-          "creator": "",
-          "meta": {
-            "address": "日本、〒160-0023 東京都新宿区西新宿３丁目２−１１ B1",
-            "primary_type": "中華料理店"
-          },
-          "image": {
-            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjD4E-6okXaiWurYmeUAzSaRIXKC0ql2RC5bVIXm1G7OgKdI5Wc5GuajBK98nGzp37NRQf5bdRJITrHl1yyHy8drVaBy-wTbnCiTg0uDcOxsThrENaRd5ymC8lYOLI-lyFmKpdMp8OnuMrMs=s4800-w1080",
-            "source": "google-places",
-            "attributions": [ { "name": "中国老舗 天津飯店 新宿本店", "uri": "https://maps.google.com/maps/contrib/100699981859572898962" } ]
-          },
-          "links": [
-            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8409047675415398483&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
-          ],
-          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-25T16:11:15+00:00" },
-          "researcher_note": "新宿の中華料理店。「老舗」を屋号に掲げる。代替わり・業態変遷の具体的な取材はエディター判断。"
+          "cand_id": "photo-06",
+          "source_api": "ndl+openbd",
+          "source_id": "9784103956044",
+          "title": "カリブー : 極北の旅人",
+          "creator": "星野,道夫,1952-1996",
+          "year": 2009,
+          "publisher": "新潮社",
+          "meta": {},
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000010543428", "kind": "source" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-26T04:11:32+00:00" },
+          "researcher_note": "没後に編まれた版。カリブーの季節移動を追った長期取材にもとづく。"
         }
       ]
     }

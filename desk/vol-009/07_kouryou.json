@@ -1,0 +1,8 @@
+{
+  "vol": 9,
+  "hantei": "校了",
+  "lead_final": "一勝は瞬間の輝きだが、百勝は積み重ねた時間そのものである。同じ旋律を弾き継ぐカバー史、巻を重ねてこそ深まる物語、同じ被写体を年月にわたり撮り続けた写真——一度きりの絶頂ではなく、積算されてはじめて像を結ぶものを、音楽・書物・写真の三点から追う特集。",
+  "sekiryo_shiji": [],
+  "daicho_line": "vol.009 | 2026-07-26 | 通算 | music,book,photo | 山本由伸通算百勝を起点に、カバー史・十二国記完結巻・星野道夫の長期取材を『積算されてはじめて像を結ぶもの』として並べた特集。",
+  "moushiokuri": "校閲K-01(photo essayの吹雪・不在年の逸話が02のresearcher_noteで裏づけられない)は4b改稿で該当箇所を削除し一般化した記述へ置換済みであることを03_genko.json/gera.htmlで確認、blockingは解消済みとして校了とした。3ジャンルとも実在チェーン・リンク死活・genko一致は全てmachine check green。唯一残るのは校正P-01/P-02(music DATA欄のprimaryGenreName/trackCount/collectionPrice、book DATA欄のseries/volumeがAPI生フィールド名のまま日本語化されていない)だが、scripts/render_issue.pyはitem.metaのキーをラベルとしてそのままダンプする実装で、日本語ラベルへの変換表を持たない。design.json(spot_color/cover_layout/columns/reverse_data)にもlead_finalにもこの表記を直す手段がなく、責了ループでADに指示を出しても解決できないため、今回はminor指摘のまま校了とした。恒久対応として、render_issue.pyまたはhydrate_genko.py側にAPIフィールド名→日本語ラベルの対応表を持たせることを検討されたい(vol.007・vol.008で指摘されたimage.attributions未照合の申し送りと合わせて、スクリプト側の負債として今後まとめて解消したい)。"
+}
