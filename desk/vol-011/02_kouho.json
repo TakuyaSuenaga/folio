@@ -1,0 +1,77 @@
+{
+  "vol": 11,
+  "genres": [
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "bk-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784334753085",
+          "title": "白夜/おかしな人間の夢",
+          "creator": "ドストエフスキー 著 ; 安岡治子 訳",
+          "year": 2015,
+          "publisher": "光文社",
+          "meta": { "series": "光文社古典新訳文庫 ; KAト1-16", "収録作": "白夜 キリストの樅ノ木祭りに召された少年 百姓のマレイ おかしな人間の夢 一八六四年のメモ" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026272413", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-27T17:04:30Z" },
+          "researcher_note": "ドストエフスキー『白夜』の現行流通訳。openBDにcoverなし"
+        },
+        {
+          "cand_id": "bk-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784042087021",
+          "title": "白夜",
+          "creator": "ドストエフスキー 著 ; 小沼文彦 訳",
+          "year": 1983,
+          "publisher": "角川書店",
+          "meta": { "series": "角川文庫" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971712334740955139", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-27T17:04:30Z" },
+          "researcher_note": "角川文庫版、単独タイトルとしての『白夜』訳。openBDにcoverなし"
+        },
+        {
+          "cand_id": "bk-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784106810022",
+          "title": "白夜 ; ネートチカ・ネズワーノワ他",
+          "creator": "ドストエフスキー 著 ; 工藤精一郎 訳",
+          "year": 1979,
+          "publisher": "新潮社",
+          "meta": { "series": "ドストエフスキー全集, 2（決定版）" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970023484964765249", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-27T17:04:30Z" },
+          "researcher_note": "新潮社版ドストエフスキー全集第2巻収録の『白夜』。openBDにcoverなし"
+        }
+      ]
+    },
+    {
+      "genre": "film",
+      "candidates": []
+    },
+    {
+      "genre": "photo",
+      "candidates": [
+        {
+          "cand_id": "photo-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784766133837",
+          "title": "極地絶景 : 緯度別に見る北極パノラマ",
+          "creator": "クント・フェアラーク 編 ; 青木柊 訳",
+          "year": 2020,
+          "publisher": "グラフィック社",
+          "meta": { "原タイトル": "NORDEN", "NDL件名": "北極地方--写真集", "ndc": "297.8087" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030537483", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-27T17:04:30Z" },
+          "researcher_note": "北極圏の風景を緯度別に収めた写真集。NDL件名は北極地方の写真集。openBDにcoverなし"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "film: 「白夜」を題またはモチーフに持つ映画——ヴィスコンティ『白夜』やその系譜にある一本から1点。",
+      "reason": "API障害。iTunes Search APIのmedia=movieが全クエリで0件を返す(白夜/Le notti bianche/White Nights/Viscontiに加え、対照クエリのTitanic/Avatarも米国ストアを含め0件で確認済み)。media=musicは同一環境で正常に結果を返しており、movieエンティティのみが機能していない状態と判断した。"
+    }
+  ]
+}

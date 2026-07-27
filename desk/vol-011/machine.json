@@ -1,0 +1,33 @@
+{
+  "genko_match": true,
+  "genko_detail": {
+    "lead": true,
+    "items[0].essay": true,
+    "items[1].essay": true
+  },
+  "links_ok": true,
+  "links_detail": {
+    "present": {
+      "https://ndlsearch.ndl.go.jp/books/R100000002-I026272413": true,
+      "https://ndlsearch.ndl.go.jp/books/R100000002-I030537483": true
+    },
+    "unknown_external": [],
+    "unsafe_schemes": [],
+    "event_handlers": [],
+    "meta_refresh": false,
+    "css_external": []
+  },
+  "pr_labels_ok": true,
+  "html_ok": true,
+  "okuzuke_ok": true,
+  "url_status": [
+    {
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026272413",
+      "status": 200
+    },
+    {
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030537483",
+      "status": 200
+    }
+  ]
+}
