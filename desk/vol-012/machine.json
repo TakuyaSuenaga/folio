@@ -1,0 +1,27 @@
+{
+  "genko_match": true,
+  "genko_detail": {
+    "lead": true,
+    "items[0].essay": true
+  },
+  "links_ok": true,
+  "links_detail": {
+    "present": {
+      "https://maps.google.com/?cid=6724116355710339721&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true
+    },
+    "unknown_external": [],
+    "unsafe_schemes": [],
+    "event_handlers": [],
+    "meta_refresh": false,
+    "css_external": []
+  },
+  "pr_labels_ok": true,
+  "html_ok": true,
+  "okuzuke_ok": true,
+  "url_status": [
+    {
+      "url": "https://maps.google.com/?cid=6724116355710339721&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "vol": 12,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://maps.google.com/?cid=6724116355710339721&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=6724116355710339721&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "lead-wrap内 リード文(cover直下)",
+      "severity": "blocking",
+      "type": "規定違反",
+      "genzai": "俳句はこれを季語として拾い、建築は構造に取り込み、店はもてなしの所作とした。他者のための涼を、三つの分野に辿る特集。",
+      "teisei": "04_koetsu.jsonのK-01(blocking)がこのリードを対象に、poetry・restaurantが落選しarchitecture一本(items[0]のみ)での発行であるにもかかわらず『三つの分野に辿る特集』『俳句は……店は……』と三分野掲載を告知しており誌面の自己記述として矛盾すると指摘済み。03_genko.jsonのrevision_noteはこの対応を『03_draft.jsonの管轄外、lead_draftの改稿は別工程(編集長)で行う必要がある』として見送っており、05_goudata.json・gera.html双方でリードが未修正のまま残っている。俳句・店への言及と『三つの分野』という数量表現を削除し、architecture一本の実態(見知らぬ他者へ涼を贈る都市の贈与)を語る文へ編集長が改稿する必要がある。機械チェックのgenko_matchは05のleadとgeraの文字列一致のみを見ており、この事実矛盾は検出できない。"
+    },
+    {
+      "id": "P-02",
+      "location": "okuzuke(奥付)4段目の注記",
+      "severity": "minor",
+      "type": "規定違反",
+      "genzai": "詳細はitems[0].sentei_riyuに記載。",
+      "teisei": "内部データのフィールド参照(items[0].sentei_riyu)が読者向け誌面にそのまま露出している。読者が参照できない内部JSONパスの表記であり、公開文面としては不適切なため、当該参照を削除するか読者が理解できる説明に置き換える。"
+    }
+  ]
+}

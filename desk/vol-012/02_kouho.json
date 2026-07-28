@@ -1,0 +1,279 @@
+{
+  "vol": 12,
+  "genres": [
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784860372897",
+          "title": "気配 : 俳句とエッセー",
+          "creator": "おおさわほてる",
+          "year": 2020,
+          "publisher": "創風社出版",
+          "meta": {
+            "series": "シリーズ「俳句とエッセー」第16弾",
+            "toc_excerpt": "３.父親 3-1.お腹 3-2.打ち水 3-3.俳句 おーいおーい",
+            "ndc": "914.6",
+            "extent": "157p"
+          },
+          "image": { "url": "https://cover.openbd.jp/9784860372897.jpg", "source": "openbd" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030390472", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-28T16:36:54+00:00" },
+          "researcher_note": "俳人おおさわほてる(船団の会)による句とエッセーの書。openBD目次データに「3-2.打ち水」という章題が明記されている。打ち水を主題に他者への涼の贈与を詠んだ一句かは編集部の精読が必要。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJA8WJaJwIAWARDt-FtDT-s44",
+          "title": "杉本家住宅",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "京都府京都市下京区矢田町116", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDfepPRIc8hoS50QUXQcICDz7ABetsTNBVo_fNcf_Mjd5H2LTTBgej_UL5YuEBQkHSt-J4MKxFWiSCWxGZH5AK40WH9MQETmemtmKsOr9uvfCTuGiJHNUFHMOOWcaMipjm2BoaWVJhY9vTQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "杉本家住宅", "uri": "https://maps.google.com/maps/contrib/103026179388143552409" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10282841876537401102&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-28T16:36:54+00:00" },
+          "researcher_note": "京都・下京区の京町家、重要文化財。通り庭(土間)と坪庭を持つ伝統的町家建築。打ち水の実施有無・散水設計の詳細はPlacesデータには含まれず未確認。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJVRXuPhwIAWARnygrbMaZeSI",
+          "title": "京都府立陶板名画の庭",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "京都府京都市左京区下鴨半木町", "primary_type": "Art museum" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBhNq6JzYrJvA1K1GkqPlL373VQ_bD53LRtY7U2J0J7sLx3lJn9LBManPcxGKXDQQolQ9J9dp1CPNNcyfUJfRFntLFd53VziEg7VMRGpcJPhWNndDKbhbrPwZWzHqH0jVcf0QfqQV4ezSq4_NE=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ミネ3716", "uri": "https://maps.google.com/maps/contrib/102662807922059774807" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2484185746968881311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-28T16:36:54+00:00" },
+          "researcher_note": "安藤忠雄設計の野外美術館。水路と滝を通路沿いに配し、来場者が水音・水面と共に園内を歩く構成で知られる屋外施設。設計意図の一次確認は未実施。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJyapPiJGRQTURiUqCGjPcUF0",
+          "title": "アクロス福岡",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "福岡県福岡市中央区天神1丁目1-1", "primary_type": "コンサート ホール" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBs62b2HXfarj4WYUD0Oa90EzT7Y6XEJLKa37y3Hp64EszPl9Xclrbs72aXNmtqCJftodrQLr9iL0jkY9pY2GnoWR8b_JkXBZuhQpV04HncDuHGwumS5XnfpyAXR_-bRJi2FKBYbO2yymqFgw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "JiannWei Tzeng (JW)", "uri": "https://maps.google.com/maps/contrib/114483698591394207482" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6724116355710339721&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-28T16:36:54+00:00" },
+          "researcher_note": "天神中心部に建つ段状の屋上庭園建築。植栽による蒸散冷却が都市のヒートアイランドを緩和するとされる事例として知られる。個人の快適さでなく都市空間への効果である点が発注文と合致するかは編集部判断。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJxU48-2OLGGARHMtB5RAhytA",
+          "title": "根津美術館",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "東京都港区南青山6丁目5-1", "primary_type": "Art museum" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjB0f0HeGEJX_FrTss1P529N8NWyrv5OUQcK6dhhMCfsrrXkZxYQLAm7bI6E7aAnNlAF0QeGUO5Xi-fVhv6ZeYu5rBV2KrmQswDvtDaTWdwZWktzQKZGq1V0B1TjADd_IBqxER2iWBhFXNutqw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Lucia Opazo", "uri": "https://maps.google.com/maps/contrib/104930444377259316820" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15044873861634050844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-28T16:36:54+00:00" },
+          "researcher_note": "隈研吾設計の竹の回廊が来館者を庭園沿いに導くアプローチ空間で知られる美術館。散水・蒸発冷却との直接的な関連はPlacesデータでは未確認。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJG40a264IAWARseTR0ErSLEc",
+          "title": "京都駅ビル 大階段",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "京都府京都市下京区東塩小路町901", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAgVSaa4J11D_cW54qciXByrrW_xLd6FnO1QqYBKf6SbfA5PmWmtdrfX0h3hytU_YE2JcG-jzUuwluKhiY94-HDgUg5Mt3H9QqPYYccgtKKWtMiV4vftMjGPb6VggQEAqbzMnw1oOuenBo5MW8=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ドーム!", "uri": "https://maps.google.com/maps/contrib/100342887344357745720" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5128705294440981681&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-28T16:36:54+00:00" },
+          "researcher_note": "原広司設計の巨大吹き抜けを持つ駅ビル。通り抜ける気流を意図した大空間として言及されることがある公共施設。散水設計の有無は未確認。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJhSoVqvIIAWARQZyevE0hPOM",
+          "title": "鴨川納涼床",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "京都府京都市中京区松本町489", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDPDmSOXQR_gJoEykTAF3AobWonDRI61fDd670FJukIRIGalPeSqovVTRAc8P7UV-clzk4VcbYliLPh9lNO6joSMbHUgAojxrY6by8pJCHdzEC-jr2xPUQLzmJvomuKXtKjnkFwclwqiyKyxg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "lisan “Lis”", "uri": "https://maps.google.com/maps/contrib/105914930825869647232" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16373998962972990529&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-28T16:37:00+00:00" },
+          "researcher_note": "鴨川西岸に夏季架設される納涼床の総称。川風を活かした納涼のもてなし空間として知られる。個別店舗ごとの打ち水実施の有無は本データでは未確認。"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJ2TYj8QimAWARuN2LY02VI2E",
+          "title": "貴船荘",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "京都府京都市左京区鞍馬貴船町50", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA-Tn3A7E7PVDVZvodioVHLamRD6pYOVgdu7jgjoSV2lxgoBC1cgr3PxH-nG-EgNQD_Ey_vmSHFFAh2oBoSr1TB4NLkYk6e1DK7y6XLbTNJW4Df1vTglxtJ4fuoiLM83NNkDcbGTIuotAF6XLaAd5kbew=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "貴船荘", "uri": "https://maps.google.com/maps/contrib/115425658900339093514" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6999602405479013816&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-28T16:37:00+00:00" },
+          "researcher_note": "貴船川沿いの川床料理店。川面上の座敷で客をもてなす業態。打ち水の実施有無は未確認。"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJqcbJieKlAWARjbvKL96apfQ",
+          "title": "ひろ文",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "京都府京都市左京区鞍馬貴船町87", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjC7aH4Ts-pNSbHY4I9lJTUjp14TlxfDzoZyOJDMXlJDarKgRfbmjz7YAmtRjDl2i7yOusW1iLxmEvvFhkEL3lm1T-4BhL3dQFlqUO2jpzPkLOecuVj7aT5sMSTETaN9dKMBEcAHHxwHn2FkZg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "京都貴船 料理旅館 ひろ文", "uri": "https://maps.google.com/maps/contrib/103579923784180481506" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17628666595486907277&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-28T16:37:00+00:00" },
+          "researcher_note": "貴船の老舗料理旅館。川床(ながし素麺で知られる)で夏の涼をもてなす。打ち水の実施有無は未確認。"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJt2B77wimAWARbbhQU6Zh32g",
+          "title": "貴船 きらく｜京都・川床",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "京都府京都市左京区鞍馬貴船町47", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjD7pdS1nO-ucHtt2Ir9obWifByTYAhER-SUs2OjFqinvjWFW-S3e8wgppgRQQKHwxX9RjU9ESQkC5omBusxBVQ3rEYLZ25Yqp_7t6Z-TNUsmnZ5riJT53f1hReKko2ui3awW_Bt825Mgn--3er1k6ySug=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "貴船 きらく｜京都・川床", "uri": "https://maps.google.com/maps/contrib/118442580837646069586" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=7556866066741246061&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-28T16:37:00+00:00" },
+          "researcher_note": "貴船の川床料理店。店名に川床を明記。打ち水の実施有無は未確認。"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJkf1rMgimAWARGX37J_M7FKs",
+          "title": "右源太",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "京都府京都市左京区鞍馬貴船町76", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBLFvXbZzEt13kuiZWY3EJuAEMu6SR_SkH2zjo9CsT23ObqqBHiS5MizpfWKlU5acJFNoHQukyrjjpj9Io-Xw66rBUkg4OhhxOwZPUurQpIi-cTxQSum-AaUVMzFbv4wgQV32IAb6FD3NrrWb5dR1t3Bg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Masaaki Tanaka", "uri": "https://maps.google.com/maps/contrib/116299202037206157752" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12327543995553774873&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-28T16:37:00+00:00" },
+          "researcher_note": "貴船の川床料理店。打ち水の実施有無は未確認。"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJr11HNAimAWARgUfnToHOMAk",
+          "title": "貴船 仲よし",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "京都府京都市左京区鞍馬貴船町71-71", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAnhpWvWAXvIq7KEDQcnUjDWkXjKj_-ZfOi_NKyNgU0bVOU35p0lwI-1EP7KACOc75n9BqdjYQ3x0dXDOMUHm-dj388BJKqblU-7-_huI1UM2Fj55H8SDeZ86u2C5___qzGZdPwrUaZpNDJyoXmnBX10g=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "hiromi528", "uri": "https://maps.google.com/maps/contrib/112587977454524054856" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=662256199993345921&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-28T16:37:00+00:00" },
+          "researcher_note": "貴船の川床料理店。打ち水の実施有無は未確認。"
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJK2lJW-KlAWARH_EvZSxHJiY",
+          "title": "奥貴船 兵衛(川床・旅館・カフェ)",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "京都府京都市左京区鞍馬貴船町101", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCMLunLX0AXi37kIn8jnWgH166U5_zZHk7yXTqZ0WKhWZmwt25cnHq03Gepvd_9UUX_C8xJVdJVMidw-VYkUWHXGNIKJFtydOHovywL6h5H9H6fLRGNojzw4nX0rFMSEjr9PU-G3pi4-7aqLozsOing=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "奥貴船 兵衛(川床・旅館・カフェ)", "uri": "https://maps.google.com/maps/contrib/108121243881229235842" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2748962878558040351&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-28T16:37:00+00:00" },
+          "researcher_note": "貴船最奥に位置する川床・旅館・カフェ。打ち水の実施有無は未確認。"
+        },
+        {
+          "cand_id": "res-08",
+          "source_api": "google_places",
+          "source_id": "ChIJNxw8EQSNGGARPDDzAB4xHbg",
+          "title": "和食 錦水",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "東京都文京区関口2丁目10-8 ホテル椿山荘東京 庭園内", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDTS_sPdWdWrGt25S4m5rLtIqaWYsXQm_Q3DZDWqc-OMDXG-dY4ld_3W5RqGszO-AU2v9I883jcxFBH0sJda-niWcikYciA_5rky5IAS2dz_GuUhcafL8HqvjooERkNoUImHEJg_kGVEbWXJro=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "1 A", "uri": "https://maps.google.com/maps/contrib/103359185265894058784" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13266814082238066748&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-28T16:37:00+00:00" },
+          "researcher_note": "ホテル椿山荘東京の日本庭園内にある和食店。滝と緑を配した庭園を通じて涼を演出する立地。京都・鴨川/貴船以外の候補として東西の分布を確保する目的で追加。打ち水の実施有無は未確認。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "poetry(order 1): 打ち水を季語として詠んだ俳句・短歌から一点。己の涼のためでなく他者へ涼を贈るという主題が読み取れる作品を選ぶこと。",
+      "reason": "NDLサーチは書誌カタログであり個々の俳句・短歌の本文検索はできない。「打ち水」を含む語で数十通りのクエリを試みた結果、ISBN付きでopenBD照合可能な候補はpoe-01『気配:俳句とエッセー』(目次に「打ち水」の章題あり)一点のみ得られた。山口誓子『夜月集』(1939)・川端千枝『白い扇』(1932)もNDL全文検索で「打ち水」との一致が確認できたが、いずれもISBN制度以前の刊行でopenBD照合ができないため、鉄則(openBDにヒットしない書籍は候補にしない)により候補から除外した。5点の目標に対し1点のみで、机の幅が狭いことを編集長へ正直に報告する。"
+    }
+  ]
+}
