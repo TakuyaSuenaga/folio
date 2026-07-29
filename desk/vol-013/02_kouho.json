@@ -1,0 +1,301 @@
+{
+  "vol": 13,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJf8xB-pyOGGARizzhlNTcI7s",
+          "title": "国立西洋美術館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒110-0007 東京都台東区上野公園７−７",
+            "primary_type": "Art museum"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDX8RGqHQM5Q1Rhy6R9B37-xhneC4DDQz1D6eBagTBVdMjIzBIpRLZNebiu8PLYNuhBBidsUQEF7gJUwgzmg9CBE1gunjP9QmVGfiJ2upgFraBu_mKQAM8J93t7JUsykhwUE9MI-TOQuuebmdnCQaHzjw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Yee WANG (Architecte)", "uri": "https://maps.google.com/maps/contrib/113527247090638141727" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13484864514866363531&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-29T16:27:48+00:00" },
+          "researcher_note": "免震レトロフィットの代表例として言及されることが多い館(工法の詳細はPlaces情報外につきkoetsuでの一次資料確認を推奨)"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJEwyaTjAoil8RsaujmBJpV60",
+          "title": "せんだいメディアテーク",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒980-0821 宮城県仙台市青葉区春日町２−１ 1F",
+            "primary_type": "カルチャー センター"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCCETLg3_UMt1Rz0ZtnowG8m8v8T7J2DjwAFUhlIDLHt1zhCYn_-tmEn9SfAj06D7jNKcz46yzb6WgxljwOJnGRMrkn-8CAeJ_cJeYMy85N_e6PJkK1LyAkeMTvoI46gRzfn2TmnMQAKsRK=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "小久保圭基", "uri": "https://maps.google.com/maps/contrib/110498977076474767993" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12490567620126550961&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-29T16:27:48+00:00" },
+          "researcher_note": "制振構造の建築として言及されることが多い(工法の詳細はPlaces情報外につき要一次資料確認)"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJ__9ThIKLGGAR2FCxue47YLg",
+          "title": "六本木ヒルズ森タワー",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒106-0032 東京都港区六本木６丁目１０−１",
+            "primary_type": "ビジネス センター"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDn69BGvZnNEg5Jj9ocVk6nQq0Q3aZ-WUzMjgVoxpgD9P8gHS3firvuVcSDqc2AFiVWKsMQaxqhN6IeCnPr88GgbOzP-zMquZU1vDMbhOqvel12ILGTsSuE4goDl_OqAt7P-ixoZyxiRXL-R5KJGAWAfA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "정용준 (태풍)", "uri": "https://maps.google.com/maps/contrib/111127485085786127103" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13285684797246623960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-29T16:27:48+00:00" },
+          "researcher_note": "制振ダンパーを採用した高層タワーとして言及されることが多い(工法の詳細はPlaces情報外につき要一次資料確認)"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJ35ov0dCOGGARKvdDH7NPHX0",
+          "title": "東京スカイツリー",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒131-0045 東京都墨田区押上１丁目１−２",
+            "primary_type": "展望台"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCF3Y-wkMow9W1G12W_uK-uY2zeoqx79Ht-fE3Web8vOw-QggaeX-qwlx068sMkICHGDHwpBsBfv97VBX9zm-LVONqOMkydLerCc2SMEXALSXIkTYKhqUBdB6bKILVK7NKaQ86tCWS62FgHSg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Riccardo Widera", "uri": "https://maps.google.com/maps/contrib/107192220437452611381" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9015449659807889194&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-29T16:27:48+00:00" },
+          "researcher_note": "心柱制振の採用で言及されることが多い塔(工法の詳細はPlaces情報外につき要一次資料確認)"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJT5NvX64IAWARRtnsQ_oAekY",
+          "title": "京都駅ビル",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒600-8216 京都府京都市下京区東塩小路町９０１",
+            "primary_type": ""
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBZMiP_Jb1orfll-78t4ezC5fZcYZGVbP_6Y8E-BOMuYyO4H0oQlCV91aqyKm2MOJXM7U6sMvSpiuEGE4IUT18dQ7_CGLO6kV4Y7wY-eIPTHw9Z0f8OPAY57YNmwmIo3dwhQX4NK4wWA3g4LQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "京都駅ビル", "uri": "https://maps.google.com/maps/contrib/110696081079816697062" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5078372604695075142&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-29T16:27:48+00:00" },
+          "researcher_note": "大規模鉄骨造の駅ビル。免震・制振技術の採否はPlaces情報からは未確認(要一次資料確認)"
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJEaFmc11cGGARx8g0NQrvYTY",
+          "title": "横浜ランドマークタワー",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒220-0012 神奈川県横浜市西区みなとみらい２丁目２−１",
+            "primary_type": ""
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAICaeubeNN9eYw4xc3xF0mQgVaxaBiNFWp-Dmv4F8Rhu41xFUn9vDiCu-bFJb66Pi5aYORIoWMLb7BvEQ8M--iPgLyooaGHizsP7ho_rlIguzPIati5ZjbvX87gU_lj10grLO2X9Mg-raD=s4800-w1080",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Ferhat Safran", "uri": "https://maps.google.com/maps/contrib/118374239741492097900" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3918675977910405319&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-29T16:27:48+00:00" },
+          "researcher_note": "制振技術(同調質量ダンパー等)の採用で言及されることが多い超高層タワー(工法の詳細はPlaces情報外につき要一次資料確認)"
+        }
+      ]
+    },
+    {
+      "genre": "photo",
+      "candidates": [
+        {
+          "cand_id": "photo-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784868310075",
+          "title": "新版 LIME WORKS",
+          "creator": "畠山直哉",
+          "year": 2025,
+          "publisher": "青幻舎",
+          "meta": { "extent": "119p", "price": "5000円" },
+          "links": [
+            { "label": "NDLサーチで詳細を見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034336753", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-29T16:27:13+00:00" },
+          "researcher_note": "石灰石採石場の発破・岩壁を捉えた写真集。地表に刻まれた採掘の時間そのものを扱う点で発注に近い"
+        },
+        {
+          "cand_id": "photo-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784096820643",
+          "title": "BLAST",
+          "creator": "畠山直哉",
+          "year": 2013,
+          "publisher": "小学館",
+          "meta": { "extent": "79p", "price": "4200円" },
+          "links": [
+            { "label": "NDLサーチで詳細を見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024775061", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-29T16:27:13+00:00" },
+          "researcher_note": "同じく石灰石採石場の発破の瞬間を捉えた写真集。LIME WORKSと同系統の候補"
+        },
+        {
+          "cand_id": "photo-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784909742087",
+          "title": "A BIRD Blast #130",
+          "creator": "畠山直哉",
+          "year": 2025,
+          "publisher": "roshin books",
+          "meta": { "extent": "35p", "price": "5500円" },
+          "links": [
+            { "label": "NDLサーチで詳細を見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034420014", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-29T16:27:13+00:00" },
+          "researcher_note": "同系統の小部数写真集。BLAST/LIME WORKSより近作かつ小規模"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784163919201",
+          "title": "秋葉断層",
+          "creator": "佐々木譲",
+          "year": 2024,
+          "publisher": "文藝春秋",
+          "meta": { "extent": "290p", "price": "1800円" },
+          "links": [
+            { "label": "NDLサーチで詳細を見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033793732", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-29T16:27:13+00:00" },
+          "researcher_note": "題名に「断層」を持つ2024年刊の長編小説。断層そのものを主題に据える直球の候補"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784004304234",
+          "title": "活断層",
+          "creator": "松田時彦",
+          "year": 1995,
+          "publisher": "岩波書店(岩波新書)",
+          "meta": { "extent": "242p", "price": "650円" },
+          "links": [
+            { "label": "NDLサーチで詳細を見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002473605", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-29T16:27:13+00:00" },
+          "researcher_note": "活断層を主題とする岩波新書の定番科学ノンフィクション。比喩ではなく直接の地学解説"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784569860015",
+          "title": "活断層のリアル : 京大元総長が語る入門講義",
+          "creator": "尾池和夫",
+          "year": 2025,
+          "publisher": "PHP研究所(PHP新書)",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで詳細を見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034288120", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-29T16:27:13+00:00" },
+          "researcher_note": "活断層を主題とする近刊の科学ノンフィクション。松田時彦『活断層』と対比できる候補"
+        },
+        {
+          "cand_id": "book-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784480067012",
+          "title": "京大人気講義 生き抜くための地震学",
+          "creator": "鎌田浩毅",
+          "year": 2013,
+          "publisher": "筑摩書房",
+          "meta": {},
+          "image": { "url": "https://cover.openbd.jp/9784480067012.jpg", "source": "openbd" },
+          "links": [
+            { "label": "NDLサーチで詳細を見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971430859722304390", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-29T16:27:13+00:00" },
+          "researcher_note": "地震学の入門書で断層運動にも触れる科学ノンフィクション。openBDに書影あり"
+        },
+        {
+          "cand_id": "book-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784896602173",
+          "title": "日本海の拡大と伊豆弧の衝突 : 神奈川の大地の生い立ち",
+          "creator": "藤岡換太郎, 平田大二",
+          "year": 2014,
+          "publisher": "有隣堂(有隣新書)",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで詳細を見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025901044", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-29T16:27:13+00:00" },
+          "researcher_note": "プレート衝突による地殻変動を主題とする地域地学書。「地殻変動」を直接扱う候補"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "photo(発注2) — 畠山直哉以外の候補",
+      "reason": "「地層 写真集」「石灰石 写真集」「露頭 写真」「地質 写真集」「断層 写真」でNDL検索を行ったが、地表の蓄積を主題とする写真集で他に該当するものが見つからなかった。『写真集・地球からのメッセージ鹿児島』(ISBN 4-88272-095-7、NDL件名に「地層」あり)はopenBDにヒットせず候補から除外した。結果、畠山直哉の3点のみで発注1件に対し候補5点の目標を下回る"
+    },
+    {
+      "hacchu": "book(発注3) — openBD未ヒットのため除外した候補",
+      "reason": "NDLでは実在が確認できたが、openBDにヒットしなかったため除外: 『青のある断層』松本清張(ISBN 4-334-07481-2)、『M8』高嶋哲夫(ISBN 978-4-08-746200-5)、『芥川賞の若者の深層心理』阪井敏郎(ISBN 4-8355-9014-7)"
+    }
+  ]
+}
