@@ -13,3 +13,4 @@ vol.010 | 2026-07-27 | 宮都以後 | architecture,poetry,photo | 藤原・近�
 vol.011 | 2026-07-28 | 白夜 | book,photo | ドストエフスキー『白夜』と北極パノラマ写真集で、比喩としての白夜と実測としての白夜を対比。filmはiTunes Search API障害で候補ゼロ落選し二ジャンル構成で発行。
 vol.012 | 2026-07-29 | 打ち水 | architecture | 見知らぬ他者へ涼を贈る建築一篇、poetry・restaurant落選で部分成功発行
 vol.013 | 2026-07-30 | 断層 | architecture,photo,book | 免震建築・採石場を刻む写真集・活断層の新書、三点で蓄積が閾値を越えて可視化される時間を読む特集。
+vol.014 | 2026-07-31 | 土用干し | restaurant,book,architecture | 梅干・稀覯書・土蔵、三つの現場から「保存とはくり返す手入れである」を説く号

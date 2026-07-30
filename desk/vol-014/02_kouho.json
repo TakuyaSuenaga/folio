@@ -1,0 +1,406 @@
+{
+  "vol": 14,
+  "genres": [
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJ-zFsvPikGWARpPnKAak7-y0",
+          "title": "ちん里う本店 小田原駅前本店・老舗 梅干専門店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "神奈川県小田原市栄町一丁目二番一号 小田原駅前ビル一階", "primary_type": "店舗" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAWOd4rIuZu6YEQFn1laKFwwmYfFeoXqryA046oCJVUDRRSEEDxlu8Gzsj9EXs5cDyWWgS1tuVYec3FImhYDTGjyw4Ho2FHqeORrrdFniEkbokZ-ukVJS5gW5c8Flq7vQ3tFayehT6epTnT=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "運転太郎", "uri": "https://maps.google.com/maps/contrib/108079254078833695133" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3313307547926722980&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:30:27+00:00" },
+          "researcher_note": "小田原の老舗梅干専門店。屋号に「老舗」を掲げる名の通った店で、伝統製法との関連は編集部で要確認。"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJU3XRqV4LB2AR-fgzMdtdLjY",
+          "title": "紀州梅干館 紀州梅干の梅翁園",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "和歌山県日高郡みなべ町山内千三百三十九番地", "primary_type": "店舗", "note": "みなべ町は南高梅発祥の地とされる産地" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjB8pMzFPGu-Q3syd2mhNKa4AmBsOQOdDKz3zXHjhsGCfnpl5ffJlUicyPuh_OO4HFt5ShbpXAt-CjQr4pJp2pMULVJ4dySRyvmB8JEk7wP3Rs3_8_d1utbRXJapnqVSOFTjzx9Rc2EiX_nteg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "hek 0085", "uri": "https://maps.google.com/maps/contrib/117069665139079682241" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3904161122981509369&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:30:27+00:00" },
+          "researcher_note": "南高梅産地みなべ町の梅干し専門店。天日干し工程の詳細は未確認。"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJO0fQxUqhB2ARddKH4IOulhc",
+          "title": "福梅本舗",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "和歌山県西牟婁郡白浜町堅田二千四百九十七番地の三十六", "primary_type": "アジア食材店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA9GZY5M9A0ak2y-kRZXrO60aDQFWWGoWxKTHd-bndc7iL3KoJpt8woS_mCCeh7qD-mIfp2A0vPPiiVXYW5DFf3ncWC40M9KQNcip8gkvVn8Nc6nJMuEN78jXUpDeJqF9ymwf5uxbqj0-Yo-g=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "福梅本舗", "uri": "https://maps.google.com/maps/contrib/110952319895934212769" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1699737790809887349&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:30:27+00:00" },
+          "researcher_note": "白浜の梅干し専門店。"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJYW1OBqGhB2AR6Lpfjy4g7eA",
+          "title": "梅干し専門店 山崎屋",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "和歌山県西牟婁郡白浜町千五十九番地の十四", "primary_type": "店舗" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCGagmUuz_-Ms03qpi8fO4z0-7eJH67zNbREXh4peSTHw0b7q59DuLFt6aulrimiXKQ3snMdFyERqdStNPwdUcQct1bmLIGJYaO9TxArshD2GQG1jR1xcim72tyLmX6FHH-BBRHPaWEAnIBzus=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Yachtman", "uri": "https://maps.google.com/maps/contrib/102665850229690168199" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16207646018322283240&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:30:27+00:00" },
+          "researcher_note": "白浜の梅干し専門店。"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJxwmvhUlNB2AR9-QTb4zd9AI",
+          "title": "和歌山梅干し専門店｜和秀",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "和歌山県和歌山市鳴神千百四十三番地の二", "primary_type": "スーパーマーケット" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjB4y0TPxgr0envIBMmilngClpaH-lEVLGs3aOhFJmH6xYHXsLwG1P3O6N-J_ehFLr4hR50v_VsWXQDEFydohDUpzpsuMFy-BIkiULs0olkhOKl-oEgWwEy-vq5LndbbZT8wx9K2mhoUDAz9y5s=s4800-w1036",
+            "source": "google-places",
+            "attributions": [ { "name": "和歌山梅干し販売所｜和秀", "uri": "https://maps.google.com/maps/contrib/104911785626329053712" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=213038677621990647&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:30:27+00:00" },
+          "researcher_note": "和歌山市の梅干し専門店。"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJh8l7njZNB2AR4Iqvyw0d728",
+          "title": "勝喜梅",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "和歌山県和歌山市西高松一丁目五番二十四号", "primary_type": "食料品" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCxwKxgdGPWGgxvJLcQODj0fMdpm2IQ_PMEV1DJTyrEpY6wCbmPn2i3d9KsY1AXL67U6Fxn0N-5OLFGPKI5D5MzsIdPtTh5AJHt8uQVpLBvY6YGRHE8wXtZd_0_vXwvj6_TgJRjVE8TNjgV6Lw9IbvV0A=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "勝喜梅（しょうきばい）", "uri": "https://maps.google.com/maps/contrib/105833454854648568748" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8065697402732907232&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:30:27+00:00" },
+          "researcher_note": "和歌山市の梅干し生産者。"
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJezswlxSnB2ARMdiX_K-wF_w",
+          "title": "紀州紅梅園",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "和歌山県田辺市東山二丁目二十六番十一号", "primary_type": "卸売業" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBPrGGZKXA4p8qrhdVuqoL9wJwKWlIwDgiHPPhJ9kwW3RBcXcwRc_J6XY2IP1zkMcwu4SAGG7wN2Agr3-B5VZvQWIYrCRQgAYn9QqEC9a5BQYROhE4KfZMgy1U6IF-4PCwxqX4PcENps3PKLw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "紀州紅梅園", "uri": "https://maps.google.com/maps/contrib/108561631005564436612" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=18165181891925760049&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:30:27+00:00" },
+          "researcher_note": "田辺市の梅干し卸・生産者。"
+        },
+        {
+          "cand_id": "res-08",
+          "source_api": "google_places",
+          "source_id": "ChIJcyN4YLpFB2ARydRHWiwgUKU",
+          "title": "紀州の梅干し「猿梅」",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "和歌山県有田郡有田川町明王寺九十五番地の一", "primary_type": "店舗" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAbVLlScLE-bfETISbeChWfgpGcuv3rSbuF-XV1XBX26bt8cFrl5taVzuyf5WeWF-MxjpKyfHxNG8-e6ptQia8P6lEUSeHTXgP3wGPl9RcM-SiftU9zYaEYb3JXlqqF1uKyj0nPElkozMwwYAA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "森本嘉樹", "uri": "https://maps.google.com/maps/contrib/111906427571581210503" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11912056389260268745&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:30:27+00:00" },
+          "researcher_note": "有田川町の梅干し生産者。屋号「猿梅」。"
+        },
+        {
+          "cand_id": "res-09",
+          "source_api": "google_places",
+          "source_id": "ChIJgVwlFuWLGGAR1iBPDaPoQMg",
+          "title": "梅干し専門店うめ八 有楽町店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都千代田区有楽町二丁目十番一号", "primary_type": "アジア食材店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDKTecffk2ZS4UYu_Etv4UeBW9PrMIvYs9QLhWHY47imzKcxFHjfR414jgZkT7WMlJWWa9z4dRJHAuvEYRwQg3oCYc-35ONEURCQUk0-kyTaGIt4hKueMfuTrKYfsWzMh-EI6-1bfX0UiXc9Kk=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "E T", "uri": "https://maps.google.com/maps/contrib/104191807893131184185" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14429788993095672022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:30:27+00:00" },
+          "researcher_note": "東京・有楽町の梅干し専門店。産地から離れた都市部の選択肢として。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "bok-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784780802139",
+          "title": "アーカイブ立国宣言 : 日本の文化資源を活かすために必要なこと",
+          "creator": "「アーカイブ立国宣言」編集委員会／編 福井健策／監修 吉見俊哉／監修 青柳正規／著 ほか",
+          "year": 2014,
+          "publisher": "ポット出版",
+          "meta": { "isbn": "9784780802139", "extent": "272p", "price": "2300円" },
+          "image": { "url": "https://cover.openbd.jp/9784780802139.jpg", "source": "openbd" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025888840", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:32:12+00:00" },
+          "researcher_note": "書籍・マンガ・ゲーム・災害記録など諸ジャンルの保存とアーカイブ化の取組を横断的に紹介する一冊。「保存という行為そのもの」を主題化。"
+        },
+        {
+          "cand_id": "bok-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784585200307",
+          "title": "アジア学の宝庫、東洋文庫 : 東洋学の史料と研究",
+          "creator": "東洋文庫",
+          "year": 2015,
+          "publisher": "勉誠出版",
+          "meta": { "isbn": "9784585200307", "price": "2800円", "toc_excerpt": "戦中・戦後の東洋文庫／東洋文庫蔵書疎開雑記／東洋文庫所蔵のオスマン語及び欧文稀覯書の白眉について、等を収録" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026279986", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:33:27+00:00" },
+          "researcher_note": "戦中戦後の疎開を含む蔵書保存史と稀覯書を扱う東洋文庫の研究書。openBDにcover画像なし。"
+        },
+        {
+          "cand_id": "bok-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784585222538",
+          "title": "近世・近現代文書の保存・管理の歴史",
+          "creator": "佐藤孝之, 三村昌司 編",
+          "year": 2019,
+          "publisher": "勉誠出版",
+          "meta": { "isbn": "9784585222538", "price": "4500円", "toc_excerpt": "近世村方文書の保存と管理／大規模自然災害と資料保存／本の価値を見いだす古書店、等を収録" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030001065", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:33:27+00:00" },
+          "researcher_note": "文書の保存・管理の歴史そのものを主題化した学術書。openBDにcover画像なし。"
+        },
+        {
+          "cand_id": "bok-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784639022190",
+          "title": "人文系博物館資料保存論 : 学芸員養成新課程対応!!",
+          "creator": "青木豊 編",
+          "year": 2013,
+          "publisher": "雄山閣",
+          "meta": { "isbn": "9784639022190", "price": "2400円" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024403595", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:33:27+00:00" },
+          "researcher_note": "学芸員養成課程向けの資料保存論テキスト。蔵書・稀覯本個別の逸話ではなく保存理論を扱う。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJn26p03i3il8RoZw6V-8L17M",
+          "title": "喜多方市小田付重要伝統的建造物群保存地区",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "福島県喜多方市南町ほか", "primary_type": "観光名所", "note": "国選定重要伝統的建造物群保存地区。醸造蔵・座敷蔵の土蔵群を中心とする町並み" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCpbMIDrz13jZEq_vFuAaUHthjFaMCMuli8Q6-HpYk9TEhPdw9FdtywWxvkjUdwASnKsO9P4sEgU5K1qr_dCWKEj4lRSN2q-rrHE7eQ7F1wA3-d9djxOq8ZrFZPYR_d8NSQC2tNF-KEkyGTng=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "トモユキ", "uri": "https://maps.google.com/maps/contrib/118241112486351573243" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12958839575370439841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:30:38+00:00" },
+          "researcher_note": "国選定の伝統的建造物群保存地区。土壁の土蔵群による町並みで、調湿構造の伝統建築の集積地として発注に強く合致。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJMZobFWC2il8RxsqVX2przO8",
+          "title": "喜多方蔵の里",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "福島県喜多方市押切二丁目百九番地", "primary_type": "観光名所", "note": "市内各所から移築復元した土蔵群の野外博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCmrWYHZFp-SvLLpYo08YqWK5r_6k8DuB7NBAPCrqy7yCd3EnMj9u5P9kL4hs0Gi_QuuTM3NTis_SXpLuySis2pfOxEFEtQdYwgEeBq-xzJ_Pb8d68NCefjj_0eBMO-L7Zh4BuIh8LdyYw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "林志安", "uri": "https://maps.google.com/maps/contrib/106338546478121958783" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17279303974928108230&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:30:38+00:00" },
+          "researcher_note": "移築復元された土蔵群を集めた野外博物館。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJ-2dBjGHaGGARM8QT2g6S8ic",
+          "title": "小江戸川越一番街商店街 蔵造りの町並み",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "埼玉県川越市幸町", "primary_type": "観光名所", "note": "重要伝統的建造物群保存地区。明治期再建の蔵造り商家群" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjD-16YUPJkwvJVkQHkWXnERLa9dwX-RWmGkTdgUzVEsr1WKWvh15QFZLCX44_fk-IFnU9IWCOfpgKeIDW6Et0UCfeUzwUDZ_QTQDU-iV8og_9iUdLs-j3gOwgVHM1FZ0WlSPCA4UjxbijMIiw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Zangerousじーさん", "uri": "https://maps.google.com/maps/contrib/111601742676857764917" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2878523704329094195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:30:38+00:00" },
+          "researcher_note": "蔵造り町家が連なる重要伝統的建造物群保存地区。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJqWAhDbGC918R0uBYAdk3Bjo",
+          "title": "土蔵造りのまち資料館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "富山県高岡市小馬出町二十六番地", "primary_type": "博物館", "note": "土蔵造り建築を保存活用した資料館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCpb8QZhWnlxt05KJL5JzLm0iKK8JCKq5OTjwlFXyqZ_ap5yiCbUq3_CH0K8pcQPMc9YgXOYWPHrmxteIAlC0pBWMp8YvXzBA0dtf-YYhzuSKOnxIR36VpPLUSrCHGURUfhxs1vTg1oow5-IMYpsN8U_w=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "57 kt", "uri": "https://maps.google.com/maps/contrib/113095591924699624664" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4181090709230117074&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:30:38+00:00" },
+          "researcher_note": "高岡・山町筋の土蔵造り建築を保存活用した資料館。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJM7uYpeS3HGAR9jZQMTUsvIc",
+          "title": "妻籠宿",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "長野県木曽郡南木曽町吾妻二千百九十六番地の一", "primary_type": "観光名所", "note": "重要伝統的建造物群保存地区。中山道の宿場町" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjD8xcNL3YeObOf2B7SRmS1rIzE2zJZGZF-Fy1uI-iqF8-M0W4annW2gEE58k_USVHciddlLovkVo_H7ej4-AewhhQeSkzH4zfT2K26VEM4ZJReUb2jeXtinftHNb_2yN8xjepOdh2Inx8Ltf8g=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "h nk", "uri": "https://maps.google.com/maps/contrib/113248244681932294513" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9780741097714104054&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:30:38+00:00" },
+          "researcher_note": "宿場町の重伝建地区。土蔵は含むが主体は町家・旅籠建築であり、他候補より調湿構造への合致はやや弱い。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJgxqw8hqFTzURhjAyhZ7_rx0",
+          "title": "内子町並み",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "愛媛県喜多郡内子町内子", "primary_type": "観光名所", "note": "重要伝統的建造物群保存地区。木蝋・和紙で栄えた商家・土蔵群" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDDhs71Sf2MJLt7x1oxL22xpumLZ2oQS5SS_wleIl_wApO-OYMKgE9qj8y5k7w_QDUAgIBD63wIaY0kRMoEdBY1L-IYFxZ34e22fahljIbJEhWN1PDLrDQk6dK9Fp1E9nSI9TAXgYqOZNZNKQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Tiên Trần", "uri": "https://maps.google.com/maps/contrib/111597325185229685720" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2139209404328849542&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:30:38+00:00" },
+          "researcher_note": "木蝋業で栄えた商家・土蔵の重伝建地区。"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJZWN0apofGWAR3dmql_EjxPc",
+          "title": "石川酒造",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都福生市熊川一番地", "primary_type": "酒造", "note": "明治期建造の土蔵・煉瓦造建物が現存する酒蔵" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCLMg_LMJ8J2X4Hs_3zdT4EGcrUw9t9Yg3VEwmEYLr7dJIvOpHzdaDWaAsxq-Jfd6kPBbchEc5OapaSrtMKETvVifupDES8noTVsHEYCK6B5IIBK8F0kbBiNwXfuOWSgyctrVIQ3a4EYETo6Bg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Chris T", "uri": "https://maps.google.com/maps/contrib/116723764270918689693" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17853434343342135773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:30:38+00:00" },
+          "researcher_note": "現役の酒蔵で、明治期の土蔵建築が現存。首都圏の選択肢。"
+        },
+        {
+          "cand_id": "arc-08",
+          "source_api": "google_places",
+          "source_id": "ChIJMU_CftL5G2ARWjV-A28E678",
+          "title": "小さな蔵の美術館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "山梨県甲府市丸の内一丁目一番二十五号 甲州夢小路内", "primary_type": "美術館", "note": "土蔵を美術館として再生した施設" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBTSczoXG8RQXBTYwnNNLBVykc-J-AoM2dij9hZT3-PCs7K6S1GLNHYeHnMHBz-3MqbZkFP1FurOdRC4OA08MvPA3eyQGTnJz3qWrJQZFtmvlqD6pgq1xUPHhYBtqtWwsJUxGa0xH7B6m5mPg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "小さな蔵の美術館", "uri": "https://maps.google.com/maps/contrib/109952033241937131694" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13829151955617723738&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:30:38+00:00" },
+          "researcher_note": "土蔵を転用した小規模美術館。現代の再生活用例として。"
+        },
+        {
+          "cand_id": "arc-09",
+          "source_api": "google_places",
+          "source_id": "ChIJGaREEgJHH2ARdtMCKdNFhzs",
+          "title": "蔵の街大通り",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "栃木県栃木市 蔵の街大通り", "primary_type": "", "note": "土蔵造りの店舗・見世蔵が並ぶ通り" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA8QAZDFpLjqDKry_3gexqcH1wKslUM71ILcB3rTeII7dDOV7sH-qJkxZHPGhP5P0GxU1RIjJJra_NL_TBLqC4l-ypUqPfy1zWK6QT2xLuGm7gdRx1_kaIey6Rmu6SZTY3-qUdAVelVQRvz0rM=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "りたにゃ", "uri": "https://maps.google.com/maps/contrib/114142027594208927189" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4289473943322153846&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-30T16:30:38+00:00" },
+          "researcher_note": "見世蔵が連なる商都・栃木の町並み。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

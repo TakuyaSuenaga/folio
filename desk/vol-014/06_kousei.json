@@ -1,0 +1,34 @@
+{
+  "vol": 14,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=3904161122981509369&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026279986",
+        "status": 200
+      },
+      {
+        "url": "https://maps.google.com/?cid=12958839575370439841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[0] DATA欄「address」行(紀州梅干館 紀州梅干の梅翁園)",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "和歌山県日高郡みなべ町山内千三百三十九番地",
+      "teisei": "和歌山県日高郡みなべ町山内1339番地(FLOW.md表記規定によりDATA欄の数字は算用数字。vol-012「1丁目1-1」、vol-013「７−７」など既刊も算用数字で統一している)"
+    }
+  ]
+}
