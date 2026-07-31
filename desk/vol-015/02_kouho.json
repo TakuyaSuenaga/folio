@@ -1,0 +1,286 @@
+{
+  "vol": 15,
+  "genres": [
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "433717001",
+          "title": "Schubert: Unfinished Symphony No.8 in B minor - Symphony No.8 in F, Op 93 (Remastered)",
+          "creator": "ウィーン・フィルハーモニー管弦楽団 & カール・ベーム",
+          "year": 2011,
+          "publisher": "Emkay Remasters",
+          "meta": { "trackCount": 6, "primaryGenreName": "クラシック", "note": "シューベルト交響曲第7(8)番ロ短調『未完成』。第3楽章以降を書かぬまま中断され、2楽章の形で演奏され続ける代表例" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/0b/60/96/mzi.rhhoqkoi.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/schubert-unfinished-symphony-no-8-in-b-minor-symphony/433717001?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-31T16:44:04+00:00" },
+          "researcher_note": "未完成のまま様式として自立した楽曲の最も典型的な例。発注の「未完成という状態そのものが様式へ転じた実例」に直接該当。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "693159854",
+          "title": "Bruckner: Symphony No. 9",
+          "creator": "カール・シューリヒト & ウィーン・フィルハーモニー管弦楽団",
+          "year": 1962,
+          "publisher": "Parlophone Records Limited",
+          "meta": { "trackCount": 3, "primaryGenreName": "クラシック", "note": "ブルックナー最後の交響曲。第4楽章を未完のまま作曲者が没し、3楽章版で演奏されるのが通例" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/58/75/15/58751549-0431-5a8c-9098-491a0f49a183/5099964471754_1417x1417_300dpi.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/bruckner-symphony-no-9/693159854?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-31T16:44:04+00:00" },
+          "researcher_note": "死により中断され、未完の3楽章版が完成形として定着している例。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "890296872",
+          "title": "Puccini: Turandot (1957 - Serafin) - Callas Remastered",
+          "creator": "マリア・カラス",
+          "year": 2014,
+          "publisher": "Warner Classics",
+          "meta": { "trackCount": 45, "primaryGenreName": "クラシック", "note": "プッチーニ最後の歌劇。作曲者の死により最終二重唱の手前で中断し、多くの上演は今日もアルファーノ補筆版を用いる" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/89/cc/60/89cc6032-301e-5830-5603-20a0faffc68a/825646266883.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/puccini-turandot-1957-serafin-callas-remastered/890296872?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-31T16:44:04+00:00" },
+          "researcher_note": "オペラでの未完成例。他者による補筆完成版で流通しており、器楽曲2点とは中断の受容のされ方が異なる。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "769124927",
+          "title": "Mahler: Symphony No. 10",
+          "creator": "ベルリン・フィルハーモニー管弦楽団 & サイモン・ラトル",
+          "year": 2000,
+          "publisher": "Warner Classics",
+          "meta": { "trackCount": 6, "primaryGenreName": "クラシック", "note": "マーラー最後の交響曲。全5楽章のスケッチのみを残して没し、演奏用補筆版(ここではクック版系統)で演奏されるのが通例" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/f9/ec/42/f9ec428a-ca04-ee46-8112-bdea78c96092/825646343331.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/mahler-symphony-no-10/769124927?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-31T16:44:04+00:00" },
+          "researcher_note": "草稿段階での中断を補筆版が支えている例。シューベルト・ブルックナーとは中断の状態(草稿のみ)が異なる。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1452279415",
+          "title": "Berg: Lulu",
+          "creator": "テレサ・ストラータス, パリ国立歌劇場管弦楽団 & ピエール・ブーレーズ",
+          "year": 2000,
+          "publisher": "Deutsche Grammophon GmbH, Berlin",
+          "meta": { "trackCount": 36, "primaryGenreName": "クラシック", "note": "ベルク最後の歌劇。第3幕のオーケストレーションを終えぬまま作曲者が没し、長らく未完の2幕版で上演された(後年チェルハ補筆版も流通)" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/47/80/f9/4780f93d-a989-57ec-05d6-c6fccedd8d27/00028946361726.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/berg-lulu/1452279415?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-31T16:44:04+00:00" },
+          "researcher_note": "未完のまま上演史を重ねたのち補筆版も現れた例。中断と受容の関係が複層的。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "19588363",
+          "title": "Elgar: Symphony No. 3 (Elaborated by Anthony Payne)",
+          "creator": "ボーンマス交響楽団 & ポール・ダニエル",
+          "year": 2001,
+          "publisher": "Naxos",
+          "meta": { "trackCount": 4, "primaryGenreName": "クラシック", "note": "エルガー最後の交響曲。スケッチのみを残して没し、没後60年以上を経て他作曲家(アンソニー・ペイン)がスケッチを補筆・演奏用に完成させた" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2004/m07/d30/h03/s05.cbarclow.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/elgar-symphony-no-3-elaborated-by-anthony-payne/19588363?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-31T16:44:04+00:00" },
+          "researcher_note": "他候補と異なり、現在流通する版は他者による『完成』版である。『未完成のまま演奏され続ける』という発注の核心とは性格が異なる点に留意。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJWX17NCqbHWART18R7JFUJno",
+          "title": "松代象山地下壕",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "長野県長野市松代町西条４７９−１１", "primary_type": "史跡", "note": "太平洋戦争末期、大本営移転のため掘削された地下壕。1945年8月の終戦により工事が中断し、未完成のまま現存する" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA6U0xe_1bNo07GHcYZbjR5Q5hv1nQkbN6qqPJraduvLk6jLev4Bhfy90Vxn7pg1D0XlffzjYrLZYB4IOMfjcB79CwhVhkk8npcpVdJkOGnsBguesqWYZFpUXRaLH0SzuCl247_ixVYq7M_BSE=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Shinichiro Maeda", "uri": "https://maps.google.com/maps/contrib/109572441895086257647" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8801815507449765711&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-31T16:44:42+00:00" },
+          "researcher_note": "建設途中で終戦を迎え中断した地下壕。発注の「用途に至らず止まった建築」「震災や災害による中断」の並びに、戦争による中断の例として加わる。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJqTnQGAB_PzUR8a3tF9-d8hI",
+          "title": "第一球磨川橋梁",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "熊本県八代市坂本町川嶽", "primary_type": "橋", "note": "JR肥薩線の橋梁。2020年7月豪雨で被災し、同線は不通のまま現在に至る" },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1365327218551401969&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-31T16:44:42+00:00" },
+          "researcher_note": "災害による不通が長期化し中断状態が持続している例。企画書の熊本新幹線の着想元に地理的に近い。写真なし(Places検索でクレジット付き画像が得られず)。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJL9v3yErVWjURtWZgeUrbLIY",
+          "title": "とことこトレイン雙津峡温泉駅",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "山口県岩国市錦町深川３２０９", "primary_type": "", "note": "旧国鉄岩日北線の未成区間の終端。開業に至らぬまま工事凍結され、現在は軌道敷を用いた遊覧トロッコの駅として活用される" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCIxQU27nsCnLsBgaAvuyVxTtuNQ_BZEyEYxZDCGY_ijpwBeUJWR052zq5FAIP7OM5ha5oZGVHPznRdbJyrqgYGNK78a3hP0b5irLhRFV2h5WAKDCHLWWEm6_U2dnviw5AuKxpi982Qh1UgVA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "中野タカポー", "uri": "https://maps.google.com/maps/contrib/108862051115634307129" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9668343612968036021&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-31T16:44:42+00:00" },
+          "researcher_note": "開業に至らず建設が凍結された未成線区間。発注の「用途に至らず止まった線路」に直接該当。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJeSN4S51GFTURpO7LblMx06g",
+          "title": "端島(軍艦島)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "長崎県長崎市高島町 端島", "primary_type": "島", "note": "海底炭鉱とともに栄えた島。1974年の閉山とともに全住民が退去し、使用途中のまま無人島として現存する" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCvl6B4zglfjQGvfK09yW_08PXRXv-TkDvZ7UKahWCEncAyp41b6sJ8S_hEPN2PGxH80J18m031O6RhaLvvdjbPwNN9FBMnuh0tOnelxQ4X8bNTTjE80_TeyRM7Pm0ovFTzI2r7YA_pNEu6=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "INTAM SHELLY", "uri": "https://maps.google.com/maps/contrib/111663516768106617533" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12165121252868746916&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-31T16:44:42+00:00" },
+          "researcher_note": "建設途中の中断ではなく使用途中での中断の例。発注文の「建設・使用の途中で中断」のうち後者に該当。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJOTKC_k_fcl8RE2JUMQgGBEk",
+          "title": "タウシュベツ川橋梁",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "北海道河東郡上士幌町ぬかびら源泉郷", "primary_type": "史跡", "note": "旧国鉄士幌線の鉄道橋。1955年のルート変更で経路から外れて以来使われず、ダム湖の水位により姿を現したり沈んだりを繰り返しながら現存する" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDRdIAEfXOPzTuv-2gsn9P5ShHRjQQLz84Z0Cye_edJx6Ww0i7ho1Ambpd90CxCtcmO0-0C7TiQAC7LIC6dN85SLTLKGYfsKmkB-PCdREdwCn4cJUbvfRFXCu7PY9Uh5WBd2MHQCBYN7ODNP2ynD-98=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ウルトラマン二郎", "uri": "https://maps.google.com/maps/contrib/113326836771785219415" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5261336896932700691&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-31T16:44:42+00:00" },
+          "researcher_note": "使用停止後、放置と崩壊が現在進行形で続く例。他候補が中断時点で状態を止めているのに対し、これは中断後も変化し続けている点が異なる。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJHWvJsHJyPzURWzd9ZSYda9g",
+          "title": "大畑駅",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "熊本県人吉市大野町", "primary_type": "駅", "note": "JR肥薩線のスイッチバック・ループ線区間にある駅。2020年7月豪雨による同線不通以来、列車の発着が絶たれたまま現存する" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDlsmCiLmKRr3a10QeQwwMFwbt1k4_1fynbtgBxX0L_3f5L9xEkkW0xB838D6TrOe9OW6QRQMx8b0RVgdVvL0WiY2KRzzYi67A--fL1TQhLTcwZbUzSaL2U3yIJ8PdsA1MoVWVo_T5YCXNs9io=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Sei T", "uri": "https://maps.google.com/maps/contrib/114351018864418841138" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15594590185449142107&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-31T16:44:42+00:00" },
+          "researcher_note": "arc-02と同じ肥薩線不通区間の駅。写真あり。企画書の熊本新幹線の着想元と地理的に重なる。"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJiRL8XwBvPzUR0o9O8gX1Ju4",
+          "title": "くま川鉄道第一高柱川橋梁",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "熊本県球磨郡錦町西", "primary_type": "史跡", "note": "くま川鉄道の橋梁。2020年7月豪雨で被災し、同鉄道の一部区間は現在も不通が続く" },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17160672836030730194&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-31T16:44:42+00:00" },
+          "researcher_note": "JR肥薩線とは別事業者(くま川鉄道)の被災橋梁。同一豪雨による複数の中断例があることを示す傍証として。写真なし。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "bok-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003101148",
+          "title": "明暗",
+          "creator": "夏目, 漱石, 1867-1916",
+          "year": 1990,
+          "publisher": "岩波書店",
+          "meta": { "isbn": "9784003101148", "series": "岩波文庫", "note": "1916年、朝日新聞連載中に作者が没し未完のまま中絶した長編。以後、続編・結末を持たない形で読み継がれている" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002044172", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-31T16:44:14+00:00" },
+          "researcher_note": "作者の死により中断し、未完という事情自体が受容史に組み込まれている代表例。openBDにcover画像なし。"
+        },
+        {
+          "cand_id": "bok-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784102071021",
+          "title": "城",
+          "creator": "Kafka, Franz, 1883-1924 前田, 敬作, 1921-2003",
+          "year": 2005,
+          "publisher": "新潮社",
+          "meta": { "isbn": "9784102071021", "series": "新潮文庫", "note": "作者の死により文中で未完のまま中絶した長編。最終章は文の途中で本文が途切れる" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970867909914338586", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-31T16:44:14+00:00" },
+          "researcher_note": "文そのものが途中で切れた状態で伝わる、未完の度合いが最も強い例の一つ。openBDにcover画像なし。"
+        },
+        {
+          "cand_id": "bok-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784560071915",
+          "title": "エドウィン・ドルードの謎",
+          "creator": "Dickens, Charles, 1812-1870 小池, 滋, 1931-",
+          "year": 2014,
+          "publisher": "白水社",
+          "meta": { "isbn": "9784560071915", "series": "白水uブックス", "note": "月刊分冊での連載中に作者が没し、犯人・結末を明かさぬまま中断した長編推理小説" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025406892", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-31T16:44:14+00:00" },
+          "researcher_note": "謎解きの結末を欠いたまま伝わり、以後多くの続編・推理が試みられてきた例。openBDにcover画像なし。"
+        },
+        {
+          "cand_id": "bok-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784041099117",
+          "title": "グッド・バイ",
+          "creator": "太宰, 治, 1909-1948",
+          "year": 1998,
+          "publisher": "角川書店",
+          "meta": { "isbn": "9784041099117", "series": "角川文庫", "note": "表題作は新聞連載中に作者が没し、第十三回で中絶したまま未完で終わった" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002694093", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-31T16:44:14+00:00" },
+          "researcher_note": "日本近代文学における作者の死による中絶の例。他の短編との合本で、表題作自体が未完である点に留意。openBDにcover画像なし。"
+        },
+        {
+          "cand_id": "bok-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784101092027",
+          "title": "銀河鉄道の夜(童話集)",
+          "creator": "宮沢, 賢治",
+          "year": 1987,
+          "publisher": "新潮社",
+          "meta": { "isbn": "9784101092027", "series": "新潮文庫", "note": "作者が没するまで手を加え続け、複数の未定稿が残ったまま確定稿を持たずに伝わる" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970586434887825057", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-07-31T16:44:14+00:00" },
+          "researcher_note": "結末を持たない中絶ではなく、改稿が中断され複数稿が併存する形の『未完成』。他候補と中断の性質が異なる点に留意。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
