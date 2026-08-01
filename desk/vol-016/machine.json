@@ -1,0 +1,39 @@
+{
+  "genko_match": true,
+  "genko_detail": {
+    "lead": true,
+    "items[0].essay": true,
+    "items[1].essay": true,
+    "items[2].essay": true
+  },
+  "links_ok": true,
+  "links_detail": {
+    "present": {
+      "https://music.apple.com/jp/album/beethoven-symphony-nos-5-6/1440744257?uo=4": true,
+      "https://maps.google.com/?cid=7069602459893864264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true,
+      "https://ndlsearch.ndl.go.jp/books/R100000001-I44111104358115": true
+    },
+    "unknown_external": [],
+    "unsafe_schemes": [],
+    "event_handlers": [],
+    "meta_refresh": false,
+    "css_external": []
+  },
+  "pr_labels_ok": true,
+  "html_ok": true,
+  "okuzuke_ok": true,
+  "url_status": [
+    {
+      "url": "https://music.apple.com/jp/album/beethoven-symphony-nos-5-6/1440744257?uo=4",
+      "status": 200
+    },
+    {
+      "url": "https://maps.google.com/?cid=7069602459893864264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "status": 200
+    },
+    {
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I44111104358115",
+      "status": 200
+    }
+  ]
+}

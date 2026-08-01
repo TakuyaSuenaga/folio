@@ -1,0 +1,297 @@
+{
+  "vol": 16,
+  "genres": [
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "979089440",
+          "title": "枯葉",
+          "creator": "マッシモ・ファラオ・トリオ",
+          "year": 2015,
+          "publisher": "Venus Records, Inc.",
+          "meta": { "trackCount": 10, "primaryGenreName": "ジャズ", "note": "ジャズスタンダード「枯葉(Autumn Leaves)」のトリオ演奏。原曲は同主調ではなく平行調(同じ調号を持つ長調と短調)間を往復する進行を核とし、長三度・短三度の違いが調の性格を分ける例としてしばしば言及される。" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fa/ba/a4/fabaa44b-ac3b-618c-b527-d7f6eaba20a3/4538182526705_cov.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/%E6%9E%AF%E8%91%89/979089440?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-01T16:06:21+00:00" },
+          "researcher_note": "枯葉(Autumn Leaves)の平行調往復進行は三度の機能を論じる発注に直接該当する一例。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1537830243",
+          "title": "枯葉",
+          "creator": "ザ・グレイト・ジャズ・トリオ",
+          "year": 2005,
+          "publisher": "Sony Music Artists Inc.",
+          "meta": { "trackCount": 10, "primaryGenreName": "ジャズ", "note": "同じくジャズスタンダード「枯葉」のトリオ演奏盤。" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6e/19/ec/6e19ecaa-5d07-a0cc-06e7-c8db1474c3e8/jacket_VRXX00070B00Z_550.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/%E6%9E%AF%E8%91%89/1537830243?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-01T16:06:21+00:00" },
+          "researcher_note": "mus-01と同一曲の別演奏。編成・演奏解釈で選定の幅を持たせる候補。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "153629916",
+          "title": "Autumn Leavs",
+          "creator": "マンハッタン・ジャズ・クインテット",
+          "year": 1985,
+          "publisher": "King Records Co.,Ltd.",
+          "meta": { "trackCount": 5, "primaryGenreName": "ジャズ", "note": "「枯葉」を含む収録盤(1985年録音)。" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/42/9b/65/mzi.rwdimifs.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/autumn-leavs/153629916?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-01T16:06:21+00:00" },
+          "researcher_note": "同曲の別編成(クインテット)。比較対象としての候補。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1440744257",
+          "title": "Beethoven: Symphony Nos. 5 & 6",
+          "creator": "ベルリン・フィルハーモニー管弦楽団 & ヘルベルト・フォン・カラヤン",
+          "year": 1984,
+          "publisher": "Deutsche Grammophon GmbH, Berlin",
+          "meta": { "trackCount": 9, "primaryGenreName": "クラシック", "note": "交響曲第5番はハ短調で開始し第4楽章でハ長調へ転じる。主和音の第三音(変ホ→ホ)の変化だけで調の性格が反転する例として音楽理論の説明にしばしば用いられる。" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/94/58/f2/9458f2e8-ea9d-b384-6a52-6d976d5ebc9c/00028943900423.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/beethoven-symphony-nos-5-6/1440744257?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-01T16:06:21+00:00" },
+          "researcher_note": "第三音の変化が調の性格を決める例として発注に該当する候補。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1644892939",
+          "title": "Beethoven: Symphonies Nos. 5 & 7",
+          "creator": "ウィーン・フィルハーモニー管弦楽団 & カルロス・クライバー",
+          "year": 1995,
+          "publisher": "Deutsche Grammophon GmbH, Berlin",
+          "meta": { "trackCount": 8, "primaryGenreName": "クラシック", "note": "mus-04と同一楽曲(交響曲第5番)の別演奏・別指揮者盤。" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b7/b0/a5/b7b0a5d5-e487-4dcb-f0b5-04d16c78f693/22UMGIM89320.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/beethoven-symphonies-nos-5-7/1644892939?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-01T16:06:21+00:00" },
+          "researcher_note": "同曲の別指揮者による演奏。指揮者・解釈で選定の幅を持たせる候補。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "404135280",
+          "title": "ベートーヴェン:交響曲全集",
+          "creator": "ロンドン交響楽団",
+          "year": 2010,
+          "publisher": "Countdown Media GmbH",
+          "meta": { "trackCount": 37, "primaryGenreName": "クラシック", "note": "交響曲第5番を含む全集盤。" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/fa/57/d4/mzi.yrnzossm.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/%E3%83%99%E3%83%BC%E3%83%88%E3%83%BC%E3%83%B4%E3%82%A7%E3%83%B3-%E4%BA%A4%E9%9F%BF%E6%9B%B2%E5%85%A8%E9%9B%86/404135280?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-01T16:06:21+00:00" },
+          "researcher_note": "同曲を含む全集盤。廉価版としての候補。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1576787355",
+          "title": "King Of The Blues Guitar (Reissue)",
+          "creator": "アルバート・キング",
+          "year": 1969,
+          "publisher": "Craft Recordings, Distributed by Concord.",
+          "meta": { "trackCount": 17, "primaryGenreName": "ブルース", "note": "ブルースのブルーノートは短三度と長三度の中間を行き来する奏法・声の出し方であり、三度が生む調性格の揺らぎそのものを技法として使う例。" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3d/a0/5e/3da05efd-a949-6c9f-ce36-7ae441d53fe0/18CRGIM05987.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/king-of-the-blues-guitar-reissue/1576787355?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-01T16:06:21+00:00" },
+          "researcher_note": "枯葉・交響曲第5番とは異なる角度(ブルーノート奏法)から三度に迫る候補。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJEwyaTjAoil8RsaujmBJpV60",
+          "title": "せんだいメディアテーク",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒980-0821 宮城県仙台市青葉区春日町２−１ 1F", "primary_type": "カルチャー センター" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDbvax7SNdwqRHUIioO5EqT24Oy64dImzw6VH0XwrdS8x1ZDftgRNYRQpTRWBKa6-gO80f2AH_c1wbyT7-y-O29Eu6BQcJa97vGc8iUFYI7unczModXzwXIdAkh1nkf34g6wSDxQUmtQ4rJ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "小久保圭基", "uri": "https://maps.google.com/maps/contrib/110498977076474767993" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12490567620126550961&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-01T16:06:45+00:00" },
+          "researcher_note": "図書館・ギャラリー・スタジオ等を併設する複合文化施設として言及されることが多い(設計思想の詳細はPlaces情報外につきkoetsuでの一次資料確認を推奨)。"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJs8y_W5nvGGARSJczHftFHGI",
+          "title": "武蔵野プレイス",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒180-0023 東京都武蔵野市境南町２丁目３−１８ 1F", "primary_type": "図書館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBfER1ukKIP5Ee147z_9cXG0SraOKaxN2fkQBVwupqfRn-SVxgPM4kS-BFJr-ZhsoOByEdckFID1GRcI1YS8d99cyds5-0G4BTGl4TRhnqFNDFdLdgk5jIvoAHNAIv5XkARjNhuvsUCLA0WlukKCS1U=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "能勢靖", "uri": "https://maps.google.com/maps/contrib/108084357719651702906" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=7069602459893864264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-01T16:06:45+00:00" },
+          "researcher_note": "「プレイス」という館名自体がサードプレイスを掲げる図書館・生涯学習施設(詳細はPlaces情報外につき一次資料確認を推奨)。"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJU4PDEz2pA2ARS5cCpHnuw-o",
+          "title": "みんなの森 ぎふメディアコスモス",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒500-8076 岐阜県岐阜市司町４０−５", "primary_type": "コミュニティ センター" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCadVGF6uuEajCFEAo1k7kPMMkTqo3CjJ5y7vfikJGm8WzoTTSMBn3OutQSl9bc1T3Hv2kWjvn9fhhK2VjdQJJHdpcxl3Vph2kGoST0SolC13l7g5GQj_FdDK3FmEzRyBSZD4ZOLoDGx7e7FHM=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Johannes Haucke", "uri": "https://maps.google.com/maps/contrib/107242705775281694415" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16916626831543801675&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-01T16:06:45+00:00" },
+          "researcher_note": "図書館・市民活動交流の場・防災機能等を併せ持つ複合施設として言及される(詳細はPlaces情報外につき一次資料確認を推奨)。"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJgfjQvk-LGGARqVwq1_ra-dY",
+          "title": "代官山 蔦屋書店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒150-0033 東京都渋谷区猿楽町１７−５ 代官山Ｔ－ＳＩＴＥ １号館～３号館 １階～２階", "primary_type": "書店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAlPvEE8kDVLPegUZ9VdAbylbhAmtTMgw5B9GO_JFyT27NMbQxKJCfFeLTmcUqfhpk8EGpIqJGILt1JT1Wi63THxR4NZdO7Na9lX4-BIdIN-ytf3lGtEgQUzk102BkrhOZJR9WqIIVytBQIYw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "陳德諭", "uri": "https://maps.google.com/maps/contrib/113024906258490974465" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15490653164204088489&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-01T16:06:45+00:00" },
+          "researcher_note": "民間の書店・カフェ併設施設としてのサードプレイス候補。図書館系候補との対比になる(詳細はPlaces情報外につき一次資料確認を推奨)。"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJs5kkjF2JHWAROtaV8Ry0EPU",
+          "title": "小布施町立図書館 まちとしょテラソ",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒381-0201 長野県上高井郡小布施町小布施１４９１−２", "primary_type": "図書館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCGirwwDBjZ3n6xCR6p58aDXXJI3HuHFvKGLuChRH3upcvzvacRGCUzTKJvkpSpjx3lDnK-Q6OQNUej_rbWbO_u3N8ys1RLpbfrjwM3_ZFgE9YOrwbGWP0vU69QgdNQ4Knm5dOkH7xDvH5sb5w=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "佐藤恵子", "uri": "https://maps.google.com/maps/contrib/115084829098446790267" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17658812175324927546&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-01T16:06:45+00:00" },
+          "researcher_note": "小規模自治体の公共図書館として「まち」との接続を掲げる例(詳細はPlaces情報外につき一次資料確認を推奨)。"
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJYytGn4qQ918RaEIKKa_ZKV4",
+          "title": "富山市立図書館本館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒930-0062 富山県富山市西町５−１ ＴＯＹＡＭＡキラリ 2F", "primary_type": "図書館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCiTVUUKfeIio0lqG4zH2YggLDfDp0aaa4f1sH1IcnhfypueqS-QRrXHHDyzE0sF-sJqJZB4p2-1pMhEzKttKBhGWRjEslpw4B61aemSuXBVMaM1WWQjaBk0AGEI18u_udfUw6mT6qoexA5Enk=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "shun K", "uri": "https://maps.google.com/maps/contrib/100691476635007112099" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6785193659941405288&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-01T16:06:45+00:00" },
+          "researcher_note": "美術館・グランドプラザ等と一体化した複合施設「ＴＯＹＡＭＡキラリ」内の図書館(詳細はPlaces情報外につき一次資料確認を推奨)。"
+        },
+        {
+          "cand_id": "arch-07",
+          "source_api": "google_places",
+          "source_id": "ChIJZ9ane-2LGGARwF-QjgVp3PM",
+          "title": "千代田区立日比谷図書文化館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒100-0012 東京都千代田区日比谷公園１−４", "primary_type": "図書館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDfvfSRyhehQANSjgU5A_oxQvpNChNPE4c1DQ-5zyTk40WHQzhQ9vRq0sk4rEOzfWPKM2k0Wr_zzIGJki-c9KSHxi13PTU3HOwk1UR1g2j7ac7W52U9eoNBhChpJOCdcFiZbe60YsetAUXeNOgkODJ6IA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "おすぬ", "uri": "https://maps.google.com/maps/contrib/116444761310232176956" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17572035318680412096&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-01T16:06:45+00:00" },
+          "researcher_note": "日比谷公園内、旧都立日比谷図書館を改修した図書文化施設(詳細はPlaces情報外につき一次資料確認を推奨)。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "bok-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784101005126",
+          "title": "細雪 上巻",
+          "creator": "谷崎, 潤一郎",
+          "year": 1997,
+          "publisher": "新潮社",
+          "meta": { "isbn": "9784101005126", "series": "新潮文庫", "note": "四姉妹それぞれへの視点移動を伴う語りで知られる長編。openBDにcover画像なし。" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971149384807538437", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-01T16:06:32+00:00" },
+          "researcher_note": "三人称の視点移動が姉妹それぞれとの距離を測る技法として機能する候補。"
+        },
+        {
+          "cand_id": "bok-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784101055077",
+          "title": "破戒",
+          "creator": "島崎, 藤村, 1872-1943",
+          "year": 2005,
+          "publisher": "新潮社",
+          "meta": { "isbn": "9784101055077", "series": "新潮文庫", "note": "被差別部落出身という出自を隠して生きる主人公を三人称で追う長編。openBDにcover画像なし。" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000008052345", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-01T16:06:32+00:00" },
+          "researcher_note": "三人称の距離が主人公の告白という主題そのものと結びつく候補。"
+        },
+        {
+          "cand_id": "bok-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784101001111",
+          "title": "山の音",
+          "creator": "川端康成",
+          "year": 1980,
+          "publisher": "新潮社",
+          "meta": { "isbn": "9784101001111", "series": "", "note": "老いた主人公信吾の内面に沿いながらも三人称を保つ語りで知られる長編。openBDにcover画像なし。" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I44111104358115", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-01T16:06:32+00:00" },
+          "researcher_note": "三人称でありながら一人物への密着度が高い、距離感の操作が主題化された候補。"
+        },
+        {
+          "cand_id": "bok-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784101010052",
+          "title": "それから",
+          "creator": "夏目, 漱石",
+          "year": 2010,
+          "publisher": "新潮社",
+          "meta": { "isbn": "9784101010052", "series": "", "note": "主人公代助に視点を寄せた三人称で語られる長編。openBDにcover画像なし。" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971149384780797132", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-01T16:06:32+00:00" },
+          "researcher_note": "三人称の密着度が主人公の自己欺瞞という主題と結びつく候補。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

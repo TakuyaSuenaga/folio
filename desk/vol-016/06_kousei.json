@@ -1,0 +1,34 @@
+{
+  "vol": 16,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://music.apple.com/jp/album/beethoven-symphony-nos-5-6/1440744257?uo=4",
+        "status": 200
+      },
+      {
+        "url": "https://maps.google.com/?cid=7069602459893864264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I44111104358115",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[0] DATA欄「note」行",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "主和音の第三音(変ホ→ホ)の変化だけで調の性格が反転する",
+      "teisei": "主和音の第3音(変ホ→ホ)の変化だけで調の性格が反転する(同行内の「第5番」「第4楽章」は算用数字であり、DATA欄内で漢数字と混在している)"
+    }
+  ]
+}
