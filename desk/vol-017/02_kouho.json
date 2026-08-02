@@ -1,0 +1,348 @@
+{
+  "vol": 17,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJo8P4USRvH2ARppw-Vkn8KlU",
+          "title": "大谷寺(大谷観音)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "栃木県宇都宮市大谷町1198", "primary_type": "仏教寺院" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAsjNV0Mcpv9KYgGWvtrNRsEZAwW7xZFp_UGt2YvbILtrUvfap6X_pO2ssRpLFDxBtm5gQHsoEIWSjFQf9oL429pqqaUKRPzdIHf5Zb5eAeFrvKa1nnR4DO28QIX4GZAFyfWc_wr5rgTd4f5gQ=s4800-w512",
+            "source": "google-places",
+            "attributions": [ { "name": "大谷寺(大谷観音)", "uri": "https://maps.google.com/maps/contrib/102261832293056690967" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=6136994834155478182&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-02T16:07:41+00:00" },
+          "researcher_note": "岩壁を掘削してつくられた洞窟本堂に本尊(大谷観音)を彫出。凝灰岩の岩盤そのものを開口・構造化した例"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJtx0KVDtvH2ARJOcQ-maarcQ",
+          "title": "大谷資料館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "栃木県宇都宮市大谷町909", "primary_type": "博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDmnQVWl9f9WFwxL0WZ-nWV1H_WCr2OYGWqHnjGRr_Inid9bkAgml9n2yUEXS9P82G6xzgQ2SxkuIXIAAhI0Gf4vAncOOW_sGidquhnmmwIZeW_G_A8MyM6Nl-_XOEFrCreVXSZT-JcQiIAeg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ムーミングルメ", "uri": "https://maps.google.com/maps/contrib/102251752092688610324" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=14172153369477572388&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-02T16:07:41+00:00" },
+          "researcher_note": "大谷石の地下採掘場跡。人力で掘り進めた坑道・通路が地下空間として現存する例。発注の「隧道・岩窟をそのまま使う建築」に近い"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJv33fGx8bGGARBzZQ5th9S8A",
+          "title": "乾坤山日本寺",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "千葉県安房郡鋸南町元名184-4", "primary_type": "仏教寺院" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjADJuPHvOnARmhsipXzDoBWOC_URehjSyojL_npHshVsmXwe-PkAdAr2LbyN7CwmAq5EyfP23GwkIyZ_w4tmdY5Rkx9vQFtARU695Y1dhwGMhf_vXW5zT9yEmg2UiZNJ1MIMTTwkUb-1mHUDQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ヌノヌノ", "uri": "https://maps.google.com/maps/contrib/100134181484867679906" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=13856307049065887239&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-02T16:07:41+00:00" },
+          "researcher_note": "鋸山の岩肌に石段・岩窟参道を穿った寺域全体。同境内の百尺観音・大仏と合わせ候補にする"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJ85Vo2iEbGGARFDlQwiLBbbA",
+          "title": "日本寺大仏",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "千葉県安房郡鋸南町元名", "primary_type": "仏教寺院" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDI38S2ixD26ZznjGNs9EHwslmHUEV_sDUuIa-rIaO9iumGmiAPol81QV-6f--Rv7dEcppALA7PJvHCZ7SEGveuqxfQyb0gQQzprY7BVrQqaItFkg72JMTe0jP2xx206svxwhoT5ZLalA3c0NGCRLme=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Tony Hanari", "uri": "https://maps.google.com/maps/contrib/107168228953373595661" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=12713029678169864468&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-02T16:07:41+00:00" },
+          "researcher_note": "露天の磨崖仏。岩盤を彫り込んだ像で、arch-03(日本寺境内)と場所が重なる。同時採用は避けるべき"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJp5RkGR8bGGARK7nUbtwpKPk",
+          "title": "百尺観音",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "千葉県安房郡鋸南町元名184", "primary_type": "仏教寺院" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCTINz2NkPTsQY9CuEQAtQm_JbbMcgVBs1jjPNRATaWvL9Xpv086QNlotzNfy9B9NC0a_NBNsMX0dvFdVKEwG5mvnA5l1mXHvz0NQLawINwI2LHTz_aByvgXqQnF1pZ1EAlzF_ynaWxmvt0=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "suz uki", "uri": "https://maps.google.com/maps/contrib/114874536167169022511" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=17953645941241461035&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-02T16:07:41+00:00" },
+          "researcher_note": "鋸山の切り立った岩壁に直接彫られた磨崖仏。同じくarch-03/04と敷地が重なる"
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJhRrItpP3F2ARf2RcoRfevYI",
+          "title": "大福寺 崖観音堂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "千葉県館山市船形835", "primary_type": "仏教寺院" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA_nvJ7B_quGVMsFyqMOdCdWXf90xTyTJFzbjwwI8bFiGmr9M23U2jJjXT8oWa0HxVDJp0bLdZ6-qL_h6eNwQ7AV07RFjRp-Guu5gJyL1sv4kPHZAu37lqd24-a289uCbxuKYDCXbluiYYuCIU=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "菊正宗", "uri": "https://maps.google.com/maps/contrib/117674335617715716656" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=9420930188601746559&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-02T16:07:41+00:00" },
+          "researcher_note": "船形山の崖の岩窟に懸造で本堂を築いた「崖観音」。鴨切洞窟の岩窟に建築を継ぎ足した例"
+        },
+        {
+          "cand_id": "arch-07",
+          "source_api": "google_places",
+          "source_id": "ChIJf2vXylUVGGAR24nUNu7ksqk",
+          "title": "猿島要塞",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "神奈川県横須賀市猿島1-1-1", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjABpGHUwqfBngrxHsfbAaRBMMKjyJOTxRDEJNgfqDWBTKNgQpd8_4H9hGce4m0pB3xCRhqX0EgYZjamPsiTmEaXaxcKzYWSnD53m7FWoQP2mx_gvT1eWPlKZ7nczHjzMEalWcP75CF2qAtFNw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Elias Chelala (Chewy)", "uri": "https://maps.google.com/maps/contrib/112891881046198787833" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=12228087650037565915&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-02T16:07:41+00:00" },
+          "researcher_note": "明治期要塞の煉瓦造トンネルが島の岩盤を貫通する。軍事構造物としての通路穿孔例"
+        },
+        {
+          "cand_id": "arch-08",
+          "source_api": "google_places",
+          "source_id": "ChIJ0bBOw038QzURqYnti0aFVxA",
+          "title": "青の洞門",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "大分県中津市本耶馬渓町曽木", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDOxuGKKtFmSDZeIvFnS-oLBZY_m5g8JqoEMq5DFnIk-VMQu2nwq91fiOFWWPMBnmyBAUFqo4xaRyicIK7XzZJqOWNugIn5bEaGQzSmXk29DoQ8g9GFZcjxnN2QdI73XwkaGnl4ww6_5994ZJeKgme-ig=s4800-w1080",
+            "source": "google-places",
+            "attributions": [ { "name": "青の洞門", "uri": "https://maps.google.com/maps/contrib/117542564797814426719" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=1177556365622479273&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-02T16:07:41+00:00" },
+          "researcher_note": "禅海が鑿と鎚で開削したと伝わる隧道。国指定史跡。発注の「洞門」に文字通り合致する候補"
+        },
+        {
+          "cand_id": "arch-09",
+          "source_api": "google_places",
+          "source_id": "ChIJWX17NCqbHWART18R7JFUJno",
+          "title": "松代象山地下壕",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "長野県長野市松代町西条479-11", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCwnmEIozXffG65HhBkEyU5yj_jeFPtZzl2QZX9aGusmTYCj4o5LKpsUrsgFnuIkztVp07WHodQAHdjAeoRGZIo5RZjEj5tvcAn3jmuOxgFS_w6A_TvDSdrWrz9UVTWS73r7hcua6oYtdMMaT8=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Shinichiro Maeda", "uri": "https://maps.google.com/maps/contrib/109572441895086257647" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=8801815507449765711&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-02T16:07:41+00:00" },
+          "researcher_note": "第二次大戦末期に人力で山を掘り抜いた地下壕。碁盤目状の坑道が現存する。発注の「岩盤を穿って通路とした構造物」に該当するが宗教建築ではなく軍事施設"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "rest-01",
+          "source_api": "google_places",
+          "source_id": "ChIJ67FJid6BQzURTRJerHUEEqE",
+          "title": "maison owl (メゾン・アウル)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "山口県宇部市中宇部 字西山1677-1", "primary_type": "フランス料理店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBTmWjWiGMcPV9LRsVhJITqarO00p4jVv_SzNDEjJvYs2m2lgIJVhegheJ1-uokqcrsM8dgSQfRHFLrNa8VPL1Jjw22loqSCRaXeFD4sG7ao1F6uEZVvLFdWI-I9fttoiQeA8qoiRezUKJYiW4=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "うんじEUNJI NAM", "uri": "https://maps.google.com/maps/contrib/103364499124302662540" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=11606344093136720461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-02T16:07:52+00:00" },
+          "researcher_note": "「洞窟 レストラン」検索でヒットしたフランス料理店。Places応答に岩窟建築である旨の記述はなく、店舗が実際に岩窟を使っているかは未確認"
+        },
+        {
+          "cand_id": "rest-02",
+          "source_api": "google_places",
+          "source_id": "ChIJLbLELGtv5TQRk1MO5MzfbRo",
+          "title": "ツアー客専用ラウンジケイブカフェ",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "沖縄県南城市玉城前川202", "primary_type": "カフェ・喫茶" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjABDOEiTCYRCr0w7dCpXMXNWEXVZsXpQvWHVlH77d3CqTOMfxxhBH6VjQyzrxD8UE6sNDRrWRqa9IBJQRkp9onZi3QmYY1FLZCx6bT-VKm-OQg6zR2ThwlcvrihO_BbnLwQFzu7Nx9M-AQ0=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Tanisa L.", "uri": "https://maps.google.com/maps/contrib/115034400047521846325" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=1904424288540054419&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-02T16:07:52+00:00" },
+          "researcher_note": "鍾乳洞群「ガンガラーの谷」内、鍾乳洞入口を利用したツアー客用ラウンジ・カフェ。地形をそのまま飲食の場に転用した例"
+        },
+        {
+          "cand_id": "rest-03",
+          "source_api": "google_places",
+          "source_id": "ChIJq6pm7xPnAGARFnz5_ntfQPU",
+          "title": "グロット",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "大阪府大阪市中央区心斎橋筋2丁目6-8-3F", "primary_type": "バー" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAzfnvHoLdbX6dPCEGj3Y-pbm11p66laObgOk_-deqOvwpFrcY6ELd7qGVqRoYIe-wmihVwA-j4jt8WAbeE0n5YUUjm1BrHxouPLfVzHzE9NiGOSmw-dxikZgx3_s97VZ3TCT_bVv5Sx1SbJRc=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "悠真", "uri": "https://maps.google.com/maps/contrib/106313337954779289905" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=17672229923965205526&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-02T16:07:52+00:00" },
+          "researcher_note": "店名「グロット」(仏語で洞窟)を掲げる内装型の店。ビル内テナントであり実際の岩窟ではなく、洞窟を模した内装と見られる。業態はバーで発注の「店舗」より狭い"
+        },
+        {
+          "cand_id": "rest-04",
+          "source_api": "google_places",
+          "source_id": "ChIJ0db3Uv3mAGAROVzRCaVQB0M",
+          "title": "深海の洞窟",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "大阪府大阪市西区西本町1丁目5-1 大西ビル2階", "primary_type": "バー" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBQckAjjtFP7lXiVDKXuAwfNufV6nXYb_oJ9W1obZMYM7I_CCkzOw4HZxwsszLQDuG8PFRRDl921Y7SChb7PEIDLcomryS7M2hEiQhf6ktD1zwtHu3lsw0felA7soXKQB0Ot3n4jzzNzsxC9Q=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "深海の洞窟", "uri": "https://maps.google.com/maps/contrib/116855905007684016077" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=4829917795142687801&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-02T16:07:52+00:00" },
+          "researcher_note": "「深海の洞窟」を店名に掲げる内装型のバー。ビル内テナントで実岩窟ではなく模した店舗。業態はバー"
+        },
+        {
+          "cand_id": "rest-05",
+          "source_api": "google_places",
+          "source_id": "ChIJo1923_f_GGAR_xYzJTUa_U0",
+          "title": "洞窟個室ダイニング HORaANA 町田本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都町田市原町田6丁目15-12 2F", "primary_type": "居酒屋" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCDvR6UDQ8C4uxFChDKMDSwrFG3kIow2zQdFFdiRLHv1jc8diPlrfJg-QQU0_yw9aJA5zqh3tUUz11BDfSsjOMx-Xgo9tOmxokHkc82zjJmQZyJN0ESSQw8bxCJZnIH4ApiIwrQtmoNcx3oF5Y=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "洞窟個室ダイニング HORaANA 町田本店", "uri": "https://maps.google.com/maps/contrib/117175894710232722138" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=5619676725587941119&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-02T16:07:52+00:00" },
+          "researcher_note": "店名・業態自体が「洞窟個室ダイニング」を掲げるビル内テナント。発注の「洞窟を模した店舗」に文言上もっとも一致する"
+        },
+        {
+          "cand_id": "rest-06",
+          "source_api": "google_places",
+          "source_id": "ChIJJS4f5i_dAGARSmp3pjDkHOE",
+          "title": "洞窟と隠れ家にこだわり過ぎて、隠れ過ぎた暇な店 One Curry BAR M's",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "大阪府大阪市住之江区平林南2丁目6-7", "primary_type": "カレー店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCF_-s31Aaht4viqadM0TkI_w4_xYXks33iMCouC8-xyS_jB36xqAvNjOnoNAzRAyPSNo8qZWU2paxHSDqpvH98lDE2O3x9Hb19ppbGJGL89i5Kmu5W_WsJ47ddAKvt-hVDSDHEGtlWXY4Ci7Y=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "洞窟と隠れ家にこだわり過ぎて、隠れ過ぎた暇な店 One Curry BAR M's", "uri": "https://maps.google.com/maps/contrib/117171168353039039309" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=16221090855484090954&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-02T16:07:52+00:00" },
+          "researcher_note": "店名で「洞窟と隠れ家」を掲げるカレー専門店。内装で洞窟を模した業態と見られる"
+        },
+        {
+          "cand_id": "rest-07",
+          "source_api": "google_places",
+          "source_id": "ChIJ3X1e0YMa5TQRT2ZKHUvbTjU",
+          "title": "青の洞窟に一番近いcafe『BLUE CAVE STAND』",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "沖縄県国頭郡恩納村真栄田469-1", "primary_type": "カフェ・喫茶" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA1K2Nl71ronT8RW6Xm3PpU8RFEKs7R5PHYHmkOHBItDPMVdF3D9FifCWWm2RRzChl3QMU-qfGgqY2h8IKD_1inVWv4oyTmLuU77AlhwAMEMyQmnunMmH3gY33I2f6jNp2xDg8WpSvfr2zx=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "青の洞窟に一番近いcafe『BLUE CAVE STAND』", "uri": "https://maps.google.com/maps/contrib/110065159044953412698" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=3841248647854057039&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-02T16:07:52+00:00" },
+          "researcher_note": "店名の通り青の洞窟に近接するカフェであり、店舗自体が洞窟内・岩窟を使っているわけではない。発注との距離が最も大きい候補"
+        }
+      ]
+    },
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003002322",
+          "title": "西行全歌集",
+          "creator": "西行 [著], 久保田淳, 吉野朋美 校注",
+          "year": 2013,
+          "publisher": "岩波書店",
+          "meta": { "series": "岩波文庫 30-023-2", "ndl_bib_id": "000025040389" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025040389", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-02T16:07:58+00:00" },
+          "researcher_note": "西行の全歌集(山家集を含む)。NDL収録の論文「〈笙の岩屋〉の形象--西行の宗教をめぐる和歌のつくり方」により、西行が岩屋(岩窟)を詠んだ和歌を残していることが確認できる。個別歌の本文はopenBD/NDLの応答に含まれないため、該当歌の特定は執筆担当の照合が必要"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784894346758",
+          "title": "石牟礼道子詩文コレクション 2(花)",
+          "creator": "石牟礼道子",
+          "year": 2009,
+          "publisher": "藤原書店",
+          "meta": { "contents_excerpt": "岩屋谷桜幽祭(目次より)、巻末に詩・短歌・俳句を収録" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000010117274", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-02T16:07:58+00:00" },
+          "researcher_note": "openBDの目次情報に「岩屋谷桜幽祭」の章題があり、岩屋(岩の裂け目)を主題にした文業を含む。詩・短歌・俳句を併載する巻"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784394902058",
+          "title": "山頭火全句集",
+          "creator": "種田山頭火",
+          "year": 2002,
+          "publisher": "春陽堂書店",
+          "meta": { "extent": "758p" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004009392", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-02T16:07:58+00:00" },
+          "researcher_note": "種田山頭火の全句集。九州各地を行脚した行乞流転の句を収めるが、洞窟・岩窟を直接詠んだ句の所在はopenBD/NDLの応答からは確認できず、執筆担当による本文照合が必要"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
