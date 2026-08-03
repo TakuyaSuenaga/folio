@@ -1,0 +1,153 @@
+{
+  "vol": 18,
+  "genres": [
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "275689695",
+          "title": "Remix Album",
+          "creator": "Modern Talking",
+          "year": 2005,
+          "publisher": "SONY BMG MUSIC ENTERTAINMENT (GERMANY) GmbH",
+          "meta": { "trackCount": 16, "primaryGenreName": "ポップ", "note": "原曲群をプロデューサー側の手で再編曲・再収録したリミックス編集盤。" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/df/f9/d1/dff9d100-5c99-d902-99c9-da540d718da9/886972053820.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/remix-album/275689695?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-03T17:16:19+00:00" },
+          "researcher_note": "原曲がリミックスという外部の手で再編された一枚として発注に該当する。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1443614707",
+          "title": "Call and Response: The Remix Album",
+          "creator": "マルーン5",
+          "year": 2008,
+          "publisher": "Interscope Records",
+          "meta": { "trackCount": 19, "primaryGenreName": "ポップ", "note": "自作曲を他アーティスト・プロデューサーが再構築したリミックス編集盤。" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/a4/ce/4c/a4ce4c3b-097d-ce1e-24fe-c8bd8cd0dd98/00602517948617.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/call-and-response-the-remix-album/1443614707?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-03T17:16:19+00:00" },
+          "researcher_note": "タイトルに明示された『応答』の構図が外部の手による再編集そのものを指す一枚。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1765264490",
+          "title": "THE RAMPAGE REMIX ALBUM -RMX16-",
+          "creator": "THE RAMPAGE from EXILE TRIBE",
+          "year": 2024,
+          "publisher": "AVEX MUSIC CREATIVE INC.",
+          "meta": { "trackCount": 16, "primaryGenreName": "J-Pop", "note": "既存曲16曲を外部リミキサーが差し替え収録したアルバム。" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2c/25/3b/2c253ba5-89c5-4c2e-bdac-0dbca58999b0/ANTCD-A0000014487.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/the-rampage-remix-album-rmx16/1765264490?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-03T17:16:19+00:00" },
+          "researcher_note": "リミキサーの手による差し替え収録という発注の条件に直接合致する一枚。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1439343342",
+          "title": "The Greatest Showman: Reimagined",
+          "creator": "Pasek & Paul",
+          "year": 2018,
+          "publisher": "Atlantic Recording Corporation / WEA International Inc.",
+          "meta": { "trackCount": 13, "primaryGenreName": "ポップ", "note": "映画サウンドトラックを他アーティストが再解釈して録り直したカバー編集盤。" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c6/8b/0b/c68b0b2d-de10-262a-7b2a-4413a453da67/075679877116.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/the-greatest-showman-reimagined/1439343342?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-03T17:16:19+00:00" },
+          "researcher_note": "『Reimagined』の題が示す通り、外部アーティストの手で原曲の姿が編み直された一枚。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1504765194",
+          "title": "Reimagined",
+          "creator": "Audiomachine",
+          "year": 2020,
+          "publisher": "Audiomachine",
+          "meta": { "trackCount": 15, "primaryGenreName": "サウンドトラック", "note": "既発曲を編曲面から作り直したセルフリイマジン盤。" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/d6/f2/0a/d6f20ad8-bb92-f23b-86d7-99da0a94ca13/artwork.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/reimagined/1504765194?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-03T17:16:19+00:00" },
+          "researcher_note": "大胆な再編曲によって原曲の姿を変えたアルバムの一例。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1525702567",
+          "title": "Reimagined - EP",
+          "creator": "ヘイルストーム",
+          "year": 2020,
+          "publisher": "Atlantic Recording Corporation",
+          "meta": { "trackCount": 6, "primaryGenreName": "ハードロック", "note": "ロックバンドの既発曲をアコースティック編成で再編曲したEP。" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/35/a9/72/35a9725e-fae4-d4ee-9de5-25811792ecab/075679818522.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/reimagined-ep/1525702567?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-03T17:16:19+00:00" },
+          "researcher_note": "編成を変えた再編曲により元の姿から離れた小品集。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "bok-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784122034570",
+          "title": "生きている兵隊 : 伏字復元版",
+          "creator": "石川, 達三, 1905-1985",
+          "year": 1999,
+          "publisher": "中央公論新社",
+          "meta": { "isbn": "9784122034570", "series": "中公文庫", "note": "1938年発表時に検閲で伏字とされた箇所を復元した版。伏字という検閲の痕跡そのものが版の主題になっている。openBDにcover画像なし。" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002822110", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-03T17:16:12+00:00" },
+          "researcher_note": "検閲による伏字とその後の復元という、介入の痕跡が原文に残る書物の代表例。"
+        },
+        {
+          "cand_id": "bok-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784102070123",
+          "title": "チャタレイ夫人の恋人 : 完訳",
+          "creator": "Lawrence, David Herbert, 1885-1930 / 伊藤, 整, 1905-1969 訳 / 伊藤, 礼 補訳",
+          "year": 1996,
+          "publisher": "新潮社",
+          "meta": { "isbn": "9784102070123", "series": "新潮文庫", "note": "わいせつ文書頒布罪で削除・裁判の対象となった伊藤整訳を、没後に息子の伊藤礼が補訳して削除箇所を復元した完訳版。openBDにcover画像なし。" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002540936", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-03T17:16:12+00:00" },
+          "researcher_note": "裁判による削除と後年の補訳という二重の外部の手が原文に残る一冊。"
+        }
+      ]
+    },
+    {
+      "genre": "photo",
+      "candidates": [
+        {
+          "cand_id": "pho-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784049300291",
+          "title": "稲川淳二の絶叫・心霊写真",
+          "creator": "稲川, 淳二, 1947-",
+          "year": 2001,
+          "publisher": "角川書店",
+          "meta": { "isbn": "9784049300291", "series": "ザテレビジョン文庫", "note": "心霊写真(撮影後に像が加わったとされる写真)を収集・解説した文庫。openBDにcover画像なし。" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002996394", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-03T17:20:11+00:00" },
+          "researcher_note": "撮影後に像が書き換わった(とされる)写真を集めた一冊として発注に該当する。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "book: 本文に外部の手が入ったことが読み取れる一冊(候補目標5点に対し2点のみ確保)",
+      "reason": "候補不足(部分)——『検閲』『校訂』『校訂版』『校注』『発禁』『解禁』『チャタレイ夫人の恋人 完訳』等で NDL opensearch を検索し、bok-01・bok-02の2点は openBD 照合まで確認できたが、他にヒットした書誌(古典校訂本・学術報告書・GHQ検閲印付き旧刊本など)はISBN無しかopenBD未収載で実在チェーンを閉じられず、5点には届かなかった。"
+    },
+    {
+      "hacchu": "photo: 撮影後に外部の手が加わったことが分かる写真集を一点——合成・修整・検閲など、像そのものが撮影の後に書き換えられた一冊を。",
+      "reason": "該当なし(部分)——検閲・合成・修整をテーマにした写真集を NDL opensearch で『検閲』『合成』『修整』『レタッチ』『フォトモンタージュ』『心霊写真』等の複数語で検索したが、ヒットする書誌の大半はISBN無し(戦前・雑誌記事・図書館限定目録)か、ISBN付きでもopenBDに書誌が無く(伏字探索時に確認した中岡俊哉・織田無道・新倉イワオらの心霊写真文庫を含む)、実在チェーンを閉じられなかった。孤立候補pho-01のみ確保。"
+    }
+  ]
+}
