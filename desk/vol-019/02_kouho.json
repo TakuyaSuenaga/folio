@@ -1,0 +1,280 @@
+{
+  "vol": 19,
+  "genres": [
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784781409481",
+          "title": "輝く子",
+          "creator": "藤井啓子",
+          "year": 2017,
+          "publisher": "ふらんす堂",
+          "meta": { "isbn": "9784781409481", "note": "著者は「ホトトギス」「円虹」等に拠る俳人。openBDにcover画像あり" },
+          "image": { "url": "https://cover.openbd.jp/9784781409481.jpg", "source": "openbd" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028006340", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-04T16:58:22+00:00" },
+          "researcher_note": "「野分」「秋の空」に類する句集検索でヒット。台風一過そのものを詠んだ句が含まれるかは未確認"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784046522313",
+          "title": "風薫る : 今橋眞理子句集",
+          "creator": "今橋, 眞理子, 1955-",
+          "year": 2014,
+          "publisher": "KADOKAWA",
+          "meta": { "isbn": "9784046522313", "series": "角川21世紀俳句叢書", "note": "openBDにcover画像なし" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025400111", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-04T16:58:22+00:00" },
+          "researcher_note": "「台風 句集」検索でヒットした句集。台風一過の主題との距離は選定時に要確認"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784781415840",
+          "title": "時の影",
+          "creator": "舘野豊",
+          "year": 2023,
+          "publisher": "ふらんす堂",
+          "meta": { "isbn": "9784781415840", "series": "句集", "note": "openBDにcover画像あり" },
+          "image": { "url": "https://cover.openbd.jp/9784781415840.jpg", "source": "openbd" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033020444", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-04T16:58:22+00:00" },
+          "researcher_note": "「野分 句集」検索でヒット。近刊(2023)の句集"
+        },
+        {
+          "cand_id": "poe-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784894027916",
+          "title": "水影",
+          "creator": "深見けん二",
+          "year": 2006,
+          "publisher": "ふらんす堂",
+          "meta": { "isbn": "9784894027916", "series": "ふらんす堂文庫", "note": "openBDにcover画像あり" },
+          "image": { "url": "https://cover.openbd.jp/9784894027916.jpg", "source": "openbd" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000008170513", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-04T16:58:22+00:00" },
+          "researcher_note": "高濱虚子門下の俳人による句集文庫版。「野分 句集」検索でヒット"
+        },
+        {
+          "cand_id": "poe-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784781416502",
+          "title": "水無月の鹿",
+          "creator": "竹腰素",
+          "year": 2024,
+          "publisher": "ふらんす堂",
+          "meta": { "isbn": "9784781416502", "series": "句集", "note": "openBDにcover画像あり" },
+          "image": { "url": "https://cover.openbd.jp/9784781416502.jpg", "source": "openbd" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033514841", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-04T16:58:22+00:00" },
+          "researcher_note": "「野分 句集」検索でヒットした近刊(2024)の句集"
+        },
+        {
+          "cand_id": "poe-06",
+          "source_api": "ndl+openbd",
+          "source_id": "9784140057148",
+          "title": "わたしの好きな季語",
+          "creator": "川上, 弘美, 1958-",
+          "year": 2020,
+          "publisher": "NHK出版",
+          "meta": { "isbn": "9784140057148", "note": "季語をめぐるエッセイ集。句集ではない。openBDにcover画像なし" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030735703", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-04T16:58:22+00:00" },
+          "researcher_note": "「台風 歌集」検索の周辺でヒットした季語エッセイ。定型(句集・歌集)そのものではない点は選定時に要判断"
+        }
+      ]
+    },
+    {
+      "genre": "photo",
+      "candidates": [
+        {
+          "cand_id": "pho-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784794216861",
+          "title": "すごい空の見つけかた",
+          "creator": "武田, 康男, 1960-",
+          "year": 2009,
+          "publisher": "草思社",
+          "meta": { "isbn": "9784794216861", "note": "空の写真家・気象予報士による空の写真と解説。openBDにcover画像なし" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009981688", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-04T17:02:25+00:00" },
+          "researcher_note": "「空 写真集」系検索でヒットした武田康男の著作群の一冊"
+        },
+        {
+          "cand_id": "pho-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784860646189",
+          "title": "雲と出会える図鑑",
+          "creator": "武田康男",
+          "year": 2020,
+          "publisher": "ベレ出版",
+          "meta": {
+            "isbn": "9784860646189",
+            "note": "openBD目次に「5-11 台風の去る空」「6-2 台風一過の雲」の項目名を確認(openBDレスポンスのTextContent内)。openBDにcover画像あり"
+          },
+          "image": { "url": "https://cover.openbd.jp/9784860646189.jpg", "source": "openbd" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030404223", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-04T17:02:25+00:00" },
+          "researcher_note": "目次に「台風一過の雲」の項があり、発注文の主題と直接一致する"
+        },
+        {
+          "cand_id": "pho-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784768311851",
+          "title": "四季の空撮り方レシピブック",
+          "creator": "",
+          "year": 2019,
+          "publisher": "玄光社",
+          "meta": { "isbn": "9784768311851", "series": "玄光社MOOK", "note": "季節ごとの空の撮影技法を扱うムック。openBDにcover画像なし" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029627072", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-04T17:02:25+00:00" },
+          "researcher_note": "「空 写真集」系検索でヒット。作品集ではなく撮影ハウツームックである点は選定時に要判断"
+        },
+        {
+          "cand_id": "pho-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784569805610",
+          "title": "雲の名前、空のふしぎ : 天気の観察図鑑",
+          "creator": "武田, 康男, 1960-",
+          "year": 2012,
+          "publisher": "PHP研究所",
+          "meta": { "isbn": "9784569805610", "note": "openBDにcover画像なし" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I023811810", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-04T17:02:25+00:00" },
+          "researcher_note": "武田康男の関連著作。天気の変わり目の観察図鑑"
+        },
+        {
+          "cand_id": "pho-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784794214249",
+          "title": "楽しい気象観察図鑑",
+          "creator": "武田, 康男, 1960-",
+          "year": 2005,
+          "publisher": "草思社",
+          "meta": { "isbn": "9784794214249", "note": "openBDにcover画像なし" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000007860549", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-04T17:02:25+00:00" },
+          "researcher_note": "武田康男の関連著作。気象観察全般を扱う図鑑"
+        }
+      ]
+    },
+    {
+      "genre": "cafe",
+      "candidates": [
+        {
+          "cand_id": "cafe-01",
+          "source_api": "google_places",
+          "source_id": "ChIJ1WH77SBhc18R5LaZXx6QLnw",
+          "title": "雲Cafe",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "北海道勇払郡占冠村中トマム", "primary_type": "カフェ・喫茶" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCIUopjIlFhbB8ER0NOspOiTLKtrm3QBjhogcejzoLGAtpii_kIzspa0VWRaXw-dahluS7JZjrEmYUxV6sfXUr9M8i3Qs2KQ5c_qtxADv7EUeACTp5V-jNE_3zDc24ZhGrZGBJWIKKAizrUfQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Jd Cheng", "uri": "https://maps.google.com/maps/contrib/111988503088888782756" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=8948247969759082212&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-04T17:03:40+00:00" },
+          "researcher_note": "「雲海テラス カフェ」検索でヒット。星野リゾートトマムの雲海テラスに付随するカフェ"
+        },
+        {
+          "cand_id": "cafe-02",
+          "source_api": "google_places",
+          "source_id": "ChIJPfEhja6NGGARf-3cXSNqJn8",
+          "title": "てんぼうパークCAFE",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都豊島区東池袋3丁目1-1 サンシャインシティ サンシャイン60ビル 60F", "primary_type": "カフェ・喫茶" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAWbJwpyEXgaIebNlVXQbSCmkNj1rxc_shh8uNLl9ZprYDeMTaTA1clubOhcQsBz52h52tiHYeZFdbPJR9SMZrdaUUyHJTQBVcag7cxxKg1we7_aZh7ZtkCDdR7Tti2pOAUkw9-AQu58DBNaa2jZd_JVQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "T S", "uri": "https://maps.google.com/maps/contrib/103414620067740062682" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=9162127192063012223&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-04T17:03:40+00:00" },
+          "researcher_note": "「展望 カフェ」検索でヒット。サンシャイン60展望台「てんぼうパーク」内の屋外併設カフェ"
+        },
+        {
+          "cand_id": "cafe-03",
+          "source_api": "google_places",
+          "source_id": "ChIJsXO0-76LGGARhl43xaxd9Z4",
+          "title": "カフェ＆バータワービューテラス",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都港区芝公園4丁目8-1 33F", "primary_type": "カフェ・喫茶" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCEVjnhWOXVTms6TIWycjENuT4FiZN705Cfz5YwpIGRI3yBGQAHdftdJDzONnRvHcYKX5BrWk5J7ASR_dIcKtm5T3w2KXQBtvc3yQ5eGg_-yE7-4Lp-ApBrrc86GJanOGelLKkX3dfBPAA1VlqUc_uJag=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Watson Fred", "uri": "https://maps.google.com/maps/contrib/104063698651746938781" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=11454164223911222918&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-04T17:03:40+00:00" },
+          "researcher_note": "「展望台 カフェ 東京 夜景」検索でヒット。東京タワー隣接の高層階テラス席カフェ"
+        },
+        {
+          "cand_id": "cafe-04",
+          "source_api": "google_places",
+          "source_id": "ChIJA5zf5nwpC18RwEDQ9g-l1a0",
+          "title": "café そら",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "北海道札幌市西区山の手2条12丁目8-1", "primary_type": "カフェ・喫茶" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCwVnlBuwQ-lrAUWZXTCXr1rrDSzIVJMWbBMPH7u53nuwlfHhbfHjXRR744Ga1ZdB6ljfnRg0E5BxxKuYi155KKZtS05SxvbVSMlLRI1j13xM0wh03pivHqy0AtZ6DhWofYne6o17rlSYiCvQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "café そら", "uri": "https://maps.google.com/maps/contrib/109038086536711059694" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=12526099426584838336&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-04T17:03:40+00:00" },
+          "researcher_note": "「眺望 カフェ 空」検索でヒット。店名が示す通り空を主題にした店名だが、眺望が主題かはPlaces応答から未確認"
+        },
+        {
+          "cand_id": "cafe-05",
+          "source_api": "google_places",
+          "source_id": "ChIJBfebFUpXGmARY2YWcrh--40",
+          "title": "SORA CAFE",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "静岡県島田市金谷東2丁目1058", "primary_type": "カフェ・喫茶" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBrw7ixkN34yHUEukMgbWnuCKCsXc0jtgRuJnilruroFCIrNnVIVKlHsKy7WQyV98G2MKYpN3verJ6ilAi3_JUpDvmBR7_OJyKWQt22NcA1wJd8CUQLWUNUjuASJ1ze56fx6dW7nGARqGwSHWVlE7Ou=s4800-w1170",
+            "source": "google-places",
+            "attributions": [ { "name": "SORA CAFE", "uri": "https://maps.google.com/maps/contrib/109383511728412010017" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=10230910309155366499&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-04T17:03:40+00:00" },
+          "researcher_note": "「眺望 カフェ 空」検索でヒット。牧之原台地に位置する店"
+        },
+        {
+          "cand_id": "cafe-06",
+          "source_api": "google_places",
+          "source_id": "ChIJ-zzwG61JbV8R_28iN8MJxtI",
+          "title": "café そら",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "北海道網走郡大空町女満別西2条4丁目1-30", "primary_type": "カフェ・喫茶" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDAQi1KkqJaOu23ax7N6M6trHWzms46HmCe59RbfSzfm4CMG0isAQrMsiZt5RQDO2g77iv1XmYNYKC63PJd9K1ffHSK_bAdxYosTWCZiCAvBy9xlqD84UEpGB1-yVJCbALKKAt2fw9k01vXfSHovUXTKA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "真奈美", "uri": "https://maps.google.com/maps/contrib/104220382231962823104" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=15187837527401852927&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-04T17:03:40+00:00" },
+          "researcher_note": "「眺望 カフェ 空」検索でヒット。地名は大空町、店名も「そら」"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
