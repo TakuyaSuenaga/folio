@@ -1,0 +1,52 @@
+{
+  "vol": 20,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true,
+      "items[2].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://music.apple.com/jp/album/all-or-nothing/402419193?uo=4": true,
+        "https://maps.google.com/?cid=11723063154091121167&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true,
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I000002232409": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://music.apple.com/jp/album/all-or-nothing/402419193?uo=4",
+        "status": 200
+      },
+      {
+        "url": "https://maps.google.com/?cid=11723063154091121167&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002232409",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[2](book)DATA欄「note」行",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "原書は英語圏でAlex Haleyへの『代筆(as told to)』が明記された回想録の代表例として知られるが",
+      "teisei": "原書は英語圏でAlex Haleyへの「代筆(as told to)」が明記された回想録の代表例として知られるが"
+    }
+  ]
+}

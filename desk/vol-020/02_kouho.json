@@ -1,0 +1,233 @@
+{
+  "vol": 20,
+  "genres": [
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "402419193",
+          "title": "All or Nothing",
+          "creator": "Milli Vanilli",
+          "year": 1988,
+          "publisher": "SONY BMG MUSIC ENTERTAINMENT (GERMANY) GmbH",
+          "meta": { "trackCount": 13, "primaryGenreName": "ポップ" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e6/45/06/e6450642-9d01-519c-570f-5679f0d288a7/4007192594580.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/all-or-nothing/402419193?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-05T16:38:56+00:00" },
+          "researcher_note": "Rob PilatusとFab Morvanの名義でリリースされたデビュー原盤。実際の歌唱はCharles Shaw・John Davis・Brad Howellら別の実演者が担い、後にグラミー賞返上に至った音源。名義と実演の分離が最も直接的に読める一枚。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "673369555",
+          "title": "Girl You Know It's True - The Best of Milli Vanilli",
+          "creator": "Milli Vanilli",
+          "year": 2013,
+          "publisher": "Sony Music Entertainment Germany GmbH",
+          "meta": { "trackCount": 18, "primaryGenreName": "ポップ" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7a/d4/c0/7ad4c0f2-1d14-ac17-15c8-560dd789e223/886444043403.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/girl-you-know-its-true-the-best-of-milli-vanilli/673369555?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-05T16:38:56+00:00" },
+          "researcher_note": "表題曲「Girl You Know It's True」を含むベスト盤。同曲名は事件発覚後、名義と実演の分離そのものを指す言葉としてしばしば引かれる。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1708318609",
+          "title": "The Best of Milli Vanilli",
+          "creator": "Milli Vanilli",
+          "year": 2023,
+          "publisher": "Sony Music Entertainment Germany GmbH",
+          "meta": { "trackCount": 17, "primaryGenreName": "ポップ" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fc/1a/d3/fc1ad30c-3bfc-78b6-954d-4db16c7589c9/196871294614.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/the-best-of-milli-vanilli/1708318609?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-05T16:38:56+00:00" },
+          "researcher_note": "近年のベスト盤再発。mus-02と選曲が重なるため併せて提示。より新しいリマスター音源。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1452636571",
+          "title": "Takashi Niigaki: Symphony \"Litany\" (Live at Fukushima City Concert Hall, 2016 - Optimized for Digital)",
+          "creator": "新垣 隆 & 東京室内管弦楽団",
+          "year": 2016,
+          "publisher": "Universal Classics & Jazz, a division of UNIVERSAL MUSIC LLC",
+          "meta": { "trackCount": 7, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/50/b5/3d50b519-f03d-3349-63c2-3cde05aead4f/00600406816870.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/takashi-niigaki-symphony-litany-live-at-fukushima-city/1452636571?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-05T16:38:56+00:00" },
+          "researcher_note": "作曲家新垣隆本人名義のライヴ録音。ただしこれは歌唱ではなく作曲の代作報道で知られる人物本人による発表であり、発注が求める「歌唱者と実演の分離」とは主題が異なる(声ではなく作曲者の代作)。参考として提示。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1561354610",
+          "title": "ピアノ協奏曲「新生」 - EP",
+          "creator": "新垣 隆",
+          "year": 2016,
+          "publisher": "EAST WORKS",
+          "meta": { "trackCount": 4, "primaryGenreName": "インストゥルメンタル" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/b9/6e/18b96ee8-443b-5b12-33ff-0a79db74fee6/859756785750_cover.png/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/%E3%83%94%E3%82%A2%E3%83%8E%E5%8D%94%E5%A5%8F%E6%9B%B2-%E6%96%B0%E7%94%9F-ep/1561354610?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-05T16:38:56+00:00" },
+          "researcher_note": "mus-04と同様、新垣隆本人名義の作曲作品。歌唱ではなく作曲の代作という点で発注との主題のずれがある参考候補。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJ0zpjcqONGGARbyRp-VaSTZE",
+          "title": "ザ・ゴーストレストラン",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都千代田区神田三崎町3丁目6-1 BACHビル 2F", "primary_type": "食料品" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBDoVPObyElDpoN90U3x23X7WGz1uV0Ufvqe6PcIV47KZPJxZbZwOhxaEw7GC_rGFZCKp6GN6A5mJb20sglsXx1Fbl1zzbpIckZM0fDqBXvhwPFp6dzALw8DLC6oJ051xDaPQMtW7_leax3y7M=s4800-w1000",
+            "source": "google-places",
+            "attributions": [ { "name": "ザ・ゴーストレストラン", "uri": "https://maps.google.com/maps/contrib/111509524414596161557" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10470185610955531375&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-05T16:39:07+00:00" },
+          "researcher_note": "店名そのものが「ゴーストレストラン」を名乗る一軒。発注に最も直接的に一致する候補。"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJn7w-lBOPGGARD1oSw9OvsKI",
+          "title": "KitchenBASE キッチンベース 浅草",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都台東区浅草5丁目7-9 KitchenBASE 浅草", "primary_type": "食料品" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBUR_BL33xmgM7j_wT85Zs0uSLcUrCv9bc7lq8zQYE_z5jtYDxf37GW8hX7ogWjykHf-ngv1Pbo_Ug3gfxTakyQM9qxqJwM_iPD4ku56qsvglsC0SFR7Y4KOkHebhsaEG2Qy2mqB4QDKIzkTA=s4800-w480",
+            "source": "google-places",
+            "attributions": [ { "name": "KitchenBASE キッチンベース 浅草", "uri": "https://maps.google.com/maps/contrib/114213908582283013010" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11723063154091121167&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-05T16:39:07+00:00" },
+          "researcher_note": "複数拠点を展開するシェア型クラウドキッチン運営会社の一店舗。一つの厨房が複数ブランドを代行運営する構造の実例。"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJT0C4va31GGAR8e_Vav5Ngp0",
+          "title": "kitchenbull",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都世田谷区駒沢1丁目5-13 ビラ・アペックス駒沢 3F・4F", "primary_type": "レストラン" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjD92UsBv1NMxz1PVdJacMKN49sTLeTn5Os60kqx7b5lS5ShUQawOMnJsq6kSflFKDp5WW5haMg89wWNrNJl4sbF3HmI2In3fA-Wksx7Gyo6Xaj03R2gseGA843Sn4dDzhLaAS-w2nMWTNalbV0=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "trout beach", "uri": "https://maps.google.com/maps/contrib/105691739480627047168" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11349719766036508657&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-05T16:39:07+00:00" },
+          "researcher_note": "「クラウドキッチン」検索で単独ヒットしたキッチン施設。res-02・res-04のチェーン展開型とは異なる単独店の例。"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJE-hEg5GNGGARIBTXuwRwjgY",
+          "title": "KitchenBASE キッチンベース 神楽坂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都新宿区払方町1-3 KitchenBASE 神楽坂", "primary_type": "食料品" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCfnv1kXVMAJB0JrHi33ixVRY8ks9EHmAOyx4IMY8_mJi95IkiDNQ-GWW5EbaVEewtUEG-JlwUuQMSwHkHSh-bwwEVN2ZJEsK6IZaAJp-Xg59i8EXPsookqRwXfRjCUs02jnya6T-imopM8uPkwxM8b=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "KitchenBASE キッチンベース 神楽坂", "uri": "https://maps.google.com/maps/contrib/111911159342987904165" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=472438176554095648&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-05T16:39:07+00:00" },
+          "researcher_note": "res-02と同一チェーンの別拠点。同一運営者による多拠点展開を示す並列候補。"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ8aW3C-KJGGAR9qtPRZua_X4",
+          "title": "クラウドキッチン FOOD STALL",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都江東区北砂3丁目32-18", "primary_type": "食料品" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjB4QDxQHH3TGO-iwW36ZG6q5_V3mgI9VLa2VBetK5zVX9QjgfkUWdJkt1z8VDFsIPZV5mEAF0pRFMm9TYkrwhjls6q5nOfWQM3c3Natu4YXney_v4pS62fnFLRCBVvijG71nrOHuBy8uXVDhNM=s4800-w640",
+            "source": "google-places",
+            "attributions": [ { "name": "クラウドキッチン FOOD STALL", "uri": "https://maps.google.com/maps/contrib/107983092375726407074" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9150640009560173558&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-05T16:39:07+00:00" },
+          "researcher_note": "店名に「クラウドキッチン」を含む一軒。res-01と並ぶ直接的な名称一致の候補。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "bok-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784022568090",
+          "title": "遺書",
+          "creator": "松本, 人志, 1963-",
+          "year": 1994,
+          "publisher": "朝日新聞社",
+          "meta": { "isbn": "9784022568090", "note": "openBDにcover画像なし。書誌上の責任表示は松本人志単独で、放送作家による構成関与は巷間語られるが本メタデータからは確認できない。校閲工程での追加検証を要する。" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002363053", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-05T16:39:10+00:00" },
+          "researcher_note": "現代の代筆回想録の候補。代筆性の当否は書誌メタデータ単独では確認できない点を明記した上で提示。"
+        },
+        {
+          "cand_id": "bok-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784309901046",
+          "title": "マルコムX自伝",
+          "creator": "Malcolm X, 1925-1965 / 浜本, 武雄, 1925-2003 訳",
+          "year": 1993,
+          "publisher": "アップリンク",
+          "meta": { "isbn": "9784309901046", "note": "openBDにcover画像なし。原書は英語圏でAlex Haleyへの『代筆(as told to)』が明記された回想録の代表例として知られるが、本書誌のContributor欄には浜本武雄(訳)のみが記載され、Haleyの名は現れない。" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002232409", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-05T16:39:10+00:00" },
+          "researcher_note": "初訳版(1993年アップリンク)。現代の代筆回想録として最も広く知られる例のひとつ。"
+        },
+        {
+          "cand_id": "bok-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784122039971",
+          "title": "マルコムX自伝 : 完訳 上",
+          "creator": "Malcolm X, 1925-1965 / 浜本, 武雄, 1925-2003 訳",
+          "year": 2002,
+          "publisher": "中央公論新社",
+          "meta": { "isbn": "9784122039971", "series": "中公文庫", "note": "openBDにcover画像なし。" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970304959881370305", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-05T16:39:10+00:00" },
+          "researcher_note": "bok-02の完訳文庫版(上巻)。より入手しやすい版として並列提示。"
+        },
+        {
+          "cand_id": "bok-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003001318",
+          "title": "土左日記",
+          "creator": "紀, 貫之 / 鈴木, 知太郎 校注",
+          "year": 1979,
+          "publisher": "岩波書店",
+          "meta": { "isbn": "9784003001318", "series": "岩波文庫", "note": "openBDにcover画像なし。" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000001410538", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-05T16:39:10+00:00" },
+          "researcher_note": "古典における代作の伝統の候補。ただし男性の紀貫之が女性の仮託で綴った作品であり、第三者が別人に代わって書く狭義の『代筆』ではなく人称の仮託である点に注意。発注文が明示的に許容する『古典における代作の伝統』の一例として提示。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
