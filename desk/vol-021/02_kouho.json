@@ -1,0 +1,276 @@
+{
+  "vol": 21,
+  "genres": [
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784794226662",
+          "title": "音数で引く俳句歳時記 秋",
+          "creator": "岸本尚毅 監修,西原天気 編",
+          "year": 2023,
+          "publisher": "草思社",
+          "meta": { "volume": "秋", "ndc": "911.307", "extent": "182,13p", "price": "1600円" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032940451", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-08T15:30:39+00:00" },
+          "researcher_note": "季語を音数別に配列した歳時記の秋巻。立秋は秋の最初の季語として収録される構成だが、個々の掲載例句の本文はNDL/openBDのメタデータには含まれず未確認。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044008024",
+          "title": "角川 季語別俳句集成 秋",
+          "creator": "角川書店",
+          "year": 2025,
+          "publisher": "KADOKAWA",
+          "meta": { "volume": "秋", "extent": "454p", "price": "2200円" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034281900", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-08T15:30:39+00:00" },
+          "researcher_note": "季語ごとに例句を集成した俳句集成の秋巻(2025年9月刊)。立秋・残暑を見出しとする例句が収録されている可能性が高いが、個々の句の本文はメタデータでは未確認。"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044005009",
+          "title": "角川俳句大歳時記 秋",
+          "creator": "茨木和生,片山由美子,長谷川櫂,宇多喜代子,高野ムツオ,堀切実 編集委員,角川書店 編",
+          "year": 2022,
+          "publisher": "KADOKAWA",
+          "meta": { "volume": "秋", "ndc": "911.307", "price": "5450円" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032331082", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-08T15:30:39+00:00" },
+          "researcher_note": "俳壇の編集委員による大部の総合歳時記の秋巻。立秋は秋の巻頭季語として立項される構成が一般的だが、掲載例句の本文はメタデータでは未確認。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJKaSGpN-BAGARaXAJCMJM8Oo",
+          "title": "明石市立天文科学館",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "兵庫県明石市人丸町2-6 明石市立天文科学館 16F", "primary_type": "博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDtMUMKPNJ1CkiBEGEsfjh3TgxdGzoSv-dN6x0M4-j_HJtwsr5fIinKt-SwJbVsvOgpOPtlbKnEEsqy9gxxeeJ00Ox8cw34_A2ouV0IRrK260DZEylYZ3CR4hVXLCSkUYrmZuRi0hpRELu7=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Hideyuki Ikeya", "uri": "https://maps.google.com/maps/contrib/105178046221963879869" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16929115395527897193&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-08T15:31:25+00:00" },
+          "researcher_note": "日本標準時の基準となる東経135度子午線上に建つ科学館・プラネタリウム。塔屋の大時計で知られる。子午線通過地識標(記念碑、建築物ではない)も同市内に別途所在するが今回の候補には含めていない。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJUWd5yfrvGGARgcRGqiuZ9_M",
+          "title": "国立天文台",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "東京都三鷹市大沢2丁目21-1", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAluKr5tFWk4u0DGea6EZ0B9d2V0jDokbDY4w-k-K09dkTMN69ItzFiHYcwMjQ7ypSbLoRiifngxqHEFeMyughptiDLRqmSsXzIjjWmO6H49WfkKyeTPNnRYCrzFvFPYEvFUHEo4UrRsS8p=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "国立天文台", "uri": "https://maps.google.com/maps/contrib/104254465302981332681" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17579688083283428481&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-08T15:31:25+00:00" },
+          "researcher_note": "三鷹キャンパス。旧図書庫や天文機器保存室など、暦計算・時刻観測に関わる歴史的施設群を含む。個々の観測ドームの設計意図の詳細はPlacesデータでは未確認。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJmeGxCIo1j18R8U7PJ_C_jm8",
+          "title": "国立天文台 水沢VLBI観測所",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "岩手県奥州市水沢星ガ丘町2-12", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCtSNoerMvb_ZEPX4ba7pWFAdeOP-Vi3yaBgcem656edfgEdu88fIYi9o_2d0_rnFDOgScOEiXRN6fBxLRuxj81ppkKY8eJB1Li_2OrC8soU67z1-f44fNlRIQkhIfubyMKkz7v2AyWoEunYXI=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Tadao Higaki (tadaoh)", "uri": "https://maps.google.com/maps/contrib/105997225797738553419" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8038573423083867889&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-08T15:31:25+00:00" },
+          "researcher_note": "旧・緯度観測所を前身とする観測所。緯度変化の精密観測を目的に設立された歴史を持つ。現存する旧本館等の建築年・意匠の詳細はPlacesデータでは未確認。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJrVid0PbmAGARVvoeAwYmgg4",
+          "title": "大阪市立科学館",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "大阪府大阪市北区中之島4丁目2-1", "primary_type": "博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCpdSUnpzAnaCRrGt0zukX765SI9WY4Oz3KjI1VNZ8G6p_HnvxiiG03VvbQYybQjG2T-FKsqtxZDvJLQnhNweRRrb7U74lh2TP3m4BI9tqZGgoSaAZFUTM6UV7lt-YzYkbgfff-ngWf5Kx4tA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "김세연", "uri": "https://maps.google.com/maps/contrib/111077851248296691381" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1045439870767397462&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-08T15:31:25+00:00" },
+          "researcher_note": "プラネタリウムを併設する科学館。天体・暦の投影展示を行う。建築の設計意図の詳細はPlacesデータでは未確認。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJR3JQJ3YpC18R680ES0qomxs",
+          "title": "札幌市時計台",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "北海道札幌市中央区北1条西2丁目", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjD3crKctb8pkIlaiqCKiypNQUZPlbP4LXfcORPwJ7haGaBrzoTe3bKmynzaGXPEAx4_VT6il59kIkzqosdoLtZIu9Me4V7I6KVa1ACxRvaW3orkEH-KPRGrUsaDDSY-g7mr2ihhZU9RK9UY7w=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "スペたろう", "uri": "https://maps.google.com/maps/contrib/102864143281368866264" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1989368697453858283&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-08T15:31:25+00:00" },
+          "researcher_note": "旧札幌農学校演武場。塔屋の時計機構が現在も稼働し時刻を計測・報時する現役の建築。天文台ではなく報時建築の事例として候補に加えた。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJOTeXru4ABDQRvINxxdCvq94",
+          "title": "香港天文台",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "Hong Kong Observatory Centenary Building, 134A Nathan Rd, Tsim Sha Tsui, 香港", "primary_type": "プラネタリウム" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBu_imUw0IUL_qjj1LGUgq28mH0OMGojmFglBi9JjvUWOLAJRIvyxY7xf9fV3Klkj0oK5vP3qCchiQuV8ozgSvCFykhzSVxjiI6YTrUeG12nTeEb3lda_taWRCGbUwB9NygP9FWTGCFRpW8FUk=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Terrence Lau", "uri": "https://maps.google.com/maps/contrib/114807785649435393821" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16045111408638133180&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-08T15:31:25+00:00" },
+          "researcher_note": "1883年設立の気象・時報機関。国外の候補で日本の暦との直接の対比は薄いが、時刻・気象を精密観測する建築の一例として幅を持たせるために加えた。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJKRpFOpoIAWAR6-4nFaJQz5A",
+          "title": "中村藤吉京都店",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "京都府京都市下京区烏丸通塩小路下ル東塩小路町 ジェイアール京都伊勢丹 レストラン街 JR西口改札前イートパラダイス3F", "primary_type": "カフェ・喫茶" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDa39Z3-p6Wq8htru2zNzJW_FUm2meIpJ-0ix4ZFNM4sGDxO1Pf8sYhFbKBws4RVe9GP9NvaSBGweGtk0Roh9xhZVfSbZOVOb9g9xvdaK06Rm1HfH4jwUNo3mKyUWhQbQL98-TLj0CKaCJhGg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "中村藤吉京都店", "uri": "https://maps.google.com/maps/contrib/110573725912971298271" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10434647518710591211&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-08T15:32:40+00:00" },
+          "researcher_note": "宇治抹茶を用いたかき氷・甘味で知られる老舗茶舗の京都駅店。立秋以降の品書き切替や夏季メニューの継続有無はPlacesデータでは未確認。"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJsY-fb8EIAWARQej9nd_v0QM",
+          "title": "ぎをん徳屋",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "京都府京都市東山区祇園町南側570-127", "primary_type": "デザート ショップ" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBoD1ANIAtlr_9wj-wc3r5IiNecR0IC50ScVgx-w6F55eKfDjxlkpjEr7u6peb0OrvasKAOEiuqfcAiu8S2o0f968hIyrX_ga3_Gslck4lb87ii0cvgpO9AHqh7T5FR1VtUvv4NQgI-CFOUJ7Ry06nZ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "hiromasa oguroya", "uri": "https://maps.google.com/maps/contrib/106125034913334606372" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=275264795953719361&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-08T15:32:40+00:00" },
+          "researcher_note": "本わらび餅と氷菓を扱う祇園の甘味処。立秋以降の品書き切替や夏季食材の継続有無はPlacesデータでは未確認。"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJoSsu9p6OGGARkMMvEf8kUHQ",
+          "title": "上野かき氷専門店 四代目大野屋氷室",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "東京都台東区上野6丁目14-1 ヒダリキキ 1F", "primary_type": "カフェ・喫茶" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA-lUUpa-JqJnObQ98Uh6HtfvD4SfLKuf4O3qBHxb9Lme1g2bDLjQp5CsaVv-m1KtWTrNj0j4_5MmpNINZkLhm-9vpuudI54Pkt2RrtjbasvLEtAjlIzYJ4qiRnR-QPq0LlMDaTeiBo-Ug1zmk=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "上野かき氷専門店 四代目大野屋氷室", "uri": "https://maps.google.com/maps/contrib/103299874968971435081" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8381239584460096400&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-08T15:32:40+00:00" },
+          "researcher_note": "屋号に氷室(旧来の氷保存の呼称)を掲げるかき氷専門店。立秋以降の品書き切替や夏季メニューの継続有無はPlacesデータでは未確認。"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJkTQ05D4IAWAR0VBM6xYe9c8",
+          "title": "茶寮 宝泉",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "京都府京都市左京区下鴨西高木町25", "primary_type": "デザート ショップ" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCXkYMuMKMut5Sxuilnv_7rkz9svo8NvdycTsmWDedIl-vfh-McfRBqenI7T8bgOGKHY7LmNXG21jIG4Eu5obHBMuzzQyQpIBg1Bbd6aFSSjZ6UIby8ZK0K6EGPyZJ30CcuBICQLMTZRxAt5eXmhP0U=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Zachary Zachary", "uri": "https://maps.google.com/maps/contrib/109683285069443493385" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14984916418930954449&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-08T15:32:40+00:00" },
+          "researcher_note": "下鴨の甘味処。わらび餅・氷菓子を扱う。立秋以降の品書き切替や夏季食材の継続有無はPlacesデータでは未確認。"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJPWiZvI8IAWARd6tcuPJAhj8",
+          "title": "甘味処 月ヶ瀬",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "京都府京都市中京区堺町通御池下る丸木材木町675 1階", "primary_type": "カフェ・喫茶" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDpIvP8hOerMKQ1aLLqgwQyJQQ0TCn27EafFa8z58E63FrCZT77dOIsiCKKFEjIr6G7gzVzeVhw2goPMiPiCP_WXAf7-Kf0dRoMa6GAgCleHirmWYE-7Z1eApPG_S3bfowtVKVbXvXuYVwauMk=s4800-w768",
+            "source": "google-places",
+            "attributions": [ { "name": "甘味処 月ヶ瀬", "uri": "https://maps.google.com/maps/contrib/102653264915358728136" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4577417482488032119&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-08T15:32:40+00:00" },
+          "researcher_note": "京都・堺町通の甘味処。蜜豆・氷菓を扱う。立秋以降の品書き切替や夏季食材の継続有無はPlacesデータでは未確認。"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJi5dnq9_mAGARJUbfBRYFNjU",
+          "title": "本家 柴藤",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "大阪府大阪市中央区高麗橋2丁目5-2", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCENnP0QQX7ntH9SRlMbcqAqFV-BLdVn8M2fM7uN1N0u1gUfwkanckC6jHTXvlGbtR5XXXIyz94-v3Ox10WwZG3iQUhwCK4lx4j7YuuPBQXYojWLnb_6FZEaJiJ8hsKB35pq4hx_rfVNSvki9nllC5Y=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Eu rah", "uri": "https://maps.google.com/maps/contrib/104631143177207354320" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3834257724898493989&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-08T15:32:40+00:00" },
+          "researcher_note": "高麗橋の鰻の老舗。土用の丑を中心に夏季の鰻食が定着する店だが、立秋以降の品書き切替の有無はPlacesデータでは未確認。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

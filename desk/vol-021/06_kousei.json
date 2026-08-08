@@ -1,0 +1,52 @@
+{
+  "vol": 21,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true,
+      "items[2].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I034281900": true,
+        "https://maps.google.com/?cid=16929115395527897193&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true,
+        "https://maps.google.com/?cid=8381239584460096400&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034281900",
+        "status": 200
+      },
+      {
+        "url": "https://maps.google.com/?cid=16929115395527897193&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://maps.google.com/?cid=8381239584460096400&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[0] essay冒頭(h2「角川 季語別俳句集成 秋」・DATA欄「題名」行との対比)",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "角川季語別俳句集成 秋は、季語を一つずつ立てて例句を束ねる秋の巻である。",
+      "teisei": "『角川 季語別俳句集成 秋』は、季語を一つずつ立てて例句を束ねる秋の巻である。(見出し・DATA欄の表記「角川 季語別俳句集成 秋」とスペースの位置を揃え、書籍作品名を規定どおり『』で括る。他号の書籍作品では本文中で『』表記が用いられている)"
+    }
+  ]
+}
