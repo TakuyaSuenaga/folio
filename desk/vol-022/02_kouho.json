@@ -1,0 +1,235 @@
+{
+  "vol": 22,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJDWtBUT26kUcRgaX1GO8_y9c",
+          "title": "Vitra Fire Station by Zaha Hadid",
+          "creator": "ザハ・ハディド",
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "Müllheimer Str. 56, 79576 Weil am Rhein, ドイツ", "primary_type": "文化的ランドマーク" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBvG4nXHv8k8kCixqRdNKJ4GYhbqKOmk4Gp5Dt-1FIQigG501YrjlXv4uQ6OYO3Jy17xWCDVmQU01YBsX89XuJrKUEOAlYdqgEot1JsmES1USrkZoRklLjgjQwAxZ0089pffbfCM0mtlN9en8Y=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Vitra Fire Station by Zaha Hadid", "uri": "https://maps.google.com/maps/contrib/110576560449598322451" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15549592434575254913&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-09T15:29:44+00:00" },
+          "researcher_note": "検索語『Vitra Fire Station Zaha Hadid』に施設名が完全一致。ハディドの初の実現作(1993年)として名指しされる建物だが、竣工年・独立後第一作かどうかの一次確認はAPI外であり編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJw4F1DgDdAGAR3hrHQaMYdY4",
+          "title": "住吉の長屋",
+          "creator": "安藤忠雄",
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒558-0045 大阪府大阪市住吉区住吉２丁目１３−１２", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCUpF2U5mU2elpb5aXI9VBBuRxqHpOAUMJ2THgnQgXn98MEa-QcfywY5IOkoBX-9Daw9YPsGhOIrFb24hnyFTLNqA-gMAXxuEy53g0OE_-c9b4ktEdvN1rw7oW5tvJx5AwjuEWwmpG424btVcxFB7tDLA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "benjamin chou", "uri": "https://maps.google.com/maps/contrib/110933764794653671270" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10265138015123217118&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-09T15:29:44+00:00" },
+          "researcher_note": "検索語『住吉の長屋 大阪』に施設名が完全一致。安藤忠雄の初期を代表する建物として広く言及される。個人住宅のため現地訪問不可の可能性、権利面の確認は校閲へ"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJrxNqjzz7jUcRV6KRoHafUxM",
+          "title": "Villa Fallet",
+          "creator": "ル・コルビュジエ",
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "Chem. de Pouillerel 1, 2300 La Chaux-de-Fonds, スイス", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCnbVH1wkpy3UOLnxhW9xJeDDg5jabFKDOOLq_cbOvPleJAjx5HapZ3-RqwPDHQipo_f5UvWPkALyIiOLlOov5yyvx3HsETjFjWiKJIY0ri8lsO9Cr9Pxif-Z2tetqAfmr4YnV1stNnD2tSHw=s4800-w797",
+            "source": "google-places",
+            "attributions": [ { "name": "Villa Fallet", "uri": "https://maps.google.com/maps/contrib/116375798317438577263" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1392632041636471383&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-09T15:29:44+00:00" },
+          "researcher_note": "検索語『Villa Fallet Le Corbusier』に施設名が完全一致。ル・コルビュジエが建築家を名乗る前の1907年、最初期に手がけた住宅として言及される物件。竣工年の一次確認は編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJqURM5ky7woARCoGq2C_5OjY",
+          "title": "ゲーリー自邸",
+          "creator": "フランク・ゲーリー",
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "Gehry Residence, 1002 22nd St, Santa Monica, CA 90403 アメリカ合衆国", "primary_type": "建造物" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBzMUJHid6IM8zpT5FZEV3swEGJB1nGVmRq4qzs0idLf8zoNx0BtsGeHUSX6gl5pN3GPI_tDZ9UYXI_KRVx_r7fcNC4T0Rs9f_EeHqMVEkZ0wzOY7MKrRRhYzVSnJlywJnbB6Omr6DHTApK6qE=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Giuseppe Nativo", "uri": "https://maps.google.com/maps/contrib/111304088483174770761" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3907709610591158538&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-09T15:29:44+00:00" },
+          "researcher_note": "検索語『Gehry Residence Santa Monica』に施設名が完全一致。ただし既存住宅の増改築(1978年)であり、ゲーリーはこれ以前から長く実務をしていたため『処女作』との距離はやや遠い。編集部の判断事項として明記"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJUbyYs9zyGGARzTMiLBjP_qs",
+          "title": "中野本町ありがとうの家",
+          "creator": "伊東豊雄(推定・要確認)",
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒164-0012 東京都中野区本町３丁目１２−２３", "primary_type": "サービス" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAa8sWHbeJTYfEjEeswxKqXowwr1pHBAbm_v2C34vKv37od-qsAWr1I403Zg1-vwJ-NAANismK8Sh7lgNr6ePa-ihrhovnMbWKsFpOxrPVSh6jZ515b85KQz-e2-eQdVnSr-SJj2wqxjgYuDQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "カネコユウジ", "uri": "https://maps.google.com/maps/contrib/115745577220870835052" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12393570927296787405&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-09T15:29:44+00:00" },
+          "researcher_note": "検索語『White U 中野本町の家』(伊東豊雄1976年の処女作)で検索したが、返った施設名は『中野本町ありがとうの家』で完全一致しない。同一建物か別施設かの確認が取れておらず、実在チェーンとしては弱い。編集部・校閲での要確認候補"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJVVWlbn3xQDUR5w7xryLQQ68",
+          "title": "再春館製薬所紫陽花寮",
+          "creator": "妹島和世(推定・要確認)",
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒862-0924 熊本県熊本市中央区帯山４丁目２０−５ 学びの館あじさい寮", "primary_type": "集合住宅" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDj_NTizVsnDWekFY5jp0EET8o14lgBxyxpBxkJNmlpKp9i8hV1WBwY7IXUgRxjpul_6j1yn4ls2pfPOVDDtkpkJmi49sHcoGcOdMQAR80bQgsD9DfXrIOml5157xANeXJKvkWcBjEkdkqk=s4800-w326",
+            "source": "google-places",
+            "attributions": [ { "name": "Nanao", "uri": "https://maps.google.com/maps/contrib/102125182427144797045" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12629166627476279015&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-09T15:29:44+00:00" },
+          "researcher_note": "検索語『再春館製薬女子寮』(妹島和世の初期作として言及される建物)で検索したが、返った施設名は『紫陽花寮』で名称が完全一致しない。改称・用途変更の可能性があり実在チェーンとしては弱い。編集部・校閲での要確認候補"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJsSK_qrv8AGARQCMiPvHroOA",
+          "title": "日本キリスト教団茨木春日丘教会(光の教会)",
+          "creator": "安藤忠雄",
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒567-0048 大阪府茨木市北春日丘４丁目３−５０", "primary_type": "教会" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCwGkJDfCzqk6nOIPYTBgkJnuIvh0yXNmKErf50DD6Sr4hcHU6p9qZoefjpDddBmkukwNKQORNXJJ7vAeRb8q7THmEUnb8GeyThSUUv09Nvzs2W22FwMKVU0Opu3qY9miCkYbxAVb1T9SDd4os=s4800-w1125",
+            "source": "google-places",
+            "attributions": [ { "name": "みなみ", "uri": "https://maps.google.com/maps/contrib/107320079013788222974" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16186196482131632960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-09T15:29:44+00:00" },
+          "researcher_note": "検索語『光の教会 大阪』の通称と、返った正式名称(日本キリスト教団茨木春日丘教会)が対応しており実在確認は良好。ただし安藤忠雄の処女作(住吉の長屋)より後年の作であり『処女作』発注との距離は遠い"
+        },
+        {
+          "cand_id": "arc-08",
+          "source_api": "google_places",
+          "source_id": "ChIJEwyaTjAoil8RsaujmBJpV60",
+          "title": "せんだいメディアテーク",
+          "creator": "伊東豊雄",
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒980-0821 宮城県仙台市青葉区春日町２−１ 1F", "primary_type": "カルチャー センター" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCENmh1ardHrEQ2dVcRYBT1OpiQYDGbwvKXKubdgvID5sueBmyk2-0EJQZ0A2vxQcas-q22VBZ6LCqqwIehYnewEv3_N79nPhEebygFesh8JHtBPu5oj8_QkxIw7cgl6uofBI4f3ceLZVKK=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "小久保圭基", "uri": "https://maps.google.com/maps/contrib/110498977076474767993" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12490567620126550961&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-09T15:29:44+00:00" },
+          "researcher_note": "検索語『せんだいメディアテーク』に施設名が完全一致し実在確認は良好。伊東豊雄の代表作(2001年)だが処女作(中野本町の家、1976年)ではなく、『処女作』発注との距離は遠い"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1442503884",
+          "title": "Boy",
+          "creator": "U2",
+          "year": 1980,
+          "publisher": "Island Records",
+          "meta": { "trackCount": 12, "primaryGenreName": "ロック", "releaseDate": "1980-10-20T07:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/e3/38/16e338ea-e180-fcf4-8ff2-587dc9499549/17UMGIM90292.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/boy/1442503884?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-09T15:29:31+00:00" },
+          "researcher_note": "検索語『U2 Boy』でヒット。U2のデビューアルバム(1980年)"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "425110121",
+          "title": "Definitely Maybe",
+          "creator": "オアシス",
+          "year": 1994,
+          "publisher": "Sony Music Entertainment Inc.",
+          "meta": { "trackCount": 13, "primaryGenreName": "ロック", "releaseDate": "1994-08-29T07:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a6/37/de/a637deaa-179d-5635-0df1-0df91d3cfe05/884977854473.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/definitely-maybe/425110121?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-09T15:29:31+00:00" },
+          "researcher_note": "検索語『Oasis Definitely Maybe』でヒット。オアシスのデビューアルバム(1994年)"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "669728060",
+          "title": "Bleach (Deluxe Edition)",
+          "creator": "ニルヴァーナ",
+          "year": 1989,
+          "publisher": "Sub Pop Records",
+          "meta": { "trackCount": 26, "primaryGenreName": "オルタナティブ", "releaseDate": "1989-06-15T07:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/fc/61/71fc6147-fa50-2e25-4e42-db8b45e345ab/Nirvana_Bleach_20th_1425px.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/bleach-deluxe-edition/669728060?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-09T15:29:31+00:00" },
+          "researcher_note": "検索語『Nirvana Bleach』でヒット。ニルヴァーナのデビューアルバム(1989年)。配信はデラックス版(ボーナス音源追加)のみで、原盤単体の配信は確認できていない"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1440763349",
+          "title": "First Love (Remastered 2014)",
+          "creator": "宇多田ヒカル",
+          "year": 1999,
+          "publisher": "EMI R",
+          "meta": { "trackCount": 11, "primaryGenreName": "J-Pop", "releaseDate": "1999-03-10T08:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/77/67/00/77670013-e2ed-437a-dc30-e9cb74056cbe/00600406427052.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/first-love-remastered-2014/1440763349?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-09T15:29:31+00:00" },
+          "researcher_note": "検索語『Utada Hikaru First Love』でヒット。宇多田ヒカルのデビューアルバム(1999年)。配信は2014年リマスター版"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "105030215",
+          "title": "Sayonara Stranger (Goodbye Stranger)",
+          "creator": "くるり",
+          "year": 1999,
+          "publisher": "Victor Entertainment, Inc.",
+          "meta": { "trackCount": 12, "primaryGenreName": "オルタナティブ", "releaseDate": "1999-04-21T07:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/2a/3c/5e/mzi.mpfelyzp.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/sayonara-stranger-goodbye-stranger/105030215?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-09T15:29:31+00:00" },
+          "researcher_note": "検索語『Quruli Sayonara Stranger』でヒット。くるりのデビューアルバム(1999年)"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "film: 監督の長編デビュー作を一点選び、未熟さの証としてではなく、以後の作家性の原型がすでに刻まれていた作品として論じよ。",
+      "reason": "API障害。iTunes Search APIのmedia=movie(entity=movie)がJP/US/GB全てのcountryパラメータで恒常的に0件を返す(Bottle Rocket/Reservoir Dogs/Virgin Suicides/Following/姿三四郎/幻の光に加え、Godzilla/Titanic/Star Wars/Frozen等の著名作でも0件を確認)。Apple側でiTunes Search APIのmovieエンティティが実質的に廃止されている可能性が高い。researcherが叩ける許可ホスト(ndlsearch.ndl.go.jp / api.openbd.jp / itunes.apple.com)には他に映画の実在チェーンを取得できるAPIが無く、候補を作成できなかった"
+    }
+  ]
+}
