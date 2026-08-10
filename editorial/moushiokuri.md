@@ -1,8 +1,5 @@
 # 申し送り
 
-## 2026-07-26 (vol.009 校了時)
-- 校閲K-01(photo essayの吹雪・不在年の逸話が02のresearcher_noteで裏づけられない)は4b改稿で該当箇所を削除し一般化した記述へ置換済みであることを03_genko.json/gera.htmlで確認、blockingは解消済みとして校了とした。3ジャンルとも実在チェーン・リンク死活・genko一致は全てmachine check green。唯一残るのは校正P-01/P-02(music DATA欄のprimaryGenreName/trackCount/collectionPrice、book DATA欄のseries/volumeがAPI生フィールド名のまま日本語化されていない)だが、scripts/render_issue.pyはitem.metaのキーをラベルとしてそのままダンプする実装で、日本語ラベルへの変換表を持たない。design.json(spot_color/cover_layout/columns/reverse_data)にもlead_finalにもこの表記を直す手段がなく、責了ループでADに指示を出しても解決できないため、今回はminor指摘のまま校了とした。恒久対応として、render_issue.pyまたはhydrate_genko.py側にAPIフィールド名→日本語ラベルの対応表を持たせることを検討されたい(vol.007・vol.008で指摘されたimage.attributions未照合の申し送りと合わせて、スクリプト側の負債として今後まとめて解消したい)。
-
 ## 2026-07-27 (vol.010 校了時)
 - 校閲は3点ともcaution/memoでblockingなし、校正は3点ともminorで通読・thesisとも成立しており校了とした。校正P-01(DATA欄のaddress/primary_type/volume_range/subject/extentが日本語ラベル化されていない)はvol.009 P-01・P-02と同型で、render_issue.py側にAPIフィールド名→日本語ラベルの対応表がないという恒久課題が再発しているだけであり、design.json/lead_finalのいずれでも責了対応で直せないため今回もminor指摘のまま通した。P-03(vertical layoutのh1右揃えが`.cover`未flex化により効かない可能性)はvol.010が縦組みcover_layoutの初回使用で顕在化した組版バグであり、scripts/render_issue.py側のCSS修正が必要。P-02(登録名称『飛鳥・藤原の宮都』への『』使用は「」が規定に合う)はessay本文の表記であり、この段階では改稿ループに戻さない限り直せないため見送った。次号以降、genre-editorには制度上の名称・組織名等の固有名詞には作品名用の『』ではなく「」を用いるよう申し送る。校閲K-02(poetryの発注は和歌一首だが実在チェーンの単位は全訳注全集の分冊)は、essayが分冊中の特定の一首(柿本人麻呂・近江荒都歌)に絞って論じており、chainの実在性(cand_id poetry-01=実在書誌)自体は担保されているため単位のずれは許容した。恒久対応として、render_issue.pyまたはhydrate_genko.pyにAPIフィールド名の日本語ラベル対応表を持たせる件(vol.009からの持ち越し)と、vertical cover_layoutのh1配置CSS修正の2点を次工程改善事項として引き続き申し送る。
 
@@ -41,3 +38,6 @@
 
 ## 2026-08-10 (vol.022 校了時)
 - うまくいったこと: architecture・musicとも実在チェーン(cand_id)・リンク生存・genko一致・奥付のPR表記まで機械チェック全通過。selection理由(sentei_riyu)は他候補を除外した根拠を明確に書けており、essayも02のmetaを超える断定がなく通読して崩れがない。thesis(処女作にすでに原型が胚胎している)がarchitectureの『静止した塊』とmusicの『反復される音響』という異なる時間性で対になっており、二点構成でも並置の効果が成立している。校閲K-01(ハディド独立からの経過年数)・K-02(U2のディレイ奏法評)はいずれもmemoでblockingなし、一般教養の範囲として妥当。敗因/申し送り: 06校正P-01、colophon.note(奥付の film欠落説明文)が『0件』と算用数字のままで、本文の数字は漢数字とする規定に反する。この一文は03_draft.jsonの時点でgenre-editorが執筆しレンダラーがそのまま転記する箇所であり、責了ループ(design.json/lead_final)では訂正手段がなく今回は見送った。同種の『note文中の数字表記』はvol.016・vol.020でも繰り返し指摘済みの論点であり、genre-editorはcolophon.note等の説明文を書く際も本文と同じ漢数字規定を意識してほしい。恒久対応としては、hydrate_genko.py側でfilm等ジャンル欠落時の定型文言をスクリプト側でテンプレート化し、数字表記の揺れを構造的に防ぐことも検討に値する。
+
+## 2026-08-11 (vol.023 校了時)
+- 04校閲でK-01(photo essayの被写体を『高架や高層建築』と固有に断定していた点・blocking)、K-02・K-03(architecture essayの『その瞬間だけ役目を果たす』『体感することになる』という過度な断定・caution)の三件が指摘されたが、4b改稿で全て根拠のない断定を弱める形で修正済みであることを03_genko.jsonとgera.htmlの突合で確認した。修正後は一般教養の範囲に収まる記述になっており、06校正でも機械チェック・目視とも指摘0件。ジャンル横断(観測者の不動→音の不動→建築という物体の不動)という並置の筋が三点とも綺麗に繋がっており、thesisの変奏として誌面が成立していた。次号への調整案としては、この『不動の一点』というthesisは強度が高く応用が利くため、台帳の近接管理(vol.013『断層』・vol.009『通算』との差別化)を企画段階で早めに言語化できていたことが功を奏した。この判定パターン(発注文で候補の絞り込み基準を明確化し、選定理由に他候補との比較を書かせる)は今後も踏襲する価値がある。

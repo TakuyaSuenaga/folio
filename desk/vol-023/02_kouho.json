@@ -1,0 +1,443 @@
+{
+  "vol": 23,
+  "genres": [
+    {
+      "genre": "photo",
+      "candidates": [
+        {
+          "cand_id": "photo-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784620791975",
+          "title": "神戸市街地定点撮影 : 1995-2001 : 復活への軌跡",
+          "creator": "関美比古, 高橋勝視",
+          "year": 2002,
+          "publisher": "毎日新聞社",
+          "meta": {
+            "extent": "144p",
+            "subject": "阪神・淡路大震災 (1995)--写真集"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチ",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000003665104",
+              "kind": "catalog"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-10T16:00:54+00:00"
+          },
+          "researcher_note": "阪神・淡路大震災後の神戸市街地を1995年から2001年まで同一地点から撮影した写真集。発注の定点観測形式に合致。"
+        },
+        {
+          "cand_id": "photo-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784001153583",
+          "title": "東京は変わった : 定点撮影50年",
+          "creator": "富岡畦草",
+          "year": 2004,
+          "publisher": "岩波書店",
+          "meta": {
+            "series": "岩波フォト絵本",
+            "extent": "44p",
+            "subject": "東京--歴史--昭和時代(1945年以後)--写真集"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチ",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004384187",
+              "kind": "catalog"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-10T16:00:54+00:00"
+          },
+          "researcher_note": "同一地点から50年間撮り続けた東京の変遷を並べた写真集。児童向けの岩波フォト絵本シリーズ。"
+        },
+        {
+          "cand_id": "photo-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784336076410",
+          "title": "昭和初期⇔平成・令和 日本定点写真紀行 : 東日本編・西日本編;全２巻",
+          "creator": "二村正之",
+          "year": 2024,
+          "publisher": "国書刊行会",
+          "meta": {
+            "volume": "東日本編・西日本編 全2巻",
+            "extent": "東日本編397p・西日本編437p",
+            "subject": "日本--歴史--昭和前期--写真集"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチ(東日本編)",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I14211124042086",
+              "kind": "catalog"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-10T16:00:54+00:00"
+          },
+          "researcher_note": "昭和初期の写真と同一地点の現在の写真を対比する全国規模の定点写真紀行、全2巻。openBDは2巻セットISBNで照合。"
+        },
+        {
+          "cand_id": "photo-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784806126904",
+          "title": "都市再生・千フィート今昔 : 渡部まなぶ写真集",
+          "creator": "渡部まなぶ",
+          "year": 2007,
+          "publisher": "中経出版",
+          "meta": {
+            "extent": "111p",
+            "subject": "都市--日本--写真集"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチ",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000008512086",
+              "kind": "catalog"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-10T16:00:54+00:00"
+          },
+          "researcher_note": "都市の同一地点を今昔対比で撮影した写真集。定点性は都市再開発区画の今昔比較に主眼。"
+        },
+        {
+          "cand_id": "photo-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784902731941",
+          "title": "豊橋市の今昔 : 写真アルバム",
+          "creator": "",
+          "year": 2016,
+          "publisher": "樹林舎",
+          "meta": {
+            "extent": "251p",
+            "subject": "豊橋市--歴史--写真集"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチ",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027578362",
+              "kind": "catalog"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-10T16:04:01+00:00"
+          },
+          "researcher_note": "同一地点の古写真と現在の写真を並べた今昔対比アルバム。単一の撮影者が据え続けた視点という発注要件との一致は他候補より弱い。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "music-01",
+          "source_api": "itunes",
+          "source_id": "250225343",
+          "title": "Riley: In C",
+          "creator": "Members of the Creative & Performing Arts at SUNY-Buffalo & テリー・ライリー",
+          "year": 1968,
+          "publisher": "",
+          "meta": {
+            "primaryGenreName": "クラシック",
+            "trackCount": 1,
+            "copyright": "℗ Originally released 1968 Sony Music Entertainment Inc."
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/c0/07/eb/dj.chzdfgnr.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/riley-in-c/250225343?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-10T16:01:51+00:00"
+          },
+          "researcher_note": "53の短い旋律断片を各奏者が任意の速度で反復し重ねる作品。高音Cのパルスが全編で鳴り続け、他の声部の変化を支える構造を持つ。"
+        },
+        {
+          "cand_id": "music-02",
+          "source_api": "itunes",
+          "source_id": "1452312720",
+          "title": "Reich: Music for 18 Musicians",
+          "creator": "スティーヴ・ライヒ・アンサンブル",
+          "year": 1978,
+          "publisher": "",
+          "meta": {
+            "primaryGenreName": "クラシック",
+            "trackCount": 1,
+            "copyright": "℗ 1978 ECM Records GmbH, under exclusive license to Deutsche Grammophon GmbH, Berlin"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3f/f3/1f/3ff31f10-a505-440f-4639-1d5640b529e5/00042282141729.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/reich-music-for-18-musicians/1452312720?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-10T16:01:16+00:00"
+          },
+          "researcher_note": "冒頭と終盤に置かれたパルス脈動が全曲の呼吸を規定し、その間で和声サイクルが交替していく構造を持つ作品。1978年ECM盤。"
+        },
+        {
+          "cand_id": "music-03",
+          "source_api": "itunes",
+          "source_id": "881327340",
+          "title": "Ravel: Boléro, Rapsodie espagnole & Ma mère l'Oye",
+          "creator": "ベルリン・フィルハーモニー管弦楽団 & ピエール・ブーレーズ",
+          "year": 2013,
+          "publisher": "",
+          "meta": {
+            "primaryGenreName": "クラシック",
+            "trackCount": 16,
+            "copyright": "℗ 2013 Deutsche Grammophon GmbH, Berlin"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/56/10/19/56101966-d3a6-749a-6e25-7f9a8bf7fa3e/UMG_cvrart_00028947914839_01_RGB72_1500x1500_13UMGIM02785.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/ravel-bol%C3%A9ro-rapsodie-espagnole-ma-m%C3%A8re-loye/881327340?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-10T16:01:03+00:00"
+          },
+          "researcher_note": "小太鼓が全曲を通して同一リズムのオスティナートを刻み続け、その上で旋律とオーケストレーションだけが変化・増幅していく作品。"
+        },
+        {
+          "cand_id": "music-04",
+          "source_api": "itunes",
+          "source_id": "1540655377",
+          "title": "Pachelbel: Canon - Albinoni: Adagio - Bach, Bonporti, Molter: Works",
+          "creator": "ジャン=フランソワ・パイヤール & パイヤール室内管弦楽団",
+          "year": 1984,
+          "publisher": "",
+          "meta": {
+            "primaryGenreName": "クラシック",
+            "trackCount": 10,
+            "copyright": "A Warner Classics / Erato Disques, ℗ 1984 Warner Music UK Limited. Remastered 2019 Warner Music UK Limited"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/06/e7/0f/06e70f57-3bb4-f0ec-1057-cf2e79c68061/190295064730.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/pachelbel-canon-albinoni-adagio-bach-bonporti-molter/1540655377?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-10T16:01:16+00:00"
+          },
+          "researcher_note": "2小節の低声グラウンドベースが全曲にわたり反復され、その上でカノン声部が積み重なっていく作品。オスティナートの典型例。"
+        },
+        {
+          "cand_id": "music-05",
+          "source_api": "itunes",
+          "source_id": "1107874473",
+          "title": "La Monte Young: The Well-Tuned Piano (Arr. for Guitar) - Single",
+          "creator": "ノエル・アクショテ",
+          "year": 2016,
+          "publisher": "",
+          "meta": {
+            "primaryGenreName": "ミニマリズム",
+            "trackCount": 2,
+            "copyright": "℗ 2016 Noël Akchoté"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music20/v4/af/26/34/af263478-c939-df07-bffc-599d524be136/cover.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/la-monte-young-the-well-tuned-piano-arr-for-guitar-single/1107874473?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-10T16:01:16+00:00"
+          },
+          "researcher_note": "純正律ドローンを核とする原曲(ピアノ独奏、演奏時間数時間規模)のギター編曲盤。原曲者本人の演奏ではない点に留意。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784426124236",
+          "title": "行ってみたい世界の灯台 = Lighthouse in the World",
+          "creator": "",
+          "year": 2018,
+          "publisher": "自由国民社",
+          "meta": {
+            "extent": "127p",
+            "subject": "灯台-写真集"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチ",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028872346",
+              "kind": "catalog"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-10T16:00:54+00:00"
+          },
+          "researcher_note": "世界各地の現役灯台65基を紹介する写真集。船の航路を測るために据えられた不動の建築という発注に合致。"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784991275692",
+          "title": "杉本博司　江之浦測候所",
+          "creator": "杉本博司",
+          "year": 2025,
+          "publisher": "小田原文化財団",
+          "meta": {
+            "extent": "224p",
+            "subject": "江之浦測候所",
+            "description": "現代美術作家・杉本博司が20年以上構想し、2017年に開館した「小田原文化財団 江之浦測候所」の記録集。夏至光遥拝100メートルギャラリー、冬至光遥拝隧道、春分・秋分光遥拝石舞台など、天体の運行を測るための不動の構造物群を収録。"
+          },
+          "image": {
+            "url": "https://cover.openbd.jp/9784991275692.jpg",
+            "source": "openbd"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチ",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034368121",
+              "kind": "catalog"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-10T16:00:54+00:00"
+          },
+          "researcher_note": "施設名に「測候所」を冠する現存建築の記録集。夏至・冬至・春分秋分の光を遥拝する構造上の定点性が明確。"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784000223072",
+          "title": "江之浦奇譚",
+          "creator": "杉本博司",
+          "year": 2020,
+          "publisher": "岩波書店",
+          "meta": {
+            "extent": "281p",
+            "subject": "江之浦測候所"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチ",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030642171",
+              "kind": "catalog"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-10T16:00:54+00:00"
+          },
+          "researcher_note": "江之浦測候所の構想をめぐる著者自身の文章集。arch-02と同一施設を扱うが写真集ではなく随筆。"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784418152148",
+          "title": "ニッポン灯台紀行",
+          "creator": "岡克己",
+          "year": 2015,
+          "publisher": "世界文化社",
+          "meta": {
+            "extent": "175p",
+            "subject": "日本--紀行"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチ",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026254046",
+              "kind": "catalog"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-10T16:00:54+00:00"
+          },
+          "researcher_note": "全国の灯台を巡った紀行文。日本の灯台50選の一部が本書からの抜粋記事として別途配信されている。"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784065387849",
+          "title": "日本灯台物語",
+          "creator": "岡克己",
+          "year": 2025,
+          "publisher": "東京ニュース通信社",
+          "meta": {
+            "extent": "191p",
+            "subject": "灯台--日本"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチ",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033907601",
+              "kind": "catalog"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-10T16:00:54+00:00"
+          },
+          "researcher_note": "日本各地の灯台の歴史をまとめた近刊。ニッポン灯台紀行と同著者による2025年刊。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

@@ -1,0 +1,25 @@
+{
+  "vol": 23,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004384187",
+        "status": 200
+      },
+      {
+        "url": "https://music.apple.com/jp/album/riley-in-c/250225343?uo=4",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034368121",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": []
+}
