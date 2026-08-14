@@ -1,0 +1,265 @@
+{
+  "vol": 24,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJNzPzVIW9GGARvTqmdAYs_hw",
+          "title": "首都圏外郭放水路",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "埼玉県春日部市上金崎720", "primary_type": "政府機関" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjC1iqnTXYPneGxXNpDL5AeXHoIqLqoqHwWA5BVwZobxSFVBreqJO3F991KniyRrQbZqbkmSXWR-Zj_vQYo-PnFgsyIw4XSrDW6AIaQFaz7MAJIXj6fuvrsDqVGgaoMCG4WT3MuMFh_WH61wdA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "心を燃やせ", "uri": "https://maps.google.com/maps/contrib/106526947337785292088" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2089155683384965821&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-14T15:57:09+00:00" },
+          "researcher_note": "「地下放水路」検索でヒット。国道16号地下の巨大調圧水槽を有する治水施設。平時は非公開の内部空間が豪雨時にのみ機能する構造が発注の主題に近い。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJ59w6bX-8GGARxwlPQo6bzOg",
+          "title": "外郭放水路調圧水槽",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "埼玉県春日部市上金崎720", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBwTUbGF1Pw5rmezbmMwePKOGeW-SeiJp3vpSgAWJfL8keX2bwlc7OYjCLONNrKRwbfobVSZMTfNdmihFwaSBVTHT_G_AuMkkni7RusdHwRnAKGIfdr64gLvKwEk3pv9eSGRvfLhQi2k9F-3Q=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Haptic 404", "uri": "https://maps.google.com/maps/contrib/107600383051504796287" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16774953747348392391&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-14T15:57:09+00:00" },
+          "researcher_note": "首都圏外郭放水路本体とは別施設として登録された調圧水槽単体のPlacesエントリ。柱の林立する地下空間が「見学施設」として一般公開されている点は本体と共通。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJic8iFn-8GGARuUMy1iKYkUw",
+          "title": "首都圏外郭放水路 第一立坑",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "埼玉県春日部市西金野井685", "primary_type": "政府機関" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBGXOejG1yAaoExfluzwruiPl0qadG8sYXEDzXHPAurekx4UgYNYj8dD3RGuBbPsK7DM74KaASB6X5vvCXTkus6OEp4pDjvL0V1JYjq73iWuSdQn2eAWkcyDGYWrHT2jxRD0CzxZ92MqHDoHw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "buchi", "uri": "https://maps.google.com/maps/contrib/105503235417178101531" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5517358293895496633&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-14T15:57:09+00:00" },
+          "researcher_note": "放水路の五本の立坑のうち最上流側。地上からは目立たない縦坑一本が、増水した中小河川の水を地下トンネルへ落とし込む起点となる。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJf8jMjgSLGGARZyZFqLzW4jQ",
+          "title": "荏原調節池",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "東京都品川区西五反田3丁目6-6地下", "primary_type": "公園" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA3JimEcW1C5RhXrXStxmmg9YfLBJCyUsMSk_vOxX7FoFlDNOpvzH6TCZbJkjd5uFdN6dv2nZWsliAAQpLW1vYQm13-ZDtC5PPwwD2H_i0DSDfJ-wtVAL0k4ZuxGNaezQrwphd5_kYu31sOLk-0xSsqxA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "tomo piro", "uri": "https://maps.google.com/maps/contrib/113366852973898308582" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3810844340474160743&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-14T15:57:09+00:00" },
+          "researcher_note": "「調整池」検索でヒット。地上はグラウンドとして使われ、地下に目黒川の洪水を一時貯留する調節池が隠れている二重利用の事例。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJAQAw34v5GGARE022FPNn2E8",
+          "title": "恩廻公園調節池",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "神奈川県川崎市麻生区下麻生3丁目1-1", "primary_type": "公園" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCoU_efTZFIigrGgeIM_kOdtA6agfEBlTEBUAaDqwP5o_dMO2CwI1O5NHNUcJenfDjZ9MS0v8oVKHw1v3YuhvqwnT4cJ_UVolpY9q_cj2yS3n6EJ6iQFD-gpUCvlaRsok8OheM_26GiuAQQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Akihito Yoshida", "uri": "https://maps.google.com/maps/contrib/109573600418962204184" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5753462817688014099&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-14T15:57:09+00:00" },
+          "researcher_note": "「調整池」検索でヒット。公園地下に鶴見川水系の水を一時貯める調節池を持つ、地上からは公園としか見えない施設。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJLy7RueA1H2AR8FjVqz7mops",
+          "title": "渡良瀬遊水地",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "栃木県栃木市藤岡町藤岡", "primary_type": "公園" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAyiqr043E5SA6KzygV8Xc9mbxlyL_E24c1M8nj9twIvItrl3o6yyHLOzN6-74lNbX-ahIUCwinL5TkSNExFyXRxFDnis053g9zsSIwKwut5XvRxu4adH2Q-8eiuN09mRu6WkWWeqtkeNsiVtQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "蜜蜂", "uri": "https://maps.google.com/maps/contrib/107292829286143996045" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11214779178951203056&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-14T15:57:09+00:00" },
+          "researcher_note": "「遊水地」検索でヒット。利根川・渡良瀬川水系最大の遊水地で、平時はラムサール条約登録湿地・広大な原野として存在し、増水時にのみ貯水機能を現す。"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJzbmjYuwCAGARHvyi6vtNYUQ",
+          "title": "福知山市治水記念館",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "京都府福知山市下柳39", "primary_type": "博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjD9R_eoHnWf1cWVkzliO_GqGm8PVaKCXXOpvDXNrnVGkPtq04M7GyYvAgMjs9ChG13FloLlUkr6jpwb4iDsnLLrGLgx2KRmGhottses6UhF01rO0ZU40o4IZsT2cS8XZ0lL5XgBYBlBVIlBlA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "あきさん", "uri": "https://maps.google.com/maps/contrib/100214943210620310067" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4927305211688713246&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-14T15:57:09+00:00" },
+          "researcher_note": "「治水記念館」検索でヒット。由良川の水害記録を展示する水防倉庫建築。放水路や調節池のような稼働構造物ではなく記録施設である点で他候補と性格が異なる。"
+        }
+      ]
+    },
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784906846856",
+          "title": "大西民子全歌集",
+          "creator": "大西民子 著,波濤短歌会 編",
+          "year": 2013,
+          "publisher": "現代短歌社",
+          "meta": { "series": "波濤双書", "note": "openBDのTextContent(目次)に歌集単位の収録作として「野分の章」を確認。openBDにcover画像なし" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024838350", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-14T15:56:56+00:00" },
+          "researcher_note": "大西民子の歌集群のうち一冊が「野分の章」と題されている。全歌集のためどの一首を採るかは選定時要判断。個々の歌の本文はメタデータでは未確認。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044065072",
+          "title": "今はじめる人のための俳句歳時記",
+          "creator": "角川学芸出版 編",
+          "year": 2011,
+          "publisher": "角川学芸出版",
+          "meta": { "series": "角川文庫(角川ソフィア文庫)", "edition": "新版", "note": "四季通年版の歳時記。openBDにcover画像なし" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000011302326", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-14T15:56:56+00:00" },
+          "researcher_note": "秋の季語として「秋出水」「野分」を見出しに持つ構成が一般的な歳時記だが、個々の季語解説・例句の本文はメタデータでは未確認。"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784074528028",
+          "title": "いちばんわかりやすい俳句歳時記. 秋冬新年",
+          "creator": "辻桃子, 安部元気 著",
+          "year": 2022,
+          "publisher": "主婦の友社",
+          "meta": { "volume": "秋冬新年", "edition": "新版", "note": "openBDにcover画像なし" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032333681", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-14T15:56:56+00:00" },
+          "researcher_note": "秋の巻を含む歳時記。秋出水・野分は秋の代表的な水害季語として立項される構成が一般的だが、掲載例句の本文はメタデータでは未確認。"
+        },
+        {
+          "cand_id": "poe-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784794226662",
+          "title": "音数で引く俳句歳時記 秋",
+          "creator": "岸本尚毅 監修,西原天気 編",
+          "year": 2023,
+          "publisher": "草思社",
+          "meta": { "volume": "秋", "ndc": "911.307", "note": "openBDにcover画像あり" },
+          "image": { "url": "https://cover.openbd.jp/9784794226662.jpg", "source": "openbd" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032940451", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-14T15:56:56+00:00" },
+          "researcher_note": "秋の季語を音数別に配列した歳時記。過去号(vol.021)のリサーチでも実在確認済みの版元・書誌情報を再確認した。掲載例句の本文はメタデータでは未確認。"
+        },
+        {
+          "cand_id": "poe-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044005009",
+          "title": "角川俳句大歳時記 秋",
+          "creator": "茨木和生,片山由美子,長谷川櫂,宇多喜代子,高野ムツオ,堀切実 編集委員,角川書店 編",
+          "year": 2022,
+          "publisher": "KADOKAWA",
+          "meta": { "volume": "秋", "ndc": "911.307", "note": "openBDにcover画像なし" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032331082", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-14T15:56:56+00:00" },
+          "researcher_note": "俳壇編集委員による大部の総合歳時記の秋巻。秋出水・野分は秋の巻頭級季語として立項される構成が一般的だが、掲載例句の本文はメタデータでは未確認。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "boo-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784582766110",
+          "title": "洪水と治水の河川史 : 水害の制圧から受容へ",
+          "creator": "大熊孝 著",
+          "year": 2007,
+          "publisher": "平凡社",
+          "meta": { "series": "平凡社ライブラリー ; 611", "edition": "増補", "note": "openBDにcover画像なし" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000008570652", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-14T15:56:56+00:00" },
+          "researcher_note": "河川工学者・大熊孝による治水思想史の代表的著作の増補文庫版。水害を制圧の対象から受容の対象へと捉え直す論旨は発注の主題(制御し切れない自然力と設計思想の関係)に直接合致する。"
+        },
+        {
+          "cand_id": "boo-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784582546071",
+          "title": "洪水と治水の河川史 : 水害の制圧から受容へ",
+          "creator": "大熊孝 著",
+          "year": 1988,
+          "publisher": "平凡社",
+          "meta": { "series": "平凡社・自然叢書 ; 7", "note": "boo-01の原著版(増補前)。openBDにcover画像なし" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000001926596", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-14T15:56:56+00:00" },
+          "researcher_note": "boo-01と同一著作の1988年原著版。版の選定(原著か増補文庫版か)は執筆時に要判断。"
+        },
+        {
+          "cand_id": "boo-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784540251344",
+          "title": "新版川がつくった川、人がつくった川 : わたしたちにとって川とは何か",
+          "creator": "大熊孝 著",
+          "year": 2026,
+          "publisher": "農山漁村文化協会",
+          "meta": { "series": "かんがえるタネ", "note": "同著者の別著作。openBDにcover画像なし" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034584720", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-14T15:56:56+00:00" },
+          "researcher_note": "「治水 思想」検索でヒット。同著者による、自然の川と人為的に改変された川の違いを問う近刊新版。設計思想と自然力の関係という主題に沿うが、対象読者は児童・一般向けの平易な体裁。"
+        },
+        {
+          "cand_id": "boo-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784004313878",
+          "title": "川と国土の危機 : 水害と社会",
+          "creator": "高橋裕 著",
+          "year": 2012,
+          "publisher": "岩波書店",
+          "meta": { "series": "岩波新書 新赤版 ; 1387", "note": "openBDにcover画像なし" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I023928963", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-14T15:56:56+00:00" },
+          "researcher_note": "河川工学者・高橋裕による治水と国土政策の関係を論じた新書。同著者は1971年に古典的著作『国土の変貌と水害』(岩波新書)も刊行しているが、そちらはopenBD未収録のため候補から除外した。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

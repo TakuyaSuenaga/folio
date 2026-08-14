@@ -1,0 +1,25 @@
+{
+  "vol": 24,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=2089155683384965821&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024838350",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000008570652",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": []
+}
