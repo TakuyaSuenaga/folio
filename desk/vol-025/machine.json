@@ -1,0 +1,39 @@
+{
+  "genko_match": true,
+  "genko_detail": {
+    "lead": true,
+    "items[0].essay": true,
+    "items[1].essay": true,
+    "items[2].essay": true
+  },
+  "links_ok": true,
+  "links_detail": {
+    "present": {
+      "https://maps.google.com/?cid=17650448258335007788&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true,
+      "https://music.apple.com/jp/album/shoro-nagashi-2016-remaster-single/1678101108?uo=4": true,
+      "https://ndlsearch.ndl.go.jp/books/R100000002-I030775338": true
+    },
+    "unknown_external": [],
+    "unsafe_schemes": [],
+    "event_handlers": [],
+    "meta_refresh": false,
+    "css_external": []
+  },
+  "pr_labels_ok": true,
+  "html_ok": true,
+  "okuzuke_ok": true,
+  "url_status": [
+    {
+      "url": "https://maps.google.com/?cid=17650448258335007788&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "status": 200
+    },
+    {
+      "url": "https://music.apple.com/jp/album/shoro-nagashi-2016-remaster-single/1678101108?uo=4",
+      "status": 200
+    },
+    {
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030775338",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "vol": 25,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=17650448258335007788&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://music.apple.com/jp/album/shoro-nagashi-2016-remaster-single/1678101108?uo=4",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030775338",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[1](精霊流し) essay 冒頭「精霊流しは、長崎で盆の夜に……発表された曲である。」",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "精霊流しは、長崎で盆の夜に故人の霊を舟に乗せて海へ送り出す行事を題材に、一九七四年にグレープ名義で発表された曲である。",
+      "teisei": "『精霊流し』は、長崎で盆の夜に故人の霊を舟に乗せて海へ送り出す行事を題材に、一九七四年にグレープ名義で発表された曲である。(作品=曲そのものを指す初出のみ『』を付す。同段落後半「精霊流しは長崎で毎年営まれる行事であり」は行事名を指すため無印のままでよい。同号items[2]の『みづうみ』冒頭表記と揃える)"
+    }
+  ]
+}

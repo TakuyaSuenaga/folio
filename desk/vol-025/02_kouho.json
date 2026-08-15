@@ -1,0 +1,283 @@
+{
+  "vol": 25,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJ4-ZAhG6MGGAR2cgrR1pws5I",
+          "title": "千鳥ヶ淵戦没者墓苑",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒102-0075 東京都千代田区三番町2", "primary_type": "墓地" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCimRL7iWjbHVyUArhqdbB4VYwgsSPx36n18qyHozBPkvOgx1pjEKZQcAiWnjykMvWc8pHpRrxbRiTMIAz7GrQTNuqfUUOyDeU3e1k0UOteaDBTcxXePWATS-ZHByoFdTUfGPkqyjr7wAq89XNgUQo4NA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "tetsu n", "uri": "https://maps.google.com/maps/contrib/115776438276694189652" } ]
+          },
+          "links": [ { "label": "地図で見る", "url": "https://maps.google.com/?cid=10570916283412105433&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-15T15:19:12+00:00" },
+          "researcher_note": "国が設置した無名戦没者の墓苑。六角堂を中心に慰霊行事が営まれる、送る儀礼の施設。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJt8N-gG6MGGARYP8TTaRWdKs",
+          "title": "千鳥ケ淵戦没者墓苑 六角堂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒102-0075 東京都千代田区三番町2", "primary_type": "墓地" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBlsfSM2bd5IAEf0nD0wsZpZa1PDT2E-aoEya544g-Uk1foaCwjwAx3S3jxMZuLRBkRITXjhHWBPWwlhMUqS4hIJ49e4TRfIT0qU6PPtQ8gWPzz0nttDLAurRBq98TVnQyO18RseTYiCItTXG-S5Eib7A=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ラデシィア", "uri": "https://maps.google.com/maps/contrib/102223934903336691168" } ]
+          },
+          "links": [ { "label": "地図で見る", "url": "https://maps.google.com/?cid=12354594941451894624&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-15T15:19:12+00:00" },
+          "researcher_note": "墓苑中央に建つ納骨施設そのものの登録。建築単体としての候補。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJ1019UG2iWjURf-imzPdOPEk",
+          "title": "広島平和都市記念碑（原爆死没者慰霊碑）",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒730-0811 広島県広島市中区中島町1 平和記念公園", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBnU_7Q-B91iViVWr0RvJ8s7JLoAM3TJBlJMf2fb3Efvh0Xxf1ShSoX3IvU8N7X1lVoLg0rbc251-ecEhHXryCo9R_hGkp1L8SIycBqIhoelEmWTdMJ8mAx7VuiyJjAbxOxfMm0NUcCI133nIbb9EQYtA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Enar Reyes", "uri": "https://maps.google.com/maps/contrib/113319523203313796957" } ]
+          },
+          "links": [ { "label": "地図で見る", "url": "https://maps.google.com/?cid=5277179689568757887&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-15T15:19:12+00:00" },
+          "researcher_note": "平和記念公園内の中心的慰霊碑。丹下健三設計の同公園構成要素。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJgxG_IcuOGGARLGR4xCz98vQ",
+          "title": "東京都慰霊堂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒130-0015 東京都墨田区横網2丁目3-25", "primary_type": "寺院・礼拝所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDmKeDrQC7Fr3EZ7Ab2Q9TgFNIvEATepHuYmwwak6-ldCXHQSbmJ3KJvdXIx6sVgi7EFNohJgD64SYTLKAbOvX1fXOzJTXqQFgbK5wiudGiTu9LPeWhvSmL5VkrXKDRT9SX_h9OuhuxcBlI6DU=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "net k-m", "uri": "https://maps.google.com/maps/contrib/107851301226051413725" } ]
+          },
+          "links": [ { "label": "地図で見る", "url": "https://maps.google.com/?cid=17650448258335007788&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-15T15:19:12+00:00" },
+          "researcher_note": "関東大震災・東京大空襲の身元不明者を祀る慰霊堂。毎年秋に法要が営まれる。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJWYvJ99Vl5TQR_jtpzxjAkoY",
+          "title": "沖縄平和祈念堂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒901-0333 沖縄県糸満市摩文仁448", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDaZrIdPk3tkHWORe5Ucpd09i0b71alVsSMAnEfaqM7tV3oM5Ts3zG5BmYxBs1MwGDhKJ3zusA6w_uaRdL455EwctuQCwvH9LtB60ibPdfzArZoV3mQ8zzEfEqLtIQ8F-IvNJhDXkLCwTgIbg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Takeshi Nagaya", "uri": "https://maps.google.com/maps/contrib/100658914743579084073" } ]
+          },
+          "links": [ { "label": "地図で見る", "url": "https://maps.google.com/?cid=9697024160473627646&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-15T15:19:12+00:00" },
+          "researcher_note": "沖縄戦没者を宗教宗派を問わず祀る祈念堂。平和祈念公園の中核施設。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJaaiFx39m5TQR_3vrJCFiQS8",
+          "title": "平和祈念公園",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒901-0333 沖縄県糸満市摩文仁444", "primary_type": "公園" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAyl1F_L4QaVIFjKqZXO3ZH7Q6DA1HzRwu9jtsKVaydrMmMmX7yVBkvfEUd_4mcCtp-fbMTbdPKYj7QjLeeXJTEheT6lBnvaFvmDTVr0Cx2-Uru0UILjzeCTMXOdkO-12ZZM1e4OG8nhFKj=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Brandon Siow", "uri": "https://maps.google.com/maps/contrib/109953767328845589470" } ]
+          },
+          "links": [ { "label": "地図で見る", "url": "https://maps.google.com/?cid=3405110687761660927&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-15T15:19:12+00:00" },
+          "researcher_note": "沖縄戦没者を祀る「平和の礎」を含む公園全体。個別施設ではなく地区としての候補。"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJx5RK9Sc0-F8RdoyGF6ytKYY",
+          "title": "石川県戦没者墓苑",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒921-8104 石川県金沢市野田町", "primary_type": "墓地" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCUrbyCE8D8CiPNRnGfZ59m_GIC8ilRMjOdamXSwuQCd24GwY8ZpUPfbwPu_uUC7PrVV3RO9NU0sIWi6JmBTwH3h3hhM6u-_8FTPwspO_RzQM0XviP163f7alwiyhGdVkGVguYmFprkeWYQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Elegance", "uri": "https://maps.google.com/maps/contrib/112544050682623270314" } ]
+          },
+          "links": [ { "label": "地図で見る", "url": "https://maps.google.com/?cid=9667449029768154230&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-15T15:19:12+00:00" },
+          "researcher_note": "地方自治体設置の戦没者墓苑。全国型(千鳥ヶ淵)との規模比較の候補として。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1678101108",
+          "title": "精霊流し (Shoro Nagashi) (2016 Remaster) - Single",
+          "creator": "グレープ",
+          "year": 1974,
+          "publisher": "WARNER MUSIC JAPAN INC.",
+          "meta": { "primaryGenreName": "歌謡曲", "trackCount": 2, "collectionPrice": 407.0 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b6/23/ae/b623ae43-19a9-b3d0-43c2-1098e93996c9/5054197624773.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/shoro-nagashi-2016-remaster-single/1678101108?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-15T15:19:31+00:00" },
+          "researcher_note": "1974年発表、さだまさし作の精霊流しを主題とする曲。2016年リマスター版の配信。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1078158930",
+          "title": "五山の送り火 - Single",
+          "creator": "葵かを里",
+          "year": 2016,
+          "publisher": "TOKUMA JAPAN COMMUNICATIONS",
+          "meta": { "primaryGenreName": "演歌", "trackCount": 3, "collectionPrice": 611.0 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/25/1b/e5/251be551-94e6-a0b6-cf83-83d879ee2185/TKCA-90743.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E4%BA%94%E5%B1%B1%E3%81%AE%E9%80%81%E3%82%8A%E7%81%AB-single/1078158930?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-15T15:19:31+00:00" },
+          "researcher_note": "京都五山送り火を題材にした演歌。タイトルが行事名そのもの。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1001024318",
+          "title": "日本の盆踊り集",
+          "creator": "Various Artists",
+          "year": 2015,
+          "publisher": "Nippon Columbia Co., Ltd.",
+          "meta": { "primaryGenreName": "歌謡曲", "trackCount": 18 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/61/bc/e2/61bce20d-afdb-e312-2e4b-76377ca4f23f/COCJ-39157.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E6%97%A5%E6%9C%AC%E3%81%AE%E7%9B%86%E8%B8%8A%E3%82%8A%E9%9B%86/1001024318?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-15T15:19:31+00:00" },
+          "researcher_note": "全国盆踊り音頭を収めたコンピレーション。盆行事の音楽面の候補。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "662869635",
+          "title": "日本の盆踊り",
+          "creator": "Various Artists",
+          "year": 2013,
+          "publisher": "Nippon Columbia Co., Ltd.",
+          "meta": { "primaryGenreName": "歌謡曲", "trackCount": 18 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/91/0d/04/910d0407-39a3-5261-258a-35959aae7898/contsched.eqrstkmb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E6%97%A5%E6%9C%AC%E3%81%AE%E7%9B%86%E8%B8%8A%E3%82%8A/662869635?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-15T15:19:31+00:00" },
+          "researcher_note": "mus-03と同系統の盆踊り音頭集。2013年盤。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1633926752",
+          "title": "Bon Odori Best - Tokyo Ondo / Yagura Ondo",
+          "creator": "Various Artists",
+          "year": 1991,
+          "publisher": "Victor Entertainment",
+          "meta": { "primaryGenreName": "歌謡曲", "trackCount": 17 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ee/d0/be/eed0be97-19e7-bbfb-725c-6e1a8c28b32b/VICG-5141.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/bon-odori-best-tokyo-ondo-yagura-ondo/1633926752?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-15T15:19:31+00:00" },
+          "researcher_note": "東京音頭・やぐら音頭を中心とした盆踊りベスト盤。1991年発表。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1517768657",
+          "title": "盆踊りベスト みんなで踊ろう!",
+          "creator": "Various Artists",
+          "year": 2020,
+          "publisher": "Nippon Columbia Co., Ltd.",
+          "meta": { "primaryGenreName": "日本", "trackCount": 20 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a5/79/49/a579491e-1b61-db1f-c81c-5500146046c3/COKM-42727.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E7%9B%86%E8%B8%8A%E3%82%8A%E3%83%99%E3%82%B9%E3%83%88-%E3%81%BF%E3%82%93%E3%81%AA%E3%81%A7%E8%B8%8A%E3%82%8D%E3%81%86/1517768657?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-15T15:19:31+00:00" },
+          "researcher_note": "2020年発表の盆踊り定番曲集。"
+        }
+      ]
+    },
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784048764575",
+          "title": "季語になった京都千年の歳事",
+          "creator": "井上弘美",
+          "year": 2017,
+          "publisher": "KADOKAWA",
+          "meta": { "extent": "235p", "ndc10": "386.162" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028078674", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-15T15:19:39+00:00" },
+          "researcher_note": "京都の年中行事を季語ごとに解説するエッセイ。五山送り火・灯籠流しを含む歳事記。openBDのcoverが空文字のためimage無し。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784781413204",
+          "title": "みづうみ : 若林杜紀子句集",
+          "creator": "若林杜紀子",
+          "year": 2020,
+          "publisher": "ふらんす堂",
+          "meta": {
+            "extent": "195p",
+            "自選十句に含まれる句": "送り火を焚いてひとりの家に入る"
+          },
+          "image": { "url": "https://cover.openbd.jp/9784781413204.jpg", "source": "openbd" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030775338", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-15T15:19:39+00:00" },
+          "researcher_note": "第一句集。openBD自選十句に「送り火を焚いてひとりの家に入る」の句を確認。"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784752220466",
+          "title": "俳句列島日本すみずみ吟遊",
+          "creator": "黒田杏子",
+          "year": 2005,
+          "publisher": "飯塚書店",
+          "meta": {
+            "extent": "392p",
+            "目次に含まれる章": "こころの風景 - 送り火に寄せて"
+          },
+          "image": { "url": "https://cover.openbd.jp/9784752220466.jpg", "source": "openbd" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000007989753", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-15T15:19:39+00:00" },
+          "researcher_note": "俳句紀行エッセイ集。openBD目次に「送り火に寄せて」の章を確認。連作単位での該当。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "poetry: 送り火・精霊送り・見送りを主題とする歌集・句集から一点",
+      "reason": "NDLサーチで石井伊三郎の歌集『送り火』(角川書店,2013,ISBN 978-4-04-652693-9)と続編『送り火以後』(現代短歌社,2016,ISBN 978-4-86534-171-3)を発見したが、いずれもopenBDに未収録(get結果null)のため鉄則によりimage/書誌の機械照合ができず候補化を見送った。同様に『大文字:第四句集』(阿部佑介,2016,ISBN 978-4-9905427-5-7)もopenBD未収録のため除外。候補は3点に留まる。"
+    }
+  ]
+}
