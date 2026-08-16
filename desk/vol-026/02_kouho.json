@@ -1,0 +1,240 @@
+{
+  "vol": 26,
+  "genres": [
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1642995371",
+          "title": "Revolver (2022 Mix)",
+          "creator": "ビートルズ",
+          "year": 1966,
+          "publisher": "Calderstone Productions Limited",
+          "meta": { "trackCount": 14, "primaryGenreName": "ロック", "note": "収録曲「Tomorrow Never Knows」は逆再生テープループを用いる" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/f4/3a/97f43ab4-9fdf-7a41-e430-7c6c313f3883/13UMGIM63887.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/revolver-2022-mix/1642995371?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-16T15:19:41+00:00" },
+          "researcher_note": "アルバム単位の収録。逆再生要素は収録曲個別の技法であり、アルバム全体の発注ではない点は留意"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1441133181",
+          "title": "Past Masters, Vols. 1 & 2",
+          "creator": "ビートルズ",
+          "year": 1988,
+          "publisher": "Calderstone Productions Limited",
+          "meta": { "trackCount": 34, "primaryGenreName": "ロック", "note": "収録曲「Rain」末尾に逆再生ボーカルを収録。ロック史上最初期のバックマスキング作品として知られる" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/01/69/02/01690216-48fc-1c54-b1de-48170d16b1c3/00602567725268.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/past-masters-vols-1-2/1441133181?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-16T15:19:41+00:00" },
+          "researcher_note": "コンピレーション盤での収録。単曲「Rain」自体は1966年のシングルB面"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1067133757",
+          "title": "The Wall",
+          "creator": "ピンク・フロイド",
+          "year": 1979,
+          "publisher": "Pink Floyd Music Ltd.",
+          "meta": { "trackCount": 27, "primaryGenreName": "ロック", "note": "収録曲「Empty Spaces」に逆再生メッセージを収録" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ba/16/65/ba16652f-115d-82a4-0d54-d437ca8b5866/886445669107.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/the-wall/1067133757?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-16T15:19:41+00:00" },
+          "researcher_note": "アルバム単位の収録"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "207346308",
+          "title": "Stained Class (Bonus Track Version)",
+          "creator": "ジューダス・プリースト",
+          "year": 1978,
+          "publisher": "Sony Music Entertainment (UK) Ltd.",
+          "meta": { "trackCount": 11, "primaryGenreName": "メタル", "note": "収録曲「Better by You, Better than Me」の逆再生メッセージが1990年の民事訴訟の争点となった" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/c3/67/7b/c3677b3a-5588-97a6-cbce-001588713824/dj.xwtprxem.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/stained-class-bonus-track-version/207346308?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-16T15:19:41+00:00" },
+          "researcher_note": "アルバム単位の収録。訴訟自体は判決で棄却された"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1054522350",
+          "title": "Face the Music",
+          "creator": "エレクトリック・ライト・オーケストラ",
+          "year": 1975,
+          "publisher": "Epic Records",
+          "meta": { "trackCount": 8, "primaryGenreName": "ロック", "note": "収録曲「Fire on High」冒頭に逆再生メッセージを収録" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/19/b9/ca19b928-97ab-0244-3c1e-7b4e099740d4/886445593853.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/face-the-music/1054522350?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-16T15:19:41+00:00" },
+          "researcher_note": "アルバム単位の収録"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1746833068",
+          "title": "Purple Rain",
+          "creator": "プリンス&ザ・レヴォリューション",
+          "year": 1984,
+          "publisher": "NPG Records, Inc.",
+          "meta": { "trackCount": 9, "primaryGenreName": "サウンドトラック", "note": "収録曲「Darling Nikki」末尾に逆再生メッセージを収録" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/17/f2/0017f24f-e580-b77a-71a8-1bc7b75881bf/603497822065.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/purple-rain/1746833068?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-16T15:19:41+00:00" },
+          "researcher_note": "アルバム単位の収録"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "250500424",
+          "title": "Even Worse",
+          "creator": "アル・ヤンコビック",
+          "year": 1988,
+          "publisher": "Volcano Entertainment, III, L.L.C.",
+          "meta": { "trackCount": 11, "primaryGenreName": "コメディ", "note": "収録曲「Nature Trail to Hell」末尾に逆再生メッセージを収録(パロディとしての使用)" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/76/08/65/76086567-c0bb-b948-14c4-7b80ec462e2d/614223200729.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/even-worse/250500424?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-16T15:19:41+00:00" },
+          "researcher_note": "アルバム単位の収録。バックマスキング流行そのものへのパロディである点で他候補と性質が異なる"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJUYPuyqv0GGAR2kNibJCzHvU",
+          "title": "大橋ジャンクション",
+          "creator": "首都高速道路株式会社",
+          "year": 2001,
+          "publisher": "",
+          "meta": { "address": "東京都目黒区大橋一丁目5 大橋JCT", "primary_type": "Intersection group", "note": "首都高速3号渋谷線と山手トンネルを接続するループ状ジャンクション。ほぼ一周する螺旋構造で走行方向を反転させる" },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=17662752221468705754&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-16T15:19:52+00:00" },
+          "researcher_note": "Placesに写真データなし。竣工年はメタ情報になく一般に知られる開通年を暫定記載、koetsuでの一次確認要"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJzakNjPToAGARzCwIriDFg28",
+          "title": "海遊館",
+          "creator": "竹中工務店(設計協力)",
+          "year": 1990,
+          "publisher": "",
+          "meta": { "address": "大阪府大阪市港区海岸通一丁目1-10", "primary_type": "水族館", "note": "来館者はエスカレーターで最上階へ上がった後、螺旋状の順路を歩いて下りながら水槽を巡る動線設計" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAxJqIhbdZWhP-s4Ms9kXaM685mK25mjK_fu1UnRQa2UNTgfok83rifMHl7Nr_XNvN6nquK4yZOZIB7cRvdTC03cAln3pRglspXOLmWJyz-t4SUPCR6t1E_2wsSehuEFnhRwDuWFSdA4gDTQg=s4800-w1200", "source": "google-places", "attributions": [ { "name": "Gloria D", "uri": "https://maps.google.com/maps/contrib/108752570503479859942" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=8035482904308493516&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-16T15:19:52+00:00" },
+          "researcher_note": "水族館建築としての動線は「上って下る」一方向だが、通常の階層別展示ではなく螺旋の反転構造という点で発注に合致しうる"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJf8xB-pyOGGARizzhlNTcI7s",
+          "title": "国立西洋美術館",
+          "creator": "ル・コルビュジエ",
+          "year": 1959,
+          "publisher": "",
+          "meta": { "address": "東京都台東区上野公園7-7", "primary_type": "Art museum", "note": "「無限成長美術館」構想に基づく渦巻状の平面計画。中心から外側へ、または外側から中心へと動線が反転しうる構造" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBvT0lPQV1cZAOrX9SUC-UDozOOp2zHjWfcMTwfKFmZSXFiZgnF0Cg0caa78OF3S8yFMuwuHbStSJfKzJ1Z9YcspocHuZRCQNs_UoL1XkiBio98hGHXBwD1n4a2FZzfK6FvZH7xX8lYq1GLblohleTpAA=s4800-w1200", "source": "google-places", "attributions": [ { "name": "Yee WANG (Architecte)", "uri": "https://maps.google.com/maps/contrib/113527247090638141727" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=13484864514866363531&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-16T15:19:52+00:00" },
+          "researcher_note": "実際の増築は渦巻構想どおりには進まなかった経緯があり、発注の「動線の反転」との整合はエディター判断要"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJmZ5emqJYwokRuDz79o0coAQ",
+          "title": "ソロモン・R・グッゲンハイム美術館",
+          "creator": "フランク・ロイド・ライト",
+          "year": 1959,
+          "publisher": "",
+          "meta": { "address": "1071 5th Ave, New York, NY 10128, アメリカ合衆国", "primary_type": "Art museum", "note": "来館者はエレベーターで最上階まで上がり、螺旋スロープを下りながら鑑賞する。建物の上昇感とは逆方向に順路が設計されている" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjD5ypz14vBGwOnFMkIS_y0sn8iCpb8TPGfQUG5fTJLDCEbEdNq2AerE_wNqkkzeLO_LpRwH6ZYCr9LSVIvmqWUV3Usq9gGZ4YlqIIXfoTFIbrHejH4t1VUJDaBuMhC_8iQOfX4I8HnTgDKtEO8=s4800-w1080", "source": "google-places", "attributions": [ { "name": "Jake Adam", "uri": "https://maps.google.com/maps/contrib/102517846212363559716" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=333297768485043384&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-16T15:19:52+00:00" },
+          "researcher_note": "日本国内ではなく米国ニューヨークの建築。発注文に国内限定の指定はないが誌面バランスはエディター判断要"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJAbhT24Az-F8RwWhli9sBKlE",
+          "title": "金沢21世紀美術館",
+          "creator": "妹島和世・西沢立衛(SANAA)",
+          "year": 2004,
+          "publisher": "",
+          "meta": { "address": "石川県金沢市広坂一丁目2-1", "primary_type": "Art museum", "note": "円形平面に複数の出入口を持ち、あらかじめ定められた順路を持たない動線設計。順路の不在によって規則の存在が意識される構成" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAgpW5v53CrFeBHyp_DrnyPbNvXvc27zGzpblpGBSeqx_b-nY_cq_X6DUyMYOI5dqZxJBhqBGMfv0RwYP6RRNPuPt-KtGu9G4coH8qUBcPXZoPBAk2vpni4YWQ4IJOusT2AyAsCTVemZcST=s4800-w1200", "source": "google-places", "attributions": [ { "name": "kan", "uri": "https://maps.google.com/maps/contrib/116652137552222556458" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=5848489108542154945&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-16T15:19:52+00:00" },
+          "researcher_note": "「順路の逆行」ではなく「順路の不在」である点で発注の主眼(規則の破りによる可視化)とはやや性質が異なる"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJg7mFCGCLGGARoVBhjBAe5kQ",
+          "title": "スパイラル",
+          "creator": "槇文彦",
+          "year": 1985,
+          "publisher": "",
+          "meta": { "address": "東京都港区南青山五丁目6-23", "primary_type": "カルチャー センター", "note": "内部を螺旋状のスロープが貫き、通常の階段昇降とは異なる回転しながらの動線を各フロアに提供する" },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=4964688695646048417&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-16T15:19:52+00:00" },
+          "researcher_note": "Placesに写真データなし(取得不可のため image は付与していない)"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784150122898",
+          "title": "逆まわりの世界",
+          "creator": "フィリップ・K・ディック 著、小尾芙佐 訳",
+          "year": 2020,
+          "publisher": "早川書房",
+          "meta": { "series": "ハヤカワ文庫 SF", "edition": "改訳版", "original_title": "COUNTER-CLOCK WORLD", "note": "作中世界で時間が逆行し、死者が墓から蘇生して若返っていく設定のSF小説" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030465762", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-16T15:20:15+00:00" },
+          "researcher_note": "openBDの cover が空文字のため image は付与せず。原著は1967年刊、本候補は2020年改訳版"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784102052112",
+          "title": "予告された殺人の記録",
+          "creator": "G・ガルシア=マルケス 著、野谷文昭 訳",
+          "year": 1997,
+          "publisher": "新潮社",
+          "meta": { "series": "新潮文庫", "original_title": "Crónica de una muerte anunciada", "note": "冒頭で殺人という結末を提示し、事件当日の朝までの経緯を関係者の証言によって遡及的に再構成する構成" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002643990", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-16T15:20:15+00:00" },
+          "researcher_note": "openBDの cover が空文字のため image は付与せず。厳密には「結末先出し+遡及的再構成」であり、時系列そのものを最初から最後まで逆順に語る構成ではない点はエディター判断要"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784163907154",
+          "title": "13・67",
+          "creator": "陳浩基 著、天野健太郎 訳",
+          "year": 2017,
+          "publisher": "文藝春秋",
+          "meta": { "original_title": "13・67", "note": "6篇の連作が2013年から1967年へと香港の歴史を遡る構成で、各篇の因果が前の時代の伏線として明かされる逆年代記形式" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028514692", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-16T15:20:15+00:00" },
+          "researcher_note": "openBDの cover が空文字のため image は付与せず。原著は中国語(繁体字)、本候補は日本語訳"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
