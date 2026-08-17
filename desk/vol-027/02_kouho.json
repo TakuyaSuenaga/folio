@@ -1,0 +1,255 @@
+{
+  "vol": 27,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJrRhU7DUATjURP80ucpS-iUo",
+          "title": "手結港可動橋",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "高知県香南市夜須町手結２９８−１１３", "primary_type": "橋" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAjFBuJGLsuT6bSrpoKjWImsPTivHQSqOoedNraNONmU7MFIvS8Tc0T5y6Ikde2_IcfoF0lG__7Qo1n7xdcQoUx-tfl1MYiB7qlEnua34ZFF4Jxtc9LKajfIkORUD4Dh0mISDf3RPnr7CHAWw=s4800-w1200", "source": "google-places", "attributions": [ { "name": "山本カエル", "uri": "https://maps.google.com/maps/contrib/115307776806952065901" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=5371033575396134207&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-17T15:26:45+00:00" },
+          "researcher_note": "Placesで実在確認(source_id=place_id)。港の入口を跨ぐ手動式可動橋で、通行と船舶航行のため開閉する。可動機構の稼働状況の一次確認は次工程で行う"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJvc7WoXJhGGARqO9zANkEdpM",
+          "title": "羽田可動橋",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都大田区羽田空港１丁目", "primary_type": "橋" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBPD4F5Twyh_0Fqpyqm4HLJ21BImNeesSdMUZwZ-KI4MVn67yHwFVphbnMHxVEQaF2YcQj8wXBBWyRQR1NocYibt3exhD_u-3ZiKGiSEkBmNUFEnycxFoytQNQ7wJsWOCI3uSh6MC_YFPvz0qdbTWZb=s4800-w1200", "source": "google-places", "attributions": [ { "name": "T N", "uri": "https://maps.google.com/maps/contrib/100395731459965013722" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=10625685700889276328&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-17T15:26:45+00:00" },
+          "researcher_note": "Placesで実在確認(source_id=place_id)。羽田空港内で滑走路脇の水路をまたぐ可動橋。可動機構の稼働状況の一次確認は次工程で行う"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJVzOa7xyp918R437-6o1bQwk",
+          "title": "生地中橋（旋回式可動橋）",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "富山県黒部市生地", "primary_type": "橋" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDSOUliwPXSwRdG4NJaLFKrGWVI-Gpp8gj0rR3LKw-WRBT-QykJUgNtKF_UCgbXI8AO71HwguVvBsWvNKBfLOG0jWVtZBWUdrUrZUtAvCR2fjhVMiLvqii24ktj9zC9T6aSAbX8jLL0VtYZUw=s4800-w1200", "source": "google-places", "attributions": [ { "name": "Kzhr Wks", "uri": "https://maps.google.com/maps/contrib/112094285687265871281" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=667477834872028899&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-17T15:26:45+00:00" },
+          "researcher_note": "Placesで実在確認(source_id=place_id)。名称に「旋回式可動橋」を含み、水平回転して漁船の通行路を開く構造。可動機構の稼働状況の一次確認は次工程で行う"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJ7zmyIQDpAGARSWNXEj1qdz0",
+          "title": "跳ね橋",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "大阪府大阪市此花区桜島２丁目１−３３", "primary_type": "橋" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCICeUB48EWS4OV_7UZG-U0FEJVOWlm65LeDJZfWVkWFrQ57eVdrsQhcBBaJMPTzIVtX-7w5Ggm5iB1M9ktLzrymeMD6scixkWYWvadxb270hkHrziY_tAEQmQWUm468ohh0DEcJsy36lQ8KF7uj7wDGQ=s4800-w1200", "source": "google-places", "attributions": [ { "name": "Adi", "uri": "https://maps.google.com/maps/contrib/107981269816242318896" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=4429125569075438409&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-17T15:26:45+00:00" },
+          "researcher_note": "Placesで実在確認(source_id=place_id)。名称そのものが跳ね橋(バスキュール橋)。可動機構の稼働状況の一次確認は次工程で行う"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJye8g5jGR_18RxxMUqRbEa0w",
+          "title": "廻旋橋",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "京都府宮津市文珠４７", "primary_type": "橋" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjC5kaZU706NUa6zGovZeXNCmXI81zpovkEGIdo3QsZk3O-apbfYu-n3-LYh9tAaRJbw_SzjBgNWL0WE635FEgtzIJ00zVV5Yv_rQbn61TpUGCVHJMv4gWMgSyE5YXcg3tkv4FnotbiFCrNF=s4800-w1200", "source": "google-places", "attributions": [ { "name": "あさとも", "uri": "https://maps.google.com/maps/contrib/110903345418255880499" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=5506710570995553223&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-17T15:26:45+00:00" },
+          "researcher_note": "Placesで実在確認(source_id=place_id)。天橋立の運河にかかる旋回式可動橋として知られる。可動機構の稼働状況の一次確認は次工程で行う"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJ5zOC7K2JGGARr0GGHO4bZHE",
+          "title": "勝鬨橋",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都中央区築地６丁目１９", "primary_type": "橋" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDdYDT0qSZ9K2iqEAa2McRvMjEhFUiMwumBg4ZB0UZVkyLQCLKwhdTW0neQh9KZd2IoA2Hu5fOVs7aFeqBPWdHlOikptjAqyqnMVckyZ-O9BqOhcrYXyqbXBom0jxlCuk_DEKGObndcze33zJg=s4800-w1200", "source": "google-places", "attributions": [ { "name": "Anya Odekeke", "uri": "https://maps.google.com/maps/contrib/105757157814853056225" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=8170686333451649455&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-17T15:26:45+00:00" },
+          "researcher_note": "Placesで実在確認(source_id=place_id)。跳開橋として建設された歴史的構造物。現在の可動状況(稼働停止/保存)の一次確認は次工程で行う"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJ45DjAp55A2ARpe_0131-pvg",
+          "title": "名古屋港跳上橋",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "愛知県名古屋市港区入船１丁目５", "primary_type": "" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDD3ORL06uPyc1MXxSeD6zK114VnjLvqd7kvYYNJ9aJPy4cWpSrr53jiN0tiwIAyF5DpROjfHGrThfjMZAuFcmCHy9zac1WMk0Vx7XrKKmLbCWhz_WUXHVgPd08b8arzzYozoIBaGHble8W=s4800-w1200", "source": "google-places", "attributions": [ { "name": "蒔田英彦", "uri": "https://maps.google.com/maps/contrib/104255563391030975915" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=17917147246499262373&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-17T15:26:45+00:00" },
+          "researcher_note": "Placesで実在確認(source_id=place_id)。名称に「跳上橋」を含む昇開式の可動橋。現在の可動状況(稼働停止/保存)の一次確認は次工程で行う"
+        },
+        {
+          "cand_id": "arc-08",
+          "source_api": "google_places",
+          "source_id": "ChIJRfXUYeS1QTURVaqOjYtQn3o",
+          "title": "筑後川昇開橋",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "佐賀県佐賀市諸富町大字為重地先", "primary_type": "橋" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCWQn19AL9TKUxuL0iQy_Yazcqk1V_jOs4dJ6EnywyFOfjzCZJWpdjJ8c5WI9LFRJ_-QDQ3iJRrVQMSK4GSKSSzlMMbAK1rAiC6lCKulq3ALKMLSGcoP1FfypZodCHO7f3f8kGwqvL6d6ij=s4800-w1200", "source": "google-places", "attributions": [ { "name": "OROKA", "uri": "https://maps.google.com/maps/contrib/118186712222414388837" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=8835869554229815893&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-17T15:26:45+00:00" },
+          "researcher_note": "Placesで実在確認(source_id=place_id)。名称に「昇開橋」を含む可動鉄橋として知られる旧橋。現在の可動状況(稼働/保存)の一次確認は次工程で行う"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "406490689",
+          "title": "4'33''",
+          "creator": "ジョン・ケージ",
+          "year": 2002,
+          "publisher": "The Sound Corporation",
+          "meta": { "trackCount": 1, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/25/fc/0f/mzi.gvgtcbda.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/433/406490689?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-17T15:26:32+00:00" },
+          "researcher_note": "全楽章が演奏者の沈黙のみで構成される楽曲として知られ、発注の「意図的な沈黙」に最も直接的に対応する検索結果。休符/沈黙の構成詳細の一次確認は次工程で行う"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1440743071",
+          "title": "Beethoven: Symphony No. 9",
+          "creator": "ベルリン・フィルハーモニー管弦楽団 & ヘルベルト・フォン・カラヤン",
+          "year": 1984,
+          "publisher": "Deutsche Grammophon GmbH, Berlin",
+          "meta": { "trackCount": 5, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/ce/c6/9e/cec69efe-daa4-b308-905d-ec43844202e4/00028943900621.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/beethoven-symphony-no-9/1440743071?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-17T15:26:32+00:00" },
+          "researcher_note": "楽章中にゲネラルパウゼ(全奏休止)を含むことで知られる楽曲としての検索結果。休止箇所の一次確認は次工程で行う"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1710639322",
+          "title": "Sibelius: Symphony No. 5",
+          "creator": "エサ=ペッカ・サロネン & サンフランシスコ交響楽団",
+          "year": 2023,
+          "publisher": "San Francisco Symphony",
+          "meta": { "trackCount": 3, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3d/7e/e7/3d7ee767-4a86-24be-0ce6-1d2ae3893c67/821936010624.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/sibelius-symphony-no-5/1710639322?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-17T15:26:32+00:00" },
+          "researcher_note": "終楽章末尾が沈黙を挟んだ分離和音で構成されることで知られる楽曲としての検索結果。休止箇所の一次確認は次工程で行う"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1595976446",
+          "title": "Haydn: Symphony No. 45 'Farewell'; Symphony No. 101 'The Clock' (Sir Neville Marriner – Haydn: Symphonies, Volume 6)",
+          "creator": "アカデミー室内管弦楽団 & サー・ネヴィル・マリナー",
+          "year": 1979,
+          "publisher": "Universal International Music B.V.",
+          "meta": { "trackCount": 8, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/82/7a/2c/827a2c60-4ea8-cce5-f222-b78936532f41/21UM1IM26319.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/haydn-symphony-no-45-farewell-symphony-no-101-the/1595976446?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-17T15:26:32+00:00" },
+          "researcher_note": "終楽章で奏者が一人ずつ退場していく演出で知られる交響曲。演奏の中断というより退場による漸減であり、発注の「沈黙の書き込み」との一致度はエディター判断要"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1710429898",
+          "title": "Bruckner: Symphony No. 8 in C Minor, WAB 108 (Ed. R. Haas) [Live]",
+          "creator": "ベルナルト・ハイティンク & バイエルン放送交響楽団",
+          "year": 2023,
+          "publisher": "Brmedia Service GmbH",
+          "meta": { "trackCount": 6, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/35/d9/a5/35d9a5b9-dc56-7655-4d1d-41cd05298baa/4035719008531.png/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/bruckner-symphony-no-8/1710429898?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-17T15:26:32+00:00" },
+          "researcher_note": "楽章中にゲネラルパウゼ(全奏休止)を多用することで知られる楽曲としての検索結果。休止箇所の一次確認は次工程で行う"
+        }
+      ]
+    },
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poet-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784007610035",
+          "title": "芭蕉 おくのほそ道 : 付 曾良旅日記 奥細道菅菰抄",
+          "creator": "松尾芭蕉 著、萩原恭男 校注",
+          "year": 2025,
+          "publisher": "岩波書店",
+          "meta": { "series": "大活字版岩波文庫 ； 黄206-2" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034314216", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-17T15:26:25+00:00" },
+          "researcher_note": "openBDの cover が空文字のため image は付与せず。松尾芭蕉の紀行俳文集。切れ字を用いた句の特定はエディター選定時に行う"
+        },
+        {
+          "cand_id": "poet-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003022344",
+          "title": "父の終焉日記・おらが春 : 他一篇",
+          "creator": "小林一茶 著、矢羽勝幸 校注",
+          "year": 1992,
+          "publisher": "岩波書店",
+          "meta": { "series": "岩波文庫" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002162361", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-17T15:26:25+00:00" },
+          "researcher_note": "openBDの cover が空文字のため image は付与せず。小林一茶の俳文集『おらが春』を収録。切れ字を用いた句の特定はエディター選定時に行う"
+        },
+        {
+          "cand_id": "poet-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003021019",
+          "title": "蕪村俳句集 : 付春風馬堤曲他二篇",
+          "creator": "与謝(谷口)蕪村 著、尾形仂 校注",
+          "year": 1989,
+          "publisher": "岩波書店",
+          "meta": { "series": "岩波文庫" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000001976013", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-17T15:26:25+00:00" },
+          "researcher_note": "openBDの cover が空文字のため image は付与せず。与謝蕪村の句集。切れ字を用いた句の特定はエディター選定時に行う"
+        },
+        {
+          "cand_id": "poet-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003101315",
+          "title": "子規句集",
+          "creator": "正岡子規 著、高浜虚子 選",
+          "year": 1993,
+          "publisher": "岩波書店",
+          "meta": { "series": "岩波文庫" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002258083", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-17T15:26:25+00:00" },
+          "researcher_note": "openBDの cover が空文字のため image は付与せず。正岡子規の句を高浜虚子が選んだ句集。切れ字を用いた句の特定はエディター選定時に行う"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
