@@ -1,0 +1,46 @@
+{
+  "vol": 28,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://maps.google.com/?cid=17296468231710968999&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true,
+        "https://maps.google.com/?cid=7524611293723795643&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=17296468231710968999&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://maps.google.com/?cid=7524611293723795643&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "cover .lead-v(リード)、および og:description メタタグ(リードから自動生成・同一問題を継承)",
+      "severity": "blocking",
+      "type": "校閲指摘未反映(事実齟齬)",
+      "genzai": "「替え玉」と聞いてまず浮かぶのはラーメン屋の一声だが、同じ身振りは、影武者を演じる俳優にも、二十年ごとに社殿を丸ごと新しくする伊勢の神宮にもある。去った本人ではなく、同じ形と機能だけを次の器へ引き継がせる技術——それを、建築・映画・食の三つの現場から読む特集である。",
+      "teisei": "04_koetsu.json K-01(blocking)で既に指摘済みだが未反映。『影武者を演じる俳優にも』を削除し、末尾を実際の二ジャンル構成に合わせて『それを、建築・食の二つの現場から読む特集である。』とする。修正は01_kikaku.jsonのlead_draftに対して行い、05_goudata.json・gera.html(lead本文・og:descriptionとも)へ再展開する必要がある(03_genko.jsonのrevision_noteが同旨を編集長へ申し送り済みだが、01_kikaku.json未更新のままハイブリッド・組版工程が進行していた)。"
+    }
+  ]
+}

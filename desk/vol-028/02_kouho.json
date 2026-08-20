@@ -1,0 +1,446 @@
+{
+  "vol": 28,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJ8zef3-tQBGARpwz2UzdmCfA",
+          "title": "伊勢神宮",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒516-0023 三重県伊勢市宇治館町１",
+            "primary_type": "神社"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjABwdLUmidQwkNycA0q2fL02aK-FvB24A7g8iXvxkAursme7PTyBJy6yBBT-MePQUUs8XqFjJZnY2PKq5r0l5zyXM08CIxCAs5_7FCySuQeRH1gYvXO19cPvudVpKTz67n6THo4o8ZsBoz22wCFz1Do=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "平田厚子", "uri": "https://maps.google.com/maps/contrib/115669470195579039306" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17296468231710968999&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-20T15:29:47+00:00" },
+          "researcher_note": "発注が例示する『二十年ごとに社殿を建て替える式年遷宮』の代表例そのものとして検索した"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJPRlWKpRcVzUR74S6_K5qanA",
+          "title": "出雲大社",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒699-0701 島根県出雲市大社町杵築東１９５",
+            "primary_type": "神社"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBm74a3wwUDYJnjZLzcSXEqdzaLYO1WXqBcs2X3HkcKN8erG2Y4_iTX-LxF3hf1kcJts6HwFCJ663B22BrufL6yCCUIyyCe9AB21L_6BZ6qcfIZ7vLZ3-sAZwkj6xCbBDuujmOOmdlgtflg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "rara “ラクシュミー” shi", "uri": "https://maps.google.com/maps/contrib/110054192221778726981" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8100404179576194287&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-20T15:29:47+00:00" },
+          "researcher_note": "遷宮の伝統を持つ神社として検索。周期・様式は伊勢と異なるとされ、発注との一致は要確認"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJAQB8xrvnAGARgh8ATf4d9ac",
+          "title": "住吉大社",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒558-0045 大阪府大阪市住吉区住吉２丁目９−８９",
+            "primary_type": "神社"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBIVKU_1IiFmJNcok_qbOYup5JZ-YudvGVwPB2pmqruXvc2WAr76aJIN10fVYqlFnTkbfQAzcLu4fGs1ccL-ITLnbYxl6_7bPGNxuJkkqOIqlMd5zQfx4-uPgWIPefMUwIVXqBOv7kwVkHOVd8=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "佳央大北", "uri": "https://maps.google.com/maps/contrib/117574381295602335893" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12102612551678828418&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-20T15:29:53+00:00" },
+          "researcher_note": "式年遷宮の伝統を持つとされる神社の一つとして検索。詳細な周期は要確認"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJkybpsTD4ImARbyF-YAIrxC8",
+          "title": "香取神宮",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒287-0017 千葉県香取市香取１６９７",
+            "primary_type": "神社"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBqbGR13NRcWoSIw0EczNtK2X57nR-r0ikmIJm13sQI-um1XF5BdKNoeX5QNd1oYL4jmsUDmYxXeGJFZ9JVKN3eM_svI0vnCBLre81ymgUMIkyMITd5jnq6ut8b_jv8tUuk_ztXzd796uj3Eho=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "サトル", "uri": "https://maps.google.com/maps/contrib/115305867578219734832" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3441923304426709359&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-20T15:29:53+00:00" },
+          "researcher_note": "式年造替(社殿建て替え)の伝統を持つとされる神社として検索。周期は伊勢と異なる"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJzy5rbJlVImAReHFf31xaYIU",
+          "title": "鹿島神宮",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒314-0031 茨城県鹿嶋市宮中２３０６−１",
+            "primary_type": "神社"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAO5ppt1jxNbL_LhUorLGG5ZdM_v_U9TiFn9JKckD3wvf3SN6f6aqp1sS4jwsDsgVbnyrqrX196Rj61ytS5C9XIUL37AzfcCxI64myCmlU1iD_vxdlgL9LJeygVcZyC2BnZKboNk1CsNliv=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "鹿島神宮", "uri": "https://maps.google.com/maps/contrib/113985391454707175797" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9610780959739703672&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-20T15:29:53+00:00" },
+          "researcher_note": "香取神宮と対で式年造替の伝統を持つとされる神社として検索"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJceHc0AmoAWARLsqeCrglA1o",
+          "title": "上賀茂神社",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒603-8047 京都府京都市北区上賀茂本山３３９",
+            "primary_type": "神社"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAW3npbv1KnTTfLqpe5H-ny5uU5eP9q3sx1zkER2bWCFroSTOV2z264P14tjv97R-oSOSH2O2CMCTq9aFeMcDi4Z5WQTteAi2h0CdYWiVi882z16gLuMMN9dB4nT5LX5YXU9gbsYyKq5O617g=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Osuka Hisao", "uri": "https://maps.google.com/maps/contrib/116837822971371315275" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6486069360726034990&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-20T15:29:53+00:00" },
+          "researcher_note": "式年遷宮(式年造替)の伝統を持つとされる神社の一つとして検索"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJD5HXelhWHGARbAPbHvSJgRg",
+          "title": "諏訪大社・上社本宮",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒392-0015 長野県諏訪市中洲宮山１",
+            "primary_type": "神社"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDDqgyGcT3LtHkk0Zw31T2zWxJZ8kVQrXpTRXtw_B9QjoiF329PbF5SmtYNWXElBT5LBWJ0EOSY4osmT_wI1UPLtgIb6qnMbuAKgU_g3sSEAoRoV162Sv4yUOE0dHvmIb594my5KKQ5Vztp9A=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Joanma Garcia", "uri": "https://maps.google.com/maps/contrib/116259620570291253573" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1765844210488640364&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-20T15:29:53+00:00" },
+          "researcher_note": "御柱祭で社殿四隅の柱を周期的に建て替える神社。社殿そのものの建て替えではない点で発注の趣旨とはやや異なる"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJSc8jdZORQTURu6BMwxrKbGg",
+          "title": "一蘭 本社総本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒810-0801 福岡県福岡市博多区中洲５丁目３−２",
+            "primary_type": "ラーメン屋"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCMxNBeqVed1hisixd7H2LADJjt_LDNXJGTUDhNJe6dIUiaZx7da9jbB2aZZ4clLXNtPlyLevG-6KE8-l8qE1u7f5CIlTlEYcODUYBqpabgs8cNW6Sch92JFCAs0fRvek5888xeng2yRS0agKMPs8ug=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Herman Kwok", "uri": "https://maps.google.com/maps/contrib/100569228346622857141" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=7524611293723795643&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-20T15:30:18+00:00" },
+          "researcher_note": "替え玉を提供する博多とんこつラーメンの代表的チェーンの総本店"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJUR_XzPiRQTURld2g_9CGqto",
+          "title": "博多一幸舎 総本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒812-0011 福岡県福岡市博多区博多駅前３丁目２３−１２",
+            "primary_type": "ラーメン屋"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAheWFqK3uykbYAT4dP-7x5zp9w1r9FokdixxfT8djEG_sdmyjh9HmtHH5bBAX3Z1pFsbfI3r48aTTjCjABEGaVl545Q1XOF069mlPx6BKX8RijIN9SH-0bWH1mIvuX4thoQA74WgEjxvFSsBE=s4800-w933",
+            "source": "google-places",
+            "attributions": [
+              { "name": "博多一幸舎 総本店", "uri": "https://maps.google.com/maps/contrib/106809863820412179175" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15756554478509153685&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-20T15:30:18+00:00" },
+          "researcher_note": "替え玉ラーメン検索で複数回上位に出た博多駅前の総本店"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJAQDdFLaRQTURIXKdwYPcIdA",
+          "title": "博多一双 博多駅東本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒812-0013 福岡県福岡市博多区博多駅東３丁目１−６",
+            "primary_type": "ラーメン屋"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDwtdT-4uM9v3EQgc33rDAm2JbNek8Q48DpYYp529-dBfUwHpj8ihlS_PkMlzADvOb8s-zyBUGtA1CgU7KNuwfYbSyBMePL4uL7VSDjm_TSrmbEknSJFTiheJyFefXH-VpsIaLTCABoM6fWRDc=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "博多一双 博多駅東本店", "uri": "https://maps.google.com/maps/contrib/112562852419040202269" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14997510692567609889&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-20T15:30:18+00:00" },
+          "researcher_note": "博多駅東の本店。替え玉提供のとんこつラーメン店"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJs3ZC6MSRQTURl4lm8rWW4rA",
+          "title": "博多ラーメンはかたや 堅粕店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒812-0043 福岡県福岡市博多区堅粕１丁目２１−１７",
+            "primary_type": "ラーメン屋"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCUG2YTf44dxrR-uami0eoJBsnf-dLrdL2lxGn-l5o5egU8k_Q8sVxOFgF0T4qJKD_Cf4ufdB8MbNPAfOS7QrGuB_TTaDmdBm_8onydXEcJGhg6BreV1JpcJw7w3-G_y5R4NxXwjkjDOLOiwEGEM0aByg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "ラッシャー", "uri": "https://maps.google.com/maps/contrib/116346504173555160696" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12745915603611978135&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-20T15:30:18+00:00" },
+          "researcher_note": "堅粕の店舗。替え玉提供の博多ラーメン店"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJaVDnv46RQTURWuJE01tjUGk",
+          "title": "博多らーめんShinShin 天神本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒810-0001 福岡県福岡市中央区天神３丁目２−１９",
+            "primary_type": "ラーメン屋"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDnJ5pa_gEwCrO_i0mmP-kLAFJQKAHQVG-7q2camRFmKnS4sKE5zpH-F_ySku7jytctCaMKJsuj8wKm8mggyLUzo9aKNrEYkUEItnyrVa3ziPtozB64TpTkd4CvADXEl_atPWGbXAYlbVTThEd2KRmFIQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "John Chen", "uri": "https://maps.google.com/maps/contrib/106115367668020630913" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=7588674618156966490&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-20T15:30:18+00:00" },
+          "researcher_note": "天神の本店。替え玉提供のとんこつラーメンチェーン"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJN_PdyG-RQTURcWCeNkPHHzE",
+          "title": "幸ちゃんラーメン博多本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒812-0011 福岡県福岡市博多区博多駅前３丁目１３−１５ リアン博多駅前ビル 1階",
+            "primary_type": "ラーメン屋"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA0tmf-QRBS0qf31RZs_IGKunN3-2WiOJE0f7UCaKl1JZFzzwTUgN2HxJJsxVBDqb3nJXTmb25PIN1eruB-wkTXcGpXqjDDkC5QHF8eTu-B4hOMf0tJJ1iRElehFmFy5F3AhXMZ9sXpB2VtxO_H3qbp-g=s4800-w1069",
+            "source": "google-places",
+            "attributions": [
+              { "name": "幸ちゃんラーメン博多本店", "uri": "https://maps.google.com/maps/contrib/101020553947972393988" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3539766923629584497&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-20T15:30:39+00:00" },
+          "researcher_note": "博多駅前の本店。替え玉提供の博多ラーメン店"
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJPZ7-DZWRQTURhKPPLGHEQuI",
+          "title": "中洲らーめん 恭や 博多本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒810-0801 福岡県福岡市博多区中洲２丁目１−１１ 1F",
+            "primary_type": "ラーメン屋"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjD1oJVmZ_UgWAsMM-ZUSHN2CS2vQn4T__LyNv_QPHLUMTOZjnN2NWMjRaByYGUFpaGH3JxConB6ynR2U6_LPe6zp3WOjTOhjkPXzdSIxWP20lzfsu8Aazy2VkC5ohM0HHD-R2-pVPF9Y2mtpZ7QL7-i=s4800-w864",
+            "source": "google-places",
+            "attributions": [
+              { "name": "中洲らーめん 恭や 総本店", "uri": "https://maps.google.com/maps/contrib/114267133761794879898" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16303809522677293956&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-20T15:30:39+00:00" },
+          "researcher_note": "中洲の博多本店。替え玉提供のとんこつラーメン店"
+        },
+        {
+          "cand_id": "res-08",
+          "source_api": "google_places",
+          "source_id": "ChIJT1GktayRQTURJq33D-qwVFU",
+          "title": "豚骨ラーメン いちむじん 榎田本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒812-0004 福岡県福岡市博多区榎田２丁目３−１",
+            "primary_type": "ラーメン屋"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDy4EJ2mciwWJ8X6n8fmMF2lwIn_o3typPEd4qzsmtCJu8cZFGKzdndnO1E5JQIc_gT9kv40lrIAqB3xpoadDDbdm4vM7jQffBDsmwJnon9V4eyj2-wnR7zo3PFtYVdPihkfEBmhedtndGFfBwmObRAww=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "知4", "uri": "https://maps.google.com/maps/contrib/107484980944694186453" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6148733910604295462&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-20T15:30:39+00:00" },
+          "researcher_note": "榎田の本店。替え玉提供の豚骨ラーメン店"
+        },
+        {
+          "cand_id": "res-09",
+          "source_api": "google_places",
+          "source_id": "ChIJLfIi_IWRQTURK0Gp6iTVrss",
+          "title": "元祖 赤のれん 節ちゃんラーメン 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒810-0041 福岡県福岡市中央区大名２丁目６−４ プラスゲート天神 1Ｆ",
+            "primary_type": "ラーメン屋"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjB1SvDtQlEbG6W4L1oN6gQFCDnaAlwQjfvS7nb73_2f7vfaChCxaggSvGF7RmnEAKDVDSfUgQmoW_oo4zLrcqp6F1s0C6lDdPHhZ0TFUSX9k0lAfwVVxZp-N2Qdb1ARkDBsLqDXinWECK0rixa4wDsEhg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "豊玉タクシー（練馬ジモピー局）", "uri": "https://maps.google.com/maps/contrib/101697810458414370260" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14676902590179524907&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-20T15:30:39+00:00" },
+          "researcher_note": "天神大名の本店。替え玉提供のとんこつラーメン店"
+        },
+        {
+          "cand_id": "res-10",
+          "source_api": "google_places",
+          "source_id": "ChIJ7S15lB2MGGARJsvAOWGAFfQ",
+          "title": "とんこつラーメン 博多風龍 秋葉原2号店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒101-0021 東京都千代田区外神田４丁目３−１１",
+            "primary_type": "ラーメン屋"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBPT1OD1v3THxgRZuMUij8lCML_BWDXs-Ho9xxWgLqk9nFzk4_9pqpBk26m9b-E-0woc38EUpldwQdkQ1weaO-7qbRi5gs6a-JSKPr4QPDSCbXTVTjqMK5pWPOdLyyHaMKY1MQQ0HKNfGaLIuQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "とんこつラーメン 博多風龍 秋葉原2号店", "uri": "https://maps.google.com/maps/contrib/103330831956767491725" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17588105074834459430&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-20T15:30:39+00:00" },
+          "researcher_note": "福岡以外(東京)の替え玉提供とんこつラーメン店。福岡勢との対比候補"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "film: 『影武者』のように、本人に代わって同じ姿・役割を担う替え玉を主題にした映画から一点。本人不在のまま機能を代行する身体の物語を選ぶこと。",
+      "reason": "API障害。iTunes Search API(media=movie)が、country/entity/クエリ語を変えても常にresultCount:0を返す(「影武者」「kagemusha」に加え、「matrix」「inception」等の一般的な作品名でも0件を確認)。同一クエリからmediaパラメータを外すと(audiobook/podcast等)結果が返るため、movieエンティティのみが機能していないと判断した。"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "vol": 28,
+  "hantei": "責了",
+  "lead_final": "「替え玉」と聞いてまず浮かぶのはラーメン屋の一声だが、同じ身振りは、二十年ごとに社殿を丸ごと新しくする伊勢の神宮にもある。去った本人ではなく、同じ形と機能だけを次の器へ引き継がせる技術——それを、建築・食の二つの現場から読む特集である。",
+  "sekiryo_shiji": [
+    {
+      "ref": "P-01 / K-01",
+      "shiji": "cover .lead-v(リード本文)およびog:descriptionメタタグを、上記lead_finalの文面に差し替える。『影武者を演じる俳優にも、』を削除し、末尾『建築・映画・食の三つの現場から読む特集である』を『建築・食の二つの現場から読む特集である』に修正する。反映元は01_kikaku.jsonのlead_draftであるため、まず01_kikaku.jsonのlead_draftをlead_finalの文面に更新したうえで、03_genko.json(issue.lead)・05_goudata.json・gera.html(lead-v本文・og:description双方)へ再展開すること。HTML・DATA欄自体への直接編集は行わず、決定論スクリプトの再生成で反映する。"
+    }
+  ],
+  "daicho_line": "vol.028 | 2026-08-21 | 替え玉 | architecture,restaurant | filmはiTunes Search APIの障害で候補ゼロとなり、伊勢神宮の式年遷宮と一蘭の替え玉という建築・飲食二点で『実体を更新しても同一性は保たれる』という主題を対比構成で読む号",
+  "moushiokuri": "うまくいったこと: filmが候補ゼロで欠落した際も、architecture(伊勢神宮)とrestaurant(一蘭)の二点だけでthesisが破綻せず、むしろ『器を作り替えて中身を保つ』と『器を保って中身を作り替える』という対称的な補助線が誌面として機能した。校閲のK-02(古材の転用先での用途断定)は執筆側で適切に是正済み。敗因/調整案: iTunes Search API(movie)がクエリを問わずresultCount:0を返す障害が発生し、filmジャンルの候補取得が丸ごと失敗した。リサーチ工程で早めに障害を検知し、可能であれば代替クエリや再試行を試す運用を検討したい。また、01_kikaku.jsonのlead_draftがfilm脱落後も三ジャンル前提の文面のまま03〜06工程を通過し、校閲(K-01)・校正(P-01)の双方でblockingとして指摘されるまで放置された。genko生成(3b)の段階で、確定itemsのジャンル数とlead_draftのジャンル言及数を機械的に突合するチェックを追加できないか、次工程への申し送りとしたい。",
+  "riyu": "essay本文・実在チェーン(cand_id arc-01/res-01)・リンク生存・表記規定はすべて問題なし。唯一のblocking指摘(K-01/P-01)はissue.lead(および連動するog:description)のみに起因する軽微な不整合——本文に存在しないfilm言及と三ジャンル表記——であり、デザインやessay自体の修正を要さない。lead_finalの確定により責了とする。"
+}
