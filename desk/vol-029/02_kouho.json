@@ -1,0 +1,276 @@
+{
+  "vol": 29,
+  "genres": [
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784163906188",
+          "title": "コンビニ人間",
+          "creator": "村田沙耶香",
+          "year": 2016,
+          "publisher": "文藝春秋",
+          "meta": { "pubdate": "201607" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027486285", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-21T15:38:25+00:00" },
+          "researcher_note": "NDLに『第百五十五回芥川賞受賞作 コンビニ人間』の書誌記録があり、受賞をAPI上で確認できた。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784344030039",
+          "title": "蜜蜂と遠雷",
+          "creator": "恩田陸",
+          "year": 2016,
+          "publisher": "幻冬舎",
+          "meta": { "pubdate": "201609" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027594815", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-21T15:38:25+00:00" },
+          "researcher_note": "直木賞受賞は編集部の一般知識に基づき検索語として採用。NDL/openBDは書誌の実在のみ確認、受賞そのものはAPI上で未確認。"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784087717310",
+          "title": "塞王の楯",
+          "creator": "今村翔吾",
+          "year": 2021,
+          "publisher": "集英社",
+          "meta": { "pubdate": "202110" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031733979", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-21T15:38:25+00:00" },
+          "researcher_note": "直木賞受賞は編集部の一般知識に基づき検索語として採用。NDL/openBDは書誌の実在のみ確認、受賞そのものはAPI上で未確認。"
+        },
+        {
+          "cand_id": "book-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784103555117",
+          "title": "東京都同情塔",
+          "creator": "九段理江",
+          "year": 2024,
+          "publisher": "新潮社",
+          "meta": { "pubdate": "202401" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033246636", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-21T15:38:25+00:00" },
+          "researcher_note": "NDLに『東京都同情塔 芥川賞受賞記念談話』の関連記録があり、受賞をAPI上で確認できた。"
+        },
+        {
+          "cand_id": "book-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784087714920",
+          "title": "ホテルローヤル",
+          "creator": "桜木紫乃",
+          "year": 2013,
+          "publisher": "集英社",
+          "meta": { "pubdate": "201301" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024140425", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-21T15:38:25+00:00" },
+          "researcher_note": "直木賞受賞は編集部の一般知識に基づき検索語として採用。NDL/openBDは書誌の実在のみ確認、受賞そのものはAPI上で未確認。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJEwyaTjAoil8RsaujmBJpV60",
+          "title": "せんだいメディアテーク",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒980-0821 宮城県仙台市青葉区春日町２−１ 1F", "primary_type": "カルチャー センター" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDHjCWWR1WkHJM_leyx6n9uPETNHOJJh7rkFortimbHKce2PrTmCZz4sG3yoiH00WbZYJoC_MNePr8L7gadbCK3MXzkikYFqcHGogefPPtQR_1TVGpCsif_HEY-HvNuvCOTP6OPpJZerRby=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "小久保圭基", "uri": "https://maps.google.com/maps/contrib/110498977076474767993" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12490567620126550961&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-21T15:38:39+00:00" },
+          "researcher_note": "日本建築学会賞(2003年)は編集部の一般知識に基づく検索語。Placesは所在地の実在のみ確認、受賞はAPI未確認。"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJAbhT24Az-F8RwWhli9sBKlE",
+          "title": "金沢21世紀美術館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒920-8509 石川県金沢市広坂１丁目２−１", "primary_type": "Art museum" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAIVfzqGTw4EjDpm55guOWBK-nflAHqJxUkFvu8JaImtMHdYvHuXETCtMpkXxnMZsiDXPnsmmw5gS5w4mj4G64v_Og1Cd3HF3yK_iq2rQc3Lk7RYRE71-1AEkSJFKAH_v5eVRPbuRajHAGP=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "kan", "uri": "https://maps.google.com/maps/contrib/116652137552222556458" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5848489108542154945&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-21T15:38:39+00:00" },
+          "researcher_note": "日本建築学会賞(2005年)は編集部の一般知識に基づく検索語。Placesは所在地の実在のみ確認、受賞はAPI未確認。"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJB2YdsYkgH2ARgDlfgHRwl6g",
+          "title": "太田市美術館・図書館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒373-0026 群馬県太田市東本町１６−３０", "primary_type": "Art museum" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDEoZIPiSYeMRJAKg4BoFd2z9TWeM05AmkkzIvtX3RMklBglHHz34dUe9nYxvGfl9-7bgtf3teEODG0wffR3fe3UdNhfiqN9RJxbwsku0PVM1HfWpsz8l8kc_CtZA_LJ01yqUisZ3EEailGN7ObFeEGYg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "山田哲男", "uri": "https://maps.google.com/maps/contrib/114763500603641865524" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12148302165527443840&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-21T15:38:39+00:00" },
+          "researcher_note": "日本建築学会賞(2018年)は編集部の一般知識に基づく検索語。Placesは所在地の実在のみ確認、受賞はAPI未確認。"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJeZU4DGEBGWARJcZOPzYM7FE",
+          "title": "KAIT工房",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒243-0211 神奈川県厚木市三田", "primary_type": "大学" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjC72vzCosrfGewIitQltA5c1_lRK4qVPB9ijinPui394TlD_1X9nEAFwf1w-VuQR-s0xtqGFEjpkyLyQtBYSeDJo9l3PW9OiP2aeAHQspM5tfXXS8w0mLlWeMX8smyqRxe7YvR6bXi25Qzdiw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "散歩日和", "uri": "https://maps.google.com/maps/contrib/100315507526742168189" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5903106638705772069&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-21T15:38:39+00:00" },
+          "researcher_note": "神奈川工科大学KAIT工房(石上純也)、JIA新人賞(2008年)は編集部の一般知識に基づく検索語。Placesは所在地の実在のみ確認、受賞はAPI未確認。"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ4WHu5yvuUzURCXiEZmVSozw",
+          "title": "地中美術館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒761-3110 香川県香川郡直島町３４４９−１", "primary_type": "Art museum" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA_eVo2eUmYYF2IPF5dT7p-ErxOTdc0IVPpxeXvs5gJq1EQIRvGFYhOzCniTVanhXWKSal_8rzmnDXAAmTR84WDs7vcB-1G2AgVJnZMimryNjvp7lrdV64zjh59KIVb2FUC5NJFaIYMY-iB3A=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "윤인수", "uri": "https://maps.google.com/maps/contrib/109999102688404184382" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4369426658944645129&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-21T15:38:39+00:00" },
+          "researcher_note": "地中美術館(安藤忠雄)の建築賞歴は編集部の一般知識に基づく検索語。Placesは所在地の実在のみ確認、受賞はAPI未確認。"
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJ_Za_EaPAj18R4_ZThJJx2Ho",
+          "title": "国際教養大学中嶋記念図書館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒010-1211 秋田県秋田市雄和椿川奥椿岱１９３−２", "primary_type": "図書館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjD1TxOJRGTRFMWwHwct699AIkzRUdfCrHEmccKyGuDILSujRQU6w57h_LTc3W2rA0OSdOI1owPp9W9xWwLV01z1W-Xq3yKTbqT3Em4bU-YxRgQTfOcWiMEC8GrF83T4shTC7PsM71OdOYf-pQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Kiyoshi Akazawa", "uri": "https://maps.google.com/maps/contrib/106465798653881029768" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8851949941695968995&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-21T15:38:39+00:00" },
+          "researcher_note": "国際教養大学中嶋記念図書館(仙田満)、日本建築学会賞(2013年)は編集部の一般知識に基づく検索語。Placesは所在地の実在のみ確認、受賞はAPI未確認。"
+        }
+      ]
+    },
+    {
+      "genre": "photo",
+      "candidates": [
+        {
+          "cand_id": "photo-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784062202084",
+          "title": "愛の台南",
+          "creator": "川島小鳥",
+          "year": 2017,
+          "publisher": "講談社",
+          "meta": { "pubdate": "201704" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028081176", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-21T15:38:25+00:00" },
+          "researcher_note": "木村伊兵衛写真賞受賞は編集部の一般知識に基づき検索語(木村伊兵衛賞)で発見。NDL/openBDは書誌の実在のみ確認、受賞そのものはAPI上で未確認。"
+        },
+        {
+          "cand_id": "photo-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784898151853",
+          "title": "うめめ : today's happening",
+          "creator": "梅佳代",
+          "year": 2006,
+          "publisher": "リトルモア",
+          "meta": { "pubdate": "200609" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000008298729", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-21T15:38:25+00:00" },
+          "researcher_note": "木村伊兵衛写真賞受賞は編集部の一般知識に基づき検索語として採用。NDL/openBDは書誌の実在のみ確認、受賞そのものはAPI上で未確認。"
+        },
+        {
+          "cand_id": "photo-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784898150528",
+          "title": "うたたね",
+          "creator": "川内倫子",
+          "year": 2001,
+          "publisher": "リトル・モア",
+          "meta": { "pubdate": "200110" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000003044285", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-21T15:38:25+00:00" },
+          "researcher_note": "木村伊兵衛写真賞受賞(『花火』との同時受賞)は編集部の一般知識に基づき検索語として採用。NDL/openBDは書誌の実在のみ確認、受賞そのものはAPI上で未確認。"
+        },
+        {
+          "cand_id": "photo-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784871988315",
+          "title": "１・９・４・７",
+          "creator": "石内都",
+          "year": 1990,
+          "publisher": "アイピーシー",
+          "meta": { "pubdate": "19901201" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002089341", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-21T15:38:25+00:00" },
+          "researcher_note": "木村伊兵衛写真賞受賞は編集部の一般知識に基づき検索語として採用。NDL/openBDは書誌の実在のみ確認、受賞そのものはAPI上で未確認。openBD側の版元表記(アルファベータブックス)とNDL側(アイピーシー)に差異があり、genre-editorでの確認を推奨。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
