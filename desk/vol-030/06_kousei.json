@@ -1,0 +1,21 @@
+{
+  "vol": 30,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000011053133",
+        "status": 200
+      },
+      {
+        "url": "https://music.apple.com/jp/album/wagner-tristan-und-isolde-wwv-90-live/1452380567?uo=4",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": []
+}

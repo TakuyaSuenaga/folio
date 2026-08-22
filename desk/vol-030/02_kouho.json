@@ -1,0 +1,340 @@
+{
+  "vol": 30,
+  "genres": [
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044001070",
+          "title": "芭蕉全句集 : 現代語訳付き",
+          "creator": "松尾芭蕉(雲英末雄・佐藤勝明 校訂)",
+          "year": 2010,
+          "publisher": "角川学芸出版(角川文庫)",
+          "meta": {
+            "series": "角川文庫",
+            "ndc": null,
+            "openbd_summary_author": "松尾,芭蕉,1644-1694 雲英,末雄,1940-2008 佐藤,勝明,1958-"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000011053133",
+              "kind": "info"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-22T15:32:24+00:00"
+          },
+          "researcher_note": "辞世の句とされる「旅に病んで夢は枯野をかけ廻る」を収める全句集。現代語訳付き版。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784863668096",
+          "title": "雨ニモマケズ風ニモマケズ : 宮澤賢治詩集百選",
+          "creator": "宮沢賢治",
+          "year": 2011,
+          "publisher": "宮帯出版社",
+          "meta": {
+            "openbd_summary_author": "宮沢,賢治,1896-1933"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I023159592",
+              "kind": "info"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-22T15:32:24+00:00"
+          },
+          "researcher_note": "表題作「雨ニモマケズ」は生前未発表で、没後に手帳から発見され出版された詩集百選。"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784394700548",
+          "title": "山頭火 句集",
+          "creator": "種田山頭火(村上護 編)",
+          "year": 2011,
+          "publisher": "春陽堂書店(山頭火文庫;1)",
+          "meta": {
+            "series": "山頭火文庫",
+            "volume": "1",
+            "openbd_summary_author": "種田,山頭火,1882-1940 村上,護,1941-2013"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000011208203",
+              "kind": "info"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-22T15:32:24+00:00"
+          },
+          "researcher_note": "放浪の俳人・種田山頭火の句を没後に村上護が編んだ句集。"
+        },
+        {
+          "cand_id": "poe-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784990848200",
+          "title": "エスペラント語と絵で味わう八木重吉詩集 = YAGI ĴUUKIĈI Gustumi poemojn per Esperanto kaj pentraĵo",
+          "creator": "八木重吉(小沢満明 編, たけいひろゆき 絵)",
+          "year": 2015,
+          "publisher": "あずさ書店",
+          "meta": {
+            "openbd_summary_author": "八木,重吉,1898-1927 小沢,満明 たけい,ひろゆき"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026710673",
+              "kind": "info"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-22T15:32:24+00:00"
+          },
+          "researcher_note": "29歳で夭折した八木重吉の詩を収めた詩集のエスペラント語対訳版。"
+        }
+      ]
+    },
+    {
+      "genre": "film",
+      "candidates": []
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1440744257",
+          "title": "Beethoven: Symphony Nos. 5 & 6",
+          "creator": "ヘルベルト・フォン・カラヤン & ベルリン・フィルハーモニー管弦楽団",
+          "year": 1984,
+          "publisher": "Deutsche Grammophon",
+          "meta": {
+            "trackCount": 9,
+            "primaryGenreName": "クラシック",
+            "copyright": "℗ 1984 Deutsche Grammophon GmbH, Berlin"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/94/58/f2/9458f2e8-ea9d-b384-6a52-6d976d5ebc9c/00028943900423.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/beethoven-symphony-nos-5-6/1440744257?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-22T15:32:27+00:00"
+          },
+          "researcher_note": "第1楽章冒頭の動機が全曲を通じて反復・変容される交響曲第5番「運命」。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1452289715",
+          "title": "Berlioz: Symphonie fantastique, Op. 14 (Live at Kissei Bunka Hall, Nagano-ken Matsumoto Bunka Kaikan - 2014)",
+          "creator": "サイトウ・キネン・オーケストラ & 小澤征爾",
+          "year": 2016,
+          "publisher": "Universal Classics & Jazz",
+          "meta": {
+            "trackCount": 5,
+            "primaryGenreName": "クラシック"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/14/86/54/148654fb-80af-b8b4-d2ea-9f5236902dad/00600406777201.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/berlioz-symphonie-fantastique-op-14-live-at-kissei/1452289715?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-22T15:32:27+00:00"
+          },
+          "researcher_note": "固定楽想(イデー・フィクス)が全楽章で反復・変容し、終楽章で断頭台への行進として回収される。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1764411027",
+          "title": "Berlioz: Symphonie fantastique, H. 48",
+          "creator": "ベルリン・フィルハーモニー管弦楽団 & ヘルベルト・フォン・カラヤン",
+          "year": 1975,
+          "publisher": "Deutsche Grammophon",
+          "meta": {
+            "trackCount": 5,
+            "primaryGenreName": "クラシック"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/9b/5e/e19b5e52-960a-213a-64d3-7e0f3e695b9c/24UMGIM72298.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/berlioz-symphonie-fantastique-h-48/1764411027?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-22T15:32:27+00:00"
+          },
+          "researcher_note": "同一の固定楽想を扱う別演奏(カラヤン&ベルリン・フィル、1975年録音)。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1537294534",
+          "title": "ワーグナー:楽劇「ニーベルングの指環」管弦楽曲集",
+          "creator": "パーヴォ・ヤルヴィ & NHK交響楽団",
+          "year": 2019,
+          "publisher": "Sony Music Labels Inc.",
+          "meta": {
+            "trackCount": 6,
+            "primaryGenreName": "クラシック"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/75/09/f3/7509f3e7-fa6e-67d7-fab3-979dcefc83b0/jacket_SICC19043B00Z_550.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/%E3%83%AF%E3%83%BC%E3%82%B0%E3%83%8A%E3%83%BC-%E6%A5%BD%E5%8A%87-%E3%83%8B%E3%83%BC%E3%83%99%E3%83%AB%E3%83%B3%E3%82%B0%E3%81%AE%E6%8C%87%E7%92%B0-%E7%AE%A1%E5%BC%A6%E6%A5%BD%E6%9B%B2%E9%9B%86/1537294534?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-22T15:32:37+00:00"
+          },
+          "researcher_note": "示導動機(ライトモチーフ)の技法を確立した楽劇『ニーベルングの指環』の管弦楽曲集。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1452380567",
+          "title": "Wagner: Tristan und Isolde, WWV 90 (Live)",
+          "creator": "カール・ベーム & バイロイト祝祭管弦楽団 他",
+          "year": 1966,
+          "publisher": "Deutsche Grammophon",
+          "meta": {
+            "trackCount": 30,
+            "primaryGenreName": "クラシック"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9b/f0/6a/9bf06a21-d246-68d0-014a-2baa70b51494/00028947977216.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/wagner-tristan-und-isolde-wwv-90-live/1452380567?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-22T15:32:37+00:00"
+          },
+          "researcher_note": "冒頭の「トリスタン和音」に含まれる動機が、終幕の「愛の死」で全曲の意味を回収する。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1438690192",
+          "title": "Star Wars: A New Hope (Original Motion Picture Soundtrack)",
+          "creator": "ジョン・ウィリアムズ",
+          "year": 1977,
+          "publisher": "Lucasfilm Ltd.",
+          "meta": {
+            "trackCount": 16,
+            "primaryGenreName": "サウンドトラック"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bc/be/07/bcbe07b7-3c0f-724c-49fb-7bc0ede2114b/18UMGIM59943.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/star-wars-a-new-hope-original-motion-picture-soundtrack/1438690192?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-22T15:32:39+00:00"
+          },
+          "researcher_note": "後続作で反復されるフォースのテーマ等、シリーズ全体の示導動機の起点となる楽曲。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1438689887",
+          "title": "Star Wars: The Empire Strikes Back (Original Motion Picture Soundtrack)",
+          "creator": "ジョン・ウィリアムズ",
+          "year": 1980,
+          "publisher": "Lucasfilm Ltd.",
+          "meta": {
+            "trackCount": 17,
+            "primaryGenreName": "サウンドトラック"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4d/7d/23/4d7d2355-939f-0988-3054-3c061c60a3b1/18UMGIM59946.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/star-wars-the-empire-strikes-back-original-motion/1438689887?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-08-22T15:32:39+00:00"
+          },
+          "researcher_note": "本作で初出の「帝国のマーチ」が後の作品で反復・回収される。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "film(order 2): 結末を知って見返すと伏線に気づく構成を持つ映画",
+      "reason": "API障害: iTunes Search/Lookup APIのmedia=movieが、邦題・英題での複数クエリ(アナと雪の女王/Frozen/Batman/Inception等)および既知の実在作品IDへの直接lookupのいずれでもresultCount 0を返し、映画カタログを検索・参照できなかった。errorはnullだがクエリの問題ではなく、当該APIから映画メディアが返らない状態と判断した。film genreの候補は収集できず0件。"
+    }
+  ]
+}
