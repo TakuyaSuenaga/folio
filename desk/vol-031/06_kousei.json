@@ -1,0 +1,43 @@
+{
+  "vol": 31,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true,
+      "items[2].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://maps.google.com/?cid=2379456572568716668&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true,
+        "https://music.apple.com/jp/album/bach-cello-suites-nos-1-6/192559524?uo=4": true,
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I034472989": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      { "url": "https://maps.google.com/?cid=2379456572568716668&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "status": 200 },
+      { "url": "https://music.apple.com/jp/album/bach-cello-suites-nos-1-6/192559524?uo=4", "status": 200 },
+      { "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034472989", "status": 200 }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[0] 見出し(h2)・DATA欄「題名」の「塔の家 by 東 孝光」",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "見出し・題名欄は「東 孝光」(姓名間にスペースあり)だが、DATA欄「作者」・本文・note欄は「東孝光」(スペースなし)",
+      "teisei": "人名表記を三点一致させる。「東孝光」(スペースなし)に統一するのが本文・作者欄側の表記と揃う"
+    }
+  ]
+}

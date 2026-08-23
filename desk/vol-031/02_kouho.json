@@ -1,0 +1,250 @@
+{
+  "vol": 31,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784902930269",
+          "title": "アルヴァ・アアルト　アアルト邸とアトリエ : ヘルシンキ1936, 1955",
+          "creator": "齊藤哲也(著)・宮本和義(写真)",
+          "year": 2012,
+          "publisher": "バナナブックス",
+          "meta": {
+            "location": "ヘルシンキ、フィンランド",
+            "completion": "1936年・1956年増築",
+            "note": "建築家アルヴァ・アアルトが自らのために設計し自ら住んだ自邸兼アトリエ"
+          },
+          "image": { "url": "https://cover.openbd.jp/9784902930269.jpg", "source": "openbd" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I023770620", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-23T15:23:20+00:00" },
+          "researcher_note": "単独の建築家が自らのために設計・使用した自邸兼アトリエ。発注に近い。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJubcN8ZiMGGARfEVtViWHBSE",
+          "title": "塔の家 by 東 孝光",
+          "creator": "東孝光",
+          "year": 1966,
+          "publisher": "",
+          "meta": {
+            "address": "東京都渋谷区神宮前３丁目３９−４",
+            "note": "建築家・東孝光が自ら設計し自ら住んだ六坪の住宅"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBwfE9GOJ7PAUjSLnQ0oOK_PXl9928BZCLVMb3N_BFdoEf8j9tnY4qGPf0OGzbfw-jKUBcNwWV6am2GoXF-sxf3ybERfH6ByHdLYH9pt-fGFtQANReAmvQoy5n2SbMVioRW0zfw7iyZUNX5di0RXV4KpA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "松井Harry", "uri": "https://maps.google.com/maps/contrib/107055511903211203622" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=2379456572568716668&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-23T15:23:20+00:00" },
+          "researcher_note": "単独の建築家が自邸として設計・居住した狭小住宅の代表例。発注に極めて近い。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJw4F1DgDdAGAR3hrHQaMYdY4",
+          "title": "住吉の長屋",
+          "creator": "安藤忠雄",
+          "year": 1976,
+          "publisher": "",
+          "meta": {
+            "address": "大阪府大阪市住吉区住吉２丁目１３−１２",
+            "note": "単独の建築家による設計として知られる住宅作品"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDHf2YE6A_BypThTZlSPtu53iIlZa7D-6-102i09YiHNU35bh7UYFAO3pRpngTT4d48O5X9S154egWSyamvSu8rso1FoMf6BbO7ij4mN6En3SC_MT2rFLNyfBbrio9dcAvILdqTUw7bZ4GT0K8lFOV1tg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "benjamin chou", "uri": "https://maps.google.com/maps/contrib/110933764794653671270" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=10265138015123217118&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-23T15:23:20+00:00" },
+          "researcher_note": "委員会設計ではなく単独の建築家名で語られる住宅作品として発注に合う候補。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784865271027",
+          "title": "居心地のよさを追い求めて : 建築家・永田昌民の軌跡",
+          "creator": "",
+          "year": 2020,
+          "publisher": "新建新聞社",
+          "meta": { "note": "単独の建築家・永田昌民の住宅作品の軌跡をまとめた一冊(openBD書誌に著者情報の記載なし)" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030426980", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-23T15:23:20+00:00" },
+          "researcher_note": "単独の建築家個人の住宅作品を辿る書籍。表紙画像はopenBDに無し。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784306046771",
+          "title": "五十八さんの数寄屋",
+          "creator": "藤森照信・田野倉徹也",
+          "year": 2020,
+          "publisher": "鹿島出版会",
+          "meta": { "note": "単独の建築家・吉田五十八の数寄屋建築を扱う書籍(著者は評伝の書き手)" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030419626", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-23T15:23:20+00:00" },
+          "researcher_note": "単独の建築家個人の様式を主題とする書籍。ただし著者本人の著作ではなく評伝。表紙画像はopenBDに無し。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "192559524",
+          "title": "Bach: Cello Suites Nos. 1-6",
+          "creator": "パブロ・カザルス",
+          "year": 2000,
+          "publisher": "Naxos",
+          "meta": { "trackCount": 41, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/99/71/68/997168b9-10e7-b7da-7242-3cf2c30b89b8/mzi.oeaaoayc.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/bach-cello-suites-nos-1-6/192559524?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-23T15:23:24+00:00" },
+          "researcher_note": "無伴奏チェロ組曲。独奏で完結する演奏の古典的録音。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1599673471",
+          "title": "J. S. Bach: The 6 Cello Suites",
+          "creator": "堤剛",
+          "year": 2021,
+          "publisher": "meister Music Co.,Ltd.",
+          "meta": { "trackCount": 36, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c4/bc/6d/c4bc6d13-7f8a-4c1c-404d-bb564ea8064c/4944099450239.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/j-s-bach-the-6-cello-suites/1599673471?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-23T15:23:24+00:00" },
+          "researcher_note": "無伴奏チェロ組曲全曲。独奏の達成を示す録音。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1206062748",
+          "title": "Bach: Suites for Solo Cello",
+          "creator": "ムスティスラフ・ロストロポーヴィチ",
+          "year": 2017,
+          "publisher": "Warner Classics",
+          "meta": { "trackCount": 42, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/25/92/34/259234fd-f113-daa8-5acf-77b9296aa0a5/190295872229.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/bach-suites-for-solo-cello/1206062748?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-23T15:23:24+00:00" },
+          "researcher_note": "Solo Celloと明記される無伴奏の独奏録音。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "499207273",
+          "title": "バッハ:無伴奏チェロ組曲(全曲)",
+          "creator": "藤原真理",
+          "year": 2010,
+          "publisher": "Nippon Columbia Co., Ltd.",
+          "meta": { "trackCount": 36, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1b/ee/c6/1beec6cf-24ce-0bb3-6aa0-2af306f6ce83/mzi.dfeaxgkl.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E3%83%90%E3%83%83%E3%83%8F-%E7%84%A1%E4%BC%B4%E5%A5%8F%E3%83%81%E3%82%A7%E3%83%AD%E7%B5%84%E6%9B%B2-%E5%85%A8%E6%9B%B2/499207273?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-23T15:23:24+00:00" },
+          "researcher_note": "無伴奏チェロ組曲全曲。邦人奏者による独奏録音。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1452330111",
+          "title": "J.S. Bach: Cello Suites, BWV 1007-1012",
+          "creator": "ピエール・フルニエ",
+          "year": 1961,
+          "publisher": "Deutsche Grammophon",
+          "meta": { "trackCount": 37, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e5/6c/93/e56c93d9-1679-4665-3b68-2ed674105af1/16UMGIM05558.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/j-s-bach-cello-suites-bwv-1007-1012/1452330111?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-23T15:23:24+00:00" },
+          "researcher_note": "1961年録音の無伴奏チェロ組曲。独奏の古典的名盤系だが評価語は付さない。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1016523593",
+          "title": "Bach: The Goldberg Variations, BWV 988 (1981 Recording, Remastered)",
+          "creator": "グレン・グールド",
+          "year": 1982,
+          "publisher": "Sony Music Entertainment",
+          "meta": { "trackCount": 33, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/51/95/c2/5195c22f-e480-e53a-e04b-85cd603e685d/886445085471.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/bach-the-goldberg-variations-bwv-988-1981-recording/1016523593?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-23T15:23:24+00:00" },
+          "researcher_note": "ピアノ独奏によるゴルトベルク変奏曲。単独の演奏で完結する達成。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "6787473462",
+          "title": "J. S. Bach: Suites for Cello Solo, BWV 1007-1012 (Live at St. Mary's Cathedral, Tokyo 2026)",
+          "creator": "佐藤晴真",
+          "year": 2026,
+          "publisher": "UNIVERSAL MUSIC LLC",
+          "meta": { "trackCount": 36, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8d/cb/87/8dcb872c-740e-d337-a2c5-0216718d848c/26UMGIM74109.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/j-s-bach-suites-for-cello-solo-bwv-1007-1012-live-at/6787473462?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-23T15:23:24+00:00" },
+          "researcher_note": "2026年リリースの東京公演ライブ盤。無伴奏チェロ組曲の独奏。"
+        },
+        {
+          "cand_id": "mus-08",
+          "source_api": "itunes",
+          "source_id": "159398410",
+          "title": "無伴奏チェロ",
+          "creator": "趙静(チョウ・チン)",
+          "year": 2006,
+          "publisher": "Victor Entertainment, Inc.",
+          "meta": { "trackCount": 8, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/2a/4a/56/mzi.fjbjrzig.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E7%84%A1%E4%BC%B4%E5%A5%8F%E3%83%81%E3%82%A7%E3%83%AD/159398410?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-23T15:23:24+00:00" },
+          "researcher_note": "無伴奏チェロによる独奏アルバム。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "bok-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784309422398",
+          "title": "あやとりの記",
+          "creator": "石牟礼道子",
+          "year": 2026,
+          "publisher": "河出書房新社",
+          "meta": { "series": "河出文庫", "note": "著者自身の幼少期を一人称で語る自伝的作品" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034472989", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-23T15:23:41+00:00" },
+          "researcher_note": "単著かつ徹底した一人称の語りによる自伝的作品。発注に極めて近い。表紙画像はopenBDに無し。"
+        },
+        {
+          "cand_id": "bok-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784006022808",
+          "title": "石原吉郎セレクション",
+          "creator": "石原吉郎(著)・柴崎聡(編)",
+          "year": 2016,
+          "publisher": "岩波書店",
+          "meta": { "series": "岩波現代文庫 . 文芸 ; 280", "note": "抑留体験を一人称で綴った随想・詩の単著群を収めたセレクション" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027513841", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-23T15:23:41+00:00" },
+          "researcher_note": "石原吉郎単独の著作(随想「望郷と海」など)を収めたセレクション。編者は柴崎聡だが本文は単著の一人称の語り。表紙画像はopenBDに無し。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "book: 単著、あるいは徹底した一人称の語りによって書かれた作品から一点。共著や合議的な編集を経た書物ではなく、単独の書き手の視点が最後まで貫かれている作品を選ぶこと。",
+      "reason": "NDLサーチが度重なるHTTP 429/タイムアウトでレート制限にかかり、候補5点の目標に対し2点しか実在確認できなかった。捏造を避け確認できた2点のみを候補として残す。"
+    }
+  ]
+}
