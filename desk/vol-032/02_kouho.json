@@ -1,0 +1,232 @@
+{
+  "vol": 32,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJReqUU_-JGGARzyBGB0CrRwE",
+          "title": "船の科学館(初代南極観測船「宗谷」)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都江東区青海２丁目８−地先", "primary_type": "博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBuEFvnBVHY25eFwiKaekS0ith5dqZQmSfUl-GPKNnPtsK3onPhbK1gaXm7ltruJhBClGlGfoafvjMiC0EeftTRdAScQ_Yvjo2FzqK9ZrILJhHK07QRpdhz-1_skkvf855DghzHuA59gpIX=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "サニー久永", "uri": "https://maps.google.com/maps/contrib/112459411379961086461" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=92230608872677583&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-24T15:40:57+00:00" },
+          "researcher_note": "南極観測を終えた実在の砕氷船「宗谷」が航行をやめ陸地際に係留・保存されている。船体建築という発注に直接合致。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJs4TS3mi7GWAROeQI6T1QNdI",
+          "title": "小田原文化財団 江之浦測候所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "神奈川県小田原市江之浦３６２−１", "primary_type": "Art museum" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjC0wtHl26ggQ84XHUqf3O16j2_wVLGJPgRR1J-pYrsBpo0ZE_XF5aNuGP3FnZB0akXdFvLddjy8g-vX2dl2X7dXw8q6gZYl7e5iTc6mGK_kv-0Sb_ZeJJ8FNjUz1VB124b2QAB5BPQyBOitww=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "小田原文化財団 江之浦測候所", "uri": "https://maps.google.com/maps/contrib/104261185532110300873" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15147101148563432505&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-24T15:40:57+00:00" },
+          "researcher_note": "海を望む崖上、水位・地形の境界線上に建つ文化施設。座礁そのものを意匠化した例ではなく、境界線上の建築という発注の後段に合致。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJKRlXCky4QzUR9oeATskc_BU",
+          "title": "軍艦防波堤",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "福岡県北九州市若松区響町１丁目", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBoIOsVCeloaam18V03sx5872ikhG0pazlCRvmVxL2kVQQWf5j1EvIipWswwo0o8yvIMo5ZCQ3c_V7XS8HfFdypCdZsvl8H4AMjkRmjV2Y3vXVr5dXp6bxPLX26nfu1o_5D4D_XeHlxYredTmu9DlvL=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "dgclv_j", "uri": "https://maps.google.com/maps/contrib/106863459105233866038" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1584172819858622454&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-24T15:40:57+00:00" },
+          "researcher_note": "旧海軍艦艇を意図的に着底・沈設して防波堤に転用した史跡。座礁を厄災でなく意匠として引き受けた例という発注に最も近い。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJq6oeJec8I2ARf9aEsGNipEU",
+          "title": "犬吠埼灯台 資料展示館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "千葉県銚子市犬吠埼９５７６", "primary_type": "博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDgmtIDTiL1_8cWca2fejuWA-Mc0dkNEtAIYSreO0sEZiIHEpOXfk2hqJT-4BomgBiYN-dopYFiZSUz-5sTLOaRnA0koFbYJWZG_68_ea4spwMGEC_ACN34H5WIMqKD1BCqCMQkIc6BEDGyWFw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "R san", "uri": "https://maps.google.com/maps/contrib/104397456633928074036" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5018244065100355199&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-24T15:40:57+00:00" },
+          "researcher_note": "岬の突端、海と陸の境界線上に建つ灯台附属施設。座礁の意匠化ではなく境界線上の建築という側面での合致。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJDRkkbgXzUzURInkpiSwdEiQ",
+          "title": "男木島灯台資料館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "香川県高松市男木町１０６２−１", "primary_type": "博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCfQkghoIy1NEV9gAqAzi_Rq9GAyJWqNiHcOO8ijC3GZhi1ph0F8zA4ULfButPmqnD3TgosDCrFbmF8yZ8Rt0rcnW9lauFmNwZ3vUQVTHjme_d9K8nhS_xewXUrKBwBjR-AeN5Thq9k58Ak014=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "安田智一", "uri": "https://maps.google.com/maps/contrib/108770730428604664943" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2599172012063160610&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-24T15:40:57+00:00" },
+          "researcher_note": "瀬戸内海の島の岬、水際の境界線上に建つ灯台施設。"
+        }
+      ]
+    },
+    {
+      "genre": "cafe",
+      "candidates": [
+        {
+          "cand_id": "cfe-01",
+          "source_api": "google_places",
+          "source_id": "ChIJc1_O1SODImARYv2Evd1aAiQ",
+          "title": "The SUNSET Pier & Café",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "千葉県千葉市美浜区高浜７丁目１−１５", "primary_type": "カフェ・喫茶" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBUN_-epGS8vldJ8iOtFEl0JUYHVHXdC89Yq2wspYhn8EPD2JwpysHznHIcYZD0V9UXLCo9tp0YGwSrTzpKwYe-EeGWAZL1R9atfPluvMxq08GZxxgzDvjwfCfC5Vdwjavbvlz50JyA8nx49w=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "菊正宗", "uri": "https://maps.google.com/maps/contrib/117674335617715716656" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2594736243732708706&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-24T15:40:57+00:00" },
+          "researcher_note": "海沿いの桟橋に位置するカフェ。開業年・営業継続年数はAPIレスポンスに情報なく未確認。"
+        },
+        {
+          "cand_id": "cfe-02",
+          "source_api": "google_places",
+          "source_id": "ChIJAQCB-chv5TQRr3JnMK-hXcE",
+          "title": "浜辺の茶屋",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "沖縄県南城市玉城玉城２−１", "primary_type": "カフェ・喫茶" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAUA5r5yHgc-k9BeKwT-kO1bKYrrdi1QBCYtS8go8oRxr6NP2ilE42So0Duk7RRvjlNYG8mOtMVjVzbxRtytCT8xbpC6OUUYtLaglj5lIlBALUtsstJ842hYr3U7gfZLL5aqJBcLtvy0kfJYwcz7ABpkA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Srift", "uri": "https://maps.google.com/maps/contrib/109270002371422645400" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13933470595957617327&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-24T15:40:57+00:00" },
+          "researcher_note": "波打ち際に直接建つ茶屋。店名自体が立地を表す。開業年・営業継続年数はAPIレスポンスに情報なく未確認。"
+        },
+        {
+          "cand_id": "cfe-03",
+          "source_api": "google_places",
+          "source_id": "ChIJDf96irEBUTURhd_vJbe-rdo",
+          "title": "尾道浪漫珈琲 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "広島県尾道市十四日元町４−１", "primary_type": "コーヒーショップ・喫茶店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAHji0-v8IyhjuQE08RSVdeE9khETqOqHvjZawtoOHKvizzQXwbJ18ePIHCg9L9tDu17efLNGKYAUqNUem0aj7dNhHuLhLA4KsTWK6msYCULFH5M96iq3KFM2QldXw-PnzdzxgauncE_qwHU5uAlBTP5A=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "椿", "uri": "https://maps.google.com/maps/contrib/113167038867833156828" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15757460365064003461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-24T15:40:57+00:00" },
+          "researcher_note": "尾道水道(海峡)に面した港町に立地。開業年・営業継続年数はAPIレスポンスに情報なく未確認。"
+        },
+        {
+          "cand_id": "cfe-04",
+          "source_api": "google_places",
+          "source_id": "ChIJtQIfHTGxWjUR4m-ORdo3Rh8",
+          "title": "宮島珈琲 海岸通り抹茶&バニラソフトクリーム",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "広島県廿日市市宮島町１１９０−１", "primary_type": "カフェ・喫茶" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAoT6OJUP9A9YrF44_pR6V9iWWY9e7yjwX1aaqgR7jZeivValD-IdWmwjUS0SoZgias6398bsa6DfcVHsKSLOo1rMy7cGYTiURPxruluPoiekaeAikwrOuDcIGv6Bq1orq0r_WZ-8lKdvTfasppH6o3AA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ふみふみ", "uri": "https://maps.google.com/maps/contrib/110353340854945102796" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2253550074154872802&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-24T15:40:57+00:00" },
+          "researcher_note": "潮の満ち引きで陸続きと島の境が変わる宮島の海岸通りに立地。開業年・営業継続年数はAPIレスポンスに情報なく未確認。"
+        },
+        {
+          "cand_id": "cfe-05",
+          "source_api": "google_places",
+          "source_id": "ChIJs9pHq7bhCl8R-8GDC4Jh0x4",
+          "title": "PRESSCAFÉ",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "北海道小樽市色内３丁目３−２１", "primary_type": "カフェ・喫茶" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDwrz3TgcvPs_iL3QmiXkL2Sybhpsd0HiFUm5DYOiqywoeYcwJ8qn9W9-AwkrK6plaIIhHNGGRIqEqrKvrAheOpCRfTjF-6Bs27FwiMlRMgPDgVG1qAOy-a5-4i5gDBc-DGWsot-eKN5aas=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "PRESSCAFÉ", "uri": "https://maps.google.com/maps/contrib/104725248863998137770" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2221226252390613499&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-24T15:40:57+00:00" },
+          "researcher_note": "小樽運河沿いの歴史的倉庫街(色内)に立地。開業年・営業継続年数はAPIレスポンスに情報なく未確認。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "bok-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784101117089",
+          "title": "漂流",
+          "creator": "吉村昭",
+          "year": 2008,
+          "publisher": "新潮社",
+          "meta": { "series": "新潮文庫", "edition": "改版", "note": "江戸期の船乗りが漂流の末、鳥島に漂着し生き延びた実話に基づく記録小説" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970304959949773833", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-24T15:40:57+00:00" },
+          "researcher_note": "漂流・漂着によって進むはずだった航路が居場所に変わる筋そのもの。表紙画像はopenBDに無し。"
+        },
+        {
+          "cand_id": "bok-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784163129600",
+          "title": "おろしや国酔夢譚",
+          "creator": "井上靖",
+          "year": 1992,
+          "publisher": "文芸春秋",
+          "meta": { "note": "大黒屋光太夫ら漂流民が漂着の末ロシアで過ごし帰国するまでを辿る記録文学的小説" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002159432", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-24T15:40:57+00:00" },
+          "researcher_note": "漂流・漂着を主題とする記録文学。表紙画像はopenBDに無し。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "book: 座礁・漂着・難破を主題とし、進むはずだった航路が思いがけず居場所に変わる物語、または記録文学を一点。",
+      "reason": "NDLサーチが度重なるHTTP 429/タイムアウトでレート制限にかかり、候補5点の目標に対し2点しか実在確認できなかった。捏造を避け確認できた2点のみを候補として残す。"
+    }
+  ]
+}
