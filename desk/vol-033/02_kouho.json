@@ -1,0 +1,382 @@
+{
+  "vol": 33,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJzRP72ruWPjURbdoAcCQS7Xc",
+          "title": "海軍航空隊笠野原基地跡の川東掩体壕",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "鹿児島県鹿屋市川東町8206-5", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBWPBO8Zqy41Rjz1SJbdA9fRxrECRB9uIkhbvgsgTUebxQx1fx0eBTNixvGEFK4zpwsuldDsFwt5MLRHviq7CSHo7NNEzkYyJ1rS6TsQ-V5woZN6vqv9mQlFpBeguEeMlrxvV1MWR2jLSCRSxQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ぱっきゃまら", "uri": "https://maps.google.com/maps/contrib/106688564592664405412" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=8641583207701076589&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:46:59+00:00" },
+          "researcher_note": "旧海軍笠野原基地跡に残る掩体壕。現地写真あり。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJc7OfJwCRPjURosLXL6RocuY",
+          "title": "田崎掩体壕(軍用資材用)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "鹿児島県鹿屋市田崎町 9R7Q+5W", "primary_type": "史跡" },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=16605449830455034530&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:46:59+00:00" },
+          "researcher_note": "軍用資材用と付記された掩体壕。写真なし。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJ3ZNUdAB3PjURmkmEiYJVG9I",
+          "title": "掩体壕",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "鹿児島県南九州市知覧町西元", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCAcOR4PeGK_IH1XB9xXvT09fEdSyOmjpkzw9PeNfE_xKv0wn25fw3c1jCuNjLHNA0i_D-H6GiESM_6uBvmFpR2RP0ReAalY8s63Shg3kMfCYq2ZY6LnKu7LjZRgKLmEqbsxR9QfAxERiZl_Q=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "syou matumoto", "uri": "https://maps.google.com/maps/contrib/108725825184105466314" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=15139788591477311898&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:46:59+00:00" },
+          "researcher_note": "知覧の特攻基地跡に残る掩体壕。現地写真あり。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJI0p_bAB9ImARmzjbojRsurM",
+          "title": "無蓋掩体壕",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "千葉県印西市東の原3丁目108", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA2xWJEGfsjb6ecid8y8OeLntb6eicdMuyURLw8lAUuIn3BT9y1p3lq5CiDYEoFxPYHRvKcmyLHU_R2eTyKhCum7wzmaBhQ8o_lykskiogdCJiyxkhV4nWcV6R8K_tZm90Ipct_e4ICnUiHoA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "草深村民 900系", "uri": "https://maps.google.com/maps/contrib/108630407232788029402" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=12950782651783657627&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:46:59+00:00" },
+          "researcher_note": "屋根を持たない無蓋型の掩体壕。現地写真あり。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJJ9rcAQd9ImARhHtgfjaKiL8",
+          "title": "第一無蓋掩体壕(復元)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "千葉県印西市東の原3丁目1897", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCWwqPzKCHrdsM93WnEa1gcWJDk9Mz6y0W7pTgjXqBRHVpjARu1gIrynifoXqSlmzroKqQt3Wyvj6kU-mbY8GAAnrXv3apsip3MFzcgTuUxdlpVYFWKWhFVVlDjMZLm9O-THOWQsAjQo0w6DQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "中犬航空", "uri": "https://maps.google.com/maps/contrib/112668522159162630704" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=13801433024730004356&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:46:59+00:00" },
+          "researcher_note": "復元表示のある無蓋掩体壕。現地写真あり。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJG3YQOAC5ImARsr4wR-Ly9YA",
+          "title": "茂原海軍航空基地跡 3号掩体壕",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "千葉県茂原市本小轡1119-5", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDNeXQpJIeePU0uChnfbZ2wLm_uNO1XT9jcPc3i_k92klz7vZZlKXVGVvWVqZhrvUYf_ukAB8dcAVCvB7w1dx7G48ViYo-t44x64PLWKYId-zVXLgavBVXY_4YAFEI7BaXuGba0zA66XGuv5Peu1YboOg=s4800-w750",
+            "source": "google-places",
+            "attributions": [ { "name": "秀朗", "uri": "https://maps.google.com/maps/contrib/100520903454425673793" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=9292600459819794098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:46:59+00:00" },
+          "researcher_note": "旧茂原海軍航空基地跡に番号付きで残る掩体壕。現地写真あり。"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJ__9yH5gIRDURbUjQuOu_M_U",
+          "title": "城井1号掩体壕",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "大分県宇佐市城井159", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjB7X1Aq-4TfYHmL_fanJ0GhAtEhm1zu4Ab14Dd2ZkG9_BUlZ4Ste2b8kYrzOt84Upa0NdhSZJOmJ6pskzg_qFO7EHHx-TaajxMVII3QLlO0rP96P5F8AFXSBJried5ey1_PPTPwQC116JgQIh5S-nxfog=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "のんびりと", "uri": "https://maps.google.com/maps/contrib/108125093229085666581" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=17668676782243465325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:47:11+00:00" },
+          "researcher_note": "旧宇佐海軍航空隊跡に番号付きで残る掩体壕。現地写真あり。"
+        },
+        {
+          "cand_id": "arc-08",
+          "source_api": "google_places",
+          "source_id": "ChIJhxVVBwD_ImAR6NzA1GOjPRI",
+          "title": "掩体壕",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "茨城県鹿嶋市光", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCBAkYIr9dLnbeNyW3jEEX0cKQDxh1t_ivZZ0L7LVSsuC0BDABm3xK9f7TIuSlyNAoAkVj9DqdZqjNFOg-u4ZcGssIy8uHmSQ_a1i0smtIJ9R2YC_cr5nACU3vcg4JLRI7IdVT1LOcXlyX4R5IiGCeR=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "SHOJIRO TSUDA", "uri": "https://maps.google.com/maps/contrib/113735836099777721493" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=1314386315428551912&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:47:11+00:00" },
+          "researcher_note": "旧鉾田陸軍飛行学校方面に残る掩体壕。現地写真あり。"
+        },
+        {
+          "cand_id": "arc-09",
+          "source_api": "google_places",
+          "source_id": "ChIJ0z6iLwBtImARxsMtNYtjNHo",
+          "title": "霞ヶ浦海軍航空隊 有蓋掩体壕",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "茨城県稲敷郡阿見町阿見5383", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBskw9_-ghY9OSCo4DwhqxAaFHeAwdqKv6VWX0r7ARUW3mXuuJP69SHTGkadFEX2PqQGafGow-_dTSHFnez6Cibm8FRpHav1nHAtDuoFhdy8b0eNONHRmMtNAZKSE02NruioL9uCxJ0So0ovA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "山本五十六", "uri": "https://maps.google.com/maps/contrib/111753181567670522105" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=8805772620959957958&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:47:11+00:00" },
+          "researcher_note": "屋根を持つ有蓋型の掩体壕。旧霞ヶ浦海軍航空隊跡。現地写真あり。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784406062046",
+          "title": "赤ちゃんと母(ママ)の火の夜",
+          "creator": "早乙女勝元(作)・タミヒロコ(絵)",
+          "year": 2018,
+          "publisher": "新日本出版社",
+          "meta": { "ndc": "210.75", "genre_ndl": "児童図書" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028780027", "kind": "detail" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:47:21+00:00" },
+          "researcher_note": "東京大空襲下の母子の実体験に取材した絵本。早乙女勝元(空襲体験の記録・伝承で知られる作家)作。openBD照合済み。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784780719574",
+          "title": "美しい橋",
+          "creator": "早乙女勝元",
+          "year": 2020,
+          "publisher": "本の泉社",
+          "meta": { "ndc": "913.6" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030276794", "kind": "detail" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:47:21+00:00" },
+          "researcher_note": "早乙女勝元による作品。NDC分類は913.6(小説)。openBD照合済み。具体的な空襲証言との関係はメタデータからは確認できない。"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784000220330",
+          "title": "あの戦争を伝えたい",
+          "creator": "東京新聞(社会部編)",
+          "year": 2006,
+          "publisher": "岩波書店",
+          "meta": { "ndc": "916", "subject": "太平洋戦争 (1941-1945)" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000008148686", "kind": "detail" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:47:21+00:00" },
+          "researcher_note": "東京新聞社会部が集めた戦争体験の証言集。NDC916(記録・手記)。openBD照合済み。"
+        },
+        {
+          "cand_id": "book-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784845512003",
+          "title": "あの時子どもだったわたしたちは… : 戦後七十年語り継ぐ戦争-流山からのメッセージ- : 明日も平和であるために",
+          "creator": "明日も平和であるためにを推進する会(編)",
+          "year": 2015,
+          "publisher": "崙書房出版",
+          "meta": { "ndc": "916", "subject": "太平洋戦争 (1941-1945)" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026563882", "kind": "detail" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:47:21+00:00" },
+          "researcher_note": "千葉県流山市の市民団体による戦争体験の証言集。openBD照合済み。"
+        },
+        {
+          "cand_id": "book-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784902591514",
+          "title": "あゝ沖縄 : 道産子たちの沖縄戦記",
+          "creator": "清水幸一(著)・月形歴史研究会(編)",
+          "year": 2023,
+          "publisher": "かりん舎",
+          "meta": { "ndc": "916", "subject": "太平洋戦争 (1941-1945)--会戦--沖縄県" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033234267", "kind": "detail" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:47:21+00:00" },
+          "researcher_note": "北海道出身の一兵士による沖縄戦体験記。openBD照合済み。"
+        },
+        {
+          "cand_id": "book-06",
+          "source_api": "ndl+openbd",
+          "source_id": "9784772613194",
+          "title": "いのちと平和のバトンを : 東京大空襲・戦災資料センター図録",
+          "creator": "吉田裕・東京大空襲戦災資料センター",
+          "year": 2022,
+          "publisher": "合同出版",
+          "meta": {},
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031994900", "kind": "detail" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:47:21+00:00" },
+          "researcher_note": "東京大空襲・戦災資料センターの図録。証言展示を収録した資料集。openBD照合済み。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "700755094",
+          "title": "Britten: War Requiem, Op. 66",
+          "creator": "バイエルン放送合唱団, マリス・ヤンソンス & バイエルン放送交響楽団",
+          "year": 2013,
+          "publisher": "BR-Klassik",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 6 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/55/88/7a/55887aa6-fc7c-7990-3179-41c683bf3c4f/4035719001204.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/britten-war-requiem-op-66/700755094?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:47:31+00:00" },
+          "researcher_note": "ブリテンの『戦争レクイエム』。1962年、空襲で破壊されたコヴェントリー大聖堂再建時の献堂のために作曲された作品。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1452648716",
+          "title": "Britten: War Requiem",
+          "creator": "ベンジャミン・ブリテン, バッハ合唱団, ロンドン交響合唱団 & ロンドン交響楽団",
+          "year": 1963,
+          "publisher": "Decca Music Group Limited",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 20, "note": "作曲者自身の指揮による1963年の録音" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/3a/2c/8e/3a2c8e0f-3b88-ca6d-126d-0a1a7813430b/13UMGIM28443.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/britten-war-requiem/1452648716?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:47:31+00:00" },
+          "researcher_note": "ブリテン自身の指揮による『戦争レクイエム』の歴史的録音。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1636804182",
+          "title": "軍歌・戦時歌謡集~今、万感の想いを込めて~①海ゆかば、彼方の友を思い出す",
+          "creator": "Various Artists",
+          "year": 2022,
+          "publisher": "King Record Co.,Ltd",
+          "meta": { "primaryGenreName": "歌謡曲", "trackCount": 25 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/8d/b0/83/8db0839d-5186-f8b8-2c23-15204eca3aa3/NOPA-3541.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E8%BB%8D%E6%AD%8C-%E6%88%A6%E6%99%82%E6%AD%8C%E8%AC%A1%E9%9B%86-%E4%BB%8A-%E4%B8%87%E6%84%9F%E3%81%AE%E6%83%B3%E3%81%84%E3%82%92%E8%BE%BC%E3%82%81%E3%81%A6-%E6%B5%B7%E3%82%86%E3%81%8B%E3%81%B0-%E5%BD%BC%E6%96%B9%E3%81%AE%E5%8F%8B%E3%82%92%E6%80%9D%E3%81%84%E5%87%BA%E3%81%99/1636804182?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:47:31+00:00" },
+          "researcher_note": "戦時歌謡の復刻編集盤。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "898135840",
+          "title": "オリジナルSP復刻 軍歌・愛国歌・戦時歌謡",
+          "creator": "Various Artists",
+          "year": 2014,
+          "publisher": "Nippon Columbia Co., Ltd.",
+          "meta": { "primaryGenreName": "演歌", "trackCount": 73 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/fe/90/ed/fe90ed56-32ac-c294-92f4-a0a0f53f8ae4/COKM-32716.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%ABsp%E5%BE%A9%E5%88%BB-%E8%BB%8D%E6%AD%8C-%E6%84%9B%E5%9B%BD%E6%AD%8C-%E6%88%A6%E6%99%82%E6%AD%8C%E8%AC%A1/898135840?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:47:31+00:00" },
+          "researcher_note": "SP盤からの復刻編集盤。73曲収録。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1826717842",
+          "title": "Japanese Military & Wartime Songs vol. 1 -Umi Yukaba-",
+          "creator": "Various Artists",
+          "year": 2017,
+          "publisher": "Nippon Columbia Co., Ltd./NIPPONOPHONE",
+          "meta": { "primaryGenreName": "歌謡曲", "trackCount": 20 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/24/84/2e/24842eaf-42c2-0384-6f9b-d8c1e52bc2b8/COKM-45796.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/japanese-military-wartime-songs-vol-1-umi-yukaba/1826717842?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:47:52+00:00" },
+          "researcher_note": "戦時歌謡の復刻シリーズ第1巻。表題は「海行かば」。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1826719630",
+          "title": "Japanese Military & Wartime Songs vol. 4 -Roei No Uta-",
+          "creator": "Various Artists",
+          "year": 2017,
+          "publisher": "Nippon Columbia Co., Ltd./NIPPONOPHONE",
+          "meta": { "primaryGenreName": "歌謡曲", "trackCount": 17 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/11/c5/a6/11c5a6f7-2519-1296-89db-6092137d0b12/COKM-45799.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/japanese-military-wartime-songs-vol-4-roei-no-uta/1826719630?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:47:52+00:00" },
+          "researcher_note": "戦時歌謡の復刻シリーズ第4巻。表題は「露営の歌」。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1539324781",
+          "title": "歴史的日本海軍軍歌集",
+          "creator": "海上自衛隊舞鶴音楽隊",
+          "year": 2016,
+          "publisher": "Kaneko Record Service",
+          "meta": { "primaryGenreName": "演歌", "trackCount": 26 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/52/b0/84/52b0841f-d865-c897-1c0f-162689576bd0/859756307389_cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E6%AD%B4%E5%8F%B2%E7%9A%84%E6%97%A5%E6%9C%AC%E6%B5%B7%E8%BB%8D%E8%BB%8D%E6%AD%8C%E9%9B%86/1539324781?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:47:52+00:00" },
+          "researcher_note": "海上自衛隊舞鶴音楽隊による旧海軍軍歌の演奏集。"
+        },
+        {
+          "cand_id": "mus-08",
+          "source_api": "itunes",
+          "source_id": "1018728918",
+          "title": "<戦後70年> 日本の軍歌大全集 ~若鷺の歌・海行かば~",
+          "creator": "Various Artists",
+          "year": 2015,
+          "publisher": "Nippon Columbia Co., Ltd.",
+          "meta": { "primaryGenreName": "演歌", "trackCount": 42 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/1b/bd/9a/1bbd9a10-87f2-5d7d-5087-b414c278b4d7/COCP-39211.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E6%88%A6%E5%BE%8C70%E5%B9%B4-%E6%97%A5%E6%9C%AC%E3%81%AE%E8%BB%8D%E6%AD%8C%E5%A4%A7%E5%85%A8%E9%9B%86-%E8%8B%A5%E9%B7%BA%E3%81%AE%E6%AD%8C-%E6%B5%B7%E8%A1%8C%E3%81%8B%E3%81%B0/1018728918?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:47:52+00:00" },
+          "researcher_note": "戦後70年企画の軍歌大全集。42曲収録。"
+        },
+        {
+          "cand_id": "mus-09",
+          "source_api": "itunes",
+          "source_id": "541562739",
+          "title": "(決定盤) 正調 日本の軍歌大全集",
+          "creator": "Various Artists",
+          "year": 2012,
+          "publisher": "Nippon Columbia Co., Ltd.",
+          "meta": { "primaryGenreName": "歌謡曲", "trackCount": 36 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/6a/93/ff/6a93ff21-9d54-0c8f-e217-36b566725524/COCP_37463.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E6%B1%BA%E5%AE%9A%E7%9B%A4-%E6%AD%A3%E8%AA%BF-%E6%97%A5%E6%9C%AC%E3%81%AE%E8%BB%8D%E6%AD%8C%E5%A4%A7%E5%85%A8%E9%9B%86/541562739?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-25T15:47:52+00:00" },
+          "researcher_note": "軍歌大全集の編集盤。36曲収録。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
