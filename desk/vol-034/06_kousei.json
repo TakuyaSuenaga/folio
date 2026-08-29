@@ -1,0 +1,46 @@
+{
+  "vol": 34,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://maps.google.com/?cid=7242831750488368232&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true,
+        "https://music.apple.com/jp/album/kid-a/1097862870?uo=4": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=7242831750488368232&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://music.apple.com/jp/album/kid-a/1097862870?uo=4",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "L-01",
+      "location": "lead(リード文および og:description の元テキスト)",
+      "severity": "blocking",
+      "type": "原稿不一致",
+      "genzai": "写真に写った線、境界に建つ建築、作風が変わったと評される一枚の盤——三つの現場から、目に見える転換点を読む。",
+      "teisei": "境界に建つ建築、作風が変わったと評される一枚の盤——二つの現場から、目に見える転換点を読む。(colophonの通りphotoジャンルは候補なしで対象外となり、実際の掲載はarchitecture・musicの二点。leadが「写真に写った線」を含む「三つの現場」のままで実際の号立てと食い違っている。vol-005では同様のケースでlead側が「二つの現場」に正しく揃えられている前例がある)"
+    }
+  ]
+}

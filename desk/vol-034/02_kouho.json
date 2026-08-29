@@ -1,0 +1,356 @@
+{
+  "vol": 34,
+  "genres": [
+    {
+      "genre": "photo",
+      "candidates": [
+        {
+          "cand_id": "photo-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784897370941",
+          "title": "水平線採集 : 山崎博写真集",
+          "creator": "山崎博",
+          "year": 1989,
+          "publisher": "六耀社",
+          "meta": { "ndc": "748" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002013557", "kind": "detail" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-28T23:55:53+00:00" },
+          "researcher_note": "海と空が接する水平線を定点観測的に撮り続けた写真集。境界線そのものが主題である点は発注に近いが、二つの水塊の衝突ではなく海と空の境界である。openBD照合済み、書影なし。"
+        },
+        {
+          "cand_id": "photo-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784908435041",
+          "title": "かなたへの海 : 浜昇写真集",
+          "creator": "浜昇",
+          "year": 2017,
+          "publisher": "ソリレス書店",
+          "meta": { "ndc": "748", "series": "沖縄という名" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028109096", "kind": "detail" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-28T23:55:53+00:00" },
+          "researcher_note": "沖縄の海を撮った写真集(シリーズ「沖縄という名」)。潮目や境界線を直接の主題とする記述はメタデータ上確認できない。openBD照合済み、書影なし。"
+        },
+        {
+          "cand_id": "photo-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784908435027",
+          "title": "シマ : それ自身の終わりなき時へ : 浜昇写真集",
+          "creator": "浜昇",
+          "year": 2017,
+          "publisher": "ソリレス書店",
+          "meta": { "ndc": "748", "series": "沖縄という名" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028109098", "kind": "detail" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-28T23:55:53+00:00" },
+          "researcher_note": "photo-02と同じシリーズ「沖縄という名」の一冊(島を主題)。潮目や境界線を直接の主題とする記述はメタデータ上確認できない。openBD照合済み、書影なし。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJWUY7aX0tTzUR7gIGZQ6dEUQ",
+          "title": "足摺岬灯台",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "高知県土佐清水市足摺岬", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCyrQI741mTih7yXA9sUPMwcVPGvq6WRDzaoA6-6G6hxEfKl5NQ-Vcma1LpmHpj5KW7j-X82wK9ymXZN0q2qOIS4gKPiQm5Ditk9WEGUL7G5hAkou4S2Arl8UMhKAIt9o6HLZ2uJk6n6eSQEQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "三木恵万", "uri": "https://maps.google.com/maps/contrib/103273143456758469872" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=4904874154333176558&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-28T23:56:17+00:00" },
+          "researcher_note": "太平洋に突き出た岬の先端に立つ灯台。海と陸の境界に立地する構造物。現地写真あり。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJy_1inSBcVzURvlBxk8uxSP8",
+          "title": "出雲日御碕灯台",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "島根県出雲市大社町日御碕1478", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCrM1yMyCm5PHma3qZvLk6CWRHtATcTqJZIDZ8XPxwGD_fSYG2kF-02lYVp3hE0Aiq5Em04UKiBuYMO9HsYb0-oMxv_WA0S9n1CYODHh9hZelmRbcdTKOimVup5OoRUdjaHs-LQkDyD0KCyBXo=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "沼本健太郎", "uri": "https://maps.google.com/maps/contrib/118105960831994158853" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=18395148165904945342&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-28T23:56:17+00:00" },
+          "researcher_note": "日本海に面した岬の先端に立つ灯台。海と陸の境界に立地する構造物。現地写真あり。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJW5rnTxcVIWAR-uTeGOLagR4",
+          "title": "塩屋埼灯台",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "福島県いわき市平薄磯宿崎34", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCYluKTmUHXA5b6QGZx8r_IJfg0XAXjBk5OqyIcbxCGBJetR6-kqZO1fnl2rYUP658gFS2W_EqIErcYKxwK6Wr3f_KnM_qEbfwsfiQHswFlXtHSWJzni7hBkpVFtxcEbWxULiQ3aYScUHeLV2GeMs5Xww=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "旅人", "uri": "https://maps.google.com/maps/contrib/117981412571124568389" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=2198278757748237562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-28T23:56:17+00:00" },
+          "researcher_note": "太平洋に面した崎に立つ灯台。海と陸の境界に立地する構造物。現地写真あり。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJ_-u7JOc8I2ARXxpaP0H_pnQ",
+          "title": "犬吠埼灯台",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "千葉県銚子市犬吠埼9576", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDascpteRMpaBoz87Y6A8NC2CGeAXzFBT_XtW_r2Q_5WMWzpxDq-_C7xhJjMn5P3LbLGm4zCIdoFqM35aBk05_fpnwB_nuowwWAfytN1p5wMUccn9nzXu6s-ILoW9gwjIN-d1KEVi3lr57bUiBh9XEM=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Martin Richardson", "uri": "https://maps.google.com/maps/contrib/110497399229048579332" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=8405686410234436191&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-28T23:56:17+00:00" },
+          "researcher_note": "太平洋に突き出た埼(岬)の先端に立つ灯台。海と陸の境界に立地する構造物。現地写真あり。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJpW4I8B9PGGARUe4lgl6oSNw",
+          "title": "湘南港灯台",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "神奈川県藤沢市江の島1丁目12-3", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjB4NgGTVNXREyeqdPTFakob9PSXKi5TZ11S-diiSwhBSExNJ-LeXALtFgy9XYzGqzqWGqbSGtXv_QV2p4-fo0GJTihan0u8p8Tmuo47yNt1MRRd1nj8jdmBNGVS_uqC-4oBwKOq_dOZhfMp=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "俊毅安村", "uri": "https://maps.google.com/maps/contrib/118091368942914977415" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=15873122010531229265&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-28T23:56:17+00:00" },
+          "researcher_note": "江の島の港湾防波堤の先端に立つ灯台。港と外海の境界に立地する構造物。現地写真あり。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJeQh0asoRQzUR6upBOyqnC8o",
+          "title": "角島灯台",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "山口県下関市豊北町大字角島1", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDXS0hZJ7bB2jrnfI5jiqFCCUpLHs77sDxUhhsPhWRb-m0ccj9yJfkHLoT6MiT0uj1kCh3sl4k2hCuUeHqXSfLKO4ZNy8f8pIjgOvWbUm67111J1L3eA-FlCgSIaKgeIIsntk6-l6MgA4i-Rg4=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "M M", "uri": "https://maps.google.com/maps/contrib/115404992959142435924" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=14558914020229901034&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-28T23:56:17+00:00" },
+          "researcher_note": "角島の北端に立つ灯台。海と陸の境界に立地する構造物。現地写真あり。"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJUQwmAhnlF2AROSct9Q4SHTc",
+          "title": "野島埼灯台",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "千葉県南房総市白浜町白浜630", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjC-kw_nrHjtDvL9YPFnmpsvlExgboYLtM5s4WhQweDSSjpGP86bAUbAw0nj23yR1YceC5-H8z7EqQMaSbc2RKBAYK3dRJuy_NgCofEe6p2uc1hqGPPnAiD_lUfHmXK6VQEK8zyMUx68-yPK=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "oʞıɥnzɐʞ ɐʎnɹnɟ", "uri": "https://maps.google.com/maps/contrib/104966276180769804640" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=3971350301862864697&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-28T23:56:17+00:00" },
+          "researcher_note": "房総半島最南端の埼に立つ灯台。海と陸の境界に立地する構造物。現地写真あり。"
+        },
+        {
+          "cand_id": "arc-08",
+          "source_api": "google_places",
+          "source_id": "ChIJV5Fj4M00nF8RaKTHVxq1g2Q",
+          "title": "尻屋埼灯台",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "青森県下北郡東通村尻屋八峠", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBZiaUMfTAzBbwNOTvOwzNb2biLCS2R4us0H1ooeEUS7QbBNInTD1gDwuYyH47KM9Nmksj518S6ypE6gWhdZAb5O4U0rYa5Hz69oKIiNtI6MCPOuLlZLf0gpgY8A7w1RghtYGg0SPQd0vkJUQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "オミャッツ", "uri": "https://maps.google.com/maps/contrib/110558768069959986332" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=7242831750488368232&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-28T23:56:17+00:00" },
+          "researcher_note": "下北半島の突端に立つ灯台。太平洋と津軽海峡の潮境近くに位置する。現地写真あり。"
+        },
+        {
+          "cand_id": "arc-09",
+          "source_api": "google_places",
+          "source_id": "ChIJA2V6BG0VkF8RUMJBnhgR7GQ",
+          "title": "入道埼灯台",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "秋田県男鹿市北浦入道崎昆布浦", "primary_type": "景勝地" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCZgFrK8buz6yO4eDFE7Y6PRM43l4SEqOm9uNNxWOo0wpuBXTK233olR6em6j9z6rQMCxw7oqstq0c4AljCLCXb7S3YRkZdoND7Q7HJHtRhOqTfRRviMQjWMxVZD_Z5MiIRpBCMWc8DnugpfRQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "karintou karintou", "uri": "https://maps.google.com/maps/contrib/116635586936937939167" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=7272206295728505424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-28T23:56:17+00:00" },
+          "researcher_note": "男鹿半島の岬突端に立つ灯台。海と陸の境界に立地する構造物。現地写真あり。"
+        },
+        {
+          "cand_id": "arc-10",
+          "source_api": "google_places",
+          "source_id": "ChIJ1z3g9-YfC18Rfc34roEinck",
+          "title": "岬展望台",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "北海道小樽市祝津3丁目250", "primary_type": "展望台" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAeLqbyUlFogkKGj3QPW589-NLgtbQJf8LuaEbOLdwU2n_YXTpzhvVpTPlFG33uXgsYlDfMuJpJozMZcQEeSloOEnhBUOjxzoV_vHnGxAhjocNpQc4oc2kpN1s9CWIwp6AkPCJAJ1ylpr_xBmdyiM7Psw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Vladimir O.", "uri": "https://maps.google.com/maps/contrib/111100839588331627319" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=14527805913348754813&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-28T23:56:17+00:00" },
+          "researcher_note": "祝津の岬に立つ展望施設。境界に立地することがそのまま設計主題である名称の展望台。現地写真あり。"
+        },
+        {
+          "cand_id": "arc-11",
+          "source_api": "google_places",
+          "source_id": "ChIJieiAhweLGGARky4HYfV-HgU",
+          "title": "鳥の島(旧防波堤)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都港区台場1丁目", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDvKlTCcpEOmAYnQFqZy_khtvzkUKy55Y5UMR3Gy_m8hhgbs9PFkxicON59bfKt9Bp_cqwjygBGLwASXYXe5tOPp-HmPzLvEaQo2DyjxqIy2nNcxJ2m7DY_39NjZJQfnd1wSiYurt2ei71qdKAk02N-TQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Hideo \"Hideo\"", "uri": "https://maps.google.com/maps/contrib/107153959664055088111" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=368871811850907283&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-28T23:56:17+00:00" },
+          "researcher_note": "台場に残る旧防波堤の一部。港湾と外海を隔てる構造物として築造された史跡。現地写真あり。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1097862870",
+          "title": "Kid A",
+          "creator": "レディオヘッド",
+          "year": 2000,
+          "publisher": "XL Recordings Ltd",
+          "meta": { "primaryGenreName": "オルタナティブ", "trackCount": 11 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/8e/13/bd8e1358-b367-a689-cb84-cebd0b067dc4/634904078263.png/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/kid-a/1097862870?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-28T23:57:35+00:00" },
+          "researcher_note": "前作『OK Computer』のギターロックから電子音楽・アンビエントへ大きく作風を転換した一枚として頻繁に転換点と評される。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "201281514",
+          "title": "Highway 61 Revisited",
+          "creator": "ボブ・ディラン",
+          "year": 1965,
+          "publisher": "Sony Music Entertainment Inc.",
+          "meta": { "primaryGenreName": "ロック", "trackCount": 9 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/ff/c0/f8ffc056-55b4-2033-657d-32492d1eea25/827969239926.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/highway-61-revisited/201281514?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-28T23:57:35+00:00" },
+          "researcher_note": "アコースティック編成からエレクトリック楽器を本格導入した録音への転換点として言及される作品。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "168376392",
+          "title": "Bitches Brew",
+          "creator": "マイルス・デイヴィス",
+          "year": 1970,
+          "publisher": "Sony Music Entertainment Inc.",
+          "meta": { "primaryGenreName": "ジャズ", "trackCount": 7 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9b/e1/63/9be1630c-486d-760c-76cf-04282174700a/074646577424.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/bitches-brew/168376392?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-28T23:57:35+00:00" },
+          "researcher_note": "アコースティック・ジャズからエレクトリック楽器・多重録音編集を導入したフュージョンへの転換点として言及される作品。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "300948043",
+          "title": "Remain In Light",
+          "creator": "Talking Heads",
+          "year": 1980,
+          "publisher": "Sire Records Company",
+          "meta": { "primaryGenreName": "オルタナティブ", "trackCount": 8 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/87/5f/5b/mzi.zzquknhm.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/remain-in-light/300948043?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-28T23:57:35+00:00" },
+          "researcher_note": "多重録音とポリリズムを本格導入し、アフロビートの影響を取り入れた録音方法の転換点として言及される作品。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1537220385",
+          "title": "BGM(2019 Bob Ludwig Remastering)",
+          "creator": "YELLOW MAGIC ORCHESTRA",
+          "year": 2019,
+          "publisher": "ALFA MUSIC, INC.",
+          "meta": { "primaryGenreName": "エレクトロニカ", "trackCount": 10, "note": "1981年発表作の2019年リマスター盤" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/4b/0e/184b0ee5-012e-00eb-b4e0-a6e8bad3d9b6/jacket_MHXX03058B00Z_550.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/bgm-2019-bob-ludwig-remastering/1537220385?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-28T23:57:35+00:00" },
+          "researcher_note": "デジタル録音機材(デジタルディレイ等)を本格導入し、それまでのポップな作風から硬質な作風へ転じたと言及される作品。iTunes収録は2019年リマスター盤。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "726154713",
+          "title": "Autobahn (Remastered)",
+          "creator": "クラフトワーク",
+          "year": 1974,
+          "publisher": "Ralf Hütter/Kraftwerk",
+          "meta": { "primaryGenreName": "エレクトロニック", "trackCount": 5 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/a6/b0/49a6b061-cbd8-ede5-446d-dae8b50e3b32/5099996601457.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/autobahn-remastered/726154713?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-28T23:57:55+00:00" },
+          "researcher_note": "実験的なクラウトロック編成からシンセサイザー主体の演奏編成へ転換した一枚として言及される作品。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1416925635",
+          "title": "Long Season",
+          "creator": "Fishmans",
+          "year": 1996,
+          "publisher": "UNIVERSAL MUSIC LLC",
+          "meta": { "primaryGenreName": "ロック", "trackCount": 1 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/16/e3/2d/16e32ddd-32b0-f0a0-91aa-c847a1094df5/00602567908678.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/long-season/1416925635?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-28T23:57:55+00:00" },
+          "researcher_note": "全1曲35分の組曲形式を採用し、それまでの歌もの編成からダブ・アンビエント的な演奏編成へ転じた作品として言及される。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
