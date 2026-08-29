@@ -1,0 +1,26 @@
+{
+  "genko_match": true,
+  "genko_detail": {
+    "lead": true,
+    "items[0].essay": true,
+    "items[1].essay": true,
+    "items[2].essay": true
+  },
+  "links_ok": true,
+  "links_detail": {
+    "present": {
+      "https://ndlsearch.ndl.go.jp/books/R100000001-I07111001100769537": true,
+      "https://ndlsearch.ndl.go.jp/books/R100000002-I000007456605": true,
+      "https://music.apple.com/jp/album/anton-webern-complete-works-op-1-op-31/716326300?uo=4": true
+    },
+    "unknown_external": [],
+    "unsafe_schemes": [],
+    "event_handlers": [],
+    "meta_refresh": false,
+    "css_external": []
+  },
+  "pr_labels_ok": true,
+  "html_ok": true,
+  "okuzuke_ok": true,
+  "url_status": "skip(FOLIO_CHECK_URLS未設定)"
+}

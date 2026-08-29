@@ -1,0 +1,238 @@
+{
+  "vol": 35,
+  "genres": [
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003020630",
+          "title": "芭蕉俳句集",
+          "creator": "松尾芭蕉 著 / 中村俊定 校注",
+          "year": 1970,
+          "publisher": "岩波書店(岩波文庫)",
+          "meta": { "openbd_pubdate": "1950-01", "ndl_record_date": "1987", "ndl_record_publisher": "岩波書店" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I07111001100769537", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-29T18:16:42+00:00" },
+          "researcher_note": "十七音の定型に極小の凝縮を見る古典の代表句集。openBDの書影は空。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784894022249",
+          "title": "鶏頭 : 正岡子規句集",
+          "creator": "正岡子規 著 / 小室善弘 編 / 山下一海 栞",
+          "year": 1998,
+          "publisher": "ふらんす堂",
+          "meta": { "series": "精選句集シリーズ 12", "openbd_pubdate": "19980401" },
+          "image": { "url": "https://cover.openbd.jp/9784894022249.jpg", "source": "openbd" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002679595", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-29T18:16:52+00:00" },
+          "researcher_note": "代表作三百句を精選した句集。"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784480029409",
+          "title": "山頭火句集",
+          "creator": "種田山頭火 著 / 村上護 編集 / 小崎侃 イラスト",
+          "year": 1996,
+          "publisher": "筑摩書房(ちくま文庫)",
+          "meta": { "openbd_pubdate": "19960101" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002553211", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-29T18:16:42+00:00" },
+          "researcher_note": "定型を離れた自由律の句集。openBDの書影は空。"
+        },
+        {
+          "cand_id": "poe-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784841507478",
+          "title": "尾崎放哉句集",
+          "creator": "尾崎放哉 著",
+          "year": 1997,
+          "publisher": "彌生書房",
+          "meta": { "openbd_pubdate": "199712" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002655272", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-29T18:16:42+00:00" },
+          "researcher_note": "自由律俳句の句集。極端に短い句を多く含む作家。openBDの書影は空。"
+        },
+        {
+          "cand_id": "poe-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003102855",
+          "title": "虚子五句集 上",
+          "creator": "高浜虚子 著",
+          "year": 1996,
+          "publisher": "岩波書店(岩波文庫)",
+          "meta": { "openbd_pubdate": "199609", "openbd_note": "五百句・五百五十句・六百句を収録" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002529808", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-29T18:16:42+00:00" },
+          "researcher_note": "openBDの書影は空。"
+        }
+      ]
+    },
+    {
+      "genre": "photo",
+      "candidates": [
+        {
+          "cand_id": "pho-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784000082143",
+          "title": "アンリ・カルティエ=ブレッソン写真集成",
+          "creator": "Cartier-Bresson, Henri / Delpire, Robert ほか / 堀内花子",
+          "year": 2004,
+          "publisher": "岩波書店",
+          "meta": { "openbd_pubdate": "200407" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000007456605", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-29T18:16:42+00:00" },
+          "researcher_note": "「決定的瞬間」の提唱者による集成。openBDの書影は空。"
+        },
+        {
+          "cand_id": "pho-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784622043898",
+          "title": "カルティエ=ブレッソンのパリ",
+          "creator": "Cartier-Bresson, Henri",
+          "year": 1994,
+          "publisher": "みすず書房",
+          "meta": { "openbd_pubdate": "199406" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002351859", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-29T18:16:42+00:00" },
+          "researcher_note": "パリを主題にした瞬間の写真集。openBDの書影は空。"
+        },
+        {
+          "cand_id": "pho-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784866415345",
+          "title": "霧島の鳥に囲まれて : 江口玄写真集",
+          "creator": "江口玄",
+          "year": 2022,
+          "publisher": "リフレ出版(発売)",
+          "meta": { "openbd_pubdate": "202207" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032215953", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-29T18:16:42+00:00" },
+          "researcher_note": "鳥類写真集。飛翔の一瞬を捉える題材として発注に合致するかは編集判断に委ねる。openBDの書影は空。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "716326300",
+          "title": "Anton Webern: Complete Works: Op. 1 - Op. 31",
+          "creator": "ピエール・ブーレーズ",
+          "year": 1978,
+          "publisher": "",
+          "meta": { "trackCount": 119, "primaryGenreName": "クラシック", "copyright": "℗ 1978 Sony Music Entertainment" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/19/4e/f8/194ef8a3-81a8-784d-4a12-6f7f3af35849/886443991958.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/anton-webern-complete-works-op-1-op-31/716326300?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-29T18:16:58+00:00" },
+          "researcher_note": "ウェーベルンは一曲が数十秒に満たない極小の楽曲を多く残した作曲家。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1452293517",
+          "title": "Boulez Conducts Webern",
+          "creator": "ベルリン・フィルハーモニー管弦楽団 & ピエール・ブーレーズ",
+          "year": 2000,
+          "publisher": "",
+          "meta": { "trackCount": 162, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/88/67/45/88674568-df8e-01a0-b06f-4c0e64e32f4c/00028945763729.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/boulez-conducts-webern/1452293517?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-29T18:16:58+00:00" },
+          "researcher_note": "同一指揮者によるウェーベルン管弦楽作品集。mus-01との重複選定は避けること。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1491134484",
+          "title": "Brahms Intermezzi",
+          "creator": "クン=ウー・パイク",
+          "year": 2011,
+          "publisher": "",
+          "meta": { "trackCount": 13, "primaryGenreName": "クラシック", "copyright": "℗ 2011 Universal Music (Korea)" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/fb/3b/3f/fb3b3f32-252e-55e1-2ab2-cad9879603d3/11UMGIM38910.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/brahms-intermezzi/1491134484?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-29T18:16:58+00:00" },
+          "researcher_note": "「間奏曲」と題された小品を集めた演奏。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1452533900",
+          "title": "Chopin: The Complete Préludes",
+          "creator": "ラファウ・ブレハッチ",
+          "year": 2007,
+          "publisher": "",
+          "meta": { "trackCount": 29, "primaryGenreName": "クラシック", "copyright": "℗ 2007 Deutsche Grammophon GmbH, Berlin" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/63/97/56/6397568e-a58a-fd6e-5931-131d1ba55e31/00028947773252.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/chopin-the-complete-pr%C3%A9ludes/1452533900?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-29T18:16:58+00:00" },
+          "researcher_note": "多くが一分に満たない前奏曲二十四曲の全集。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1452207226",
+          "title": "Chopin: 24 Preludes, Op. 28",
+          "creator": "クラウディオ・アラウ",
+          "year": 1980,
+          "publisher": "",
+          "meta": { "trackCount": 30, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b2/c6/22/b2c6221a-f65c-4692-d94b-c32bac836e56/00028947577683.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/chopin-24-preludes-op-28/1452207226?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-29T18:16:58+00:00" },
+          "researcher_note": "mus-04と同一作品の別演奏。選定時はどちらか一方とする。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "452680381",
+          "title": "サティ:ジムノペディ&バレエ曲",
+          "creator": "Various Artists",
+          "year": 2011,
+          "publisher": "",
+          "meta": { "trackCount": 5, "primaryGenreName": "クラシック", "copyright": "℗ 2011 Countdown Media GmbH" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/91/5f/b7/mzi.eujtjtnb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/%E3%82%B5%E3%83%86%E3%82%A3-%E3%82%B8%E3%83%A0%E3%83%8E%E3%83%9A%E3%83%87%E3%82%A3-%E3%83%90%E3%83%AC%E3%82%A8%E6%9B%B2/452680381?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-29T18:16:58+00:00" },
+          "researcher_note": "演奏者名がVarious Artistsのためコンピレーション盤。単一奏者の盤が望ましい場合は編集判断で除外を。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
