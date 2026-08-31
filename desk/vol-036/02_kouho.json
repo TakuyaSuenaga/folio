@@ -1,0 +1,513 @@
+{
+  "vol": 36,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJE7t5RL-LGGARcK_0zdY8yyU",
+          "title": "迎賓館赤坂離宮",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都港区元赤坂2丁目1-1",
+            "ndl_reference": "NDLサーチに書誌『赤坂離宮 : 国宝迎賓館』あり(https://ndlsearch.ndl.go.jp/books/R100000001-I42111000002720986)。「迎賓館 国宝」検索でも同書がヒットする"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBQuOKOr3yDodXz-Dpp3vGQhvpAWe-JSNiGu3Gg50k-bYy7_zbnbW2fGpZYoiHoAa8spUfNpKvADpNpWZMy-ocYNV-dxrVGLTH3FmbBB92Wu4l1Sn4WJX7IPgI6QlPwu_uUE3odE86DXCDxoIov0RHe=s4800-w720",
+            "source": "google-places",
+            "attributions": [
+              { "name": "高矩", "uri": "https://maps.google.com/maps/contrib/113361573419290280280" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2723337292951629680&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" },
+            { "label": "NDLサーチ: 赤坂離宮 : 国宝迎賓館", "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I42111000002720986", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:40:04+00:00" },
+          "researcher_note": "発注(文化財指定・分類区分の呼称変更)に近い候補。書誌タイトル自体が『国宝』表記であり、旧称との区別はNDL本文までは未確認。指定年等の断定は編集判断に委ねる"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJ3Zb6swyQHmARmALIsJRFKkM",
+          "title": "富岡製糸場",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "群馬県富岡市富岡1-1",
+            "ndl_reference": "NDLサーチに『旧富岡製糸場(とみおかせいしじょう)』(掲載誌:月刊文化財615号 2014年12月)、シリーズ名『新指定の文化財 建造物 ; 国宝の指定 ; 近代 産業・交通・土木』あり(https://ndlsearch.ndl.go.jp/books/R000000004-I025935724)"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCT6197oqkTKkpB64ZqOUWvP-ji7rcSS3gmV3yuusMnkTPRE-ezqUqBeZGSAVLFxA6HBCX4iNPlH1hCPc1bXe4jetI3FNG7L4vVFPr2T_MuLkLbBcHg5CLF0xc3IEabx-aqz8dffSPt7goBeA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "えぬひろ", "uri": "https://maps.google.com/maps/contrib/115119966116586915253" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4839757254486393496&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" },
+            { "label": "NDLサーチ: 旧富岡製糸場(とみおかせいしじょう)", "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I025935724", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:40:04+00:00" },
+          "researcher_note": "発注に最も近い候補。NDL書誌のシリーズ名が『国宝の指定』(新指定の文化財)と明記されており、指定区分の呼称変更が資料上で確認できる"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJE9qjZ0-LGGARQiAs8hULJsg",
+          "title": "東京駅丸の内駅舎",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都千代田区丸の内1丁目9-1",
+            "ndl_reference": "NDLサーチに保存・復原に関する記事(『安全性を兼ね備え復活した東京の「顔」: 東京駅丸の内駅舎の保存・復原』)あり。ただし指定区分の変更を直接示す書誌は上位10件内に確認できず"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDtDG-2uXEKtn_-MS-cpvni74th9GdS15ncGw4I8hhv1d9QkhchIg_R17DNaEEHpjFUury7D6V3xeh6nKej_WRSL5jrJdACCFKcCowbgHDd_vMA6Drb9K6xApjH22Qm7NMyYAc9fl4PpqcBnA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Albion Kwok", "uri": "https://maps.google.com/maps/contrib/105705102899276367891" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14422227045585788994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:40:04+00:00" },
+          "researcher_note": "実在・所在地はPlacesで確認。指定区分の呼称変更の一次確認はNDL上位結果内では取得できていない"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJj0QMtv-LGGARsGPGX81M5nc",
+          "title": "日本銀行本店本館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都中央区日本橋本石町2丁目1-1"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8639677380115719088&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:40:04+00:00" },
+          "researcher_note": "Placesで実在・所在地のみ確認。指定区分変更の一次資料はNDL側で未取得(検索がタイムアウト)"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJgRaozOfmAGARmWOBQQdKkDU",
+          "title": "大阪市中央公会堂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "大阪府大阪市北区中之島1丁目1-27",
+            "primary_type": "イベント会場"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDRBbkOrW-AEBrs_Sa0aArW6WNBfq1YNuD8gLPwUj_2U6BsiAmBoZQykzHyka_7Hx9_hcfJe0XNpK19zlQs4nZlfG3hogXktKkYeuEwE47GQBAgQecn109OM4Skb5eOaLzSGzboIQ_wF7YZo8WkpL2LZA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "富美沢梅夫", "uri": "https://maps.google.com/maps/contrib/105581638594347618532" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3859666275680740249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:40:25+00:00" },
+          "researcher_note": "Placesで実在・所在地のみ確認。指定区分変更の一次資料は未取得"
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJvaXoGG5TFTURdX9G-1S244k",
+          "title": "旧グラバー住宅",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "長崎県長崎市南山手町8-1",
+            "primary_type": "史跡"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBc3-P6ORMJSqFnTVTYU26bOTsC_I494mVYsPi-P7wwAa3O0Te4wr9tZIF3yfZvYxm1cAHdpdeu7MwUirLh3JL5mcD_SQwLmh0BRk__j6rHpZ4zNPQDh4FntCGEwAHnl9Cubc58bhZF5eX1apcf4rNIcg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Z", "uri": "https://maps.google.com/maps/contrib/102087749995068302358" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9935985679018655605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:40:25+00:00" },
+          "researcher_note": "Placesで実在・所在地のみ確認。世界遺産登録に関するNDL検索はタイムアウトし未取得"
+        },
+        {
+          "cand_id": "arch-07",
+          "source_api": "google_places",
+          "source_id": "ChIJ42urufCLGGARjDu21SoAR1g",
+          "title": "明治生命館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都千代田区丸の内2丁目1-1"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAEdV-zbmhF4JqcQi8D6DcUGUybYdhVKgtty7n9k5TgqjLJYZijqY1WTdkgNvqB3uoPjhUdC_KcAY4c-sc--o4eacDthvNHYPQnG6OxHe-bRcPrDedUZ4EIyumYqIm4qESV4jKrvWn_aJv-Yg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "梅", "uri": "https://maps.google.com/maps/contrib/116895550169341939027" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6361053182658231180&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:40:25+00:00" },
+          "researcher_note": "Placesで実在・所在地のみ確認。指定区分変更の一次資料は未取得"
+        },
+        {
+          "cand_id": "arch-08",
+          "source_api": "google_places",
+          "source_id": "ChIJozMMwRGMGGARwOsGqOiG2uQ",
+          "title": "学士会館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都千代田区神田錦町3丁目28",
+            "primary_type": "ホテル"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA2yTkZxVM8j1hAbbIlNqc2c1t3guc7XuWewFKIPWoWe3WDvUFJOH2WNEh35FQ9k4Fl9wIoi_4sDfBtczIQotrIAzkt02312w6lzW7rv97tl3eVsV9Eubi1cTnkblt1JEJ6EEG96YVxNFuGIQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "ママ", "uri": "https://maps.google.com/maps/contrib/110442563355212886656" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16490641319380052928&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:40:25+00:00" },
+          "researcher_note": "『学士会館 登録有形文化財』でのNDL検索は0件。『学士会館』単独では無関係な書誌のみヒットし、指定区分変更の一次資料は未取得"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1465042016",
+          "title": "上を向いて歩こう - EP",
+          "creator": "坂本九",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "alt_title_observed": "Sukiyaki - EP",
+            "note": "同一collectionId(1465042016)が、検索語を日本語にすると collectionName『上を向いて歩こう - EP』、英語(Sukiyaki)にすると『Sukiyaki - EP』として返る。trackName(収録曲)は『上を向いて歩こう』",
+            "trackCount": 5,
+            "primaryGenreName": "歌謡曲"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bb/db/74/bbdb74c6-cf97-8646-f65a-f0644c9aaaa4/16UMGIM58389.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/sukiyaki-ep/1465042016?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:41:34+00:00" },
+          "researcher_note": "同一音源・同一collectionIdのまま呼称(表示タイトル)が言語で切り替わる、発注に直結する候補"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1805524673",
+          "title": "Sukiyaki (I Look up as I Walk) [Remastered 2025] - Single",
+          "creator": "坂本九",
+          "year": null,
+          "publisher": "",
+          "meta": { "releaseDate_field": "1961-01-01T08:00:00Z", "copyright": "℗ 2015 OVC Media", "primaryGenreName": "イージーリスニング" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/65/26/df/6526dfea-474d-8971-1032-4714984cfebd/OVCMX25112.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/sukiyaki-i-look-up-as-i-walk-remastered-2025-single/1805524673?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:41:34+00:00" },
+          "researcher_note": "英題に日本語原題の逐語訳『I Look up as I Walk』を併記したリマスター盤名義"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "944091325",
+          "title": "Sukiyaki (Ueo O Muite Aru Kou) [English Promo Version, 1962] [Remastered] - Single",
+          "creator": "坂本九",
+          "year": null,
+          "publisher": "",
+          "meta": { "releaseDate_field": "1961-10-15T08:00:00Z", "copyright": "℗ 2014 Bacci Bros Records", "primaryGenreName": "トラディショナル・ポップ" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/43/c8/40/43c8407f-16ca-8500-eb40-38f72f0789bc/Kyu_Sakamoto_-_Sukiyaki_Ueo_O_Muite_Aru_Kou_English_Promo_Version_1962.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/sukiyaki-ueo-o-muite-aru-kou-english-promo-version/944091325?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:41:34+00:00" },
+          "researcher_note": "タイトル自体に『1962年英語圏プロモ版』と明記。米国流通に際して呼称が付け替わった経緯がメタデータに残る候補"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "704731829",
+          "title": "Sukiyaki (Remastered) - Single",
+          "creator": "坂本九",
+          "year": null,
+          "publisher": "",
+          "meta": { "releaseDate_field": "2013-09-11T07:00:00Z", "copyright": "℗ 2013 Bacci Bros Records", "primaryGenreName": "ヴォーカル" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/e9/58/78/e9587822-5ab0-bbd4-232f-7a67a5d14589/dj.ckuxphsw.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/sukiyaki-remastered-single/704731829?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:41:34+00:00" },
+          "researcher_note": "Sukiyaki名義のみで再流通した単独リマスター盤"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1561183036",
+          "title": "Sukiyaki - Single",
+          "creator": "坂本九",
+          "year": null,
+          "publisher": "",
+          "meta": { "releaseDate_field": "2021-04-05T07:00:00Z", "copyright": "℗ 2021 diaries of golden times", "primaryGenreName": "イージーリスニング" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ba/8c/d8/ba8cd859-a453-7d38-09d4-5503ba4a877a/cover_10193974.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/sukiyaki-single/1561183036?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:41:39+00:00" },
+          "researcher_note": "別レーベル(diaries of golden times)による再発でもSukiyaki単独名義が維持されている一件"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1754906376",
+          "title": "Sukiyaki (I Look up as I Walk) [Remastered 2024] - Single",
+          "creator": "坂本九",
+          "year": null,
+          "publisher": "",
+          "meta": { "releaseDate_field": "1961-08-15T07:00:00Z", "copyright": "℗ 2021 OVC Media", "primaryGenreName": "イージーリスニング" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d5/2b/82/d52b82cc-3285-39f8-0cc4-546f836f0a0c/OVCMX24216.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/sukiyaki-i-look-up-as-i-walk-remastered-2024-single/1754906376?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:41:39+00:00" },
+          "researcher_note": "mus-02と同一発売元による前年(2024年)リマスター盤。年次改題の連続を示す傍証"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1483708935",
+          "title": "Best Kyu Sakamoto 90",
+          "creator": "坂本九",
+          "year": null,
+          "publisher": "",
+          "meta": { "note": "英語ローマ字表記のコンピレーション題だが、収録トラック名(trackName)は日本語表記『上を向いて歩こう』のまま", "trackCount": 94, "releaseDate": "2007-09-05T07:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bd/79/59/bd79591e-19ff-3c53-7456-af702e722af6/19UMGIM91662.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/best-kyu-sakamoto-90/1483708935?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:41:39+00:00" },
+          "researcher_note": "アルバム名は英題化、収録曲名は原題のままという逆方向の混在例"
+        },
+        {
+          "cand_id": "mus-08",
+          "source_api": "itunes",
+          "source_id": "1858843698",
+          "title": "Mayonaka No Door~stay with Me Classic - Single",
+          "creator": "松原みき",
+          "year": null,
+          "publisher": "",
+          "meta": { "note": "原題『真夜中のドア〜stay with me』のローマ字表記版。primaryGenreNameはJ-Popのままで、ジャンル区分自体の変更はAPI上では確認できない", "releaseDate_field": "1979-11-05T08:00:00Z", "copyright": "℗ 2025 PONY CANYON INC." },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7c/15/53/7c155336-15ea-d67f-6122-c634f5a6513b/PA00207509_0_234551_jacket.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/mayonaka-no-door-stay-with-me-classic-single/1858843698?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:41:39+00:00" },
+          "researcher_note": "予備候補。表記のローマ字化のみ確認でき、発注が求めるジャンル区分変更そのものはAPIメタデータ上で裏取りできていない"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJOVajM56LGGARz8yztBKxm0I",
+          "title": "総本家更科堀井 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都港区元麻布3丁目11-4", "primary_type": "レストラン" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDLKLints81XOoOt9x_7auop6tiEunirhEnol6K6vxWEPuQySObzwoEW3PmYLazc7OA-EdWaXjdOmKqL5gXAYyFVv_vnJixKtM79TvejzoYTmSZCFk8D8NIGvVYGqrJdjTVBP2UTxPaNBoKLSeVgW_Wuw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Luna", "uri": "https://maps.google.com/maps/contrib/101949209843736515467" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4799624521792605391&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:40:54+00:00" },
+          "researcher_note": "更科系そばの一店。同系列内の屋号の異同(総本家/更科堀井/永坂更科)は経緯断定を避け編集判断に委ねる"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJn2mJTp-LGGARFXypO7Kz9Z0",
+          "title": "麻布永坂 更科本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都港区麻布十番1丁目2-7", "primary_type": "レストラン" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjD8OGBWsiBM_QUgZR5xL756QO9dd2LCFNEeGXAK2lYAotmW_cVgeeufvsoHavYxv12RxElNl7_ZbbrPG9G26ICM2PZCajaJtphyJ4kfVJ7QH9ZLhYsVkmUkqeHxFMeuoFeQV2LOxDuwPtw25-Pn9ywH=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "yu mi", "uri": "https://maps.google.com/maps/contrib/104053684195643749715" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11382201211335310357&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:40:54+00:00" },
+          "researcher_note": "res-01と同じ『更科』を屋号に含む別法人の店。res-01との名称の異同が発注の主題に近い"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJX-yVohyMGGARUTdpnpXyQNQ",
+          "title": "神田 やぶそば",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都千代田区神田淡路町2丁目10", "primary_type": "レストラン" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAsauLNVrDUZeZO4RUJU6kyXxg19abj1LFTLoFfls0_CBYa7KuUQdji088Q1Xrp4QnMopBg3k_H4f5rOcN-eILrcND0wlNrpXDr_EHWK-QLGDnaKfWKDh7E_S85ASkU1LK1l3BE7LaQKbotvg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "かんだやぶそば", "uri": "https://maps.google.com/maps/contrib/100781225505502931845" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15294491058971948881&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:40:54+00:00" },
+          "researcher_note": "藪蕎麦系。地名を冠した屋号(神田/並木/上野)を持つ複数店の一つ"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJq6oF_saOGGARikXRyPA55vI",
+          "title": "並木藪蕎麦",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都台東区雷門2丁目11-9", "primary_type": "レストラン" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjArtgkcOnMQymhCuwjABEOaDdo53L1rAXudJpHr-OHuJJAsHhQjUk9qgb9anA1sjDbfm0fIiXhG05QWX2J3oOq5R7w5YL1f6L7k1lrpZYha_wqS4VXFeSHxa15da-OBI4uF3B-LZeJaOd8=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "山雲海月", "uri": "https://maps.google.com/maps/contrib/115665929955581317240" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17502740708146103690&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:40:54+00:00" },
+          "researcher_note": "res-03と同系統の藪蕎麦。屋号に地名を冠して区別している一件"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJAQCZAJ-OGGARq9UxjdESVw4",
+          "title": "上野 藪そば",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都台東区上野6丁目9-16",
+            "primary_type": "レストラン",
+            "note": "検索語『池之端藪蕎麦』『藪蕎麦 池之端』のいずれでもPlacesの登録名は『上野 藪そば』として返った。検索語と登録名の異同そのものは事実だが、改称の経緯は未確認"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjD8eqFS1sScEnhPgoVT-rkgDGL7syuzHvwGOHz0pgKVBEmlTsMJaoLV7BtvqY3I1wPViiG5aX6PJimagwkSwu_nBoOEusMbt-1d0b4HLP5HCdL0g84bhv-14MQMgZs47k1Am1Mffqrb5ztauy4=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "上野 藪そば", "uri": "https://maps.google.com/maps/contrib/102504692004326717603" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1033315330731136427&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:41:16+00:00" },
+          "researcher_note": "検索語と登録名の乖離自体が『呼称』の主題に触れる。ただし改称の経緯は未確認であり断定不可"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJLy_B0U-JGGARz9GeTk7MajA",
+          "title": "人形町今半 人形町本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都中央区日本橋人形町2丁目9-12", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDSMPmC-m-MbUqBpQG5cQc-aldtra_xC-VhiDj0Be57ZrrRoSOxBI7fxioZ6oPm5W2Q_ZD4LDQ3mxcrlzZHDQgCHPJGQOGQrz0bApDQE4GIlvqO2mBO0KClYC83_0vIcumH89kiDQG_i_MCl9iZWYxR=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "LuJin Arsene", "uri": "https://maps.google.com/maps/contrib/103100857067533649351" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3488825498050417103&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:41:16+00:00" },
+          "researcher_note": "今半系すき焼き。地名を冠した屋号(人形町/浅草)で法人が分かれている一件"
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJ99yU6b-OGGAR2NfOuMg0JUA",
+          "title": "浅草今半 国際通り本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都台東区西浅草3丁目1-12", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDdDozQcMW0o0Ct3uCZQ5q8zH90A8iJm_i2em2KiQE_IJnxLtaC1kCx7dToHHhBaQQ0YqvQhE0LR-s_trC0soJYLm9o09sRzYHxiUsGIboyLaqC4pLaUQF-PsjAqwQ92uMuDaco7C1zdbQBAmII5fWWhw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "みかど", "uri": "https://maps.google.com/maps/contrib/111139316463867389106" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4622158629264349144&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:41:16+00:00" },
+          "researcher_note": "res-06と屋号を分ける浅草側の今半グループ本店"
+        },
+        {
+          "cand_id": "res-08",
+          "source_api": "google_places",
+          "source_id": "ChIJn-uWzsaOGGARVtp2-TErB8E",
+          "title": "すき焼 今半本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都台東区浅草1丁目19-7", "primary_type": "レストラン" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDb3zpyKLNzz2wPVMS8UcyH4BLRws67219uD9LOlvQQE1DFSD9SLkN6IdoqYa-nxK6OvCbZ8WkmlXaghJBWYYWV77cgtHjMsX9qhErAw8hNeOECS57O1Mcp4U6CKBVpfHttPggulzKxQ0TiWaz_U1CLHA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Jewel", "uri": "https://maps.google.com/maps/contrib/101736188956455349216" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13909133467795774038&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:41:16+00:00" },
+          "researcher_note": "今半系。単独で『今半本店』を名乗る一件で、res-06/07との名称の重なりと違いが確認できる"
+        },
+        {
+          "cand_id": "res-09",
+          "source_api": "google_places",
+          "source_id": "ChIJHYK4PcGOGGARqzUV1AuY7aA",
+          "title": "今半別館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都台東区浅草2丁目2-5", "primary_type": "レストラン" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBOH0GwmikTXzfTnNdexouxO0YGyQsQ6MZ6m5EfWg9kpZGhIVwINVWGAiYzX9VkofiXDWidYwooxJWMgqnoazyVsYzC1KaqkxCFd9DYBgVj_HyhF8_tC_4bMDehBuUQUOCbyDulfBpzoVvBR06nCc06=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "とうきん", "uri": "https://maps.google.com/maps/contrib/103528029644786221928" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11596091792119117227&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-08-31T20:41:16+00:00" },
+          "researcher_note": "予備候補。今半系のもう一店。他候補との屋号の重なり方の比較材料"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
