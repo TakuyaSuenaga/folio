@@ -1,0 +1,50 @@
+{
+  "vol": 37,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=10590307626199221847&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009403772",
+        "status": 200
+      },
+      {
+        "url": "https://maps.google.com/?cid=12202279692666789727&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "lead(「三つの『長い』を辿る特集。」の箇所)",
+      "severity": "minor",
+      "type": "規定違反",
+      "genzai": "三つの『長い』を辿る特集。",
+      "teisei": "三つの「長い」を辿る特集。(『』は作品名専用。『長い』は引用・強調のため「」が正しい。vol-006「もう一つの場所」・vol-028「替え玉」など既刊の強調表記も「」を使用している)"
+    },
+    {
+      "id": "P-02",
+      "location": "items[2](res-01 神田まつや 本店) h2・DATA欄「題名」行 と essay 冒頭",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "見出し・DATA欄は「神田まつや 本店」(まつやと本店の間に全角スペースあり)、本文は「神田まつや本店」(スペースなし)",
+      "teisei": "見出し・DATA欄・本文で表記を統一する(例: いずれも「神田まつや 本店」に揃える)"
+    },
+    {
+      "id": "P-03",
+      "location": "items[0](arc-01 天神橋筋商店街) DATA欄「address」行",
+      "severity": "minor",
+      "type": "誤字",
+      "genzai": "日本、〒530-0041 大阪府大阪市北区天神橋２丁目３ 三丁目",
+      "teisei": "全角数字「２丁目３」と漢数字「三丁目」が重複・混在している。DATA欄は算用数字(半角)に統一し、重複表記を解消する(例: 天神橋三丁目 など、住所の実態を確認のうえ単一の表記に整理する)"
+    }
+  ]
+}

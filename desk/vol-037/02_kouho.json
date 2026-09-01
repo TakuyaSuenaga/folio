@@ -1,0 +1,327 @@
+{
+  "vol": 37,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJTW9DUrnmAGARVwa3Ga1U-JI",
+          "title": "天神橋筋商店街",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒530-0041 大阪府大阪市北区天神橋２丁目３ 三丁目", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDykyCDw_ho6fTvjOo4g725SGovINmvlHIIWHxSx_6urEWnWa7d_ShzkmC_z3O19RFmGbkLusNJRZV3gJ8yKKJ3bHTq1BBqcJgrLgyYf3GkfGuBmI-57bLzu1KApBXMPiqoDqLLn7_tDFv7IMg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Chih-Wei Huang", "uri": "https://maps.google.com/maps/contrib/107774489703055034441" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10590307626199221847&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-01T18:16:57+00:00" },
+          "researcher_note": "日本一長い商店街としてしばしば言及されるアーケード街。全長の数値はPlacesレスポンスに含まれない。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJ03VrBuyKGGARb-6EtBOziqM",
+          "title": "戸越銀座商店街",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒142-0041 東京都品川区戸越１丁目１５−１６ 戸越銀座商店街会館", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCkN_Ido4u2dakbGs-EBUgg-OfHq_2hb6zs95ykNfI2za7leEHqsjgXRWJB7eSNLOHM2EeScm9i36mpUEXcApaDa7TkvnrRWXuHTku79iE9J1zN6ZjOMqy5akdaqr5ltNKyVC4OKy54TvhHBV2QVh9Dfg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Kenta Kobayashi", "uri": "https://maps.google.com/maps/contrib/102774503050690640606" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11784428272182685295&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-01T18:16:57+00:00" },
+          "researcher_note": "都内有数の長さで知られる商店街。全長の数値はPlacesレスポンスに含まれない。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJiWP-0MqHRTURnO2pgJU1yYE",
+          "title": "宇和米博物館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒797-0015 愛媛県西予市宇和町卯之町２丁目２４", "primary_type": "博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCuCQ9UVuzSVqZndERFk0Tx-s6QEqdrSSiQi0QgZgnPRb-kZGH_g44vn650wmQMlLX8lPWPPlL2_YlvoRGKnm7f5oJ83MwMa8mIIBkisDoRrexpBRlM3qJJEC2-SDAGFss0z2GZLQyTD8xXhMY=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "宇和米博物館", "uri": "https://maps.google.com/maps/contrib/116197682257480919534" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9352065017436564892&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-01T18:16:57+00:00" },
+          "researcher_note": "旧小学校校舎の木造校舎。日本一長い木造廊下として言及される旧宇和町小学校の校舎を利用。全長の数値はPlacesレスポンスに含まれない。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJncvjyb0AVDURNAnA9hCsKus",
+          "title": "廻廊(吉備津神社)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒701-1341 岡山県岡山市北区吉備津", "primary_type": "神社" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA-P5vTM6At7J-qaBfkdmTX2GQIlFLbR-p_4oDuDjwZvfbedkXl9vZZkeiqsSGq2AXSXSw82-AEEEiXg_M1fsRnT6fcoes0uUeKpVQeHzs3oVUD8Mb00RISolhP6Eo525iktUpcRlVp6UvGPzQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "DASIT", "uri": "https://maps.google.com/maps/contrib/107106948626125471575" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16945545736794147124&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-01T18:16:57+00:00" },
+          "researcher_note": "吉備津神社境内の屋根付き回廊。全長の数値はPlacesレスポンスに含まれない。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJzTv1NEGCAGARP4zXM8fBqq4",
+          "title": "明石海峡大橋",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒655-0047 兵庫県神戸市垂水区東舞子町４", "primary_type": "橋" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDhQhkMY-iYUi2VaPQW7DbCsdJ9Uh_wiN9tvBtGyun8_bgBjeKzmIYF_FLhTtMYVgffBovs5g_fHAktZeQFhPN_W-FXNMuP9Z4drrYPtwzTnKf-efyVC1Bq21oC7nPhhRtCPnnyzR-irnFbhcs=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "H. Nak.", "uri": "https://maps.google.com/maps/contrib/105494060776398842861" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12586085169952689215&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-01T18:16:57+00:00" },
+          "researcher_note": "世界最長クラスの吊り橋として知られる。全長の数値はPlacesレスポンスに含まれない。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJIRpiC-gHAWARCdqXAyvoLKI",
+          "title": "西陣千本商店街振興組合",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒602-8455 京都府京都市上京区千本通一条上る泰童片原町６５７", "primary_type": "協会/組織" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCBUuLYRh0-x2-2Rpq0E71XGz3zJMM_n-3NV18I4uBBJtLaf-ciOGu3UpntDP4MbJ9jIbDMMA8aTOGd89AEMILUVushuDhcO6W7EQ8kxq8gegQNLDXMC5NVDPdfgURgIIkOBUqiPjCoETUZWg=s4800-w500",
+            "source": "google-places",
+            "attributions": [ { "name": "西陣千本商店街振興組合", "uri": "https://maps.google.com/maps/contrib/116388344064553959704" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11685970404561115657&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-01T18:17:05+00:00" },
+          "researcher_note": "千本通に沿って続く京都の商店街振興組合。全長の数値はPlacesレスポンスに含まれない。天神橋筋・戸越銀座に比べ知名度で劣る。"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJqc_UyLqfm18ROPwalcSyvZ4",
+          "title": "サンロード青森",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒030-0845 青森県青森市緑３丁目９−２", "primary_type": "ショッピング モール" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCDVWFSqb8hqRgWZABvkQ2WBqdRdpwSRYiO-uJLmraa-eUXOC1pqJOhEtpGG1Dil62ITySydbU5SJ-CXmqvLh4U8t98NkxDzvt1byzdSgFCpADBO823S6qjPOh5-oiEXlxgiBUpG00HDfrN7g=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Jun Kakizaki", "uri": "https://maps.google.com/maps/contrib/105228964796653844549" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11438495185975835704&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-01T18:17:05+00:00" },
+          "researcher_note": "雪国青森の屋内アーケード型商業施設。全長の数値はPlacesレスポンスに含まれない。「長さ」の言及は弱い。"
+        }
+      ]
+    },
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784884054199",
+          "title": "中西進著作集 19 (万葉集全訳注原文付 1)",
+          "creator": "中西進",
+          "year": 2008,
+          "publisher": "四季社",
+          "meta": { "ndl_extent": "513p", "ndl_description": "1: 巻第1-巻第6", "ndl_subject": "万葉集--評釈" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009403772", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-01T18:16:48+00:00" },
+          "researcher_note": "『万葉集』全二十巻を全訳注原文付で収める三分冊の第一分冊(巻第一〜巻第六)。長歌を含む全歌を収録。openBDの書影は空。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784884054205",
+          "title": "中西進著作集 20 (万葉集全訳注原文付 2)",
+          "creator": "中西進",
+          "year": 2008,
+          "publisher": "四季社",
+          "meta": { "ndl_extent": "590p", "ndl_description": "2: 巻第7-巻第13", "ndl_subject": "万葉集--評釈" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009493678", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-01T18:16:48+00:00" },
+          "researcher_note": "同三分冊の第二分冊(巻第七〜巻第十三)。openBDの書影は空。"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784884054212",
+          "title": "中西進著作集 21 (万葉集全訳注原文付 3)",
+          "creator": "中西進",
+          "year": 2008,
+          "publisher": "四季社",
+          "meta": { "ndl_extent": "563p", "ndl_description": "3: 巻第14-巻第20, 初句索引", "ndl_subject": "万葉集--評釈" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009415381", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-01T18:16:48+00:00" },
+          "researcher_note": "同三分冊の第三分冊(巻第十四〜巻第二十、初句索引)。openBDの書影は空。"
+        },
+        {
+          "cand_id": "poe-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784047036857",
+          "title": "万葉の歌びとたち(新装版)",
+          "creator": "中西進",
+          "year": 2019,
+          "publisher": "KADOKAWA(角川選書)",
+          "meta": { "ndl_extent": "252p", "ndl_series": "角川選書 ; 620. 万葉読本 ; 2", "ndl_description": "初版: 角川書店1980年刊" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029682350", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-01T18:16:48+00:00" },
+          "researcher_note": "万葉集の歌人論を集めた一冊(額田王・柿本人麻呂・大伴家持ほか)。長歌そのものの引用ではなく、長歌の作者群を論じた本。openBDの書影は空。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJQ3MESwOMGGARX99d47o0V6k",
+          "title": "神田まつや 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒101-0041 東京都千代田区神田須田町１丁目１３", "primary_type": "レストラン" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBYr8Nl1ulg-V-2B0PZhB_GGf3o5kPHGFvEmIqWZA1eTjK1fUzPx5UHgyWNBgLH2NcDBdD7hWD5Vy6CI4J2fmcpUUV2G9YIDawizv7IssqPik3aFikyw-eN8HPZbRHqnh9m1Sd-PycTNJ0G=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "犬神工房", "uri": "https://maps.google.com/maps/contrib/117298617770032415425" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12202279692666789727&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-01T18:17:05+00:00" },
+          "researcher_note": "神田須田町の老舗蕎麦屋。開業年・継続年数はPlacesレスポンスに含まれない。"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJK_Qq16qOGGARKNl04qw-ba4",
+          "title": "うなぎ割烹 大江戸",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒103-0023 東京都中央区日本橋本町４丁目７−１０", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBlEBsmUc1iqHlbCzdAiI6qNfTW46nEUQi_GmlOsQz2WBSoiEpW1QMFJrb04EZk_URMR7L2B3zxJNqbnD2U9qehOex7kfiqqpscYkQjWzVEuKg3Q3XVm6_Cm_BnCGhwzsuhx4BEC98ex-d0vj2vbA2x=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "うなぎ割烹 大江戸", "uri": "https://maps.google.com/maps/contrib/110911658368782637802" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12568771047315527976&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-01T18:17:05+00:00" },
+          "researcher_note": "日本橋本町のうなぎ割烹。開業年・継続年数はPlacesレスポンスに含まれない。"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJc6qdmPqNGGARydJjzkV-sT0",
+          "title": "上野精養軒",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒110-8715 東京都台東区上野公園４−５８", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCNoHPFdx77Qb0gZSPyh5MhdOTShtVFMHd0yN8sr_TlpaErNmNJAEwW37S-_JWT7W5b_yg0SOgJ1ZXXU8TbupVtqZW0Ae-TGQR3pW2Hb7G50DW_HIU5ekJhvO3Q32_Yp4b3KqjZOnl35Pbt2go=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "TOYO MT", "uri": "https://maps.google.com/maps/contrib/108193686336514117307" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4445473145471881929&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-01T18:17:05+00:00" },
+          "researcher_note": "上野公園の明治創業とされる洋食店。開業年・継続年数はPlacesレスポンスに含まれない。"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJY9sxthyMGGARLrj2juFzCrw",
+          "title": "竹むら",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒101-0041 東京都千代田区神田須田町１丁目１９", "primary_type": "菓子店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA52GwcfxI9sZNPEac48srf2QNvty8m34YOHvZWx1prikEFffYbRD4TO5bj2T2yCXwd0fQ_Yxnl4iVRQljMqrnlxEpWSyPXOYGbGecuR8xuHt6gmObtG7aUjasueftb8pRwhfX3uPEaPllsyA=s4800-w650",
+            "source": "google-places",
+            "attributions": [ { "name": "ミンキーモモ", "uri": "https://maps.google.com/maps/contrib/100675024354027217278" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13549769841500928046&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-01T18:17:12+00:00" },
+          "researcher_note": "神田須田町の老舗甘味処。開業年・継続年数はPlacesレスポンスに含まれない。"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJY57SxceOGGAR5p8zPgOh_p4",
+          "title": "駒形どぜう 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒111-0043 東京都台東区駒形１丁目７−１２", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCld4Obe45qWTKf4boEt_AhH6EQG5EWrA6IqwyYUPhpjRWTyyXDLfe3HG-rJYUxOg-BplyQ8HArBl6kSORiMsc_CgVSq2XSM0xAsfwNg7YVxbSL3oZCicu22dAe_6uLeW3dAPTmxtM3BVqatFMLD-iqcw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "駒形どぜう 本店", "uri": "https://maps.google.com/maps/contrib/100757614160252523664" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11456771537377664998&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-01T18:17:12+00:00" },
+          "researcher_note": "浅草駒形の老舗どぜう料理店。開業年・継続年数はPlacesレスポンスに含まれない。"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJywjRNAOMGGARCM7IpPYytRQ",
+          "title": "いせ源",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒101-0041 東京都千代田区神田須田町１丁目１１−１", "primary_type": "シーフード・海鮮料理店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBDi9KgdVp15neo6P5IqeUM2H3x0sLg7i8TpM7rxAkuBUyjXJ0vYRgWaK5Gv6dkw41GL5v8Olm00iSUSLpusPX9jPPZb5YOJuhRQNgExmzGIIo8_h_MFAcLphSYVN4-ZtZslLA-BxX0V19v=s4800-w900",
+            "source": "google-places",
+            "attributions": [ { "name": "いせ源", "uri": "https://maps.google.com/maps/contrib/115342010469941815304" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1492154886451154440&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-01T18:17:12+00:00" },
+          "researcher_note": "神田須田町のあんこう鍋の老舗。開業年・継続年数はPlacesレスポンスに含まれない。"
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJ9zuhtByMGGARx4--ZNpSWJc",
+          "title": "ぼたん",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒101-0041 東京都千代田区神田須田町１丁目１５", "primary_type": "鶏料理店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDFZhwsbeBWXz8ii5kvL1BF-PJOCDa94k_xOMdKgOKxm2RDoxEZuXPC9JZ7m_GDFLtfAJPAeCBINpAu93pUs1aMr9LlvHC0TqT-tyMEuOA37nEqrpK-vTMXUq-Us2w48mYHB7w8Y7Yi0viWwObwB-hurA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Junyo Kanemitsu", "uri": "https://maps.google.com/maps/contrib/113457450347568532787" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10905557595624214471&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-01T18:17:12+00:00" },
+          "researcher_note": "神田須田町の鳥すき焼きの老舗。開業年・継続年数はPlacesレスポンスに含まれない。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    { "hacchu": "poetry(長歌または長編歌集・歌集): 候補5点以上", "reason": "NDLサーチでは『校註日本文芸新篇万葉集抄』(ISBN 4-8386-0529-3)等の追加候補を得たが、いずれもopenBDに未収録のため候補から除外した。実在チェーンを保てる候補は4点に留まる。" }
+  ]
+}
