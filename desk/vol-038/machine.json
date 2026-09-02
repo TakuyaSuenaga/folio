@@ -1,0 +1,39 @@
+{
+  "genko_match": true,
+  "genko_detail": {
+    "lead": true,
+    "items[0].essay": true,
+    "items[1].essay": true,
+    "items[2].essay": true
+  },
+  "links_ok": true,
+  "links_detail": {
+    "present": {
+      "https://ndlsearch.ndl.go.jp/books/R100000002-I030426730": true,
+      "https://maps.google.com/?cid=11687990608566252441&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true,
+      "https://music.apple.com/jp/album/haydn-2032-vol-9-laddio/1575032841?uo=4": true
+    },
+    "unknown_external": [],
+    "unsafe_schemes": [],
+    "event_handlers": [],
+    "meta_refresh": false,
+    "css_external": []
+  },
+  "pr_labels_ok": true,
+  "html_ok": true,
+  "okuzuke_ok": true,
+  "url_status": [
+    {
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030426730",
+      "status": 200
+    },
+    {
+      "url": "https://maps.google.com/?cid=11687990608566252441&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "status": 200
+    },
+    {
+      "url": "https://music.apple.com/jp/album/haydn-2032-vol-9-laddio/1575032841?uo=4",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "vol": 38,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true,
+      "items[2].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I030426730": true,
+        "https://maps.google.com/?cid=11687990608566252441&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true,
+        "https://music.apple.com/jp/album/haydn-2032-vol-9-laddio/1575032841?uo=4": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      { "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030426730", "status": 200 },
+      { "url": "https://maps.google.com/?cid=11687990608566252441&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "status": 200 },
+      { "url": "https://music.apple.com/jp/album/haydn-2032-vol-9-laddio/1575032841?uo=4", "status": 200 }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[1](青森県庁) 見出し・DATA欄「題名」と本文(architecture essayおよびmusic essay内の比喩箇所)",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "見出し・DATA欄「題名」は「青森県庁」だが、architecture essayは「青森県庁舎は…」で始まり以降も「この庁舎は」「庁舎は」と一貫して『庁舎』表記。music essayの比喩箇所でも「庁舎が建物の高さを減らして」と『庁舎』表記",
+      "teisei": "見出し・DATA欄「題名」を「青森県庁舎」に統一するか、本文側の「庁舎」を「県庁」に統一し、三点(見出し・本文・DATA欄)の固有名詞表記を揃える"
+    },
+    {
+      "id": "P-02",
+      "location": "items[1](青森県庁) DATA欄「address」行",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "青森県青森市長島１丁目１−１(全角算用数字)",
+      "teisei": "青森県青森市長島1丁目1-1(半角算用数字に修正。同じDATA欄内の「年」2020・ISBN 9784877232580・price 1000円・track_count 17・release_date 2021-01-22はいずれも半角のため統一)"
+    }
+  ]
+}

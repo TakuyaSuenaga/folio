@@ -1,0 +1,295 @@
+{
+  "vol": 38,
+  "genres": [
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "bok-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784877232580",
+          "title": "【普及版】あした死んでもいい片づけ 実践！",
+          "creator": "ごんおばちゃま",
+          "year": 2020,
+          "publisher": "興陽館",
+          "meta": { "isbn": "9784877232580", "price": "1000円", "note": "2015年刊のベストセラーを改訂・アップデートした普及版。副題は「覚悟の生前整理」" },
+          "image": { "url": "https://cover.openbd.jp/9784877232580.jpg", "source": "openbd" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030426730", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-02T18:22:15+00:00" },
+          "researcher_note": "「本気の最後の片づけ」を掲げる実用書。死を待たず自ら片づけの規模を定める発注に直接合致。"
+        },
+        {
+          "cand_id": "bok-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784877232146",
+          "title": "あした死んでもいい暮らしかた",
+          "creator": "ごんおばちゃま",
+          "year": 2017,
+          "publisher": "興陽館",
+          "meta": { "isbn": "9784877232146", "price": "1200円", "series": "「あした死んでもいい」シリーズ第三弾" },
+          "image": { "url": "https://cover.openbd.jp/9784877232146.jpg", "source": "openbd" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028032644", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-02T18:22:15+00:00" },
+          "researcher_note": "部屋・家事・お金まで「身軽に少なく暮らす」を説く続刊。生前整理シリーズの一冊として発注に沿う。"
+        },
+        {
+          "cand_id": "bok-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784780425369",
+          "title": "遺品整理士が教える遺す技術と片付けの極意 : 家族の負担を減らす生前整理のすすめ",
+          "creator": "木村, 榮治",
+          "year": 2022,
+          "publisher": "メイツユニバーサルコンテンツ",
+          "meta": { "isbn": "9784780425369", "series": "コツがわかる本", "price": "1630円" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032160292", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-02T18:22:15+00:00" },
+          "researcher_note": "遺品整理士による実用書。家族への負担を見越して当人が生前に整理する営みを技術として解説。"
+        },
+        {
+          "cand_id": "bok-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784582857672",
+          "title": "遺品整理士という仕事",
+          "creator": "木村, 榮治",
+          "year": 2015,
+          "publisher": "平凡社",
+          "meta": { "isbn": "9784582857672", "series": "平凡社新書767", "price": "760円" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026222874", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-02T18:22:15+00:00" },
+          "researcher_note": "遺品整理という職能そのものを描いた新書。当人ではなく遺す側の視点から終活の周辺を捉える一冊。"
+        },
+        {
+          "cand_id": "bok-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784569812397",
+          "title": "あなたのお墓は誰が守るのか : 「心のエンディングノート」のすすめ",
+          "creator": "枡野, 俊明, 1953-",
+          "year": 2013,
+          "publisher": "PHP研究所",
+          "meta": { "isbn": "9784569812397", "series": "PHP新書868", "price": "760円" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024522397", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-02T18:22:15+00:00" },
+          "researcher_note": "曹洞宗僧侶によるエンディングノートのすすめ。墓という死後の規模を生前に定める視点を含む。"
+        },
+        {
+          "cand_id": "bok-06",
+          "source_api": "ndl+openbd",
+          "source_id": "9784761269081",
+          "title": "「ありがとう」と言われて逝くためにやっておきたい50のこと",
+          "creator": "保坂, 隆, 1952-",
+          "year": 2013,
+          "publisher": "かんき出版",
+          "meta": { "isbn": "9784761269081", "price": "1000円" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024373824", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-02T18:22:15+00:00" },
+          "researcher_note": "精神科医による、逝く前にやっておくべき事柄を50項目にまとめた実用書。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJAQDw-hyfm18RmXOxaYgVNKI",
+          "title": "青森県庁",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "青森県青森市長島１丁目１−１",
+            "primary_type": "政府機関",
+            "note": "NDLサーチで確認できる記事「青森県庁舎(南棟・東棟・議会棟):減築を伴う耐震・長寿命化改修:耐震改修優秀建築賞」「青森県庁舎(1960年竣工) 上層階減築で耐震改修費を抑制」による。上層階を減築し耐震改修費を抑制、令和2年度耐震改修優秀建築賞を受賞"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAFdro81efgSA8Iltq-ofRoCE9YRUhKwKaFHlTv-9fXnamEPFc4Ekv73GlYeILilQnU6s0UGi24hC3CABoTh8iPLjJRAGbHDrn-d_0en4cttuDEYzFYEIZFyou7KjKf6D55cDYsuKDMJzsBg_Hha5wR-w=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "G.H", "uri": "https://maps.google.com/maps/contrib/111524630516075760413" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11687990608566252441&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-02T18:21:09+00:00" },
+          "researcher_note": "1960年竣工庁舎の上層階を減築して耐震・長寿命化を図った実例。増築ではなく縮小改修による延命という発注に強く合致。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJ5YxA8-8aoF8RhHtE06JevZA",
+          "title": "黒松内町立黒松内中学校",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "北海道寿都郡黒松内町旭野４８−１",
+            "primary_type": "学校",
+            "note": "NDLサーチで確認できる記事「エコ改修 減築で生み出した『光のみち』--北海道黒松内町/設計:アトリエブンク ガラス屋根や外断熱で消費電力を40%削減した黒松内中学校」による"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBKYb8Yl4ZPrKTrLhpxfC3Clwnknkr33FBgtZNqbtD8b3ufjG62wcre1LuFrT92uNaSu6C3RF8xcPJvaL900ivQuzWd2fA31sRbrCcAWoef-kcN4blcRfsq6a5t2d-JC3soKhwzsl183uJ8ThQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "クレイジートミー", "uri": "https://maps.google.com/maps/contrib/106642512357343321422" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10429596365482130308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-02T18:21:09+00:00" },
+          "researcher_note": "アトリエブンク設計のエコ改修校舎。減築によって光と断熱性能を得た、意図的な縮小改修の実例。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJQW0bGMmqBmARmZFxd8fx004",
+          "title": "愛農学園農業高等学校",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "三重県伊賀市別府６９０",
+            "primary_type": "学校",
+            "note": "NDLサーチで確認できる記事「愛農学園農業高等学校校舎再生工事:3階建てRC校舎の減築による耐震化と環境制御」「学校法人愛農学園農業高等学校の減築による耐震改修」による"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCBB5AcvNftoXYXvBojycp9DisEV7QHG2zOm4oPYM9EVjyYdrgvS2UYxXbYYFHfF9Y83hBOH8ioZnwrDh9_G7msE6v_NzrFZI7bNL0WZ--jTQ3kmMp6f_jUomBYI8FE5Ce-NwQYHNtKyuSiW9o=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Jun Hotta", "uri": "https://maps.google.com/maps/contrib/116368198166123289400" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5680149394049044889&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-02T18:21:09+00:00" },
+          "researcher_note": "3階建てRC校舎を減築し耐震化と環境制御を両立させた再生工事。特集「減築の時代の幕開け」に取り上げられた事例。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJyyinOCZ_ImARuf-j3yzPiZQ",
+          "title": "白井市役所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "千葉県白井市復１１２３",
+            "primary_type": "市役所・区役所",
+            "note": "NDLサーチで確認できる記事「改修による建物再活用(6)白井市役所庁舎整備事業:減築+新築による庁舎整備」による"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDHbCaEg5iip7Wb3ggda5d-deRjz7N0qlr0ztVW-9FPfdg9Rl8Zd30Vtzk3CALFRgEJNFdlGM2gUrvZlWfKE3wnJ3M7ZyACEBARKxEUqjw35FIFglWMOV0IowvtJa62Ksxr0cCOV3VL76Z_-Vk=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "カラシウスオラータス", "uri": "https://maps.google.com/maps/contrib/107804594792776140830" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10703313781060272057&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-02T18:21:09+00:00" },
+          "researcher_note": "老朽庁舎を「減築+新築」の組み合わせで整備した市役所。行政施設における縮小改修の実例。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJKduxU1_-QDURSUfST0haMpo",
+          "title": "温泉プラザ山鹿",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "熊本県山鹿市山鹿１番地",
+            "primary_type": "ショッピング モール",
+            "note": "NDLサーチで確認できる記事「熊本県山鹿市『温泉プラザ山鹿』の再生--温泉プラザ建替え組合施行--減築・改修、部分建替えリニューアルオープン」による"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBUbdsihCL9Knc-JZEk_-VkgLDkb8Gp1M1I5EmhaDTZjBlbM81obWp1zF237YAEZHzd4JEtXSA7cyFXV8wMPVD1P_CDJnPIHfSTI6vJ0W0ISkkg1CsocunKw7guH0Esxk3I8Fs4W7VQUAYq=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "温泉プラザ山鹿", "uri": "https://maps.google.com/maps/contrib/106525211888165072032" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11111042497299760969&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-02T18:21:09+00:00" },
+          "researcher_note": "老朽化した温泉施設を減築・改修と部分建替えで再生させた事例。建替え組合施行によるリニューアルオープン。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1443312117",
+          "title": "Teresa Teng Last Concert Kanzenban 1",
+          "creator": "テレサ・テン",
+          "year": 1999,
+          "publisher": "",
+          "meta": { "track_count": 13, "primary_genre": "J-Pop", "release_date": "1999-12-01" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9f/e9/24/9fe9248f-b05f-89b1-38c2-d1c056420e6d/00044002906441.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/teresa-teng-last-concert-kanzenban-1/1443312117?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-02T18:23:35+00:00" },
+          "researcher_note": "タイトルに「ラストコンサート」を冠する実演の記録。iTunes配信日は1999年12月。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "440277704",
+          "title": "Grape Last Concert Densetsu No Kanda Kyouritsu Live, Vol. 1",
+          "creator": "グレープ",
+          "year": 2006,
+          "publisher": "",
+          "meta": { "track_count": 10, "primary_genre": "J-Pop", "release_date": "2006-01-01" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b0/9e/dd/b09edd58-1828-5ea6-4c3b-b92282da99e4/4538182138304_cov.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/grape-last-concert-densetsu-no-kanda-kyouritsu-live-vol-1/440277704?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-02T18:23:35+00:00" },
+          "researcher_note": "「伝説の神田共立ライブ」と題された解散公演の記録。幕引きを自ら演目化した実例。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1444127799",
+          "title": "Last Concert (18 Tracks Ver.)",
+          "creator": "本田美奈子",
+          "year": 2008,
+          "publisher": "",
+          "meta": { "track_count": 18, "primary_genre": "ポップ", "release_date": "2008-12-17" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/b3/d9/aa/b3d9aa73-a09c-ee00-fec9-b5e6ca574809/00044002991072.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/last-concert-18-tracks-ver/1444127799?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-02T18:23:35+00:00" },
+          "researcher_note": "「ラストコンサート」と題された実演の記録盤。18トラック版として再発売。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1798463494",
+          "title": "ジャン・フルネ ラストコンサート",
+          "creator": "ジャン・フルネ, 伊藤恵 & 東京都交響楽団",
+          "year": 2006,
+          "publisher": "",
+          "meta": { "track_count": 8, "primary_genre": "クラシック", "release_date": "2006-05-20" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d3/56/c5/d356c55c-7351-f3d6-bf64-002d61bd67d5/4580789697739.png/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E3%82%B8%E3%83%A3%E3%83%B3-%E3%83%95%E3%83%AB%E3%83%8D-%E3%83%A9%E3%82%B9%E3%83%88%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%BC%E3%83%88/1798463494?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-02T18:23:35+00:00" },
+          "researcher_note": "指揮者ジャン・フルネの日本での最後の演奏会を収めた録音。指揮者自身の幕引きの記録。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1575032841",
+          "title": "Haydn 2032, Vol. 9: L'Addio",
+          "creator": "サンドリーヌ・ピオー, イル・ジャルディーノ・アルモニコ & ジョヴァンニ・アントニーニ",
+          "year": 2021,
+          "publisher": "",
+          "meta": { "track_count": 17, "primary_genre": "クラシック", "release_date": "2021-01-22", "note": "アルバム題「L'Addio(告別)」はハイドン交響曲第45番『告別』に由来する" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2f/f0/e0/2ff0e039-028b-82cc-fe43-8295a8bb0f41/3760014196843.png/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/haydn-2032-vol-9-laddio/1575032841?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-02T18:23:35+00:00" },
+          "researcher_note": "ハイドンが演奏者を一人ずつ退出させ楽団を段階的に縮小させて終える交響曲第45番『告別』を中心に据えたアルバム。作曲家が自ら幕引きの規模を仕組んだ作品の典型。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1536933820",
+          "title": "キャンディーズ ライブ(蔵前国技館10,000人カーニバル)",
+          "creator": "キャンディーズ",
+          "year": 2008,
+          "publisher": "",
+          "meta": { "track_count": 18, "primary_genre": "歌謡曲", "release_date": "2008-01-01", "note": "iTunesのreleaseDateは配信(再発)日。収録された解散コンサート自体の実施年はAPIレスポンスに記載なし" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/25/e7/a2/25e7a23d-6847-bb84-0251-2f42b8f3cb0b/jacket_MHXX01486B00Z_550.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%87%E3%82%A3%E3%83%BC%E3%82%BA-%E3%83%A9%E3%82%A4%E3%83%96-%E8%94%B5%E5%89%8D%E5%9B%BD%E6%8A%80%E9%A4%A810-000%E4%BA%BA%E3%82%AB%E3%83%BC%E3%83%8B%E3%83%90%E3%83%AB/1536933820?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-02T18:23:35+00:00" },
+          "researcher_note": "「普通の女の子に戻りたい」宣言後の解散カーニバルのライブ盤。自ら規模を宣言した幕引きの記録。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
