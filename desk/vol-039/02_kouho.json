@@ -1,0 +1,297 @@
+{
+  "vol": 39,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJCewJkL2LGGAR3Qmk0vCTGkg",
+          "title": "東京タワー",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都港区芝公園４丁目２−８", "primary_type": "展望台" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDpLB0ANKCgZx6ags8Th4BlgSMkvVuFR5p-jHjaJlrg7uJElHbYxFUPl23p_U5oTQVIZBqufrnGitYJ_EI7EFFuYJc3_7pjDqpdCObu7mrLTFx_aY2vQl40hwiV2bpZWY3clUMIpsw_fn8pjg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "쿰척", "uri": "https://maps.google.com/maps/contrib/112978333114003747188" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5195627782660688349&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-03T18:24:43+00:00" },
+          "researcher_note": "総合電波塔として避雷設備を備える大型鉄塔。避雷針・接地の設計詳細はPlacesレスポンス外のため断定は次工程での裏付けに委ねる。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJ35ov0dCOGGARKvdDH7NPHX0",
+          "title": "東京スカイツリー",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都墨田区押上１丁目１−２", "primary_type": "展望台" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA9bSDI42RBjMyrVzLGDkx1wG71kKLMdGZRe5hIt39n6GImYrj25PdH6JTzX2x0AadNMm9AzB0RD9zKwzQ6upYuSCVxWFKZNLFjASTXallNhmWmV3tEmc0pYN_WPifWOzUbRz9AzXkoLnSC6w=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Riccardo Widera", "uri": "https://maps.google.com/maps/contrib/107192220437452611381" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9015449659807889194&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-03T18:24:43+00:00" },
+          "researcher_note": "電波塔として実在する高さ634mの塔。避雷針・接地設備の仕様詳細はPlacesレスポンス外。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJaXQRs6lZwokRY6EFpJnhNNE",
+          "title": "エンパイア・ステート・ビル",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "20 W 34th St., New York, NY 10001 アメリカ合衆国", "primary_type": "展望台" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCMNpfHe16kxWfbCw8bsyBl44SsbRhTksYyB1xMaJY7yGXCsH6Meb7_W4R6Z6naHsQ9NSmeS3moKFZymMEkssEMd7pGbjXwTYpsoN7LMLwXisl3DI-G3LZ4ClQJbbLyEmxrn75EvU2Mi7o6kpw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Cale O'Day", "uri": "https://maps.google.com/maps/contrib/113686961824946879782" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15074921902713971043&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-03T18:24:43+00:00" },
+          "researcher_note": "落雷が多いことで知られる超高層建築。避雷針の一次資料はPlacesレスポンス外のため次工程での裏付けが必要。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJjWSHX50pC18RMSAiw3gaBOI",
+          "title": "さっぽろテレビ塔",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "北海道札幌市中央区大通西１丁目", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjC23Q9p3zftxXDAQATJxhx1OCNHxxFdEkoeBwQ7ZHmdVWxY0TD7jAiS4kkhJEISbn6E5CgPZjSF5Fh2POKNToDUWBQxaS8r4tGagiXcWKogtb-YsUyR-SBBTGGHuScxiLE8BaaD_iRsU3fK=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "彩州", "uri": "https://maps.google.com/maps/contrib/106319205630064691385" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16286171258450747441&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-03T18:24:43+00:00" },
+          "researcher_note": "電波塔兼展望塔として実在する鉄塔。避雷設備の仕様はPlacesレスポンス外。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJmzrzi9Y0K4gRgXUc3sTY7RU",
+          "title": "CNタワー",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "290 Bremner Blvd, Toronto, ON M5V 3L9 カナダ", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjC1yV7opBEkKcL-7uSk1QEqQZ3PSvHcnP-2ZtDvWVQ9ETl3w6G7xRRd-TDGeDwhI7aSq1h0nlQfPQbUQ3b3uqSOL5WupB7QKjkZgdSBNEZvRsj0I2smnBnqzvOedv4zkU8QAPIbbbL-SQ8syA=s4800-w600",
+            "source": "google-places",
+            "attributions": [ { "name": "Muhammad Habibur Sarder", "uri": "https://maps.google.com/maps/contrib/107823580793397204324" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1580157384328508801&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-03T18:24:43+00:00" },
+          "researcher_note": "落雷を年間多数受けることで知られる通信塔。避雷・接地設備の一次資料はPlacesレスポンス外。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJS-JnijRDXz4R4rfO4QLlRf8",
+          "title": "ブルジュ・ハリファ",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "1 Sheikh Mohammed bin Rashid Blvd, Downtown Dubai, Dubai, アラブ首長国連邦", "primary_type": "ランドマーク" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBR133EGwTByN3OnB-4mR8-0MXGZ21PkuqSWMqWL1LNz-qiV4WiCL02o4EhQgs7BcyzBDaRD70t_-XvP8Jke-VYcwnTeQJDVwiFjE0n5mlyVRfRY7XAnP4Hjw5jt6oQfeKkFtQPnsm_5MN59g=s4800-w720",
+            "source": "google-places",
+            "attributions": [ { "name": "Boss Time", "uri": "https://maps.google.com/maps/contrib/103697921505972622614" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=18394360053605775330&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-03T18:24:43+00:00" },
+          "researcher_note": "世界最高層の超高層ビル。避雷・接地設備の仕様詳細はPlacesレスポンス外。"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJh8s4AuGrQjQRIw2M8SmpDIw",
+          "title": "Taipei 101",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "110 台湾 Taipei City, Xinyi District, Xicun Village, Section 5, Xinyi Rd, No. 7号", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCQZckJwR83ES7GYRCkdnFJvObVekC9dj_oRVaM0xqMbg4pZbKwkTK1vN7ioa2BuEVKVjOtiITlgZXXqNNg3EaiDYoPcTuFdWTmJoifWp9AE4yF4HCJM3cQFUVfzZQSc14LHSvfeUxHspAmz-dOVvGzSg=s4800-w720",
+            "source": "google-places",
+            "attributions": [ { "name": "Thierry Dpst", "uri": "https://maps.google.com/maps/contrib/102782416645971623845" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10091626862641679651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-03T18:24:43+00:00" },
+          "researcher_note": "制振ダンパーで知られる超高層ビル。避雷・接地設備の仕様詳細はPlacesレスポンス外。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "359528125",
+          "title": "Electric Ladyland",
+          "creator": "ザ・ジミ・ヘンドリックス・エクスペリエンス",
+          "year": 1968,
+          "publisher": "",
+          "meta": { "track_count": 17, "primary_genre": "ポップ", "release_date": "1968-09-16" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4e/3a/4f/4e3a4fbb-7824-2cb6-9cc7-5ff3490140fc/mzi.yzsqzxhe.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/electric-ladyland/359528125?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-03T18:25:03+00:00" },
+          "researcher_note": "エレクトリックギターとアンプ・エフェクトを前面に押し出した実験的作品。表題自体が「電気」を掲げる。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "726154713",
+          "title": "Autobahn (Remastered)",
+          "creator": "クラフトワーク",
+          "year": 1974,
+          "publisher": "",
+          "meta": { "track_count": 5, "primary_genre": "エレクトロニック", "release_date": "1974-11-01" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/a6/b0/49a6b061-cbd8-ede5-446d-dae8b50e3b32/5099996601457.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/autobahn-remastered/726154713?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-03T18:25:03+00:00" },
+          "researcher_note": "シンセサイザーを主軸に据えた電子音楽の転換点とされるアルバム。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "726144557",
+          "title": "Trans-Europe Express (2009 Remaster)",
+          "creator": "クラフトワーク",
+          "year": 1977,
+          "publisher": "",
+          "meta": { "track_count": 8, "primary_genre": "エレクトロニック", "release_date": "1977-03-01" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e2/80/bc/e280bcf9-4048-8c42-2b6b-d8b9c9bbed52/5099996602058_1500x1500_300dpi.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/trans-europe-express-2009-remaster/726144557?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-03T18:25:03+00:00" },
+          "researcher_note": "シンセサイザーとシーケンサーによる電子音楽の代表作の一つ。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "726157248",
+          "title": "The Man-Machine (Remastered)",
+          "creator": "クラフトワーク",
+          "year": 1978,
+          "publisher": "",
+          "meta": { "track_count": 6, "primary_genre": "エレクトロニック", "release_date": "1978-05-19" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b7/c1/48/b7c1481a-5a92-4b71-ee35-ab7c890770da/5099996602256.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/the-man-machine-remastered/726157248?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-03T18:25:03+00:00" },
+          "researcher_note": "電子楽器と人間の関係を主題化した作品。技術導入が表現の中心に置かれる。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "700049905",
+          "title": "Radio-Activity (Remastered)",
+          "creator": "クラフトワーク",
+          "year": 1975,
+          "publisher": "",
+          "meta": { "track_count": 12, "primary_genre": "エレクトロニック", "release_date": "1975-10-01" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/60/c2/96/60c2962c-fc49-bbd9-153b-b6e8de41eb41/5099996601952.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/radio-activity-remastered/700049905?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-03T18:25:03+00:00" },
+          "researcher_note": "電磁波・放射性物質を主題にしたコンセプトアルバム。電子楽器の音響が主題と直結する。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "714824489",
+          "title": "The Very Best of Les Paul and Mary Ford",
+          "creator": "Les Paul & Mary Ford",
+          "year": 2008,
+          "publisher": "",
+          "meta": { "track_count": 25, "primary_genre": "ヴォーカル", "release_date": "2008-01-01", "note": "release_dateはiTunes配信(編集盤)の日付" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/d2/47/1c/d2471c45-9c33-11c0-8f8e-834f4f54c9ff/05099951903657.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/the-very-best-of-les-paul-and-mary-ford/714824489?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-03T18:25:03+00:00" },
+          "researcher_note": "ソリッドボディ・エレクトリックギターと多重録音技術の先駆者レス・ポールの編集盤。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1443832379",
+          "title": "20th Century Masters - The Millennium Collection: The Best of Les Paul",
+          "creator": "レス・ポール",
+          "year": 2001,
+          "publisher": "",
+          "meta": { "track_count": 12, "primary_genre": "ジャズ", "release_date": "2001-01-01", "note": "release_dateはiTunes配信(編集盤)の日付" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/15/c4/d4/15c4d4e0-6c3f-2f0f-ecbd-9a2b02bb0c3a/00008811274023.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/20th-century-masters-the-millennium-collection-the/1443832379?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-03T18:25:03+00:00" },
+          "researcher_note": "レス・ポール単独名義の編集盤。エレクトリックギター開発者自身の演奏記録。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "bok-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784582373097",
+          "title": "奇跡の薬 : ペニシリンとフレミング神話",
+          "creator": "Macfarlane,Gwyn,1907-1987 北村,二朗,1929-",
+          "year": 1990,
+          "publisher": "平凡社",
+          "meta": { "isbn": "9784582373097", "series": "20世紀メモリアル", "price": "3800 (税込)" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002060865", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-03T18:24:43+00:00" },
+          "researcher_note": "ペニシリン発見の経緯を「神話」として検証する伝記。フレミングの観察の偶然性を扱う。"
+        },
+        {
+          "cand_id": "bok-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784265059638",
+          "title": "感染症とたたかった科学者たち : 情熱とひらめきが命を救った!",
+          "creator": "岡田,晴恵,1963-",
+          "year": 2013,
+          "publisher": "岩崎書店",
+          "meta": { "isbn": "9784265059638", "price": "3200" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024938387", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-03T18:24:43+00:00" },
+          "researcher_note": "感染症と戦った科学者たちの発見の経緯を扱う児童向け科学書。ひらめきと偶然を主題に含む。"
+        },
+        {
+          "cand_id": "bok-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784843341117",
+          "title": "科学者たちの挑戦 : 失敗を重ねて成功したウソのようなホントの科学のはなし",
+          "creator": "Townsend,John,1955- 吉井,知代子,1967-",
+          "year": 2013,
+          "publisher": "ゆまに書房",
+          "meta": { "isbn": "9784843341117", "price": "6800" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024317815", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-03T18:24:43+00:00" },
+          "researcher_note": "失敗を重ねた末の科学的成功を主題とする書。実験の手違いから発見へ至る筋立てに合致。"
+        },
+        {
+          "cand_id": "bok-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784863543973",
+          "title": "大失敗から生まれたすごい科学",
+          "creator": "齋藤,勝裕,1945-",
+          "year": 2022,
+          "publisher": "シーアンドアール研究所",
+          "meta": { "isbn": "9784863543973", "series": "SUPERサイエンス", "price": "2230" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032405764", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-03T18:24:43+00:00" },
+          "researcher_note": "大きな失敗が科学的成果に転じた事例を集めた書。手違いが発見へ通じた筋立てに直接合致。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
