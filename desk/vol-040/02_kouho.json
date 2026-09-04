@@ -1,0 +1,331 @@
+{
+  "vol": 40,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJG60EO0b3fDURNBTtxPxZ6hg",
+          "title": "共同警備区域 JSA",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "大韓民国 경기도 파주시 진서면 어룡리",
+            "primary_type": "",
+            "note": "会議室群の中央を軍事境界線(MDL)が通過する南北共同管理区域。竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA9GrpxogHqnwiKB0zn2EDJwi4-cVkVb3pywVRvhy2NagxLZY-nLGy-Ac2LAZaXBHzMkV5d0RqqNh3hWDF8HvDgfeWDMJfrIKOAgHcHT5I6EwCfndiq4RPRJSKUTqvDu1erLvho2eJktwJX=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "しょうしょう", "uri": "https://maps.google.com/maps/contrib/107656225837045616100" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1795346343631066164&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-04T18:07:22+00:00" },
+          "researcher_note": "国境そのものを会議室内の線として可視化する施設。発注の「国境を隔てる線を可視化する構造物」に直接合致する。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJ4-IaFvvzfDURGc9rCXvxR-M",
+          "title": "都羅展望台",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "310 Je3ttanggul-ro, Jangdan-myeon, Paju-si, Gyeonggi-do, 大韓民国",
+            "primary_type": "展望台",
+            "note": "DMZ(非武装地帯)の韓国側最北端から北朝鮮側を見渡す観覧施設。竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAu88O50FKleNLC-ckzJBktJjwmfAhNh1wEmnALcSwvWZaxCHSS9oq6JzssvY5_29w41CIO0gcyDwbgotOvR6NA8A8OTP-BfTti3zy04oRL1HR9_8iCrv_0Z9ubV1zCnDDege1bWuuMY-_27w=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Glenn Lin", "uri": "https://maps.google.com/maps/contrib/116067758189929248391" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16377324080697429785&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-04T18:07:22+00:00" },
+          "researcher_note": "境界線そのものではなく、境界を「見るための」建築という角度の候補。arc-01とは可視化の方式が異なる。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJZ0KxF_JRqEcRrLHB-4r-U-o",
+          "title": "ゲーデンスケッテ・ベルリナー・マウアー(ベルリンの壁記念館)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "Bernauer Str. 111, 13355 Berlin, ドイツ",
+            "primary_type": "公園",
+            "note": "冷戦期に東西ベルリンを隔てた壁の一区間を保存・展示する記念施設。竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA5lDUflchFElIiUyFGtNP94_UoHPIp_F4af4J3Cf2JUkt1G6liYlHwS-CyTSKwis_6JWZ0x0pa0bZhQ2qhb5-3dJxBaDEpTg9ietFEGvY1QVl0Pls6-e9vJPtF0IweLOAqGjbe5k8c8juicbo0HAp61Q=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "21_meep_meep_21", "uri": "https://maps.google.com/maps/contrib/108490515183998364090" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16885119300824838572&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-04T18:07:22+00:00" },
+          "researcher_note": "崩壊した境界の跡を保存・展示する構造物。「維持」ではなく「痕跡の可視化」という角度で発注に応える。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJS6_t9aZHqEcRGCiRSnvpm94",
+          "title": "イースト サイド ギャラリー",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "Mühlenstraße, 10243 Berlin, ドイツ",
+            "primary_type": "",
+            "note": "ベルリンの壁の現存最長区間に壁画が描かれた区画。竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDQzL_Zd1y2IydO7f53boFBtCCUA-m1FbmG4Vw6XLQleMeamZWFEZ6nJqZ7ztlEXUzV-PkpMSA4h0F19Xk3PaBq3awCguJ7CR-SzeWznhf2HDe8dLjFStGL_iEwkWGmz18ciCCuHHz0PwNRKBU8RU6f=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Max Henike", "uri": "https://maps.google.com/maps/contrib/115025234386748748098" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16040671213551429656&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-04T18:07:22+00:00" },
+          "researcher_note": "arc-03と同一の壁に由来するが、絵画による転用という別角度。同一境界を扱う候補が重複する点は編集判断に委ねる。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJjYblMaBL2YARzn_98UlIlY0",
+          "title": "US/Mexico Beach Border",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "Paseo Costero 728, Costa, Tijuana, B.C., Mexico, San Diego, CA 92154 アメリカ合衆国",
+            "primary_type": "史跡",
+            "note": "太平洋岸で米国とメキシコの国境フェンスが海に達する地点。竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCp1MhbPzPyHc0UpS2PEjCF_4RMXlFrPNTK6Tc_rGUc-NUHjmNsg-3kxvh7XD3Q3xTCGpsmz4hQvydfAM2QKIOYXTEKL655DDGo41hV9yB23Fd44cHDLBvfcm08DZHO4s4Vx4iaN_YAaskl=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Fabian Jovany Pacheco", "uri": "https://maps.google.com/maps/contrib/100813273571991661731" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10202140013307461582&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-04T18:07:22+00:00" },
+          "researcher_note": "現用の国境フェンスが陸から海へ延びる地点。稼働中の防衛境界という点でarc-01〜04(いずれも旧境界か儀礼的境界)と性質が異なる。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJ7fxi_5q7fUgR510pgJrvJkE",
+          "title": "ハウシズテッズ・ローマン・フォート(ヴァーコウィキウム、ハドリアヌスの長城)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "イギリス 〒NE47 6NN ヘクサム",
+            "primary_type": "観光名所",
+            "note": "ローマ帝国の北方防衛境界線ハドリアヌスの長城沿いに置かれた駐屯要塞跡。竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDXXotMzhLdamwg4NFIJu49xoBMThtUTOfMP0ebzaVLk_LVjkIkL0rw9lwLWP_0b_YAQBl8Ar_mHmJIy7uS1TH_FJ4YD2Hr6_FSm5_M6SV4RGWgLEqpHLrwNwGK17-3FU1EVuJLooRkWT-_=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "robert kime", "uri": "https://maps.google.com/maps/contrib/108559464085755297164" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4694703108434517479&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-04T18:07:22+00:00" },
+          "researcher_note": "近現代の国境ではなく古代帝国の防衛境界線という角度の候補。「性質の異なる二領域を隔てる線」を長い時間軸で捉え直せる。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "966256353",
+          "title": "Musique concrète (Mono Version)",
+          "creator": "Groupe de recherches musicales",
+          "year": 1962,
+          "publisher": "",
+          "meta": { "track_count": 8, "primary_genre": "クラシック", "release_date": "1962-01-01", "copyright": "℗ 1962 - BNF Collection 2015" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/ff/e4/a1/ffe4a131-8298-a86f-00da-43e8a85c0009/cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/musique-concr%C3%A8te-mono-version/966256353?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-04T18:06:00+00:00" },
+          "researcher_note": "ピエール・シェフェールらのGRM(フランス国立放送)による具体音楽の音源。楽器演奏ではなく録音済み音の編集・合成を作曲手段とした点で、演奏形態そのものが以前の音楽と分かれる。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "51222342",
+          "title": "Stockhausen: Mantra",
+          "creator": "Ole Ørsted, Rosalind Bevan & Yvar Mikhashoff",
+          "year": 1988,
+          "publisher": "",
+          "meta": { "track_count": 17, "primary_genre": "クラシック", "release_date": "1988-01-01", "note": "年はこの録音盤のリリース年。作曲年はこのAPIでは確認できない。" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/89/8d/8d/898d8d98-0139-29a5-b689-fcc4ab55bf18/s05.naxhylnq.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/stockhausen-mantra/51222342?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-04T18:06:00+00:00" },
+          "researcher_note": "2台ピアノとリング変調器のための作品。編成自体が確認できる境界押し広げの手がかりになる。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "406490689",
+          "title": "4'33''",
+          "creator": "ジョン・ケージ",
+          "year": 2002,
+          "publisher": "The Sound Corporation",
+          "meta": { "track_count": 1, "primary_genre": "クラシック", "release_date": "2002-07-09" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/25/fc/0f/mzi.gvgtcbda.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/433/406490689?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-04T18:06:00+00:00" },
+          "researcher_note": "注意: 同一録音(collectionId 406490689)はvol.027で既に掲載済み(確認: issues/vol-027.html)。重複候補として提示するのみで採用は編集判断に委ねる。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "307564987",
+          "title": "Terry Riley: In C",
+          "creator": "テリー・ライリー & Members of the Creative & Performing Arts at SUNY-Buffalo",
+          "year": 2009,
+          "publisher": "",
+          "meta": { "track_count": 1, "primary_genre": "クラシック", "release_date": "2009-03-24", "copyright": "℗ Originally released 1968 Sony Music Entertainment / (P) 2009 Sony Music Entertainment" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/17/bb/53/dj.caebhlex.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/terry-riley-in-c/307564987?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-04T18:06:00+00:00" },
+          "researcher_note": "注意: 同一録音(collectionId 307564987)はvol.023で既に掲載済み(確認: issues/vol-023.html)。重複候補として提示するのみで採用は編集判断に委ねる。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "726154713",
+          "title": "Autobahn (Remastered)",
+          "creator": "クラフトワーク",
+          "year": 1974,
+          "publisher": "",
+          "meta": { "track_count": 5, "primary_genre": "エレクトロニック", "release_date": "1974-11-01" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/a6/b0/49a6b061-cbd8-ede5-446d-dae8b50e3b32/5099996601457.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/autobahn-remastered/726154713?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-04T18:06:00+00:00" },
+          "researcher_note": "シンセサイザーと自動車走行音を組み合わせた22分の表題曲を含む。ロックの演奏形態からの離脱という角度。vol.039の候補リストにも同一盤が挙がっていたが未掲載(issues/には未出現)。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "254339508",
+          "title": "Metal Machine Music",
+          "creator": "ルー・リード",
+          "year": 1975,
+          "publisher": "",
+          "meta": { "track_count": 4, "primary_genre": "ロック", "release_date": "1975-01-01" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/52/5e/30/525e3045-7732-a9c1-9353-2886b114d04d/dj.esfqvnua.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/metal-machine-music/254339508?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-04T18:06:00+00:00" },
+          "researcher_note": "ギターのフィードバックノイズのみで構成された2枚組。歌唱・旋律を欠く点でロックとの境界を押し広げた作品として挙げられる。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1516605325",
+          "title": "Varèse: Amériques, Ionisation & Arcana",
+          "creator": "ピエール・ブーレーズ & ニューヨーク・フィルハーモニック",
+          "year": 1977,
+          "publisher": "",
+          "meta": { "track_count": 3, "primary_genre": "クラシック", "release_date": "1977-01-01", "note": "年はこの録音盤の著作権表示年。作曲年はこのAPIでは確認できない。" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/64/b1/c2/64b1c2f3-e9f1-3c6a-a255-3f4d0bf0b0c3/886446597805.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/var%C3%A8se-am%C3%A9riques-ionisation-arcana/1516605325?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-04T18:09:40+00:00" },
+          "researcher_note": "収録曲の一つ「Ionisation」は打楽器とサイレンのみの編成。旋律楽器を欠く演奏形態という確認可能な事実で境界の押し広げを描ける。"
+        },
+        {
+          "cand_id": "mus-08",
+          "source_api": "itunes",
+          "source_id": "771708825",
+          "title": "Schoenberg: Pierrot lunaire (Mono Version)",
+          "creator": "ピエール・ブーレーズ & Helga Pilarczyk",
+          "year": 1963,
+          "publisher": "",
+          "meta": { "track_count": 21, "primary_genre": "クラシック", "release_date": "1963-01-01", "copyright": "℗ 1963 - BNF Collection 2013", "note": "年はこの録音盤の著作権表示年。作曲年はこのAPIでは確認できない。" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/f8/6a/8c/f86a8ce7-ecef-818e-06c2-d0167d2f76a8/cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/schoenberg-pierrot-lunaire-mono-version/771708825?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-04T18:09:40+00:00" },
+          "researcher_note": "語りと歌唱の中間であるシュプレヒシュティンメを用いた編成。歌唱形態そのものが従来の声楽と分かれる事実として確認できる。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "bok-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784041035368",
+          "title": "愛は戦渦を駆け抜けて : 報道カメラマンとして、女として、母として",
+          "creator": "Addario,Lynsey,1973- 堀川,志野舞",
+          "year": 2016,
+          "publisher": "KADOKAWA",
+          "meta": { "isbn": "9784041035368", "price": "1900円" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027608078", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-04T18:05:37+00:00" },
+          "researcher_note": "報道カメラマンが紛争地取材の現場に身を置いた経験を綴った回顧録。"
+        },
+        {
+          "cand_id": "bok-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784750504117",
+          "title": "アマチュアはイラクに入るな : プロのNGOが紛争地でやっていること",
+          "creator": "吉田,鈴香,1958-",
+          "year": 2004,
+          "publisher": "亜紀書房",
+          "meta": { "isbn": "9784750504117", "price": "1700円" },
+          "image": { "url": "https://cover.openbd.jp/9784750504117.jpg", "source": "openbd" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000007463397", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-04T18:05:37+00:00" },
+          "researcher_note": "紛争地のNGO活動を専門に取材してきたジャーナリストによる記録。境界地帯での危険察知の技術的側面を扱う。"
+        },
+        {
+          "cand_id": "bok-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784422360126",
+          "title": "命を危険にさらして : 5人の女性戦場ジャーナリストの証言",
+          "creator": "Jacquemin,Marine Barrier,Anne Allémonière,Patricia Boudoul,Liseron Coudray,Anne-Claire 遠藤,ゆかり,1971-",
+          "year": 2020,
+          "publisher": "創元社",
+          "meta": { "isbn": "9784422360126", "price": "1800円" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030647695", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-04T18:05:37+00:00" },
+          "researcher_note": "5人の女性戦場ジャーナリストの証言集。複数の書き手が境界に身を置いた記述を比較できる構成。"
+        },
+        {
+          "cand_id": "bok-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784871542180",
+          "title": "ウクライナ危機から問う日本と世界の平和 : 戦場ジャーナリストの提言",
+          "creator": "志葉,玲",
+          "year": 2022,
+          "publisher": "あけび書房",
+          "meta": { "isbn": "9784871542180", "price": "1600円" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032305113", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-04T18:05:37+00:00" },
+          "researcher_note": "戦場ジャーナリストによる現地取材に基づく提言書。取材記録というより提言に重心があり、他候補と性格が異なる。"
+        },
+        {
+          "cand_id": "bok-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784834253993",
+          "title": "ガザ、戦下の人道医療援助",
+          "creator": "萩原,健,1967-",
+          "year": 2025,
+          "publisher": "ホーム社",
+          "meta": { "isbn": "9784834253993" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034043208", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-04T18:05:37+00:00" },
+          "researcher_note": "戦下のガザで人道医療援助に従事した記録。最前線の境界地帯での実務経験に基づく点で発注に合致。2025年刊行で最も時期が新しい。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
