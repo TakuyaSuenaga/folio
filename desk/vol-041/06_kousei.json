@@ -1,0 +1,42 @@
+{
+  "vol": 41,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034692031",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028656378",
+        "status": 200
+      },
+      {
+        "url": "https://maps.google.com/?cid=15894578225218420363&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[0]（霧に貌）本文冒頭「目次Ⅰに「結露」と題する一篇を置く」 vs 同item DATA欄 openbd_toc_excerpt「目次Ⅰに『結露』の一篇を収める」",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "同じ一篇の題「結露」の括弧種が本文では「」、DATA欄では『』と不一致",
+      "teisei": "本文とDATA欄で同じ括弧種に統一する(いずれかに『結露』または「結露」を採用)"
+    },
+    {
+      "id": "P-02",
+      "location": "奥付(okuzuke)最終段落〈colophon〉",
+      "severity": "minor",
+      "type": "規定違反",
+      "genzai": "「三点はいずれも『露』という一字を経由して選ばれた——結露(poe-02)・水滴(pho-01)・露場(arc-03)。……」と、読者向け誌面に内部候補ID(poe-02/pho-01/arc-03)がそのまま露出している",
+      "teisei": "cand_idの括弧書きを削除し、読者向けの文章のみに整える(例:「三点はいずれも『露』という一字を経由して選ばれた——結露・水滴・露場。可視化の閾値という主題を、内側(詩)・像(写真)・記録(建築)の三つの位置から囲む構成とした。」)"
+    }
+  ]
+}

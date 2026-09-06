@@ -1,0 +1,277 @@
+{
+  "vol": 41,
+  "genres": [
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784781418483",
+          "title": "藍の晩年",
+          "creator": "若森京子",
+          "year": 2026,
+          "publisher": "ふらんす堂",
+          "meta": {
+            "ndl_extent": "168p",
+            "ndl_subject_ndc10": "911.368",
+            "openbd_series": "句集",
+            "openbd_note": "自選十句の一つに『露草や涙もろくて藍の晩年』を収める第八句集。"
+          },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034890810", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-06T17:39:41+00:00" },
+          "researcher_note": "白露そのものではなく露草(つゆくさ)を介した近接主題。openBDの書影は空。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784863857230",
+          "title": "霧に貌",
+          "creator": "田村穂隆",
+          "year": 2026,
+          "publisher": "書肆侃侃房",
+          "meta": {
+            "ndl_extent": "141p",
+            "ndl_subject_ndc10": "911.168",
+            "openbd_toc_excerpt": "目次Ⅰに『結露』の一篇を収める"
+          },
+          "image": { "url": "https://cover.openbd.jp/9784863857230.jpg", "source": "openbd" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034692031", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-06T17:40:26+00:00" },
+          "researcher_note": "目次に『結露』と題する一篇があり、可視化の閾値という主題に直接合致しうる第二歌集。"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784863855526",
+          "title": "花と夜盗",
+          "creator": "小津夜景",
+          "year": 2022,
+          "publisher": "書肆侃侃房",
+          "meta": {
+            "ndl_extent": "141p",
+            "ndl_subject_ndc10": "911.368",
+            "openbd_sample_verse": "露実るメガロポリスよ胸も髪も"
+          },
+          "image": { "url": "https://cover.openbd.jp/9784863855526.jpg", "source": "openbd" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032495020", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-06T17:40:51+00:00" },
+          "researcher_note": "収録句サンプルに『露実る』の句があり、露を季語として詠んだ実例が確認できる句集。"
+        }
+      ]
+    },
+    {
+      "genre": "photo",
+      "candidates": [
+        {
+          "cand_id": "pho-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784768309087",
+          "title": "しずく作品集&撮影テクニック : 浅井美紀の美しく小さな世界",
+          "creator": "浅井美紀",
+          "year": 2017,
+          "publisher": "玄光社",
+          "meta": {
+            "ndl_extent": "142p",
+            "ndl_series": "玄光社MOOK",
+            "ndl_subject": "撮影(写真)"
+          },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028656378", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-06T17:39:41+00:00" },
+          "researcher_note": "しずく(水滴)のマクロ撮影作品集。朝露そのものではなく人工的な水滴が中心だが、微小な水分が像として結ばれる瞬間という主題には合致する。openBDの書影は空。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJmYrFwcgMImARWZQ4I0iiNFE",
+          "title": "高層気象台",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒305-0052 茨城県つくば市長峰１−２",
+            "primary_type": "研究機関",
+            "note": "気象庁の高層気象観測を担う研究機関。竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjC28mV2OgzLD5zOTvppQdzOlL9FClldpxtq2cvRt977nCL2vMi5qbKrFOKSgVYfs1CwKd0z6ID_ReXO5WrspTzhpdA42HZsX5UD6WsaaBqtskxY4bmAsv779fcxkWEAPn-v-s1jPG9M81cXcnI=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "山屋徹", "uri": "https://maps.google.com/maps/contrib/100807810705882439780" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5851480246573372505&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-06T17:38:38+00:00" },
+          "researcher_note": "気象・水分量の観測を担う研究機関そのもの。arc-02(同一敷地内のアメダス観測点)と場所が重なる点は編集判断に委ねる。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJg6xdF1kNImARER22gn2nvPY",
+          "title": "つくば地域気象観測所(アメダス)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒305-0052 茨城県つくば市長峰１−２",
+            "primary_type": "",
+            "note": "気象庁のアメダス観測点。竣工年・設計者はPlaces APIでは確認できない。arc-01と同一敷地。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCHsDXNHOSsTTr3e7M_xzlK7hdirRy0Ejct_VoN5NQdwUsti6ZLloR342wXhi6LzIUDiNDBLK8FvZ_Lh0T11lw6bT4GBwUT6WhG1Cn-gQmEOCaDEHHAzVNKD-YGTqA4mCLrxriqgE0_aG0inwWm9h9fEw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Express Mr", "uri": "https://maps.google.com/maps/contrib/106614128206616385957" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17779269586457599249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-06T17:38:38+00:00" },
+          "researcher_note": "建物(arc-01)ではなく観測装置群そのものという角度の候補。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJs5z4tB6NGGARi37NyK7ilNw",
+          "title": "東京管区気象台北の丸公園露場(東京アメダス)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒102-0091 東京都千代田区北の丸公園１−１",
+            "primary_type": "",
+            "note": "気温・湿度等を計測する屋外観測区画(露場)。竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDwqo1_sC6SotUJk0b-O498qPoKNyz-NsBsUlOB3FcwY_e8-mTqD1FsmL_b8Qi2hIfbof0f8YEVzBuHvyr0Md6OezaBdDCObGSbC7BtqKRFjyPBZ87iDgrnUvFjiQnDzbYUMGJ1p3Ibv3tm1_A=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Kenji Shimamoto", "uri": "https://maps.google.com/maps/contrib/116806136182571798695" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15894578225218420363&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-06T17:38:38+00:00" },
+          "researcher_note": "施設名の「露場」は気象観測用語で地上気象観測を行う屋外区画を指す名称であり、建築物ではなく指定された観測区画である。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJp4YsATyIGGARYOiHh4_swns",
+          "title": "夢の島熱帯植物館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒136-0081 東京都江東区夢の島２丁目１−２",
+            "primary_type": "植物園",
+            "note": "熱帯・亜熱帯植物を育成する温室建築。竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAI2C5axTKsDthSgp6xjZ76-Gumfdlp1l9_Be4-od4qWAbW_kT5fudHKRTkxONd-eeE1mu2TBWowO1m7RCPu0GFvQ6lsVkpCOBEEb_Y3HXSjRaPn3tQTCuxZWdmpTYi4nG64sOIfzOGq1KNjXA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "山ジイ", "uri": "https://maps.google.com/maps/contrib/102332457521432374247" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8917950313345312864&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-06T17:38:38+00:00" },
+          "researcher_note": "微気候(高温多湿)を人工的に再現・維持する温室建築という角度の候補。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJT-GENR7wGGARMAVS7lfU4yE",
+          "title": "神代植物公園 大温室",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒182-0017 東京都調布市深大寺元町５丁目31−１０",
+            "primary_type": "食料品",
+            "note": "都立神代植物公園の大温室。竣工年・設計者はPlaces APIでは確認できない(primary_typeはPlaces側の分類誤りとみられる)。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAsN9-RLEAyALqb_bJEld25VaoSp20kbgm04J0i-hKxd-po6LBHRLPt3w4rsimUTAoa6KCPnYqJSWdLuTIPwFKydV2ykzG90T-VMX4Tg-x_dYVS_q2pDDUnHDwXi1zLGMXQ_TAUjo8WwB7UKVw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "jun Tougo", "uri": "https://maps.google.com/maps/contrib/117140497103461672175" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2442028897090536752&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-06T17:38:53+00:00" },
+          "researcher_note": "arc-04と同種の都市部大温室。地域の異なる同種施設として編集判断に委ねる。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJedtsVgMIAWARsFuIq36DSvI",
+          "title": "観覧温室",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒606-0821 京都府京都市左京区下鴨半木町",
+            "primary_type": "食料品",
+            "note": "京都府立植物園の観覧温室。竣工年・設計者はPlaces APIでは確認できない(primary_typeはPlaces側の分類誤りとみられる)。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAqnTKRG9yi-V-w8kgp9GTlhbufSoSNAnXNinVqLauIQZpI5kO9TbTFs-9MGwjqlW4GQSQ9sMuNxsAueL_irZtvrg2l1QyEwxujKcq1l96M9H7FTsTHu7qoOt6uHR5IB4ut0lX-3ZcPXWQtm5w=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "山脇孝之", "uri": "https://maps.google.com/maps/contrib/102199167995442852539" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17458911485522107312&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-06T17:38:53+00:00" },
+          "researcher_note": "西日本の同種施設という点でarc-04・arc-05と地域が異なる。"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJSchqjg0MImAR3PfV50--5rE",
+          "title": "国立科学博物館筑波実験植物園",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒305-0005 茨城県つくば市天久保４丁目１−１",
+            "primary_type": "植物園",
+            "note": "国立科学博物館が運営する研究用植物園・温室群。竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCv0GjicrGUrcv2VzFbZ7CRa2GDAvdVO9cPBo4tacZ4_ZCtW4CI7dbMO-J5cLfWkYX-RQlwPbNHgO1uVaW_glRmXDhO_HzbDdpnU4IVqdgmr69R1PD5gewbmKXNuCb3-qyUCDekyOlo9zCvJA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "阿野仁摩洲", "uri": "https://maps.google.com/maps/contrib/107273510314667412458" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12819142639757948892&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-06T17:38:53+00:00" },
+          "researcher_note": "他の温室候補とは異なり、研究機関(国立科学博物館)が直接運営する実験用施設である点が特徴。"
+        },
+        {
+          "cand_id": "arc-08",
+          "source_api": "google_places",
+          "source_id": "ChIJscgl_8llA2AR1ugqEmXz3zs",
+          "title": "東山植物園 温室前館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒464-0803 愛知県名古屋市千種区田代町瓶杁",
+            "primary_type": "農場",
+            "note": "名古屋市東山動植物園内の温室。竣工年・設計者はPlaces APIでは確認できない(primary_typeはPlaces側の分類誤りとみられる)。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjApsI8HaRXZYysiBwB-CajM2VcqwqZaFxudcS7a1jOw7VgEYX9KkA9TQ3EQfGTZy7B8IjDPahvTODuI5tTkph6cPRUwh2jfA_np6QWwD8cVvgRQ-GU8XUGOPtK3uMvnWTWZySmK82xNCnE1jg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "GR5", "uri": "https://maps.google.com/maps/contrib/108454914388237353536" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4314434583466272982&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-06T17:38:53+00:00" },
+          "researcher_note": "中部地方の同種施設。前館は東山植物園の温室群のうち歴史的建屋にあたる(名称のみ確認、詳細な竣工年はPlaces APIでは確認できない)。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "poetry: 白露または露を主題・季語とした実在の歌集・句集(タイトルに『白露』『露』を含むもの)",
+      "reason": "NDLサーチでは『白露 : 句集』(赤間学/朔出版/2021, ISBN 978-4-908978-65-4)、『白露 : 句集』(奥田杏牛/紅書房/2021, ISBN 978-4-89381-343-5)、『白露 : 歌集』(和玉靜江/角川書店/2005)、『白露 : 島崎榮一歌集』(本阿弥書店/2023)ほか複数のタイトル一致を確認したが、いずれもopenBDに書誌が存在せず(get APIがnullを返す)実在チェーンを完成できないため候補から除外した。歌集・句集は地方・小出版流通センター経由でもopenBD未掲載の版元が多く、ふらんす堂・書肆侃侃房など一部の版元経由でのみ検証可能だった。"
+    },
+    {
+      "hacchu": "photo: 朝露や水滴を被写体とした実在の写真集(複数点)",
+      "reason": "NDLサーチで『露』『朝露』『水滴』等を写真集と組み合わせて検索したが、該当ジャンルはアイドル・グラビア写真集がノイズとして大半を占め、朝露そのものを被写体とした写真集でISBN・openBD書誌の両方を確認できたのは1点(しずく作品集&撮影テクニック)のみだった。"
+    }
+  ]
+}
