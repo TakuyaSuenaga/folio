@@ -1,0 +1,99 @@
+{
+  "issue": {
+    "vol": 42,
+    "date": "2026-09-08",
+    "title": "特別警報",
+    "lead": "大島町・利島村・新島村に出された土砂災害特別警報は、警報の最上位区分である。めったに発動されないことによってのみ効力を保つという構造は、国宝に指定された建造物、人間国宝に認定された演奏家、ミシュランの三つ星という、分野の異なる最上位区分にも共通する。稀少であることが格を支える三つの場所を、長月の夜に辿る特集。"
+  },
+  "items": [
+    {
+      "genre": "architecture",
+      "cand_id": "arc-01",
+      "sentei_riyu": "現存する国宝天守は十二の現存天守のうちわずか五城に限られ、姫路城はその代表格として最も広く知られる一例である。特集の起点である『最上位区分は稀にしか発動されないことで効力を保つ』という逆説を、モノ(建造物)に対して最初に提示する基準点として置き、後続の人間国宝(ワザ)・ミシュラン三つ星(営み)の議論が対で読めるようにする。",
+      "title": "姫路城",
+      "creator": "",
+      "year": null,
+      "publisher": "",
+      "meta": {
+        "address": "日本、〒670-0012 兵庫県姫路市本町６８",
+        "primary_type": "城"
+      },
+      "essay": "姫路城は兵庫県姫路市にそびえる白亜の連立式天守である。大天守を三基の小天守と渡櫓で結び、天守群全体をひとつの塔として立たせる構成は、単体の建物としての強度ではなく、防御と意匠を兼ねた群としての設計思想を示す。白壁は木部を覆う漆喰を幾重にも塗り重ねたもので、防火と美観を同時に満たしながら、光の当たり方によって陰影の濃淡を変える。螺旋状に折れながら奥へと続く曲輪の動線は、敵の侵入を攪乱すると同時に、訪れる者の視線を段階的に高みへと導いていく。現存する十二の天守のうち、天守そのものが国宝に指定されているのはわずか五城に限られ、姫路城はそのひとつに数えられる。国宝という区分はここで美観の優劣を示す形容ではなく、稀にしか与えられないという運用そのものが格を作る制度として働く。白壁の量感と屋根の重なりが遠望と近景で異なる表情を見せる姫路城は、めったに発動されない最上位区分が空間の側に静かに刻まれた例として読むことができる。",
+      "image": {
+        "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDGkdxiDa0Q6RcD6z-EEbz5ON0u41-IyFvaekz68_KKW55mx2X_tZElMR0NPAUhHO5_0RYL8Upxka_lqAh0quTC-4e1DPgY4saWvgBjMjZri1F5XgPn7Z161D2mmpU_d7e7BSaqfKG0rgKnJjANMbqp=s4800-w1200",
+        "source": "google-places",
+        "attributions": [
+          {
+            "name": "Allen Z.",
+            "uri": "https://maps.google.com/maps/contrib/108702940200365245910"
+          }
+        ]
+      },
+      "links": [
+        {
+          "label": "Google マップで見る",
+          "url": "https://maps.google.com/?cid=8813417131136418225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "sponsored": false
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "cand_id": "mus-01",
+      "sentei_riyu": "山口五郎・二世青木鈴慕という人間国宝認定奏者を含む尺八奏者四名の合奏盤であり、複数の奏者を同一楽器で聴き比べられる録音という形式が、個人の技芸に対して稀にしか与えられない認定という論点を提示しやすい。並置上は、建築(モノに与えられる国宝)から音楽(ワザに与えられる人間国宝)へ主題を移し、対象の違いをまたいで同じ構造が働くことを示す蝶番の位置に置く。",
+      "title": "JVC World Sounds <Japan> Music of the Shakuhachi",
+      "creator": "山口五郎, 横山勝也, 山本邦山 & 二世 青木鈴慕",
+      "year": 1994,
+      "publisher": "Victor Entertainment",
+      "meta": {
+        "trackCount": 4,
+        "primaryGenreName": "ワールド",
+        "releaseDate": "1994-01-01T00:00:00Z"
+      },
+      "essay": "『JVC World Sounds <Japan> Music of the Shakuhachi』は、山口五郎・横山勝也・山本邦山・二世青木鈴慕という尺八奏者四名の演奏を収めた一枚である。同じ楽器を弾く奏者が並ぶ盤でありながら、息の入れ方と間の取り方は奏者ごとに異なり、単旋律楽器である尺八が音色そのものを語彙として持つことを聴かせる。山口五郎と二世青木鈴慕は、ともに尺八の演奏によって重要無形文化財保持者、いわゆる人間国宝に認定された奏者である。人間国宝は一芸ごとに認定される数がきわめて少なく、建築における国宝が少数の建物にのみ与えられる構造と、演奏という一回性の芸において重なる。盤に刻まれた録音は再生のたびに、この認定の希少さそのものを聴き手へ差し戻す。",
+      "image": {
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/04/2c/fb/042cfbf0-2fd1-cca9-c187-a81949e5f7f7/VICG-60396.jpg/600x600bb.jpg",
+        "source": "itunes"
+      },
+      "links": [
+        {
+          "label": "Apple Musicで見る",
+          "url": "https://music.apple.com/jp/album/jvc-world-sounds-japan-music-of-the-shakuhachi/1772584851?uo=4",
+          "sponsored": false
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "cand_id": "res-04",
+      "sentei_riyu": "ミシュラン三つ星の獲得歴が広く知られ、京都・東山という立地の歴史性が『格』と『時間の蓄積』を結びつけて読める。並置上は、建築(モノに与えられる国宝)・音楽(ワザに与えられる人間国宝)に続けて営み(店の評価に与えられる星)を置き、対象が異なっても最上位区分が稀少性によって効力を保つという構造が共通することを示して特集を締める。",
+      "title": "菊乃井 本店",
+      "creator": "",
+      "year": null,
+      "publisher": "",
+      "meta": {
+        "address": "日本、〒605-0825 京都府京都市東山区下河原通八坂鳥居前下る下河原町４５９",
+        "primary_type": "和食店"
+      },
+      "essay": "菊乃井本店は京都・東山、八坂神社の鳥居前から下河原通を南へ下った先にある。祇園の喧噪から一筋外れたこの通りは石畳と町家の低い軒が続き、店へ至る短い道のりだけで訪れる者の歩調はすでに変わっている。ミシュランガイド京都・大阪版で三つ星を獲得したことは広く知られているが、星の数はここでは目的ではなく、日々変わる食材と季節に対応し続けてきた蓄積の帰結として付くものにすぎない。星は一度与えられれば安泰という格付けではなく、見直しのたびに保持され続けなければならない評価であり、その持続こそが稀少性を支えている。最上位の評価は、稀にしか下されないことによってではなく、目に見えぬ日々の判断が途切れず積み重なることによって支えられている。",
+      "image": {
+        "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA-MinxRk9CpzlAlls9FSH5MsNuy2xRm0Ac4MgdELL3nSVR-dcZxQThLO8Y46eYMThsRDF4T6e0DR81HEqveZhbpekfXs65epWJas1dKNHmz4IEIaKdotCDcfkjVs2a4vlBwfWfNjLz7QeVAQ=s4800-w1200",
+        "source": "google-places",
+        "attributions": [
+          {
+            "name": "王正明",
+            "uri": "https://maps.google.com/maps/contrib/111246993904466805261"
+          }
+        ]
+      },
+      "links": [
+        {
+          "label": "Google マップで見る",
+          "url": "https://maps.google.com/?cid=14770280739577064273&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "sponsored": false
+        }
+      ]
+    }
+  ],
+  "decorated_at": "2026-09-08"
+}

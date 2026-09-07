@@ -1,0 +1,431 @@
+{
+  "vol": 42,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJsyQzogPgVDURsYG6bi-MT3o",
+          "title": "姫路城",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒670-0012 兵庫県姫路市本町６８", "primary_type": "城" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDGkdxiDa0Q6RcD6z-EEbz5ON0u41-IyFvaekz68_KKW55mx2X_tZElMR0NPAUhHO5_0RYL8Upxka_lqAh0quTC-4e1DPgY4saWvgBjMjZri1F5XgPn7Z161D2mmpU_d7e7BSaqfKG0rgKnJjANMbqp=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Allen Z.", "uri": "https://maps.google.com/maps/contrib/108702940200365245910" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8813417131136418225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:02:35+00:00" },
+          "researcher_note": "検索語『姫路城』に施設名が完全一致。国宝天守を持つ城のひとつとして広く知られるが、指定範囲・指定年月日はPlacesレスポンスに含まれず一次確認は編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJmVmaCoUOHWARVPa8-iAOLZA",
+          "title": "松本城",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒390-0873 長野県松本市丸の内４−１", "primary_type": "城" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDA1lXd7APRXn8IpoAkfpiqlNhDbTkurk4B5cHexnpf0D89KczRJsXuudbJ5icNPCSnwMfd2yOQLrFyPp8vJ5Hm8ynShxojzyjMkwIdeNA8OZtwFfPas8-AeBGLJxqBFL1niB-Mn0ZJ4KTAsezu4Oj6vg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "이진규", "uri": "https://maps.google.com/maps/contrib/101093846816481826526" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10388975450222032468&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:02:35+00:00" },
+          "researcher_note": "検索語『松本城』に施設名が完全一致。国宝天守を持つ城のひとつとして広く知られるが、指定範囲・指定年月日はPlacesレスポンスに含まれず一次確認は編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJw9u_XSsrAmARMIwpeAshKu4",
+          "title": "彦根城",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒522-0061 滋賀県彦根市金亀町１−１", "primary_type": "城" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjC0pCGYTaRVtegyB1d6r8K7PgztlXAfJzJt-LHNaGwEsaFcc63to2AwVrVu4VL15i_7HTSWow4Owww8yaDXy7WhUxSNeh4_b4WUQk_U-nDxON5ADSKIJmGGFA1RT4ToTMqg0r_10DjuqabM=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "駱弘偉", "uri": "https://maps.google.com/maps/contrib/115970559258081273041" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17161565663193041968&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:02:35+00:00" },
+          "researcher_note": "検索語『彦根城』に施設名が完全一致。国宝天守を持つ城のひとつとして広く知られるが、指定範囲・指定年月日はPlacesレスポンスに含まれず一次確認は編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJke1IrfUOA2ARNfYDRkP6Wig",
+          "title": "犬山城",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒484-0082 愛知県犬山市犬山北古券６５−２", "primary_type": "城" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBX4ZdAOgc6QxQae4eMiFiG55NbvLTnbn2vavIaDBFCAkDDz0O-xAvqkC56Ddp3O_ZTu1OUedv3q3PH4F_uYqFzwkWgowhqMi2cw_QMXEJpaEquL5g-BIVL8hV2OZ_U1jQl1CSMrNGzjbUcqxJyliXJwQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "キャスカ", "uri": "https://maps.google.com/maps/contrib/101486606476720562746" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2907911676265494069&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:02:35+00:00" },
+          "researcher_note": "検索語『犬山城』に施設名が完全一致。国宝天守を持つ城のひとつとして広く知られるが、指定範囲・指定年月日はPlacesレスポンスに含まれず一次確認は編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ9bsDJgUFVzURPfuazkEsEBQ",
+          "title": "松江城",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒690-0887 島根県松江市殿町１−５", "primary_type": "城" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBmUxQm2Q4qhAN6Cwkgw9CzyoQbVPvIB8bWCsNvqHa4DfW3TapE98nFjO4xbY_hwTbhGAYZF61Zx29CSOcOOH8GxAs0dx-9af8mxeNgOrhA3ypnXuLfeCWeBi1QGlG17R2SX1P0gzhugyu8=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Hiroki ONO", "uri": "https://maps.google.com/maps/contrib/101833891054545247392" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1445704141536688957&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:02:35+00:00" },
+          "researcher_note": "検索語『松江城』に施設名が完全一致。国宝天守を持つ城のひとつとして広く知られるが、指定範囲・指定年月日はPlacesレスポンスに含まれず一次確認は編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJGY-mRVY7AWARwswgrBnpVq0",
+          "title": "金堂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒630-8032 奈良県奈良市五条町１３−４６", "primary_type": "仏教寺院" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjC2Cx0IU0y8_LwIWCJNZHfqKLHVDLF48O9MPcWnuwn4AYQUHSzI8PWuWCRSBSrE6RXP8QOk2P06vHg6AcwR--8RaVZqybnzdBlLBdEUHmYc2BAJe8-GnqNC82wAcnov5iVOFKzyOlzeaoFGFBg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "能勢靖", "uri": "https://maps.google.com/maps/contrib/108084357719651702906" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12490426913029934274&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:02:35+00:00" },
+          "researcher_note": "検索語『唐招提寺金堂』でヒット。住所(奈良県奈良市五条町)は唐招提寺の所在地と一致し、施設名『金堂』は唐招提寺の国宝建造物として知られる。竣工年・指定年月日はPlacesレスポンスに含まれず一次確認は編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJ6fd4BwQ7AWAR61_BFRQN7NI",
+          "title": "講堂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒630-8032 奈良県奈良市五条町１３−４６", "primary_type": "仏教寺院" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCMYHcpz1hlocoW75lnHsrzTNfx1te3JL5ysrReqT534KOVWJeTH3WF6MBKl82oLewNzMAXJMBy_IyI-mkC6GEdAKzaRZrkHb-NFn3NO2SQzXL1eb1FTPhRUHekkWidWdgktWhpACbxIDpzqCI=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "カメレオンマン", "uri": "https://maps.google.com/maps/contrib/103007638873893186244" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15198537222384082923&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:02:35+00:00" },
+          "researcher_note": "検索語『唐招提寺金堂』の検索結果に併せて返った同一境内の建物。住所は唐招提寺の所在地と一致し、講堂は平城宮唯一の遺構として国宝指定を受けることで知られるが、指定年月日はPlacesレスポンスに含まれず一次確認は編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "arc-08",
+          "source_api": "google_places",
+          "source_id": "ChIJBSZEcn8RAWAREMp8ycDz8i0",
+          "title": "鳳凰堂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒611-0021 京都府宇治市宇治蓮華１１６", "primary_type": "仏教寺院" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAfFGWgPDDL969t5PC5drATwjRw5kiSR0yjGNMpwHnN4Zhv8zCRjcpfgDPBXASgMv-emvYy7J2melgtOUBCaUZHvpxA5wGJaEhO50F3773qik8PA28rc_ZzBLp0i1ypQ8_qW0MLqGWTSqJoqn0USSkR-A=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "indrajith bandara", "uri": "https://maps.google.com/maps/contrib/117206155986320555604" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3310976685410404880&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:02:35+00:00" },
+          "researcher_note": "検索語『平等院鳳凰堂』でヒット。住所(京都府宇治市宇治蓮華)は平等院の所在地と一致し、鳳凰堂は国宝建造物として広く知られるが、指定年月日はPlacesレスポンスに含まれず一次確認は編集部の裏取りが必要"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1772584851",
+          "title": "JVC World Sounds <Japan> Music of the Shakuhachi",
+          "creator": "山口五郎, 横山勝也, 山本邦山 & 二世 青木鈴慕",
+          "year": 1994,
+          "publisher": "Victor Entertainment",
+          "meta": { "trackCount": 4, "primaryGenreName": "ワールド", "releaseDate": "1994-01-01T00:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/04/2c/fb/042cfbf0-2fd1-cca9-c187-a81949e5f7f7/VICG-60396.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/jvc-world-sounds-japan-music-of-the-shakuhachi/1772584851?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:03:20+00:00" },
+          "researcher_note": "検索語『山本邦山』でヒット。尺八奏者複数名による合奏盤で、山本邦山は2002年に尺八で人間国宝(重要無形文化財保持者)認定を受けたと広く言及されるが、その認定自体はiTunesレスポンス外であり編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1524248915",
+          "title": "The Classic Melodies of Japan (Remastered)",
+          "creator": "アイザック・スターン, 山本邦山 & Shakuhachi Ensemble Nipponia",
+          "year": 1981,
+          "publisher": "Sony Music Entertainment",
+          "meta": { "trackCount": 11, "primaryGenreName": "クラシック", "releaseDate": "1981-01-01T00:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/fe/b9/cefeb970-87ef-ba98-55fc-d319531fc98d/886448322535.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/the-classic-melodies-of-japan-remastered/1524248915?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:03:20+00:00" },
+          "researcher_note": "検索語『山本邦山』でヒット。ヴァイオリニストのアイザック・スターンとの共演盤。山本邦山の人間国宝認定(2002年)はiTunesレスポンス外であり編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1777009884",
+          "title": "NUGENKAI GINKAI 2",
+          "creator": "山本邦山 & ゲイリー・ピーコック",
+          "year": 1994,
+          "publisher": "King Record Co.,Ltd",
+          "meta": { "trackCount": 10, "primaryGenreName": "ジャズ", "releaseDate": "1994-11-06T00:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/43/12/2643126d-0b65-1f92-efa9-a1bd3d50ea23/NOPA-6549.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/nugenkai-ginkai-2/1777009884?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:03:20+00:00" },
+          "researcher_note": "検索語『山本邦山』でヒット。ジャズベーシストのゲイリー・ピーコックとの共演盤で、伝統演奏そのものではなく越境的な作品。山本邦山の人間国宝認定はiTunesレスポンス外であり編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "483518503",
+          "title": "Daiginjo",
+          "creator": "山本邦山, G2US, 高谷秀司 & マサ大家",
+          "year": 2011,
+          "publisher": "ULTRA-VYBE, INC.",
+          "meta": { "trackCount": 9, "primaryGenreName": "ジャズ", "releaseDate": "2011-12-21T08:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/da/e1/22/dj.hltnyyna.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/daiginjo/483518503?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:03:20+00:00" },
+          "researcher_note": "検索語『山本邦山』でヒット。クラブジャズ系との共演盤で、発注が求める『稀少な最上位認定が権威を保つ構造』からは遠い越境企画作。人間国宝認定はiTunesレスポンス外"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1556653034",
+          "title": "米川敏子～箏曲の世界",
+          "creator": "米川敏子",
+          "year": 2021,
+          "publisher": "King Record Co.,Ltd",
+          "meta": { "trackCount": 6, "primaryGenreName": "日本", "releaseDate": "2021-03-17T07:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cc/40/40/cc404084-bfae-3ba4-7089-8d085cf9ce3a/NOPA-2305.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/%E7%B1%B3%E5%B7%9D%E6%95%8F%E5%AD%90-%E7%AE%8F%E6%9B%B2%E3%81%AE%E4%B8%96%E7%95%8C/1556653034?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:03:32+00:00" },
+          "researcher_note": "検索語『米川敏子』でヒット。箏曲奏者・米川敏子の単独名義盤。人間国宝認定の有無・年はiTunesレスポンス外であり編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1533364632",
+          "title": "琴の魅力 〜美しく煌めき香る〜",
+          "creator": "米川敏子",
+          "year": 2020,
+          "publisher": "Nippon Columbia Co., Ltd.",
+          "meta": { "trackCount": 16, "primaryGenreName": "日本", "releaseDate": "2020-09-30T07:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/36/f7/87/36f787a9-59f9-5775-744c-572051ca43b4/COKM-42882.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/%E7%90%B4%E3%81%AE%E9%AD%85%E5%8A%9B-%E7%BE%8E%E3%81%97%E3%81%8F%E7%85%8C%E3%82%81%E3%81%8D%E9%A6%99%E3%82%8B/1533364632?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:03:32+00:00" },
+          "researcher_note": "検索語『米川敏子』でヒット。箏曲奏者・米川敏子の単独名義盤。人間国宝認定の有無・年はiTunesレスポンス外であり編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1580016922",
+          "title": "Tapestry Koto & the Occident Sea",
+          "creator": "米川敏子 & 山屋 清",
+          "year": 1976,
+          "publisher": "Nippon Columbia Co., Ltd./NIPPONOPHONE",
+          "meta": { "trackCount": 12, "primaryGenreName": "日本", "releaseDate": "1976-08-25T07:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/18/da/88/18da8836-4093-f535-49bb-27dd8b17a3f8/COKM-43374.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/tapestry-koto-the-occident-sea/1580016922?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:03:32+00:00" },
+          "researcher_note": "検索語『米川敏子』でヒット。1976年発売の古い共演盤。人間国宝認定の有無・年はiTunesレスポンス外であり編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "mus-08",
+          "source_api": "itunes",
+          "source_id": "1556627233",
+          "title": "三曲～江戸の室内楽",
+          "creator": "米川敏子, 山本邦山 & 佐藤親貴",
+          "year": 2021,
+          "publisher": "King Record Co.,Ltd",
+          "meta": { "trackCount": 3, "primaryGenreName": "日本", "releaseDate": "2021-03-17T07:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ec/58/c5/ec58c5a5-21d4-f382-8a4f-87f99eee8656/NOPA-2298.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/%E4%B8%89%E6%9B%B2-%E6%B1%9F%E6%88%B8%E3%81%AE%E5%AE%A4%E5%86%85%E6%A5%BD/1556627233?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:03:32+00:00" },
+          "researcher_note": "検索語『米川敏子』でヒット。箏曲の米川敏子と尺八の山本邦山の共演で、三曲合奏の編成。両者の人間国宝認定の有無・年はiTunesレスポンス外であり編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "mus-09",
+          "source_api": "itunes",
+          "source_id": "1732061467",
+          "title": "Koto Shukuga",
+          "creator": "沢井忠夫, 米川敏子 & 富山清琴",
+          "year": 1998,
+          "publisher": "Nippon Columbia Co., Ltd./NIPPONOPHONE",
+          "meta": { "trackCount": 10, "primaryGenreName": "日本", "releaseDate": "1998-07-18T07:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d8/a9/5e/d8a95e5e-2ffd-821b-44b8-47cbdda685fc/COCF-15283.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/koto-shukuga/1732061467?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:03:32+00:00" },
+          "researcher_note": "検索語『富山清琴』でヒット。米川敏子・富山清琴を含む合奏盤。富山清琴は地歌三味線で人間国宝認定を受けたと広く言及される名跡だが、認定の有無・代替わりの一次確認はiTunesレスポンス外であり編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "mus-10",
+          "source_api": "itunes",
+          "source_id": "1533367478",
+          "title": "地歌 〜江戸時代初期からの伝統を継ぐ〜",
+          "creator": "初代 富山清翁 & 二代目 富山清琴",
+          "year": 2020,
+          "publisher": "Nippon Columbia Co., Ltd.",
+          "meta": { "trackCount": 7, "primaryGenreName": "日本", "releaseDate": "2020-09-30T07:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ab/3b/94/ab3b943d-042d-e70e-45d6-8bf70e3868a0/COKM-42877.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/%E5%9C%B0%E6%AD%8C-%E6%B1%9F%E6%88%B8%E6%99%82%E4%BB%A3%E5%88%9D%E6%9C%9F%E3%81%8B%E3%82%89%E3%81%AE%E4%BC%9D%E7%B5%B1%E3%82%92%E7%B6%99%E3%81%90/1533367478?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:03:32+00:00" },
+          "researcher_note": "検索語『富山清琴』でヒット。名義『二代目 富山清琴』は名跡の代替わりを示唆するが、どの代が人間国宝に認定されたか(初代・二代目の別)はiTunesレスポンス外であり編集部の裏取りが必要"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJVby9v-WLGGARZXCGPfhHpA4",
+          "title": "東京・銀座 すきやばし次郎",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒104-0061 東京都中央区銀座４丁目２−１５ 塚本総業ビル B1階", "primary_type": "寿司店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCpaHWUqb0hx9T4Y-nALC41Gr_i4a9mxwOOqx_T4N20_KwtI8vavouGYQwrXR8YY7aaUR12c0Uk2nXhLToKWQ7wYCRowqYPwoU1G6CtF7JTk1E8UqRJNPTtbS3lMFvX7bjOVJsML0NsO7RdSQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Juan G Angel (TvAgro)", "uri": "https://maps.google.com/maps/contrib/113471339806277474996" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1055047344221220965&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:03:07+00:00" },
+          "researcher_note": "検索語『すきやばし次郎 銀座』に施設名が一致。ミシュランガイドでの三つ星獲得歴は広く言及されるが、獲得年・現行の格付けはPlacesレスポンス外であり編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJVWDJ2-iLGGARrb9VTXObGIE",
+          "title": "銀座 小十",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒104-0061 東京都中央区銀座５丁目４−８ 銀座カリオカビル 4F", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBVYffSlxeNrrXGDDu9wz2AB1Ge29crOyKGYHn7YcaxqQCtLW-8afQAANpN_Oz3e9LjwxHPErhqCsbCcmgW79xYoD1FolPd6OxpCgriRPD45b-xsd9vCqthNkh-Cl6yOQEHaBFtvAubY8OhEMo=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "奈塚Q弥", "uri": "https://maps.google.com/maps/contrib/118252634782609753961" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9302355949854769069&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:03:07+00:00" },
+          "researcher_note": "検索語『小十 麻布』で検索したが、返った施設は銀座に所在する『銀座 小十』で住所地が発注の想定(麻布)と異なる。三つ星獲得歴は広く言及されるが、獲得年・現行の格付けはPlacesレスポンス外であり編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJP-dHJnSLGGAR6lRM5169Uj0",
+          "title": "日本料理 かんだ",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒105-0002 東京都港区愛宕１丁目１−１ 虎ノ門ヒルズレジデンシャルタワ １階", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAiBMMI0k_UlBXrz5FbGCrJbJD7NIOCC3joICmPpKnn8vGoSJVlvxflGyX0ZgOQVwwxQntaJ7UdYZk5VfZbS7HMS2LipjPQugUcANLAoSbfUlcs96YbRw-8hEjLNOphDJuf25FuOiT23bAFXg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Happy Otto", "uri": "https://maps.google.com/maps/contrib/105094993167695032451" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4418802399708992746&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:03:07+00:00" },
+          "researcher_note": "検索語『神田 麻布』で検索したが、返った施設は港区愛宕・虎ノ門ヒルズに所在する『日本料理 かんだ』で住所地が発注の想定(麻布)と異なる(移転の可能性)。三つ星獲得歴は広く言及されるが、獲得年・現行の格付けはPlacesレスポンス外であり編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJVVXF5doIAWARUetIixOU-sw",
+          "title": "菊乃井 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒605-0825 京都府京都市東山区下河原通八坂鳥居前下る下河原町４５９", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA-MinxRk9CpzlAlls9FSH5MsNuy2xRm0Ac4MgdELL3nSVR-dcZxQThLO8Y46eYMThsRDF4T6e0DR81HEqveZhbpekfXs65epWJas1dKNHmz4IEIaKdotCDcfkjVs2a4vlBwfWfNjLz7QeVAQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "王正明", "uri": "https://maps.google.com/maps/contrib/111246993904466805261" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14770280739577064273&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:03:07+00:00" },
+          "researcher_note": "検索語『菊乃井 京都』に施設名が一致。ミシュランガイド京都・大阪版での三つ星獲得歴は広く言及されるが、獲得年・現行の格付けはPlacesレスポンス外であり編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJnxjJEeuLGGARkFJgT0cASL8",
+          "title": "京味",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒105-0004 東京都港区新橋３丁目３−５", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAxB0iemOoT0Xoy9tHSwp3lTUHm1KQvgCmbXz6N2Xxufm4eHGxxPxWwNAP-REp2cfWHPlWprWIOKTrXBXy6AlnDNg-F9IESu5hlo85dKrcI_rZSXOBIha7Zb5NMCFV22bs5NKc8LxaMwib3=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "うめうめうめうめ", "uri": "https://maps.google.com/maps/contrib/100116518195482814741" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13783266965841793680&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:03:07+00:00" },
+          "researcher_note": "検索語『京味 東京』に施設名が一致。ミシュランガイド東京版での三つ星獲得歴は広く言及されるが、獲得年・現行の格付けはPlacesレスポンス外であり編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJaZF5wHmLGGARycW1JhshDjY",
+          "title": "日本料理 龍吟",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒100-0006 東京都千代田区有楽町１丁目１−２ 東京ミッドタウン日比谷 7階", "primary_type": "高級料理レストラン" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAjPzfox8mlK-WIbcOGsVqbXowecJoNFN6RkrPwNUDSdTNM8wCOqzzkNTHKpQ4JXKVwOybpdre5K-DcvfMHpfOvWzBtjbsWZEjDr4K-4hScKkYhx630D7WtvCkP_8BKEUJWn-On_L-yTSCwAPg=s4800-w900",
+            "source": "google-places",
+            "attributions": [ { "name": "Ryugin", "uri": "https://maps.google.com/maps/contrib/111003207427080493579" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3895087128219338185&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:03:07+00:00" },
+          "researcher_note": "検索語『龍吟 東京』に施設名が一致。ミシュランガイド東京版での三つ星獲得歴は広く言及されるが、獲得年・現行の格付けはPlacesレスポンス外であり編集部の裏取りが必要"
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJzYVfPY4IAWAR9YmMkv5T9Rk",
+          "title": "一子相伝 なかむら",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒604-8093 京都府京都市中京区松下町１３６", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCoM8-vWtNlmftDtBf22kSowJyvi8ya-wpfpNDhwdt285Dsu3wzePE_evej-nFx7ptqsRbnfCO7xK01SAvF8iS9i0UmakxT6lYL02hGrQmoUeDM7sPaiBf5_0ODz77m_bPDVjuMMZvsOPhiqlL49Sqb=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "arthas zhuang", "uri": "https://maps.google.com/maps/contrib/104220981499846374871" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1870493573087791605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-07T19:03:07+00:00" },
+          "researcher_note": "検索語『一子相伝なかむら 京都』に施設名が一致。ミシュランガイド京都・大阪版での三つ星獲得歴は広く言及されるが、獲得年・現行の格付けはPlacesレスポンス外であり編集部の裏取りが必要"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

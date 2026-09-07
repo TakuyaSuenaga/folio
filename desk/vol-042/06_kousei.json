@@ -1,0 +1,60 @@
+{
+  "vol": 42,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true,
+      "items[2].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://maps.google.com/?cid=8813417131136418225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true,
+        "https://music.apple.com/jp/album/jvc-world-sounds-japan-music-of-the-shakuhachi/1772584851?uo=4": true,
+        "https://maps.google.com/?cid=14770280739577064273&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=8813417131136418225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://music.apple.com/jp/album/jvc-world-sounds-japan-music-of-the-shakuhachi/1772584851?uo=4",
+        "status": 200
+      },
+      {
+        "url": "https://maps.google.com/?cid=14770280739577064273&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[1](JVC World Sounds Music of the Shakuhachi) 本文(essay)「二世青木鈴慕」(2箇所: 冒頭列挙部・「山口五郎と二世青木鈴慕は」部)",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "二世青木鈴慕",
+      "teisei": "二世 青木鈴慕(DATA欄「作者」および原資料のiTunes表記に合わせ、二世と青木鈴慕の間にスペースを入れる)"
+    },
+    {
+      "id": "P-02",
+      "location": "items[2](菊乃井 本店) 本文(essay)冒頭「菊乃井本店は京都・東山、」",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "菊乃井本店",
+      "teisei": "菊乃井 本店(見出しh2およびDATA欄「題名」、原資料のGoogle Places表記に合わせ、菊乃井と本店の間にスペースを入れる)"
+    }
+  ]
+}
