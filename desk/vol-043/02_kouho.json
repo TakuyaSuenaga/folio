@@ -1,0 +1,456 @@
+{
+  "vol": 43,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJbb8CleCvA2ARYLMnyS46884",
+          "title": "下野家枝垂れ桜と蔵（水屋）",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "岐阜県大垣市墨俣町上宿377",
+            "primary_type": "史跡"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDqwJ8sVbuO9MQ5cVjCCLkwAmWDAabsTBshEIVxaXsLYmG9sFbYU9suR4i_u-ruDrswb-zhNSD_xonigYMx9-IdQR5H6h32BGcUWRW9AD8k7fc0swTPAaYPzCAN86on07_WWSK3uSlPxwW2UA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "若狭孝之", "uri": "https://maps.google.com/maps/contrib/111809084413841997510" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14912326763771573088&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-08T18:25:23+00:00" },
+          "researcher_note": "Places検索「水屋 蔵 岐阜」でヒット。タイトルに『水屋』を含む史跡登録の蔵。大垣市墨俣町、旧輪中地域。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJDZqy5guXA2ARi6yT8L861Kc",
+          "title": "輪中の農家",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "岐阜県海津市海津町油島255-3",
+            "primary_type": "博物館"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDzbauv2xwg2qilry7DJjT5aJBBCiZw36XXgb3FdIFzJ1QK2QRldbJWwv6mBwrpNXiy8VSixshDJrU4H0G-vmchCJIy4Q4c6MjrTio9LCIcP2W2BbVIYHs7e4xOrYS0rDq7A7JlTPPqL-j1epM=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "M OSHIMA", "uri": "https://maps.google.com/maps/contrib/106723731051060579041" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12093355495445998731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-08T18:25:23+00:00" },
+          "researcher_note": "国営木曽三川公園内の展示施設。輪中地域の伝統的農家建築（嵩上げ構造を含む）を保存・公開。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJV7gVvvK8A2ARmkI8qUNCp80",
+          "title": "木曽三川輪中ミュージアム「わじゅ～む」",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "岐阜県海津市海津町萱野205-1",
+            "primary_type": "博物館"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA0LIODGj7M470NsENZRM9zsgkheLfQ_pRorQIxG2QhkTfQN8pfitQobxJotf7tL4RlhYwrnV0eC9MIVmMQ5doHOztf1_K9DHEFy38wre_p4dmygQ2wxmUyTDaHSJz1cnbWUOCOujJeUbl1JKh-4PhaKw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "SATOSHI SHIRAISHI", "uri": "https://maps.google.com/maps/contrib/112082956824942373032" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14818885957255447194&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-08T18:25:23+00:00" },
+          "researcher_note": "海津市の輪中資料館。輪中の水防建築・治水史を扱う施設として実在確認。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJuW9xHSmxA2ARejniwACT80E",
+          "title": "大垣市 輪中館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "岐阜県大垣市入方2丁目1611-1",
+            "primary_type": "博物館"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjC-rSiCNMgbIPUne9prBTMBwvaxgjHauQAge4BNzLRzPdW26sl8wG9z4_WdvhDj94mdG3E3vU0crHzgSx0227Qdh0wWxxg4Kb9QYcpoXn3cZJaR7OmQMP7udVwVzp7dMpWafkxuTqhAM7S1_fdwqYKr=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Chng Zi Long", "uri": "https://maps.google.com/maps/contrib/107284042333511700316" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4752303663251339642&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-08T18:25:23+00:00" },
+          "researcher_note": "大垣市が輪中の水防建築・生活史を紹介する資料館として設置。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJZQ9gKoGXA2ARu4KsZ6emJS0",
+          "title": "治水神社",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "岐阜県海津市海津町油島407-1",
+            "primary_type": "神社"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAYC8uLsRBKF-6_QwMYjb64TFAI-601s7oyq0h8ZzHWn4CSK8r0Gj592sjKCzquEn7BUtXGP1A5SbM647YddwHk9dfECzd1f3efwviJFNKgjCYb6tCqpNQcMaU76kc0sxX4Lb6ZiqUccIUMZA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "un jun", "uri": "https://maps.google.com/maps/contrib/108520189957076918068" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3253189543774159547&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-08T18:25:23+00:00" },
+          "researcher_note": "宝暦治水（薩摩藩士の治水工事）ゆかりの神社。建築本体ではないが輪中治水史の一次的な参照地点。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJDYtThH-7A2ARbxJGGLOpXl4",
+          "title": "温故集成館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "岐阜県海津市平田町三郷",
+            "primary_type": "博物館"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBB6iapYpauTjct0FWhYuQFpCxv2cWrO2nzZnJ4mCuLl2nWlAnD5_sAn0eAtQrXJ3bXUMFyM2RywGP-gtwR_8I-bhQnKqQTAobv2A5ABK_6VcAEfe7Pn4rmyruadp9e0Hp8hPiIpaWl6kD8=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "てっぴぃ1028", "uri": "https://maps.google.com/maps/contrib/106815867451893887071" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6800059074047513199&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-08T18:25:23+00:00" },
+          "researcher_note": "旧平田町（現海津市）の郷土資料館。輪中地域の民俗資料を収蔵。"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJo3k73nCxA2AR0xLBq6X-nfo",
+          "title": "本戸輪中堤",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "岐阜県安八郡輪之内町本戸",
+            "primary_type": "観光名所"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDXrVJRLK6eRbnGEXk5Ph0wYTEZK_Z98Vq_n9FivCxMxw76WE8oOWyRsKMPj-kFP-tLY-CSVzv2K7-ePlCOx0UuQNr0qqhIOEHdW2p7YQ2H8A0dVG1XS5dOollaiOC-fWgQM_UabrheE6zScA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "TonyWu吳董", "uri": "https://maps.google.com/maps/contrib/117980546668446746235" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=18058870068330173139&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-08T18:25:23+00:00" },
+          "researcher_note": "輪之内町に残る輪中堤の現存区間。水屋そのものではなく堤防遺構である点に留意。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJ293Q95Kf_18RlpYdn08Fr2w",
+          "title": "INE CAFE",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "京都府与謝郡伊根町平田593番地1",
+            "primary_type": "カフェ・喫茶"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCIGk6diIFv2_SFIflphdUqBjlSaXbdixtIewzqZY0il8Pbx9yQmkZft6vwzsTBKoGD9R2WApaUrsz59GeQnEijWRZCvIk6YLcv8E9v1ooffr6RDbOfonhotqN0Qzu8kCeR5kn9S0xULnVB_DhHtoJ2Tw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Juantraveler", "uri": "https://maps.google.com/maps/contrib/102632871681815124657" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=7831484116550653590&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-08T18:26:07+00:00" },
+          "researcher_note": "伊根町平田の舟屋群エリアにあるカフェ。海面すれすれの舟屋地形に立地。"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJL-ZW_Pqf_18RgcINJ2Ah3-U",
+          "title": "舟屋の宿 あうら/あうらカフェ",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "京都府与謝郡伊根町平田56",
+            "primary_type": "カフェ・喫茶"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBLmCqy8wCDT6hfsaqCOIyUwPoxStkj83QF-syNC4MdcGm5-WTWXJDaz5kzqdlonY2lsWAqAA8G9aO30NwpY1D4p-MMbu3-5N3HqcUQdI5bLCA62_YS0jHEi16fDLPKE3mt7_evV2FmeINOeB0=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "舟屋の宿 あうら/あうらカフェ", "uri": "https://maps.google.com/maps/contrib/102917409874008179924" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16563994651347763841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-08T18:26:07+00:00" },
+          "researcher_note": "舟屋（1階が船揚場、2階が居住部の伝統建築）を改装したカフェ併設の宿。"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJqcbJieKlAWARjbvKL96apfQ",
+          "title": "ひろ文",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "京都府京都市左京区鞍馬貴船町87",
+            "primary_type": "和食店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjB9TAUNw0JUsOiJxlyW1Cu-nn_NmXO423trzwHxegUKZUYyq20CFfZKQuCo4nw5hLi33qLnOsYfuM3_vqEwdxtUulJPPNn-YopICItcpdkMBBGIsFSPZi-WEAgCHqoGeb-a7hXPGIM0fI9TQA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "京都貴船 料理旅館 ひろ文", "uri": "https://maps.google.com/maps/contrib/103579923784180481506" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17628666595486907277&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-08T18:26:07+00:00" },
+          "researcher_note": "貴船川の川床（増水時は撤去・休止が前提の座敷）で営業する料理旅館。"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJkf1rMgimAWARGX37J_M7FKs",
+          "title": "右源太",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "京都府京都市左京区鞍馬貴船町76",
+            "primary_type": "和食店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCe5coaYKwU0n7coPQsYtp6iZFiEm9626Pm18xWkYEX7UgAm3d3oXKL6tiSKs8AMqMCg7TntFKcyiNrSJqRY85suJUip42tIhaDeoPNwlSokCGtKvhHyY65x5QmEkCXZq_Ec9eH-XtPfBOOgky4ESw7tQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Masaaki Tanaka", "uri": "https://maps.google.com/maps/contrib/116299202037206157752" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12327543995553774873&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-08T18:26:07+00:00" },
+          "researcher_note": "貴船川沿いの川床料理店。ひろ文と同じ渓谷立地で通年営業と夏季川床を使い分ける。"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ0xh6Wa5MQDURhzRHIV_zJQU",
+          "title": "川下り＆うなぎの大東エンタープライズ",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "福岡県柳川市城隅町18-9",
+            "primary_type": "観光名所"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA3qZlW-zZ8Sp_xgmibaWEmM5Wl1a8XZZK3GjRYuxsPKN2_MPtqCnhWqvqDQlk-ogm4gTyZ6_oi6spZ-zEb7QDjdYxacj5vNG5AgrrFVVisa_ZdfXbKXkd9FRAy-r498qUop8z9ORSE293RIg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Shohei Mizuguchi", "uri": "https://maps.google.com/maps/contrib/109928673943322927644" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=370970134233691271&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-08T18:26:07+00:00" },
+          "researcher_note": "柳川の掘割沿いでうなぎ料理と川下り発着を兼業。低地水郷の運河network上に立地。"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJnUr7xsR5AWARsmL-A51JZVs",
+          "title": "久ぼ多屋 ひむれ庵",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "滋賀県近江八幡市仲屋町元13番地",
+            "primary_type": "レストラン"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjATE9dMt8M3Z5prE5ZLwA50RnyzlbNUDowzsba1KxAmIwfumxi25fZcyBhl6BvXd7tPPZuIU5iH5rvn68sP6axJq67ya5alQ8Z5Ng4XGn8FK062y2dTy9Lu21YFbKreyp5BWky1Mq0RRkszaU2fYuM76Q=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "久ぼ多屋 ひむれ庵", "uri": "https://maps.google.com/maps/contrib/118079820168768139061" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6585750968824914610&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-08T18:26:07+00:00" },
+          "researcher_note": "近江八幡・八幡堀に近い旧市街の料亭。水郷めぐりの発着地区に立地。"
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJq1IzIAZ5AWARGx4uqpOb_x0",
+          "title": "水郷のさとまるやま",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "滋賀県近江八幡市円山町1467-3",
+            "primary_type": ""
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBncxFYd7E7mJzFhN5x4QJokGBVrLiRPZpth8DEZFz8TEZ60p1_veTRTtEgBFwKX09HaH7S-UuQrM5D8HGuZB3wj8RRaCoCsZGd04-uxFWKJfaPOZidfEVCrzlCHOQqOYQMJzzLCIt-jJgyyek=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "（株）水郷のさとまるやま", "uri": "https://maps.google.com/maps/contrib/104083229423925623738" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2161617404678774299&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-08T18:26:07+00:00" },
+          "researcher_note": "西の湖・円山地区の水郷集落内にある食事処。店名に水郷を冠する。"
+        },
+        {
+          "cand_id": "res-08",
+          "source_api": "google_places",
+          "source_id": "ChIJGRh3LYN5AWARNc6gsSbin3g",
+          "title": "お食事処和でん",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "滋賀県近江八幡市多賀町743",
+            "primary_type": "和食店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDJhVru0uD-x7Q1j66FtjmtWue7NQYrZwKMJq4KoC9ojKaPzFT7cHXBaweowavg1KOPywCWa3iNIWZHrFD4bWrpIYtEl-RMUXyTyNmvLTNgRDWFdVR59DZONjzcrb2oywkRGJ4eMlmiY6M_xQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "John Bonjiri", "uri": "https://maps.google.com/maps/contrib/100223093514220445116" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8691914461665087029&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-08T18:26:07+00:00" },
+          "researcher_note": "近江八幡・水郷地区寄りの和食店。琵琶湖内湖の低地に立地。"
+        }
+      ]
+    },
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784781413310",
+          "title": "幾何学模様 : 水岩瞳句集",
+          "creator": "水岩瞳",
+          "year": 2021,
+          "publisher": "ふらんす堂",
+          "meta": {
+            "ndc": "911.368",
+            "self_selected_haiku_includes": "クロがゐた伊勢湾台風父がゐた"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031228613", "kind": "catalog" }
+          ],
+          "image": { "url": "https://cover.openbd.jp/9784781413310.jpg", "source": "openbd" },
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-08T18:26:07+00:00" },
+          "researcher_note": "openBDの自選十五句に「クロがゐた伊勢湾台風父がゐた」を収録。伊勢湾台風（濃尾平野一帯を襲った1959年の高潮・洪水災害）を詠んだ一句を含む第二句集。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044010072",
+          "title": "一茶句集 : 現代語訳付き",
+          "creator": "小林一茶（玉城司 訳註）",
+          "year": 2013,
+          "publisher": "KADOKAWA（角川ソフィア文庫）",
+          "meta": {
+            "ndc": "911.35",
+            "toc_includes_kigo": "五月雨"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024739364", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-08T18:26:07+00:00" },
+          "researcher_note": "openBD収録の目次（季語索引）に『五月雨』の項があることを確認。増水を伴う梅雨期の川を詠んだ句を含む古典句集。"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784479321316",
+          "title": "雨音を、聴きながら。 : 雨のアンソロジー",
+          "creator": "阿川佐和子 他著",
+          "year": 2025,
+          "publisher": "大和書房（だいわ文庫）",
+          "meta": {
+            "ndc": "914.68",
+            "toc_includes_piece": "大洪水の思い出"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034117427", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-08T18:26:07+00:00" },
+          "researcher_note": "openBD収録の目次に「大洪水の思い出」の一篇を確認。雨をテーマに複数作家の短歌・エッセイを集めたアンソロジーで、句集・歌集単体ではない点に留意。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "poetry: 増水・洪水・大雨を詠んだ実在の句集・歌集を一点選ぶ",
+      "reason": "該当なし（部分）: 『伊勢湾颱風句集』（年輪稽古会, 1960）をNDLサーチで発見したが、1960年刊でISBNが存在せずopenBDに照合不能のため候補から除外した。"
+    }
+  ]
+}
