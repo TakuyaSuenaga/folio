@@ -1,0 +1,341 @@
+{
+  "vol": 44,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJTcrfqomNGGARjommnHbuRtg",
+          "title": "国立競技場（MUFGスタジアム）",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都新宿区霞ヶ丘町１０−１",
+            "primary_type": "スタジアム"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBd1rWhyi2G20WKTb0BorIGDYnJ13YG4l5Qat2rIHLmp0dQua4JNo1dOKbHVJhYA7SGijooE0tqqqoSAZBGac8N6O98yUAOo8xU3Kxtv6rPfLrIVqZ7iaipiQyXSAd7fv2NrFJwdY0G8CzAWXA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "tossy take", "uri": "https://maps.google.com/maps/contrib/106004182826644927383" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15584405753763891598&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-09T18:15:34+00:00" },
+          "researcher_note": "2016年の当初案（ザハ・ハディド案）が白紙撤回され、公的な設計競技のやり直しを経て隈研吾案に確定した経緯を持つ。Places APIは所在地・名称のみ確認可能で竣工年はレスポンスに含まれない。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJEwyaTjAoil8RsaujmBJpV60",
+          "title": "せんだいメディアテーク",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "宮城県仙台市青葉区春日町２−１ 1F",
+            "primary_type": "カルチャー センター"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCMTP48iv3_AyWPmyQfi_b28qOsLXQQsOSC37j54HB8RQXbjtSsaDoPmUTTJPD4cM8V2xERwK1Dcq_fI7Im1hyQoMkkzOg4jXDyooQc7sPfkAB6Kubuc9aA7c0rybNIGBl8CttBqmPaxzWn=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "小久保圭基", "uri": "https://maps.google.com/maps/contrib/110498977076474767993" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12490567620126550961&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-09T18:15:34+00:00" },
+          "researcher_note": "公開設計競技（1995年）で伊東豊雄案が採用され実施設計に確定した経緯を持つ。Places APIは所在地・名称のみ確認可能で竣工年はレスポンスに含まれない。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJT5NvX64IAWARRtnsQ_oAekY",
+          "title": "京都駅ビル",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "京都府京都市下京区東塩小路町９０１",
+            "primary_type": ""
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjD9rdMWb-3cIL7ff__9vIj_sEljPA1gxuKtJlIWsR4xSOGEDkeZqmLScHKSHxdh5epKz2GRuNjCg8QpBuTrkPDQpTobriEd7sS9Q4h4wvWpmaQAFdqyydhwsd-WY_2DEXyXPYn4Igmz5fqCLA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "京都駅ビル", "uri": "https://maps.google.com/maps/contrib/110696081079816697062" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5078372604695075142&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-09T18:15:34+00:00" },
+          "researcher_note": "国際指名設計競技（1991年）で原広司案が採用され実施設計に確定した経緯を持つ。Places APIは所在地・名称のみ確認可能で竣工年はレスポンスに含まれない。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJ4f1ovPqLGGARPSbtLQBqysQ",
+          "title": "東京国際フォーラム",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都千代田区丸の内３丁目５−１",
+            "primary_type": "コンベンション センター"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjC8-vBityUlF9z2o5OV0wC6zcI_BRLNHsIhDIQsgxjNCBNvIE-F0tt3s-d6GseOglGpCPOcB_zWY0fiWPlbGkb5056dszanKpygtJ5ekVF_2-DA5Hj1akTpDOCq-BP8SF1ZsU5HMHUiuw2W_Q=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "milano6440", "uri": "https://maps.google.com/maps/contrib/103701897126920720894" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14180262925732488765&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-09T18:15:34+00:00" },
+          "researcher_note": "国際設計競技（1989年）でラファエル・ヴィニオリ案が採用され実施設計に確定した経緯を持つ。Places APIは所在地・名称のみ確認可能で竣工年はレスポンスに含まれない。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJf8xB-pyOGGARizzhlNTcI7s",
+          "title": "国立西洋美術館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都台東区上野公園７−７",
+            "primary_type": "Art museum"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBorcu7guIL3JipyZxykWPMZl9ETJWWsgjhHGaiS8BeeNq1YNKA4eFGf8blK4ZZRc5q6fq3nrDfYeAAzVTt933J7Ol5t6sRSsnVUtls4wxISZ7p3B2KWE8GGQ0T-q1DxlyUL2OQLR0iA302pFtNDKjdcQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Yee WANG (Architecte)", "uri": "https://maps.google.com/maps/contrib/113527247090638141727" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13484864514866363531&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-09T18:15:34+00:00" },
+          "researcher_note": "ル・コルビュジエ設計。国際的な公的手続き（ユネスコ世界遺産登録、2016年）を経て「近代建築運動への顕著な貢献」として国際的に確定した資産の一つ。Places APIは所在地・名称のみ確認可能で竣工年はレスポンスに含まれない。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJtU5d-vtcGGARa3aFm0-TI5o",
+          "title": "横浜港大さん橋国際客船ターミナル",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "神奈川県横浜市中区海岸通１丁目１−４",
+            "primary_type": "フェリーターミナル"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCGn9K8XDJ0D4ZfyN90tGEGmExu2zKaU1CEn3F5V3FQkta04NEL7V8uCBVUmUzhykpDTtIK5J6xjiKhyentpQNwXvc6fLk6HS6cqY8dbyPsWwREtlExiE-BMiK15yfJs2cjI8nRvmoy1h1He9k7QiPGvA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ハムハム", "uri": "https://maps.google.com/maps/contrib/115149287920669875414" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11106883076146689643&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-09T18:15:34+00:00" },
+          "researcher_note": "国際設計競技（1994年）でFOA案が採用され実施設計に確定した経緯を持つ。Places APIは所在地・名称のみ確認可能で竣工年はレスポンスに含まれない。"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJAbhT24Az-F8RwWhli9sBKlE",
+          "title": "金沢21世紀美術館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "石川県金沢市広坂１丁目２−１",
+            "primary_type": "Art museum"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjB-4oSjp_woDq-BWDozsaqV7ZzkqcBL5nLsyDBt4VCpuri4eZUQXTzhRlVjAkOU6-8ja9mnLCKKEp7A3JjL0JF7wkZnbP3ZdWXKsFjibkcA_10xP2Lr-XHkmLARA6OSnm9tRqxW-iiebgDE=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "kan", "uri": "https://maps.google.com/maps/contrib/116652137552222556458" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5848489108542154945&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-09T18:15:34+00:00" },
+          "researcher_note": "公開設計競技（1999年）でSANAA案が採用され実施設計に確定した経緯を持つ。Places APIは所在地・名称のみ確認可能で竣工年はレスポンスに含まれない。"
+        },
+        {
+          "cand_id": "arc-08",
+          "source_api": "google_places",
+          "source_id": "ChIJtyvayxKiWjURgIGSanFnMPE",
+          "title": "広島平和記念資料館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "広島県広島市中区中島町１−２",
+            "primary_type": "博物館"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBqmulsTt8kKOSRihmSDgwopOg2fQerPA1XJ0qqI3WEz1aif0VjbXxHuXN1_QWrduybCfpZnxt2XZlKzHJJpiXM6_AT_yamOtNx7_UXpL-3_M5FoaOgfrUKoYRUnE-y2vXeML_R9hVKPbhWLxE=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Junior dos Reis", "uri": "https://maps.google.com/maps/contrib/111724947758006174882" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17379504698839695744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-09T18:15:34+00:00" },
+          "researcher_note": "公募設計競技（1949年）で丹下健三案が採用され実施設計に確定した経緯を持つ。Places APIは所在地・名称のみ確認可能で竣工年はレスポンスに含まれない。"
+        },
+        {
+          "cand_id": "arc-09",
+          "source_api": "google_places",
+          "source_id": "ChIJLyAg61jmAGARxD4WxFIVPgw",
+          "title": "グランキューブ大阪（大阪府立国際会議場）",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "大阪府大阪市北区中之島５丁目３−５１ ２階",
+            "primary_type": "コンベンション センター"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDYsHijESdchTYm5hYQ2IKAPhSqkWLLP3gEuo1_XRCWYchPeVd9RD7S9U3hHGn6KD2xlOEn_9_rOi5kkC8lmjf57jYJBYLo4zGl2lgtzGzbqSlh_i3fiPjXIme0TLMmb5jnaD9ZNYQVQUEym4o=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "グランキューブ大阪(大阪府立国際会議場）", "uri": "https://maps.google.com/maps/contrib/113577266385441796914" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=882166022232489668&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-09T18:15:34+00:00" },
+          "researcher_note": "公開設計競技（1995年）を経て実施設計に確定した大阪府の施設。Places APIは所在地・名称のみ確認可能で竣工年はレスポンスに含まれない。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1474833332",
+          "title": "Abbey Road (Super Deluxe Edition) [2019 Remix & Remaster]",
+          "creator": "ビートルズ",
+          "year": 1969,
+          "publisher": "",
+          "meta": { "trackCount": 40, "primaryGenreName": "ロック", "copyright": "This Compilation ℗ 2019 Calderstone Productions Limited (a Division of Universal Music Group) / Apple Corps Limited" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/29/77/1d/29771d4e-a301-6e48-99de-1300b3f63f15/19UMGIM68356.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/abbey-road-super-deluxe-edition-2019-remix-remaster/1474833332?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-09T18:27:09+00:00" },
+          "researcher_note": "1969年作の原盤に対し2019年の新ミックス・リマスターを施した「Super Deluxe Edition」として現在流通する決定版。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1440883320",
+          "title": "Sgt. Pepper's Lonely Hearts Club Band (Deluxe Edition) [2017 Remix & Remaster]",
+          "creator": "ビートルズ",
+          "year": 1967,
+          "publisher": "",
+          "meta": { "trackCount": 32, "primaryGenreName": "ロック", "copyright": "℗ 2017 Calderstone Productions Limited (a Division of Universal Music Group) / Apple Corps Limited" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fb/9d/02/fb9d02a4-2f7d-5b4a-2022-57deb888beca/17UMGIM10500.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/sgt-peppers-lonely-hearts-club-band-deluxe-edition/1440883320?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-09T18:27:09+00:00" },
+          "researcher_note": "1967年作の原盤に対し2017年の新ミックス・リマスターを施した「Deluxe Edition」として現在流通する決定版。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1440850596",
+          "title": "Pet Sounds (50th Anniversary Deluxe Edition) [2016 Remaster]",
+          "creator": "ザ・ビーチ・ボーイズ",
+          "year": 1966,
+          "publisher": "",
+          "meta": { "trackCount": 50, "primaryGenreName": "ロック", "copyright": "This Compilation ℗ 2016 Capitol Records, LLC" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d4/22/97/d422973f-c3ff-0600-2b6b-a22f7c0cf0f9/16UMGIM17479.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/pet-sounds-50th-anniversary-deluxe-edition-2016-remaster/1440850596?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-09T18:27:09+00:00" },
+          "researcher_note": "1966年作の原盤に対し2016年の50周年リマスターを施した「Deluxe Edition」として現在流通する決定版。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "300865074",
+          "title": "Kind of Blue (Legacy Edition)",
+          "creator": "マイルス・デイヴィス",
+          "year": 1959,
+          "publisher": "",
+          "meta": { "trackCount": 22, "primaryGenreName": "ジャズ", "copyright": "℗ Originally recorded 1958. All rights reserved by SONY MUSIC ENTERTAINMENT/This compilation (P) 2008 Columbia Records, a division of Sony Music Entertainment" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/8c/41/ef/8c41efae-a00f-84cf-9d6f-465bb0fc2f66/dj.aacpwrsd.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/kind-of-blue-legacy-edition/300865074?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-09T18:27:09+00:00" },
+          "researcher_note": "1959年作の原盤に未発表テイクを加えた「Legacy Edition」（2008年編纂）として現在流通する決定版。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1500643395",
+          "title": "Beggars Banquet (2018 Remaster)",
+          "creator": "ザ・ローリング・ストーンズ",
+          "year": 1968,
+          "publisher": "",
+          "meta": { "trackCount": 10, "primaryGenreName": "ロック", "copyright": "℗ 2018 ABKCO Music & Records, Inc." },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a3/d1/78/a3d178a8-f1c2-c1c3-1c5d-d78ab3af9768/20UMGIM13726.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/beggars-banquet-2018-remaster/1500643395?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-09T18:27:09+00:00" },
+          "researcher_note": "1968年作の原盤に2018年リマスターを施した版として現在流通する決定版。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1440812661",
+          "title": "Sticky Fingers (2015 Remaster)",
+          "creator": "ザ・ローリング・ストーンズ",
+          "year": 1971,
+          "publisher": "",
+          "meta": { "trackCount": 10, "primaryGenreName": "ロック", "copyright": "℗ 2012 Promotone B.V., under exclusive licence to Universal International Music B.V." },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7f/e0/b4/7fe0b4da-36cd-a1d0-0f19-ef3fec18e3cd/08UMGIM15742.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/sticky-fingers-2015-remaster/1440812661?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-09T18:27:09+00:00" },
+          "researcher_note": "1971年作の原盤に2015年リマスターを施した版として現在流通する決定版。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1039796877",
+          "title": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
+          "creator": "デヴィッド・ボウイ",
+          "year": 1972,
+          "publisher": "",
+          "meta": { "trackCount": 11, "primaryGenreName": "ロック", "copyright": "Under exclusive license to Parlophone Records Limited, ℗ 1972, 2012 Jones/Tintoretto Entertainment Company LLC" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/5f/fa/56/5ffa56c2-ea1f-7a17-6bad-192ff9b6476d/825646124206.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/the-rise-and-fall-of-ziggy-stardust-and-the/1039796877?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-09T18:27:09+00:00" },
+          "researcher_note": "1972年作の原盤に2012年40周年リマスターを施した版として現在流通する決定版。"
+        }
+      ]
+    },
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003002322",
+          "title": "西行全歌集",
+          "creator": "西行（久保田淳・吉野朋美 校注）",
+          "year": 2013,
+          "publisher": "岩波書店（岩波文庫）",
+          "meta": {
+            "ndc": "911.148",
+            "toc_includes": "山家集. 上／山家集. 中／山家集. 下／聞書集／残集／御裳濯河歌合／宮河歌合／拾遺",
+            "base_text_note": "陽明文庫蔵近世初期写本「六歌集」等の複数写本を底本とする校訂本文（NDL記載）"
+          },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025040389", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-09T18:26:24+00:00" },
+          "researcher_note": "複数の写本（異本）を底本として校訂し本文を確定した全歌集。NDL記載の底本一覧に陽明文庫本・天理図書館本など複数系統の写本名が明記されている。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784045740015",
+          "title": "新編中原中也全集 第1巻 (詩1)",
+          "creator": "中原中也（大岡昇平 編）",
+          "year": 2000,
+          "publisher": "角川書店",
+          "meta": {
+            "toc_includes": "山羊の歌／在りし日の歌／末黒野／生前発表詩篇",
+            "ndl_volume_note": "第1巻: 詩1: 本文篇（校異篇と対になる構成）"
+          },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970304959861323027", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-09T18:26:24+00:00" },
+          "researcher_note": "草稿・異稿を校異篇に分離し、本文篇として確定した本文を収める全集構成（NDL記載の巻構成による）。NDL上の書誌ISBNは10桁表記(4045740015)、openBD照合はISBN13変換値(9784045740015)で一致確認。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
