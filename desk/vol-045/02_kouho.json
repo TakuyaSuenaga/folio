@@ -1,0 +1,422 @@
+{
+  "vol": 45,
+  "genres": [
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1440841241",
+          "title": "Pet Sounds",
+          "creator": "ザ・ビーチ・ボーイズ",
+          "year": 1966,
+          "publisher": "",
+          "meta": {
+            "release_date": "1966-05-16",
+            "primary_genre": "ロック",
+            "track_count": 13,
+            "copyright": "℗ 2012 Capitol Records, LLC"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/35/bb/c4/35bbc4eb-9387-97b0-b138-64b7a949ea43/13UABIM03512.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/pet-sounds/1440841241?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-10T18:06:43+00:00" },
+          "researcher_note": "iTunesメタデータのreleaseDateが1966-05-16で六十年前後の発表に該当。当時評価と現在評価の差は本レスポンスからは確認できない。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1441164670",
+          "title": "Revolver",
+          "creator": "ビートルズ",
+          "year": 1966,
+          "publisher": "",
+          "meta": {
+            "release_date": "1966-08-05",
+            "primary_genre": "ロック",
+            "track_count": 16,
+            "copyright": "℗ 2009 Calderstone Productions Limited (a division of Universal Music Group)"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/58/4a/10/584a1058-de0a-6a6b-d0bd-da09a028b8bc/00602567705499.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/revolver/1441164670?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-10T18:06:43+00:00" },
+          "researcher_note": "iTunesメタデータのreleaseDateが1966-08-05で六十年前後の発表に該当。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "178049863",
+          "title": "Blonde On Blonde",
+          "creator": "ボブ・ディラン",
+          "year": 1966,
+          "publisher": "",
+          "meta": {
+            "release_date": "1966-06-20",
+            "primary_genre": "ロック",
+            "track_count": 14,
+            "copyright": "℗ Originally Released 1966 Sony Music Entertainment Inc."
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/20/9d/bf/209dbf58-f698-7181-33de-0c29480beba0/074640084126.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/blonde-on-blonde/178049863?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-10T18:06:43+00:00" },
+          "researcher_note": "iTunesメタデータのreleaseDateが1966-06-20で六十年前後の発表に該当。copyright欄にも1966年オリジナル発表の記載がある。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "192480256",
+          "title": "Sounds of Silence",
+          "creator": "サイモン&ガーファンクル",
+          "year": 1966,
+          "publisher": "",
+          "meta": {
+            "release_date": "1966-01-17",
+            "primary_genre": "フォーク・ロック",
+            "track_count": 11,
+            "copyright": "℗ Originally released 1966. All rights reserved by Columbia Records, a division of Sony Music Entertainment"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f9/8c/fa/f98cfa9e-282b-8a4f-33bd-ff3de9269963/074640926921.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/sounds-of-silence/192480256?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-10T18:06:43+00:00" },
+          "researcher_note": "iTunesメタデータのreleaseDateが1966-01-17で六十年前後の発表に該当。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1439223710",
+          "title": "Face to Face",
+          "creator": "ザ・キンクス",
+          "year": 1966,
+          "publisher": "",
+          "meta": {
+            "release_date": "1966-10-28",
+            "primary_genre": "ロック",
+            "track_count": 14,
+            "copyright": "℗ 1966 Sanctuary Records Group Ltd., a BMG Company"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/f1/14/cd/f114cd37-d577-61d6-5a0b-547c090989f4/4050538365184.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/face-to-face/1439223710?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-10T18:06:43+00:00" },
+          "researcher_note": "iTunesメタデータのreleaseDateが1966-10-28で六十年前後の発表に該当。copyright欄も1966年表記。"
+        }
+      ]
+    },
+    {
+      "genre": "photo",
+      "candidates": [
+        {
+          "cand_id": "pho-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784336076410",
+          "title": "昭和初期⇔平成・令和 日本定点写真紀行 : 東日本編・西日本編;全２巻",
+          "creator": "二村正之",
+          "year": 2024,
+          "publisher": "国書刊行会",
+          "meta": {
+            "ndl_link": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971430859808804278"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971430859808804278", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-10T18:06:43+00:00" },
+          "researcher_note": "昭和初期と平成・令和期を同一地点で撮り直す定点撮影手法の写真集。NDL・openBD双方で書誌一致を確認。"
+        },
+        {
+          "cand_id": "pho-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784576241241",
+          "title": "定点写真で見る渋谷今昔",
+          "creator": "鷹野晃",
+          "year": 2025,
+          "publisher": "二見書房",
+          "meta": {
+            "ndl_link": "https://ndlsearch.ndl.go.jp/books/R100000002-I033820097"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033820097", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-10T18:06:43+00:00" },
+          "researcher_note": "渋谷の同一地点を定点撮影で比較する写真集。NDL・openBD双方で書誌一致を確認。"
+        },
+        {
+          "cand_id": "pho-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784334102531",
+          "title": "定点写真で見る東京今昔",
+          "creator": "鷹野晃",
+          "year": 2024,
+          "publisher": "光文社",
+          "meta": {
+            "series": "光文社新書",
+            "ndl_link": "https://ndlsearch.ndl.go.jp/books/R100000002-I033361158"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033361158", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-10T18:06:43+00:00" },
+          "researcher_note": "東京都内の同一地点を定点撮影で比較する新書判写真集。pho-02と同著者による別巻。"
+        },
+        {
+          "cand_id": "pho-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784908468889",
+          "title": "沖縄戦場定点写真集",
+          "creator": "水ノ江拓治",
+          "year": 2025,
+          "publisher": "パブリブ",
+          "meta": {
+            "ndl_link": "https://ndlsearch.ndl.go.jp/books/R100000002-I034228440",
+            "description": "沖縄戦で米軍が撮影した写真のうち148枚の場所を特定し同じ画角で撮影、戦時と戦後を比較(openBD紹介文より)"
+          },
+          "image": {
+            "url": "https://cover.openbd.jp/9784908468889.jpg",
+            "source": "openbd"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034228440", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-10T18:06:43+00:00" },
+          "researcher_note": "沖縄戦当時の米軍撮影写真の場所を特定し同一画角で撮り直す定点撮影手法の写真集。戦争を扱うため権利・表現リスクは校閲で要確認。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJQ3MESwOMGGARX99d47o0V6k",
+          "title": "神田まつや 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都千代田区神田須田町１丁目１３",
+            "primary_type": "レストラン(そば)"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAnNxHaNkVIaRC6_7ZS1Ca-9RETpqGz8NTqfBef7Ukf_drtqYu0YalggUsiBqnqjgiltgil9ggN6fTqpOoOCtC3Eyk-B80EcAx6sMzh5Tc8xz4f4jUFdSWJRHWgCxP_V0D0kWJz-VFfPt3t=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "犬神工房", "uri": "https://maps.google.com/maps/contrib/117298617770032415425" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=12202279692666789727&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-10T18:06:58+00:00" },
+          "researcher_note": "神田の老舗そば店。Places APIには創業年の情報は無く、開業年は未確認。"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJX-yVohyMGGARUTdpnpXyQNQ",
+          "title": "神田 やぶそば",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都千代田区神田淡路町２丁目１０",
+            "primary_type": "レストラン(そば)"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCelGziJ0klIN2yNDL5UObL0-yYUBsPkPZbcftEkHqG-qjMtQ6NEAvhPTMXBazNOnIVJcwoO5tE-tO-s4f_sMBXOMLW3vyXN0ATnTezSmby5ouFa-vInxalcnfhy8HXCU_ETMMCDxO9WnIj0g=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "かんだやぶそば", "uri": "https://maps.google.com/maps/contrib/100781225505502931845" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=15294491058971948881&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-10T18:06:58+00:00" },
+          "researcher_note": "神田の老舗そば店。開業年はPlaces APIでは未確認。"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJOVajM56LGGARz8yztBKxm0I",
+          "title": "総本家更科堀井 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都港区元麻布３丁目１１−４",
+            "primary_type": "レストラン(そば)"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAvAgmw9XNE8azdY_7MKZOxjqLlVer5pD3t79d1ciT8uYN34A0c-1_0cjmt_72SmJZDTIlA6hBV0BgMUMFWY78tCABdbhFWL0IfPRUhHPjl3H07w7HEWyiczUyVgvy_g0Pip3uZAaLrCFCC_76k3zRkgw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Luna", "uri": "https://maps.google.com/maps/contrib/101949209843736515467" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=4799624521792605391&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-10T18:06:58+00:00" },
+          "researcher_note": "麻布の老舗そば店「更科」系。開業年はPlaces APIでは未確認。"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJVVVhhsCOGGARRyUgGMUOAXY",
+          "title": "洋食 ヨシカミ",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都台東区浅草１丁目４１−４",
+            "primary_type": "和食店(洋食)"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjC06rok8stb5lkaJE-XxkH4aDxPPAAUOLrCMy8_aEHD80Q-qFYTdJRZ9erFKDVqiOQFkuE-voJ7jw8ABxjZ8_8ZDkEqZ2ffiSbYoWemYC2WX8fAnvWHwuK7Z1Q3chmsV1q1vT6r8EN5ao10i88LmNOncw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "くさまっちhideo", "uri": "https://maps.google.com/maps/contrib/105092816793268081337" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=8503093811128313159&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-10T18:06:58+00:00" },
+          "researcher_note": "浅草の老舗洋食店。開業年はPlaces APIでは未確認。"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJeRg0L56OGGARje4XjxmdLO4",
+          "title": "黒船亭",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都台東区上野２丁目１３−１３ キクヤビル 4Ｆ",
+            "primary_type": "洋食レストラン"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAf0GbEZ7n5bIlkHDu7moRBVfHRZ-vvQjWttq6jzGaJe6zw9qIa5b5pErT6M_l30edQ7I3taWojg_6AHnTp-mEEKw3GsceNGuKQNPikPH7yViRNXlL4uAcYzCcCh0ArKRR-QSMbThSs6STD70YIpAC3=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "黒船亭", "uri": "https://maps.google.com/maps/contrib/113798261347911914758" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=17162265013102571149&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-10T18:06:58+00:00" },
+          "researcher_note": "上野の洋食店。開業年はPlaces APIでは未確認。"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJc6qdmPqNGGARydJjzkV-sT0",
+          "title": "上野精養軒",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都台東区上野公園４−５８",
+            "primary_type": "和食店(西洋料理)"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDY3Xo7Stl_dioN0MiQu5UnCN9N4q2qbfnXwX49RQbNnyCkqTFbLAml1-YWw68v_YwqiEWhud49jh16Ob2fMK-_3gwFthi_49tEq4gktHG-19q3x0OLo4tztbr0JzjScoY33uCdSixvT36L1lk=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "TOYO MT", "uri": "https://maps.google.com/maps/contrib/108193686336514117307" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=4445473145471881929&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-10T18:06:58+00:00" },
+          "researcher_note": "上野公園内の西洋料理店。開業年はPlaces APIでは未確認だが名称・立地から長く続く老舗と見られる。"
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJTYnOCaCOGGARjM8rCZP-tsA",
+          "title": "ぽん多本家",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都台東区上野３丁目２３−３",
+            "primary_type": "和食店(とんかつ)"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjADCA100oGIjog8Tip-mZnugo38MoIN3-jYql-GyTY8MWC1-KvMXFxVEi0U-jt-OMCO1_9h7TELUDlrSK4aDHRhFlaJBmsU7biOTFufMOTCpIeyICWUymf7xgmP3p8jBe0Xa7VOUlZa2eAOfHV8uQfLIg=s4800-w900",
+            "source": "google-places",
+            "attributions": [ { "name": "ぽん多本家", "uri": "https://maps.google.com/maps/contrib/108255276068759673491" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=13886566408511016844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-10T18:06:58+00:00" },
+          "researcher_note": "上野の老舗とんかつ店。開業年はPlaces APIでは未確認。"
+        },
+        {
+          "cand_id": "res-08",
+          "source_api": "google_places",
+          "source_id": "ChIJDz-xgyCMGGARTTlkSDiqvr8",
+          "title": "伊豆榮 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都台東区上野２丁目１２−２２",
+            "primary_type": "和食店(うなぎ)"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAgo56nnTE9bzTcRWlXdQzgAfTATJpwkfFMtS6BoqWhijnd8kjM4cNUK76jwvwiz82y52p8cJg53nJi-U1CBb6EK9cE4wzG3bUUrYK3uU-4-6DNHIL9fpZXJ47mHCr-ilpH4nsRRdemw78H4Lqk4fV82A=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "張與倫", "uri": "https://maps.google.com/maps/contrib/103743969328928235781" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=13816667865528678733&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-10T18:06:58+00:00" },
+          "researcher_note": "上野の老舗うなぎ店。開業年はPlaces APIでは未確認。"
+        },
+        {
+          "cand_id": "res-09",
+          "source_api": "google_places",
+          "source_id": "ChIJZZRwk-2OGGARX2mMuPGhmPc",
+          "title": "土手の伊勢屋",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都台東区日本堤１丁目９−２",
+            "primary_type": "和食店(天ぷら)"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAVPW5dhFO-8QbzN2kGvKN9EQp6aMV5-qcPMZ9kQxvDv7Mz2_0fngyzpBqBV03Z0A9aJ2op-74UteTYOR1pM7KNOcchQv8AUyYEF9LhF0Xiyez4kC89hwChGL_X6rylK6GllLgkRyj1LmvjcDM=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "土手の伊勢屋", "uri": "https://maps.google.com/maps/contrib/118314769634586915497" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=17841187983383619935&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-10T18:06:58+00:00" },
+          "researcher_note": "吉原そばの老舗天ぷら店。開業年はPlaces APIでは未確認。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

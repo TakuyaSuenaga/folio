@@ -1,0 +1,25 @@
+{
+  "vol": 45,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://music.apple.com/jp/album/pet-sounds/1440841241?uo=4",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971430859808804278",
+        "status": 200
+      },
+      {
+        "url": "https://maps.google.com/?cid=12202279692666789727&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": []
+}
