@@ -1,0 +1,60 @@
+{
+  "vol": 46,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true,
+      "items[2].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://maps.google.com/?cid=103398400729677108&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true,
+        "https://music.apple.com/jp/album/%E6%9C%97%E8%AA%AD%E5%96%AB%E8%8C%B6-%E5%99%BA%E3%81%AE%E7%B1%A0-%E5%A3%B1-%E3%81%82%E3%82%89%E3%81%99%E3%81%98%E3%81%A7%E8%81%B4%E3%81%8F%E6%96%87%E5%AD%A6%E5%85%A8%E9%9B%86/1556042186?uo=4": true,
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I032160246": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=103398400729677108&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://music.apple.com/jp/album/%E6%9C%97%E8%AA%AD%E5%96%AB%E8%8C%B6-%E5%99%BA%E3%81%AE%E7%B1%A0-%E5%A3%B1-%E3%81%82%E3%82%89%E3%81%99%E3%81%98%E3%81%A7%E8%81%B4%E3%81%8F%E6%96%87%E5%AD%A6%E5%85%A8%E9%9B%86/1556042186?uo=4",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032160246",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[1](朗読喫茶 噺の籠 壱)essay内の書名引用「『朗読喫茶 噺の籠 壱(あらすじで聴く文学全集)』」",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "壱(あらすじで聴く文学全集)",
+      "teisei": "壱 (あらすじで聴く文学全集)——h2見出し・DATA欄「題名」は「壱」と「(」の間に半角スペースがあり、essay内の書名だけ抜けている。三箇所を揃える"
+    },
+    {
+      "id": "P-02",
+      "location": "items[0](新宿末廣亭)DATA欄「address」行",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "新宿３丁目６−１２(丁目・番地が全角数字)",
+      "teisei": "新宿3丁目6-12——DATA欄の他の数値(年・price・isbn等)はすべて半角算用数字であり、住所の丁目・番地だけ全角のため不統一"
+    }
+  ]
+}

@@ -1,0 +1,420 @@
+{
+  "vol": 46,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJTczLiL-OGGARtZeg89j8WKw",
+          "title": "浅草演芸ホール",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒111-0032 東京都台東区浅草１丁目４３−１２",
+            "primary_type": "劇場",
+            "note": "落語定席。竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDhJSDLmYExEXYneO3qGswvmRjBkA28Y3_0j0OUCUu2qtjfukk_jEoyOkTbqFwm0LM4SoRE5PN1Gs24dN7w2Pj6dLFAgRGOg22U70xppiL7XLSKQdrHD4b4i7HNhUIIZjF3QK1jVqOym2YWaMw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Kazuhiko K", "uri": "https://maps.google.com/maps/contrib/116954538300396213913" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12418953981204666293&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-11T18:09:44+00:00" },
+          "researcher_note": "東京都台東区の落語定席。マイク不使用の高座で肉声がそのまま届く発注に合致する。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJ_y_tetuMGGARNP3VMUxYbwE",
+          "title": "新宿末廣亭",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒160-0022 東京都新宿区新宿３丁目６−１２",
+            "primary_type": "劇場",
+            "note": "落語定席。竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDPl8lOUnz1OhbRJ1laf450JQOsS9XErV5wIeAIwq0QcEhXNAA1JcdFJsTcdO-4XMWV1nxB1GHCKQU5eF4-Y7-77dAZPxlrWth5tIuq6t0_KKGI9SmNNybS8wyWLT2xkQi6qv34gke2PJhZDg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "稲岡慶郎", "uri": "https://maps.google.com/maps/contrib/115159383224623463134" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=103398400729677108&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-11T18:09:44+00:00" },
+          "researcher_note": "現存する木造の落語定席建築。都内四定席のひとつ。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJW9ik1Z-OGGARP3SMtR0W8ho",
+          "title": "落語寄席 鈴本演芸場",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒110-0005 東京都台東区上野２丁目７−１２",
+            "primary_type": "劇場",
+            "note": "都内最古参とされる落語定席。竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBHzaBTxWBvsUDEGgbGgxOQ7ANnRkTB0WAZeiLEEVU1Ue6HWR0dy7nl1Qtw8SX_Pa1VV8Oi1Ghc00S6VFESfI13O5nXZgLJIK3lrQNIKwttfo0EXwihEGItiMZ6kkwxj1kodW0bXOec3vIq=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Tomoya Yasukawa", "uri": "https://maps.google.com/maps/contrib/117764560260623978940" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1941638706205848639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-11T18:09:44+00:00" },
+          "researcher_note": "都内四定席のひとつ。上野の落語定席建築。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJPxG63F2NGGARhDzYtmbeSTA",
+          "title": "池袋演芸場",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒171-0021 東京都豊島区西池袋１丁目２３−１ エルクルーセ",
+            "primary_type": "劇場",
+            "note": "竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBAVqE3FCDDeHMHN-_sMA4-GsfEjB5CCtATrqLMvaldyeOxlAOmgp_2SToiK8m6-Vme5NubvZzMWVgsRzxXJ4dfhkb_qyhYBTgQ-5eBnvVFRgqVJZusP7LaaL_iaJ-uaMUfL0VQk0KdGlhhag=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "十鼓", "uri": "https://maps.google.com/maps/contrib/115268727310124085891" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3479556719856073860&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-11T18:09:44+00:00" },
+          "researcher_note": "都内四定席のひとつ。ビル内の小規模な落語定席。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJj7wnCiCMGGARRNJRkX7EdDo",
+          "title": "お江戸 上野 広小路亭",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒110-0005 東京都台東区上野１丁目２０−１０ 上野広小路永谷ビル ２階",
+            "primary_type": "劇場",
+            "note": "竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjANTnXMol5uRB3GMmtE31B0Mihzpq-41NORPko4joKxyv1iYjDQinkIM1iNCX9DHjfbjbzD5pTuym024Z_qT5lW-toThCrVp22oSLSGUVsYLCfFqj4ArApVeITPiMyRH_QPUuwvS_FrfAJGAmU=s4800-w1024",
+            "source": "google-places",
+            "attributions": [ { "name": "お江戸上野広小路亭", "uri": "https://maps.google.com/maps/contrib/101782739912714907102" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4212207599381238340&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-11T18:09:44+00:00" },
+          "researcher_note": "永谷ビル内の色物定席。落語・講談以外の話芸も掛かる。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJWatDAjN3A2ARGwMRC_XZFmg",
+          "title": "大須演芸場",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒460-0011 愛知県名古屋市中区大須２丁目１９−３９",
+            "primary_type": "劇場",
+            "note": "竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDkckmQfsfXkMk97hWmBa_Z7bwVLNZxD_zLZudJP2bzaRLi2DWv_zcOu074abPS5HitRnO2jo1Dek68HuBXC7VIZLskfo_WWfsuBgCB0-OlirvwmrQh3ZXN1U_mO06h2Me_jCzO8H-grKqevVI=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "大須演芸場", "uri": "https://maps.google.com/maps/contrib/110947048108342185596" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=7500421875908018971&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-11T18:09:44+00:00" },
+          "researcher_note": "名古屋大須の定席演芸場。東京圏以外の候補。"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJTczLiL-OGGAR8xQ_KpMHI58",
+          "title": "浅草フランス座演芸場東洋館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒111-0032 東京都台東区浅草１丁目４３−１２",
+            "primary_type": "劇場",
+            "note": "演芸場だが色物・漫才中心で落語定席とは編成が異なる。竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAXXyrSFwhhOVgMgIdAk3KYHUXyGKo1dUz3eA8aw1yajVTbgn6o-MIMT3WmeQTzzcFqhLky7r78xQuJU94YUhk0T9ApuVyXai6I8ZTD_vv7-nBCt3Mgm82pMbq_D64ZRwyJOgwbNYGeb-Ko0g=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "中村ひかる", "uri": "https://maps.google.com/maps/contrib/116080231516964668508" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11467017404865778931&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-11T18:09:44+00:00" },
+          "researcher_note": "浅草演芸ホールと同じ建物内の色物定席。発注の「落語・講談など話芸」とはやや距離がある。"
+        },
+        {
+          "cand_id": "arc-08",
+          "source_api": "google_places",
+          "source_id": "ChIJI61CZWBcGGARazG_sSsftr4",
+          "title": "横浜にぎわい座",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒231-0064 神奈川県横浜市中区野毛町３丁目１１０−１",
+            "primary_type": "劇場",
+            "note": "竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBomT43qNn7-qME1uIx7harNvYvvZJn09ZJeqigcaRdV85LCj9bb3cGsS63j-S-BIJsVZrGFckMLu08t0kygg4jGtd6KKUr4bVKen_aaKZKpQmZbjTN7GP-jB2IwJJo-kd9pXpdNcR43Z9aYQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "T HB", "uri": "https://maps.google.com/maps/contrib/109252355258890374397" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13742205585493799275&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-11T18:09:44+00:00" },
+          "researcher_note": "横浜市が開設した公営の演芸専門ホール。落語・講談の定席興行を行う。"
+        },
+        {
+          "cand_id": "arc-09",
+          "source_api": "google_places",
+          "source_id": "ChIJJTlzTCUoil8RkA8XkAr7tvI",
+          "title": "魅知国定席 花座",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒980-0811 宮城県仙台市青葉区一番町４丁目４−２３",
+            "primary_type": "劇場",
+            "note": "竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBdkFMEiLto1ZYD0O2afT2gYHuKdCr4gS4MwhG-i3229ca2IJ1HbKbPMH4aMWFzLOJ5rDQQUpGrWwl1k8V8xqgcBgikE25QhbNGZrnF05_gFq1D05wekcMDESgo-WHtDapRdw0_e2aiO1ZR=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "foxyun chaso (foxyun)", "uri": "https://maps.google.com/maps/contrib/115693797907804379534" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17489442225725575056&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-11T18:09:44+00:00" },
+          "researcher_note": "仙台の定席。東京圏以外の候補。"
+        },
+        {
+          "cand_id": "arc-10",
+          "source_api": "google_places",
+          "source_id": "ChIJVVUFUXeMGGARwkt_kblW8zI",
+          "title": "国立演芸場",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒102-0092 東京都千代田区隼町４−１",
+            "primary_type": "劇場",
+            "note": "竣工年・設計者はPlaces APIでは確認できない。老朽化のため建替え中との報道があるが本レスポンスでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDt3R4yY9YgnP6D1ULsi7t8oBs2z3W01UUu0AFZNt4DNc2YTmTKkOwMFGgoFNPZDB97EFnXuSAcQby2YtJihLRxAM3wwJj3ompsFk6wbv6H2fp-UxFLw3wTXwf5gBrEeaymuIvpZ7BzCalow1w=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "kunio", "uri": "https://maps.google.com/maps/contrib/105505871939361122819" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3671373476247063490&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-11T18:09:44+00:00" },
+          "researcher_note": "国立劇場に併設された演芸専門施設。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1556042186",
+          "title": "朗読喫茶 噺の籠 壱 (あらすじで聴く文学全集)",
+          "creator": "斉藤壮馬, 下野 紘 & 杉田智和",
+          "year": 2021,
+          "publisher": "",
+          "meta": {
+            "release_date": "2021-03-10",
+            "primary_genre": "スポークンワード",
+            "track_count": 3,
+            "copyright": "℗ 2021 Hanashi RECORD"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/1c/0b/6c/1c0b6c65-2a2c-8feb-17f7-c7ffe8933216/OVVA-1_H1.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E6%9C%97%E8%AA%AD%E5%96%AB%E8%8C%B6-%E5%99%BA%E3%81%AE%E7%B1%A0-%E5%A3%B1-%E3%81%82%E3%82%89%E3%81%99%E3%81%98%E3%81%A7%E8%81%B4%E3%81%8F%E6%96%87%E5%AD%A6%E5%85%A8%E9%9B%86/1556042186?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-11T18:09:33+00:00" },
+          "researcher_note": "iTunesのprimaryGenreNameが「スポークンワード」。声優による朗読を収録したシリーズの第一弾。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1780960352",
+          "title": "朗読喫茶 噺の籠 弐拾壱 (あらすじで聴く文学全集)",
+          "creator": "森川智之, 速水奨 & 小林千晃",
+          "year": 2023,
+          "publisher": "",
+          "meta": {
+            "release_date": "2023-02-08",
+            "primary_genre": "スポークンワード",
+            "track_count": 3,
+            "copyright": "℗ 2023 Hanashi RECORD"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/5e/5f/075e5fae-9a9c-3f6d-cc8e-7ad2812e7911/OVVA-22A_H1.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E6%9C%97%E8%AA%AD%E5%96%AB%E8%8C%B6-%E5%99%BA%E3%81%AE%E7%B1%A0-%E5%BC%90%E6%8B%BE%E5%A3%B1-%E3%81%82%E3%82%89%E3%81%99%E3%81%98%E3%81%A7%E8%81%B4%E3%81%8F%E6%96%87%E5%AD%A6%E5%85%A8%E9%9B%86/1780960352?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-11T18:09:33+00:00" },
+          "researcher_note": "同シリーズの後発盤。長期継続する朗読シリーズであることの傍証になる。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "426442561",
+          "title": "ジブリ作品集より「ギターと朗読で贈るその詩的世界」",
+          "creator": "榎本裕之 & 那須恵理子",
+          "year": 2011,
+          "publisher": "",
+          "meta": {
+            "release_date": "2011-03-15",
+            "primary_genre": "J-Pop",
+            "track_count": 9,
+            "copyright": "℗ 2011 iJockeyM"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/fe/1b/8b/mzi.xrgoyenh.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E3%82%B8%E3%83%96%E3%83%AA%E4%BD%9C%E5%93%81%E9%9B%86%E3%82%88%E3%82%8A-%E3%82%AE%E3%82%BF%E3%83%BC%E3%81%A8%E6%9C%97%E8%AA%AD%E3%81%A7%E8%B4%88%E3%82%8B%E3%81%9D%E3%81%AE%E8%A9%A9%E7%9A%84%E4%B8%96%E7%95%8C/426442561?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-11T18:09:33+00:00" },
+          "researcher_note": "ギター伴奏と朗読を組み合わせた編成。歌唱でなく語りが主体の一点。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "677692219",
+          "title": "OTO-EHON Japanese Folk Tales ① (Japanese ver.)",
+          "creator": "守時タツミ",
+          "year": 2013,
+          "publisher": "",
+          "meta": {
+            "release_date": "2013-07-25",
+            "primary_genre": "チルドレン・ミュージック",
+            "track_count": 12,
+            "copyright": "℗ 2013 Decibel LLC"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/21/06/32/210632b5-b02c-93e9-46de-fc78e1c6e53b/dj.hgahyxec.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/oto-ehon-japanese-folk-tales-japanese-ver/677692219?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-11T18:09:33+00:00" },
+          "researcher_note": "日本の昔話を語りで聴かせる音絵本形式のアルバム。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1652443245",
+          "title": "50周年記念アルバムⅣ～語り歌～",
+          "creator": "吉幾三",
+          "year": 2022,
+          "publisher": "",
+          "meta": {
+            "release_date": "2022-11-16",
+            "primary_genre": "演歌",
+            "track_count": 10,
+            "copyright": "℗ TOKUMA JAPAN COMMUNICATIONS"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/dd/72/15/dd7215d8-6052-7ac5-46c9-252cdf3339e7/TKCA-75053.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/50%E5%91%A8%E5%B9%B4%E8%A8%98%E5%BF%B5%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0-%E8%AA%9E%E3%82%8A%E6%AD%8C/1652443245?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-11T18:09:33+00:00" },
+          "researcher_note": "アルバム名自体に「語り歌」を掲げる演歌歌手のアルバム。歌唱と語りの中間形式。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1610103210",
+          "title": "四阿語り - Single",
+          "creator": "悒うつぼ",
+          "year": 2022,
+          "publisher": "",
+          "meta": {
+            "release_date": "2022-02-27",
+            "primary_genre": "J-Pop",
+            "track_count": 1,
+            "copyright": "℗ 2022 sensenkikai"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/bb/c5/69/bbc569d0-b237-b9ad-2d41-112158ee4201/859757903795_cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E5%9B%9B%E9%98%BF%E8%AA%9E%E3%82%8A-single/1610103210?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-11T18:09:33+00:00" },
+          "researcher_note": "曲名に「語り」を冠したシングル。小規模レーベルのインディー作品。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "bok-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784000613033",
+          "title": "亜鉛の少年たち : アフガン帰還兵の証言",
+          "creator": "Aleksievich,Svetlana,1948- 奈倉,有里,1982-",
+          "year": 2022,
+          "publisher": "岩波書店",
+          "meta": { "isbn": "9784000613033", "price": "3200円" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032160246", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-11T18:09:19+00:00" },
+          "researcher_note": "アフガン帰還兵多数への聞き取りをもとに構成されたノンフィクション。アレクシエーヴィチの聞き書き手法の代表作。"
+        },
+        {
+          "cand_id": "bok-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784000614788",
+          "title": "アレクシエーヴィチとの対話 = Беседы со Светланой Алексиевич : 「小さき人々」の声を求めて",
+          "creator": "Aleksievich,Svetlana,1948- 鎌倉,英也,1962- 徐,京植,1951- ほか",
+          "year": 2021,
+          "publisher": "岩波書店",
+          "meta": { "isbn": "9784000614788", "price": "2900円" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031467382", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-11T18:09:19+00:00" },
+          "researcher_note": "アレクシエーヴィチ本人が自らの聞き書き手法を語る対話集。作品そのものではなく手法についての一冊。"
+        },
+        {
+          "cand_id": "bok-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784864261012",
+          "title": "古老の人生を聞く",
+          "creator": "宮本,常一,1907-1981 森本,孝 周防大島文化交流センター",
+          "year": 2021,
+          "publisher": "Mizunowa Shuppan",
+          "meta": { "isbn": "9784864261012", "price": "1200円", "series": "宮本常一ふるさと選書 第1集" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031422007", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-11T18:09:19+00:00" },
+          "researcher_note": "民俗学者宮本常一による周防大島の古老への聞き書きを収めた選書第一集。タイトルが発注に直接合致する。"
+        },
+        {
+          "cand_id": "bok-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784864261029",
+          "title": "ふるさとを憶う",
+          "creator": "宮本,常一,1907-1981 柳原,一徳,1969- 森本,孝",
+          "year": 2022,
+          "publisher": "みずのわ出版",
+          "meta": { "isbn": "9784864261029", "price": "1200円", "series": "宮本常一ふるさと選書 第2集" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032155096", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-11T18:09:19+00:00" },
+          "researcher_note": "同選書の第二集。第1集「古老の人生を聞く」と対になる聞き書き編。"
+        },
+        {
+          "cand_id": "bok-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784620326429",
+          "title": "特攻と日本軍兵士 : 大学生から「特殊兵器」搭乗員になった兄弟の証言と伝言",
+          "creator": "広岩,近広,1950- 岩井,忠正,1920- 岩井,忠熊,1922-",
+          "year": 2020,
+          "publisher": "毎日新聞出版",
+          "meta": { "isbn": "9784620326429", "price": "2000円" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030526067", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-11T18:09:19+00:00" },
+          "researcher_note": "元特攻隊員兄弟の証言を記者が聞き取り構成した書籍。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
