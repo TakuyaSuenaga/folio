@@ -1,0 +1,271 @@
+{
+  "vol": 47,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJzXYgo5CTGGARPB1BIOf9Kms",
+          "title": "岩淵水門(青水門)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒115-0042 東京都北区志茂５丁目４１−２",
+            "primary_type": "",
+            "note": "荒川と隅田川(旧荒川放水路)を分ける水門。竣工年・運用実績はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjC5uG78D1EHC1hhX6b3WJFqBx0stitHF1dwmcw3a-tPcSQlSzFQplVGJbSyURMdd76tB5WyYhchsjySmfGKskYqTI90N27_E_-TDTKz9dHd7CMnU8g2AC4Cu_mVH80KfOFf8Ob_VlXhKvrlRYx0QN2_AQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ティラノウルサイス", "uri": "https://maps.google.com/maps/contrib/103788518632454361316" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=7722263680200547644&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-12T17:35:58+00:00" },
+          "researcher_note": "現在は「旧岩淵水門」に代わって稼働する水門。平常時は開放し、洪水時にのみ閉じる可動式の治水インフラ。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJ53a1WKqTGGARMSSM7vc7IiE",
+          "title": "旧岩淵水門",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒115-0042 東京都北区志茂５丁目４１",
+            "primary_type": "",
+            "note": "通称「赤水門」。現役を退いた旧水門。竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA5PAHtqUrY9xcrj-IJF2x4E11dzfZ5S4HXSb7fyfTDF6QmuSXqHyP30Koq9FsRD_FqQ0pMpn4OrOp3rOeXP_aemr90B9o2VT7c04PErbueYBMMQYkOUzCwIsS8WFEXxVqpyrvTdN28IjXTvA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "とど", "uri": "https://maps.google.com/maps/contrib/110634267320819524679" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2387536688504906801&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-12T17:35:58+00:00" },
+          "researcher_note": "現役の岩淵水門(青水門)と対になる旧水門。現在は稼働せず保存構造物。発注の「危険時にのみ閉じる」現役性からはやや外れる。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJNzPzVIW9GGARvTqmdAYs_hw",
+          "title": "首都圏外郭放水路",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒344-0111 埼玉県春日部市上金崎７２０",
+            "primary_type": "政府機関",
+            "note": "地下放水路施設。竣工年・運用実績はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBP_yOxUvCEAWmRM3JFmhzDq8kB-xoym6IfXQDtrWFjb-GA53xqdyrV1m35rYVzm0L-C2uF-oBHEKZePtCC8qOB0tMR8BJNj1f7UzEBWhw0ZNRPHKbMv5pH5x4jGhnGgrx8JScybhn-PynmdA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "心を燃やせ", "uri": "https://maps.google.com/maps/contrib/106526947337785292088" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2089155683384965821&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-12T17:35:58+00:00" },
+          "researcher_note": "平常時は空洞の地下水路で、洪水時にのみ水を通す設計。可動ゲートで流入を制御する治水施設。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJ59w6bX-8GGARxwlPQo6bzOg",
+          "title": "外郭放水路調圧水槽",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒344-0111 埼玉県春日部市上金崎７２０",
+            "primary_type": "観光名所",
+            "note": "首都圏外郭放水路の一部(通称「地下神殿」)。竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA0nLXeWoPdTCO9f3mN5rHq86bZTBMXc7J4i6YlyPwZIgqSkpFFuAw7UQ35k1LyeZuLoT4M1UdBQd8J0ddo3dQazuodPI5lFxLe9lysHdUVWu7xJqC3Spk2JdBGqbv3Wv8TGiASSVVNBINH3w=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Haptic 404", "uri": "https://maps.google.com/maps/contrib/107600383051504796287" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16774953747348392391&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-12T17:35:58+00:00" },
+          "researcher_note": "arc-03と同一施設の構成要素。単独候補にするか arc-03 に統合するかは選定時の判断に委ねる。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ1XIoDYeIGGAREeOtzW4Dwio",
+          "title": "荒川ロックゲート",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒132-0034 東京都江戸川区小松川１丁目１−地先",
+            "primary_type": "",
+            "note": "荒川と旧中川をつなぐ閘門。竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBI-AQTqBAcT5euyKoF1R9kBs5exgrWms5mUxqMoijyVySapeEcKRg6YxmRqieL07FoMVDSetxe9mrr4uh5quNtOuYk-l84uiihICdwuBdCdGtQnLdVT1PC9WrtB1GnsLlMGNUFwiv9g0xP=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "じゃんじゃん", "uri": "https://maps.google.com/maps/contrib/114146280314223377272" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3081028869506851601&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-12T17:35:58+00:00" },
+          "researcher_note": "水位差のある二つの川をゲートで仕切り、船通過時にのみ水位を調整する閘門。常時は開いて船を通す運用。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJu8047yKHGGAR4d-41qpbnwY",
+          "title": "行徳可動堰",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒133-0062 東京都江戸川区東篠崎町２丁目２５０",
+            "primary_type": "",
+            "note": "旧江戸川にある可動堰。竣工年・設計者はPlaces APIでは確認できない。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAV0j7Jgrlt_90h2LgcaxqbPFxAhDjTzQMvKhDBPkThPiqnkDCpI54Gr1MAdJOQMfw7Lo8cOewaHprjLBar9-5qw3r9youyc_i1NG-Sgk6Kkq5zvfna0baxXZZ60rJK90u7fDUQtWTBRWwxUQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Keiichi Quriyama", "uri": "https://maps.google.com/maps/contrib/102865210874006713616" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=477200874829570017&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-12T17:35:58+00:00" },
+          "researcher_note": "水位・塩分侵入を調整する可動堰。平常時は開いて流れを通し、必要時にゲートを操作する治水施設。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "bok-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784102114032",
+          "title": "ペスト",
+          "creator": "Camus,Albert,1913-1960 宮崎,嶺雄,1908-1980",
+          "year": 2004,
+          "publisher": "新潮社",
+          "meta": { "isbn": "9784102114032", "series": "新潮文庫", "price": "743円" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970867909835658532", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-12T17:45:00+00:00" },
+          "researcher_note": "アルジェリアの都市オランがペストにより封鎖・隔離される様を描く。カミュの代表作。"
+        },
+        {
+          "cand_id": "bok-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784041065815",
+          "title": "復活の日",
+          "creator": "小松,左京,1931-2011",
+          "year": 2018,
+          "publisher": "KADOKAWA",
+          "meta": { "isbn": "9784041065815", "series": "角川文庫", "price": "760円" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029128958", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-12T17:45:00+00:00" },
+          "researcher_note": "細菌兵器由来のウイルス禍で世界が滅び、南極の生存者のみが隔離状態で残る日本のSF古典。"
+        },
+        {
+          "cand_id": "bok-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784309467115",
+          "title": "白の闇",
+          "creator": "Saramago,José,1922-2010 雨沢,泰,1953-",
+          "year": 2020,
+          "publisher": "河出書房新社",
+          "meta": { "isbn": "9784309467115", "series": "河出文庫", "price": "1300円" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030267714", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-12T17:45:00+00:00" },
+          "researcher_note": "失明が伝染する疫病により都市が隔離施設ごと封鎖される、サラマーゴのノーベル賞作家による長編。"
+        },
+        {
+          "cand_id": "bok-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784327180539",
+          "title": "ペストの記憶",
+          "creator": "Defoe,Daniel,1661?-1731 武田,将明,1974-",
+          "year": 2017,
+          "publisher": "研究社",
+          "meta": { "isbn": "9784327180539", "series": "英国十八世紀文学叢書3", "price": "3500円" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028489295", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-12T17:45:00+00:00" },
+          "researcher_note": "1665年ロンドンのペスト流行下、封鎖された市中の様子を記録文学の手法で描くデフォーの作品。"
+        },
+        {
+          "cand_id": "bok-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784062937283",
+          "title": "献灯使",
+          "creator": "多和田,葉子,1960-",
+          "year": 2017,
+          "publisher": "講談社",
+          "meta": { "isbn": "9784062937283", "series": "講談社文庫", "price": "650円" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028387153", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-12T17:45:00+00:00" },
+          "researcher_note": "大災厄後、鎖国状態となった日本を舞台にした表題作を含む短編集。全米図書賞翻訳文学部門受賞。"
+        }
+      ]
+    },
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784323073521",
+          "title": "百人一首人物大事典",
+          "creator": "渡部,泰明,1957- グラフィオ",
+          "year": 2016,
+          "publisher": "金の星社",
+          "meta": {
+            "isbn": "9784323073521",
+            "price": "3800円",
+            "note": "蝉丸を含む百人一首百人の人物事典。個別の歌の全文はopenBDメタデータでは確認できないため、逢坂の関の歌そのものの引用は原典での確認が必要。"
+          },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027082032", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-12T17:45:00+00:00" },
+          "researcher_note": "蝉丸は百人一首十番の歌人で、逢坂の関(実在・大津市)を詠んだ歌で知られる。歌枕の実在は確認できるが歌の全文はこの事典のメタデータ上では未確認。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784305706454",
+          "title": "能因",
+          "creator": "高重,久美",
+          "year": 2012,
+          "publisher": "笠間書院",
+          "meta": {
+            "isbn": "9784305706454",
+            "series": "コレクション日本歌人選45",
+            "price": "1200円",
+            "confirmed_text": "都をば霞とともに立ちしかど秋風ぞ吹く白河の関(openBD収録の歌人・歌業紹介文中に全文掲載)"
+          },
+          "image": { "url": "https://cover.openbd.jp/9784305706454.jpg", "source": "openbd" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024031769", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-12T17:45:00+00:00" },
+          "researcher_note": "能因法師の歌枕行脚の代表作。白河の関(実在・福島県白河市)を詠んだ一首がopenBDの紹介文に全文引用されており出典確認が最も強い候補。"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784251066497",
+          "title": "写真で読み解くおくのほそ道大辞典",
+          "creator": "佐藤,勝明,1958-",
+          "year": 2022,
+          "publisher": "あかね書房",
+          "meta": {
+            "isbn": "9784251066497",
+            "price": "5000円",
+            "note": "松尾芭蕉『おくのほそ道』全行程の写真解説事典。白河の関の章に芭蕉・曾良の句が収められるが、句の全文はopenBDメタデータ上では未確認。"
+          },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031848356", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-12T17:45:00+00:00" },
+          "researcher_note": "『おくのほそ道』の白河の関の段には河合曾良の句が知られるが、具体的な句の全文はこの事典のAPIメタデータでは確認できていない。原典での確認が必要。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

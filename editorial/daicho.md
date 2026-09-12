@@ -46,3 +46,4 @@ vol.043 | 2026-09-09 | 水屋 | architecture,restaurant,poetry | 濃尾平野の
 vol.044 | 2026-09-10 | 確定 | architecture,music,poetry | 可逆な検討状態から不可逆な最終形への移行を、制度(世界遺産登録)・版(リマスター)・校訂本文の三点で読む
 vol.045 | 2026-09-11 | 還暦 | music,photo,restaurant | 六十年前に鳴った音・撮り直す眼・暖簾を守る店、三つの回帰から更新の形を読む特集
 vol.046 | 2026-09-12 | 肉声 | architecture,music,book | 建築・録音・書籍を通るごとに肉声が失う質を段階的に辿った特集
+vol.047 | 2026-09-13 | 封鎖 | architecture,book,poetry | 水門の可動的開閉・ペストの総遮断・能因の関所、三様の封鎖を通行の測り直しとして読む
