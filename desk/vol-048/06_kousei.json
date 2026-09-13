@@ -1,0 +1,25 @@
+{
+  "vol": 48,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://itunes.apple.com/jp/movie/%E3%82%BF%E3%82%A4%E3%82%BF%E3%83%8B%E3%83%83%E3%82%AF%E3%81%AE%E6%9C%80%E6%9C%9F-%E5%AD%97%E5%B9%95%E7%89%88/id991495451?uo=4",
+        "status": 200
+      },
+      {
+        "url": "https://music.apple.com/jp/album/hurt/1440811207?i=1440811252&uo=4",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009156993",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": []
+}

@@ -1,0 +1,191 @@
+{
+  "vol": 48,
+  "genres": [
+    {
+      "genre": "film",
+      "candidates": [
+        {
+          "cand_id": "fil-01",
+          "source_api": "itunes",
+          "source_id": "991495451",
+          "title": "タイタニックの最期 (字幕版)",
+          "creator": "ジーン・ネグレスコ",
+          "year": 1998,
+          "publisher": "",
+          "meta": {
+            "primaryGenreName": "ドラマ",
+            "raw_release_date": "1998-11-20T08:00:00Z",
+            "shortDescription": "タイタニックの悲劇を背景に、壮絶な愛と別離の人間ドラマを描く1912年4月10日、英国サウサンプトン港。史上最大の超豪華客船タイタニック号は、はるか米国ニューヨークへ向け、世界中の脚光浴びる中、"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://itunes.apple.com/jp/movie/%E3%82%BF%E3%82%A4%E3%82%BF%E3%83%8B%E3%83%83%E3%82%AF%E3%81%AE%E6%9C%80%E6%9C%9F-%E5%AD%97%E5%B9%95%E7%89%88/id991495451?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-13T18:00:15+00:00" },
+          "researcher_note": "raw_release_dateはiTunes JP配信開始日であり、原作事故・原作となった史実の年ではない。船体が沈没に至る経緯を描いた作品として発注に対応。"
+        },
+        {
+          "cand_id": "fil-02",
+          "source_api": "itunes",
+          "source_id": "1262998228",
+          "title": "バーニング・オーシャン (字幕/吹替)",
+          "creator": "Peter Berg",
+          "year": 2017,
+          "publisher": "",
+          "meta": {
+            "primaryGenreName": "アクション／アドベンチャー",
+            "raw_release_date": "2017-04-21T07:00:00Z",
+            "shortDescription": "2010年4月20日、メキシコ湾沖約80kmの石油掘削施設“ディープウォーター・ホライゾン”が、海底油田より逆流してきた天然ガスの引火により大爆発を起こす。その後も未曾有の被害を出し、"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://itunes.apple.com/jp/movie/%E3%83%90%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0-%E3%82%AA%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%B3-%E5%AD%97%E5%B9%95-%E5%90%B9%E6%9B%BF/id1262998228?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-13T18:00:15+00:00" },
+          "researcher_note": "題材は海上石油掘削施設(リグ)の爆発・浸水・転覆であり、客船の海難ではない。発注の『船体が転覆に至る構造や経緯』に近いが対象が船か要編集判断。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1629188997",
+          "title": "Nothing Compares 2 U - Single",
+          "creator": "シニード・オコナー",
+          "year": 1990,
+          "publisher": "",
+          "meta": {
+            "primaryGenreName": "ポップ",
+            "copyright": "℗ 1990 Chrysalis Records Limited",
+            "same_title_other_artist_source_id": "1372837552",
+            "same_title_other_artist_name": "プリンス"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/58/68/7c/58687ced-668d-99ba-661f-0d2d572fd29c/5060516091539.png/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/nothing-compares-2-u-single/1629188997?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-13T18:00:15+00:00" },
+          "researcher_note": "同名曲がプリンス名義(source_id 1372837552)でも別途配信されており、カバー関係の存在がカタログ上で確認できる。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1440811207",
+          "title": "American IV: The Man Comes Around",
+          "creator": "ジョニー・キャッシュ",
+          "year": 2002,
+          "publisher": "",
+          "meta": {
+            "primaryGenreName": "カントリー",
+            "included_track": "Hurt",
+            "same_title_track_other_artist_source_id": "1440837096",
+            "same_title_track_other_artist_name": "ナイン・インチ・ネイルズ",
+            "same_title_track_other_artist_release_date": "1994-03-08T12:00:00Z"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ac/42/cd/ac42cddb-98f0-a78b-6aac-4f08266d30c4/00602537277353.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/hurt/1440811207?i=1440811252&uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-13T18:00:15+00:00" },
+          "researcher_note": "収録曲Hurtはナイン・インチ・ネイルズ名義の同名曲が1994年に先行してカタログに存在し(source_id 1440837096)、カバー関係がカタログ上で確認できる。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1046187510",
+          "title": "Grace",
+          "creator": "ジェフ・バックリー",
+          "year": 1994,
+          "publisher": "",
+          "meta": {
+            "primaryGenreName": "ロック",
+            "included_track": "Hallelujah",
+            "same_title_track_other_artist_source_id": "192677178",
+            "same_title_track_other_artist_name": "レナード・コーエン",
+            "same_title_track_other_artist_release_date": "1984-12-01T08:00:00Z"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/26/d6/e3/26d6e339-a7a9-d61e-1b5f-0852a5515a55/886445517880.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/grace/1046187510?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-13T18:00:15+00:00" },
+          "researcher_note": "収録曲Hallelujahはレナード・コーエン名義の同名曲が先行してカタログに存在し(source_id 192677178)、カバー関係がカタログ上で確認できる。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "359528125",
+          "title": "Electric Ladyland",
+          "creator": "ザ・ジミ・ヘンドリックス・エクスペリエンス",
+          "year": 1968,
+          "publisher": "",
+          "meta": {
+            "primaryGenreName": "ポップ",
+            "included_track": "All Along the Watchtower",
+            "same_title_track_other_artist_source_id": "181457097",
+            "same_title_track_other_artist_name": "ボブ・ディラン",
+            "same_title_track_other_artist_release_date": "1967-12-27T08:00:00Z"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4e/3a/4f/4e3a4fbb-7824-2cb6-9cc7-5ff3490140fc/mzi.yzsqzxhe.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/all-along-the-watchtower/359528125?i=359528574&uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-13T18:00:15+00:00" },
+          "researcher_note": "収録曲All Along the Watchtowerはボブ・ディラン名義の同名曲が同年に先行してカタログに存在し(source_id 181457097)、カバー関係がカタログ上で確認できる。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "388151892",
+          "title": "The Bodyguard (Original Soundtrack Album)",
+          "creator": "ホイットニー・ヒューストン",
+          "year": 1992,
+          "publisher": "",
+          "meta": {
+            "primaryGenreName": "サウンドトラック",
+            "included_track": "I Will Always Love You",
+            "same_title_track_other_artist_source_id": "282883573",
+            "same_title_track_other_artist_name": "ドリー・パートン"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/82/f3/e9/82f3e968-8174-c5eb-7fc5-36384d050129/dj.mdauihuy.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/the-bodyguard-original-soundtrack-album/388151892?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-13T18:00:15+00:00" },
+          "researcher_note": "収録曲I Will Always Love Youはドリー・パートン名義の同名曲がカタログに存在し(source_id 282883573)、カバー関係がカタログ上で確認できる。"
+        }
+      ]
+    },
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784043574216",
+          "title": "新古今和歌集",
+          "creator": "源通具, 藤原有家, 藤原定家 ほか(撰)/小林大輔 編",
+          "year": 2007,
+          "publisher": "角川学芸出版(角川ソフィア文庫 ビギナーズ・クラシックス)",
+          "meta": {
+            "ndl_subject": "新古今和歌集 -- 評釈",
+            "extent": "217p",
+            "price": "629円"
+          },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009156993", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-13T18:00:26+00:00" },
+          "researcher_note": "本歌取り技法が多用された勅撰集として文学史上知られるが、この書誌データ自体(NDL/openBD)には『本歌取り』の語は含まれず、件名は『評釈』のみ。技法との関連はデータ上未確認であり編集部での裏取りが必要。openBDのcoverは空欄のためimage無し。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "poetry: 本歌取り・返歌の技法を持つ実在の歌集・句集",
+      "reason": "該当なし(部分該当あり)。邑咲会『源氏物語本歌取り歌集』(前編2000/後編2007、非売品)はNDL上の解説に『本歌取り第二歌集』と明記され技法が直接確認できたが、ISBNが無くopenBD照合ができないため候補から除外した。本句取り(俳句版)での句集はNDL該当0件だった。"
+    }
+  ]
+}
