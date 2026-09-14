@@ -1,0 +1,303 @@
+{
+  "vol": 49,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784791772650",
+          "title": "アンビルトの終わり : ザハ・ハディドと新国立競技場",
+          "creator": "飯島洋一",
+          "year": 2020,
+          "publisher": "青土社",
+          "meta": { "price_jpy": 6200 },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030369614", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-14T19:50:08+00:00" },
+          "researcher_note": "新国立競技場ザハ案の白紙撤回を正面から論じた建築評論。発注に最も直接に対応する候補。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784822200572",
+          "title": "「新国立」破綻の構図 : 当事者が語る内幕",
+          "creator": "日経BP",
+          "year": 2015,
+          "publisher": "日経BPマーケティング",
+          "meta": { "price_jpy": 1700 },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026955834", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-14T19:50:08+00:00" },
+          "researcher_note": "当事者取材にもとづく白紙撤回に至る経緯の記録。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784822251529",
+          "title": "なぜぼくが新国立競技場をつくるのか : 建築家・隈研吾の覚悟",
+          "creator": "隈研吾",
+          "year": 2016,
+          "publisher": "日経BPマーケティング",
+          "meta": { "price_jpy": 1500 },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027282884", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-14T19:50:08+00:00" },
+          "researcher_note": "撤回後にザハ案から隈研吾案へ引き継いだ建築家本人の記録。撤回そのものより事後の再設計に重心がある。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784344984035",
+          "title": "新国立競技場問題の真実 : 無責任国家・日本の縮図",
+          "creator": "森本智之",
+          "year": 2015,
+          "publisher": "幻冬舎",
+          "meta": { "series": "幻冬舎新書", "price_jpy": 840 },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026909488", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-14T19:50:08+00:00" },
+          "researcher_note": "白紙撤回に至る意思決定過程を検証する新書。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784947613929",
+          "title": "オリンピックとデザインの政治学",
+          "creator": "森山明子・若山滋",
+          "year": 2016,
+          "publisher": "朗文堂",
+          "meta": { "price_jpy": 1800 },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027048109", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-14T19:50:08+00:00" },
+          "researcher_note": "五輪とデザイン政治全般を扱う一冊。新国立競技場個別の撤回経緯に踏み込む分量は未確認。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "ndl+openbd",
+          "source_id": "9784560097830",
+          "title": "未練の幽霊と怪物挫波/敦賀",
+          "creator": "岡田利規",
+          "year": 2020,
+          "publisher": "白水社",
+          "meta": { "price_jpy": 2400 },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030530863", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-14T19:50:08+00:00" },
+          "researcher_note": "撤回されたザハ案を幽霊に見立てた能形式の戯曲集。事実記録ではなく創作である点に留意。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1452225133",
+          "title": "Bruckner: Symphony No. 0 - Helgoland - Psalm 150",
+          "creator": "シカゴ交響楽団 & ダニエル・バレンボイム",
+          "year": 1992,
+          "publisher": "Deutsche Grammophon",
+          "meta": { "track_count": 6 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/33/4a/ac/334aac80-c071-3235-05e6-f3572c18eb98/00028943725026.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/bruckner-symphony-no-0-helgoland-psalm-150/1452225133?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-14T19:50:19+00:00" },
+          "researcher_note": "ブルックナーが自ら正式な番号付けから除外した「第0番(ヌルテ)」WAB100の録音。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1452252303",
+          "title": "Bruckner: Symphony No. 0",
+          "creator": "サー・ゲオルク・ショルティ & シカゴ交響楽団",
+          "year": 1996,
+          "publisher": "Decca Music Group Limited",
+          "meta": { "track_count": 4 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3e/fb/46/3efb465a-b723-803d-c232-449e701a3a82/00028947892151.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/bruckner-symphony-no-0/1452252303?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-14T19:50:19+00:00" },
+          "researcher_note": "同曲(WAB100)の別録音。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1702174966",
+          "title": "Bruckner: Symphony in D Minor \"No. 0, Die Nullte\" – Wagner: Der fliegende Holländer Overture; Rienzi Overture",
+          "creator": "ライプツィヒ・ゲヴァントハウス管弦楽団 & アンドリス・ネルソンス",
+          "year": 2023,
+          "publisher": "Deutsche Grammophon",
+          "meta": { "track_count": 6 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/72/e3/5e/72e35ed6-f1e9-ddea-29ad-9e4b1ed09fa7/23UMGIM51755.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/bruckner-symphony-in-d-minor-no-0-die-nullte-wagner/1702174966?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-14T19:50:19+00:00" },
+          "researcher_note": "タイトルに「Die Nullte」と明記される近年の録音。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1697961798",
+          "title": "Bruckner: Symphony in D Minor, WAB 100 (\"Nullified\" Second Symphony, also called \"Nullte\")",
+          "creator": "クリスティアン・ティーレマン & ウィーン・フィルハーモニー管弦楽団",
+          "year": 2023,
+          "publisher": "Sony Classical",
+          "meta": { "track_count": 4 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/53/33/81/53338150-b16e-c9bb-20e0-9e8b41b5246b/196871016940.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/bruckner-symphony-in-d-minor-wab-100-nullified-second/1697961798?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-14T19:50:19+00:00" },
+          "researcher_note": "タイトルに「Nullified」と明記され、番号除外の経緯が最も直接に読める盤。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1604620297",
+          "title": "Bruckner: Symphony in D Minor, WAB 100 \"Die Nullte\"",
+          "creator": "リンツ・ブルックナー管弦楽団 & マルクス・ポシュナー",
+          "year": 2022,
+          "publisher": "CapriccioNR",
+          "meta": { "track_count": 4 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/39/9a/08/399a08e2-e136-82ae-d8fe-356fd438a227/845221080826.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/bruckner-symphony-in-d-minor-wab-100-die-nullte/1604620297?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-14T19:50:19+00:00" },
+          "researcher_note": "作曲家ゆかりのリンツの楽団による録音。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "19109112",
+          "title": "Bruckner: Symphonies No. 8, WAB 108 & No. 0, \"Nullte\", WAB 100",
+          "creator": "ゲオルク・ティントナー & RTÉ国立交響楽団",
+          "year": 1998,
+          "publisher": "Naxos",
+          "meta": { "track_count": 8 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2004/m07/d23/h19/s05.zpebyqqn.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/bruckner-symphonies-no-8-wab-108-no-0-nullte-wab-100/19109112?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-14T19:50:19+00:00" },
+          "researcher_note": "番号付きの第8番と番号外の第0番を同じ盤に収め対比できる。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1394259235",
+          "title": "Sibelius: Kullervo",
+          "creator": "ロンドン交響楽団 & サー・コリン・デイヴィス",
+          "year": 2006,
+          "publisher": "London Symphony Orchestra Ltd",
+          "meta": { "track_count": 5 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0d/f2/ae/0df2ae61-2cae-4dea-5927-e8e7cf320ed9/0822231107460.png/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/sibelius-kullervo/1394259235?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-14T19:50:19+00:00" },
+          "researcher_note": "シベリウスが初演後30年以上封印した作品だが、作品番号Op.7自体は保持されており「正式な作品番号からの除外」には厳密には該当しない。参考候補。"
+        },
+        {
+          "cand_id": "mus-08",
+          "source_api": "itunes",
+          "source_id": "128852150",
+          "title": "Sibelius: Kullervo, Op. 7",
+          "creator": "ヘルシンキ大学合唱団, オスモ・ヴァンスカ & ラハティ交響楽団",
+          "year": 2001,
+          "publisher": "BIS",
+          "meta": { "track_count": 5 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/64/35/97/mzi.hwjyqrdt.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/sibelius-kullervo-op-7/128852150?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-14T19:50:19+00:00" },
+          "researcher_note": "同上。mus-07と同一作品の別録音。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784770501998",
+          "title": "ちびくろサンボ",
+          "creator": "ヘレン・バナーマン(作) / フランク・ドビアス(絵)",
+          "year": 2008,
+          "publisher": "径書房",
+          "meta": { "price_jpy": 1200, "extent_pages": 41 },
+          "image": { "url": "https://cover.openbd.jp/9784770501998.jpg", "source": "openbd" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009392794", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-14T19:50:08+00:00" },
+          "researcher_note": "岩波書店版(1953)は差別表現批判を受け1988年前後に大手出版社が一斉に絶版とした。本書はドビアスの原画を著作権処理のうえ復刻した版。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784770501738",
+          "title": "ちびくろさんぼのおはなし",
+          "creator": "ヘレン・バナーマン(作) / 灘本昌久(訳)",
+          "year": 1999,
+          "publisher": "径書房",
+          "meta": { "price_jpy": 1000, "extent_pages": 64 },
+          "image": { "url": "https://cover.openbd.jp/9784770501738.jpg", "source": "openbd" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004298524", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-14T19:50:08+00:00" },
+          "researcher_note": "絶版から11年後、原著のテキストを新たに訳し直して刊行した版。"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784770501721",
+          "title": "The Story of Little Black Sambo（ザ・ストーリー・オブ・リトル・ブラック・サンボ）",
+          "creator": "ヘレン・バナーマン(作・絵) / 灘本昌久(監)",
+          "year": 1999,
+          "publisher": "径書房",
+          "meta": { "price_jpy": 3500, "extent_pages": 68 },
+          "image": { "url": "https://cover.openbd.jp/9784770501721.jpg", "source": "openbd" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000003531746", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-14T19:50:08+00:00" },
+          "researcher_note": "英語原著の複刻版。日本初の原典完全復刻とされる。"
+        },
+        {
+          "cand_id": "book-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784770501714",
+          "title": "ちびくろサンボよ すこやかによみがえれ",
+          "creator": "灘本昌久",
+          "year": 1999,
+          "publisher": "径書房",
+          "meta": { "price_jpy": 2400, "extent_pages": 272 },
+          "image": { "url": "https://cover.openbd.jp/9784770501714.jpg", "source": "openbd" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002792430", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-14T19:50:08+00:00" },
+          "researcher_note": "絶版から再刊に至る経緯を検証したノンフィクション。作品そのものではなく経緯の記録である点に留意。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

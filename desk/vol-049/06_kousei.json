@@ -1,0 +1,60 @@
+{
+  "vol": 49,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true,
+      "items[2].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I030369614": true,
+        "https://music.apple.com/jp/album/bruckner-symphony-in-d-minor-wab-100-nullified-second/1697961798?uo=4": true,
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I000004298524": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030369614",
+        "status": 200
+      },
+      {
+        "url": "https://music.apple.com/jp/album/bruckner-symphony-in-d-minor-wab-100-nullified-second/1697961798?uo=4",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004298524",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[0] 本文1文目『』内の書名表記(見出し・DATA欄「題名」行と対比)",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "『アンビルトの終わり:ザハ・ハディドと新国立競技場』(コロン前後にスペースなし)",
+      "teisei": "『アンビルトの終わり : ザハ・ハディドと新国立競技場』(見出し・DATA欄と同じくコロン前後に半角スペース)"
+    },
+    {
+      "id": "P-02",
+      "location": "items[1] 本文1文目「WAB100」表記(見出し・DATA欄「題名」行と対比)",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "(WAB100)",
+      "teisei": "(WAB 100)(見出し・DATA欄と同じく半角スペースを挿入)"
+    }
+  ]
+}
