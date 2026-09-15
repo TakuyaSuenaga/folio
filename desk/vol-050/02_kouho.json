@@ -1,0 +1,269 @@
+{
+  "vol": 50,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJZbtY3MkWHmARUiQgXF-VK98",
+          "title": "土合駅",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "群馬県利根郡みなかみ町湯桧曽", "primary_type": "駅" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAwpuKzsFgp5p-koiFwD-fDJPaNmXm61HqBt_ivSDcW7MjK7iDBN9xV9qLhusdDgYTRnKWFb4ruZVX-Na9kLXEbl2CaxGz8OZy-BfhV-DeijUwZ0T9QVT4bvEXpMkDK5E2o2PrVW_hNwzPKfg=s4800-w1200", "source": "google-places", "attributions": [ { "name": "Kotax69", "uri": "https://maps.google.com/maps/contrib/106103240697638419740" } ] },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16081111131256530002&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-15T18:43:40+00:00" },
+          "researcher_note": "上越線・下り線ホームが地下深くにある無人駅。係員常駐を前提としない構造の事例。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJHYXczrX5n18RIcHhx4xNgsY",
+          "title": "小幌駅",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "北海道虻田郡豊浦町礼文華", "primary_type": "駅" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBe4ei_3g7SKc3Q2KCFXbYNmZbdJAGr5Zqu4CnlDExtQ7XOFWCZuxWl5c5XI7cCMSthn8PJob_pnOCH0mBBNeWJPCQaW4NSJri_8u7xeOh54_azLGJsNOLYrvOfGg01Bl35H9GW8bt9yhehS3E=s4800-w1200", "source": "google-places", "attributions": [ { "name": "陳小東", "uri": "https://maps.google.com/maps/contrib/116732638160806997071" } ] },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14304080633526337825&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-15T18:43:40+00:00" },
+          "researcher_note": "周囲に集落のないトンネル間の無人駅。道路がなく徒歩到達が前提の秘境駅として知られる。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJ97ad-zR79l8RZSl11bhwjSQ",
+          "title": "筒石駅",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "新潟県糸魚川市仙納字大谷928", "primary_type": "駅" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDuwOHHacgutPiS1gxeFkPTZHrwWpbyU-qQyWYBkL0_Ye9UmfT5XMC-gF3aACvwDncDSppJgpdk_67mDYfmx7fNUKXZ-bHK2DsKoklPBkez93cq2GWO7VsGcPTYqTcB_fNGzuHRqI77qI0Hkg=s4800-w1200", "source": "google-places", "attributions": [ { "name": "Viewビュー", "uri": "https://maps.google.com/maps/contrib/112749210951769741695" } ] },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2633885296239126885&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-15T18:43:40+00:00" },
+          "researcher_note": "ホームが地下トンネル内にある無人駅。地上の駅舎から長い階段で降りる構造。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJhayPslYqUjURyWQzCS1rVeU",
+          "title": "坪尻駅",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "徳島県三好市池田町西山立谷", "primary_type": "駅" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjC2U4oHfGki3_K-HL8plp7UPSBi1oW_4eSh-Q5wYWf3mimCHgPL8cU0N0NjjU5T68D5XfRnNmeXaLK3BHXzI0vraHnOPhaSqUgZyBxqlpT_f8wvMp7KJaKrVOtWmHJXokIs-T9oGo6va7RGTg=s4800-w1200", "source": "google-places", "attributions": [ { "name": "Y S", "uri": "https://maps.google.com/maps/contrib/114469182791286400157" } ] },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16525232248877966537&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-15T18:43:40+00:00" },
+          "researcher_note": "谷底のスイッチバック式無人駅。車道が通じず徒歩以外での到達手段がない。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJaXHfYwCDGGARw3S8Zcsuntc",
+          "title": "つくばファームユアサ無人販売",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "千葉県松戸市紙敷1丁目38-2", "primary_type": "ファーマーズ マーケット" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCV7pDSm6PJb63rgpyBFHIBvz0cQ2Siy7Xim41LU65E3W4z9Xx_awXGCZajGkxvDNK3l9uD5bWOA5andjFox_x68GjoQpRaTArkaR3u8pQFXPZTL_ZpAOrMucBXMAoEUwBXYiQtBaCPqQnuvYqZw70H2A=s4800-w1200", "source": "google-places", "attributions": [ { "name": "ヤスキチ", "uri": "https://maps.google.com/maps/contrib/108017298885468494599" } ] },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15536907215594878147&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-15T18:43:40+00:00" },
+          "researcher_note": "係員を置かない直売形式の農産物販売施設。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJPdRvEQDXGGAR0zgYy3rRmsk",
+          "title": "西裏農園無人販売所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "埼玉県鶴ヶ島市太田ヶ谷445", "primary_type": "店舗" },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14527153873360533715&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-15T18:43:40+00:00" },
+          "researcher_note": "係員を置かない直売形式の農産物販売施設。写真なし(候補にクレジット付き画像なし)。"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJoeExJgBh9V8RDu38y3JeYnw",
+          "title": "無人野菜販売所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "福島県大沼郡昭和村下中津川宿原2900", "primary_type": "マーケット" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBYAdHU1xBbiKTgGzDKGvncZPIqFGA-6yXUUascCYPOz4pkLjbAWjCWy7QgC6LJ2LOFgwcTLo9N008IT_wcQ7dr__7qe9BiNpaSJ_quBEmcu3LW6c8s6zyQMsLitFytnPGC0w4z2GOpsYXCRg=s4800-w1200", "source": "google-places", "attributions": [ { "name": "K S", "uri": "https://maps.google.com/maps/contrib/100504505111541052313" } ] },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8962830055562341646&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-15T18:43:40+00:00" },
+          "researcher_note": "山間集落にある無人の野菜直売所。"
+        },
+        {
+          "cand_id": "arc-08",
+          "source_api": "google_places",
+          "source_id": "ChIJAziWe6KtGGARVlE2Np6iqfw",
+          "title": "朝どれ野菜無人直売所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "茨城県結城郡八千代町佐野909", "primary_type": "ファーマーズ マーケット" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBnOT5emEHTlPFdeKPWO2Z8AIbG0VFPOXerFa7X9OApujM3DKhSEaUKllkiyAjNPF_HAKaDZM0jhfSm8jUhQhj5Y-yKS1dY8URwnovkL7-P6nmcLKr1UcTOj9502A_VivfAxYOT5Kkw9Gl3DDLnieFMwg=s4800-w1200", "source": "google-places", "attributions": [ { "name": "朝どれ野菜無人直売所", "uri": "https://maps.google.com/maps/contrib/100693794825197566135" } ] },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=18206261769020002646&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-15T18:43:40+00:00" },
+          "researcher_note": "係員を置かない直売形式の農産物販売施設。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784380982750",
+          "title": "嘉永無人島漂流記 : 長州藤曲村廻船遭難事件の研究",
+          "creator": "小林郁",
+          "year": 1998,
+          "publisher": "三一書房",
+          "meta": { "ndc": "210.58" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002696121", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-15T18:44:36+00:00" },
+          "researcher_note": "幕末期に実際に起きた無人島漂流事件を史料から研究した書籍。openBDで書誌確認済み。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784635047531",
+          "title": "単独行者(アラインゲンガー) : 新・加藤文太郎伝 上",
+          "creator": "谷甲州",
+          "year": 2013,
+          "publisher": "山と溪谷社",
+          "meta": { "series": "ヤマケイ文庫" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024387530", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-15T18:44:36+00:00" },
+          "researcher_note": "実在した単独登山家・加藤文太郎の生涯を描いた伝記小説。openBDで書誌確認済み。"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784635047548",
+          "title": "単独行者(アラインゲンガー) : 新・加藤文太郎伝 下",
+          "creator": "谷甲州",
+          "year": 2013,
+          "publisher": "山と溪谷社",
+          "meta": { "series": "ヤマケイ文庫" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024385907", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-15T18:44:36+00:00" },
+          "researcher_note": "上巻(book-02)の続巻。openBDで書誌確認済み。"
+        },
+        {
+          "cand_id": "book-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784863290501",
+          "title": "幕末のロビンソン : 開国前後の太平洋漂流",
+          "creator": "岩尾龍太郎",
+          "year": 2010,
+          "publisher": "弦書房",
+          "meta": { "ndc": "210.58" },
+          "image": { "url": "https://cover.openbd.jp/9784863290501.jpg", "source": "openbd" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000011045732", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-15T18:44:36+00:00" },
+          "researcher_note": "幕末に太平洋を漂流した実在の日本人漂流者複数名を扱う研究書。openBDで書誌確認済み。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJ_Tl4GimzAGAR4QaNptdy2Wk",
+          "title": "安心弁当 木の実や 24時間無人販売直売所 JR和歌山駅前店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "和歌山県和歌山市美園町5丁目12-2 1F", "primary_type": "食料品店" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCISnZoAHYvGF_E7m94b8Tzb9fkUjkcwYaMh5E-KuczeI9c_z8vACTvLCySobgi3RuZk3PE7gQLAQ3teezGaBjTDw3EOVaFU2aGQCN4PDDdIxMdTZ6EMfPjKBi7v28e6mrZheRlt2xj-CaB2OPLz9BP=s4800-w1200", "source": "google-places", "attributions": [ { "name": "たーちん", "uri": "https://maps.google.com/maps/contrib/107020862615957282615" } ] },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=7627253714466440929&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-15T18:44:15+00:00" },
+          "researcher_note": "駅前で24時間無人営業する弁当・惣菜の直売所。店名に無人販売を明記。"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJCSsPFFOBGGARuugh_R4QYyM",
+          "title": "無限ギョーザ(冷凍生餃子自動販売機)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "千葉県鎌ケ谷市東道野辺4丁目15-33", "primary_type": "テイクアウト" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAtdsmhXqksF5lxHjhqTIk4G8d3p8Q4e8U8nJBaHvlygX-MymY4Pan7f6tvN9T1rtrsm4NgimkLOKoi2s1tqaxMNOs03XaKv_wqaXU2AUSMQa-SyhNp_y0zIjrdaLaNNckjxMt6SiGZSIKh9Q=s4800-w1200", "source": "google-places", "attributions": [ { "name": "苺スキ", "uri": "https://maps.google.com/maps/contrib/101063712166495760542" } ] },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2549899539303753914&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-15T18:44:15+00:00" },
+          "researcher_note": "冷凍生餃子の自動販売機のみで営業する無人店舗。"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJAQAEkQzoHmARwS9RFzdPhSE",
+          "title": "自販機食堂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "群馬県伊勢崎市富塚町293-3", "primary_type": "ファースト フード店" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjD068Fglt8JLHMyVkUGQGugEJv9DHqn5hYrpzMNIOxvAHpH5OBxdvT0fMiwO_LSNKBIVP-D2iH5JwlYjpeCdUcUoANpxwd7sDRg4Q5Is2LlF-05GJiFRS6aCHCs75-lavIrv7YtmJ52K0kjQm660d93=s4800-w1200", "source": "google-places", "attributions": [ { "name": "Kazpard Y", "uri": "https://maps.google.com/maps/contrib/106464353390105880256" } ] },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2415423873187131329&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-15T18:44:15+00:00" },
+          "researcher_note": "店名の通り自動販売機の集合で構成される食堂形態の店舗。"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJTxGVIL7rUzURH7e2fgVhDNI",
+          "title": "セルフうどんの店 ちくせい",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "香川県高松市亀岡町2-23", "primary_type": "和食店" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCVfLxz_r9VtOR4ZJqAyPV0NXho6yzAa435jej2-dylb9sA3Idfhu1QD6TpnhbJqQBmq_aj1wu_9djd-1vz5HWThmDCB-97SqQazp-DjaBNXJZ2NSWJVA_i3UltQzbqXAiKNYxuJIYsRftzemofDmYPVw=s4800-w1200", "source": "google-places", "attributions": [ { "name": "長沼博行", "uri": "https://maps.google.com/maps/contrib/112948421844313907063" } ] },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15135579123914028831&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-15T18:44:15+00:00" },
+          "researcher_note": "店名に「セルフ」を掲げる讃岐うどん店。券売機・最小人員での運営を前面に出す業態。"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJVXe8OJ73GGARTqCclonkAtg",
+          "title": "無人販売(安心お野菜こうや)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "神奈川県横浜市都筑区大棚町410", "primary_type": "ファーマーズ マーケット" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBWAGgQ14KOqppGEuy6UBYwzxg4CqnJAx11ULve-hsljSlsH4jF7lx4nVGdX3uAo3RcJwtYRVWK57vNuUuzOwC8jsugVeVa4O5CSW5mdfSJLc_6xKQnKBrmvQpduZ1EOHL10x5xmS4XPaonSfk=s4800-w1200", "source": "google-places", "attributions": [ { "name": "無人販売(安心お野菜こうや)", "uri": "https://maps.google.com/maps/contrib/102446975507564400097" } ] },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15565254541734355022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-15T18:44:15+00:00" },
+          "researcher_note": "住宅地の中にある無人の惣菜・野菜販売所。"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJwWRVQMjnTzURPXGO-yUIcII",
+          "title": "お持ち帰り専門 無人直売所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "愛媛県松山市畑寺2丁目16-8", "primary_type": "卸売業" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA47JX-MsftYvJw-tUJB4Z2x74xyNGTsZnl2dQYvmLbg03Guqfv1qPSLZbHUFCNY9XxBvk1ppn2OrYG8Wi4MDyvZjSl2zLvqil4MDtECMvF5g9-KN-v8_xEcg6TX9kFlSza0oGmiaOfDMWfsuuH4QH3Tw=s4800-w1200", "source": "google-places", "attributions": [ { "name": "K-3-3-pip", "uri": "https://maps.google.com/maps/contrib/100849412758617104750" } ] },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9399021381549453629&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-15T18:44:15+00:00" },
+          "researcher_note": "持ち帰り専門の無人直売形態の店舗。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
