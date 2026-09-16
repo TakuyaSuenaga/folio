@@ -1,0 +1,322 @@
+{
+  "vol": 51,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJC5-nF5CLGGAR9M3JUrPsBj8",
+          "title": "大倉集古館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒105-0001 東京都港区虎ノ門２丁目１０−３",
+            "primary_type": "Art museum",
+            "ndl_reference": {
+              "title": "（仮称）大倉集古館改修・増築工事―歴史的建物（登録有形文化財）の曳家および免震化―",
+              "authors": ["荒川照陽", "茂木真幸", "角田拓也", "山口沙紀"],
+              "link": "https://ndlsearch.ndl.go.jp/books/R100000136-I1390564237990283392"
+            }
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAHTMiqd47WN0ITYDcPBXesoSVbeCK2U7VfKAPyizMWc1NdBsosldOzjjH3p93UPoGAVk_-kftrVtMv5EpvxkLiU1BJlvqgFuY7ifTIk16gcFyiy2ZYF-qYaG29ufol3q8AxAxIzhJ3GEPO2zs=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "山賀康弘", "uri": "https://maps.google.com/maps/contrib/108936589204256725438" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=4541577529181982196&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" },
+            { "label": "NDLサーチ(改修工事の記事)", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1390564237990283392", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-16T18:42:47+00:00" },
+          "researcher_note": "登録有形文化財の改修工事で曳家・免震化(基礎を持ち上げて免震装置を挿入)を実施したとNDL記事にある。発注の「物理的に持ち上げる」に合致"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJrwbSQS46AWARVx3-tmOJPTg",
+          "title": "JR奈良駅旧駅舎",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒630-8122 奈良県奈良市三条本町１−１",
+            "ndl_reference": {
+              "title": "曳家による近代建築の保存活用と都市基盤整備 : 旧JR奈良駅舎本屋を事例として",
+              "authors": ["黒沼善博"],
+              "link": "https://ndlsearch.ndl.go.jp/books/R000000004-I023738302"
+            }
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCvfpZMAVG1s8TBBJJyTekX87I-i7ydNh8ogvz_qvHDG-d5H8CJ0IxyDQcELaYVT71F6LInEL2PAZyX8f3UvZcBcj2xVGU7uaY9Q23ubinyTyuRuTQ2DaqOZvM3WnayLk6qDfcai58nwGxkbA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "SinoIno", "uri": "https://maps.google.com/maps/contrib/107335551698184003825" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=4052546301068189015&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" },
+            { "label": "NDLサーチ(保存活用の記事)", "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I023738302", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-16T18:42:47+00:00" },
+          "researcher_note": "旧駅舎本屋を再開発に際して曳家で移動・保存した事例。NDL記事に一次確認あり"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJkQqyvN2rGWARbn41bp0eZCc",
+          "title": "雨岳文庫(旧山口家住宅)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒259-1141 神奈川県伊勢原市上粕屋８６２",
+            "primary_type": "博物館",
+            "ndl_reference": {
+              "title": "神奈川県伊勢原市山口家住宅にみる曳家普請の実態",
+              "authors": ["濱田陽介", "小沢朝江"],
+              "link": "https://ndlsearch.ndl.go.jp/books/R100000136-I1572824502929635584"
+            }
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjACt6LrMnzvwBiTJ4v7pOs1bRc2sWheXVw_5BsbG-VIB6FaFzFPbXrfLk0KQ-mVfAbgXTiCGww7hB83vUKM0rQlOnjctlPw-gTwSQ4CYHJkY8fWYyghCF1s4oaMC8xVFzPKMpAinuKDufzesNo=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "tomato_d", "uri": "https://maps.google.com/maps/contrib/106192782703201483162" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=2838427326657953390&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" },
+            { "label": "NDLサーチ(曳家普請の実態の記事)", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1572824502929635584", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-16T18:42:47+00:00" },
+          "researcher_note": "山口家の旧住宅を曳家で普請した実態を論じた記事あり。現在は資料館「雨岳文庫」として公開"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1475462111",
+          "title": "糸 (カラオケ) [移調バージョン +5 E♭] [ガイドメロディ有り]",
+          "creator": "譜面倶楽部",
+          "year": 2019,
+          "publisher": "",
+          "meta": { "collection": "こんなの欲しかった!移調カラオケ「糸」(オリジナル歌手:中島みゆき)", "original_artist": "中島みゆき", "transposition": "+5 (原調から半音5つ上)" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ce/85/78/ce857810-d1a9-40fc-7a15-03d05180590a/FCSM-0004_jacket.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E7%B3%B8-%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1-%E7%A7%BB%E8%AA%BF%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3-5-e-%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A1%E3%83%AD%E3%83%87%E3%82%A3%E6%9C%89%E3%82%8A/1475462105?i=1475462111&uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-16T18:43:01+00:00" },
+          "researcher_note": "trackNameに移調幅(+5)が明記されている。原曲基準を動かした編成版として発注に合致"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1467878710",
+          "title": "ハナミズキ (カラオケ) [移調バージョン +6 B♭] [ガイドメロディ有り]",
+          "creator": "譜面倶楽部",
+          "year": 2019,
+          "publisher": "",
+          "meta": { "collection": "こんなの欲しかった!移調カラオケ「ハナミズキ」(オリジナル歌手:一青窈)", "original_artist": "一青窈", "transposition": "+6 (原調から半音6つ上)" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/9f/9d/d3/9f9dd3f5-26e8-3358-0c26-437f1512cb3e/FCSM-0031_jacket.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E3%83%8F%E3%83%8A%E3%83%9F%E3%82%BA%E3%82%AD-%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1-%E7%A7%BB%E8%AA%BF%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3-6-b-%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A1%E3%83%AD%E3%83%87%E3%82%A3%E6%9C%89%E3%82%8A/1467878474?i=1467878710&uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-16T18:43:01+00:00" },
+          "researcher_note": "trackNameに移調幅(+6)が明記されている"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1502905751",
+          "title": "Pretender (カラオケ) [移調バージョン +6 D] [ガイドメロディ有り]",
+          "creator": "譜面倶楽部",
+          "year": 2020,
+          "publisher": "",
+          "meta": { "collection": "こんなの欲しかった!移調カラオケ「Pretender」(オリジナル歌手:Official髭男dism)", "original_artist": "Official髭男dism", "transposition": "+6 (原調から半音6つ上)" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/1b/ce/0b/1bce0bb6-bbaa-2c85-d4d4-fe661d1e709a/M0012339_3000.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/pretender-%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1-%E7%A7%BB%E8%AA%BF%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3-6-d-%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A1%E3%83%AD%E3%83%87%E3%82%A3%E6%9C%89%E3%82%8A/1502905516?i=1502905751&uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-16T18:43:01+00:00" },
+          "researcher_note": "trackNameに移調幅(+6)が明記されている"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1471382594",
+          "title": "残酷な天使のテーゼ (カラオケ) [移調バージョン +6 A] [ガイドメロディ有り]",
+          "creator": "譜面倶楽部",
+          "year": 2019,
+          "publisher": "",
+          "meta": { "collection": "こんなの欲しかった!移調カラオケ「残酷な天使のテーゼ」(オリジナル歌手:高橋洋子)", "original_artist": "高橋洋子", "transposition": "+6 (原調から半音6つ上)" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/e1/92/99/e19299bd-243b-8c48-f25b-5d519b86b0ac/FCSM-0003_jacket.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E6%AE%8B%E9%85%B7%E3%81%AA%E5%A4%A9%E4%BD%BF%E3%81%AE%E3%83%86%E3%83%BC%E3%82%BC-%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1-%E7%A7%BB%E8%AA%BF%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3-6-a-%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A1%E3%83%AD%E3%83%87%E3%82%A3%E6%9C%89%E3%82%8A/1471382325?i=1471382594&uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-16T18:43:01+00:00" },
+          "researcher_note": "trackNameに移調幅(+6)が明記されている"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1467877194",
+          "title": "ワインレッドの心 (カラオケ) [移調バージョン +6 Cm] [ガイドメロディ有り]",
+          "creator": "譜面倶楽部",
+          "year": 2019,
+          "publisher": "",
+          "meta": { "collection": "こんなの欲しかった!移調カラオケ「ワインレッドの心」(オリジナル歌手:安全地帯)", "original_artist": "安全地帯", "transposition": "+6 (原調から半音6つ上)" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/54/6d/6b/546d6b92-f707-285f-a7cd-80e2169a902b/FCSM-0061_jacket.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E3%83%AF%E3%82%A4%E3%83%B3%E3%83%AC%E3%83%83%E3%83%89%E3%81%AE%E5%BF%83-%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1-%E7%A7%BB%E8%AA%BF%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3-6-cm-%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A1%E3%83%AD%E3%83%87%E3%82%A3%E6%9C%89%E3%82%8A/1467877167?i=1467877194&uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-16T18:43:01+00:00" },
+          "researcher_note": "trackNameに移調幅(+6)が明記されている"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1656365912",
+          "title": "サクラウタ 半音上げカラオケ",
+          "creator": "北原ミレイ",
+          "year": 2022,
+          "publisher": "",
+          "meta": { "collection": "サクラウタ - EP" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5f/17/98/5f179873-5bf6-44c2-ca1c-cd5b6a68f802/TKCA-91480.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E3%82%B5%E3%82%AF%E3%83%A9%E3%82%A6%E3%82%BF-%E5%8D%8A%E9%9F%B3%E4%B8%8A%E3%81%92%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1/1656365907?i=1656365912&uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-16T18:43:01+00:00" },
+          "researcher_note": "原歌手本人名義でのtrackNameに「半音上げ」と明記。譜面倶楽部の候補とは異なり原アーティスト自身のリリース"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1726499673",
+          "title": "手紙 半音上げカラオケ",
+          "creator": "北原ミレイ",
+          "year": 2024,
+          "publisher": "",
+          "meta": { "collection": "その日のために" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c3/07/8c/c3078cf1-2ee1-64c5-e640-f1959a960542/TKCA-91550.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E6%89%8B%E7%B4%99-%E5%8D%8A%E9%9F%B3%E4%B8%8A%E3%81%92%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1/1726499667?i=1726499673&uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-16T18:43:01+00:00" },
+          "researcher_note": "原歌手本人名義でのtrackNameに「半音上げ」と明記"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJQ3MESwOMGGARX99d47o0V6k",
+          "title": "神田まつや 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒101-0041 東京都千代田区神田須田町１丁目１３", "primary_type": "レストラン" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjD6vG92V0IqjUPWtB2kZgIU7WP_5Nn7Vh_kZJXeA2QTuvd-80IFB9oWFb9O17DDKtpFLIqbgQ3DegW0VK6Z5KMahRIPnIUzE5Br7Y_eZwCnGE3haszd9QTdLT8NK9fl98nQ5g3SYtwvaMCp=s4800-w1200", "source": "google-places", "attributions": [ { "name": "犬神工房", "uri": "https://maps.google.com/maps/contrib/117298617770032415425" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=12202279692666789727&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-16T18:43:23+00:00" },
+          "researcher_note": "Placesで実在・所在地を確認した老舗蕎麦店。値上げの事実・時期・幅はPlaces/NDLでは確認できない。発注適合の判断は追加の書誌情報を編集側で確認のうえ行うこと"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJX-yVohyMGGARUTdpnpXyQNQ",
+          "title": "神田 やぶそば",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒101-0063 東京都千代田区神田淡路町２丁目１０", "primary_type": "レストラン" },
+          "image": { "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPKA1Kk_GQ4RxIE_eMRWM29wf4SGyXyJ1QT-mDy-cE_MUp89mCTAo_CPLjvAzRk8-JYUG0rNUexTgQhfB2pqtyhTk6lxgSK9sQXgqw1mRNdPWg7KEYda5fD-ueMjtCpLOmYPmfR=s4800-w1200", "source": "google-places", "attributions": [ { "name": "かんだやぶそば", "uri": "https://maps.google.com/maps/contrib/100781225505502931845" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=15294491058971948881&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-16T18:43:23+00:00" },
+          "researcher_note": "Placesで実在・所在地を確認した老舗蕎麦店。値上げの事実・時期・幅はPlaces/NDLでは確認できない。編集側での裏取りが必要"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJbVNcVO-LGGARKdnkhXmDs0s",
+          "title": "天一 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒104-0061 東京都中央区銀座６丁目６−５", "primary_type": "和食店" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAPfwe1RAIP610MiCsxH1T6MmJeGDTt6tGuN-_lKl-OmKYrfK-AEV9X76-2VkiFmG5azVj4uW-nN_EovME9qHT2Y2hq4bB4uA_GDs0mYGFZOTTdmm-q2_zM-q2B-fmEyBCrLHZe-HMGYFJuvcBspH64=s4800-w1200", "source": "google-places", "attributions": [ { "name": "天一 本店", "uri": "https://maps.google.com/maps/contrib/117429327652175573540" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=5454848131636451625&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-16T18:43:23+00:00" },
+          "researcher_note": "Placesで実在・所在地を確認した銀座の天ぷら老舗。値上げの事実・時期・幅はPlaces/NDLでは確認できない。編集側での裏取りが必要"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJtRabOb-OGGARSlqU9JdYZKk",
+          "title": "神谷バー",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒111-0032 東京都台東区浅草１丁目１−１ 神谷ビル", "primary_type": "バー" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAzJzX9Gg72QLCCxT5dfqyHSeV8JoHnF4TLcJXd4WFccAbT5lJIL0sVR7hT6NgcilFAtioD69KVXJ3Rsinbn1s94eMwvd2152GVYnbyDvVewNP2DC_lB1Epip-Yur6lkuM_z99ANQ1b9Di0afPZFMeZMA=s4800-w1200", "source": "google-places", "attributions": [ { "name": "自称ちゃん", "uri": "https://maps.google.com/maps/contrib/101337931204768987275" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=12205978299747555914&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-16T18:43:23+00:00" },
+          "researcher_note": "Placesで実在・所在地を確認した浅草の老舗洋酒バー。値上げの事実・時期・幅はPlaces/NDLでは確認できない。編集側での裏取りが必要"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJreMNLr2LGGARZuiWrMEdha8",
+          "title": "五代目 野田岩 麻布飯倉本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒106-0044 東京都港区東麻布１丁目５−４", "primary_type": "和食店" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAhXA9MNio9hkxU-jZDzbA21_wHR44xgw4BTfqFdA0zebYzPHpAqwXk6Qo9zwRLSAkVk7SvdA5gzkSufJHMXw29Jhkrx49rnfU4ZQeJwhtHEGZQSjrKSikMKHEJeOcu0E58w0wnOknRMJ_QHr7dp_x5=s4800-w1200", "source": "google-places", "attributions": [ { "name": "ヤッググルメ", "uri": "https://maps.google.com/maps/contrib/104888566775661322148" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=12647547846201370726&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-16T18:43:40+00:00" },
+          "researcher_note": "Placesで実在・所在地を確認した麻布の鰻老舗。値上げの事実・時期・幅はPlaces/NDLでは確認できない。編集側での裏取りが必要"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJiXTqi1WJGGARbWyueXt08T0",
+          "title": "三代目たいめいけん",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒103-0022 東京都中央区日本橋室町１丁目８−６", "primary_type": "和食店" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDiFhiFzDoiHRLZ8hr24SblTaL4o_LQkg4gcw5lB4nX5ychMXPn1w8V9Fr6Y2eYAIY60gJaV7Tai3IGy1XOgy6XeAjQ8AmRhuHgfXe1uVcfdqMJmCmP5OmFE4W6aO68XRou-SfpAx2zc0z9-lmKY0IysQ=s4800-w1200", "source": "google-places", "attributions": [ { "name": "T Kono", "uri": "https://maps.google.com/maps/contrib/102054754553879588645" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=4463476779372145773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-16T18:43:40+00:00" },
+          "researcher_note": "Placesで実在・所在地を確認した日本橋の洋食老舗。値上げの事実・時期・幅はPlaces/NDLでは確認できない。編集側での裏取りが必要"
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJoVC4i-iLGGAR9mJULMWzaxM",
+          "title": "資生堂パーラー 銀座本店レストラン",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒104-0061 東京都中央区銀座８丁目８−３ 4 5F", "primary_type": "和食店" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAaJ0U7pNrRM8duvue6-bRYjFH2YxoRzzXDslHQAhnxvQ0pgfB0mwHZcAHIVBt7gkew3Plbs2Y2tao51Qtjwip75pHODvDxB2yCkNU27_MHQ1KJ-zR7flCsXmDxcdt7M1D5eZ9B4HZjFeXu7mo=s4800-w720", "source": "google-places", "attributions": [ { "name": "資生堂パーラー 銀座本店レストラン", "uri": "https://maps.google.com/maps/contrib/101681581484608201977" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=1399409768662328054&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-16T18:43:40+00:00" },
+          "researcher_note": "Placesで実在・所在地を確認した銀座の洋食老舗。値上げの事実・時期・幅はPlaces/NDLでは確認できない。編集側での裏取りが必要"
+        },
+        {
+          "cand_id": "res-08",
+          "source_api": "google_places",
+          "source_id": "ChIJdZFNUxPnAGARewk2xIG6bR0",
+          "title": "551蓬莱 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒542-0076 大阪府大阪市中央区難波３丁目６−３", "primary_type": "中華料理店" },
+          "image": { "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBQ-NMJ2TNdSiQ6PMDAwdO21lGPtveD1FHDtMvro9uE0-CxzW5gdVbhKczXVCghvTafNDONqFJCBV534EUI8XieQtoyFMgrRbbMchHCotMb7B59XMpDrI7k76GnGsN0pujtSqZJhgtGuFpNFlLYc5CBQw=s4800-w1200", "source": "google-places", "attributions": [ { "name": "Yang T.C.", "uri": "https://maps.google.com/maps/contrib/105235040510465711825" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=2120556066066794875&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-16T18:43:40+00:00" },
+          "researcher_note": "Placesで実在・所在地を確認した大阪難波の中華惣菜・食堂の老舗。値上げの事実・時期・幅はPlaces/NDLでは確認できない。編集側での裏取りが必要"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "architecture: 建造物や土地を工法によって物理的に持ち上げる、または嵩上げした実例(5点以上を目標)",
+      "reason": "NDL(曳家・嵩上げ・ジャッキアップ工法で検索)は大半が専門誌の記事で、個別建物のPlaces照合ができるものは3件(大倉集古館・旧JR奈良駅舎・雨岳文庫)にとどまった。蒲原宿の商家や陸前高田・気仙沼の震災復興嵩上げ地区もPlacesでは実在確認できたが、NDL側でその建物固有の曳家・嵩上げ実施を裏付ける記事が見つからず、実在チェーンが不完全なため候補に含めなかった"
+    }
+  ]
+}
