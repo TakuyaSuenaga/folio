@@ -1,0 +1,157 @@
+{
+  "vol": 52,
+  "genres": [
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1441133180",
+          "title": "The Beatles (The White Album)",
+          "creator": "The Beatles",
+          "year": 1968,
+          "publisher": "Apple Corps Limited / Calderstone Productions",
+          "meta": { "trackCount": 32, "primaryGenreName": "Rock", "releaseDate": "1968-11-22" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/us/album/the-beatles-the-white-album/1441133180?uo=4", "kind": "stream" } ],
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fa/5b/89/fa5b898d-bad6-e053-4195-260e5c74f2bb/00602567725466.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-17T18:55:11+00:00" },
+          "researcher_note": "収録曲『Helter Skelter』の長時間テイクの扱いが発注の『人の手で意図的に止められた・中断された演奏』に関連しうる。停止の経緯そのものはiTunesメタデータには含まれない。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1440851613",
+          "title": "The Velvet Underground & Nico (45th Anniversary Edition)",
+          "creator": "The Velvet Underground & Nico",
+          "year": 1967,
+          "publisher": "Universal Records",
+          "meta": { "trackCount": 11, "primaryGenreName": "Rock", "releaseDate": "1967-03-12" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/us/album/the-velvet-underground-nico-45th-anniversary-edition/1440851613?uo=4", "kind": "stream" } ],
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/92/93/39/9293397f-a707-237e-ec7e-0ca613a67e3c/06UMGIM04143.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-17T18:55:11+00:00" },
+          "researcher_note": "収録曲『European Son』の終盤処理が発注の『中断された録音』に関連しうる。停止の経緯そのものはiTunesメタデータには含まれない。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "168376392",
+          "title": "Bitches Brew",
+          "creator": "Miles Davis",
+          "year": 1970,
+          "publisher": "Sony Music Entertainment Inc.",
+          "meta": { "trackCount": 7, "primaryGenreName": "Jazz", "releaseDate": "1970-04-01" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/us/album/bitches-brew/168376392?uo=4", "kind": "stream" } ],
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9b/e1/63/9be1630c-486d-760c-76cf-04282174700a/074646577424.jpg/600x600bb.jpg", "source": "itunes" },
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-17T18:55:11+00:00" },
+          "researcher_note": "セッションの編集・切断がプロデューサーの手作業によることで知られるアルバム。編集経緯そのものはiTunesメタデータには含まれない。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "701395363",
+          "title": "Spirit of Eden",
+          "creator": "Talk Talk",
+          "year": 1988,
+          "publisher": "Parlophone Records Ltd",
+          "meta": { "trackCount": 6, "primaryGenreName": "Pop", "releaseDate": "1988-09-16" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/us/album/spirit-of-eden/701395363?uo=4", "kind": "stream" } ],
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/36/84/e8/3684e84e-5b87-f5d3-3e93-500c9807aefd/724385712951.jpg/600x600bb.jpg", "source": "itunes" },
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-17T18:55:11+00:00" },
+          "researcher_note": "長時間の即興セッションを人手で編集・裁断して収録した経緯で知られるアルバム。編集経緯そのものはiTunesメタデータには含まれない。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1556924265",
+          "title": "m b v",
+          "creator": "my bloody valentine",
+          "year": 2013,
+          "publisher": "mbv records / Domino Recording Co Ltd",
+          "meta": { "trackCount": 9, "primaryGenreName": "Alternative", "releaseDate": "2013-02-02" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/us/album/m-b-v/1556924265?uo=4", "kind": "stream" } ],
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f9/7e/6b/f97e6b94-f307-ae7f-e94c-d74860a44350/887830016094.png/600x600bb.jpg", "source": "itunes" },
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-17T18:55:11+00:00" },
+          "researcher_note": "発注の『中断された演奏』との関連は同バンドのライブ演奏に関する逸話に基づくが、本アルバム自体の録音メタデータに停止の記録はない。発注との距離はやや遠い。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1443121026",
+          "title": "Ascension",
+          "creator": "John Coltrane",
+          "year": 1966,
+          "publisher": "The Verve Music Group",
+          "meta": { "trackCount": 4, "primaryGenreName": "Jazz", "releaseDate": "1966-02-01" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/us/album/ascension/1443121026?uo=4", "kind": "stream" } ],
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/39/f6/4939f68e-00a5-49f4-9642-57020b789e19/00602547491763.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-17T18:55:11+00:00" },
+          "researcher_note": "フリージャズの集団即興作品。発注の『人の手による停止・中断』との直接的な関連はメタデータからは確認できず、発注との距離はやや遠い。"
+        }
+      ]
+    },
+    {
+      "genre": "photo",
+      "candidates": [
+        {
+          "cand_id": "pho-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784422250809",
+          "title": "大阪夜景",
+          "creator": "堀寿伸",
+          "year": 2017,
+          "publisher": "創元社",
+          "meta": { "ndlbibid": "028164331" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028164331", "kind": "reference" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-17T18:55:01+00:00" },
+          "researcher_note": "夜景写真集。長時間露光による撮影が一般的な被写体だが、バルブ撮影技法自体への言及はopenBD/NDLメタデータにはない。"
+        },
+        {
+          "cand_id": "pho-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784046043245",
+          "title": "行ける工場夜景写真集 : 「行ける工場夜景展」公認!",
+          "creator": "BACON(2014年)監修",
+          "year": 2019,
+          "publisher": "KADOKAWA",
+          "meta": { "ndlbibid": "029793245" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029793245", "kind": "reference" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-17T18:55:01+00:00" },
+          "researcher_note": "工場夜景の専門写真集。長時間露光が一般的な撮影手法として知られるジャンルだが、バルブ撮影技法そのものへの言及はopenBD/NDLメタデータにはない。"
+        },
+        {
+          "cand_id": "pho-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784309027036",
+          "title": "一瞬の宇宙",
+          "creator": "Kagaya",
+          "year": 2018,
+          "publisher": "河出書房新社",
+          "meta": { "ndlbibid": "029025542", "ndc10": "740.49" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029025542", "kind": "reference" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-17T18:55:01+00:00" },
+          "researcher_note": "宇宙・天体を主題とする作品集(NDC:写真芸術)。バルブ撮影等の手動露光技法への言及はopenBD/NDLメタデータにはなく、発注との距離はやや遠い。"
+        },
+        {
+          "cand_id": "pho-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784309253329",
+          "title": "宇宙遺産 = Superb views of the 13.8 billion years of our Universe : 138億年の超絶景",
+          "creator": "渡部潤一監修、林公代文、NHK「宇宙遺産100」番組制作班編",
+          "year": 2015,
+          "publisher": "河出書房新社",
+          "meta": { "ndlbibid": "026771176" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026771176", "kind": "reference" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-17T18:55:01+00:00" },
+          "researcher_note": "天体望遠鏡による観測画像集。手動のバルブ撮影というより自動追尾での長時間露光が主体と見られ、発注との距離は遠い。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "film: 自動化された機械・施設を人間が手動で停止させる場面を持つ映画を一点",
+      "reason": "API障害。iTunes Search APIのmedia=movieが世界的に既知の作品(Titanic/Frozen等、JP/US双方、entity=movie/attribute=movieTerm等の組み合わせも含め)でもresultCount=0を返し続けた。同条件でmedia=musicは正常に結果を返す(例: term=Thrillerで5件)ため、映画カタログの検索経路自体が現在応答不能と判断した。"
+    }
+  ]
+}
