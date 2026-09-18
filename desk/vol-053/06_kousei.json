@@ -1,0 +1,25 @@
+{
+  "vol": 53,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      { "url": "https://music.apple.com/jp/album/someone-like-you-single/1545376021?uo=4", "status": 200 },
+      { "url": "https://maps.google.com/?cid=8789817851350212742&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "status": 200 },
+      { "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033949628", "status": 200 }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[1](architecture)essay 第一文「高知県幡多郡黒潮町佐賀702に建つ津波避難タワーは」",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "高知県幡多郡黒潮町佐賀702に建つ津波避難タワーは、南海トラフ地震の想定に基づいて据えられた塔である。",
+      "teisei": "本文の数字は漢数字とする規定に反し番地「702」が算用数字のまま。DATA欄にaddressとして既出のため、本文では番地を省いて「高知県幡多郡黒潮町佐賀に建つ津波避難タワーは」とするか、残す場合は「七〇二」に改める(vol-043の同種項目では本文から番地を省く表記が先例)。"
+    }
+  ]
+}

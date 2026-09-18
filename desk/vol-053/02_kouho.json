@@ -1,0 +1,300 @@
+{
+  "vol": 53,
+  "genres": [
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1545376021",
+          "title": "Someone Like You - Single",
+          "creator": "アデル",
+          "year": 2011,
+          "publisher": "XL Recordings Ltd",
+          "meta": { "primaryGenreName": "ポップ", "collectionType": "Album", "trackCount": 1 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/71/b2/b2/71b2b25b-8565-4192-4d3b-5e4505e9f37e/634904153366.png/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/someone-like-you-single/1545376021?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-18T18:06:34+00:00" },
+          "researcher_note": "V→vi進行(偽終止)が指摘されることがあるとされる楽曲。作曲意図の断定はできず要検証。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1441164524",
+          "title": "Help!",
+          "creator": "ビートルズ",
+          "year": 1965,
+          "publisher": "Calderstone Productions Limited (a division of Universal Music Group)",
+          "meta": { "primaryGenreName": "ロック", "collectionType": "Album", "trackCount": 16, "note": "収録曲『Yesterday』を想定した発注に対する候補" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1a/19/db/1a19db26-17ad-b986-11a9-f72ac7a6194b/18UMGIM31214.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/help/1441164524?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-18T18:06:34+00:00" },
+          "researcher_note": "同アルバム収録の『Yesterday』は和声分析でVI度への進行が偽終止的と評されることがある楽曲。要検証。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1640102583",
+          "title": "Escape (2022 Remaster)",
+          "creator": "ジャーニー",
+          "year": 1981,
+          "publisher": "Columbia Records, a division of Sony Music Entertainment",
+          "meta": { "primaryGenreName": "ロック", "collectionType": "Album", "trackCount": 10, "note": "収録曲『Don't Stop Believin'』を想定した発注に対する候補" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/47/d6/fe/47d6fe2f-b14c-d8a7-597c-8a40e094364e/886449932795.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/escape-2022-remaster/1640102583?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-18T18:06:34+00:00" },
+          "researcher_note": "収録曲の和声進行が偽終止に該当するかは未検証。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "185716551",
+          "title": "Toto IV",
+          "creator": "Toto",
+          "year": 1982,
+          "publisher": "Sony Music Entertainment Inc.",
+          "meta": { "primaryGenreName": "ロック", "collectionType": "Album", "trackCount": 10, "note": "収録曲『Africa』を想定した発注に対する候補" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/69/ce/d2/69ced240-07a7-2a04-bbab-2afbacf30809/074643772822.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/toto-iv/185716551?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-18T18:06:34+00:00" },
+          "researcher_note": "収録曲の和声進行が偽終止に該当するかは未検証。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1123076757",
+          "title": "X&Y",
+          "creator": "コールドプレイ",
+          "year": 2005,
+          "publisher": "Parlophone Records Ltd, a Warner Music Group Company",
+          "meta": { "primaryGenreName": "オルタナティブ", "collectionType": "Album", "trackCount": 14, "note": "収録曲『Fix You』を想定した発注に対する候補" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0c/82/48/0c8248a8-4a5b-d30d-8056-f32d650d2fc9/190295978068.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/x-y/1123076757?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-18T18:06:34+00:00" },
+          "researcher_note": "収録曲の和声進行が偽終止に該当するかは未検証。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJz-XYGZgcTzURhuAd7sO0-3k",
+          "title": "佐賀地区津波避難タワー",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "高知県幡多郡黒潮町佐賀702", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBfLeAK4UxtEd7cIff_fl_djvLcjXnF1QVoR-zs0cSdPMguWbgqf8MDGe4yEVcToDFLIx9FHDBud_xsCWfSkUMCXE2Lj-qu97oaYhdxLsXCOqxjz7B0HBUJXsjA_AY0gw9nFuZwgU7_jcjKng=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "PISTON SATO", "uri": "https://maps.google.com/maps/contrib/104101013235613914063" } ]
+          },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=8789817851350212742&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-18T18:06:41+00:00" },
+          "researcher_note": "南海トラフ地震を想定した津波避難タワー。Places情報のみでは竣工年・使用実績は不明。発動履歴の確認は別途必要。"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJV2NiDs3vGmARJvuYeSrSHO8",
+          "title": "津波避難タワー",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "静岡県磐田市豊浜4127-43", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBc5cuA2s1xzKV0GDcHxaAV4R_3ocjkyF9EnW7-OF2zFAwP3kTRi3DeP3cB4F4yhQaxQEpaGNwhp0DkYM6klwyTJ4JrQiMas97SoOxzliqjGGgjSOaEkzn4KpWol8VQsxPcuplz4dEC2XE0-w=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Takashi", "uri": "https://maps.google.com/maps/contrib/112613228455506351854" } ]
+          },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=17229877354283203366&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-18T18:06:41+00:00" },
+          "researcher_note": "南海トラフ地震を想定した津波避難タワー。Places情報のみでは竣工年・使用実績は不明。発動履歴の確認は別途必要。"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJhYWzAMbGImARFj7go-WfKGs",
+          "title": "大網白里市 津波避難タワー",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "千葉県大網白里市四天木甲2982番地1", "primary_type": "公園" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCfpqm8CEicELWE6NlyaY8S69Cojw7Q2INDQHdgg4DTRjdM8uQIYr2cFiPKRNr-v3WlKBsHoV0pbHBrR4FXGDYmxmGRImhLzQrtdGL3KQIevWLBEioqpAF25xxRiUEGCmOINPPfjWW7NUFyd-g=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "森けんじ", "uri": "https://maps.google.com/maps/contrib/102016670334987888529" } ]
+          },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=7721597369772424726&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-18T18:06:41+00:00" },
+          "researcher_note": "太平洋沿岸の津波避難タワー。Places情報のみでは竣工年・使用実績は不明。発動履歴の確認は別途必要。"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJsVbmWSMBTjURJFQD5LkDEi8",
+          "title": "ヤ・シィパーク津波避難タワー",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "高知県香南市夜須町坪井", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA7hzMsCP4pLQOMERMoLiuLCRyEUiw-tqR7HIUIZ0BV5xOeWmW7yvfW8vl4B9E1YMHvTO_bGf0uEpAQfaTS3V173Qk6AUqsMafLcCg9MG5-v5afomDrey-v1zf4tqN1rA5Sx8XV4jKUS2yOj6k=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Çaico", "uri": "https://maps.google.com/maps/contrib/116570370688300669116" } ]
+          },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=3391777566292661284&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-18T18:06:41+00:00" },
+          "researcher_note": "海浜公園内に併設された津波避難タワー。Places情報のみでは竣工年・使用実績は不明。発動履歴の確認は別途必要。"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ5YShqqL1hF8RKTDapQnEIN4",
+          "title": "普代水門・太田名部防潮堤",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "岩手県下閉伊郡普代村第8地割太田名部", "primary_type": "官公庁" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjACRWtv9VW6Rv9y5cCSSa6pBtESMPgkIpg05LN5XIQj1PWOBDnsjKdTakD9ersqnIqe_tJIEv_TX0I6bW80KfKm833ERCy5H4ORu9bN46O5qqdF0LmCSGBfwmZ3zSe7enpzAQvGr4JCz2etWA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Satocchi 318", "uri": "https://maps.google.com/maps/contrib/101558382793119169436" } ]
+          },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=16006008621391032361&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-18T18:06:48+00:00" },
+          "researcher_note": "1933年の昭和三陸津波を教訓に建設された水門。一般に、2011年東日本大震災の際に閉鎖され機能したとする報道・記録があり、「発動を経ていない」という発注条件に合わない可能性が高い。要確認。"
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJ95Oyn7QekF8RL2Q-3QZxpPE",
+          "title": "八郎潟防潮水門",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "秋田県八郎潟町船越八郎谷地", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjATsMOvVKHIo7WeX64gqcb1TwH7HFRniWnEs36shLVb68A2IwjxY6xGoxiFkF-IgGSY3-sMr2cmGWtNgucZK5VRV9vTXKp-hFZMja-1OuVFGqkPfaXubhMf80csvFqV-SIr-1kiIqYfgXdKCxM-4oCM=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "只見荘一郎", "uri": "https://maps.google.com/maps/contrib/116808355876192006980" } ]
+          },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=17412166333616776239&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-18T18:06:48+00:00" },
+          "researcher_note": "八郎潟の防潮水門。Places情報のみでは竣工年・発動履歴は不明。要確認。"
+        },
+        {
+          "cand_id": "arch-07",
+          "source_api": "google_places",
+          "source_id": "ChIJnTaD5u1TFTURHlygXYS_lbs",
+          "title": "長崎県防空本部壕（立山防空壕）",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "長崎県長崎市立山2丁目1-6", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDEz6Q1pFcKH7P2lpkhc0aim0rKQ8vhZC_9SJweJ7s2Xm6muK4HiQ733x53DyxksfKlz47x4SS-cQpfSbLqktk-rEKB_SZ48Wbn7RKqDlHMGW3TCHDXHcYR-4-pIXFEeWHSe7oa1TgddAcLyw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "旅日記", "uri": "https://maps.google.com/maps/contrib/117406182681570502310" } ]
+          },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=13516920431849790494&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-18T18:06:48+00:00" },
+          "researcher_note": "太平洋戦争中に築かれた防空壕で、現在は史跡として保存されている。当時の長崎空襲で実際に使用された可能性が高く、「発動を経ていない」という発注条件と整合しない懸念がある。要確認。"
+        },
+        {
+          "cand_id": "arch-08",
+          "source_api": "google_places",
+          "source_id": "ChIJP7HgChnzImARDfz-mxiLxks",
+          "title": "三里塚記念公園防空壕",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "千葉県成田市三里塚御料1-34", "primary_type": "博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCvUlMIa6H8_p4dMkxgb5yrRsIUiPd4J7-HY46xHNCDbjGNz2msx7uM0g3zRLzTh95G13DUa0AInGTTeZ3bXLuPgQMY6HCxiTKoJ4Nm9qMZhH8EzG5IxoPU7fec-u8CS4vbPxcxxDJ8BbYo=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "yasukichisan x", "uri": "https://maps.google.com/maps/contrib/102089325176719378247" } ]
+          },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=5460204536045960205&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-18T18:06:48+00:00" },
+          "researcher_note": "旧宮内庁下総御料牧場に隣接する記念公園内の防空壕跡。太平洋戦争中の使用歴の有無は要確認。「発動を経ていない」という発注条件との整合性は未確認。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784396100551",
+          "title": "ノストラダムスの大予言 : 迫りくる1999年7の月、人類滅亡の日",
+          "creator": "五島勉",
+          "year": 1973,
+          "publisher": "祥伝社",
+          "meta": { "note": "1973年初版、候補ISBNは1983年刊(第403刷)版。1999年7月の人類滅亡を予言し、予言は外れたが社会現象として広く記憶される書。" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I09111100357179", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-18T18:07:33+00:00" },
+          "researcher_note": "外れた終末予言の代表例として広く知られる書籍。予言の当否ではなく、外れた後もその社会的機能をどう論じるかは執筆時の検討事項。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784779511240",
+          "title": "天地海人 : 防災・減災えっせい辞典",
+          "creator": "矢守克也",
+          "year": 2017,
+          "publisher": "ナカニシヤ出版",
+          "meta": {},
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027843087", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-18T18:07:33+00:00" },
+          "researcher_note": "防災心理学者によるエッセイ辞典。避難勧告の空振りや警報論を直接主題とした専門書かどうかは目次未確認のため要検証。"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784326251810",
+          "title": "予言がはずれるとき 新装版 : この世の破滅を予知した現代のある集団を解明する",
+          "creator": "レオン・フェスティンガー, ヘンリー・W.リーケン, スタンレー・シャクター 著, 水野博介 訳",
+          "year": 2025,
+          "publisher": "勁草書房",
+          "meta": { "note": "原タイトル: WHEN PROPHECY FAILS。原著1956年刊、本版は2025年新装版。" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033949628", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-18T18:07:33+00:00" },
+          "researcher_note": "終末予言が外れた後も信者の信仰がむしろ強まった集団を追った社会心理学の古典。発注文の「予言や終末論」に該当する研究書。"
+        },
+        {
+          "cand_id": "book-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784490201093",
+          "title": "新しい天気予報 : 確率予報とナウキャスト",
+          "creator": "立平良三",
+          "year": 1986,
+          "publisher": "東京堂出版",
+          "meta": { "series": "気象学のプロムナード ; 第2期 2" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000001862852", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-18T18:07:33+00:00" },
+          "researcher_note": "確率予報の仕組みを解説する理論書。誤報・空振りそのものを主題とした書ではない可能性があり、発注との距離はやや遠い。要検証。"
+        },
+        {
+          "cand_id": "book-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784413016292",
+          "title": "死活の書 : ノストラダムスの超法則 1995〜1999 and α?〈迫り来るシレーヌの大破局〉を覆す恐るべき未来バイブル",
+          "creator": "五島勉",
+          "year": 1995,
+          "publisher": "青春出版社",
+          "meta": { "series": "プレイブックス" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002402608", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-18T18:07:33+00:00" },
+          "researcher_note": "book-01と同一著者(五島勉)によるノストラダムス関連本の続刊。同一著者の複数点が候補に含まれる点に留意。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
