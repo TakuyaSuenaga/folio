@@ -1,0 +1,339 @@
+{
+  "vol": 54,
+  "genres": [
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "b-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784062731300",
+          "title": "黄昏の岸 暁の天",
+          "creator": "小野不由美",
+          "year": 2001,
+          "publisher": "講談社",
+          "meta": {
+            "series": "講談社文庫. 十二国記",
+            "pubdate": "200104",
+            "ndl_id": "R100000002-I000002982186"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002982186", "kind": "info" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-19T17:46:48+00:00" },
+          "researcher_note": "十二国記の講談社文庫最終巻(2001年4月刊)。以後新刊なし。"
+        },
+        {
+          "cand_id": "b-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784101240626",
+          "title": "白銀の墟 玄の月 第1巻",
+          "creator": "小野不由美",
+          "year": 2019,
+          "publisher": "新潮社",
+          "meta": {
+            "series": "新潮文庫. 十二国記",
+            "pubdate": "201910",
+            "ndl_id": "R100000038-I4043060"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000038-I4043060", "kind": "info" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-19T17:46:48+00:00" },
+          "researcher_note": "b-01(2001年4月)から18年半後、2019年10月刊行の十二国記新刊第1巻。"
+        },
+        {
+          "cand_id": "b-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784088816401",
+          "title": "ハンター×ハンター = HUNTER×HUNTER NO.36",
+          "creator": "冨樫義博",
+          "year": 2018,
+          "publisher": "集英社",
+          "meta": {
+            "series": "ジャンプコミックス",
+            "pubdate": "201810",
+            "ndl_id": "R100000002-I029224082"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029224082", "kind": "info" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-19T17:46:48+00:00" },
+          "researcher_note": "HUNTER×HUNTER既刊36巻(2018年10月刊)。"
+        },
+        {
+          "cand_id": "b-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784088833651",
+          "title": "ハンター×ハンター = HUNTER×HUNTER NO.37",
+          "creator": "冨樫義博",
+          "year": 2022,
+          "publisher": "集英社",
+          "meta": {
+            "series": "ジャンプコミックス",
+            "pubdate": "202211",
+            "ndl_id": "R100000002-I032452258"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032452258", "kind": "info" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-19T17:46:48+00:00" },
+          "researcher_note": "b-03(2018年10月)から約4年後、2022年11月刊行の37巻。"
+        },
+        {
+          "cand_id": "b-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784063882100",
+          "title": "ヒストリエ = HISTORIĒ. 10",
+          "creator": "岩明均",
+          "year": 2017,
+          "publisher": "講談社",
+          "meta": {
+            "series": "アフタヌーンKC ; 1510",
+            "pubdate": "201703",
+            "ndl_id": "R100000002-I028047173"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028047173", "kind": "info" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-19T17:46:48+00:00" },
+          "researcher_note": "ヒストリエ既刊10巻(2017年3月刊)。"
+        },
+        {
+          "cand_id": "b-06",
+          "source_api": "ndl+openbd",
+          "source_id": "9784065156483",
+          "title": "ヒストリエ = HISTORIĒ. 11",
+          "creator": "岩明均",
+          "year": 2019,
+          "publisher": "講談社",
+          "meta": {
+            "series": "アフタヌーンKC",
+            "pubdate": "201907",
+            "ndl_id": "R100000002-I029794262"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029794262", "kind": "info" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-19T17:46:48+00:00" },
+          "researcher_note": "b-05(2017年3月)から約2年4か月後、2019年7月刊行の11巻。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "m-01",
+          "source_api": "itunes",
+          "source_id": "1374986999",
+          "title": "It's A Wonderful World",
+          "creator": "Mr.Children",
+          "year": 2002,
+          "publisher": "OORONG-SHA/TOY'S FACTORY",
+          "meta": { "trackCount": 15, "releaseDate": "2002-05-10T07:00:00Z", "primaryGenreName": "J-Pop" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d0/00/00/d0000096-083c-0de6-3f04-551c68deaa96/dj.hnubigco.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/its-a-wonderful-world/1374986999?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-19T17:46:57+00:00" },
+          "researcher_note": "Mr.Childrenが2004年9月に無期限活動休止を発表する前、2002年5月発売のアルバム。"
+        },
+        {
+          "cand_id": "m-02",
+          "source_api": "itunes",
+          "source_id": "1374928841",
+          "title": "I Love U",
+          "creator": "Mr.Children",
+          "year": 2005,
+          "publisher": "OORONG-SHA/TOY'S FACTORY",
+          "meta": { "trackCount": 13, "releaseDate": "2005-09-21T07:00:00Z", "primaryGenreName": "J-Pop" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e3/c0/73/e3c0732d-a0ea-bb1f-e08c-ba4c392970df/dj.vwvtxzla.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/i-love-u/1374928841?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-19T17:46:57+00:00" },
+          "researcher_note": "2005年の活動再開後、同年9月発売のアルバム。m-01の約3年4か月後。"
+        },
+        {
+          "cand_id": "m-03",
+          "source_api": "itunes",
+          "source_id": "1464635737",
+          "title": "Orbital Period",
+          "creator": "BUMP OF CHICKEN",
+          "year": 2007,
+          "publisher": "TOY'S FACTORY / LONGFELLOW",
+          "meta": { "trackCount": 17, "releaseDate": "2007-12-19T08:00:00Z", "primaryGenreName": "J-Pop" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/69/45/86/694586f7-72c8-56f8-7097-6d55e7ea248a/dj.ooaxtiay.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/orbital-period/1464635737?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-19T17:46:57+00:00" },
+          "researcher_note": "BUMP OF CHICKENが2009年から活動を休止する前、2007年12月発売のアルバム。"
+        },
+        {
+          "cand_id": "m-04",
+          "source_api": "itunes",
+          "source_id": "1464635447",
+          "title": "Cosmonaut",
+          "creator": "BUMP OF CHICKEN",
+          "year": 2010,
+          "publisher": "TOY'S FACTORY / LONGFELLOW / MOR",
+          "meta": { "trackCount": 14, "releaseDate": "2010-12-15T08:00:00Z", "primaryGenreName": "J-Pop" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a4/47/71/a4477114-1485-4a36-3c7a-be5befa1f21d/TFCC-86347WW.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/cosmonaut/1464635447?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-19T17:46:57+00:00" },
+          "researcher_note": "活動再開後、2010年12月発売のアルバム。m-03の約3年後。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "r-01",
+          "source_api": "google_places",
+          "source_id": "ChIJE6NVO9mLGGARUiKvcRmKzN4",
+          "title": "寿司大",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都江東区豊洲６丁目５−１", "primary_type": "寿司店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmMq7CDlwwwOEdKFRNE_FOaUAI5ZQXcUmC1UtR_VqO7IAt2ii0PG-uKMFUpETjVGHu94al0eKTU5SNNM-KHZJEc0ss5jhGX5Fcan6inF-p8WtQ2grjI4LfN_HFkv8WlKh0vQrPyy=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ジョニーデップ", "uri": "https://maps.google.com/maps/contrib/110035672577618425377" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=16054358613555094098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-19T17:47:05+00:00" },
+          "researcher_note": "築地市場から豊洲市場への移転(2018年10月)に伴う休業・移転後再開という文脈で選定。休業・再開の具体的期日はPlaces APIの範囲外で未検証。"
+        },
+        {
+          "cand_id": "r-02",
+          "source_api": "google_places",
+          "source_id": "ChIJ2XoCO9mLGGARlulkZtm4R2Q",
+          "title": "大和寿司 東京 豊洲市場",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都江東区豊洲６丁目３−２", "primary_type": "寿司店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBlV2HqOP7qlwj_dD0xyUeMsHYKr6zmPg7glM_6U0nmtYC7Df5mS08cMWKP_VVqjiovcyOYjwVZnrDR4lqIHI6DqjaoXTGRwL3OdHe7cTBmBeBv9c_W43gOcrTBmiC__ok22_94xIYtxNXoi0Q=s4800-w1125",
+            "source": "google-places",
+            "attributions": [ { "name": "大和寿司 東京 豊洲市場", "uri": "https://maps.google.com/maps/contrib/101132276875580070018" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=7225947371004553622&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-19T17:47:05+00:00" },
+          "researcher_note": "r-01と同じ豊洲市場移転の文脈。休業・再開の具体的期日は別途確認が必要。"
+        },
+        {
+          "cand_id": "r-03",
+          "source_api": "google_places",
+          "source_id": "ChIJHwhSW3eLGGAROdsoN-feVMQ",
+          "title": "東京會舘 本舘",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都千代田区丸の内３丁目２−１ 丸の内二重橋ビル", "primary_type": "宴会場" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmOcFpJquAYpjKKCR5cRLFOXY9buZ2skyj91zk0ovHlUmpfJy0jamy0B-2AZvdLpZZlaxNPwWQwE0OtT1lkVXMqz7jurCdxb4P4d_LboZO_26HGXGEkVX6CHNRxCn79cgWLyc4s=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "東京會舘 本舘", "uri": "https://maps.google.com/maps/contrib/108285493574250576086" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=14147177414121806649&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-19T17:47:05+00:00" },
+          "researcher_note": "建て替えに伴う休業(2015年)と新本舘での再開(2019年)という文脈で選定。具体的期日はPlaces APIの範囲外で未検証。"
+        },
+        {
+          "cand_id": "r-04",
+          "source_api": "google_places",
+          "source_id": "ChIJiXTqi1WJGGARbWyueXt08T0",
+          "title": "三代目たいめいけん",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都中央区日本橋室町１丁目８−６", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBwk9GHcAa4DoUGJBBgr--u2nSbT7J06JLk-YU_3-3R53EQsAM7voGARs5WRfmrtiaLXNdDGtEZzhp4Nw6CbjhWuxLWEFtLVhhr-y2O_qIYZUZe8HGxG4B-KbcB3pxK-c8PfhQ0KQGrW2Ix_B5R1mCv6g=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "T Kono", "uri": "https://maps.google.com/maps/contrib/102054754553879588645" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=4463476779372145773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-19T17:47:05+00:00" },
+          "researcher_note": "老舗洋食店として実在確認。休業・再開の具体的事実はPlaces APIの範囲外で未確認。"
+        },
+        {
+          "cand_id": "r-05",
+          "source_api": "google_places",
+          "source_id": "ChIJoVC4i-iLGGAR9mJULMWzaxM",
+          "title": "資生堂パーラー 銀座本店レストラン",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都中央区銀座８丁目８−３ 4 5F", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNxZl6o9JTiHkfKjSaOHBdffQPXo_q3DG7ZzRy0MMPD4zaYGrPDq1xuJf3qIIdJIlUGRbCH0iQTZRxta0qGCReezNj_0ocvC9UHIQIvSG9yzMrHgf63Re_RAFfvDuF0aVmAn7uAWg=s4800-w720",
+            "source": "google-places",
+            "attributions": [ { "name": "資生堂パーラー 銀座本店レストラン", "uri": "https://maps.google.com/maps/contrib/101681581484608201977" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=1399409768662328054&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-19T17:47:05+00:00" },
+          "researcher_note": "銀座本店ビル建て替えに伴う休業・再開という文脈で選定。具体的期日はPlaces APIの範囲外で未検証。"
+        },
+        {
+          "cand_id": "r-06",
+          "source_api": "google_places",
+          "source_id": "ChIJY57SxceOGGAR5p8zPgOh_p4",
+          "title": "駒形どぜう 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都台東区駒形１丁目７−１２", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmMPFFztOiAYCX6pGk4-h__Z8oYVVEvLg97lmMiSEhPjvTUwV7NmVBbCeIg-11_2yVYYm9gA-sUQkAm2hIANXtDwYNicBpW3Tlsj8yg2kyxYQ78iBYI4XsV28LhkS3ltzactPSWvN7ehx5bS=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "駒形どぜう 本店", "uri": "https://maps.google.com/maps/contrib/100757614160252523664" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=11456771537377664998&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-19T17:47:05+00:00" },
+          "researcher_note": "創業二百年超の老舗どぜう料理店として実在確認。休業・再開の具体的事実はPlaces APIの範囲外で未確認。"
+        },
+        {
+          "cand_id": "r-07",
+          "source_api": "google_places",
+          "source_id": "ChIJnwHZJOSLGGARVkzvTyfHi0Y",
+          "title": "煉瓦亭",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都中央区銀座３丁目５−１６", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNgDxZzYZyG6l0xIYAldJpve_tmGyl_HYa9f5kD5ZOnFZ7OdHXx0zmIGQyq914DiHfK4tVO96EwwirXDg3zCtYzIp1AmvKFMjdshdehVOVwhtLmUNF5Hftd7fQm7Y7GzxSGwLqyB8fc6fF0=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "能勢靖", "uri": "https://maps.google.com/maps/contrib/108084357719651702906" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=5083375576076471382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-19T17:47:05+00:00" },
+          "researcher_note": "明治創業の洋食店として実在確認。休業・再開の具体的事実はPlaces APIの範囲外で未確認。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

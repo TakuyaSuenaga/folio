@@ -1,0 +1,16 @@
+{
+  "vol": 54,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      { "url": "https://ndlsearch.ndl.go.jp/books/R100000038-I4043060", "status": 200 },
+      { "url": "https://music.apple.com/jp/album/i-love-u/1374928841?uo=4", "status": 200 },
+      { "url": "https://maps.google.com/?cid=16054358613555094098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "status": 200 }
+    ]
+  },
+  "shiteki": []
+}
