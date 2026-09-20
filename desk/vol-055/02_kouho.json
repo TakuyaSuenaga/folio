@@ -1,0 +1,382 @@
+{
+  "vol": 55,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJrZj5yzhKhF8RJIpGdFgyilE",
+          "title": "田老の防潮堤跡",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒027-0306 岩手県宮古市田老川向６３−５",
+            "primary_type": "史跡"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBkbn-QU3I2mLmY0rHoChQs9Oqhkmuq2ZyxvPzShPfeaxYF39OQg9QGXVtTlNOqzW2MXYT0S8LAeeg14DOlpDAN4VfQg2UVsMBQKEv376Jc-kf66I7ugSQ68SLDjUg5UsVmdUM5fOPCt7eSHg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Hiroyuki", "uri": "https://maps.google.com/maps/contrib/106807645702734082790" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5875564019347524132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-20T18:00:09+00:00" },
+          "researcher_note": "2011年の津波で越流・損壊した防潮堤の跡地。外力に対する構造物の限界という発注に直接該当する。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJO54l8Q30QDURm2h7dRuya3Y",
+          "title": "二様の石垣",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒860-0002 熊本県熊本市中央区本丸１",
+            "primary_type": "城"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNFWXWdZvxS99es5gVfGJlsXdNBNF2jV-dpAhwV_pw2ZuA-4NF9Rr19HKda_j0LfzEy4mC1TiOj_dbv2GB6RZh5-SZ3y3ivaAiJ1vlovIKMhilE-eBKyxpRlIVTI5LDW75ON7RUutvSkBw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Pepco Auto Parts Ltd.", "uri": "https://maps.google.com/maps/contrib/104103524125100469292" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8533109749988419739&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-20T18:00:09+00:00" },
+          "researcher_note": "熊本城の石垣。2016年熊本地震で崩落した箇所を含む一帯で、外力による構造物の限界と修復過程が確認できる。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJgw0YbS-qH2ARgS-y7fpB_y4",
+          "title": "足尾砂防堰堤",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒321-1511 栃木県日光市足尾町８８５",
+            "primary_type": ""
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA-788VZ2ax1DJcFGeyOKQIjGcFOO4nAGS04TazMhOPWLxWSIiZipV9FE1A5TLa9HFIag2oKa5yYY_UvoE5pzTU-Eehrpnaw2RrVsNi8Oj4Jz06xRXeB7-5ai84b2LcOek6mJ8CiN9su-Ytn2Y=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "太郎", "uri": "https://maps.google.com/maps/contrib/106671722517895990969" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3386497990791409537&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-20T18:00:09+00:00" },
+          "researcher_note": "土砂災害対策として渓流に築かれた堰堤。台風時の土石流という外力を受け止める構造物として発注に沿う。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJD2BAjOcNhl8RKzprhe4rO1w",
+          "title": "釜石湾口防波堤",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒026-0026 岩手県釜石市釜石第１地割",
+            "primary_type": "景勝地"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNsYXQ0NCIlsO2BpzMa_WFx8qOI1KlaNCRecDrVLHwJ-ytqTt_YpB5c-shZtJDFrcCzq20-ihrVk-dIZNbOm5fpscTO_gbLNteVrzS1PWL-HjRggUyk12KN_xV4KbN-JofqRBsLIg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Gonzaburou Kitakaze", "uri": "https://maps.google.com/maps/contrib/107575359045901533376" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6645953978555906603&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-20T18:00:09+00:00" },
+          "researcher_note": "2011年の津波で一部倒壊後に再建された世界最深の防波堤。外力による破壊と再構築の両面が確認できる。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJHwCqVYOkGWARWqcMgW_dBcc",
+          "title": "石垣山城跡",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒250-0021 神奈川県小田原市早川1383ｰ12",
+            "primary_type": "城"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmO_VecY6gPhTF3-az815bUvm5ZsC3HmfQSucl2JT0KH-5MMTTt3UDinjUQAKCpTDuMbwu7pRo7IJWIsldNOoS9mUkKSLkm-oFJlzQ4oJM2ByYfN3xKQmoxwYeI2hIXY6TfwCLKqFw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "くまさま", "uri": "https://maps.google.com/maps/contrib/114444288011464619521" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14341112059407411034&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-20T18:00:09+00:00" },
+          "researcher_note": "豊臣秀吉が築いた石垣造りの城跡。防御構造物としての石垣そのものだが、外力による損壊の記録は薄い。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJCRLsJPyLGGARhbfimu4UsAc",
+          "title": "江戸城外堀の石垣",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒100-0005 東京都千代田区丸の内１丁目８−３",
+            "primary_type": "史跡"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNKkCSiscbJbWnLpQ4d-9GyW9ybc77Wh5cEGjoZasKRGoJlw078JrR7akIejm0CFZuS9ig0iamkcwc5gmBVgJZ4KlWv1C8Pc2Qep80FtToSbOsVaK7x9fN_PV5UlVdmMPMaeRyu=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Mint&Berry", "uri": "https://maps.google.com/maps/contrib/115889320120629859118" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=553965769199892357&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-20T18:00:09+00:00" },
+          "researcher_note": "江戸城外堀に残る石垣遺構。都市中心部で境界・防御の構造物として現存する例。"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJP6l44B3dGmARxAMbhk08ayc",
+          "title": "浜松市沿岸域防潮堤",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒430-0846 静岡県浜松市中央区白羽町",
+            "primary_type": "公園"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmO1oq0lFOl7hU48whhYZHtTtwABwRtS7pT3NVOxOAiLe-Bn9vz8PZVpA1hFqyJHQ2RMU-eIY0kDjYkVciuAFIT3hq8KuRxSf2hrU82bvnOrwrJR-Dtf-LyejvpZo-5YUMvyThGU7USjnV8=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "びび", "uri": "https://maps.google.com/maps/contrib/110179103774241242837" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2840430293647295428&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-20T18:00:09+00:00" },
+          "researcher_note": "南海トラフ地震・台風高潮を想定して整備された延長17.5kmの防潮堤。想定を超える外力への備えという論点に沿う。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "bk-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784000228701",
+          "title": "獄中記",
+          "creator": "佐藤優",
+          "year": 2006,
+          "publisher": "岩波書店",
+          "meta": { "extent": "502, 6p", "ndc": "310.4" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000008394949", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-20T18:00:34+00:00" },
+          "researcher_note": "外務省職員が背任・偽計業務妨害容疑で512日間勾留された獄中体験の記録。単行本初版。"
+        },
+        {
+          "cand_id": "bk-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784006031848",
+          "title": "獄中記",
+          "creator": "佐藤優",
+          "year": 2009,
+          "publisher": "岩波書店(岩波現代文庫)",
+          "meta": { "series": "岩波現代文庫 ; S184", "extent": "599, 8p" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000010123689", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-20T18:00:34+00:00" },
+          "researcher_note": "bk-01と同一著作の文庫版。刊行形態違いの候補として並置。"
+        },
+        {
+          "cand_id": "bk-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784591079355",
+          "title": "獄窓記",
+          "creator": "山本譲司",
+          "year": 2003,
+          "publisher": "ポプラ社",
+          "meta": { "extent": "391p", "ndc": "326.52", "subject": "刑務所" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004302774", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-20T18:00:34+00:00" },
+          "researcher_note": "元衆議院議員が実刑判決を受け刑務所に収容された体験記。単行本初版。"
+        },
+        {
+          "cand_id": "bk-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784101338712",
+          "title": "獄窓記",
+          "creator": "山本譲司",
+          "year": 2008,
+          "publisher": "新潮社(新潮文庫)",
+          "meta": { "series": "新潮文庫", "extent": "533p", "subject": "刑務所--日本" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009245436", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-20T18:00:34+00:00" },
+          "researcher_note": "bk-03と同一著作の文庫版。"
+        },
+        {
+          "cand_id": "bk-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784622006015",
+          "title": "夜と霧 : ドイツ強制収容所の体験記録",
+          "creator": "ヴィクトール・E.フランクル 著、霜山徳爾 訳",
+          "year": 1985,
+          "publisher": "みすず書房",
+          "meta": { "edition": "新装版", "extent": "208p 図版15枚", "subject": "アウシュビッツ強制収容所" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000001724920", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-20T18:00:34+00:00" },
+          "researcher_note": "強制収容所という収容の極限を扱う旧訳(霜山徳爾訳)の新装版。"
+        },
+        {
+          "cand_id": "bk-06",
+          "source_api": "ndl+openbd",
+          "source_id": "9784622039709",
+          "title": "夜と霧",
+          "creator": "ヴィクトール・E.フランクル 著、池田香代子 訳",
+          "year": 2002,
+          "publisher": "みすず書房",
+          "meta": { "edition": "新版", "extent": "169p", "subject": "アウシュビッツ強制収容所" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000003605215", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-20T18:00:34+00:00" },
+          "researcher_note": "bk-05と同一著作の新訳(池田香代子訳)。国内で広く読まれている版。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1067133757",
+          "title": "The Wall",
+          "creator": "ピンク・フロイド",
+          "year": 1979,
+          "publisher": "",
+          "meta": { "trackCount": 27, "primaryGenreName": "ロック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ba/16/65/ba16652f-115d-82a4-0d54-d437ca8b5866/886445669107.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/the-wall/1067133757?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-20T18:00:27+00:00" },
+          "researcher_note": "自らを外界から隔てる心理的な壁を主題とするコンセプトアルバム。発注に最も近い直接的な候補。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "186166282",
+          "title": "Off the Wall",
+          "creator": "マイケル・ジャクソン",
+          "year": 1979,
+          "publisher": "",
+          "meta": { "trackCount": 10, "primaryGenreName": "ポップ" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0c/fe/a3/0cfea324-57c1-d530-5248-9bb591bbd7bf/074643574525.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/off-the-wall/186166282?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-20T18:00:27+00:00" },
+          "researcher_note": "タイトルは慣用句「型破りな」の意で、壁そのものを主題とはしていない。距離のある候補。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1863212436",
+          "title": "Wall",
+          "creator": "fox capture plan",
+          "year": 2014,
+          "publisher": "",
+          "meta": { "trackCount": 10, "primaryGenreName": "コンテンポラリー・ジャズ" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/8b/3e/b48b3e3c-8ad3-a7fb-ce78-b86f78b6071b/cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/wall/1863212436?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-20T18:00:27+00:00" },
+          "researcher_note": "国内ジャズトリオによるインストゥルメンタルアルバム。「壁」を表題としている。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1528185015",
+          "title": "WALL",
+          "creator": "貴水博之",
+          "year": 1996,
+          "publisher": "",
+          "meta": { "trackCount": 9, "primaryGenreName": "J-Pop" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/63/97/90/6397903f-4165-3d48-7963-d412a9fe9b0b/4547366469776.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/wall/1528185015?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-20T18:00:27+00:00" },
+          "researcher_note": "「WALL」を表題とする1996年のソロアルバム。歌詞面での主題の裏付けはメタデータ上確認できない。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1783470800",
+          "title": "WALL",
+          "creator": "Heap",
+          "year": 2024,
+          "publisher": "",
+          "meta": { "trackCount": 13, "primaryGenreName": "ロック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/47/0a/2c470a78-49b1-bac0-aedd-eda535149a82/53359.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/wall/1783470800?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-20T18:00:27+00:00" },
+          "researcher_note": "2024年リリースのロックアルバム。「WALL」を表題とする13曲収録盤。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "919995589",
+          "title": "wall",
+          "creator": "音衣",
+          "year": 2014,
+          "publisher": "",
+          "meta": { "trackCount": 8, "primaryGenreName": "オルタナティブ" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/42/2a/3a/422a3aa5-b057-912b-4b21-0b57efe5178d/4589961410012_cover.png/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/wall/919995589?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-20T18:00:27+00:00" },
+          "researcher_note": "「wall」を表題とする2014年のオルタナティブ系アルバム。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
