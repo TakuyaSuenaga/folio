@@ -1,0 +1,42 @@
+{
+  "vol": 56,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000001491945",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I05111005010015445",
+        "status": 200
+      },
+      {
+        "url": "https://maps.google.com/?cid=4799624521792605391&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[0](古今和歌集)essay 冒頭",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "古今和歌集は、撰者名を持つ歌と並んで、",
+      "teisei": "『古今和歌集』は、撰者名を持つ歌と並んで、"
+    },
+    {
+      "id": "P-02",
+      "location": "items[1](男鹿の大地震写真集)essay 冒頭",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "男鹿の大地震写真集は、昭和十四年の男鹿地方震災を記録した",
+      "teisei": "『男鹿の大地震写真集』は、昭和十四年の男鹿地方震災を記録した"
+    }
+  ]
+}

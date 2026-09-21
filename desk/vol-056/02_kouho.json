@@ -1,0 +1,404 @@
+{
+  "vol": 56,
+  "genres": [
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003001219",
+          "title": "古今和歌集",
+          "creator": "佐伯梅友 校注",
+          "year": 1981,
+          "publisher": "岩波書店（岩波文庫, 黄(30)-012-1）",
+          "meta": {
+            "ndc9": "911.1351",
+            "extent": "309p",
+            "note": "NDL書誌上のシリーズ表記は「岩波文庫」。openBDのシリーズ欄は「岩波文庫, 黄(30)-012-1」"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000001491945", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-21T20:00:55+00:00" },
+          "researcher_note": "古今和歌集は「詠み人知らず」歌を多数含む勅撰集。NDL書誌とopenBDでISBN一致確認済み。部立・巻数は本文照合が必要（本候補には未収載）。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003010112",
+          "title": "新古今和歌集",
+          "creator": "藤原通具 [ほか]奉勅撰 ; 佐佐木信綱 校訂",
+          "year": 1979,
+          "publisher": "岩波書店（岩波文庫）",
+          "meta": {
+            "ndc9": "911.1358",
+            "edition": "新訂",
+            "extent": "355p ; 15cm"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I30111100128965", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-21T20:01:53+00:00" },
+          "researcher_note": "新古今和歌集も「詠み人知らず」歌を含む勅撰集。NDL書誌とopenBDでISBN一致確認済み。"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003510131",
+          "title": "原文万葉集 上",
+          "creator": "佐竹昭広, 山田英雄, 工藤力男, 大谷雅夫, 山崎福之 校注",
+          "year": 2015,
+          "publisher": "岩波書店（岩波文庫 ; 30-005-6）",
+          "meta": {
+            "ndc9": "911.12",
+            "extent": "484p"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026710542", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-21T20:01:53+00:00" },
+          "researcher_note": "万葉集は編者・成立事情が未詳で、「作者未詳」歌を多数含む。原文（訓読前）版。NDL書誌とopenBDでISBN一致確認済み。"
+        }
+      ]
+    },
+    {
+      "genre": "photo",
+      "candidates": [
+        {
+          "cand_id": "pho-01",
+          "source_api": "ndl",
+          "source_id": "R100000001-I05111005010015445",
+          "title": "男鹿の大地震写真集",
+          "creator": "撮影者不明",
+          "year": 1939,
+          "publisher": "",
+          "meta": {
+            "ndc8": "K453.2",
+            "extent": "図版16枚",
+            "description": "「昭和１４年男鹿地方震災誌」の掲載写真（昭和１４年５月１日の男鹿大地震における北浦町相川地割他の被害状況）",
+            "trcmarcno": "AKI115860"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I05111005010015445", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-21T20:00:55+00:00" },
+          "researcher_note": "秋田県立図書館所蔵。責任表示は「撮影者不明」とNDL書誌に明記。年は掲載元「昭和14年男鹿地方震災誌」の記述による。ISBN無しのためopenBD照合は不可。"
+        },
+        {
+          "cand_id": "pho-02",
+          "source_api": "ndl",
+          "source_id": "R100000001-I08111001000703935",
+          "title": "鹿島神宮御写真",
+          "creator": "撮影者不明",
+          "year": null,
+          "publisher": "官幣大社鹿島神宮社務所",
+          "meta": {
+            "ndc9": "175.931",
+            "extent": "写真3枚",
+            "issued": "〔19‐‐〕",
+            "subject": "鹿島神宮(鹿嶋市)-写真集"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I08111001000703935", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-21T20:00:55+00:00" },
+          "researcher_note": "茨城県立図書館所蔵。責任表示は「撮影者不明」とNDL書誌に明記。刊年は「〔19‐‐〕」（世紀のみ推定）とNDL記載のまま。ISBN無しのためopenBD照合は不可。"
+        },
+        {
+          "cand_id": "pho-03",
+          "source_api": "ndl",
+          "source_id": "R100000001-I08111001000703606",
+          "title": "鹿島神宮御造営記念写真帖",
+          "creator": "撮影者不明",
+          "year": null,
+          "publisher": "〔製作者不明〕",
+          "meta": {
+            "ndc9": "175.9",
+            "extent": "アルバム(写真28枚貼付)",
+            "issued": "〔19‐‐〕",
+            "subject": "鹿島神宮(鹿嶋市)-写真集"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I08111001000703606", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-21T20:00:55+00:00" },
+          "researcher_note": "茨城県立図書館所蔵。撮影者・製作者ともに「不明」とNDL書誌に明記。ISBN無しのためopenBD照合は不可。"
+        },
+        {
+          "cand_id": "pho-04",
+          "source_api": "ndl",
+          "source_id": "R100000136-I1971712334704018327",
+          "title": "[日本舞踊・能の写真アルバム]",
+          "creator": "",
+          "year": null,
+          "publisher": "[出版者不明]",
+          "meta": {
+            "issued": "[19--?]",
+            "subject": "能-- 写真集",
+            "description": "書名、その他のタイトルは古書店のカタログによる；撮影者不明；帙に「Library Grace Nicholson 46 North Gos Robles Pasadena」という貼り紙あり"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971712334704018327", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-21T20:00:55+00:00" },
+          "researcher_note": "NDL書誌の注記に「撮影者不明」と明記。標題も原資料になく目録担当者による仮題。ISBN無しのためopenBD照合は不可。"
+        },
+        {
+          "cand_id": "pho-05",
+          "source_api": "ndl",
+          "source_id": "R100000074-IALIS_QQ20134511",
+          "title": "アイヌ風俗寫眞帖",
+          "creator": "[著作者不明]",
+          "year": null,
+          "publisher": "[出版者不明]",
+          "meta": {
+            "extent": "図版20枚 ; 13x20",
+            "issued": "n.d."
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000074-IALIS_QQ20134511", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-21T20:04:37+00:00" },
+          "researcher_note": "農研機構図書館所蔵。責任表示は「[著作者不明]」とNDL書誌に明記。刊年不明(n.d.)。ISBN無しのためopenBD照合は不可。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJQ3MESwOMGGARX99d47o0V6k",
+          "title": "神田まつや 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒101-0041 東京都千代田区神田須田町１丁目１３",
+            "primary_type": "レストラン"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmOxO_-JL9e3SzwXF4sXDqh5x6rh0yEBXxawMmqNYV0tUzp0UEDGUPn0KCHqXMqm6iEJkdMAEBq3V3rklScOTh-FudlIFLeBfkwO_38zkQMVm-DZgFGjA9BdxzrESaxX7YL1r4I=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "犬神工房", "uri": "https://maps.google.com/maps/contrib/117298617770032415425" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12202279692666789727&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-21T20:03:20+00:00" },
+          "researcher_note": "神田の蕎麦屋。創業年はPlacesのメタデータに含まれず未確認。老舗蕎麦屋の候補として収集。"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJOVajM56LGGARz8yztBKxm0I",
+          "title": "総本家更科堀井 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒106-0046 東京都港区元麻布３丁目１１−４",
+            "primary_type": "レストラン"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPC1XcLsyqh8v9HzzWqXXIUaUmHFdPMvQW6H0roGIzxrCyJ7nOMlH6VWx-eoeXTtoSxf01p4plSgY-Ze_iGyI-qE7Pj5C-mvNnMO4FL_MyTVgYVdaTTEZKToGaAydZP6bLL8MVuqbgGTWVQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Luna", "uri": "https://maps.google.com/maps/contrib/101949209843736515467" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4799624521792605391&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-21T20:03:20+00:00" },
+          "researcher_note": "更科そばの系譜の一店。「更科」を名乗る店が複数存在し系譜・由来の説明が店により異なることで知られる（本候補のメタデータ自体には創業年の記載なし）。"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJ7csWMKyLGGARuVlEhKhdTtc",
+          "title": "虎ノ門 大坂屋 砂場",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒105-0001 東京都港区虎ノ門１丁目１０−６",
+            "primary_type": "レストラン"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNzpPTGEA-Nn8fNyNDGfPcXQo9ll9u6VmII-EMdd96steBdVdksnqco0cGnDhFM3_bQ7sLx-71XC8rYGaAywzBxsSVUuySCxMNqWAK5oqEWflDbfcXH57dRC2KGm34F0OgwojkquQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "h m (mizcat)", "uri": "https://maps.google.com/maps/contrib/110745802400157994443" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15514440744692898233&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-21T20:03:20+00:00" },
+          "researcher_note": "「砂場」を名乗る蕎麦屋の系譜の一店。同系譜の店が複数存在する（本候補のメタデータ自体には創業年の記載なし）。"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJr6mDFQCMGGAR0LnXVSGiG48",
+          "title": "室町 砂場",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒103-0022 東京都中央区日本橋室町４丁目１−１３",
+            "primary_type": "レストラン"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDC0x2JHv8XSyuWsFGJE1x1Ke93-ouPx7SlZiQmqPF87Zo9zqvOVCe07uZtYTy2v-nAZCUACjfyYLd1G5z5AV6SLHeFyzpINVrDYwB4LWmvGrzP-d7YwbUKbqg5J7lX163dUb3HXlBLRxytxmo9gXF5Og=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "みかど", "uri": "https://maps.google.com/maps/contrib/111139316463867389106" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10312014035852704208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-21T20:03:20+00:00" },
+          "researcher_note": "res-03と同じ「砂場」系譜の別店舗。系譜が複数店に分かれている実例として併せて収集（本候補のメタデータ自体には創業年の記載なし）。"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJn2mJTp-LGGARFXypO7Kz9Z0",
+          "title": "麻布永坂 更科本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒106-0045 東京都港区麻布十番１丁目２−７",
+            "primary_type": "レストラン"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmMWcf00jJiqYDugquBk9s-w3DVrrZ_Cl1ORa7F_0JI5PXjh7QZFnrUc4OOaQe1eqUnfvVxKnQPwxncn_lyrT3hW21kqiD8gfVt-er7vvFvhlk95m4RqhiG8pmerO3DL0VM2F9hpNFGD2haB=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ヤッググルメ", "uri": "https://maps.google.com/maps/contrib/104888566775661322148" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11382201211335310357&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-21T20:03:20+00:00" },
+          "researcher_note": "res-02と同じ「更科」系譜の別店舗（本候補のメタデータ自体には創業年の記載なし）。"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJreMNLr2LGGARZuiWrMEdha8",
+          "title": "五代目 野田岩 麻布飯倉本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒106-0044 東京都港区東麻布１丁目５−４",
+            "primary_type": "和食店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPoV1VhobVeIVBj27Yd-dc1SAFOd2EQRWjKWDWvvMM-51e-Ju2km5PEZw6BRnYOeGQBb7XTIEGKARyJTMZVfZHiiZbLJQJbysMumslsV-0XtOyscouFh4mJj0xRRhJiAdwCG-9Nvjwp6cw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ヤッググルメ", "uri": "https://maps.google.com/maps/contrib/104888566775661322148" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12647547846201370726&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-21T20:03:20+00:00" },
+          "researcher_note": "屋号「五代目」を名乗るうなぎ屋。老舗として代替わりの経緯がある候補（本候補のメタデータ自体には創業年の記載なし）。"
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJnwHZJOSLGGARVkzvTyfHi0Y",
+          "title": "煉瓦亭",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒104-0061 東京都中央区銀座３丁目５−１６",
+            "primary_type": "和食店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNQDDArU9EXdyDNhvQflK7Fp5T6-YRT6XN_a5A28tQK7dQJWvFqlfeGuA8G8cghvD_E_yKiY1iiM56QkwOSzmmTDuq9kaXnRyyy6QiXewKRFzH8bHgfpPaogVoPhaiAEMh3MN9qiohqlUS0=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "能勢靖", "uri": "https://maps.google.com/maps/contrib/108084357719651702906" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5083375576076471382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-21T20:03:20+00:00" },
+          "researcher_note": "銀座の洋食店。発祥・元祖を巡る言及がしばしばなされる老舗として収集（本候補のメタデータ自体には創業年の記載なし）。"
+        },
+        {
+          "cand_id": "res-08",
+          "source_api": "google_places",
+          "source_id": "ChIJY9sxthyMGGARLrj2juFzCrw",
+          "title": "竹むら",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒101-0041 東京都千代田区神田須田町１丁目１９",
+            "primary_type": "菓子店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmOfXV8aUkk6RoRtw8ikAbE3sD_AoMIyehPPhYKWeQj3wRvFdf6EvOv3kCYQB_LfNC4MjHCsDQuJabMGQlmRKyubrrPX2NgxQeBkKx6_RY9FkGHHSAExpuY8A45V3JNc29UHp2RP=s4800-w650",
+            "source": "google-places",
+            "attributions": [ { "name": "ミンキーモモ", "uri": "https://maps.google.com/maps/contrib/100675024354027217278" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13549769841500928046&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-21T20:03:20+00:00" },
+          "researcher_note": "神田須田町の甘味処（本候補のメタデータ自体には創業年の記載なし）。"
+        },
+        {
+          "cand_id": "res-09",
+          "source_api": "google_places",
+          "source_id": "ChIJIbAPP9GIGGARdI4b6LbM2Oc",
+          "title": "船橋屋 亀戸天神前本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒136-0071 東京都江東区亀戸３丁目２−１４",
+            "primary_type": "菓子店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmN0m-anQmKc96fKyGn4Lpvb5IeWOqaRrcsZYRe691UEwAJFwhglBkksCIfwWKJnFkJQgbR61IEg8hKqRxJi9tElrAYVjyWsQp16VUSo4EPOzAoAayYs_9eiOUjut6rxSFEWsQEo=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "船橋屋 亀戸天神前本店", "uri": "https://maps.google.com/maps/contrib/105891023429203660577" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16706327903681089140&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-21T20:03:20+00:00" },
+          "researcher_note": "亀戸天神前の久寿餅の老舗（本候補のメタデータ自体には創業年の記載なし）。"
+        },
+        {
+          "cand_id": "res-10",
+          "source_api": "google_places",
+          "source_id": "ChIJZZRwk-2OGGARX2mMuPGhmPc",
+          "title": "土手の伊勢屋",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒111-0021 東京都台東区日本堤１丁目９−２",
+            "primary_type": "和食店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjB5m4uTYmy2xuypwOuhTSvZNPmcq9Scavp5R77T8Vt-EIrU3UM8vvPaWu3jLJiPahe4y3zdC-fsu6XYtwKLOA_M78BAiBIPU90OXR8LDx6R6qI7s7g_qTw8I0s4NqKNmlVrhdIEpBmEPds1gkA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "土手の伊勢屋", "uri": "https://maps.google.com/maps/contrib/118314769634586915497" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17841187983383619935&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-21T20:03:20+00:00" },
+          "researcher_note": "日本堤の天ぷら屋（本候補のメタデータ自体には創業年の記載なし）。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
