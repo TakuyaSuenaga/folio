@@ -1,0 +1,61 @@
+{
+  "vol": 57,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true,
+      "items[2].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I030237682": true,
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I030042264": true,
+        "https://www.books.or.jp/book-details/9784065178706": true,
+        "https://maps.google.com/?cid=8498471591387799166&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      { "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030237682", "status": 200 },
+      { "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030042264", "status": 200 },
+      { "url": "https://www.books.or.jp/book-details/9784065178706", "status": 200 },
+      { "url": "https://maps.google.com/?cid=8498471591387799166&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "status": 200 }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[0](石牟礼道子全詩集)essay 冒頭",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "［完全版］石牟礼道子全詩集(石風社、二千二十年)の一九七〇年代作の目次には、",
+      "teisei": "『［完全版］石牟礼道子全詩集』(石風社、二千二十年)の一九七〇年代作の目次には、"
+    },
+    {
+      "id": "P-02",
+      "location": "items[1](今昔物語集 天竺篇)essay 冒頭",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "今昔物語集は天竺篇・震旦篇・本朝篇の三部で編まれ、",
+      "teisei": "『今昔物語集』は天竺篇・震旦篇・本朝篇の三部で編まれ、"
+    },
+    {
+      "id": "P-03",
+      "location": "items[2](喜八洲総本舗 本店)h2/DATA欄「題名」とessay 冒頭の三点不一致",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "喜八洲総本舗本店は大阪・十三に構える老舗の菓子店で、",
+      "teisei": "喜八洲総本舗 本店は大阪・十三に構える老舗の菓子店で、"
+    }
+  ]
+}

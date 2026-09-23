@@ -1,0 +1,328 @@
+{
+  "vol": 57,
+  "genres": [
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784883442928",
+          "title": "［完全版］石牟礼道子全詩集",
+          "creator": "石牟礼道子",
+          "year": 2020,
+          "publisher": "石風社",
+          "meta": {
+            "series": "",
+            "ndl_bib_id": "030237682",
+            "toc_excerpt_1970s": "生存／死民たちの春／無題／薫香／夕焼／無題／幻のえにし／花がひらく／春／出魂／彼岸花／燈籠／少年…"
+          },
+          "image": { "url": "https://cover.openbd.jp/9784883442928.jpg", "source": "openbd" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030237682", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-23T18:54:02+00:00" },
+          "researcher_note": "openBD収録の目次(TextType 04)に「彼岸花」と題する詩を1970年代作として確認済み。発注の彼岸花を詠んだ詩を含む実在の全詩集。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784860614041",
+          "title": "彼岸花の咲く頃 : 野本サヨ子歌集",
+          "creator": "野本サヨ子",
+          "year": 2011,
+          "publisher": "鉱脈社",
+          "meta": { "ndl_bib_id": "000011310152" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000011310152", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-23T18:54:02+00:00" },
+          "researcher_note": "歌集の題名そのものが「彼岸花の咲く頃」。個々の収録歌本文は未確認のため選定時に照合が必要。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784062923729",
+          "title": "今昔物語集 : 全現代語訳. 本朝世俗篇上",
+          "creator": "武石彰夫 訳",
+          "year": 2016,
+          "publisher": "講談社(講談社学術文庫2372)",
+          "meta": { "ndl_bib_id": "027329479" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027329479", "kind": "catalog" },
+            { "label": "版元ドットコムで見る", "url": "https://www.books.or.jp/book-details/9784062923729", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-23T18:54:02+00:00" },
+          "researcher_note": "今昔物語集の本朝世俗篇(上)全現代語訳。此岸・彼岸を渡る道行き説話の候補篇の一つ。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784062923736",
+          "title": "今昔物語集 : 全現代語訳. 本朝世俗篇下",
+          "creator": "武石彰夫 訳",
+          "year": 2016,
+          "publisher": "講談社(講談社学術文庫2373)",
+          "meta": { "ndl_bib_id": "027516706" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027516706", "kind": "catalog" },
+            { "label": "版元ドットコムで見る", "url": "https://www.books.or.jp/book-details/9784062923736", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-23T18:54:02+00:00" },
+          "researcher_note": "本朝世俗篇(下)。上巻と対で候補。"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784065178706",
+          "title": "今昔物語集 : 全現代語訳. 天竺篇",
+          "creator": "国東文麿 訳",
+          "year": 2019,
+          "publisher": "講談社(講談社学術文庫2590)",
+          "meta": { "ndl_bib_id": "030042264" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030042264", "kind": "catalog" },
+            { "label": "版元ドットコムで見る", "url": "https://www.books.or.jp/book-details/9784065178706", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-23T18:54:02+00:00" },
+          "researcher_note": "天竺篇。仏典由来の霊異・往生説話を多く含む篇。"
+        },
+        {
+          "cand_id": "book-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784065186930",
+          "title": "今昔物語集 : 全現代語訳. 震旦篇",
+          "creator": "国東文麿 訳",
+          "year": 2020,
+          "publisher": "講談社(講談社学術文庫2606)",
+          "meta": { "ndl_bib_id": "030218471" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030218471", "kind": "catalog" },
+            { "label": "版元ドットコムで見る", "url": "https://www.books.or.jp/book-details/9784065186930", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-23T18:54:02+00:00" },
+          "researcher_note": "震旦篇。全現代語訳シリーズの最終巻。"
+        },
+        {
+          "cand_id": "book-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784047034570",
+          "title": "日本霊異記(りょういき)の世界 : 説話の森を歩く",
+          "creator": "三浦佑之 著",
+          "year": 2010,
+          "publisher": "角川学芸出版(角川選書457)",
+          "meta": { "ndl_bib_id": "000010696500" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000010696500", "kind": "catalog" },
+            { "label": "版元ドットコムで見る", "url": "https://www.books.or.jp/book-details/9784047034570", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-23T18:54:20+00:00" },
+          "researcher_note": "日本霊異記の個別説話を読み解く研究書。原典そのものではなく説話の解説・案内。"
+        },
+        {
+          "cand_id": "book-06",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044008314",
+          "title": "日本霊異記の世界(増補)",
+          "creator": "三浦佑之 著",
+          "year": 2024,
+          "publisher": "KADOKAWA(角川ソフィア文庫)",
+          "meta": { "ndl_bib_id": "033629853", "edition": "増補" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033629853", "kind": "catalog" },
+            { "label": "版元ドットコムで見る", "url": "https://www.books.or.jp/book-details/9784044008314", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-23T18:54:20+00:00" },
+          "researcher_note": "book-05の増補文庫版。同一著者による最新版。"
+        },
+        {
+          "cand_id": "book-07",
+          "source_api": "ndl+openbd",
+          "source_id": "9784041063491",
+          "title": "水木しげるの日本霊異記",
+          "creator": "水木しげる 著",
+          "year": 2018,
+          "publisher": "KADOKAWA(角川文庫)",
+          "meta": { "ndl_bib_id": "028869517", "format": "漫画" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028869517", "kind": "catalog" },
+            { "label": "版元ドットコムで見る", "url": "https://www.books.or.jp/book-details/9784041063491", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-23T18:54:20+00:00" },
+          "researcher_note": "日本霊異記の説話を漫画化した版。原典の逐語訳ではない点に留意。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJK2znGXr0GGARSOm_5tbGun8",
+          "title": "タケノとおはぎ 世田谷本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都世田谷区用賀３丁目５−６ アーニ出版 1階", "primary_type": "デザート ショップ" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmOoE6ZxYjSl9RVjH3g_gRDQMGNWXfXYGVi0EbYrF17oS2k1EpdR8n2cYZVKl-yAw4YyY9R2zuuZz9xanXb7ch2nLJoFK7Q54fmoSGpJSAiLln1cNS42PiG2LNo375miD5iBoIRddg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Akira Kunimune", "uri": "https://maps.google.com/maps/contrib/117569390207595238117" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9203887414781667656&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-23T18:54:45+00:00" },
+          "researcher_note": "おはぎ専門店として知名度が高い。老舗ではなく比較的新しい専門店。"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJH0Y9OZDvGGARlRq-2ll-5XM",
+          "title": "おはぎびより",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都杉並区松庵２丁目１−１", "primary_type": "菓子店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPSIlasmMUpTYG2_qv0rGDx60xr5BTsu_zy6caVHSQrdSe0C2d1exuMJqoXldmX1hNBPpnL4tYuQ_SBXITYAPedgycwLAUyWjM6177NLZFeRaAo7IIUlf7qUzDzV0_Xihgu8-9n=s4800-w543",
+            "source": "google-places",
+            "attributions": [ { "name": "おはぎびより", "uri": "https://maps.google.com/maps/contrib/101633053360832871426" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8351220008415533717&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-23T18:54:45+00:00" },
+          "researcher_note": "おはぎ専門店。店名の由来含め供物としての位置付けは選定時に要確認。"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJmy1dejP1GGARpwFNOh7uv2o",
+          "title": "餅菓子専門《KIKYOYA ORII -since 1607-》",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都世田谷区駒沢１丁目４−１１ コレクティブハウス 202", "primary_type": "スイーツ店", "since": 1607 },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNtOL93ywdbdHjbXrC_qw2b8RyMKfyDO8Pdb9GPw-R1iiKvIeK3Lh54zpSqxPT-zvYR4QHZXCSq98PXk-4SLwijLP1cyv8yaGAzbD_caPm_mVgTPOm7goWH0FeyhTEsHsM7PVCjmdDfL3CN=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "419 ma-chyan", "uri": "https://maps.google.com/maps/contrib/106957648713398792593" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=7692128502166651303&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-23T18:54:45+00:00" },
+          "researcher_note": "店名に「since 1607」を掲げる餅菓子専門店。創業年の一次資料での裏取りは未実施(店名表記のみ)。"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJV_LyHs7lAGARfh5rsuKi8HU",
+          "title": "喜八洲総本舗 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "大阪府大阪市淀川区十三本町１丁目４−２", "primary_type": "菓子店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmP3qIWNUEl4rryz2C_e_5PyeaLNi5-adDsphimdIJcfzMssSsdeUD02z-uPeCBez2HDOY_6b4NIBMk9DGtb4EVX1KtQkX6VgxBGUVpDNMoCEDI-T8uBwhjxg1rVotG_Qi7_S9xz4Q=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "_そあら", "uri": "https://maps.google.com/maps/contrib/116850454591434502736" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8498471591387799166&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-23T18:55:03+00:00" },
+          "researcher_note": "大阪十三の老舗。みたらし団子とぼたもちで知られる。"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJGaF6D2_nAGAROZn1TMGgbj8",
+          "title": "浪芳庵",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "大阪府大阪市浪速区敷津東１丁目７−３１", "primary_type": "デザート ショップ" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAnsdHp3w6aGZLReXzfQciTDqdU58EVpCV-eAUAkdZPYbYEfKFwoKhwfC6KGe0humXRHDV23eB1Mu0adF4uY37EZ0BkHmLBQIm1TrML2oSbQ_t0vFDVHh7khZxDGpzXs2tm4ZcVR6xniVFwmU4=s4800-w420",
+            "source": "google-places",
+            "attributions": [ { "name": "浪芳庵", "uri": "https://maps.google.com/maps/contrib/100629966706081583094" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4570767423907928377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-23T18:55:03+00:00" },
+          "researcher_note": "大阪の老舗和菓子店。ぼたもちで名が知られる。創業年の一次確認は選定時に要。"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJSWFmtelFGGARaZJICTW2uhA",
+          "title": "初祖 岡埜榮泉總本舗",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "神奈川県鎌倉市由比ガ浜２丁目５−１５", "primary_type": "菓子店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPh65VMhq9cU40hgosq1pXXH8oqks-wuoxZoWVA0lSM6cLygPaiPjAhQWiltyIzfXC8l3SBJ_y8Kom-ljOZnzUBQsD6iLRffcDrvVZFG0DHsMwxCIkUKg26citdw0GARodXXUIIYQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Makoto Noda", "uri": "https://maps.google.com/maps/contrib/118125850385644789653" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1205476189180301929&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-23T18:55:03+00:00" },
+          "researcher_note": "店名に「初祖」を冠する鎌倉の老舗。岡埜栄泉系のおはぎで知られる。"
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJY0oJ2PBFGGARvUJDvBHqFoA",
+          "title": "力餅家",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "神奈川県鎌倉市坂ノ下１８−１８", "primary_type": "菓子店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmMIN2bVXHWtXL4pXtwFnFXukMeXQYbQrog564P4oV5DioktY109GkTopPxxjAoNLtQGt1knrAGYcRhm7oAvDIZwfSuothKtEjb-er53Sbsh5ZyVbhWe9CLifQbs5PtWKajNu5R9=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Anna Wan", "uri": "https://maps.google.com/maps/contrib/101739011769288038950" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9229821848236278461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-23T18:55:03+00:00" },
+          "researcher_note": "鎌倉坂ノ下の老舗餅店。権五郎力餅で知られる。おはぎ・ぼたもちとの関連は選定時に要確認。"
+        },
+        {
+          "cand_id": "res-08",
+          "source_api": "google_places",
+          "source_id": "ChIJX5_v7AQGAWARUsNE555NWo8",
+          "title": "手造りおはぎ 巴屋",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "京都府京都市南区八条内田町７６", "primary_type": "菓子店" },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10329654040207868754&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-23T18:55:03+00:00" },
+          "researcher_note": "京都の手造りおはぎ専門店。写真なし(生存確認できる写真が取得できなかった)。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "poetry: 彼岸または彼岸花を詠んだ歌・句を実在の歌集・句集から一首選ぶ",
+      "reason": "「彼岸花」「彼岸」を題名に持つ歌集・句集はNDLサーチ上に多数実在する(例: 松木杏風『句集彼岸花』1982、水上比呂美『青曼珠沙華』2020など)が、私家版・非売品・小規模歌誌系の出版が多くopenBDに未収録のため実在チェーン確定候補が2点にとどまった。候補ゼロではないため休刊対象ではない。"
+    }
+  ]
+}
