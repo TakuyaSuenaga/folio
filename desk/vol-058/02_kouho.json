@@ -1,0 +1,242 @@
+{
+  "vol": 58,
+  "genres": [
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003104613",
+          "title": "大津順吉・和解・ある男、その姉の死",
+          "creator": "志賀直哉",
+          "year": 1995,
+          "publisher": "岩波書店",
+          "meta": {
+            "series": "岩波文庫 31-046-1",
+            "ndl_bib_id": "000002447837",
+            "price": "620円 (税込)",
+            "extent": "287p",
+            "description": "第20刷 (第1刷: 1960年)"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002447837", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-24T18:51:49+00:00" },
+          "researcher_note": "岩波文庫版。表題作の一つ『和解』は父子の不和とその後の和解を扱う私小説として本巻に収録される。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784106201080",
+          "title": "志賀直哉集",
+          "creator": "志賀直哉",
+          "year": 1969,
+          "publisher": "新潮社",
+          "meta": {
+            "series": "新潮日本文学 ; 8",
+            "ndl_bib_id": "000002672915",
+            "extent": "552p",
+            "contents": "暗夜行路 大津順吉 和解 網走まで 速夫の妹 母の死と新しい母 正義派 清兵衛と瓢箪 城の崎にて 赤西蠣太 小僧の神様 雪の日 焚火 雨蛙 濠端の住まい 矢島柳堂 山科の記憶 痴情 沓掛にて 雪の遠足 万暦赤絵 クマ 鬼 灰色の月 末っ児 山鳩 朝の試写会 自転車 朝顔 夫婦"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002672915", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-24T18:51:49+00:00" },
+          "researcher_note": "新潮社版全集。目次(openBD収録)に『和解』を『大津順吉』等と並べて収録することが確認できる。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1453924216",
+          "title": "Hell Freezes Over (Remastered) [Live]",
+          "creator": "イーグルス",
+          "year": 1994,
+          "publisher": "Geffen Records / UMG Recordings, Inc.",
+          "meta": { "trackCount": 15, "primaryGenreName": "ロック", "releaseDate": "1994-11-08T08:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/88/13/c7/8813c795-1794-e1a0-bea6-79e01866d98b/00602577302473.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/hell-freezes-over-remastered-live/1453924216?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-24T18:51:49+00:00" },
+          "researcher_note": "1980年の解散を経て1994年に行われた再結成ツアーのライブ音源。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "304937050",
+          "title": "The Dance (Live)",
+          "creator": "フリートウッド・マック",
+          "year": 1997,
+          "publisher": "Warner Records Inc.",
+          "meta": { "trackCount": 17, "primaryGenreName": "ロック", "releaseDate": "1997-08-19T07:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0c/73/fc/0c73fcc7-0d61-d994-af89-2909a39ea097/mzi.bfzyhzca.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/the-dance-live/304937050?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-24T18:51:49+00:00" },
+          "researcher_note": "1987年のリンジー・バッキンガム脱退を経て、1997年に主要メンバーが再集結して収録したライブ音源。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1874064119",
+          "title": "Royal Albert Hall London May 2-3-5-6 2005 (Live)",
+          "creator": "クリーム",
+          "year": 2005,
+          "publisher": "EPC Enterprises, LLP / Spotsmusic Limited / Rekab Limited (under exclusive license to Surfdog Records)",
+          "meta": { "trackCount": 19, "primaryGenreName": "ロック", "releaseDate": "2005-09-30T07:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/56/14/7f/56147f34-46aa-5c31-a142-2fa7b83ec6b5/820200238474.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/royal-albert-hall-london-may-2-3-5-6-2005-live/1874064119?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-24T18:51:49+00:00" },
+          "researcher_note": "1968年の解散(内部対立)を経て、2005年に同会場で行われた再結成公演のライブ音源。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "941959321",
+          "title": "The Concert In Central Park (Live)",
+          "creator": "サイモン&ガーファンクル",
+          "year": 1982,
+          "publisher": "Sony Music Entertainment",
+          "meta": { "trackCount": 19, "primaryGenreName": "シンガーソングライター", "releaseDate": "1982-02-16T08:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/79/38/47/79384738-6769-ea03-0541-605c10d6edcc/886444877138.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/the-concert-in-central-park-live/941959321?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-24T18:51:49+00:00" },
+          "researcher_note": "1970年の解散を経て、1981年のセントラルパーク再結成公演を収めたライブ音源。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1440635314",
+          "title": "Progress",
+          "creator": "テイク・ザット",
+          "year": 2010,
+          "publisher": "Polydor Ltd. (UK)",
+          "meta": { "trackCount": 13, "primaryGenreName": "ポップ", "releaseDate": "2010-01-01T08:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c8/28/69/c828695b-4f9a-579f-20aa-4bca6966909b/00602527899725.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/progress/1440635314?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-24T18:51:49+00:00" },
+          "researcher_note": "1995年のロビー・ウィリアムズ脱退を経て、本人を含む5人体制で再結成して制作したスタジオアルバム。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJR9bq9He9QzURK838vrMck68",
+          "title": "日清講和記念館",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒750-0003 山口県下関市阿弥陀寺町４−３", "primary_type": "歴史博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNpwtdQRcNvQMp6eGmFZQZp-_ePGZU1CUcivLVVQ01em17xmCprMNUbAtEgsviMq0p9kQI9zmiDAmApbEyeOU8ym4RTOdSjU7Lf6N4eM3LJ1CUxeeY149yV5cnxP-BYJrzhNRhaRQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "吉見直樹", "uri": "https://maps.google.com/maps/contrib/103152252437806724732" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12651487336542817579&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-24T18:52:00+00:00" },
+          "researcher_note": "日清戦争の講和条約(下関条約, 1895年)の締結地に建てられた記念館。"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJ33XW8ne9QzURwTuLzLjjqUQ",
+          "title": "下関春帆楼 本店",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒750-0003 山口県下関市阿弥陀寺町４−２", "primary_type": "宴会場" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPCE3zdXOfZeyGBEgGH_gQBL8SqTZ3_X2dJYfZ8QPcqrAQjjckqDHd7vOiP5P6E_b9_hpFtwlY1AYogYtahLSTYBrh00G8PU4xoSPmCWaALjwxcu35lm7d5W4IFMNK9oNt6tXd8=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "下関春帆楼 本店", "uri": "https://maps.google.com/maps/contrib/104829879279234634708" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4947736048488364993&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-24T18:52:00+00:00" },
+          "researcher_note": "下関条約(1895年)が実際に調印された建物。同地で現在も料亭として営業する。"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJtyvayxKiWjURgIGSanFnMPE",
+          "title": "広島平和記念資料館",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒730-0811 広島県広島市中区中島町１−２", "primary_type": "博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNaYzgl9cyDxjfxOUhTfY5RvfkPUd3nrkvg1P7YdvgAYVlsaaU5nrH_Z6h39Od77IdziLyxK0torUB-YOaF53NFgS8hrDzkoSCVI6DhPZ4IG7lMCegV9X87ckjll5QJd5uBYsxRtA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Junior dos Reis", "uri": "https://maps.google.com/maps/contrib/111724947758006174882" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17379504698839695744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-24T18:52:00+00:00" },
+          "researcher_note": "恒久平和と国際的和解を掲げて設置された記念資料館。"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJ7UVGDpmAhYARBt5goMZ-AO0",
+          "title": "War Memorial Opera House",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "301 Van Ness Ave, San Francisco, CA 94102 アメリカ合衆国", "primary_type": "オペラ ハウス" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCg2iwz3F0Q5AmcsyqusgpFgzt-taO4Y-6MByT0PBNTUBb4-ePgFNNEraOmfZvSMiDedN02dSRB4nZvOvdrAbjEZpoSR-auazKkxTic8ij0mBr2uUTEBUhJba1i_WS6K09UzXRpzO9Vr31cPAc=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Annamaria", "uri": "https://maps.google.com/maps/contrib/103657312942994541060" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17077789178548248070&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-24T18:52:00+00:00" },
+          "researcher_note": "1951年のサンフランシスコ講和条約(対日平和条約)が調印された会場。"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJB0LqmL595kcR9IyspVgNHVg",
+          "title": "鏡の間",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "Place d'Armes, Place d'Armes, 78000 Versailles, フランス", "primary_type": "城" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNkE8gB5Xcm44J-z1xbDrlgiRCvrfdl__-e_tWkzW8afUu4C3jUQM2kelAS4eL3nDZ-VLJTCezrzmRLZD_1uOF8A1jCI5VQ_pfL0H2Hzoszfy_GTzamiEjrStB0xEJLtqPiF1vX=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Yuki", "uri": "https://maps.google.com/maps/contrib/103058605517143296668" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6349245724050099444&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-24T18:52:00+00:00" },
+          "researcher_note": "ヴェルサイユ宮殿の広間。1919年のヴェルサイユ条約調印の場である。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

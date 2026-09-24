@@ -1,0 +1,76 @@
+{
+  "vol": 58,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true,
+      "items[2].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I000002447837": true,
+        "https://music.apple.com/jp/album/progress/1440635314?uo=4": true,
+        "https://maps.google.com/?cid=12651487336542817579&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002447837",
+        "status": 200
+      },
+      {
+        "url": "https://music.apple.com/jp/album/progress/1440635314?uo=4",
+        "status": 200
+      },
+      {
+        "url": "https://maps.google.com/?cid=12651487336542817579&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "lead「勝敗の決着でなく」/ items[0] essay「和解を特別な結着の場面としてではなく」",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "items[0].essayの「結着」がleadの「決着」と表記が揺れている",
+      "teisei": "「結着」を「決着」に統一する"
+    },
+    {
+      "id": "P-02",
+      "location": "items[1] h2「Progress」・DATA欄「題名」行 / items[1] essay「アルバム『プログレス』を制作した」",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "見出し・DATA欄は英字表記「Progress」だが、本文は片仮名表記「プログレス」で三点一致していない",
+      "teisei": "本文の『プログレス』を『Progress』に統一する"
+    },
+    {
+      "id": "P-03",
+      "location": "items[1] essay「アルバム名が示す『前進』という語も」",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "作品名でない語(アルバム名の意訳)に作品名用の『』を使用している",
+      "teisei": "『前進』を「前進」に変更する(引用・強調の「」を使用)"
+    },
+    {
+      "id": "P-04",
+      "location": "items[2] DATA欄「address」行",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "「〒750-0003」は半角算用数字だが、直後の番地「４−３」が全角数字・全角ダッシュになっており同一DATA欄内で不統一",
+      "teisei": "「４−３」を半角の「4-3」に統一する"
+    }
+  ]
+}
