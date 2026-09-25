@@ -1,0 +1,420 @@
+{
+  "vol": 59,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJKaSGpN-BAGARaXAJCMJM8Oo",
+          "title": "明石市立天文科学館",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒673-0877 兵庫県明石市人丸町２−６ 明石市立天文科学館 16F", "primary_type": "博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNLm-csTxoM0P2ECGaZFJ4JpQazRCYBXVmscq6kSD2fNCP20Dq3WpdHyN8PLFOC_CnP78hZpX-_p6xeQIb-Fz77SSmzJLmzDqxFkCwiTgqt7uC-o3hIAR45Z1NNoGW-c5j-Ex5Og6DQICY=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Naka Hiro", "uri": "https://maps.google.com/maps/contrib/104602199067773918571" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16929115395527897193&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:06:51+00:00" },
+          "researcher_note": "東経135度・日本標準時子午線の直上に建つ天文科学館。塔屋の時計塔が子午線通過点を示す。"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJi-6JoN-BAGAR6POMRRIGL1c",
+          "title": "子午線標示柱 (トンボの標識)",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒673-0877 兵庫県明石市人丸町２−６", "primary_type": "文化的ランドマーク" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmOZVEcQoQl4yc4DZh-tBzrKwJ6snDEdxwNLBRneELV5dZo4ALuLpYirl6WJWFoPY-jP5ME_-PDyb5I9GCFcRYhuAw0M3fBPdhho-kfYg-G55KA5o5m9RFAaZXK4RD9Y5IuBa4ge=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ポイズン", "uri": "https://maps.google.com/maps/contrib/113844353153863275017" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6282246680751174632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:06:51+00:00" },
+          "researcher_note": "明石市立天文科学館前に立つ東経135度子午線の標示柱。子午線をまたぐ位置を示す屋外の標識。"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJJzz7i8pKVTURp2ndEl8pTjc",
+          "title": "西脇市岡之山美術館",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒677-0039 兵庫県西脇市上比延町３４５−１", "primary_type": "Art museum" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDIuLwfRcnVEJ3BCH7ewdfCV0CdMWI3Uk0am2ZvlnzqDpwAwP7Wr25jkj0v3OsBpUcvd4u1didGETSicA8X6qbUpP4LLrVNS_zD9NoVweQ40CAGkZ1bq669KosuwFJDOx0MhgzTDc9Y5MbSwQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Yasushi Ikeda", "uri": "https://maps.google.com/maps/contrib/112377435445484548953" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3985168208584599975&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:06:51+00:00" },
+          "researcher_note": "東経135度線と北緯35度線の交点(日本のへそ)近傍に建つ美術館。"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJBcRlWbVKVTURMSlRJBHkJLA",
+          "title": "日本へそ公園",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒677-0039 兵庫県西脇市上比延町３３４−２", "primary_type": "公園" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBjy3Ej-FbWIN5pFmjzTv9TtCnE5GKe3zPwc1sbYeqd0-6essdYE1iSJfI9VmYpKklZSEIuaJybhCYyTKSx-ODk1pjmlcsaVnXAmRYeK90vB5lY-UpHFU4rC70RYBDP2Tvcp1i7fOlHpObT=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Ka Fa (JP)", "uri": "https://maps.google.com/maps/contrib/116681220320572052623" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12692520412111776049&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:06:51+00:00" },
+          "researcher_note": "東経135度・北緯35度の交点(日本のへそ)を含む公園。基準線の交点そのものが公園の主題。"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJiTsGarVKVTUR1Jnoh9DGBhY",
+          "title": "にしわき経緯度地球科学館 テラ・ドーム",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒677-0039 兵庫県西脇市上比延町３３４−２", "primary_type": "博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDNegxmREDMH9Wdi2vfCX8GuL6JAJfgvstfm-NTmjju9RL88tKDOZaLRMfB_JFFGsvbq3O11vlQ99P8f5Q0Pu9j71aG5kM_7fHwpFZHkeNzdBagJgqwTUPxkiWb1BBzi8Jd5ZW2_8HmM_PlLg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "にしわき経緯度地球科学館 テラ・ドーム", "uri": "https://maps.google.com/maps/contrib/103993037726147252457" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1587174517630343636&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:06:51+00:00" },
+          "researcher_note": "日本へそ公園内、東経135度・北緯35度の交点をテーマに掲げる科学館。"
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJp9ypjCqo2EcRAoQcRV-yqzE",
+          "title": "グリニッジ天文台",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "Blackheath Ave, London SE10 8XJ イギリス", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNnPuixITpu7iztoi9YXuXhJoFASbYJNIIQhg5cxUBfjzaZjIaEjCXi0Zuk8iCYw0WGoSXD7m_htJ8xP5ZrfXekdzP0pvHjnaryVQennqO0ofaa8Qp0speYXqeSiJz9jZgoqxvS=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "shaun", "uri": "https://maps.google.com/maps/contrib/111355996916679231659" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3579150451127124994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:06:51+00:00" },
+          "researcher_note": "本初子午線(経度0度)が敷地の中庭を通るとされる旧王立天文台。東西両半球をまたぐ地点として知られる。"
+        },
+        {
+          "cand_id": "arch-07",
+          "source_api": "google_places",
+          "source_id": "ChIJNytjRcdx5kcRkv2UHTLgd8k",
+          "title": "パリ天文台",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "77 Av. Denfert Rochereau, 75014 Paris, フランス", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmMVFlsHxuPlb1Xg6MEqsDtnzj9b2H0rlFq_LGmCKu0JqBrzvulNc--oVl2uY7fgK81y49aohZ7FqadReZBoBjk_-rgdyglAjP_atG9gK2nuIvN4QQAjh4QikD-cxRrMD8EwM4vj=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Observatoire de Paris", "uri": "https://maps.google.com/maps/contrib/115245099730207409354" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14517318429701373330&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:06:51+00:00" },
+          "researcher_note": "パリ子午線(かつてのフランス基準子午線)が敷地を通るとされる天文台。"
+        },
+        {
+          "cand_id": "arch-08",
+          "source_api": "google_places",
+          "source_id": "ChIJka2b-B6I1ZERuKmhAJtp4bI",
+          "title": "世界の中心記念碑",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "Av. Manuel Córdova Galarza SN, Quito, エクアドル", "primary_type": "記念碑" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmMI8yrMf2Bkz_k3dnztA1k65v0WM8wczEkhdE5EGpah0-3cgqLNZQVaxRSbKZhBC2x1OQE8tSyG9usTHCF_02hTfvCKYFMaAtwZPuktXDMCl6Qcv4CJ6nbpm3Ggq-y3rmBuBDoyjw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Quique Casado", "uri": "https://maps.google.com/maps/contrib/118012351727038041680" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12889699722962512312&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:06:51+00:00" },
+          "researcher_note": "赤道線上とされる地点に建つ記念碑(通称Mitad del Mundo)。南北両半球をまたぐ地点として知られる。GPS測量では真の赤道から数百m離れるとの指摘もある。"
+        },
+        {
+          "cand_id": "arch-09",
+          "source_api": "google_places",
+          "source_id": "ChIJG60EO0b3fDURNBTtxPxZ6hg",
+          "title": "共同警備区域 JSA",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "대한민국 경기도 파주시 진서면 어룡리", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNQtwG7UMoGL7kgk1eu73M_0SojBCToTVw2XfEBYOWw8ObEyZd2tw9BUyUyUKKEp1KoqOy7zwrl3QwCNydaz6T4bgGrKWTWRSbDHEti-fRFHsRHwfdyy6l8PPkghcnYUM20Nw4=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "しょうしょう", "uri": "https://maps.google.com/maps/contrib/107656225837045616100" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1795346343631066164&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:06:51+00:00" },
+          "researcher_note": "軍事境界線をまたいで南北の会議施設が並ぶ共同警備区域。境界線が施設内を通過する。"
+        }
+      ]
+    },
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784092271715",
+          "title": "大人も読みたいこども歳時記 : 作ってみよう365日",
+          "creator": "長谷川櫂 監修, 季語と歳時記の会 編著",
+          "year": 2014,
+          "publisher": "小学館",
+          "meta": { "ndl_bib_id": "025255023", "price": "1600円", "extent": "223p" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025255023", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:15:00+00:00" },
+          "researcher_note": "二十四節気・七十二候ごとに項目立てた歳時記。秋分の項に季語・例句がある構成。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784394550013",
+          "title": "暮らしの中の二十四節気 : 丁寧に生きてみる",
+          "creator": "黛まどか",
+          "year": 2021,
+          "publisher": "春陽堂書店",
+          "meta": { "ndl_bib_id": "031717244", "price": "1400円", "extent": "255p", "ndc": "911.304 俳諧--評釈" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031717244", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:15:00+00:00" },
+          "researcher_note": "俳人・黛まどかによる二十四節気ごとのエッセイ。秋分の項に自作を含む句が引かれている可能性がある。"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784140162750",
+          "title": "暦と暮らす : 語り継ぎたい季語と知恵",
+          "creator": "宇多喜代子",
+          "year": 2020,
+          "publisher": "NHK出版",
+          "meta": { "series": "NHK俳句", "ndl_bib_id": "030353223", "price": "1500円", "extent": "223p" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030353223", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:15:00+00:00" },
+          "researcher_note": "俳人・宇多喜代子による季語エッセイ集。季語の来歴を扱う章立てで、秋分・秋彼岸の言及が見込める。"
+        },
+        {
+          "cand_id": "poe-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784047036574",
+          "title": "古典歳時記",
+          "creator": "吉海直人",
+          "year": 2018,
+          "publisher": "KADOKAWA",
+          "meta": { "series": "角川選書 ; 606", "ndl_bib_id": "029200391", "price": "1500円", "extent": "216p" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029200391", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:15:00+00:00" },
+          "researcher_note": "古典文学から季語の由来を読む歳時記。秋分・彼岸にまつわる古歌の言及が見込める。"
+        },
+        {
+          "cand_id": "poe-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784047036932",
+          "title": "暮らしの古典歳時記",
+          "creator": "吉海直人",
+          "year": 2020,
+          "publisher": "KADOKAWA",
+          "meta": { "series": "角川選書 ; 639", "ndl_bib_id": "030444387", "price": "1500円", "extent": "212p" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030444387", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:15:00+00:00" },
+          "researcher_note": "『古典歳時記』の続編。秋分周辺の季語・古歌解説を含む可能性がある。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "626204707",
+          "title": "4 (Expanded Edition)",
+          "creator": "Beyoncé",
+          "year": 2011,
+          "publisher": "Columbia Records, a Division of Sony Music Entertainment",
+          "meta": { "trackCount": 14, "primaryGenreName": "ポップ", "releaseDate": "2011-06-24T07:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c9/6b/3f/c96b3ff3-9cf6-4ce6-05aa-9f11474bd569/886443938373.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/4-expanded-edition/626204707?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:18:06+00:00" },
+          "researcher_note": "収録曲「Love On Top」はアウトロで複数回の転調を重ねる構成で知られる。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "840431884",
+          "title": "Whitney",
+          "creator": "ホイットニー・ヒューストン",
+          "year": 1987,
+          "publisher": "Arista Records LLC",
+          "meta": { "trackCount": 11, "primaryGenreName": "R&B／ソウル", "releaseDate": "1987-06-01T07:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/86/b5/25/86b525b1-bff1-4bf6-6112-531251b3d672/dj.hthdmusj.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/whitney/840431884?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:18:06+00:00" },
+          "researcher_note": "収録曲「I Wanna Dance with Somebody (Who Loves Me)」は最後のサビ前に転調する構成で知られる。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "559334659",
+          "title": "Bad",
+          "creator": "マイケル・ジャクソン",
+          "year": 1987,
+          "publisher": "MJJ Productions Inc.",
+          "meta": { "trackCount": 11, "primaryGenreName": "ポップ", "releaseDate": "1987-08-31T07:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/5f/28/d55f28f4-610c-ee81-dc16-a01cda46bbc4/886443546264.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/bad/559334659?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:18:06+00:00" },
+          "researcher_note": "収録曲「Man in the Mirror」はブリッジ後に転調する構成で知られる。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1537830946",
+          "title": "宝曲〜T-SQUARE plays THE SQUARE〜",
+          "creator": "T-SQUARE",
+          "year": 2010,
+          "publisher": "Sony Music Artists Inc.",
+          "meta": { "trackCount": 12, "primaryGenreName": "ジャズ", "releaseDate": "2010-10-27T07:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/3a/bf/11/3abf1161-d14e-ac5b-c1be-2c2b858174fa/jacket_VRXX00056B00Z_550.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E5%AE%9D%E6%9B%B2-t-square-plays-the-square/1537830946?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:18:06+00:00" },
+          "researcher_note": "収録曲「宝島」は楽曲中に複数回の転調を重ねる構成で知られるフュージョン曲(THE SQUARE 名義の1978年原曲をT-SQUAREが再演)。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1794889301",
+          "title": "Slippery When Wet (Deluxe Edition)",
+          "creator": "ボン・ジョヴィ",
+          "year": 1986,
+          "publisher": "UMG Recordings, Inc. (A Mercury Records release)",
+          "meta": { "trackCount": 17, "primaryGenreName": "ロック", "releaseDate": "1986-08-18T07:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5f/a8/1e/5fa81eae-6514-1d56-b352-8e3b243c65ec/24UMGIM99102.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/slippery-when-wet-deluxe-edition/1794889301?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:18:06+00:00" },
+          "researcher_note": "収録曲「Livin' On a Prayer」は最後のサビ前に転調する構成で知られる。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "169962059",
+          "title": "Daydream",
+          "creator": "マライア・キャリー",
+          "year": 1995,
+          "publisher": "Columbia Records, a division of Sony Music Entertainment",
+          "meta": { "trackCount": 12, "primaryGenreName": "ポップ", "releaseDate": "1995-09-26T07:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/01/c7/07/01c70785-7c45-a82b-7d9a-49f521e4d373/074646670026.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/daydream/169962059?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:18:06+00:00" },
+          "researcher_note": "収録曲「One Sweet Day」(feat. Boyz II Men)は終盤に転調する構成で知られる。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1451577721",
+          "title": "Encore",
+          "creator": "back number",
+          "year": 2016,
+          "publisher": "UNIVERSAL SIGMA, a division of UNIVERSAL MUSIC LLC",
+          "meta": { "trackCount": 32, "primaryGenreName": "J-Pop", "releaseDate": "2016-12-28T08:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f6/4c/e7/f64ce745-cb2a-c64c-2a18-6089665897ac/00602577303777.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/encore/1451577721?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:18:06+00:00" },
+          "researcher_note": "収録曲「クリスマスソング」は最後のサビ前に転調する構成で知られる。"
+        },
+        {
+          "cand_id": "mus-08",
+          "source_api": "itunes",
+          "source_id": "1444117777",
+          "title": "Mic-A-Holic A.I.",
+          "creator": "AI",
+          "year": 2005,
+          "publisher": "UNIVERSAL SIGMA, a division of UNIVERSAL MUSIC LLC",
+          "meta": { "trackCount": 15, "primaryGenreName": "J-Pop", "releaseDate": "2005-07-06T07:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/e0/7e/a6e07e13-7bb3-2cc7-0f36-45ca28138d8e/06UMGIM42910.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/mic-a-holic-a-i/1444117777?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:18:06+00:00" },
+          "researcher_note": "収録曲「Story」は終盤に転調する構成で知られるバラード。"
+        },
+        {
+          "cand_id": "mus-09",
+          "source_api": "itunes",
+          "source_id": "1446859733",
+          "title": "The Time of Our Lives (Deluxe Edition)",
+          "creator": "マイリー・サイラス",
+          "year": 2012,
+          "publisher": "Hollywood Records, Inc.",
+          "meta": { "trackCount": 11, "primaryGenreName": "ポップ", "releaseDate": "2012-01-01T08:00:00Z" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/b7/f9/f2b7f9c3-f0ea-0109-af22-91d1bf635fec/11DMGIM03002.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/the-time-of-our-lives-deluxe-edition/1446859733?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-25T19:18:06+00:00" },
+          "researcher_note": "収録曲「The Climb」は最後のサビ前に転調する構成で知られるバラード。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

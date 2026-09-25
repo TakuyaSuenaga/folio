@@ -1,0 +1,42 @@
+{
+  "vol": 59,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=16929115395527897193&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025255023",
+        "status": 200
+      },
+      {
+        "url": "https://music.apple.com/jp/album/4-expanded-edition/626204707?uo=4",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[2](4 (Expanded Edition)) 本文(essay)1文目「Beyoncéの『4(Expanded Edition)』」",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "4(Expanded Edition)",
+      "teisei": "4 (Expanded Edition)(h2見出し・DATA欄「題名」と同じく「4」と「(」の間に半角スペースを入れる)"
+    },
+    {
+      "id": "P-02",
+      "location": "items[1](大人も読みたいこども歳時記 : 作ってみよう365日) 本文(essay)1文目",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "『大人も読みたいこども歳時記』(長谷川櫂監修、季語と歳時記の会編著、小学館、二千十四年)",
+      "teisei": "『大人も読みたいこども歳時記 : 作ってみよう365日』(長谷川櫂監修、季語と歳時記の会編著、小学館、二千十四年)(h2見出し・DATA欄「題名」と同じく副題「作ってみよう365日」を含めて三点一致させる)"
+    }
+  ]
+}
