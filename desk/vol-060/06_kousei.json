@@ -1,0 +1,30 @@
+{
+  "vol": 60,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://itunes.apple.com/jp/movie/%E3%82%A8%E3%82%A4%E3%83%AA%E3%82%A2%E3%83%B3-%E3%82%B3%E3%83%B4%E3%82%A7%E3%83%8A%E3%83%B3%E3%83%88-%E5%AD%97%E5%B9%95-%E5%90%B9%E6%9B%BF/id1231666625?uo=4",
+        "status": 200
+      },
+      {
+        "url": "https://maps.google.com/?cid=6812651872500704304&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[0](film『エイリアン：コヴェナント』)DATA欄「作者」行",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "Ridley Scott",
+      "teisei": "リドリー・スコット(本文で用いている表記に合わせる。見出し・本文・DATA欄の三点一致の原則に反する)"
+    }
+  ]
+}

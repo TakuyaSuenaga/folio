@@ -1,0 +1,385 @@
+{
+  "vol": 60,
+  "genres": [
+    {
+      "genre": "film",
+      "candidates": [
+        {
+          "cand_id": "film-01",
+          "source_api": "itunes",
+          "source_id": "847281227",
+          "title": "ゴジラ (1984)",
+          "creator": "橋本幸治",
+          "year": 1984,
+          "publisher": "",
+          "meta": {
+            "primaryGenreName": "日本映画",
+            "shortDescription": "ゴジラ生誕30周年を記念して、前作から9年ぶりに製作された「ゴジラ」シリーズ第16作。"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://itunes.apple.com/jp/movie/%E3%82%B4%E3%82%B8%E3%83%A9-1984/id847281227?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-27T18:51:54+00:00" },
+          "researcher_note": "9年の空白を経てシリーズを再始動させた作品。続編・シリーズ再挑戦という発注に合致。"
+        },
+        {
+          "cand_id": "film-02",
+          "source_api": "itunes",
+          "source_id": "1231666625",
+          "title": "エイリアン：コヴェナント (字幕/吹替)",
+          "creator": "Ridley Scott",
+          "year": 2017,
+          "publisher": "",
+          "meta": {
+            "primaryGenreName": "SF／ファンタジー",
+            "collectionName": "Alien 7-Filmlik Koleksiyon"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://itunes.apple.com/jp/movie/%E3%82%A8%E3%82%A4%E3%83%AA%E3%82%A2%E3%83%B3-%E3%82%B3%E3%83%B4%E3%82%A7%E3%83%8A%E3%83%B3%E3%83%88-%E5%AD%97%E5%B9%95-%E5%90%B9%E6%9B%BF/id1231666625?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-27T18:51:54+00:00" },
+          "researcher_note": "1979年『エイリアン』のリドリー・スコット監督が同シリーズに再び挑んだ作品。発注に合致。"
+        },
+        {
+          "cand_id": "film-03",
+          "source_api": "itunes",
+          "source_id": "562814839",
+          "title": "続・猿の惑星 (字幕版)",
+          "creator": "テッド・ポスト",
+          "year": 1970,
+          "publisher": "",
+          "meta": {
+            "primaryGenreName": "SF／ファンタジー",
+            "collectionName": "猿の惑星:レガシー・コレクション (字幕/吹替)"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://itunes.apple.com/jp/movie/%E7%B6%9A-%E7%8C%BF%E3%81%AE%E6%83%91%E6%98%9F-%E5%AD%97%E5%B9%95%E7%89%88/id562814839?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-27T18:51:54+00:00" },
+          "researcher_note": "1968年『猿の惑星』の直接の続編。シリーズ第2作。発注に合致。"
+        },
+        {
+          "cand_id": "film-04",
+          "source_api": "itunes",
+          "source_id": "385701889",
+          "title": "ミッション：インポッシブル 2 （字幕/吹替）",
+          "creator": "ジョン・ウー",
+          "year": 2000,
+          "publisher": "",
+          "meta": {
+            "primaryGenreName": "アクション／アドベンチャー",
+            "collectionName": "ミッション:インポッシブル 6ムービーコレクション"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://itunes.apple.com/jp/movie/%E3%83%9F%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3-%E3%82%A4%E3%83%B3%E3%83%9D%E3%83%83%E3%82%B7%E3%83%96%E3%83%AB-2-%E5%AD%97%E5%B9%95-%E5%90%B9%E6%9B%BF/id385701889?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-27T18:51:54+00:00" },
+          "researcher_note": "1996年『ミッション：インポッシブル』の続編。監督交代(ジョン・ウー)を伴うシリーズ第2作。"
+        },
+        {
+          "cand_id": "film-05",
+          "source_api": "itunes",
+          "source_id": "1096806764",
+          "title": "クリード/チャンプを継ぐ男 (吹替版)",
+          "creator": "Ryan Coogler",
+          "year": 2015,
+          "publisher": "",
+          "meta": {
+            "primaryGenreName": "アクション／アドベンチャー"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://itunes.apple.com/jp/movie/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%89-%E3%83%81%E3%83%A3%E3%83%B3%E3%83%97%E3%82%92%E7%B6%99%E3%81%90%E7%94%B7-%E5%90%B9%E6%9B%BF%E7%89%88/id1096806764?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-27T18:51:54+00:00" },
+          "researcher_note": "『ロッキー』シリーズのスピンオフ続編。ロッキー・バルボアが指導者として再登場する。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJWco6Ag70QDURMOTNdshmi14",
+          "title": "熊本城",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒860-0002 熊本県熊本市中央区本丸１−１",
+            "primary_type": "城"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmOIDw67zBpDYp9OA1zAaex3EqJ1-4L2mQBfp47SJdDkTTv9mlnITL-IZXiYtGkXuSEy7fPPBcAMGrRsQMiJCx1ERY71gCJkE_RXBEDM3hiHjCOdvYy1Ed73vi6jKfXOOYdfPQqiBp5iRs0=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Ugandan Knuckles", "uri": "https://maps.google.com/maps/contrib/103547288872315708723" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6812651872500704304&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-27T18:52:22+00:00" },
+          "researcher_note": "企画書の起点シード(熊本地震2か月)が直接接続する候補。2016年熊本地震で被災し同じ敷地で段階的な復旧工事が続く。発注に最も近い。"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJ9xwt8RH0QDURgzkUhoRsDJw",
+          "title": "宇土櫓",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒860-0002 熊本県熊本市中央区本丸２−１",
+            "primary_type": "城"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjB3ElmKsM0JB3yNksYh1bvYbVYN1OVVgEwWgmHbSGV7UrwnhoQgR7i3pnwbp9oxmFINrlYVU_6HQXzRj8IFyJtydywKfIoYMyNGCra11UpIXfzn2nimn1tcLhVvGeiHIm-IsSgvpKToew5zVg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "k. u.", "uri": "https://maps.google.com/maps/contrib/104463942541723773515" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11244481686078241155&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-27T18:52:22+00:00" },
+          "researcher_note": "熊本城内の現存櫓。同じ敷地内での修復状況の把握には竣工年・被害範囲の一次確認が別途必要。"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJjRWK5O86IGARCjBsuP5n5i8",
+          "title": "白河小峰城跡",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒961-0074 福島県白河市郭内",
+            "primary_type": "城"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPfb4zcaR_tJC3Co9WS5A1ZnN8D041hRMY_TVQ5JPn3dh-v0VDmhQaK8sspWm2TsX1T4tjok2o2BxR5sQTget3AYyCMbjt-DFL84VFHfO3zD5RaLW6ZBufvExRtpjaXUFG2rA88bg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "篠原勝太", "uri": "https://maps.google.com/maps/contrib/108359718638667068697" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3451560508139515914&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-27T18:52:22+00:00" },
+          "researcher_note": "2011年東日本大震災で石垣が崩落し、同じ敷地で段階的に修復が進められている城跡。発注に近い。"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJZ9v0bP5r5TQRi0-esrqficA",
+          "title": "首里城",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒903-0815 沖縄県那覇市首里金城町１丁目２",
+            "primary_type": "城"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA97AaSBtXtmSDHUa71wA0t9kMkC9hD68Kh6rmuSTfcixRtpd3UV0gi-LFV7mB7ptWOKQn-vQkK4KNBYrFaMiSUrLijxn5GVTh8z1BY71xFSHsjh38qQBOTrfKTQKbv1geeKavrIBS18CVUQpIRSQiOPw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "H W", "uri": "https://maps.google.com/maps/contrib/116999157415590170885" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13873795751300976523&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-27T18:52:22+00:00" },
+          "researcher_note": "地震ではなく2019年の火災による焼損。発注は地震・災害と幅を持たせているが「地震」からは離れる。同じ敷地での再建が繰り返されてきた点は共通する。"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJu_8vTpdU9V8Riy6BmrzAfGc",
+          "title": "鶴ヶ城（会津若松城）",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒965-0873 福島県会津若松市追手町１−１",
+            "primary_type": "城"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAMaSOmgPuGWn_PSWiB4k8dn1HFXYxhAUDm2fiR4bgwq48xX8x43kLEyngZc1mQe0_5XTmX-9Z-QEdlCZrWIw2D9aaCr-0fmbCxTvWFYUIBgfpx-ONaM2d_g99bAPwyGjaDXiV40lJV4C4lTXuMDVoP=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "黄少龙", "uri": "https://maps.google.com/maps/contrib/103517887624785164944" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=7457046999297240715&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-27T18:52:22+00:00" },
+          "researcher_note": "戊辰戦争での破却後、1965年に同じ敷地で再建。地震・災害復旧という発注の主旨からは離れる参考候補。"
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJse-wx8t2A2ARd6Z1knjp07k",
+          "title": "名古屋城",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒460-0031 愛知県名古屋市中区本丸１−１",
+            "primary_type": "城"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBvMUDld_yA8NUJyBV1mFarZnxDi1Znqee6XHaS715sPk0BE6-iK4jTUjInl7d7e5vnJAsZ17W2g7ERkOK-xJgzI-eqdnfy2P29at8E6wfZl2zdj4I9hyio2wwynYDSiS-Ar4c9p6JEKsfNbhHP5bs1aQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Rem Ka", "uri": "https://maps.google.com/maps/contrib/108177393926282249888" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13390302821165147767&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-27T18:52:22+00:00" },
+          "researcher_note": "戦災焼失後、1959年に同じ敷地で再建。地震ではなく戦災復興のため発注からは離れる参考候補。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "rest-01",
+          "source_api": "google_places",
+          "source_id": "ChIJZZv3a2vuQDUR4u70rGaDy38",
+          "title": "きやま食堂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒861-2242 熊本県上益城郡益城町木山４３０",
+            "primary_type": "和食店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNhu5PoCvysy9XDuLoqiJ7O5y0zS1_ZnHqyxEz8exXTJRi_Ver9lvIv7JdnbYoPSYVdMmMCiD1wFS3osw6s4n_xbDkOsOxYqmkWdupovM1tW8ONk9usi1hat3EUIE-yw63cZlg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "a kranz", "uri": "https://maps.google.com/maps/contrib/117117883195207257865" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9208598340100746978&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-27T18:53:01+00:00" },
+          "researcher_note": "所在地は2016年熊本地震で最大震度7を2度観測した益城町木山。同一屋号での営業再開の経緯はPlaces情報では確認できず、報道等での裏付けが別途必要。"
+        },
+        {
+          "cand_id": "rest-02",
+          "source_api": "google_places",
+          "source_id": "ChIJyQwsaFku8V8RgON5lkKtQMQ",
+          "title": "かど長食堂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒928-0061 石川県輪島市新橋通６−4−７",
+            "primary_type": "和食店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBrxdlxHYHk-QJD6DxES0iPRO6jnaUlrfx2d69B4Dhc0SFaAwHqc69t21ej6cHg6tLvYJfrT9I0VHFcOjEvnQg23b9Wyf3UTVL_54i3D-D_rF_bUhmjIjQVpRaXlgiERxxGFrm7M3GJLaprwg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Masashi SADAMOTO", "uri": "https://maps.google.com/maps/contrib/115441619221906029480" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14141493331447374720&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-27T18:53:01+00:00" },
+          "researcher_note": "2024年能登半島地震・輪島朝市大火で被災した地域内。同一屋号での再開経緯はPlaces情報では確認できず、報道等での裏付けが別途必要。"
+        },
+        {
+          "cand_id": "rest-03",
+          "source_api": "google_places",
+          "source_id": "ChIJpSgB0BSViF8Rni7z_T4cDWs",
+          "title": "鶴亀の湯・鶴亀食堂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒988-0037 宮城県気仙沼市魚市場前４−５",
+            "primary_type": "和食店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDdUzqwpe4h5cXGxgtD9pAAerhrjWU_vwbcRx5kN4ki1uAAVndWb2Frf_8xknppLWm4zl8TVhW5zTm0tm0Iar3a2IciMBkibNqg8OCg8pfCliIaTcntkoeqQC-IV4TesWr-P2vshaPnxpyHL43oCBk_Qg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Amy H", "uri": "https://maps.google.com/maps/contrib/102112224676950528184" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=7713852793629650590&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-27T18:53:01+00:00" },
+          "researcher_note": "所在地は2011年東日本大震災の津波で壊滅的被害を受けた気仙沼市魚市場前。同一屋号での再開経緯はPlaces情報では確認できず、報道等での裏付けが別途必要。"
+        },
+        {
+          "cand_id": "rest-04",
+          "source_api": "google_places",
+          "source_id": "ChIJcxhMRWGFAGARETcmqRl2Gko",
+          "title": "はやしや食堂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒653-0043 兵庫県神戸市長田区駒ケ林町６丁目２−１",
+            "primary_type": "和食店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBtorNQtIAKAmBee-hxEfwlXz1fPSf4bYKi2w2gkOLGefJW7pYI6o6nSJ-WEfPc1l8JycMixxo6RlfBVSmxVl3hM4BycRhUR84iJkkIZUmB6QJUZA6qQ30feuMH8GDMpO12w3DjMV9kQL0CQEwC13Ux=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "TAKAAKI INOUE", "uri": "https://maps.google.com/maps/contrib/110009550659877416537" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5339710160785258257&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-27T18:53:01+00:00" },
+          "researcher_note": "所在地は1995年阪神・淡路大震災で大規模火災被害を受けた神戸市長田区駒ケ林町。同一屋号での再開経緯はPlaces情報では確認できず、報道等での裏付けが別途必要。"
+        },
+        {
+          "cand_id": "rest-05",
+          "source_api": "google_places",
+          "source_id": "ChIJeXVhPbuFAGARgLvNQeH0cGQ",
+          "title": "萬吉食堂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒653-0042 兵庫県神戸市長田区二葉町４丁目３−５",
+            "primary_type": "和食店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjA3NHSlpjd9YBnpCR5mqYaYSWG5C0vlKXN1H2rptfeBWrcF3QPA0E_4yXS383R2zb9YK7IR32l1fKShShJUv6_HYkggXcX2CIwKh5LIyyAJLCnFKMmrjcAlZoMQ1vB23iiVgYGRUIonBYq4Ht4tmdnQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "萬吉食堂", "uri": "https://maps.google.com/maps/contrib/117035789672436147808" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=7237553849493207936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-27T18:53:01+00:00" },
+          "researcher_note": "所在地は1995年阪神・淡路大震災で大規模火災被害を受けた神戸市長田区二葉町。同一屋号での再開経緯はPlaces情報では確認できず、報道等での裏付けが別途必要。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
