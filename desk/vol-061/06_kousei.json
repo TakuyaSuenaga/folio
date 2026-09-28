@@ -1,0 +1,43 @@
+{
+  "vol": 61,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true,
+      "items[2].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I000011053133": true,
+        "https://music.apple.com/jp/album/play-it-study-album-recorder-blockfl%C3%B6te-georg-philipp/1397879258?uo=4": true,
+        "https://maps.google.com/?cid=12767480270693079850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      { "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000011053133", "status": 200 },
+      { "url": "https://music.apple.com/jp/album/play-it-study-album-recorder-blockfl%C3%B6te-georg-philipp/1397879258?uo=4", "status": 200 },
+      { "url": "https://maps.google.com/?cid=12767480270693079850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "status": 200 }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[1].essay(MUSIC)冒頭「題名に「A' = 440 Hz」という表記がそのまま含まれている。」",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "本文中の引用箇所に算用数字「440」がそのまま使われている(題名の引用として「A' = 440 Hz」を本文内に挿入)。同essay後段では同じ値を「四百四十ヘルツ」と漢数字で表記しており、本文内で算用数字/漢数字が混在している。",
+      "teisei": "過去号の類例(vol-038: essayは「千九百六十年」/DATA欄noteのみ「1960年竣工」と算用数字、vol-019: essayは算用数字なし/DATA欄noteのみ「5-11」)では、外部の表記を引用する場合でも本文(essay)は漢数字に統一し、原表記の算用数字はDATA欄側でのみ保持している。本項も同様に、本文中の引用は「A'=四百四十ヘルツ」のように言い換えるか、算用数字を含む原表記の引用はDATA欄「収録」欄(既に「基準音高 A'=440Hz 表記あり」と記載済み)に委ね、essay本文からは算用数字を除くことが望ましい。"
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "vol": 61,
+  "genres": [
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poetry-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044001070",
+          "title": "芭蕉全句集 : 現代語訳付き",
+          "creator": "松尾芭蕉 [著],雲英末雄, 佐藤勝明 訳注",
+          "year": 2010,
+          "publisher": "角川学芸出版",
+          "meta": { "series": "角川文庫", "ndl_detail": "https://ndlsearch.ndl.go.jp/books/R100000002-I000011053133" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000011053133", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-28T21:06:17+00:00" },
+          "researcher_note": "松尾芭蕉の全句を収める文庫版全句集。五七五の定型に基づく実在句集として発注に合致。"
+        },
+        {
+          "cand_id": "poetry-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784894022249",
+          "title": "鶏頭 : 正岡子規句集",
+          "creator": "正岡子規 著,小室善弘 編,山下一海 栞",
+          "year": 1998,
+          "publisher": "ふらんす堂",
+          "meta": { "series": "精選句集シリーズ　12" },
+          "image": { "url": "https://cover.openbd.jp/9784894022249.jpg", "source": "openbd" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002679595", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-28T21:06:17+00:00" },
+          "researcher_note": "正岡子規の代表作300句を精選した句集。五七五の定型を主題とする発注に合致。"
+        },
+        {
+          "cand_id": "poetry-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003021019",
+          "title": "蕪村俳句集 : 付春風馬堤曲他二篇",
+          "creator": "谷口蕪村 [著],尾形仂 校注",
+          "year": 1989,
+          "publisher": "岩波書店",
+          "meta": { "series": "岩波文庫" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000134-I000141519", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-28T21:06:17+00:00" },
+          "researcher_note": "与謝蕪村の俳句集(岩波文庫版)。五七五の定型を持つ実在句集として発注に合致。"
+        },
+        {
+          "cand_id": "poetry-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784894484382",
+          "title": "現代俳句アンソロジー : 地域別",
+          "creator": "北溟社編集部 編著",
+          "year": 2003,
+          "publisher": "北溟社",
+          "meta": {},
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004244146", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-28T21:06:17+00:00" },
+          "researcher_note": "現代俳人を地域別に集めた実在アンソロジー。発注の『アンソロジー』要件に合致。"
+        },
+        {
+          "cand_id": "poetry-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003102855",
+          "title": "虚子五句集 上",
+          "creator": "高浜虚子",
+          "year": 1996,
+          "publisher": "岩波書店",
+          "meta": { "series": "岩波文庫", "収録": "五百句.五百五十句.六百句" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002529808", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-28T21:06:17+00:00" },
+          "researcher_note": "高浜虚子の代表句集『五百句』ほかを収める。五七五定型の句集として発注に合致。"
+        },
+        {
+          "cand_id": "poetry-06",
+          "source_api": "ndl+openbd",
+          "source_id": "9784903351193",
+          "title": "加賀の千代女五百句",
+          "creator": "山根公 編",
+          "year": 2006,
+          "publisher": "桂書房",
+          "meta": {},
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000008335198", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-28T21:06:17+00:00" },
+          "researcher_note": "加賀千代女の句集。五七五定型の実在句集として発注に合致。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "music-01",
+          "source_api": "itunes",
+          "source_id": "514287066",
+          "title": "ハイドン:弦楽四重奏曲 ≪皇帝≫/≪五度≫/第75番",
+          "creator": "クイケン四重奏団",
+          "year": 2010,
+          "publisher": "",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 12 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/99/10/9e/99109ed6-65a1-6dc5-685a-69764961688d/COCO_73094.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E3%83%8F%E3%82%A4%E3%83%89%E3%83%B3-%E5%BC%A6%E6%A5%BD%E5%9B%9B%E9%87%8D%E5%A5%8F%E6%9B%B2-%E7%9A%87%E5%B8%9D-%E4%BA%94%E5%BA%A6-%E7%AC%AC75%E7%95%AA/514287066?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-28T21:06:29+00:00" },
+          "researcher_note": "弦楽四重奏(4名固定編成)によるハイドン作品集。編成人数という定数を持つ様式の発注に合致。"
+        },
+        {
+          "cand_id": "music-02",
+          "source_api": "itunes",
+          "source_id": "1452648739",
+          "title": "Mozart: String Quartet No. 17 \"The Hunt\", Divertimento, K. 136, String Quartet in D Major, Op. 64, No. 5",
+          "creator": "ハーゲン弦楽四重奏団",
+          "year": 2001,
+          "publisher": "",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 17 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2a/39/b2/2a39b2b7-558f-5443-7f25-9aaa16003068/00028948271320.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/mozart-string-quartet-no-17-the-hunt-divertimento-k/1452648739?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-28T21:06:29+00:00" },
+          "researcher_note": "弦楽四重奏(4名固定編成)によるモーツァルト作品集。編成人数の定数を持つ様式の発注に合致。"
+        },
+        {
+          "cand_id": "music-03",
+          "source_api": "itunes",
+          "source_id": "19579100",
+          "title": "Dvořák: String Quartets Op. 96 \"American\" & Op. 106",
+          "creator": "プラハ・ヴラフ弦楽四重奏団",
+          "year": 1995,
+          "publisher": "",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 8 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2004/m07/d29/h22/s05.zqyksyzj.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/dvo%C5%99%C3%A1k-string-quartets-op-96-american-op-106/19579100?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-28T21:06:29+00:00" },
+          "researcher_note": "弦楽四重奏(4名固定編成)によるドヴォルザーク作品集。編成人数の定数を持つ様式の発注に合致。"
+        },
+        {
+          "cand_id": "music-04",
+          "source_api": "itunes",
+          "source_id": "1452390677",
+          "title": "Mendelssohn: The String Quartets & Octet in Two Parts",
+          "creator": "エマーソン弦楽四重奏団",
+          "year": 2005,
+          "publisher": "",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 38 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/07/1b/aa/071baa78-5e71-2e57-4891-f7f581f583a5/00028947953135.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/mendelssohn-the-string-quartets-octet-in-two-parts/1452390677?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-28T21:06:29+00:00" },
+          "researcher_note": "弦楽四重奏(4名)と八重奏を収めるメンデルスゾーン全集。編成人数の定数を持つ様式の発注に合致。"
+        },
+        {
+          "cand_id": "music-05",
+          "source_api": "itunes",
+          "source_id": "1397879258",
+          "title": "Play it - Study Album - Recorder/Blockflöte; Georg Philipp Telemann: Partita 5 in E Minor (A' = 440 Hz)",
+          "creator": "Ensemble Baroque",
+          "year": 1998,
+          "publisher": "",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 20, "収録": "基準音高 A'=440Hz 表記あり" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ca/8c/b0/ca8cb029-470c-9901-01e0-57bc5bcf3763/cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/play-it-study-album-recorder-blockfl%C3%B6te-georg-philipp/1397879258?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-28T21:06:29+00:00" },
+          "researcher_note": "タイトルに基準音高『A'=440Hz』が明記された学習用録音。基準音高という定数を扱う発注に合致。"
+        },
+        {
+          "cand_id": "music-06",
+          "source_api": "itunes",
+          "source_id": "689322299",
+          "title": "Play It - Lern Album für Blockflöte; Benedetto Marcello: Sonata 12 in F-Dur, Op. 2, No. 12 (a' = 440 Hz)",
+          "creator": "Ensemble Baroque",
+          "year": 2006,
+          "publisher": "",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 14, "収録": "基準音高 a'=440Hz 表記あり" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/67/c4/7e/67c47ea5-ce47-052c-3e95-1d80d51fbfe8/cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/play-it-lern-album-f%C3%BCr-blockfl%C3%B6te-benedetto-marcello/689322299?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-28T21:06:29+00:00" },
+          "researcher_note": "タイトルに基準音高『a'=440Hz』が明記された学習用録音。基準音高という定数を扱う発注に合致。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784306046856",
+          "title": "都市建築TOKYO : 超高層のあけぼのから都市再生前夜まで",
+          "creator": "都市建築TOKYO編集委員会 編著",
+          "year": 2021,
+          "publisher": "鹿島出版会",
+          "meta": {},
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031642309", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-28T21:06:17+00:00" },
+          "researcher_note": "1963年の建築基準法改正による百尺(31m)高さ制限撤廃から霞が関ビル竣工に至る東京の超高層建築史を扱う書誌。高さ制限という数値基準の発注に合致。"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784002708959",
+          "title": "異議あり!新国立競技場 : 2020年オリンピックを市民の手に",
+          "creator": "森まゆみ, 山本想太郎, 松隈洋, 藤本昌也",
+          "year": 2014,
+          "publisher": "岩波書店",
+          "meta": { "series": "岩波ブックレット No.895" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000134-I000398182", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-28T21:06:17+00:00" },
+          "researcher_note": "新国立競技場の規模・高さをめぐる論争を扱うブックレット。神宮外苑地区の高さ制限という数値基準の発注に合致。"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784791772650",
+          "title": "アンビルトの終わり : ザハ・ハディドと新国立競技場",
+          "creator": "飯島洋一",
+          "year": 2020,
+          "publisher": "青土社",
+          "meta": {},
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030369614", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-28T21:06:17+00:00" },
+          "researcher_note": "ザハ・ハディド案が白紙撤回された新国立競技場の規模・高さ問題を論じる書誌。数値基準が設計を規定した実例として発注に合致。"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJz2wz5m6LGGARKht4Q6kzL7E",
+          "title": "霞が関ビルディング",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒100-6001 東京都千代田区霞が関３丁目２−５",
+            "primary_type": "ビジネス センター"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmN39DoEgfTP91ysg2iyPiSeAa8eSKOYuNq2BmEmiH6UeXwy0W8ctxyRFmX7XL6UJ0afeInZDPI-TPWbo3WkGzDWiTqvvZtyz7tSzYTCTHO9zCWnJ6MBdJHY-FHHKX0J8UebSvaBv55yRUU2=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Yung-sunce Kiyah", "uri": "https://maps.google.com/maps/contrib/106603790792247199501" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12767480270693079850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-28T21:06:25+00:00" },
+          "researcher_note": "百尺(31m)高さ制限撤廃後、1968年に竣工した日本初の超高層ビルの所在地。arch-01の書誌内容と対になる実在の場所。"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJTcrfqomNGGARjommnHbuRtg",
+          "title": "MUFGスタジアム（国立競技場）",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒160-0013 東京都新宿区霞ヶ丘町１０−１",
+            "primary_type": "スタジアム"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmMRiuRgvkrtn0ORc5Upxw35KHhJE6w75VVOryielE_dgXoS5mnZcIgguCrVEhg-km_eHYHTH-zKVrOq8AsJjkZvXVCpmWCG_UbFXB5qYB8y4eIZP8xTp6-IzT-I75ATolUNzA3KtA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "tossy take", "uri": "https://maps.google.com/maps/contrib/106004182826644927383" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15584405753763891598&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-28T21:06:25+00:00" },
+          "researcher_note": "神宮外苑地区の高さ制限との調整の末に規模が定められた新国立競技場の所在地。arch-02/arch-03の書誌内容と対になる実在の場所。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
