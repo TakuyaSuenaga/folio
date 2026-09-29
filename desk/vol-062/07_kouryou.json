@@ -1,0 +1,14 @@
+{
+  "vol": 62,
+  "hantei": "責了",
+  "lead_final": "地面を掘る前に、まず文献だけで十万年先の安全を見積もる。核のごみ最終処分場選定の最初の関門である文献調査を起点に、現地に足を運ばず記録と資料だけで対象の性質を判断する営みを、実在する建築・書物の二点から読む。掘らずに測り、行かずに知るという方法の逆説を辿る特集である。",
+  "sekiryo_shiji": [
+    {
+      "ref": "P-02 / colophon.note(okuzuke内filmに関する注記)",
+      "shiji": "『filmは02_kouho.jsonのng記載どおりiTunes Search APIの障害により候補0件のため落とした。architectureとbookの二本で並置を構成する。』を、内部ファイル名(02_kouho.json)と内部用語(ng記載)を含まない一般読者向けの文言に書き改める。例:『filmはAPI障害により候補が得られなかったため落とした。architectureとbookの二本で構成する。』(vol-060の先例に倣う)"
+    }
+  ],
+  "daicho_line": "vol.062 | 2026-09-30 | 文献調査 | architecture,book | 掘るが処分しない研究坑道と、物証だけで来歴を判定する書誌学の一冊で、現地調査に先立つ『文献調査』という方法を読む(filmはiTunes Search API障害により欠)",
+  "moushiokuri": "filmはiTunes Search APIのmedia=movie検索がJP・US双方でresultCount 0を返し続ける障害により候補0件。実在の著名作品でも再現したとのことでresearcher側の一時的な問題ではなくAPI自体の不調とみられる。architecture・bookの二本でthesisは十分に成立しており、原則7の部分成功発行で対応した。判断は妥当。ただし4b改稿でK-01(blocking)・K-03(caution)は解消済みで質は高かった一方、kousei段階でP-01(lead不一致)とP-02(colophon注記の内部用語露出)が残っていた。P-02は『filmは02_kouho.jsonのng記載どおり』のような内部ファイル名を含む定型文がhydrate_genko.py側で機械的に埋め込まれているとみられ、vol-060でも同種の指摘があった再発事項である。次に欠番が出る号のために、colophon.noteの生成テンプレート自体を読者向け文言に直すか、機械チェック(kousei_machine.py)にこのパターンの検出を追加することを検討されたい。book-04(K-02, caution)はNDL『江戸の本屋と本づくり』とopenBD『和本入門 続』のタイトル差異が残るが、橋口侯之介『続 和本入門』シリーズの一部と見られ確証には至らず、DATA欄への直接介入を避け今号は現状表示のまま据え置いた。次号以降、同種の一書複数タイトルNDL/openBD不一致が出た場合はリサーチ段階でシリーズ正式名を優先的に確認してほしい。",
+  "riyu": "essayの実在チェーン(arch-02: Google Places cand_id、book-04: NDLサーチcand_id)・校閲blockingは4b改稿で解消済み。残る課題はlead(P-01)とokuzuke注記(P-02)のみで、いずれも本文essayに触れない軽微な修正であるため責了とし、leadはlead_finalで確定、colophon.noteはsekiryo_shijiでAD対応とする。"
+}

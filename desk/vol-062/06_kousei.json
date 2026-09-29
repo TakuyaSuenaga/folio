@@ -1,0 +1,38 @@
+{
+  "vol": 62,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=3192360800326585888&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970304959834222879",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "lead(表紙下 lead-v)",
+      "severity": "blocking",
+      "type": "原稿不一致",
+      "genzai": "地面を掘る前に、まず文献だけで十万年先の安全を見積もる。核のごみ最終処分場選定の最初の関門である文献調査を起点に、現地に足を運ばず記録と資料だけで対象の性質を判断する営みを、実在する映画・建築・書物の三点から読む。掘らずに測り、行かずに知るという方法の逆説を辿る特集である。",
+      "teisei": "「実在する映画・建築・書物の三点から読む」を、実際に掲載された二ジャンル(建築・書物)に合わせて訂正する。filmはcolophonの注記のとおりAPI障害により候補0件で落としており、誌面には architecture と book の二件しか存在しないため、leadが読者に存在しない映画作品を期待させる誤りとなっている(vol-060では同様の減段時にleadを『二つの現場』と実数に合わせて訂正済みで、これが先例)。"
+    },
+    {
+      "id": "P-02",
+      "location": "okuzuke(footer) filmに関する注記",
+      "severity": "minor",
+      "type": "規定違反",
+      "genzai": "filmは02_kouho.jsonのng記載どおりiTunes Search APIの障害により候補0件のため落とした。architectureとbookの二本で並置を構成する。",
+      "teisei": "読者向け誌面にファイル名(02_kouho.json)や内部用語(ng記載)をそのまま露出せず、vol-060の先例(『restaurantは、候補五件すべてで……ため落とした。film・architectureの二件で構成する。』)に倣い、一般読者に通じる文章に書き改める。例:『filmはAPI障害により候補が得られなかったため落とした。architectureとbookの二本で構成する。』"
+    }
+  ]
+}

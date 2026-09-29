@@ -1,0 +1,286 @@
+{
+  "vol": 62,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJa5bmPQApDl8RKdhBPJsaW_k",
+          "title": "幌延深地層研究センター(日本原子力研究開発機構)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒098-3224 北海道天塩郡幌延町北進４３２−２",
+            "primary_type": "研究機関"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNLhZ25IHjEFcfjKN79qX1Wmkj_tJOQl41FWHOKYbC4BAvUZePjfrnXrkmIo_uSDIPDxjNWE4_SVSumHoLZuDGF8OA7kgG2jytmx6zWfm6iN6J3-vrZm_UbeWMwyKq40La9xEF4EEGMygLj=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "t", "uri": "https://maps.google.com/maps/contrib/115406437160839770178" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17967984392357926953&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-29T19:46:21+00:00" },
+          "researcher_note": "地層処分の技術的信頼性を確かめる研究のみを行い、放射性廃棄物は一切持ち込まない実在の研究センター本体。発注の『処分ではなく調査段階』に合致。"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJJ9CTUAApDl8RIA5Z6juLTSw",
+          "title": "幌延深地層研究センター 地下施設",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒098-3224 北海道天塩郡幌延町北進",
+            "primary_type": "研究機関"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmO3SsKpoBuEq-_nv3UjF5-r_zoJ4RP0V21gJIjPrcqpkSN4cYP7J39wWCxnQGx--urwz5Zru4PhAIREmYHDEPydCbNJBpb0r81PoUB-1XU28SNLpt5rAkSgkS23YHphzU6UA9H5FW5EFfKh=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "D.D.Shostakovich", "uri": "https://maps.google.com/maps/contrib/113410466598427146839" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3192360800326585888&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-29T19:46:21+00:00" },
+          "researcher_note": "arch-01と同一施設群のうち地下の研究坑道そのものを指す地点。深度350mまでの掘削調査を行う実在の坑道であり、処分行為を伴わない調査という発注の核に最も近い。"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJ7f8a8DsmDl8Rk-mt1rwXlWc",
+          "title": "幌延深地層研究センター国際交流施設",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒098-3207 北海道天塩郡幌延町宮園町１−８",
+            "primary_type": "研究機関"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCbFC-U-69TbH3LDB7WFCupNY2U1fff2efQz9scwHxEMwJQkFXDUfU_MA_-OK4jf71oT-5MvNmK581LnZTGP_ffILG75o32n5ud-x3JKTl6D6eFJumnJ_T540KfD89OY9BGDJAdN-CtP7lioSnhbLL6zw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "槙", "uri": "https://maps.google.com/maps/contrib/113168241883984020458" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=7463898057259477395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-29T19:46:21+00:00" },
+          "researcher_note": "同研究センターに付属する会議・研修棟であり、地下坑道そのものではない。arch-01/arch-02と同一施設群だが調査行為を直接担う建築ではない点に留意。"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJxSTBj2lHA2ARWHTFYKkCUn0",
+          "title": "瑞浪超深地層研究所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒509-6132 岐阜県瑞浪市明世町戸狩山野内",
+            "primary_type": "官公庁"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9030283129327547480&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-29T19:46:21+00:00" },
+          "researcher_note": "花崗岩を対象とした深地層の科学的研究のみを行い、処分場としては使用しない研究所。写真は生存確認済みの撮影者クレジット付きが見つからず不採用(image欄省略)。"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJSydzC2waWEYRV2uS2hu8BKE",
+          "title": "Äspö Hard Rock Laboratory",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "LÅNGÖ 300, 572 95 Figeholm, スウェーデン",
+            "primary_type": "研究機関"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjD5Ezz_CeTN6X9NXUjGhNVki_8YRqBnbM2uYsohWEhlu4pGvn4-3JXNumIWKA41ufQQHQaMWsrIUFWbxhDjqwGIfMkd2SCiS8ZdB3M2PV3rF_nbgbzZdDV2YpMpctXd2I65yyTiy25i0VgsUQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Go Matsuo", "uri": "https://maps.google.com/maps/contrib/103818402952622225373" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11602605367830408023&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-29T19:46:21+00:00" },
+          "researcher_note": "スウェーデンの地下500mに設けられた実在の岩盤研究施設。同国の使用済燃料の実処分場(フォルスマルク)とは別地点にある調査専用施設。"
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJR8bDUoOY7EcRnk49zaumMi4",
+          "title": "Andra - Centre de Meuse/Haute-Marne (CMHM)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "RD 960, BP9, 55290 Bure, フランス",
+            "primary_type": "サービス"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPz1d7y0JZW0tHNthHcYe-mK1Vb998ggQeczMyWE6V1Gcn0A409YTqrf52FNEb7HAhkQFpPMaWc69MG4QjiQ4p31bMUbTQW9r6Gt_5JQv0SuYOOsi_xrDIYAaJe5aceBjK3xz6E=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Alban MARTINEZ-DELCAYROU", "uri": "https://maps.google.com/maps/contrib/106526724413617616519" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3328906331393183390&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-29T19:46:21+00:00" },
+          "researcher_note": "フランス放射性廃棄物管理機関(Andra)がビュールに設けた地下研究所。地元の受け入れをめぐり将来の実処分場計画(Cigéo)と地続きだが、施設自体は現時点では研究坑道である。"
+        },
+        {
+          "cand_id": "arch-07",
+          "source_api": "google_places",
+          "source_id": "ChIJrSb2BWm5KkQRHanpIlxj45Q",
+          "title": "Onkalo",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "95200 Onkalo, フィンランド",
+            "primary_type": ""
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10728527984700533021&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-29T19:46:21+00:00" },
+          "researcher_note": "1990年代に地質調査用として掘削が始まった坑道だが、現在はフィンランドの使用済燃料の実処分場そのものへ移行段階にあるとされる場所。『調査・研究だけ』という発注条件との整合は編集判断を要する。写真は生存確認済みの撮影者クレジット付きが見つからず不採用。"
+        },
+        {
+          "cand_id": "arch-08",
+          "source_api": "google_places",
+          "source_id": "ChIJbbvxgpb6kUcRxZseZS6gOhU",
+          "title": "Mont-Terri Rock Laboratory",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "Rte de la Gare 63, 2882 Saint-Ursanne, スイス",
+            "primary_type": "研究機関"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjD8udTHgfj_phRgqINPcBd1cBM9eBPLh9Km00F3qNKDSNSD8i7Kb7CqvlEXUTZv_L6ezkqaRo9rQ4FJ1gO2qEUiggs59q6ubIJFiD1sgxtaccHM2aU3Bu0PvpHW5nB2KkQxoaI5Nb_1b2Oo=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "DaviBachi", "uri": "https://maps.google.com/maps/contrib/115534404548266927472" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1529711144571149253&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-29T19:46:21+00:00" },
+          "researcher_note": "スイス・ジュラ山中の泥岩層に設けられた国際共同利用の地下研究所。スイス国内の実処分場選定(オプフィコンなど別地点で進行中)とは切り離された調査専用施設。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784805515013",
+          "title": "鑑定学への招待 : 「偽」の実態と「観察」による判別",
+          "creator": "杉本欣久 著",
+          "year": 2023,
+          "publisher": "中央公論美術出版",
+          "meta": { "series": "芸術選書", "ndl_detail": "https://ndlsearch.ndl.go.jp/books/R100000002-I032698198" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032698198", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-29T19:50:20+00:00" },
+          "researcher_note": "書画の真贋を現地の科学的分析ではなく『観察』によって判別する鑑定学の実在書。現物へ立ち入らず記録・様式の読解で真偽を判定する営みとして発注に合致。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784560510421",
+          "title": "アーカイヴズ : 記録の保存・管理の歴史と実践",
+          "creator": "ブリュノ・ガラン 著,大沼太兵衛 訳",
+          "year": 2021,
+          "publisher": "白水社",
+          "meta": { "series": "文庫クセジュ", "volume": "1042", "ndl_detail": "https://ndlsearch.ndl.go.jp/books/R100000002-I031258441" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031258441", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-29T19:50:20+00:00" },
+          "researcher_note": "アーカイブズ学(記録史料の保存・評価・管理を扱う学問)の概説書。記録そのものの性質を判定する仕事という発注に合致。"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784588350061",
+          "title": "アーカイブとは何か : 石板からデジタル文書まで, イタリアの文書管理",
+          "creator": "マリア・バルバラ・ベルティーニ [著],湯上良 訳",
+          "year": 2012,
+          "publisher": "法政大学出版局",
+          "meta": { "ndl_detail": "https://ndlsearch.ndl.go.jp/books/R100000002-I023264228" },
+          "image": { "url": "https://cover.openbd.jp/9784588350061.jpg", "source": "openbd" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I023264228", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-29T19:50:20+00:00" },
+          "researcher_note": "イタリアの文書館制度とアーキビストの職務・評価選別の実務を論じるハンドブック。文書の価値評価という審査行為を扱う点で発注に合致。"
+        },
+        {
+          "cand_id": "book-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784582833768",
+          "title": "江戸の本屋と本づくり",
+          "creator": "橋口侯之介著",
+          "year": 2007,
+          "publisher": "平凡社",
+          "meta": {
+            "ndl_detail": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970304959834222879",
+            "openbd_title": "和本入門 続"
+          },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970304959834222879", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-29T19:50:20+00:00" },
+          "researcher_note": "和本の紙・墨・装丁など書誌学的痕跡から出版年代や来歴を判定する書誌学の実践書。同一ISBNでNDLとopenBDのタイトル表記が『江戸の本屋と本づくり』/『和本入門 続』で異なるため、事実確認時に要照合(meta.openbd_title参照)。"
+        },
+        {
+          "cand_id": "book-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784000800921",
+          "title": "日本古典籍書誌学辞典",
+          "creator": "井上宗雄 [ほか]編",
+          "year": 1999,
+          "publisher": "岩波書店",
+          "meta": { "ndl_detail": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002764402" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002764402", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-29T19:50:20+00:00" },
+          "researcher_note": "古典籍の書誌学的用語・鑑定基準を集成した実在の辞典。書誌学という『現地に赴かず記録の読解で判定する』学問の基礎資料として発注に合致。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "film: 核のごみの最終処分場選定をめぐる実在のドキュメンタリー映画から一点選ぶこと。",
+      "reason": "API障害。iTunes Search API(media=movie)に「Into Eternity」「Containment」等の実在ドキュメンタリー、および比較のためのAvengers・Titanicのような著名作品でも国JP・US双方でresultCount 0が返り続けた。iTunes Search APIの映画カタログ検索が事実上機能しておらず、許可ホスト外(TMDb等)を使う権限もないため、film候補は0件で報告する。"
+    }
+  ]
+}
