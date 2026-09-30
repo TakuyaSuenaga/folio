@@ -1,0 +1,356 @@
+{
+  "vol": 63,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJiyMy8AOTUzURE5604e4TU-4",
+          "title": "鍋島灯台退息所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒761-0111 香川県高松市屋島中町91", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPdPi7jjT_VtdUIXj6Hp6OH1ltpvOXupTlo2NmwfcM5oZd6yFRiZHS4x2nGcs0WCi0dA_EeqW1w-IFbvpxQjAXuBaU-sjtrpWzM60qv1HJ46Y8uC9W8ZKbKgp7gqpFC_RF4ckO5=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "koi take", "uri": "https://maps.google.com/maps/contrib/110682817942584201886" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17173091720803687955&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-30T19:56:46+00:00" },
+          "researcher_note": "屋島にある現存の灯台守退息所そのもの。発注の例示に直接合致する実在施設。"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJg3oRQMoRQzUR4fb9w0PC3BQ",
+          "title": "角島灯台記念館（旧角島灯台官舎）",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒759-5332 山口県下関市豊北町大字角島", "primary_type": "博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCE3p49YOdjULVUlXa5AHnKabuQcxNNaGIR66VJ3wdDbQ3DfK68BneEoDvZbSMBfo61E4Rq2ftOL3jjKkOnvHe0Em1x7QJVmjRpN3ywi5yUuoQCecJnZcXPPKuWRoWNOD9OVz5Wfb4DHAHhCA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Yeh Carl (葉昭佃)", "uri": "https://maps.google.com/maps/contrib/112092141625639938581" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1503289971941701345&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-30T19:56:46+00:00" },
+          "researcher_note": "旧灯台官舎を保存転用した記念館。灯台守が不在の今も建物自体が維持管理されている例。"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJKypCSGEjBmARDEMVWpCis5M",
+          "title": "樫野埼灯台旧官舎",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒649-3631 和歌山県東牟婁郡串本町樫野1006-1", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDSrY_ZpPPs5J8TqjOjssUn5S4Rnei96xys-gDZc7dsN-Dcp9aUT128UwZRUqccBAfn7lnl_iSQAQHJn27E7vGLNvV5T259gNd5yBG1WmxryhWSKWaGGsrmUiwAQxAwZ7kuBWzUlBihPZTXJCk=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "h.ichika67", "uri": "https://maps.google.com/maps/contrib/107969598225407742888" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10643029085276947212&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-30T19:56:46+00:00" },
+          "researcher_note": "樫野埼灯台の旧職員官舎。史跡として現存し、灯台守本人の不在後も建物の管理構造が残る。"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJC_-Ew8-LGGAReYHL7BD3Czo",
+          "title": "社務所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒105-0002 東京都港区愛宕1丁目5-3", "primary_type": "神社" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmMoI0zMrOqeUTdOK9m0nljdiZq-4_1WBgzv2PoAvKouEiDdpjdro_F6Ettf_b_zie4eL1OB6TQljUYV4nPbHLDrjddwi66Ogre4TmAUcy9lC08FTGWRIq18jKg9Tj-JGR8Q-K7lHg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Masa Koba", "uri": "https://maps.google.com/maps/contrib/117735235891677104415" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4182708331007934841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-30T19:56:46+00:00" },
+          "researcher_note": "愛宕神社の社務所。宮司不在時も神職・巫女が常駐し社を預かる実在の施設。"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJxahbb1ULAWARHHhz54MWWOs",
+          "title": "社務所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒520-0015 滋賀県大津市神宮町1-1", "primary_type": "神社" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPIzefLOmdwRIQkCUljQJzu0myrrUVA5SiVt9BJAOUJURSHaf7w_fuDjwfxY56MQYkuqKoT0KAt7qZaoHA2E2vGFE_JPgsTRid-mVjB76K-Wrq3SC1eSLQyXW76jnVGsAuIPqo1=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "こちにゃん", "uri": "https://maps.google.com/maps/contrib/105588984448464001281" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16958329152643233820&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-30T19:56:46+00:00" },
+          "researcher_note": "大津市神宮町の神社社務所。Places上の名称は「社務所」のみで個別神社名は確認できていない。"
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJj4V85vodImARMW2QkVLXqDQ",
+          "title": "社務所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒309-1634 茨城県笠間市福原2001", "primary_type": "神社" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDrEd5ax6WLmpJt99E4Ylvw61HdUbN7wmWuHQumEbWcWHY3zW92PCDqZ4dMpDLcUAVUGXyaMiihf3OU9isn-NXcM1sSomj4RQ2fgH5nDrl-MkXeqGHlpvazDpf-sb7deTb9-GSkSEOgdZjH=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "小鐘日本生活", "uri": "https://maps.google.com/maps/contrib/110707835124104156403" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3794519435689094449&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-30T19:56:46+00:00" },
+          "researcher_note": "笠間市福原の神社社務所。Places上の名称は「社務所」のみで個別神社名は確認できていない。"
+        },
+        {
+          "cand_id": "arch-07",
+          "source_api": "google_places",
+          "source_id": "ChIJh8Nbi8thGGARF0LRefiumJA",
+          "title": "社務所（六郷神社）",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒144-0046 東京都大田区東六郷3丁目10-10", "primary_type": "神社" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmN_WwGa4fpO_3CrzhkRX3J2OWaTg5h_MvSgAkVYvVMP-0wwixSJlVISwjLUZLgqj8AvLB99DtR31Qjy_700v82QBWCLFvB8qwWcudRNgSdv2EsS4YUUkRNXl5oXKcSGtMmCtCwPMAAY7n_h=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Yoshiyasu Sugita", "uri": "https://maps.google.com/maps/contrib/107343870786152708142" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10419270120140522007&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-30T19:56:46+00:00" },
+          "researcher_note": "六郷神社の社務所。名称に社名が明示された実在の社務所。"
+        },
+        {
+          "cand_id": "arch-08",
+          "source_api": "google_places",
+          "source_id": "ChIJPRlWKpRcVzUR74S6_K5qanA",
+          "title": "出雲大社",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒699-0701 島根県出雲市大社町杵築東195", "primary_type": "神社" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmONQnwoabpaohNWqo_vCNgPlDrRwA5vE0BeqBoBrpsut9f8TcTJ7eC_Mz91MPYT6sTxoyfhIR_A60RkmCRDGPVcpNCPGuAoJiFNfQ4-lZJQgJo3Dv8Iv_ESMWVfaDD5h8-61BId=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "大竹博之", "uri": "https://maps.google.com/maps/contrib/115443155743813614281" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8100404179576194287&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-30T19:56:46+00:00" },
+          "researcher_note": "神々が集う出雲大社本体。発注が求める『留守を預かる側』ではなく神々が向かう先であり、採用する場合は主題との向きの違いに注意が要る。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "rest-01",
+          "source_api": "google_places",
+          "source_id": "ChIJ__9vcvWGhV8RrIvLzfpSl6Q",
+          "title": "紫波酒造店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒028-3447 岩手県紫波郡紫波町宮手泉屋敷2-4", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPF7Zq-BxDCtNadvS2WADL4c1b9a5hXjS-MKsftrQ6oZk9DfIJsPtuWYq1oY7nNKaUXhtjnMciQardmPhMzxHTVvyh4vaqcGUscXfL8Pvun5eiMD7lyRRAcgDr4apYGloe9hGY=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "廣田酒造店", "uri": "https://maps.google.com/maps/contrib/113132660081665863742" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11860039380851461036&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-30T19:58:21+00:00" },
+          "researcher_note": "岩手県紫波町の老舗酒蔵。杜氏・当主の不在時の仕込み継続に関する具体的な逸話はPlacesの情報からは確認できていない。"
+        },
+        {
+          "cand_id": "rest-02",
+          "source_api": "google_places",
+          "source_id": "ChIJx7DajtXP9V8RbodSEfjvGko",
+          "title": "代々菊醸造㈱",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒949-3247 新潟県上越市柿崎区角取597", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNrdbkzR5m6XYV4ITMcT8R6QDcIN7hTAwlbiZfNfFr8MV_-xtNf0q_hxNze9vw_beTLf0PAMb5R6DDs4ZQfG5yjF4G1ptsRfHifv7lxUVTQe9dxmYOFPooi-QmLSeRAKE7x4gLf=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "高の定義", "uri": "https://maps.google.com/maps/contrib/112123314407959795682" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5339844156922693486&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-30T19:58:21+00:00" },
+          "researcher_note": "新潟県上越市の酒蔵。「代々」を名に持つが不在下の継承の具体的逸話はPlacesの情報からは確認できていない。"
+        },
+        {
+          "cand_id": "rest-03",
+          "source_api": "google_places",
+          "source_id": "ChIJ7bZQTT3OhF8RBQfdpLs-iQg",
+          "title": "㈱南部美人",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒028-6101 岩手県二戸市福岡上町13", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmP8C_-QUnVFO-82kBbfqt2p-U9__IckirT4Pw_LlS6ek1OEgQk6REdfQiN5umKki08VA9jQ7ZtCve8zAiqByqxd3FziYE2SurcqSso3iU1JnN3PmQEHRU5p6q4Gx8-DMgJUJyyo=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "㈱南部美人", "uri": "https://maps.google.com/maps/contrib/111252795901989397190" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=615091799758538501&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-30T19:58:21+00:00" },
+          "researcher_note": "南部杜氏の本拠地岩手県二戸市の酒蔵。南部杜氏は冬季のみ蔵元に入る渡り杜氏の伝統を持つ地域だが、本蔵固有の不在継承逸話はPlacesの情報からは確認できていない。"
+        },
+        {
+          "cand_id": "rest-04",
+          "source_api": "google_places",
+          "source_id": "ChIJZWN0apofGWAR3dmql_EjxPc",
+          "title": "石川酒造",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒197-0003 東京都福生市熊川1", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAwVOX1k62uKfgFMPe8-YZJq0gclIl4Cx8J8U-1qA4V5QVWnGbh43QbbbZgAMSSPrk5gnFBvRLMFv7d6maBze-zZccImlvpMp97Q0OZh_Z5rD-yKebY9LJr9z2iHC38XVHob_NIs8MUR-qLmks=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "石川酒造", "uri": "https://maps.google.com/maps/contrib/116723764270918689693" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17853434343342135773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-30T19:58:21+00:00" },
+          "researcher_note": "多摩地方の老舗酒蔵。当主不在下の仕込み継続に関する具体的逸話はPlacesの情報からは確認できていない。"
+        },
+        {
+          "cand_id": "rest-05",
+          "source_api": "google_places",
+          "source_id": "ChIJy78oxo2f_18RP-ihx1LsIUE",
+          "title": "向井酒造株式会社",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒626-0423 京都府与謝郡伊根町平田67", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDAySrbTqojQl4sNK4XSymJMWb7Wc5SxUkE5Iyu8K-6L8Br9UIHgY1SliymkieTV-2wdyzMn1JatLTNbt9lJEdZPrryWr_FUsjDO_Vjy_Tm3mw2pkWj8QIQ3HlCira_DlMlvYlLFgbgY43xXbI=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "永", "uri": "https://maps.google.com/maps/contrib/103740882848806601196" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4693292126977517631&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-30T19:58:21+00:00" },
+          "researcher_note": "伊根の舟屋で知られる酒蔵。女性杜氏による蔵の運営が知られるが、不在継承の具体的経緯はPlacesの情報からは確認できていない。"
+        }
+      ]
+    },
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poetry-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044005009",
+          "title": "角川俳句大歳時記 秋",
+          "creator": "茨木和生, 片山由美子, 長谷川櫂, 宇多喜代子, 高野ムツオ, 堀切実 ほか編",
+          "year": 2022,
+          "publisher": "KADOKAWA",
+          "meta": { "ndl_detail": "https://ndlsearch.ndl.go.jp/books/R100000002-I032331082" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032331082", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-30T19:55:54+00:00" },
+          "researcher_note": "秋の季語を網羅する大部の歳時記。神無月・恵比寿講系の季語と例句を収録している可能性が高い最有力の一冊。"
+        },
+        {
+          "cand_id": "poetry-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044008024",
+          "title": "角川季語別俳句集成 秋",
+          "creator": "角川書店 編",
+          "year": 2025,
+          "publisher": "KADOKAWA",
+          "meta": { "ndl_detail": "https://ndlsearch.ndl.go.jp/books/R100000002-I034281900" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034281900", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-30T19:55:54+00:00" },
+          "researcher_note": "季語別に例句を集成した秋の巻。神無月・恵比寿講の項に複数の例句が並ぶ構成の書。"
+        },
+        {
+          "cand_id": "poetry-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784046219688",
+          "title": "角川季寄せ",
+          "creator": "KADOKAWA 編",
+          "year": 2014,
+          "publisher": "KADOKAWA",
+          "meta": { "ndl_volume": "秋", "ndl_detail": "https://ndlsearch.ndl.go.jp/books/R100000002-I025134017" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025134017", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-30T19:55:54+00:00" },
+          "researcher_note": "NDL書誌で秋の巻と記録された季寄せ(簡便版歳時記)。携行版で季語の要点を確認できる。"
+        },
+        {
+          "cand_id": "poetry-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044007867",
+          "title": "角川季寄せ",
+          "creator": "KADOKAWA 編",
+          "year": 2024,
+          "publisher": "KADOKAWA",
+          "meta": { "note": "2022年刊『新版角川俳句大歳時記』の内容に合わせた改訂版", "ndl_detail": "https://ndlsearch.ndl.go.jp/books/R100000002-I033258151" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033258151", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-30T19:55:54+00:00" },
+          "researcher_note": "季寄せの最新改訂版(2024年)。四季通巻のため神無月の項を含む。"
+        },
+        {
+          "cand_id": "poetry-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784337164031",
+          "title": "秋の季語事典",
+          "creator": "石田郷子 著, 山田みづえ 監修",
+          "year": 2003,
+          "publisher": "国土社",
+          "meta": { "series": "俳句・季語入門 3", "ndl_detail": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004057090" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004057090", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-09-30T19:55:54+00:00" },
+          "researcher_note": "秋の季語を一つずつ丁寧に読み解く入門事典。季語が示す時間感覚の解説に重点を置く構成で発注に近い。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

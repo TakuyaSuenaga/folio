@@ -62,3 +62,4 @@ vol.059 | 2026-09-26 | 分点 | architecture,poetry,music | 子午線直上の�
 vol.060 | 2026-09-28 | 再戦 | film,architecture | 那須川再戦を起点に、続編映画と震災復旧中の熊本城で『二度目に宿る強度』を読む。restaurantは実在チェーン未確認で落とし2件構成。
 vol.061 | 2026-09-29 | 定数 | poetry,music,architecture | 五七五・基準音高・高さ制限——数値の定数もまた時代の合意によって定め直されてきたことを三点で読む
 vol.062 | 2026-09-30 | 文献調査 | architecture,book | 掘るが処分しない研究坑道と、物証だけで来歴を判定する書誌学の一冊で、現地調査に先立つ『文献調査』という方法を読む(filmはiTunes Search API障害により欠)
+vol.063 | 2026-10-01 | 神無月 | architecture,restaurant,poetry | 灯台退息所・渡り杜氏・季語事典の三点で、不在は空白でなく引き継がれた責任であることを読む

@@ -1,0 +1,34 @@
+{
+  "vol": 63,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=17173091720803687955&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://maps.google.com/?cid=615091799758538501&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004057090",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[1](restaurant ㈱南部美人) h2・DATA欄「題名」と本文の表記",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "h2見出しとDATA欄「題名」は「㈱南部美人」、本文(essay)では「南部美人は」と法人格表示㈱を欠いて一度だけ言及している",
+      "teisei": "本文でも「㈱南部美人は」とするか、見出し・DATA欄を「南部美人」に統一し、三点一致させる"
+    }
+  ]
+}
