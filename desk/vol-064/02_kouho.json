@@ -1,0 +1,460 @@
+{
+  "vol": 64,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJQS7vBxuLGGAR-Grk6oJ8etw",
+          "title": "東京都庭園美術館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒108-0071 東京都港区白金台５丁目２１−９",
+            "primary_type": "Art museum"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmM7WSaMNeCVb7jJzsJEkdsZd-JAC1OJHZRGEhqaQTb1FyGA7AzVicCSj1di0w2z78_LHkQD3zscdq4XcMuz_XcWO8PolA-JpgnkZ8M6fYS0P73XpOtI-dblqs6KwL6fEbW-8ELU=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "S Tackey", "uri": "https://maps.google.com/maps/contrib/117763587722113460033" }
+            ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=15887147537231276792&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-01T20:06:27+00:00" },
+          "researcher_note": "「回遊式庭園 美術館」で検索し取得。旧朝香宮邸、アール・デコ様式の庭園美術館"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJxU48-2OLGGARHMtB5RAhytA",
+          "title": "根津美術館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒107-0062 東京都港区南青山６丁目５−１",
+            "primary_type": "Art museum"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCcqaTKbtxAf2NtxdLHKjCVrN2yg7pKV15ht3oXnaneXfAv7xxdQaSdDaqNdckmQ7tQLgNLYVMsdfaLwXQcS831apjjZUJ9L7cLdIP1zPbVCoiOSmegVONMnD7NuFNcMB4157ZV6xp2KIQbRA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Lucia Opazo", "uri": "https://maps.google.com/maps/contrib/104930444377259316820" }
+            ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=15044873861634050844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-01T20:06:27+00:00" },
+          "researcher_note": "「根津美術館」で検索し取得。広大な日本庭園を併設する私立美術館"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJ4WHu5yvuUzURCXiEZmVSozw",
+          "title": "地中美術館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒761-3110 香川県香川郡直島町３４４９−１",
+            "primary_type": "Art museum"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPOgSOjl8z5cPvB4UqtPFtKHOlG5X62uC1WU9gOCipoFwStSkKM1-lLflMquqxP4hiFLo8fAWDXqMuS8RyuAdAe7HBCtfDcxXPUGJ4yma9pgRcaytrLb2B8t1t6_hx_x18-6hlu=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "윤인수", "uri": "https://maps.google.com/maps/contrib/109999102688404184382" }
+            ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=4369426658944645129&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-01T20:06:27+00:00" },
+          "researcher_note": "「地中美術館」で検索し取得。直島のベネッセアートサイトに属する、地中に埋設された美術館"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJny6DWjX9VjURJ0JQt8PoKCA",
+          "title": "足立美術館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒692-0064 島根県安来市古川町３２０",
+            "primary_type": "Art museum"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAQfrT-94UI1poVdR7RMW2CWdd3v9MhWwTIBfq8OvdU_ojAzlmm22sPxeMugW9YhAaXnPOudaNdMsUaRPQNMoTr8CNjdkfa_Qhp1CzEG4Tfo7whzxvav3Au3E3BLNpE4kay4FQrPVSPnqtR=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "まわつくしゅうさく", "uri": "https://maps.google.com/maps/contrib/117105759769487486295" }
+            ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=2317357935573877287&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-01T20:06:27+00:00" },
+          "researcher_note": "「足立美術館」で検索し取得。借景庭園で知られる美術館"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ37MTtoHYUzUR1em8ttQSwKo",
+          "title": "丸亀市猪熊弦一郎現代美術館（MIMOCA）",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒763-0022 香川県丸亀市浜町８０−１",
+            "primary_type": "Art museum"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdk8dQsNIIpm47a2hujp1Bqzrmp3TYKRrCPYUyTmdwyBQt2qnWKOWbfvfXPDZQnjGktq4EH8QFwyJ7BMmKlt9TZsGEf8H_Emz50g7mV_BejXL6gcC8IiMlWjoPAMppJvKLFl1PO=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Goodday Cafe", "uri": "https://maps.google.com/maps/contrib/101599667891743214552" }
+            ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=12303854886784395733&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-01T20:06:27+00:00" },
+          "researcher_note": "「丸亀市猪熊弦一郎現代美術館」で検索し取得。谷口吉生設計、駅前広場と一体の現代美術館"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1591286018",
+          "title": "Wagner: Prelude & Liebestod from Tristan und Isolde, Prelude & Good Friday Music from Parsifal",
+          "creator": "ヴィルヘルム・フルトヴェングラー & ベルリン・フィルハーモニー管弦楽団",
+          "year": 2021,
+          "publisher": "Warner Classics",
+          "meta": { "trackCount": 4, "primaryGenreName": "クラシック" },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ea/51/a6/ea51a6a9-d5c5-4e57-6c72-8f578e98b8e2/190296391231.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/wagner-prelude-liebestod-from-tristan-und-isolde-prelude/1591286018?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-01T20:07:09+00:00" },
+          "researcher_note": "「Tristan und Isolde Prelude」検索で取得。トリスタン和音による主和音到達の先延ばしで知られる前奏曲"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1452342460",
+          "title": "Wagner: Wesendonk Lieder; Tristan & Isolde: Prelude & Liebestod",
+          "creator": "サー・コリン・デイヴィス, ジェシー・ノーマン & ロンドン交響楽団",
+          "year": 1976,
+          "publisher": "Universal International Music B.V.",
+          "meta": { "trackCount": 7, "primaryGenreName": "クラシック" },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/09/69/f7/0969f73f-23af-961c-93c3-575ad4bd8dd5/00028947892779.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/wagner-wesendonk-lieder-tristan-isolde-prelude-liebestod/1452342460?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-01T20:07:09+00:00" },
+          "researcher_note": "「Tristan und Isolde Prelude」検索で取得。同前奏曲の別録音"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1452626290",
+          "title": "Franck: Symphony - Ravel: Fanfare from L'Éventail de Jeanne",
+          "creator": "レオポルド・ストコフスキー & オランダ放送フィルハーモニー管弦楽団",
+          "year": 1971,
+          "publisher": "Decca Music Group Limited",
+          "meta": { "trackCount": 4, "primaryGenreName": "クラシック" },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d8/39/63/d839631b-08a3-eeae-1710-b6f8dc96e0fa/00028948338900.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/franck-symphony-ravel-fanfare-from-l%C3%A9ventail-de-jeanne/1452626290?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-01T20:07:09+00:00" },
+          "researcher_note": "「Franck Symphony D minor」検索で取得。循環形式で主調回帰が終楽章まで持ち越される交響曲"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "378450058",
+          "title": "Franck: Symphony - Stravinsky: Petrouchka",
+          "creator": "ピエール・モントゥー & ボストン交響楽団",
+          "year": 1999,
+          "publisher": "BMG Music",
+          "meta": { "trackCount": 19, "primaryGenreName": "クラシック" },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/04/1a/76/041a7600-fd60-baea-d451-966922a7e3ad/dj.ouoenenj.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/franck-symphony-stravinsky-petrouchka/378450058?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-01T20:07:09+00:00" },
+          "researcher_note": "「Franck Symphony D minor」検索で取得。同交響曲の別録音"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1710639322",
+          "title": "Sibelius: Symphony No. 5",
+          "creator": "エサ=ペッカ・サロネン & サンフランシスコ交響楽団",
+          "year": 2023,
+          "publisher": "San Francisco Symphony",
+          "meta": { "trackCount": 3, "primaryGenreName": "クラシック" },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3d/7e/e7/3d7ee767-4a86-24be-0ce6-1d2ae3893c67/821936010624.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/sibelius-symphony-no-5/1710639322?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-01T20:07:09+00:00" },
+          "researcher_note": "「Sibelius Symphony No 5」検索で取得。終楽章の主和音確定が長い属音保続で引き延ばされる交響曲"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1076385049",
+          "title": "Sibelius: Symphony No. 5",
+          "creator": "ハレ管弦楽団 & ジョン・バルビローリ",
+          "year": 2016,
+          "publisher": "Parlophone Records Limited",
+          "meta": { "trackCount": 3, "primaryGenreName": "クラシック" },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/e9/26/69/e926696b-4120-5772-4828-6b71d7046b51/825646479702.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/sibelius-symphony-no-5/1076385049?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-01T20:07:09+00:00" },
+          "researcher_note": "「Sibelius Symphony No 5」検索で取得。同交響曲の別録音"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJJ4sWQOOLGGARW3M1A4pP4yE",
+          "title": "シェ・イノ",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒104-0031 東京都中央区京橋２丁目４−１６ 明治京橋ビル １階",
+            "primary_type": "フランス料理店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc8DYOicpg18N93khiMm_vHnfNiw0oye68lAlSunmcU5Hpu6lROyXi0EG6AKzkzKf-UBNWN42F1DnwTstob5kDtKzfK-jWnJzQI8kpYARivaltJgxLJNO2Cdc0HFBEhAe4RqsBlIgN7hIw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "S net", "uri": "https://maps.google.com/maps/contrib/109899978852705165644" }
+            ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=2441882877142856539&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-01T20:07:01+00:00" },
+          "researcher_note": "「フレンチ コース 東京」で検索し取得"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJV7oGAWWLGGARslO9OGTuG-A",
+          "title": "レフェルヴェソンス",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒106-0031 東京都港区西麻布２丁目２６−４",
+            "primary_type": "フランス料理店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBYGqxQzX0PMdWtkOHYE5sLqNLz0b3WmFWNmIOx8iQzY3KnkxSlKBsj1WC0QlqI_6yVTv4d1Uftmrqj5vbzDwPly0IK1n7y9jnX9yafeONZV2YooCH6cuQj34c8WsF2KlR2ci304UPz8y-GAA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "レフェルヴェソンス", "uri": "https://maps.google.com/maps/contrib/103639396293669432199" }
+            ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=16148763003083117490&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-01T20:07:26+00:00" },
+          "researcher_note": "「フレンチ コース 東京」で検索し取得"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJVVXF5doIAWARUetIixOU-sw",
+          "title": "菊乃井 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒605-0825 京都府京都市東山区下河原通八坂鳥居前下る下河原町４５９",
+            "primary_type": "和食店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBbuhZuCC7FNPEzOof6ufEZzpOoEL--YnY7-biJ4oMkBm3HRmCvreo9jFyarn3YOcl9WfxmmXfa7m1Snnvx_q7ncY3dh3HDEgpSpBt8maea7lEaudTQULdN4loYSFO7DLooo16KxS3ykQmXaw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "藤野力夫", "uri": "https://maps.google.com/maps/contrib/103204603564785617157" }
+            ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=14770280739577064273&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-01T20:07:01+00:00" },
+          "researcher_note": "「懐石 コース 京都」で検索し取得"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJv0lV1EMIAWAR4KjdVnmV0Ls",
+          "title": "下鴨茶寮 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒606-0801 京都府京都市左京区下鴨宮河町６２",
+            "primary_type": "和食店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjCqvMJ8r1Od5h8F4b5GTGF36VR2OJPmfsmFxffHoHTaaq9mGlyRwa_JrzUL8q27bZJClQ4CjTmRV9wttHJl_afBBPn-IrPI3jd5G1LvAhsxtqsmtaNbXJOGi3cehQaQO7b1XVoFzv43jbzMecefYTiDMw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "下鴨茶寮 本店", "uri": "https://maps.google.com/maps/contrib/110308209438208423169" }
+            ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=13533481228629289184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-01T20:07:01+00:00" },
+          "researcher_note": "「懐石 コース 京都」で検索し取得"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJb4zKhweMGGARLbGvDtVy5wY",
+          "title": "アルヴァ東京",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒100-0004 東京都千代田区大手町１丁目５−６ 大手町タワー",
+            "primary_type": "イタリア料理店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNS0L2fEUYURajeEDqOl-oK1aULqE8Qmc6Nirkl1qbe-ZSQbbm4rsT4Wi_S9w71lvw2SFGlgitMsqFrQgMBbymJLQYGrieh0tdwedPY32-9Kk4geavrbnXvOYXwjpxm9nhYbYzo=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Aman Tokyo Arva Italian Restaurant", "uri": "https://maps.google.com/maps/contrib/100343853544918484003" }
+            ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=497492543247724845&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-01T20:07:01+00:00" },
+          "researcher_note": "「イタリアン コース 東京」で検索し取得"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJj7nDu7eNGGARRlwH9Tzo8Mo",
+          "title": "リストランテ アクアパッツァ",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒107-0062 東京都港区南青山２丁目２７−１８ AOYAMA M's TOWER（青山エムズタワ パサージュ青山2F",
+            "primary_type": "イタリア料理店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBmG90irWxyckxzX4BYOReSvOE6qf0vptgy0-NeBwdyHpdVU5dJ1ILR5m0rYtYN3Pi3l5hfPxYbu6ogvMj0DWiXZN9W87UjZ1d3tD7ThTQjv6D6Gw-G2lNhoXCe-5hVxw358Emihpk3G410eA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Mami Endo", "uri": "https://maps.google.com/maps/contrib/104430866888204580027" }
+            ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=14623443338578582598&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-01T20:07:01+00:00" },
+          "researcher_note": "「イタリアン コース 東京」で検索し取得"
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJu3eG8uiLGGAR14kVvD_YrHI",
+          "title": "銀座久兵衛 銀座 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒104-0061 東京都中央区銀座８丁目７−６",
+            "primary_type": "寿司店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcnaw4nG5Vmm23upekJPR7awPT8AuN18_w46VAYT62urcgmIEEHhVFKaY60_ExF2gYNixciLjSubjHvAphvwcJyiMaBP5XFTAyhvzIywLTjgG3Zxa-YT8glIZ-4PXvyleSG3K-8fZzoyJG2=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "42 HIWA", "uri": "https://maps.google.com/maps/contrib/102766497229212483735" }
+            ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=8263217184568084951&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-01T20:07:01+00:00" },
+          "researcher_note": "「鮨 コース 東京」で検索し取得"
+        },
+        {
+          "cand_id": "res-08",
+          "source_api": "google_places",
+          "source_id": "ChIJ4zA5t5OLGGAR8biKcZIqumw",
+          "title": "鮨 無垢",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒106-0032 東京都港区六本木７丁目１４−７ トリニティビル B1F A区画",
+            "primary_type": "寿司店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDVpTh2IUMtRNqZ_z1sxKJ1Pg3wkndxfwSHArRqswWcCz50T2H7AphMy6iQz-tAy9yYiE__P3Pj3LUPQgPHSJgoZnMStZRZwj56kDRjtAQICMenBEKF0YUh6ep66-bXthOyFlWJWjm0ALWGRg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "六本木 鮨 無垢/白銀", "uri": "https://maps.google.com/maps/contrib/110934736105139074136" }
+            ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=7834621310222907633&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-01T20:07:01+00:00" },
+          "researcher_note": "「鮨 コース 東京」で検索し取得"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
