@@ -1,0 +1,51 @@
+{
+  "vol": 65,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true,
+      "items[2].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://music.apple.com/jp/album/the-bootleg-series-vol-5-live-1975-the-rolling-thunder-revue/292026137?uo=4": true,
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I027775135": true,
+        "https://maps.google.com/?cid=14529115146580534713&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      { "url": "https://music.apple.com/jp/album/the-bootleg-series-vol-5-live-1975-the-rolling-thunder-revue/292026137?uo=4", "status": 200 },
+      { "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027775135", "status": 200 },
+      { "url": "https://maps.google.com/?cid=14529115146580534713&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "status": 200 }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "head内 meta og:description",
+      "severity": "minor",
+      "type": "組版",
+      "genzai": "「石油備蓄が放出され、仕込まれていた酒は樽を出」で文節途中(「出て、」の「て、」の前)に切れている",
+      "teisei": "文節の切れ目まで含めるか、省略した場合は末尾に三点リーダ「……」を付して不自然な語の途中切れを避ける"
+    },
+    {
+      "id": "P-02",
+      "location": "奥付(footer.okuzuke)末尾",
+      "severity": "minor",
+      "type": "組版",
+      "genzai": "「folio / VOL.065 / 2026-10-03 / 発行元 folio」の段落直後に空の<p></p>が残っている",
+      "teisei": "空の<p></p>を削除する"
+    }
+  ]
+}
