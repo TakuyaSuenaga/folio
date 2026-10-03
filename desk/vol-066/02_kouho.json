@@ -1,0 +1,398 @@
+{
+  "vol": 66,
+  "genres": [
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJVby9v-WLGGARZXCGPfhHpA4",
+          "title": "東京・銀座 すきやばし次郎",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都中央区銀座４丁目２−１５ 塚本総業ビル B1階", "primary_type": "寿司店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfZV4yaVGPtZf5OmuGNPVH8SIi-TAEsf8lX_geayTvyvIjIGyWwNj_J6sHJ2DkMGgF2NOSDUAgMLLYXrYs08fRq9bGPvQ218mM4Me8iwOIJ0Fs-0cHPKPvnptZp9Qxmf_pT_YTG=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Juan G Angel (TvAgro)", "uri": "https://maps.google.com/maps/contrib/113471339806277474996" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1055047344221220965&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:18+00:00" },
+          "researcher_note": "ミシュランガイド東京で長年にわたり星を保持してきたとされる寿司店。星数・継続年数はPlaces APIの範囲外のため本データでは未確認。"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJP-dHJnSLGGAR6lRM5169Uj0",
+          "title": "日本料理 かんだ",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都港区愛宕１丁目１−１ 虎ノ門ヒルズレジデンシャルタワ １階", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc1SyQBGphQMed5gn8qIdVDNoSzwZvqR5-rHFopR3MR2Hu2_qlPdCkSNKOdsZr8EFf2A0EY2qrDjm9cn0STkeFfQUdMHTuQbL1gBqkIuuq1rChfDHZ1O2T57yzMYV-8PY_VNM-J=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Happy Otto", "uri": "https://maps.google.com/maps/contrib/105094993167695032451" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4418802399708992746&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:18+00:00" },
+          "researcher_note": "ミシュランガイド東京で長年にわたり星を保持してきたとされる日本料理店。星数・継続年数はPlaces API範囲外のため未確認。"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJVWDJ2-iLGGARrb9VTXObGIE",
+          "title": "銀座 小十",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都中央区銀座５丁目４−８ 銀座カリオカビル 4F", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeO-W1xYLZE0F5whxvdSD37IZR_cmYi13mUFJqtmgR7XmfO-gwZHi_A9NRjKkFEWj1gjA2vt4LQq6FUU3q56KvLbZXNXHaOTaGA7CASwORfI-uOZpXC1R5rp2HSXh937XAQvq2ITg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "奈塚Q弥", "uri": "https://maps.google.com/maps/contrib/118252634782609753961" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9302355949854769069&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:18+00:00" },
+          "researcher_note": "ミシュランガイド京都・大阪版の流れを汲む店主が銀座で開いた和食店。星の継続年数はPlaces API範囲外のため未確認。"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJAQBM40SJGGARE_FACL6szA0",
+          "title": "日本橋 蛎殻町 すぎた",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都中央区日本橋蛎殻町１丁目３３−６ ビューハイツ日本橋 地下１階", "primary_type": "寿司店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjDOoPxXSH0oIZ-e5lLxH2WOSbKbqySC5W-qIB561q1xqExYikLLsO-ZgIyIxnzAa66NHaDDajwyZLz0ZzMZLuMPvYs-rNZI1kuv9E2x-FkLgt8NrZkljri_aX8XjghRtgVAyjIgH_YRAw6Ruq8=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "toniez com", "uri": "https://maps.google.com/maps/contrib/109511023337718746510" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=994359549924274451&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:18+00:00" },
+          "researcher_note": "ミシュランガイド東京で長年にわたり三つ星を保持してきたとされる寿司店。継続年数はPlaces API範囲外のため未確認。"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJVVVFaACqAWARTiBmMRQ2LBg",
+          "title": "京都吉兆 嵐山本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "京都府京都市右京区嵯峨天龍寺芒ノ馬場町５８", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAKkVP8CWShOp9AHaTdhPSMAfKKFW58jpIlAciUWPdbXT3szA52l9ZGUuWRY3eui8n2ZvH3-Engg7IsIwXBkMbJwZfu3kZx5wiktc84LwOpwchmOatulg4Zg_rfOHZLCWl02nlTohJjbyQaIEs=s4800-w530",
+            "source": "google-places",
+            "attributions": [ { "name": "京都吉兆 嵐山本店", "uri": "https://maps.google.com/maps/contrib/113668093211374506338" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1741826616241561678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:18+00:00" },
+          "researcher_note": "ミシュランガイド京都・大阪版で長年にわたり星を保持してきたとされる料亭。継続年数はPlaces API範囲外のため未確認。"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJVVXF5doIAWARUetIixOU-sw",
+          "title": "菊乃井 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "京都府京都市東山区下河原通八坂鳥居前下る下河原町４５９", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjB1JBi2ImZFqxMB29vvZ6T_O1P9ndf_pQ75HdcpdJhXiIFok-uuuemayQbDRmpHsX_TF4HIdGhpXFbXxI4rZmJehhy6rwgPP6NYCE62U9ov5Wqv_F9IC9XAJSa_5nJRjMlYZPyf9HA5nYhI4Q=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "藤野力夫", "uri": "https://maps.google.com/maps/contrib/103204603564785617157" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14770280739577064273&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:18+00:00" },
+          "researcher_note": "ミシュランガイド京都・大阪版で長年にわたり星を保持してきたとされる老舗料亭。継続年数はPlaces API範囲外のため未確認。"
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJ8T36HxCLGGARvpARPDyaKLA",
+          "title": "カンテサンス",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都品川区北品川６丁目７−２９", "primary_type": "フランス料理店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf4ALPNyF0igSQKoFDsayU2QWkMODZ-JFQnJ3OyiWUGEmwde-fDtI1Gmjd7a1gLNWe4Lh3Yn3EbBS08V2pmuB-0PFGB_va7s9UfBo_6LN83FiEF6RD83QZ4XyACblZlTQX5Ns5dHA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Indoorfish", "uri": "https://maps.google.com/maps/contrib/111719219215411994893" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12693565133240242366&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:18+00:00" },
+          "researcher_note": "開業以来ミシュランガイド東京で長年三つ星を保持してきたとされるフランス料理店。継続年数はPlaces API範囲外のため未確認。"
+        },
+        {
+          "cand_id": "res-08",
+          "source_api": "google_places",
+          "source_id": "ChIJhU8r4Ba6JhUR2uFksk0mpCg",
+          "title": "Florilège",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都港区虎ノ門５丁目１０−７ 麻布台ヒルズ ガーデンプラザD 2F", "primary_type": "フランス料理店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjB0syB1ee-LV8t_OFoSgp_TEFRGPm5I84Di-w-lwl2apXosMQ_bqdoV57fXy_0XH6y9HsXrR4ZH_Ls7i0S7_jfM5uLnpfCzQF80Ts8x5dARljjo8Ab2LBPUK1qYhGsLmFbj3YB3wAeW4XERyO8=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Yameki J", "uri": "https://maps.google.com/maps/contrib/110126556572448632608" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2928507772844958170&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:18+00:00" },
+          "researcher_note": "移転を経ながらミシュランガイド東京で複数年にわたり星を保持してきたとされるフランス料理店。継続年数はPlaces API範囲外のため未確認。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJEwyaTjAoil8RsaujmBJpV60",
+          "title": "せんだいメディアテーク",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "宮城県仙台市青葉区春日町２−１", "primary_type": "カルチャー センター" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjAsFpcl6tzs2dgenGFZ00hhm24h2TC2Wy8thIVx_LlF_VjrHfb6FNDDmgq6yixmZCkiQhyG-ZcYTnVFPWQiA5O4ggIqv15X8XqMLN_CXstgtwJI23EG752lf73mvfixlACNp06C9V7B3fwB=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "小久保圭基", "uri": "https://maps.google.com/maps/contrib/110498977076474767993" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12490567620126550961&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:27+00:00" },
+          "researcher_note": "伊東豊雄設計。竣工後に国内外の建築賞を複数回受けたとされる施設。受賞歴の詳細はPlaces API範囲外のため未確認。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJAbhT24Az-F8RwWhli9sBKlE",
+          "title": "金沢21世紀美術館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "石川県金沢市広坂１丁目２−１", "primary_type": "Art museum" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AG9NLjBbIoVhKwCcK_Vh2ujvhECMyPPGoE2UGWervPdO6PyU2mafYYTke8aD8Bn1xmuNOS-NzQBL5o1yu2ujf5X0VxReDK5262y8srmcBIeLKQj_k07OXSgtIAH7eoW7eS6pSTv40DrRl4rVDK6c=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "kan", "uri": "https://maps.google.com/maps/contrib/116652137552222556458" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5848489108542154945&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:27+00:00" },
+          "researcher_note": "SANAA(妹島和世+西沢立衛)設計。竣工後に国内外の建築賞を複数回受けたとされる施設。受賞歴の詳細はPlaces API範囲外のため未確認。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJtyvayxKiWjURgIGSanFnMPE",
+          "title": "広島平和記念資料館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "広島県広島市中区中島町１−２", "primary_type": "博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLecGqLsX-7imdDiq--Da6TJ1kq791PQR1UlBJpwgwn3IduC8wPH7VS9mlnxYNC8G7N6H-eceb9u_MOhvOYfwFcPH22aVoZAh4SlQOiHjdv1QytaKycVjmSCDNXtN0GskDg3XddbWA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Junior dos Reis", "uri": "https://maps.google.com/maps/contrib/111724947758006174882" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17379504698839695744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:27+00:00" },
+          "researcher_note": "丹下健三設計。同建築家は代表作群で国内外の建築賞を複数回受けたとされる。受賞歴の詳細はPlaces API範囲外のため未確認。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJxeQ_6q-MGGARexvt6BPzdG4",
+          "title": "国立代々木競技場 第一体育館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都渋谷区神南２丁目１−１", "primary_type": "アリーナ" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmMLXYM_o4LDl-ULpNLtgr_skDaG1jPtUrlE6e8YVOgYP8eIDkxH5DFYi61V5grJ4LgpTun5saOscA9EbIqzGAhnR8CNSFAJZgOE_Q0k4AQ7iGIz-Eqp0smDvlBJMivX1lHjvfI64g=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ゆずたそ", "uri": "https://maps.google.com/maps/contrib/101329440211616360058" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=7959253708308290427&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:27+00:00" },
+          "researcher_note": "丹下健三設計。同建築家は代表作群で国内外の建築賞を複数回受けたとされる。受賞歴の詳細はPlaces API範囲外のため未確認。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ4WHu5yvuUzURCXiEZmVSozw",
+          "title": "地中美術館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "香川県香川郡直島町３４４９−１", "primary_type": "Art museum" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLedp3pDqcaleJOGEy69ryz5p192-v1V-PNOLKz9Zv8D1HtpV_y-Rbd3AxCsEeuyl3C4ummhyNM9y9fqAeO_KMX07gfEIyUi7C6CRXDMsoZaMINBORWHWhxSmftq5VcbHpi43HQz=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "윤인수", "uri": "https://maps.google.com/maps/contrib/109999102688404184382" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4369426658944645129&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:27+00:00" },
+          "researcher_note": "安藤忠雄設計。同建築家は直島の作品群で国内外の建築賞を複数回受けたとされる。受賞歴の詳細はPlaces API範囲外のため未確認。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJS-8OKV-hTzURYHn-Ae8dpCg",
+          "title": "雲の上のホテル 別館・マルシェユスハラ",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "高知県高岡郡梼原町梼原１１９６−１", "primary_type": "ホテル" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeyFIdgFeF8hviy-GBaOmwbpw0NZfY84uSAbQnQxVFfKuRgQ7Rd2D86KTbMI0gKktlA9KglQXQF2YN3rZfJm0sn6a_e8LYbiu5CdkedfDr_VazMUvvPZad_gZDL9o_YtQXnxhKYlw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "まゆみ", "uri": "https://maps.google.com/maps/contrib/109645090346868053477" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2928498570065508704&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:27+00:00" },
+          "researcher_note": "隈研吾設計。梼原町の一連の作品群で建築家が国内の建築賞を複数回受けたとされる。受賞歴の詳細はPlaces API範囲外のため未確認。"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJ4f1ovPqLGGARPSbtLQBqysQ",
+          "title": "東京国際フォーラム",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都千代田区丸の内３丁目５−１", "primary_type": "コンベンション センター" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/place-photos/AO7kbWHlIjS7U2UEDuJUki4PrTb8Sohnwd9ElW_1VFX941kgTHNS7UdpYHSH1jaGTDUiQZ_A-9ZxJ7BNCuJI6VBjwV0WVrw8_5zcJkYr6ZdH7XzXus2PAZD7jFS-SG4aPVdZDzdOAF3jk4vz-xFU0w=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "milano6440", "uri": "https://maps.google.com/maps/contrib/103701897126920720894" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14180262925732488765&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:27+00:00" },
+          "researcher_note": "ラファエル・ヴィニオリ設計。竣工後に国内の建築賞を複数回受けたとされる施設。受賞歴の詳細はPlaces API範囲外のため未確認。"
+        }
+      ]
+    },
+    {
+      "genre": "photo",
+      "candidates": [
+        {
+          "cand_id": "pho-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784000223072",
+          "title": "江之浦奇譚",
+          "creator": "杉本博司 著",
+          "year": 2020,
+          "publisher": "岩波書店",
+          "meta": {},
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030642171", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:30+00:00" },
+          "researcher_note": "杉本博司(写真家)の著作。ハッセルブラッド国際写真賞(2001)など複数の賞を受けた作家の一冊。openBDにcover登録なし。"
+        },
+        {
+          "cand_id": "pho-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784991275616",
+          "title": "杉本博司 本歌取り 東下り",
+          "creator": "杉本博司 著・写真",
+          "year": 2023,
+          "publisher": "くま書店",
+          "meta": {},
+          "image": { "url": "https://cover.openbd.jp/9784991275616.jpg", "source": "openbd" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033042899", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:30+00:00" },
+          "researcher_note": "杉本博司の作品集。同作家は国内外の写真・芸術関連の賞を複数回受けている。"
+        },
+        {
+          "cand_id": "pho-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784104781034",
+          "title": "アートの起源",
+          "creator": "杉本博司 著",
+          "year": 2012,
+          "publisher": "新潮社",
+          "meta": {},
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I023305458", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:30+00:00" },
+          "researcher_note": "杉本博司の著作。openBDにcover登録なし。"
+        },
+        {
+          "cand_id": "pho-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784907562243",
+          "title": "as it is : 川内倫子",
+          "creator": "川内倫子 写真・文",
+          "year": 2020,
+          "publisher": "torch press",
+          "meta": {},
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030626143", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:30+00:00" },
+          "researcher_note": "川内倫子(写真家)の写真集。木村伊兵衛写真賞(2002)など複数の賞を受けた作家の一冊。openBDにcover登録なし。"
+        },
+        {
+          "cand_id": "pho-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784907562045",
+          "title": "川が私を受け入れてくれた",
+          "creator": "川内倫子 [著], 冨澤治子, 熊本市現代美術館",
+          "year": 2016,
+          "publisher": "torch press",
+          "meta": {},
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027079093", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:30+00:00" },
+          "researcher_note": "川内倫子の写真集。openBDにcover登録なし。"
+        },
+        {
+          "cand_id": "pho-06",
+          "source_api": "ndl+openbd",
+          "source_id": "9784861523489",
+          "title": "照度あめつち影を見る",
+          "creator": "川内倫子 著",
+          "year": 2012,
+          "publisher": "青幻舎",
+          "meta": {},
+          "image": { "url": "https://cover.openbd.jp/9784861523489.jpg", "source": "openbd" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I023639424", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:30+00:00" },
+          "researcher_note": "川内倫子の東京都写真美術館での個展に合わせた作品集。"
+        },
+        {
+          "cand_id": "pho-07",
+          "source_api": "ndl+openbd",
+          "source_id": "9784904292983",
+          "title": "そんなふう",
+          "creator": "川内倫子 著",
+          "year": 2020,
+          "publisher": "ナナロク社",
+          "meta": {},
+          "image": { "url": "https://cover.openbd.jp/9784904292983.jpg", "source": "openbd" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030667070", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:30+00:00" },
+          "researcher_note": "川内倫子の写真集。"
+        },
+        {
+          "cand_id": "pho-08",
+          "source_api": "ndl+openbd",
+          "source_id": "9784908062353",
+          "title": "Des oiseaux",
+          "creator": "川内倫子, Lesaffre Guilhem, 横山由紀子",
+          "year": 2021,
+          "publisher": "HeHe",
+          "meta": {},
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031627744", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-03T18:36:30+00:00" },
+          "researcher_note": "川内倫子の写真集。openBDにcover登録なし。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
