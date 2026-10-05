@@ -1,0 +1,101 @@
+{
+  "issue": {
+    "vol": 67,
+    "date": "2026-10-06",
+    "title": "外周",
+    "lead": "皇居の濠を一周するランナーが作法を問われている。立ち入れぬ中心を避け、周りだけを回り続ける行為は、天守を失った城の外郭にも、主音に着地せぬまま続く旋律にも、同じ構造を宿す。外周とは、中心を欠いたまま秩序を保つための型である。建築・音楽・飲食の三点から、周り続けることの作法を読む特集。"
+  },
+  "items": [
+    {
+      "genre": "architecture",
+      "cand_id": "arch-03",
+      "sentei_riyu": "発注は、中心部(本丸・天守)を失うか非公開のまま、外周部分だけが公園・遊歩道として現存し利用されている城跡を求めた。久松公園(鳥取城跡)は、本丸にあたる山上ノ丸が山頂に残るものの事実上利用から外れ、山下ノ丸である麓の石垣・堀だけが公園として日常的に使われているという点で、発注に最も直接に応える。並置上は、三点の起点となる特集の縁(城郭=空間の外周)を担い、音楽(時間の外周)・飲食(人の外周)へ抽象度を上げていく土台を作る役割を持つ。",
+      "title": "久松公園",
+      "creator": "",
+      "year": null,
+      "publisher": "",
+      "meta": {
+        "address": "鳥取県鳥取市東町2丁目",
+        "primary_type": "公園",
+        "note": "鳥取城跡。山上ノ丸(本丸)は現存せず、山下ノ丸の石垣・堀周辺が公園として利用"
+      },
+      "essay": "鳥取城は、山頂に本丸を置く山上ノ丸と、麓に御殿を置く山下ノ丸という、二重の中心を持つ城として築かれた。山上ノ丸は、石垣こそ残るものの建物を失い、道のりも険しく、日常の生活からは遠い場所になっている。人がいまも歩き回るのは、麓を囲む久松公園——かつての山下ノ丸——の石垣と堀の周辺だけである。中心だった本丸は山の上に取り残され、立ち入る理由も機会も失われたまま、麓の外周だけが遊歩道として反復的に利用され続けている。本丸を欠いたこの状態は、城が機能を失った姿というより、周囲だけで秩序を保つ別の仕組みへ移行した姿に見える。石垣は本来、山上の本丸を守るための構造だったが、今はその本丸なしに、公園の輪郭をなぞる道として立ち続けている。訪れる者は天守を目指すのではなく、麓の周囲をただ回ることで、この城に触れている。",
+      "image": {
+        "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd2ECXDubGf7PBcHY1WKPJG4R8lwlAiFx-rtInWL_sKCxcf7Wv83y-xfd3ZmswKpEqTb0nQDn86boWwcfBeMyngGG3zdG7Tr2HSkDip0S_Kt4C6F0KbuXbpdbmT2aNLNtZEALKI=s4800-w1200",
+        "source": "google-places",
+        "attributions": [
+          {
+            "name": "Kナオ",
+            "uri": "https://maps.google.com/maps/contrib/101333119978039188447"
+          }
+        ]
+      },
+      "links": [
+        {
+          "label": "Google マップで見る",
+          "url": "https://maps.google.com/?cid=5737207623152434060&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "sponsored": false
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "cand_id": "mus-03",
+      "sentei_riyu": "発注は、主音や終止へ着地せず短い音型の反復で成立する一曲を求めた。『イン・シー』は五十三個の音型の反復のみで構成され、固定された指揮者も終止点も持たない点で最も純粋にこれへ応える。並置上は、建築編で描いた空間の外周(石垣が囲む不在の中心)を、時間の外周(拍動が囲む不在の主音)へ移し替える役割を担い、同じ構造が異なる秩序の中で保たれることを示す。",
+      "title": "Terry Riley: In C",
+      "creator": "テリー・ライリー & Members of the Creative & Performing Arts at SUNY-Buffalo",
+      "year": 2009,
+      "publisher": "Sony Music Entertainment",
+      "meta": {
+        "primaryGenreName": "クラシック",
+        "trackCount": 1,
+        "note": "1968年録音の再発盤"
+      },
+      "essay": "『イン・シー』は、五十三個の短い音型を楽譜に並べただけの曲である。各奏者はそのどれを何回繰り返すか、次の音型へいつ移るかを自分で決める。指揮者はおらず、曲全体を統べる主音もない。合奏はしばらく同じ型の周りに留まり、やがて誰かが次へ進み、他の奏者も遅れてそれに続く。一九六八年の録音がそうであったように、どの瞬間を切っても和声は定まらず、むしろ型から型への移り方の揺れそのものが音楽の時間を作っている。着地点を持たない反復は、散漫さではなく、奏者同士の呼吸によって保たれる秩序である。中心に向かう代わりに、周りを回り続ける奏者たちの合意が、曲の形を支えている。始まりも終わりも、誰かが外側から決めるのではなく、回り続けるうちに自然と見えてくる。",
+      "image": {
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/17/bb/53/dj.caebhlex.jpg/600x600bb.jpg",
+        "source": "itunes"
+      },
+      "links": [
+        {
+          "label": "Apple Musicで見る",
+          "url": "https://music.apple.com/jp/album/terry-riley-in-c/307564987?uo=4",
+          "sponsored": false
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "cand_id": "res-03",
+      "sentei_riyu": "発注は、周回・周遊する客を前提に立地や設備を備えた実在の飲食店を求めた。北の丸スクエア内の店は、皇居周回コース沿いにあり、複合施設自体がランナー向けのロッカー・シャワーを備えることが候補データに明記されている点で、発注の条件に最も根拠を持って応える。並置上は、建築・音楽で示した非人称の構造(石垣・音型)を、最後に生身の客を迎える場に置き直し、周回するのは人であることを特集の結びに引き戻す役割を担う。",
+      "title": "スターバックス コーヒー 北の丸スクエア店",
+      "creator": "",
+      "year": null,
+      "publisher": "",
+      "meta": {
+        "address": "東京都千代田区九段北1丁目13-12 北の丸スクエア",
+        "primary_type": "コーヒーショップ・喫茶店",
+        "note": "皇居周回コース沿いの複合施設「北の丸スクエア」内の店舗"
+      },
+      "essay": "北の丸スクエアは、皇居の周回コースのすぐそばに建つ複合施設で、ランナー向けのロッカーとシャワーを備え、走り終えた人々が身なりを整えてから街へ戻れるようにしている。そこに入る喫茶店は、飲料を扱う一店舗として、周回のための設備を自ら持つわけではない。だが周回を終えた客がここに立ち寄るとき、席は走路の続きのような場所になる。濠を回り続けていた体がようやく止まり、カップを手にする数分だけ、周回という運動から切り離される。店自体は走るための装備を持たないが、周回する客を迎え入れる複合施設の一部として、九段の外周に組み込まれている。設備を担うのは建物全体であり、店はその一角で、回り続ける人々が一時だけ足を止める場所を用意しているにすぎない。",
+      "image": {
+        "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdkUpDCAamYnXf4QSlHnViott8UoqgVyv27Uzkc0muFLmE-otHrJ2J4kYQZoFdbJYOR25h9HBQwkGhbmX_Meq1AgTGYnvmGhj3GGEYlTX5FGNqxlJ5RWHQyKYGrTfg-KF5rNfpSeYeIrXY9=s4800-w1200",
+        "source": "google-places",
+        "attributions": [
+          {
+            "name": "サッチー",
+            "uri": "https://maps.google.com/maps/contrib/112979391573109654166"
+          }
+        ]
+      },
+      "links": [
+        {
+          "label": "Google マップで見る",
+          "url": "https://maps.google.com/?cid=9034771764940100062&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "sponsored": false
+        }
+      ]
+    }
+  ],
+  "decorated_at": "2026-10-06"
+}

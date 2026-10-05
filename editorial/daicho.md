@@ -66,3 +66,4 @@ vol.063 | 2026-10-01 | 神無月 | architecture,restaurant,poetry | 灯台退息
 vol.064 | 2026-10-02 | 進路 | architecture,music,restaurant | 台風進路図・トリスタン和音の迂回・懐石の皿順から、進路を到達点ではなく更新され続ける仮の収束点として読んだ号。
 vol.065 | 2026-10-03 | 蔵出し | music,book,restaurant | ブートレグ・シリーズ・原型草稿・蔵元直営店の三点から、仕舞ったものを放つ条件を読む特集
 vol.066 | 2026-10-04 | 連覇 | restaurant,architecture,photo | 星を保つ店・賞を重ねる建築家・評価を更新する写真家の三点で、反復による偶然から構造への格上げを読む
+vol.067 | 2026-10-06 | 外周 | architecture,music,restaurant | 中心を欠いた外周の秩序を、鳥取城・In C・北の丸スクエアのスターバックスの三点で読む

@@ -1,0 +1,544 @@
+{
+  "vol": 67,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJ08IS-4qMGGAR4rjoONNcZAU",
+          "title": "外濠公園",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都千代田区五番町無番地",
+            "primary_type": "公園",
+            "note": "江戸城外堀の一部が公園・遊歩道として整備され現存する区間"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfo7KwY_wR21uIZaunBg8yaOKdbMOgO_Jaw51SesW8KLKmUQktBoTPqJUpNAf-fm0toYmxZl-plW--gj64vwO5LM10yAwVaZTBPnOdim5Q-vMLMzcKKxZMOdkNkcOMbn2M1nEvEvg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "おすぬ", "uri": "https://maps.google.com/maps/contrib/116444761310232176956" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=388537530123335906&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:28+00:00" },
+          "researcher_note": "江戸城そのものは企画の起点(皇居ラン)と重なるため、同一の外堀の中でも天守・本丸から離れた区間の候補として収集"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJnwcDtDzwil8RLaoenQPnMwM",
+          "title": "米沢城跡",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "山形県米沢市丸の内1丁目4-13",
+            "primary_type": "史跡",
+            "note": "松が岬公園として整備され、本丸跡は上杉神社境内。外周の堀・土塁が公園として現存"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfV9-dgyKvvQwBgmTXJc13GGfAEoJNjS2VVhusYKCS7oIMaoQPed7Rq_kHsS7vb8tKlWoZfkGtBsPwTUDnrOA9A67o3NdM-tGl3rTqhJmj10TatfIysoDjyzQhgE6llNugtknkP=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "小展", "uri": "https://maps.google.com/maps/contrib/117499957196394866264" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=230782008632977965&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:28+00:00" },
+          "researcher_note": "天守は元来存在せず、本丸御殿焼失後は外周の堀・土塁のみが公園として維持されている例"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJ8Vl45pqPVTURjPuprO-nnk8",
+          "title": "久松公園",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "鳥取県鳥取市東町2丁目",
+            "primary_type": "公園",
+            "note": "鳥取城跡。山上ノ丸(本丸)は現存せず、山下ノ丸の石垣・堀周辺が公園として利用"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd2ECXDubGf7PBcHY1WKPJG4R8lwlAiFx-rtInWL_sKCxcf7Wv83y-xfd3ZmswKpEqTb0nQDn86boWwcfBeMyngGG3zdG7Tr2HSkDip0S_Kt4C6F0KbuXbpdbmT2aNLNtZEALKI=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Kナオ", "uri": "https://maps.google.com/maps/contrib/101333119978039188447" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5737207623152434060&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:28+00:00" },
+          "researcher_note": "本丸(山上ノ丸)が中心から外れた山頂にあり事実上失われ、周囲の公園部分が利用の中心という点で発注に合致"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJ7XWWSS92hV8RiTd1VB-a-WY",
+          "title": "岩手公園(盛岡城跡公園)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "岩手県盛岡市内丸1-37",
+            "primary_type": "公園",
+            "note": "盛岡城は建物が全て失われ、石垣と堀を含む外周部が公園として現存"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmM9ucHHd7TBSdpJ4BF-lDJTDKQcg-p2n51WwmJUovHxWflaLhG0rsQCfes6J0gXOGK230rgd2vRx4ztmer9ehbqPYOwwTuEJzZZOM02Jgcp5zSjBtJkamZEHDW_urMi1ipjwzDrGA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "ととと―盛岡の泊まれるたまり場―", "uri": "https://maps.google.com/maps/contrib/103326591690143865651" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=7420131320421234569&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:28+00:00" },
+          "researcher_note": "天守・御殿を含む中心部の建物が明治期に全て解体され、石垣の外周のみが遊歩道として残る典型例"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJy9ZTqM_5G2ARjqEpyaSBwEo",
+          "title": "舞鶴城公園",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "山梨県甲府市丸の内1丁目5-4",
+            "primary_type": "公園",
+            "note": "甲府城跡。天守は現存せず、石垣・堀を囲む外周部が公園として利用"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNC5x1pV0ZTaJ2cuyc9JgN0Je7t0l2miJXhK5jNJc29N4U3WF8GsATPtWXLXoa_WHu-pvWBc2FfeVjE7jUoNUmssiDcuSaaQVKO94tzx_u6IGifepbHMo0jO72_tHRUi1abHXNB9g=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "拓也", "uri": "https://maps.google.com/maps/contrib/108826304388244905518" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5386447699084681614&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:28+00:00" },
+          "researcher_note": "本丸御殿は非公開の発掘・復元段階にあり、現状は外周の石垣・遊歩道が公園利用の中心"
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJG2PFo8h29l8Rhacr-01UDGc",
+          "title": "高田城址公園",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "新潟県上越市本城町44-1",
+            "primary_type": "市立公園",
+            "note": "高田城は天守を持たず、本丸は現存せず、堀・土塁の外周部が公園として現存"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmMU2G1ifMQIjqMs53IFBtcTddNd3Zt7c5oWXulggeYQHlL3PIqrVA977BVCw1F38S6Rquu_NHJPMAYrjkZBH0igra3fMLWGcVyNVOuy208IXwk-ivuXXCbfb06PJZyW2KWrTwYG=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "七里三郎", "uri": "https://maps.google.com/maps/contrib/101820642451026611389" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=7425402579530262405&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:28+00:00" },
+          "researcher_note": "本丸の建物を持たないまま、堀をめぐる外周の遊歩道・公園利用が長く続いている例"
+        },
+        {
+          "cand_id": "arch-07",
+          "source_api": "google_places",
+          "source_id": "ChIJnYSUXgCTQTURitn7dDxviBA",
+          "title": "福岡城土塁跡",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "福岡県福岡市中央区城内1-1",
+            "primary_type": "城",
+            "note": "福岡城跡の外周に残る土塁。天守の存否自体が不明なまま、外周の土塁・石垣が史跡として現存"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLczIbPOA544EfRcsjDMpz3MdodtJ0tv2CFAXJsuxw36_53r4LjRxv6MzrE7LjZ-w5CxiPnFa9i0OOsWDTHq8yXG201yTGlWuSF9sRmG734GJajUuFEBL0QcykAfBIHZHMRwA6ORKJnM2mTG=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "ぶうたん", "uri": "https://maps.google.com/maps/contrib/104067455588401569071" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1191324406890879370&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:28+00:00" },
+          "researcher_note": "天守の有無自体が記録上確定していない中心部を欠いた城跡で、外周の土塁だけが遊歩道沿いに現存する事例"
+        },
+        {
+          "cand_id": "arch-08",
+          "source_api": "google_places",
+          "source_id": "ChIJny1XMgu2i18RW9ed60AB79Q",
+          "title": "山形城三ノ丸土塁跡",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "山形県山形市幸町15-15",
+            "primary_type": "史跡",
+            "note": "山形城本丸御殿は復元・非公開区間が多く、三ノ丸の土塁が公園外周として現存"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfKdvCuTUJHwSzUbCIXlpRh2l-ztoBy4Qe6xaPv8TNzChGQrB7oGB-13ZlFKRngJ7OAv9cwZirNh5Hw_1xVUG4H04OemCOpfMgDRKBp6F_9-qQJrrj8cZrDiJ0MJQWr8t9HRBa4=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "kenc 0224", "uri": "https://maps.google.com/maps/contrib/115456974878192714482" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15343483833817093979&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:28+00:00" },
+          "researcher_note": "本丸御殿の復元・非公開区間を抱える一方、三ノ丸の土塁は外周の遊歩道として現存"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "881327340",
+          "title": "Ravel: Boléro, Rapsodie espagnole & Ma mère l'Oye",
+          "creator": "ベルリン・フィルハーモニー管弦楽団 & ピエール・ブーレーズ",
+          "year": 2013,
+          "publisher": "Deutsche Grammophon GmbH",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 16 },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/56/10/19/56101966-d3a6-749a-6e25-7f9a8bf7fa3e/UMG_cvrart_00028947914839_01_RGB72_1500x1500_13UMGIM02785.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/ravel-bol%C3%A9ro-rapsodie-espagnole-ma-m%C3%A8re-loye/881327340?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:35+00:00" },
+          "researcher_note": "単一の旋律型の反復と漸進的な増強のみで曲が構成され、終止(トニックへの着地)を欠いたまま終わる代表例"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "79577274",
+          "title": "Music for 18 Musicians",
+          "creator": "スティーヴ・ライヒ・アンサンブル",
+          "year": 1998,
+          "publisher": "Nonesuch Records",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 14 },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/b6/d8/eeb6d89e-db8f-31a1-3311-cc62d51283a9/dj.ywsbbtvb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/music-for-18-musicians/79577274?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:35+00:00" },
+          "researcher_note": "パルス(拍動)の反復のみで構成され、和声進行はあるが主音への最終着地を目的としない作品の代表例"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "307564987",
+          "title": "Terry Riley: In C",
+          "creator": "テリー・ライリー & Members of the Creative & Performing Arts at SUNY-Buffalo",
+          "year": 2009,
+          "publisher": "Sony Music Entertainment",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 1, "note": "1968年録音の再発盤" },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/17/bb/53/dj.caebhlex.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/terry-riley-in-c/307564987?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:35+00:00" },
+          "researcher_note": "53個の短い音型を奏者が各自のタイミングで反復・推移させる構造で、固定された終止を持たないミニマル音楽の起点"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "457046120",
+          "title": "Glassworks",
+          "creator": "フィリップ・グラス・アンサンブル & マイケル・リースマン",
+          "year": 1982,
+          "publisher": "Sony Music Entertainment Inc.",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 6 },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/bd/1f/d4/mzi.fmjdnbwv.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/glassworks/457046120?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:35+00:00" },
+          "researcher_note": "短い分散和音型の反復(アルペジオ・オスティナート)を基本単位とする構成で、各楽章が明確な主音の確立を避ける"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "79577208",
+          "title": "Early Works",
+          "creator": "スティーヴ・ライヒ",
+          "year": 1987,
+          "publisher": "Nonesuch Records",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 5, "note": "「Clapping Music」「Piano Phase」などの初期作品を収録したコンピレーション" },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/1f/26/99/1f26992e-f4c5-fcc6-13f5-cbff004434d5/dj.whdxcaiz.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/early-works/79577208?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:35+00:00" },
+          "researcher_note": "単一のリズム型を奏者間でずらしながら反復する「フェイズ」技法の初期作をまとめた盤。単曲指定の場合は収録曲名の確認が必要"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "724435863",
+          "title": "Ambient 1: Music for Airports",
+          "creator": "ブライアン・イーノ",
+          "year": 1978,
+          "publisher": "Virgin Records Limited",
+          "meta": { "primaryGenreName": "エレクトロニック", "trackCount": 4 },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ee/71/42/ee71425d-6bc9-3df8-c90b-8539f59144ab/00724386649553.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/ambient-1-music-for-airports/724435863?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:35+00:00" },
+          "researcher_note": "長さの異なるテープループを重ねる手法で作られ、固定の終止点を持たないまま漂う構造"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "726154713",
+          "title": "Autobahn (Remastered)",
+          "creator": "クラフトワーク",
+          "year": 1974,
+          "publisher": "Ralf Hütter/Kraftwerk, Parlophone Records Ltd",
+          "meta": { "primaryGenreName": "エレクトロニック", "trackCount": 5 },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/a6/b0/49a6b061-cbd8-ede5-446d-dae8b50e3b32/5099996601457.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/autobahn-remastered/726154713?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:35+00:00" },
+          "researcher_note": "表題曲は一定のモーターリックなビート反復が主体。他候補に比べ楽曲形式(主題・展開)を持つ点で中心性がやや強く、距離感の検討が必要"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJ1QdJ-26NGGARRpuqHldy9TM",
+          "title": "Run Hub Cafe powered by mode",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都渋谷区神南1丁目1-1 ニューバランスRun Hub 代々木公園",
+            "primary_type": "ジュースバー",
+            "note": "代々木公園内のランニング拠点(ニューバランスRun Hub)に付設されたカフェ"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf6q22pkubSGG7g3unciEEx8ZfivrFtk6clymI5TVXSFwkUO73gqPk8166NBnn2wgPIUlyw-CvfvI7CrTkXkXbFD5av2aq5F2QwFCqqqQilk-tBEddycOm6XbIq78Qi8ucJiHLV7Q9r8EgY=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Run Hub Cafe powered by mode", "uri": "https://maps.google.com/maps/contrib/102531840562796975834" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3744024383730654022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:50+00:00" },
+          "researcher_note": "代々木公園の周回コースを走るランナーを前提にしたランニング拠点併設の飲食店。ロッカー・給水設備の詳細はPlacesのデータに無く、別途確認が必要"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJZxoEOfeNGGARBnqCJhamags",
+          "title": "CAFÉ 33",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都千代田区北の丸公園1-1",
+            "primary_type": "カフェ・喫茶",
+            "note": "皇居周回コース沿いの北の丸公園内にあるカフェ"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLds1q1PWL_PRzK7KzMMUm50Aa15ojwJvAQEWbxKtgt2obq6cQUOFkyemLxjCEVaojTcKMQBPW6g_BTBLKmKsj2xtXsBZlZQ5E_hXLiOZqMPil9IBRI5-kPjSLo94-u9ZeDr-mjE=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "CAFÉ 33", "uri": "https://maps.google.com/maps/contrib/100704971659869964338" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=822652496014113286&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:50+00:00" },
+          "researcher_note": "皇居外周ランナーの経路上にある公園内カフェ。設備面の記載はPlacesに無く、立地のみ確認できた候補"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJf9IQHWuMGGAR3tH7Sw31YX0",
+          "title": "スターバックス コーヒー 北の丸スクエア店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都千代田区九段北1丁目13-12 北の丸スクエア",
+            "primary_type": "コーヒーショップ・喫茶店",
+            "note": "皇居周回コース沿いの複合施設「北の丸スクエア」内の店舗"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdkUpDCAamYnXf4QSlHnViott8UoqgVyv27Uzkc0muFLmE-otHrJ2J4kYQZoFdbJYOR25h9HBQwkGhbmX_Meq1AgTGYnvmGhj3GGEYlTX5FGNqxlJ5RWHQyKYGrTfg-KF5rNfpSeYeIrXY9=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "サッチー", "uri": "https://maps.google.com/maps/contrib/112979391573109654166" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9034771764940100062&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:50+00:00" },
+          "researcher_note": "北の丸スクエアはランナー向けロッカー・シャワー施設を併設する複合施設として知られるが、店舗単体の設備有無はPlacesのデータ外"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJAQDAQmuMGGARIyx-VvitiMc",
+          "title": "VMG CAFE 九段会館テラス Kudan Kaikan Terrace",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都千代田区九段南1丁目6-5",
+            "primary_type": "カフェ・喫茶",
+            "note": "江戸城外堀跡(九段)に近いテラス併設カフェ"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe-ju9c20gZtne2IR0zNpOdZKKwv6Y2oOVQXQEr3nq1kfrro15_Onj0agZi-9D--DWlIfeKaNQGBW4mANEE0U7KXn4j__r5Eab35sfOCL8nuef8mHk4WzyQMQKX8z0p_St7GdxqeX-VsEM0=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "VMG CAFE 九段会館テラス Kudan Kaikan Terrace", "uri": "https://maps.google.com/maps/contrib/113327649263713620824" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14377933092494912547&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:50+00:00" },
+          "researcher_note": "外堀沿いのテラス立地のみ確認できた候補。ランナー向け設備の記載は無い"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJQeihpePhAGAR5k1C6-VH-98",
+          "title": "５５＋カフェ",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "大阪府大阪市中央区大阪城3-1 ＴＥＲＲＥ－ａ－Ｓ 105 ジョーテラス大阪",
+            "primary_type": "カフェ・喫茶",
+            "note": "大阪城公園の周回ランニングコース沿いの商業施設「ジョーテラス大阪」内の店舗。隣接してランナー向け施設「RUNNING BASE大阪城」がある"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLefTgZDq6bPdETrGafdjO9Gn6PomPLPYeBVDOIGc5DZ7RezJ0DQNe0-V3qv1cyL3iEzXuRrW6OYVJng2k6RJaP9_iSdI7waSNjQXWg9_SZO_2eH99sbtqZVK7Zqr5jt7QkeymGR=s4800-w480",
+            "source": "google-places",
+            "attributions": [
+              { "name": "５５＋カフェ", "uri": "https://maps.google.com/maps/contrib/116567057117950484581" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16139572742432378342&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:50+00:00" },
+          "researcher_note": "大阪城公園という皇居とは別の周回コースの候補。店舗自体のロッカー・給水設備はPlacesのデータに無く、隣接施設との関係を含め要確認"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJWVnF9NHgAGARHFEb60bMiNM",
+          "title": "スターバックス コーヒー 大阪城公園店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "大阪府大阪市中央区大阪城3-1 JO-TERRACE OSAKA",
+            "primary_type": "コーヒーショップ・喫茶店",
+            "note": "大阪城公園の周回ランニングコース沿いの店舗"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNhnRAKAxk8eJQ2lgwqQ1_d5OJSP-WkLLw9X4qkjFWR7-vO_VgtqjEPbovvhTTxse1Y2VDlBrJAvS7qSQWzJ03zuMzS_58aKtU-LsTDRpCBmq-Gv_eR0V3bBzw2fH7KkqfK-LChtQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "橋詰忠", "uri": "https://maps.google.com/maps/contrib/110144999240930880427" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15242657543799656732&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:50+00:00" },
+          "researcher_note": "立地は周回コース沿いだが、チェーン店であり周遊客向けに特別設計された設備の記載はPlacesに無い"
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJxSih6sngAGARTadzFbaa4tM",
+          "title": "バランス食堂＆カフェ アスショク 森ノ宮キューズモール",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "大阪府大阪市中央区森ノ宮中央2丁目1-70 もりのみやキューズモールBASE 1F",
+            "primary_type": "カフェ・喫茶",
+            "note": "大阪城公園周回コースに隣接するスポーツ複合施設「キューズモールBASE」内の食堂"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeFXkFHFolcqPXBCkLAaA0MB0diZNCHBROWeTtcoLFgQv78AMHM4qYkI6YgiGfzVJIdWQc5ZYo-08xG04_5eAvupIiVVlUjOrZA5bHmYbx_mMU9mPmi-5NTI8o1lqULDcX0JZ3U=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "バランス食堂＆カフェ アスショク", "uri": "https://maps.google.com/maps/contrib/107626806942440806787" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15267935793574029133&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-05T21:56:50+00:00" },
+          "researcher_note": "スポーツ複合施設内の食堂で、ランナー向けロッカー・シャワーは同施設内にあると見られるが店舗単体の設備記載はPlacesに無く要確認"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
