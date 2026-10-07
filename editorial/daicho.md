@@ -67,3 +67,4 @@ vol.064 | 2026-10-02 | 進路 | architecture,music,restaurant | 台風進路図�
 vol.065 | 2026-10-03 | 蔵出し | music,book,restaurant | ブートレグ・シリーズ・原型草稿・蔵元直営店の三点から、仕舞ったものを放つ条件を読む特集
 vol.066 | 2026-10-04 | 連覇 | restaurant,architecture,photo | 星を保つ店・賞を重ねる建築家・評価を更新する写真家の三点で、反復による偶然から構造への格上げを読む
 vol.067 | 2026-10-06 | 外周 | architecture,music,restaurant | 中心を欠いた外周の秩序を、鳥取城・In C・北の丸スクエアのスターバックスの三点で読む
+vol.068 | 2026-10-08 | 久方 | poetry,architecture | 久方ぶりという古語を、百人一首の枕詞とノートルダム再公開という歌と建築の二景で読む特集(cafeは実在性未確認で部分発行)。

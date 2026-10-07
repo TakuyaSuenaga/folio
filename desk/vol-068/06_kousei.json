@@ -1,0 +1,37 @@
+{
+  "vol": 68,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true
+    },
+    "links_ok": true,
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      { "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026191678", "status": 200 },
+      { "url": "https://maps.google.com/?cid=3909157082539624077&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "status": 200 }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "lead-wrap p.lead-v(issue.lead)",
+      "severity": "blocking",
+      "type": "原稿不一致",
+      "genzai": "久方ぶりという古語を、歌と建築と喫茶店の三つの場所で読む特集。",
+      "teisei": "03_genko.jsonのrevision_noteでcafeジャンルは震災記述の未検証を理由に落とされ、items[0].sentei_riyuからも喫茶店への言及は削除済みだが、issue.leadだけが『喫茶店』『三つの場所』という3ジャンル構成の記述のまま残っている。実際の構成は歌・建築の2件であり、leadが読者に存在しない喫茶店枠を予告する内容不一致になっている。『歌と建築の二つの場所で読む特集。』等、2件構成に合わせた表現へ改める必要がある(lead訂正は編集長の責了指示を経てADが反映)。"
+    },
+    {
+      "id": "P-02",
+      "location": "items[1](architecture) DATA欄「note」行",
+      "severity": "blocking",
+      "type": "規定違反",
+      "genzai": "2019年の火災による焼損後、長期の修復工事を経て再公開された(具体的な焼損年月・再公開年月はPlaces APIレスポンス外のため校閲で要確認)",
+      "teisei": "括弧内の『(具体的な焼損年月・再公開年月はPlaces APIレスポンス外のため校閲で要確認)』は02の研究者注記由来の内部確認依頼文であり、校閲(04_koetsu.json)で解消されずそのまま03/05を経て読者向け誌面のDATA欄に漏出している。括弧書きを削除し、確認済みの事実のみを記載する(焼損年月・再公開年月を一次資料で確認できなければnote自体を『2019年の火災による焼損後、長期の修復工事を経て再公開された』のように事実確定部分のみに絞るか、確認不能なら当該文言ごと削る)。"
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "vol": 68,
+  "genres": [
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poetry-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784909832344",
+          "title": "和歌・短歌のすすめ : 新撰百人一首",
+          "creator": "谷知子, 島村輝 著",
+          "year": 2021,
+          "publisher": "花鳥社",
+          "meta": { "ndl_detail": "https://ndlsearch.ndl.go.jp/books/R100000002-I031306071" },
+          "image": { "url": "https://cover.openbd.jp/9784909832344.jpg", "source": "openbd" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031306071", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-07T20:39:22+00:00" },
+          "researcher_note": "和歌・短歌の入門書で新撰百人一首を併載。久方ぶりの再会・帰還を詠んだ歌が収録されているかは本文未確認。"
+        },
+        {
+          "cand_id": "poetry-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784593533497",
+          "title": "英語でよみとく百人一首大図鑑",
+          "creator": "Peter MacMillan 著",
+          "year": 2015,
+          "publisher": "ほるぷ出版",
+          "meta": { "ndl_detail": "https://ndlsearch.ndl.go.jp/books/R100000002-I026191678" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026191678", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-07T20:39:22+00:00" },
+          "researcher_note": "小倉百人一首全首を収録した大図鑑。紀友則の歌(久方の光のどけき春の日に)など『久方』を枕詞に用いた歌を含む可能性が高い一冊。openBDに書影の登録なし。"
+        },
+        {
+          "cand_id": "poetry-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784522443002",
+          "title": "読んで覚える！暗誦百人一首",
+          "creator": "吉海直人 著",
+          "year": null,
+          "publisher": "永岡書店",
+          "meta": { "note": "openBDにpubdateの登録なし", "ndl_detail": "https://ndlsearch.ndl.go.jp/books/R100000002-I034353328" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034353328", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-07T20:39:22+00:00" },
+          "researcher_note": "暗誦用に百人一首全首を収めた一冊。小倉百人一首全体を対象とするため『久方』を含む歌(紀友則ほか)を収録する可能性が高い。openBDに書影の登録なし。"
+        },
+        {
+          "cand_id": "poetry-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044054076",
+          "title": "カラー版百人一首",
+          "creator": "谷知子 著",
+          "year": 2013,
+          "publisher": "KADOKAWA",
+          "meta": { "bunko": "角川ソフィア文庫", "ndl_detail": "https://ndlsearch.ndl.go.jp/books/R100000002-I024988713" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024988713", "kind": "detail" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-07T20:39:22+00:00" },
+          "researcher_note": "小倉百人一首の注釈・カラー口絵付き文庫版。全首収録のため『久方』を枕詞とする歌を含む可能性が高い。openBDに書影の登録なし。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJATr1n-Fx5kcRjQb6q6cdQDY",
+          "title": "ノートルダム大聖堂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "6 Parvis Notre-Dame - Pl. Jean-Paul II, 75004 Paris, フランス",
+            "primary_type": "教会",
+            "note": "2019年の火災による焼損後、長期の修復工事を経て再公開された(具体的な焼損年月・再公開年月はPlaces APIレスポンス外のため校閲で要確認)"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfMqEXoPbSDphbik4jgCNFGtOV7U1cdQrav3zTKWknwLLf65ceUpSUTq2MFT6q0HogVJ_C6G3urxifpnngEBbcSYUt1XdSLWIKstEC3D8u0ZjPCs76QpZSejK4Fp_vBEU_8ga7prw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Bülent TEYMUR", "uri": "https://maps.google.com/maps/contrib/104905342724029653477" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3909157082539624077&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-07T20:35:26+00:00" },
+          "researcher_note": "火災から数年に及ぶ長期休館を経て再公開された例の最有力候補。焼損・再公開の経緯の正確な日付はPlacesの範囲外であり校閲が要る。"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJWco6Ag70QDURMOTNdshmi14",
+          "title": "熊本城",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒860-0002 熊本県熊本市中央区本丸１−１",
+            "primary_type": "城",
+            "note": "2016年の熊本地震で天守等が被災し、長期休館を経て天守閣が再公開された(被災・再公開の具体年月はPlaces APIレスポンス外のため校閲で要確認)"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmP_KBZd8Ba1XUPKHBlOihhbRcaNTNy8ESXtMtgOW1mMosD2IZXWZ0ZK3UkFh-EQykfyOWj2UuH100lcSNO1JM6MQSOs7fF-v9ZsaqpESOdmIONdVaCMJAlZA63Rxx-U_gSzrwFmAt-xt2E=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Ugandan Knuckles", "uri": "https://maps.google.com/maps/contrib/103547288872315708723" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6812651872500704304&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-07T20:35:13+00:00" },
+          "researcher_note": "震災復旧による長期休館からの再公開の国内最有力候補。城全体の復旧は現在も継続中で、天守閣のみの再公開である点に留意。"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJsyQzogPgVDURsYG6bi-MT3o",
+          "title": "姫路城",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒670-0012 兵庫県姫路市本町６８",
+            "primary_type": "城",
+            "note": "「平成の大修理」で天守が長期間足場に覆われ休館し、その後再公開された(工期・再公開年月はPlaces APIレスポンス外のため校閲で要確認)"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmPIENWPhkTw1jJsg_kq4yGAa3dSLpESDocN7CLbA8JliWaKucP3bUcA4ubhg-DJoxLvkglwZojbNUPaz5npBzGB6d7O64IbXh8ArBO_J7lluJkvxB-ZtHJFRMiNkARdbOlF4YDpCulFo60=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Allen Z.", "uri": "https://maps.google.com/maps/contrib/108702940200365245910" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8813417131136418225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-07T20:35:13+00:00" },
+          "researcher_note": "災害ではなく保存修理による長期休館からの再公開の例。本発注は改修も対象に含むため候補に加えた。"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJbUAZSOeLGGARGMEf4WW16AE",
+          "title": "歌舞伎座",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒104-0061 東京都中央区銀座４丁目１２−１５",
+            "primary_type": "劇場",
+            "note": "老朽化により建て替えのため一時休館し、同一場所・同一名称で再開場した(休館・再開場の具体年月はPlaces APIレスポンス外のため校閲で要確認。建て替えであり原建物の改修ではない点に留意)"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfuFGRyi67vZPwHp8ivAMLILP9kD7S8sM-yfPS3QdZnQ8cO7UKBCVrL8dkiKl6pQ94qXx-IJW43zBa0aP3d5umv8LdPVQIo8m4JZC2mOGTERt7-HRcd0JtDUud8kNFyB2trOsWJ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Enix", "uri": "https://maps.google.com/maps/contrib/114710375300691631639" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=137559237808079128&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-07T20:35:13+00:00" },
+          "researcher_note": "建て替えのため休館した例であり、発注の『改修』の範囲に含まれるかは編集部の判断に委ねる。"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJZ9v0bP5r5TQRi0-esrqficA",
+          "title": "首里城",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒903-0815 沖縄県那覇市首里金城町１丁目２",
+            "primary_type": "城",
+            "note": "正殿が火災焼損後、再建中である(2026年10月時点で正殿そのものの再公開が完了しているかはPlaces APIレスポンス外のため未確認。『再公開済み』の条件を満たさない可能性があり校閲での確認が必須)"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcr2ZGQHXEZzsYp5E61n8Sl_mfvty47Jz1h5YQapItJG07HGbb51USMKA2KR1Uekfk9ga39u0EvwjoI3OOWwRHtNq-0rd8C1Wm-HXIB6pozBHX9Q7xguoDFLTW35f5TzZ7HsX_ciQw7el5q=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "H W", "uri": "https://maps.google.com/maps/contrib/116999157415590170885" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13873795751300976523&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-07T20:35:26+00:00" },
+          "researcher_note": "正殿の再建完了・再公開の時期が不確かな候補。発注の『久方ぶりに再公開された』を満たすか編集部の確認が必要。"
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJE9qjZ0-LGGARQiAs8hULJsg",
+          "title": "東京駅丸の内駅舎",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒100-0005 東京都千代田区丸の内１丁目９−１",
+            "primary_type": "",
+            "note": "戦災で焼失したドーム屋根を含む意匠が、戦後長年簡易な姿で営業を続けたのち復原・再公開された(焼失・復原年月はPlaces APIレスポンス外のため校閲で要確認)"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdFhcaj1oJT0epyVYNpOv9rqte6V0wg9mImbXNdIf8771sV0XDe9qNR7BHQ3QARjtm_VTulJmQKoGWIykg_QSENQCIdzHCgQeLWZuk-A7bKbaW99QEPFf60UGdDve2LmbOry7mw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Albion Kwok", "uri": "https://maps.google.com/maps/contrib/105705102899276367891" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14422227045585788994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-07T20:35:26+00:00" },
+          "researcher_note": "休業ではなく営業を続けながら姿を変えた例であり、『長期休館』の条件に厳密に合致するかは編集部の判断に委ねる。"
+        }
+      ]
+    },
+    {
+      "genre": "cafe",
+      "candidates": [
+        {
+          "cand_id": "cfe-01",
+          "source_api": "google_places",
+          "source_id": "ChIJTVR7Hmr0QDURZVdTbnruqaU",
+          "title": "長崎次郎喫茶室",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒860-0004 熊本県熊本市中央区新町４丁目１−１９ 長崎次郎書店 2階",
+            "primary_type": "コーヒーショップ・喫茶店",
+            "note": "登録有形文化財の長崎次郎書店2階にある喫茶室。2016年熊本地震による被災・休業を経て同一場所で再開したと記憶するが、休業期間・再開年月はPlaces APIレスポンス外であり校閲での一次確認が必須"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmMRkJg9xCcJIVmf8tQt5WxXy2bK5WkfueAwYZsCeew0btkztR16w0LfE7uDBCdvpmIDJAJgykmex4ufVTdOid5axzYwChpeJpLUJZ83I_EZlUSc6ab5VrMcH9EKafMCeSjB2giLAA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Camille McLennon", "uri": "https://maps.google.com/maps/contrib/108885249936585573228" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11937334496926586725&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-07T20:38:43+00:00" },
+          "researcher_note": "震災被災からの再開という発注の条件に近いと見込む候補だが、被災・休業・再開の具体的経緯は研究者の記憶によるもので未検証。校閲での事実確認が必須。"
+        },
+        {
+          "cand_id": "cfe-02",
+          "source_api": "google_places",
+          "source_id": "ChIJVVXZ5gKPAGARaRbHcSxyJ4Q",
+          "title": "放香堂加琲",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒650-0022 兵庫県神戸市中央区元町通３丁目１０−６ 放香堂ビル 1F",
+            "primary_type": "コーヒーショップ・喫茶店",
+            "note": "明治期に神戸・元町で珈琲を提供していたと伝わる屋号『放香堂』を同一の通り・『放香堂ビル』で復活させた例と記憶するが、休業期間・再開年・経営の同一性はPlaces APIレスポンス外であり校閲での一次確認が必須"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeiScXu22pUqIOHT2HYpInLoHnrb483LDL7vuRPS7LyAnE5L5klgr571GaMTvqOtXGkaCURjPKJYjTqOu526bXxKreMIbc23lY1NX8sHItcmTawKsODnc2LSUzemONnHv9TUvhX=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "水", "uri": "https://maps.google.com/maps/contrib/106980979146730239604" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9522705472311203433&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-07T20:38:43+00:00" },
+          "researcher_note": "休業期間が長大(明治期から2017年頃の復活と記憶)であり、経営主体の同一性や『移転』に該当しないかなど発注の除外条件との整合性は研究者の記憶によるもので未検証。校閲での事実確認が必須。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "cafe: 改修・災害・経営上の事情により長期休業していた実在の喫茶店・カフェが同一屋号・同一場所で営業を再開した例",
+      "reason": "Places APIは店舗の現況(名称・所在地・写真)のみを返し、休業・再開の履歴は検索対象にならないため、確信度の高い候補を研究者の記憶から2件のみ提示した。他に類似候補(熱海市伊豆山・気仙沼市・女川町・陸前高田市の喫茶店等)をPlacesで検索したが、特定の店が『同一屋号・同一場所で長期休業後に再開した』という事実を確認できる手がかりが得られず、捏造を避けるため候補に加えなかった。"
+    }
+  ]
+}
