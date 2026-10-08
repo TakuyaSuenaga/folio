@@ -1,0 +1,40 @@
+{
+  "vol": 69,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I030254674": true,
+        "https://music.apple.com/jp/album/covers/1864271920?uo=4": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      { "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030254674", "status": 200 },
+      { "url": "https://music.apple.com/jp/album/covers/1864271920?uo=4", "status": 200 }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[0].essay 冒頭(DATA欄「題名」行との対比)",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "「あさはやくに」は、二十世紀前半のリトアニアを生きた詩人サロメーヤ・ネリスの詩を……",
+      "teisei": "『あさはやくに』は、二十世紀前半のリトアニアを生きた詩人サロメーヤ・ネリスの詩を……(規定「作品名は『』」。items[1]essayの『COVERS』は同規定通り二重鉤括弧で統一されており、poe-01側のみ引用・強調用の「」が作品名に使われている)"
+    }
+  ]
+}

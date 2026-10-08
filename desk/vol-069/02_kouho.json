@@ -1,0 +1,245 @@
+{
+  "vol": 69,
+  "genres": [
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784781412474",
+          "title": "あさはやくに",
+          "creator": "サロメーヤ・ネリス 著,木村文 訳",
+          "year": 2020,
+          "publisher": "ふらんす堂",
+          "meta": {
+            "ndc10": "989.9",
+            "original_title": "Anksti rytą",
+            "note": "リトアニア語併記(対訳)。著者ネリスは20世紀前半のリトアニアを代表する詩人。"
+          },
+          "image": { "url": "https://cover.openbd.jp/9784781412474.jpg", "source": "openbd" },
+          "links": [
+            { "label": "国立国会図書館サーチ", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030254674", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-08T20:39:51+00:00" },
+          "researcher_note": "リトアニア語の原詩を日本語に訳した対訳詩集。原語の声を日本語の声へ移し替える『吹き替え』の原型に合致する。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784908523403",
+          "title": "愛、もしくは別れの夜に",
+          "creator": "亀山郁夫, エリス俊子 編",
+          "year": 2023,
+          "publisher": "名古屋外国語大学出版会",
+          "meta": {
+            "series": "Artes MUNDI叢書",
+            "ndc10": "908.1",
+            "note": "英語・フランス語・スペイン語・ドイツ語・中国語・ロシア語など十数言語の詩を複数の訳者が新訳したアンソロジー。"
+          },
+          "image": { "url": "https://cover.openbd.jp/9784908523403.jpg", "source": "openbd" },
+          "links": [
+            { "label": "国立国会図書館サーチ", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032695780", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-08T20:39:51+00:00" },
+          "researcher_note": "複数言語の詩を複数の訳者が日本語に移し替えた新訳アンソロジー。声の交換が訳者ごとに異なる形を取る点で発注に合う。"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784588490415",
+          "title": "アルマンゾル",
+          "creator": "ハインリヒ・ハイネ 著,今本幸平 訳",
+          "year": 2025,
+          "publisher": "法政大学出版局",
+          "meta": {
+            "ndc10": "900",
+            "original_title": "Almansor",
+            "note": "ハイネの1823年初期戯曲(悲劇)の新訳。詩集そのものではない。"
+          },
+          "image": { "url": "https://cover.openbd.jp/9784588490415.jpg", "source": "openbd" },
+          "links": [
+            { "label": "国立国会図書館サーチ", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034020700", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-08T20:39:51+00:00" },
+          "researcher_note": "詩人ハイネの作品の新訳だが戯曲であり詩集ではない。発注の『翻訳詩集』との距離が他候補より大きい。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1502668973",
+          "title": "Covers",
+          "creator": "RCサクセション",
+          "year": 1988,
+          "publisher": "A USM JAPAN release; ℗ 1988 UNIVERSAL MUSIC LLC",
+          "meta": { "trackCount": 11, "primaryGenreName": "ロック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/bb/a9/11/bba9119d-3ee7-1560-e742-40ce3515cc9d/20UMGIM18415.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/covers/1502668973?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-08T20:40:21+00:00" },
+          "researcher_note": "他アーティストの楽曲をカバーした楽曲で構成されたアルバム。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "327503724",
+          "title": "Covers - Reggae Meets R&B / Hip Hop",
+          "creator": "Various Artists",
+          "year": 2009,
+          "publisher": "℗ Victor Entertainment,Inc./24X7 Records",
+          "meta": { "trackCount": 14, "primaryGenreName": "レゲエ" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/86/20/c0/mzi.jrvbbbye.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/covers-reggae-meets-r-b-hip-hop/327503724?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-08T20:40:21+00:00" },
+          "researcher_note": "R&B/ヒップホップ楽曲をレゲエ編曲でカバーしたコンピレーション。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1440767362",
+          "title": "Covers",
+          "creator": "BENI",
+          "year": 2012,
+          "publisher": "℗ 2012 NAYUTAWAVE RECORDS, a division of UNIVERSAL MUSIC LLC",
+          "meta": { "trackCount": 13, "primaryGenreName": "J-Pop" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/de/cd/a4/decda447-0a3a-d4dc-69c9-3b9d7ccb9cda/00600406170996.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/covers/1440767362?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-08T20:40:21+00:00" },
+          "researcher_note": "洋楽R&B/ソウル楽曲を日本語詞でカバーしたアルバム。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "374866043",
+          "title": "Covers Love & Unity",
+          "creator": "Various Artists",
+          "year": 2010,
+          "publisher": "℗ 2010 KEYZER SOSE II-UNKNOWN PRODUCTIONS",
+          "meta": { "trackCount": 14, "primaryGenreName": "レゲエ" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/29/d1/d1/mzi.pnupdmzs.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/covers-love-unity/374866043?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-08T20:40:21+00:00" },
+          "researcher_note": "複数アーティストによるカバー楽曲を集めたコンピレーション。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1864271920",
+          "title": "COVERS",
+          "creator": "德永英明",
+          "year": 2026,
+          "publisher": "℗ 2026 Nippon Columbia Co., Ltd./NIPPONOPHONE",
+          "meta": { "trackCount": 10, "primaryGenreName": "J-Pop" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6c/fc/37/6cfc378e-20fd-f68a-6e88-68224250cb01/COKM-46073.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/covers/1864271920?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-08T20:40:21+00:00" },
+          "researcher_note": "德永英明による歌い直しシリーズ『COVERS』の一作。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "716350978",
+          "title": "Covers",
+          "creator": "ノラ・ジョーンズ",
+          "year": 2012,
+          "publisher": "℗ 2012 Blue Note Records",
+          "meta": { "trackCount": 10, "primaryGenreName": "ポップ" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8a/00/7c/8a007c90-10e1-287e-3324-2ad69efb2067/05099901557459.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/covers/716350978?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-08T20:40:21+00:00" },
+          "researcher_note": "ノラ・ジョーンズが他アーティストの楽曲を歌い直したカバーアルバム。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1588239574",
+          "title": "COVERS -Sora Amamiya favorite songs-",
+          "creator": "雨宮天",
+          "year": 2021,
+          "publisher": "℗ 2021 MusicRay'n Inc.",
+          "meta": { "trackCount": 11, "primaryGenreName": "J-Pop" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/68/1a/80/681a80a6-8ce1-184f-988d-de18553ae1d4/4580074475547.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/covers-sora-amamiya-favorite-songs/1588239574?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-08T20:40:21+00:00" },
+          "researcher_note": "声優・雨宮天が自身の愛聴曲を歌い直したカバーアルバム。"
+        },
+        {
+          "cand_id": "mus-08",
+          "source_api": "itunes",
+          "source_id": "1538698889",
+          "title": "COVERS - WOMAN",
+          "creator": "加藤ミリヤ",
+          "year": 2020,
+          "publisher": "℗ 2020 Sony Music Labels Inc.",
+          "meta": { "trackCount": 7, "primaryGenreName": "J-Pop" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/a6/a3/b8a6a363-8324-ba60-34c0-e242d7f1de32/4547366484014.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/covers-woman/1538698889?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-08T20:40:21+00:00" },
+          "researcher_note": "女性アーティストの楽曲を中心にカバーしたアルバム。対の『COVERS - MAN』と2分冊構成。"
+        },
+        {
+          "cand_id": "mus-09",
+          "source_api": "itunes",
+          "source_id": "1440937776",
+          "title": "Covers",
+          "creator": "ジェイムス・テイラー",
+          "year": 2008,
+          "publisher": "℗ 2008 James Taylor. Under exclusive license to StarCon, LLC d/b/a Hear MusicTM",
+          "meta": { "trackCount": 12, "primaryGenreName": "ロック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c9/27/7a/c9277a4d-3b51-04c8-d735-26411502980d/00888072308299.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/covers/1440937776?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-08T20:40:21+00:00" },
+          "researcher_note": "ジェイムス・テイラーが他アーティストの楽曲を歌い直したカバーアルバム。"
+        },
+        {
+          "cand_id": "mus-10",
+          "source_api": "itunes",
+          "source_id": "1538698546",
+          "title": "COVERS - MAN",
+          "creator": "加藤ミリヤ",
+          "year": 2020,
+          "publisher": "℗ 2020 Sony Music Labels Inc.",
+          "meta": { "trackCount": 8, "primaryGenreName": "J-Pop" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/de/e4/76/dee47657-4df6-12d6-0f9d-4c65d4de0cc4/4547366484045.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/covers-man/1538698546?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-08T20:40:21+00:00" },
+          "researcher_note": "男性アーティストの楽曲を中心にカバーしたアルバム。対の『COVERS - WOMAN』と2分冊構成。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "film: 吹き替え版が存在する実在の映画作品、または吹き替え演技自体を主題とする作品から一点を選ぶ",
+      "reason": "API障害: iTunes Search APIのmedia=movieが、検索語(英題複数・邦題『吹替』)・国コード(JP/US)・entity指定の有無を変えても常にresultCount:0を返し、映画候補を一件も取得できなかった。iTunes Search APIの映画カタログ検索機能自体が機能していないとみられ、研究者の手元では代替入手手段(許可ホスト内)が無い。"
+    },
+    {
+      "hacchu": "poetry: 翻訳詩集(補足)",
+      "reason": "NDLサーチで実在確認できた翻訳詩集のうち、openBDに書誌が無かった2点(『愛と太陽の園』ISBN 4-88629-676-9/978-4-88629-676-4、『あかまんま』ISBN 4-88588-035-1)は実在チェーン(openBD照合)が取れず候補から除外した。該当発注には3点の候補(poe-01〜03)で対応している。"
+    }
+  ]
+}
