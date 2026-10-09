@@ -1,0 +1,382 @@
+{
+  "vol": 70,
+  "genres": [
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "boo-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003321010",
+          "title": "韓非子 第1冊",
+          "creator": "金谷治 訳注",
+          "year": 1994,
+          "publisher": "岩波書店",
+          "meta": { "series": "岩波文庫" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002323859", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:12:00+00:00" },
+          "researcher_note": "蟻の一穴の典拠である韓非子そのものの邦訳注釈。全4冊の第1冊。openBDにcover登録なし。"
+        },
+        {
+          "cand_id": "boo-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003321027",
+          "title": "韓非子. 第2冊",
+          "creator": "金谷治 訳注",
+          "year": 1994,
+          "publisher": "岩波書店",
+          "meta": { "series": "岩波文庫" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000008428264", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:12:00+00:00" },
+          "researcher_note": "韓非子岩波文庫版の第2冊。openBDにcover登録なし。"
+        },
+        {
+          "cand_id": "boo-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003321034",
+          "title": "韓非子. 第3冊",
+          "creator": "金谷治 訳注",
+          "year": 1994,
+          "publisher": "岩波書店",
+          "meta": { "series": "岩波文庫" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002348165", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:12:00+00:00" },
+          "researcher_note": "韓非子岩波文庫版の第3冊。openBDにcover登録なし。"
+        },
+        {
+          "cand_id": "boo-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003321041",
+          "title": "韓非子. 第4冊",
+          "creator": "金谷治 訳注",
+          "year": 1994,
+          "publisher": "岩波書店",
+          "meta": { "series": "岩波文庫" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002368227", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:12:00+00:00" },
+          "researcher_note": "韓非子岩波文庫版の第4冊(完結巻)。openBDにcover登録なし。"
+        },
+        {
+          "cand_id": "boo-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784061595941",
+          "title": "韓非",
+          "creator": "貝塚茂樹 著",
+          "year": 2003,
+          "publisher": "講談社",
+          "meta": { "series": "講談社学術文庫" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971712334770685707", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:12:00+00:00" },
+          "researcher_note": "韓非とその思想の評伝。原典訳ではないが韓非子の読み解きとして発注に合う。openBDにcover登録なし。"
+        },
+        {
+          "cand_id": "boo-06",
+          "source_api": "ndl+openbd",
+          "source_id": "9784065289464",
+          "title": "韓非子 : 全現代語訳",
+          "creator": "韓非 著,本田済 訳",
+          "year": 2022,
+          "publisher": "講談社",
+          "meta": { "series": "講談社学術文庫 ; 2733", "note": "「韓非子 上・下」(ちくま学芸文庫1996年刊)の合本" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032347947", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:12:00+00:00" },
+          "researcher_note": "韓非子全篇の現代語訳合本。読みやすさの点で候補の中心になり得る。openBDにcover登録なし。"
+        },
+        {
+          "cand_id": "boo-07",
+          "source_api": "ndl+openbd",
+          "source_id": "9784061595835",
+          "title": "中国の古代哲学 : 孟子・老子・荘子・韓非子",
+          "creator": "小島祐馬, 宇野哲人 著",
+          "year": 2003,
+          "publisher": "講談社",
+          "meta": { "series": "講談社学術文庫" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004034667", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:12:00+00:00" },
+          "researcher_note": "韓非子を含む複数思想家の概説書。韓非子単独の訳注ではない点で発注との距離がある。openBDにcover登録なし。"
+        },
+        {
+          "cand_id": "boo-08",
+          "source_api": "ndl+openbd",
+          "source_id": "9784163529004",
+          "title": "韓非子 下 (一統の帝王学)",
+          "creator": "安能務 著",
+          "year": 1997,
+          "publisher": "文藝春秋",
+          "meta": {},
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971430859822469122", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:12:00+00:00" },
+          "researcher_note": "韓非子の訳述・評伝(下巻)。openBDにcover登録なし。"
+        },
+        {
+          "cand_id": "boo-09",
+          "source_api": "ndl+openbd",
+          "source_id": "9784822274757",
+          "title": "インフラ事故 : 笹子だけではない老朽化の災禍",
+          "creator": "日経BP",
+          "year": 2013,
+          "publisher": "日経BPマーケティング",
+          "meta": {},
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024923682", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:12:00+00:00" },
+          "researcher_note": "笹子トンネル事故を起点にインフラ老朽化を論じるノンフィクション。本号の着想元(手間いらず漏えい連鎖)と同型の『一点の弱さが全体を崩す』構造を土木事故で論じる。openBDにcover登録なし。"
+        },
+        {
+          "cand_id": "boo-10",
+          "source_api": "ndl+openbd",
+          "source_id": "9784296125364",
+          "title": "インフラ崩壊 : 老朽化する日本を救う「省インフラ」",
+          "creator": "根本祐二 著",
+          "year": null,
+          "publisher": "日経BPマーケティング",
+          "meta": { "series": "日経プレミアシリーズ" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034411590", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:12:00+00:00" },
+          "researcher_note": "インフラ老朽化を正面から論じるノンフィクション。発注の『土木工学・インフラ老朽化を論じた実在のノンフィクション』に直接合致する。openBDにcover登録なし(出版年もレスポンス外のためnull)。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJN_wcX4zn918RvUE8WM3VDRM",
+          "title": "破砕帯",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒930-1406 富山県中新川郡立山町芦峅寺",
+            "primary_type": "史跡",
+            "note": "黒部ダム建設時の大町トンネル工事で遭遇した破砕帯(軟弱な地質帯)の跡地。毎秒660リットルの出水に見舞われ工事が難航した地点として知られ、現在は史跡として標示されている(具体的な出水量・工期延長日数などの詳細はPlaces APIレスポンス外のため校閲で要確認)。"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdwrWu21zQfxGt5g7sswwfVI3sWzPetpyoWUxmlwfRUFbvxHjswDIy-t-U103o0G0p3JwVwO2AzxJbdWLZQZXjj1Ml7Gcz-um4Mz8NJKB5P3BSmXRxGqu2iBTJUP_v46exqt4TM=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "yamaotoko tokushima", "uri": "https://maps.google.com/maps/contrib/101948573443688228838" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1372988539343225277&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:12:22+00:00" },
+          "researcher_note": "発注の核心に最も近い候補。ダム本体ではなくトンネル工事中に露出した地質上の弱点そのものを指す実在の地点であり、『設計上最も脆弱な一点』の主題に直接合致する。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJB7x2Jpru918RXnjJFJb9E94",
+          "title": "黒部ダム",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒930-1406 富山県中新川郡立山町芦峅寺", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfvcpoOx6S1ct_XLKwEUV5Gs766cjmex40uooVx-g2MpNPHsHK7uCbGhWA2c_91Sj3w5_QL14aZLza581dPR3ST8Hyij1eV32gS9VxDb7LTGK2Ujk4P2wxj3TsOoYDhePC832jUqQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "タビ", "uri": "https://maps.google.com/maps/contrib/100223780397530717298" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16002412722013173854&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:12:22+00:00" },
+          "researcher_note": "破砕帯が位置するダム本体。arc-01の文脈として、または単独候補として使える。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJD7SW45nu918RzY3gb-Q1-lY",
+          "title": "北陸地方整備局 立山砂防事務所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒930-1406 富山県中新川郡立山町芦峅寺 ブナ坂61", "primary_type": "官公庁" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeb-e_bTYs4_tn7MdH-5tiHh-CiJKSWjBKBQESvGbbs7eCnUA9HIFLwC1nOpVoXXqEe-zwLdZieDpCPtYkI0K18giKZeWkhDSaL6YSUxxt7g22GUk2EM6ER4h4HahWur88oSlUz=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Fukumichi Himmelwanderer", "uri": "https://maps.google.com/maps/contrib/107699493094372750870" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6267381086685269453&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:12:22+00:00" },
+          "researcher_note": "立山カルデラの不安定地形を対象に砂防(土砂災害対策)の点的補強・監視を担う実在の国の機関。発注の『補強・監視に特化した施設』に行政機関として合致するが、工事そのものの実体はこの候補単独では見えない。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJM0KCAJru918RefLh4opuAEQ",
+          "title": "立山カルデラ砂防博物館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒930-1405 富山県中新川郡立山町芦峅寺 字ブナ坂６８", "primary_type": "博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeti9tFRcp-9g0-F97oJtNp2Wr_W9fWglG3YeBTkFlnfOLm9HgYBkkWter4rSduqmbxkPQ2yuU33mXXuLzVNZ5aLR-KyseTYZvWPzUjFdcvsMdmDqf3g5G_Xf7i1NWrD0lEFS6WNo7VQTDS=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "けんなぎら", "uri": "https://maps.google.com/maps/contrib/116001792518990366720" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4900037937370100345&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:12:22+00:00" },
+          "researcher_note": "砂防(土砂災害対策)工事を展示・解説する実在の博物館。arc-03の補助候補。本体は展示施設であり工事施設そのものではない。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ522P0ujt918RN8L5nev7MVU",
+          "title": "本宮砂防堰堤",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒930-1456 富山県富山市小見", "primary_type": "官公庁" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc6FMS3cwVb1iUEMGvtrZ2nvtG9cC0tELZbK_yq9s4BBG1b5u5EjEgX2vvz3AbBeC3jJozVqqacVfDUV9ATgkz8y7OLxfFk3CzSch4VoiQL97gX-u7ApaVZoxTcWVotWtaGvL21=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "N Y", "uri": "https://maps.google.com/maps/contrib/116322347586081597793" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6138964756468974135&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:12:22+00:00" },
+          "researcher_note": "土砂を堰き止める堰堤そのものの実在構造物。ダム・堤防の『堰き止める一点』を体現する施設として発注に合う。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJVVWJOTqx918R5Oik2dDX-TM",
+          "title": "宇奈月ダム情報資料館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒938-0000 富山県黒部市宇奈月町音澤 宇奈月町舟見明日音沢４−９", "primary_type": "博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/ACvplmNhrzc96-__Gd3m7ef7nGfun7mV7sBI9C6VuBmE6XsqqqHnDawgquiHiGRTQi882iUqSV9zYfDmKASiSDtdYzG4_IhBXyXdhAsKH6RvgdCYhyzMuDUQtLiI4IasoOBFTl4EkwPEHw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "B Lam", "uri": "https://maps.google.com/maps/contrib/110089951174043819959" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3745261857139910884&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:12:22+00:00" },
+          "researcher_note": "ダムの維持管理・監視を解説する資料館。工事そのものではなく展示施設である点で発注との距離がある。"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJk0AOg76HGGARe7IkXjNVX08",
+          "title": "江戸川水閘門",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒133-0063 東京都江戸川区東篠崎１丁目１１−１５ メディカルビル", "primary_type": "官公庁" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLee8U8Rx2uxgpAruklBPtmiPfJHEY6zHPGRHbr2fIKgTezPdTiVLd9CRVrOA98kwZPiYkha18ll4MZZIXIyw6Tp86dIKfvQvWl9_19b0mSzWpTN42VY2ggkOsSl3FKCYpt_HcgXyg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "山地雅宏", "uri": "https://maps.google.com/maps/contrib/104568723033713327819" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5719383730894975611&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:12:22+00:00" },
+          "researcher_note": "河川堤防中の水閘門(ゲート)は堤防線上で最も構造が複雑化する継手の集中点であり、発注の『継手・排水口』の実例として合致する。"
+        },
+        {
+          "cand_id": "arc-08",
+          "source_api": "google_places",
+          "source_id": "ChIJ1XIoDYeIGGAREeOtzW4Dwio",
+          "title": "荒川ロックゲート",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒132-0034 東京都江戸川区小松川１丁目１−地先", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfuQ8FA0SsLxB4_sfJDEX0RcGa6rLGoaQRmPWZxo455mNwIsJkLW-uOBXdWWekbsY2JuiwiNDWe5LpEX2C9IjwkA1Y3RvRSAw_3CUaLraAMdf3zH8_my7xxZ4zWOYn6v2-XZw1O=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "T Yasu", "uri": "https://maps.google.com/maps/contrib/116104816559586156502" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3081028869506851601&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:12:22+00:00" },
+          "researcher_note": "荒川と旧中川の水位差を調整する閘門。堤防線を貫く開口部という弱点を補う実在施設。"
+        },
+        {
+          "cand_id": "arc-09",
+          "source_api": "google_places",
+          "source_id": "ChIJu8047yKHGGAR4d-41qpbnwY",
+          "title": "行徳可動堰",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒133-0062 東京都江戸川区東篠崎町２丁目２５０", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeOni-9yehMjnFlfYEAApU33Cw63MXuy8Pkt0-Q8W8ejcEYAPpmS7LAkQomcJEldh79vUuG46xbr8AvUZwtsBUo4wfUC4Fn_WOnXU8QjaWmu697wlFMSPM_YZMCVbbnu36XFMay=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Keiichi Quriyama", "uri": "https://maps.google.com/maps/contrib/102865210874006713616" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=477200874829570017&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:12:22+00:00" },
+          "researcher_note": "江戸川水閘門と隣接する可動堰。水門群の中の一施設として堤防系の弱点管理の例に使える。"
+        },
+        {
+          "cand_id": "arc-10",
+          "source_api": "google_places",
+          "source_id": "ChIJvcIvn7B5hV8R3DksAijRpro",
+          "title": "御所ダム管理所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒020-0055 岩手県盛岡市繋山根１９２−４ 御所ダム管理事務所", "primary_type": "政府機関" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfIUVWHSw6xqZEBfoxjsqc7QmLPSOzh2ROpweh_Iv2fExLjvcwe49RbysEQSy-98Ep3_bCbiJFFRycqj4Lxu2nWSDTekr29fXUfRhKFspQk1WxlyDMAv1CiHCIWoLQjxx7W439acndhuEI=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "おぐらせーいち", "uri": "https://maps.google.com/maps/contrib/115567964370481049491" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13449667306953914844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:12:22+00:00" },
+          "researcher_note": "ダム本体を日常的に監視・管理する一般的な管理事務所の例。『一点の補強・監視』という主題に対しては最も一般的で具体性の薄い候補。"
+        }
+      ]
+    },
+    {
+      "genre": "photo",
+      "candidates": [
+        {
+          "cand_id": "pho-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784480021892",
+          "title": "超芸術トマソン",
+          "creator": "赤瀬川原平 著",
+          "year": 1987,
+          "publisher": "筑摩書房",
+          "meta": { "series": "ちくま文庫", "note": "白夜書房1985年刊の改訂増補" },
+          "image": { "url": "https://cover.openbd.jp/9784480021892.jpg", "source": "openbd" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000001895231", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:12:00+00:00" },
+          "researcher_note": "都市に残る無用な建築物の痕跡を写真と文で記録した実在の著作。『罅・腐食・劣化した一点』そのものではなく『無用化した一点』の記録である点で発注との距離がある。"
+        },
+        {
+          "cand_id": "pho-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784907461386",
+          "title": "アクアライン : 知られざる姿",
+          "creator": "山崎エリナ 著・写真",
+          "year": 2023,
+          "publisher": "グッドブックス",
+          "meta": { "note": "東京湾アクアラインの構造美と、日々の点検・補修に取り組む人々を撮影した写真集。著者はインフラメンテナンス大賞優秀賞(国土交通省, 2019)受賞。" },
+          "image": { "url": "https://cover.openbd.jp/9784907461386.jpg", "source": "openbd" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032730512", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:16:24+00:00" },
+          "researcher_note": "海底トンネル・橋梁という土木構造物の日常点検・補修を撮った実在の写真集。損傷箇所そのものの記録ではなく維持管理の記録である点で発注との距離がある。"
+        },
+        {
+          "cand_id": "pho-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784907461461",
+          "title": "東京下水道 設備創造",
+          "creator": "山崎エリナ 写真",
+          "year": 2024,
+          "publisher": "グッドブックス",
+          "meta": { "note": "東京の下水道設備機器とその製造・メンテナンスに携わる技術者を撮影した写真集。監視室・現場盤など制御・監視の拠点を含む。" },
+          "image": { "url": "https://cover.openbd.jp/9784907461461.jpg", "source": "openbd" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033817810", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-09T20:16:24+00:00" },
+          "researcher_note": "都市インフラの監視・制御点を撮った実在の写真集。ダム・堤防ではなく下水道設備が対象であり、罅・腐食の直接描写でもない点で発注との距離がある。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "photo: ダム・堤防・建造物にできた罅・腐食・劣化した一点を記録した実在の写真集",
+      "reason": "該当なし(部分一致3件のみ)。NDL opensearchで『写真集 ダム』『写真集 コンクリート 劣化』『写真集 廃墟』『棄景』(丸田祥三)『トマソン』『インフラ 写真集』など多数のクエリを試行したが、ダム・堤防の罅・腐食そのものを主題とする写真集はヒットしなかった。丸田祥三『棄景』シリーズ(廃墟をテーマとする代表的写真集)は実在するが全版openBD未収載のため候補から除外した(鉄則: openBDにヒットしない書籍は候補にしない)。収集できた3件はいずれも土木構造物の『無用化』または『維持管理』を記録した実在の写真集であり、発注の『罅・腐食・劣化』そのものの記録とは距離がある。選定は編集長・genre-editorの判断に委ねる。"
+    }
+  ]
+}

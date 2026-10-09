@@ -1,0 +1,54 @@
+{
+  "vol": 70,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I032347947": true,
+        "https://maps.google.com/?cid=5719383730894975611&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032347947",
+        "status": 200
+      },
+      {
+        "url": "https://maps.google.com/?cid=5719383730894975611&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[0] DATA欄「note」行",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "「韓非子 上・下」(ちくま学芸文庫1996年刊)の合本",
+      "teisei": "『韓非子 上・下』(ちくま学芸文庫1996年刊)の合本(作品名は『』、引用・強調は「」)"
+    },
+    {
+      "id": "P-02",
+      "location": "items[1] DATA欄「address」行",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "日本、〒133-0063 東京都江戸川区東篠崎１丁目１１−１５ メディカルビル",
+      "teisei": "日本、〒133-0063 東京都江戸川区東篠崎1丁目11-15 メディカルビル(同一address内で郵便番号は半角数字、丁目・番地は全角数字と表記が混在しているため半角に統一)"
+    }
+  ]
+}
