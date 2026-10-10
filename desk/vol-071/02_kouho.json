@@ -1,0 +1,312 @@
+{
+  "vol": 71,
+  "genres": [
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784394550013",
+          "title": "暮らしの中の二十四節気 : 丁寧に生きてみる",
+          "creator": "黛まどか 著",
+          "year": 2021,
+          "publisher": "春陽堂書店",
+          "meta": {},
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031717244", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-10T19:09:37+00:00" },
+          "researcher_note": "俳人による二十四節気の随筆集。寒露を含む全節気を扱う。openBDにcover登録なし。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784140162750",
+          "title": "暦と暮らす : 語り継ぎたい季語と知恵",
+          "creator": "宇多喜代子 著",
+          "year": 2020,
+          "publisher": "NHK出版",
+          "meta": { "series": "NHK俳句" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030353223", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-10T19:09:37+00:00" },
+          "researcher_note": "俳人による季語解説書。季語としての寒露・残菊を含むかはNDL/openBDのレスポンス外。openBDにcover登録なし。"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784415334745",
+          "title": "季節を感じて日々を楽しむくらし歳時記",
+          "creator": "三浦康子 監修",
+          "year": 2024,
+          "publisher": "成美堂出版",
+          "meta": {},
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033752498", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-10T19:09:37+00:00" },
+          "researcher_note": "二十四節気を含む暮らしの歳時記。寒露の項の具体的な記述内容はレスポンス外。openBDにcover登録なし。"
+        },
+        {
+          "cand_id": "poe-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784781416380",
+          "title": "辻憲句集",
+          "creator": "辻憲 著",
+          "year": 2024,
+          "publisher": "ふらんす堂",
+          "meta": { "series": "句集", "note": "openBD収録テキストに「虫の音や曳舟夜間中学校」「啓蟄や虫の挨拶あっちこち」等、虫を詠んだ句が確認できる。" },
+          "image": { "url": "https://cover.openbd.jp/9784781416380.jpg", "source": "openbd" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033371513", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-10T19:09:37+00:00" },
+          "researcher_note": "実在の句集。虫を詠んだ句を含むことはopenBD収録テキストで確認できるが、寒露・残菊そのものを詠んだ句かは不明。"
+        },
+        {
+          "cand_id": "poe-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784480074812",
+          "title": "超訳芭蕉百句",
+          "creator": "嵐山光三郎 著",
+          "year": 2022,
+          "publisher": "筑摩書房",
+          "meta": { "series": "ちくま新書 ; 1681" },
+          "image": { "url": "https://cover.openbd.jp/9784480074812.jpg", "source": "openbd" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032347875", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-10T19:09:37+00:00" },
+          "researcher_note": "芭蕉の代表句百句の解説書。寒露・残菊・虫を詠んだ句が百句中に含まれるかはレスポンス外で要確認。"
+        },
+        {
+          "cand_id": "poe-06",
+          "source_api": "ndl+openbd",
+          "source_id": "9784265084395",
+          "title": "季節のことば",
+          "creator": "中村和弘 監修",
+          "year": 2016,
+          "publisher": "岩崎書店",
+          "meta": { "series": "調べる学習百科", "note": "児童図書。NDL件名は「季語」。" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027577567", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-10T19:09:37+00:00" },
+          "researcher_note": "季語を解説する児童向け学習百科。寒露・残菊の項目の有無はレスポンス外。openBDにcover登録なし。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "406490689",
+          "title": "4'33''",
+          "creator": "ジョン・ケージ",
+          "year": 2002,
+          "publisher": "",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 1 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/25/fc/0f/mzi.gvgtcbda.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/433/406490689?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-10T19:11:13+00:00" },
+          "researcher_note": "沈黙そのものを楽曲化した実在の代表作。「沈黙そのものを主題とした」発注に直接合致する。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "472564048",
+          "title": "Toshio Hosokawa: Deep Silence / Gagaku",
+          "creator": "宮田まゆみ & シュテファン・フッソング",
+          "year": 2004,
+          "publisher": "",
+          "meta": { "primaryGenreName": "室内楽", "trackCount": 7, "note": "作曲は細川俊夫。収録曲名に「Deep Silence」を含む。" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/4a/a5/95/mzi.wsondkzu.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/toshio-hosokawa-deep-silence-gagaku/472564048?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-10T19:11:13+00:00" },
+          "researcher_note": "「深い沈黙」を標題に持つ実在の録音。雅楽器(笙)を用いる。沈黙主題として発注に合う。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "6805435163",
+          "title": "Autumn Insects & Warm Cello - EP",
+          "creator": "金藏直樹",
+          "year": 2026,
+          "publisher": "",
+          "meta": { "primaryGenreName": "ニューエイジ", "trackCount": 4 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/f5/ff/9cf5ff7f-f68f-f965-b637-079798a32170/4550759968183_cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/autumn-insects-warm-cello-ep/6805435163?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-10T19:11:13+00:00" },
+          "researcher_note": "標題が「秋の虫」そのもの。チェロと虫の音の実在のEP。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1436920675",
+          "title": "鈴虫の音 - Single",
+          "creator": "Mread Cruze",
+          "year": 2018,
+          "publisher": "",
+          "meta": { "primaryGenreName": "インストゥルメンタル", "trackCount": 1 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/99/91/79/9991797d-478f-7205-7275-0cef758f0201/859754469515_cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E9%88%B4%E8%99%AB%E3%81%AE%E9%9F%B3-single/1436920675?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-10T19:11:13+00:00" },
+          "researcher_note": "鈴虫の鳴き声を主題とした実在のシングル。秋の虫の声そのものを扱う。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "669031168",
+          "title": "蟲の声",
+          "creator": "蟲ふるう夜に",
+          "year": 2013,
+          "publisher": "",
+          "meta": { "primaryGenreName": "ロック", "trackCount": 12 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/8f/a0/02/8fa00276-3597-7ea1-3137-025e3502060c/asset.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E8%9F%B2%E3%81%AE%E5%A3%B0/669031168?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-10T19:11:13+00:00" },
+          "researcher_note": "標題は「虫の声」だがロックバンドの実在アルバムであり、内容が虫の声の推移を主題としているかはレスポンス外。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1452552056",
+          "title": "Takemitsu: in an Autumn Garden, Voyage and Excerpts from Autumn & November Steps",
+          "creator": "Imperial Household Music Department & 横山勝也",
+          "year": 2002,
+          "publisher": "",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 5, "note": "作曲は武満徹。「秋庭歌」(in an Autumn Garden)等を収録。" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/82/5a/b5/825ab521-8c39-bf10-59fb-ad002060d1d3/00028947159025.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/takemitsu-in-an-autumn-garden-voyage-and-excerpts/1452552056?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-10T19:11:13+00:00" },
+          "researcher_note": "雅楽器を用いた武満徹の秋主題の実在作品集。虫の声・沈黙との直接の関係はレスポンス外。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1540084677",
+          "title": "ASMR - 秋の夜、鈴虫鳴く音「立体音響」 (音フェチ・環境音) [feat. もふもぐ]",
+          "creator": "ASMR by ABC",
+          "year": 2020,
+          "publisher": "",
+          "meta": { "primaryGenreName": "スポークンワード", "trackCount": 8 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/88/71/4a/88714a2b-26b6-7d6c-4c11-bae9f2f17eff/859756318026_cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/asmr-%E7%A7%8B%E3%81%AE%E5%A4%9C-%E9%88%B4%E8%99%AB%E9%B3%B4%E3%81%8F%E9%9F%B3-%E7%AB%8B%E4%BD%93%E9%9F%B3%E9%9F%BF-%E9%9F%B3%E3%83%95%E3%82%A7%E3%83%81-%E7%92%B0%E5%A2%83%E9%9F%B3-feat-%E3%82%82%E3%81%B5%E3%82%82%E3%81%90/1540084677?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-10T19:11:13+00:00" },
+          "researcher_note": "秋の夜の鈴虫の実況音源を収めた実在のASMR作品。ASMR・環境音ジャンルであり楽曲性は薄い。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJVVXF5doIAWARUetIixOU-sw",
+          "title": "菊乃井 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒605-0825 京都府京都市東山区下河原通八坂鳥居前下る下河原町４５９", "primary_type": "和食店", "note": "京都を代表する老舗料亭。店名が菊に由来する。季節の懐石で菊花を用いるかはPlaces APIのレスポンス外。" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf9VCLkpgxAvggoRZByNsLY4ArpADzfCFb7k_PfrdCjnw3W3KxEo9zBQ_9SJ78epHkTlSHyAjVtV74aah4El3BUX-_S6Q4pcHhJGNT1AcPPlKFH7J4nGPUhCeK9sI1RE4sGG671wQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "kumorim", "uri": "https://maps.google.com/maps/contrib/102478027188926768179" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14770280739577064273&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-10T19:12:39+00:00" },
+          "researcher_note": "発注の核心に近い老舗懐石料理店。菊花料理の提供自体はAPIレスポンス外のため編集部での確認が必要。"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJk6mYo4GLGGARvnt5nw4Dbbs",
+          "title": "赤坂 菊乃井",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒107-0052 東京都港区赤坂６丁目１３−８", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc_qN98zDg24SsdjDF528ZGUvnioCJwLKiPPPZP4gPQef7XKJ5aRm2MDb9iQecCVAYn7uy-ZQaHGXD-Ic6O5JR6L9--_WZvWzVkCPU2yyl0WetUPp5Xu7n-_jWQP7TTKM6V5N3bJQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Juan G Angel (TvAgro)", "uri": "https://maps.google.com/maps/contrib/113471339806277474996" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13505454218893949886&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-10T19:12:39+00:00" },
+          "researcher_note": "京都菊乃井の東京店。res-01と同系列。菊花料理の提供はレスポンス外。"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJvyv4VZUIAWARGzch14mGD8E",
+          "title": "菊乃井 露庵",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒600-8012 京都府京都市下京区斎藤町 四条下る斎藤町118", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLee5B6pXDLdj3tctlNyx6joU3MekSpr66xxlAd-yFFi2rtR_refJDED91-OX7DE7kfn4hIEu03uDXaew1Xxay4ju97y2AjeEtuecS6BK9uACdzF1pzoooXIOdgXLniZDgpc6Ckt=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "MAYUMI KOZUTSUMI", "uri": "https://maps.google.com/maps/contrib/114679305241271598054" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13911485700548671259&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-10T19:12:39+00:00" },
+          "researcher_note": "京都菊乃井の系列店。res-01と同様の距離感。"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJT5TKOQm2i18RxTnNF5dszLk",
+          "title": "山形名物 花膳",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒990-0039 山形県山形市香澄町３丁目８−３８ ターミナルプラザ", "primary_type": "居酒屋", "note": "山形は食用菊「もってのほか」の産地として知られる。郷土料理店で定番的に出されるが、個別メニューの提供実態はレスポンス外。" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeMTWwoFos2mr4_7n6N42wDv8ukOTwBiWh0xpjDy6kVIvtwjv61MkN6o-O4T5vRnsuU_hu3E7pDgHGUArozZ4e8p-tYIUoauJOW97lNpqJaouOKhD7vTVjOYrqfCqDjiXEkvxH_=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "山形名物 花膳", "uri": "https://maps.google.com/maps/contrib/106855517352473432557" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13388195188460829125&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-10T19:12:39+00:00" },
+          "researcher_note": "山形名物を掲げる郷土料理店。もってのほか(食用菊)が定番メニューの地域だが、提供確認はレスポンス外。"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJbT9yrQO2i18Rns_dfkZM_oo",
+          "title": "ふるさとの味やまがた",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒990-0042 山形県山形市七日町２丁目７−３４", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLczxdQIjCS3onffCkjBIvVHva5prtP4jUNZ2rdHY-OxH179DJni2_NjadV3sevPlRWCwVe42bAQLU86ICur-DMU_zXJYX7E6gNFXSxS1xVcx-Ev9nceX5lSNXK7H456P8n5mToN=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "とこわかはる", "uri": "https://maps.google.com/maps/contrib/108600262040417646022" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10015526486978449310&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-10T19:12:39+00:00" },
+          "researcher_note": "res-04と同様、山形郷土料理を掲げる店。もってのほかの提供確認はレスポンス外。"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJV9b44V63i18RIDJpIPcM1Tc",
+          "title": "郷土料理 ハレの日",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒990-0039 山形県山形市香澄町１丁目４−１３ 船山ビル 1F", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc3ZQxkFf-NOTg3Wjym4QT3Mba_YDudT98sHlcbECmlUWc1_nu2IhUV5lcenpIBPBq6pesQXi53Gn521mu6CS5q3Re_CD7_tG7zXaBzkkiEfLjUdG3CVkcdGUZ9qeQbnlKw94n7=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "郷土料理 ハレの日", "uri": "https://maps.google.com/maps/contrib/115777452497073182377" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4023136097665626656&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-10T19:12:39+00:00" },
+          "researcher_note": "res-04/05と同様、山形郷土料理を掲げる店。もってのほかの提供確認はレスポンス外。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "restaurant: 食用菊や菊花を使う料理を実際に出す店",
+      "reason": "部分該当のみ。Google Places APIのフィールドマスクには料理メニューの情報が含まれないため、個別の店が食用菊・菊花料理を実際に提供しているかはAPIレスポンスのみでは確認できない。収集した候補は、名称・地域(菊乃井=菊に由来する老舗懐石、山形=もってのほかの産地)から合致が推定されるに留まる。新潟の「伝統食用菊りゅうのひげ」は食用菊そのものを冠するが、primary_typeが「協会/組織」であり食事を提供する店と確認できないため候補から除外した。最終的な菊花料理提供の確認は編集部(genre-editor/koetsu)の仕事として委ねる。"
+    }
+  ]
+}

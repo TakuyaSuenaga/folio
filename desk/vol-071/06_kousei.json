@@ -1,0 +1,32 @@
+{
+  "vol": 71,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      { "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031717244", "status": 200 },
+      { "url": "https://music.apple.com/jp/album/433/406490689?uo=4", "status": 200 }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "lead(表紙リード文)",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "季節がふたつに分かれていく手前の時間を読む特集。",
+      "teisei": "季節が二つに分かれていく手前の時間を読む特集。"
+    },
+    {
+      "id": "P-02",
+      "location": "items[0](poetry)essay 末尾付近",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "暦の言葉がひとつずつ季節を切り分けていく運動そのものが、この随筆集の文体になっていることに気づく。",
+      "teisei": "暦の言葉が一つずつ季節を切り分けていく運動そのものが、この随筆集の文体になっていることに気づく。"
+    }
+  ]
+}
