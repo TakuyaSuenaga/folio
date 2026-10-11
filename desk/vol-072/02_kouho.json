@@ -1,0 +1,230 @@
+{
+  "vol": 72,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJi6pmfsvn918RjD55OK2ML3A",
+          "title": "黒部ダム",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒930-1406 富山県中新川郡立山町芦峅寺", "primary_type": "景勝地" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeV52z3GiNxw2COGIkpufc8QakA-V_azg-GE-R6HB-ytSaJtqv8R-8r2r6sU8uU-dsjJTnrQeFCXjgxkWLvKzyyXttO5ReTXcfAZdaKQpHYgPlEgnQZvw268W7k9mW9dO72EBZyoRez3tJO=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "死ぬなフォト研究部", "uri": "https://maps.google.com/maps/contrib/100899586263663746840" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8083834531758030476&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-11T19:28:27+00:00" },
+          "researcher_note": "黒部川を堰き止めて建設されたダム。primary_typeは「景勝地」でPlaces API上も観光地として登録されている。発電・観光という新機能の具体的な記述はレスポンス外。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJhVzdSa6FUTURcYfmOjVaabo",
+          "title": "豊稔池堰堤",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒769-1623 香川県観音寺市大野原町田野々", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcVMEUq7iPtOifMkSR8uYt98z0J_wFSyZSbKbYiATH1lL4kSwVJOPmdGsO-eNIrB5x6Cfl6BBvr5zTnPW0Wi5GPaT09pczTHpm_c7kGG-6vbAZdbeBVrXN0KiJozOrw76L1z4wdNw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "tonton 3277", "uri": "https://maps.google.com/maps/contrib/107323192655122001776" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13432366548277167985&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-11T19:28:27+00:00" },
+          "researcher_note": "灌漑用に水を堰き止める溜池の堰堤。primary_typeは「史跡」としてPlacesに登録されている。複数アーチの意匠で知られるが、その由来の記述はレスポンス外。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJcwiSalRyQTUR00OmbfXWbwE",
+          "title": "山田堰",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒838-1306 福岡県朝倉市山田", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe00sloNIjykif-G3AZfSr-z0eQc9-pvqoMTMX-OrLgMVwKI6ehX9urRghlhUy9W2ojqZxA83-Y72ebpac30o_7cC4-PwSzl_4gdGHC32UqG46sJEDtbnQYLN2HFiR4H9m9mA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Cool Echo", "uri": "https://maps.google.com/maps/contrib/117351953730272924597" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=103537666047755219&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-11T19:28:27+00:00" },
+          "researcher_note": "江戸期に筑後川を堰き止めて築かれた灌漑用の堰。現在も実在する取水施設としてPlacesに登録されている。稼働継続の経緯の詳細はレスポンス外。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJvzsIlK7TRjUR_hy_lGe5UUY",
+          "title": "白水溜池堰堤（白水ダム）",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒879-6131 大分県竹田市荻町鴫田", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcG-vdCu32v25D7a2GcXNuLAWPBXVG4dGneRrmr3OjxHrv2NS8S6HSwGpQNZBdAQU_Q1FA3IdsXk3b_mdcGxMX9SlapcvtAlrLerkJc0igS3RG8wB4JN_dwAQYxPoDpDlapJViJ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Snoopy 0032", "uri": "https://maps.google.com/maps/contrib/108242206769554342765" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5067034910296841470&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-11T19:28:27+00:00" },
+          "researcher_note": "灌漑用の溜池を形成する堰堤。石造りの意匠で知られるが、具体的な貯水機能・景観化の経緯の記述はレスポンス外。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJlzCh5CTcHWARQDUeF0I0jNY",
+          "title": "八ッ場ダム",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒377-1301 群馬県吾妻郡長野原町川原畑", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeO7aQYYl1_S9W8smh90QJ0iPXBXQFp2J7WqDnPL6a9SCslrHG_10MZkQlEdQULhGm8OkgOY9QTBpdNb0VGS9hAAx07111I4aTLZIkw6e-K9_NeXyFzWMT8114cBfqLzc0npeKK=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Akimitsu Jinno", "uri": "https://maps.google.com/maps/contrib/103714177528084877061" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15459789079316411712&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-11T19:28:27+00:00" },
+          "researcher_note": "吾妻川を堰き止める多目的ダム。貯水池「八ッ場あがつま湖」の形成に伴う観光化が知られるが、具体的な経緯の記述はレスポンス外。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJMZf2ne_BQDURm_7KTDIkycM",
+          "title": "通潤橋",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒861-3661 熊本県上益城郡郡山都長原", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcX9CiB62cYZ5vISZ-L9ghvPzl1KfuGxVyq50hA2YiIUOnYvCWbhytMH4auIBwZbTVgWRDToD_ZBzz_xESQfqm0lvT79QY7LnyXAlLpj1kRbyA0I7eiiOjeROIxaA4tBCPHjev0LFzK525u=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "sea turtle", "uri": "https://maps.google.com/maps/contrib/101829900773326511782" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14107847106170125979&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-11T19:28:27+00:00" },
+          "researcher_note": "水路を渓谷の対岸へ送る通水橋。primary_typeは「史跡」。堰き止める構造物ではなく送水構造物であり、発注の『堰き止め』との距離はエディターの判断に委ねる。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "406490689",
+          "title": "4'33''",
+          "creator": "ジョン・ケージ",
+          "year": 2002,
+          "publisher": "℗ 2010 The Sound Corporation",
+          "meta": { "trackCount": 1, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/25/fc/0f/mzi.gvgtcbda.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/433/406490689?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-11T19:29:05+00:00" },
+          "researcher_note": "全曲が演奏者の無音(休止)で構成される楽曲。休符による堰き止めの主題に最も直接的に合致する。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1452618050",
+          "title": "Beethoven: Symphony No. 5 (The Works)",
+          "creator": "ウィーン・フィルハーモニー管弦楽団 & カルロス・クライバー",
+          "year": 2012,
+          "publisher": "℗ 2012 Deutsche Grammophon GmbH, Berlin",
+          "meta": { "trackCount": 5, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/40/e5/f3/40e5f3c0-1924-08a0-1b58-1faa0f901866/12UMGIM52464.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/beethoven-symphony-no-5-the-works/1452618050?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-11T19:29:05+00:00" },
+          "researcher_note": "冒頭主題に続くフェルマータでの一時停止がよく知られる交響曲。クライバー指揮の録音。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "280305216",
+          "title": "Beethoven: Symphony No. 5",
+          "creator": "フィルハーモニア管弦楽団 & オットー・クレンペラー",
+          "year": 2008,
+          "publisher": "℗ 2008 Past Classics",
+          "meta": { "trackCount": 4, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/d4/39/ad/mzi.fhvucphj.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/beethoven-symphony-no-5/280305216?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-11T19:29:05+00:00" },
+          "researcher_note": "mus-02と同曲の別録音(クレンペラー指揮)。発注との適合性はエディターの選定に委ねる。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1076385049",
+          "title": "Sibelius: Symphony No. 5",
+          "creator": "ハレ管弦楽団 & ジョン・バルビローリ",
+          "year": 2016,
+          "publisher": "℗ 1967, Remastered 2000 Parlophone Records Limited, a Warner Music Group Company",
+          "meta": { "trackCount": 3, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/e9/26/69/e926696b-4120-5772-4828-6b71d7046b51/825646479702.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/sibelius-symphony-no-5/1076385049?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-11T19:29:05+00:00" },
+          "researcher_note": "終楽章の金管コラールが長い休止を挟んで現れる交響曲。バルビローリ指揮の録音。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1625038948",
+          "title": "Arvo Pärt: Fratres",
+          "creator": "Rudolf Werthen & イ・フィアミンギ",
+          "year": 1995,
+          "publisher": "℗ 1995 Telarc International Corp., Distributed by Concord.",
+          "meta": { "trackCount": 9, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4a/2a/f9/4a2af9b2-2c9e-4250-bcf0-272fb355c774/22CRGIM31380.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/arvo-p%C3%A4rt-fratres/1625038948?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-11T19:29:05+00:00" },
+          "researcher_note": "分割奏と休止の反復で構成される楽曲。曲中に明確な無音の間を複数回含む。"
+        }
+      ]
+    },
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784480029409",
+          "title": "山頭火句集",
+          "creator": "種田山頭火／著 村上護／編集 小崎侃／イラスト",
+          "year": 1996,
+          "publisher": "筑摩書房",
+          "meta": { "series": "ちくま文庫" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002553211", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-11T19:28:16+00:00" },
+          "researcher_note": "定型・季語から離れた自由律俳句で知られる種田山頭火の句集。openBDにcover登録なし。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003117811",
+          "title": "尾崎放哉句集",
+          "creator": "尾崎放哉 著 池内紀 編",
+          "year": 2007,
+          "publisher": "岩波書店",
+          "meta": { "series": "岩波文庫" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000008857374", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-11T19:28:16+00:00" },
+          "researcher_note": "季語を持たない短い自由律俳句で知られる尾崎放哉の句集。openBDにcover登録なし。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "poetry: 句切れ・切れ字によって一句の内部で言葉の流れを一旦堰き止め、そこに余白や転換を生んでいる句集・歌集を一冊。",
+      "reason": "候補が2点に留まる。追加で探索した高浜虚子『虚子句集』(1956年版)・正岡子規『寒山落木』はいずれもISBN無しの刊行物でopenBD照合ができず候補にしなかった。小林一茶の句集復刻版(ISBN 4861810264 / 4-00-355001-3)はopenBDへの照会結果がnullで実在確認が取れず除外した。俵万智『サラダ記念日』はNDLサーチがタイムアウトし再試行も失敗したためAPI障害として記録する。"
+    }
+  ]
+}
