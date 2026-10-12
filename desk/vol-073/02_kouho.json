@@ -1,0 +1,150 @@
+{
+  "vol": 73,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJzTv1NEGCAGARP4zXM8fBqq4",
+          "title": "明石海峡大橋",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒655-0047 兵庫県神戸市垂水区東舞子町４", "primary_type": "橋" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfN6feKXH285biAOEx6pzHyhG0-LMM0veDGld9IlZyDC9P-pV4KXj5K8mTotCQQxurVtExs5pH4wyPIsoNfLYeokGuF0JWLa8Y4qhBuzbpJTa16GBlXs3CZ5mvVKaGA_XyCHRYqDg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "H. Nak.", "uri": "https://maps.google.com/maps/contrib/105494060776398842861" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12586085169952689215&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-12T22:24:10+00:00" },
+          "researcher_note": "地震等の発生時に安全点検のため通行止めとし、点検完了後に同じ姿で通行を再開するという運用がたびたび報じられてきた本州四国連絡橋。具体的な点検の期日・回次はPlaces APIの範囲外であり、校閲での一次資料確認が必要。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJmwW7XPLhUzURmFn5lKeM98Q",
+          "title": "瀬戸大橋",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒762-0025 香川県坂出市川津町", "primary_type": "橋" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfdi_4p4VkXq9cS7SpyDarj6-HTAAkdsndqleTh1vBsTl7lnnva4o5uAy9vVqumJ-NOqJCK-PanRnZ6NTjko7sYHifqKUUTvSyk8cPQvlkEEiEAAUWCe4zYrg2QRYdWVL1XLP5X=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "T U (TU)", "uri": "https://maps.google.com/maps/contrib/111350002340508868948" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14192967402068203928&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-12T22:24:10+00:00" },
+          "researcher_note": "arc-01と同様、地震等の後に安全点検のため通行止めとし点検後に同じ姿で再開するという運用文脈で選定した本州四国連絡橋。具体的な期日は未検証で、校閲での確認が必要。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJB7x2Jpru918RXnjJFJb9E94",
+          "title": "黒部ダム",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒930-1406 富山県中新川郡立山町芦峅寺" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcHDhKII3ivt05B7mysFa9zJ0hHA38vwf0PY7wsI3kWhenff5i4UYwqNUi_p1IKYCVdvzzRVqBwUnlZXYOfm_d92ZQx67EL33LxZPbbQyOCxIYKrRK3-GW8AK_E74pkTCsRtiJyeg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "タビ", "uri": "https://maps.google.com/maps/contrib/100223780397530717298" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16002412722013173854&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-12T22:24:10+00:00" },
+          "researcher_note": "放流設備・ゲート等の点検のため運用を一時停止し、点検完了後に同じ機能で運用を再開するという文脈で選定したダム。具体的な停止期日はPlaces APIの範囲外で未検証。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJ35ov0dCOGGARKvdDH7NPHX0",
+          "title": "東京スカイツリー",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒131-0045 東京都墨田区押上１丁目１−２", "primary_type": "展望台" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe-TD0lMXPGhUguWe_QXh8rwA5J_4mtmGAVxebFYQH7e9JDgBeIIzNqsdsCTtVKX1mVojzkkqxSluSQf9ECXX3x-5CKRf_PurmDOlpaIX290p43ThCFT3drA8Xn6fKh1IlmVr7Q=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Riccardo Widera", "uri": "https://maps.google.com/maps/contrib/107192220437452611381" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9015449659807889194&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-12T22:24:10+00:00" },
+          "researcher_note": "地震発生時等に安全確認のため展望台入場やエレベーター運行を一時停止し、点検後に同じ運用で再開するという文脈で選定。具体的な停止期日はPlaces APIの範囲外で未検証。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJY7p3rImJGGARQ18DM42sfPM",
+          "title": "ゆりかもめ",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "Yurikamome" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeF1RsbGf7yo5eTQcScv2QJcnCT2uyXuUyN7IY1hNZfiZNay2MKs4WJiJhuy4UObB-eZLx_dOeVATDUdtnsFhocItdveOYB8EyRlND6G_nCBk20QhGq-I1u0EDq0QWlfHLB2zk0WQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "masaru nakayama", "uri": "https://maps.google.com/maps/contrib/111354795484322108904" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17545087970774835011&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-12T22:24:10+00:00" },
+          "researcher_note": "車両・保安装置の点検のため運転を一時見合わせ、点検完了後に同じ体制で運転を再開するという文脈で選定した新交通システム。具体的な見合わせ期日はPlaces APIの範囲外で未検証。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJ-yvngwuNAGARVA-_brTWG4w",
+          "title": "六甲ライナー",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "Rokko-Liner" },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10095899060121571156&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-12T22:24:30+00:00" },
+          "researcher_note": "arc-05と同様、車両・保安装置の点検のため運転を一時見合わせ点検後に再開するという文脈の新交通システム。写真はPlaces応答になく未採用。具体的な見合わせ期日は未検証。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784000801317",
+          "title": "広辞苑",
+          "creator": "新村出 編",
+          "year": 2018,
+          "publisher": "岩波書店",
+          "meta": { "edition": "第7版", "pubdate": "201801", "ndl_id": "R100000136-I1970023484917039016" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970023484917039016", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-12T22:30:10+00:00" },
+          "researcher_note": "2018年1月刊行の岩波書店の代表的国語辞典第七版。刊行前後に項目記述を巡る指摘が報じられた辞典だが、出荷の一時留保の有無・期間はNDL/openBDのメタデータ上では確認できず、校閲での一次資料確認が必要。openBDにcover登録なし。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784385130781",
+          "title": "新明解国語辞典",
+          "creator": "山田忠雄, 倉持保男, 上野善道, 山田明雄, 井島正博, 笹原宏之 編",
+          "year": 2020,
+          "publisher": "三省堂",
+          "meta": { "edition": "第8版", "pubdate": "202011", "ndl_id": "R100000002-I030704093" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030704093", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-12T22:34:25+00:00" },
+          "researcher_note": "2020年11月刊行の三省堂国語辞典第八版。辞書は刊行直前に項目の最終校閲が重点的に行われる出版物の一例として選定したが、本候補固有の出荷一時留保の事実はNDL/openBDのメタデータ上では確認できず、校閲での確認が必要。openBDにcover登録なし。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "music: マスタリングや権利関係の最終確認のため発売日・公演日が一時延期され、確認を終えたうえで当初と同じ内容で発売・開催された実在の音源またはライブ・ツアーを1点。",
+      "reason": "該当なし。iTunes Search APIは楽曲・アルバムのカタログ情報のみを返し、延期理由や経緯といった報道・告知ベースの事実は含まないため、発注が要求する「マスタリング・権利関係の最終確認による延期→同一内容で発売・開催」という経緯を一次資料的に確認できる候補を特定できなかった。確度の低い記憶に基づく候補を提示すると実在チェーンの起点を偽ることになるため、捏造を避けてng とした。"
+    }
+  ]
+}

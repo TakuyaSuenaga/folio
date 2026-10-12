@@ -1,0 +1,26 @@
+{
+  "vol": 73,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=12586085169952689215&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "奥付 末尾の部分成功注記",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "本号は発注3件のうち、音楽(候補なし・ng)と書籍(候補2件とも発注の核心事実が未検証)を落とし、建築1点のみで構成した。全ジャンル失敗ではなく成功itemが1件残るため、部分成功として発行工程へ進行する。",
+      "teisei": "本号は発注三件のうち、音楽(候補なし・ng)と書籍(候補二件とも発注の核心事実が未検証)を落とし、建築一点のみで構成した。全ジャンル失敗ではなく成功itemが一件残るため、部分成功として発行工程へ進行する。"
+    }
+  ]
+}
