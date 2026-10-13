@@ -1,0 +1,301 @@
+{
+  "vol": 74,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJNzPzVIW9GGARvTqmdAYs_hw",
+          "title": "首都圏外郭放水路",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒344-0111 埼玉県春日部市上金崎720",
+            "primary_type": "政府機関"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLciw6Gcz0ExtaS5vQKEk_d77UGZYzG4EX1vEa1PswrlJEqlTi68kXdgKfx0Bic3vHS3b_a0zMv7TjywppU5SVwkMhoC7qT7qlA5g6OVj8akAs77LDShDzz0uY0rB2bHt-Lo5EBi=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "心を燃やせ", "uri": "https://maps.google.com/maps/contrib/106526947337785292088" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2089155683384965821&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-13T20:37:44+00:00" },
+          "researcher_note": "洪水時の雨水を地下調圧水槽に取り込み、江戸川へ放流して溢水を防ぐ国土交通省の地下放水路。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJ6woqspqLGGAR0j9Tc4vXVDY",
+          "title": "サントリーホール",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒107-0052 東京都港区赤坂1丁目13-1",
+            "primary_type": "コンサート ホール"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcC1PEuXB-ewLXvzssNTQF1HRnFaEZMS63qPuV7MlHejkjyqo5am_9Kd3uFG-knCeg6WMXqkdMoH5Wx9Rc67wXYysFKvxlZdrEtfFjXm8UsIy671Pc6ZaocHG1CKR8fi1uDF3tFxA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "相田ひろ子", "uri": "https://maps.google.com/maps/contrib/103695199212323238983" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3914990970027065298&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-13T20:37:44+00:00" },
+          "researcher_note": "ホール内側を外殻から浮かせる箱型構造(ボックス・イン・ボックス)で外部への音漏れと外部騒音の侵入を遮る設計を持つコンサートホール。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJa5bmPQApDl8RKdhBPJsaW_k",
+          "title": "幌延深地層研究センター(日本原子力研究開発機構)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒098-3224 北海道天塩郡幌延町北進432-2",
+            "primary_type": "研究機関"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf9Xy3q0UZeUzhoLyK6njFvkz6TBVU5DJnyXJEH92lHHZrLU2ux3nreJhsj8ik2mvZU6z7Dy07DNBX3dXlEna4TH6882VFUvF9m5vvhMalGpH--QMeLq96FL_oYd2-gSTPIA5O6Xu4mDJf4=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "t", "uri": "https://maps.google.com/maps/contrib/115406437160839770178" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17967984392357926953&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-13T20:37:44+00:00" },
+          "researcher_note": "放射性廃棄物の地層処分における多重バリア(人工バリア・岩盤)の漏出抑制性能を実地下施設で検証する研究拠点。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJL0UrwTqGnF8Rzz3b6aYyfxs",
+          "title": "日本原燃㈱ 再処理事業所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒039-3212 青森県上北郡六ヶ所村尾駮沖付4-108",
+            "primary_type": "製造元"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfrE4F7nX1zvxZTTppcK1RKpbtGQMQFxcAN9lp-apf8F8bTs9eGONXmlfI8ajmM_BZ0zHr1xmoWnaZcGITb6eoyUoId1fzDw2425TzOLctI8_loIpmrVHkaKciWkYKZRYiF2v7B9g=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "亜郁", "uri": "https://maps.google.com/maps/contrib/106896898761051340454" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1981358053535727055&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-13T20:37:44+00:00" },
+          "researcher_note": "使用済燃料の再処理を行う施設で、放射性物質の環境への漏出を防ぐ多重の遮蔽・閉じ込め構造を持つ。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ2zTrCO6JGGARVaDvZEqlV74",
+          "title": "東京都虹の下水道館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒135-0063 東京都江東区有明2丁目3-5",
+            "primary_type": "博物館"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeDfFAPmZSvvHrX5yNzbuv4y0cS7gq_CoFpmqtxzYOVuQeiUEJcZz9EtMqkaigrlaXuWxd56uWlgmj9wxNXTX7uC4pZT7dVpEzec7nbtGiz88wZFdroQzGsCVPYodM2d5irmIFH=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "東京都虹の下水道館", "uri": "https://maps.google.com/maps/contrib/102536143695274606155" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13715612929119723605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-13T20:37:44+00:00" },
+          "researcher_note": "有明水再生センターに併設された下水道の学習施設で、下水処理の漏出・越流を防ぐ仕組みを展示する。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "bok-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784434317095",
+          "title": "国破れて著作権法あり : 誰がWinnyと日本の未来を葬ったのか",
+          "creator": "城所岩生",
+          "year": 2023,
+          "publisher": "みらいパブリッシング(星雲社発売)",
+          "meta": { "series": "みらい新書", "ndc10": "021.2" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032680305", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-13T20:37:52+00:00" },
+          "researcher_note": "Winny開発者の著作権法違反事件を、弁護側視点を交えて追ったノンフィクション。"
+        },
+        {
+          "cand_id": "bok-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784062168502",
+          "title": "ウィキリークス アサンジの戦争",
+          "creator": "David Leigh, Luke Harding 著 / 月沢李歌子, 島田楓子 訳",
+          "year": 2011,
+          "publisher": "講談社",
+          "meta": { "original_title": "WikiLeaks", "ndc9": "007.3" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000011122643", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-13T20:37:52+00:00" },
+          "researcher_note": "ガーディアン記者二名によるウィキリークスの機密文書暴露をめぐる調査報道。"
+        },
+        {
+          "cand_id": "bok-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784393333112",
+          "title": "アンダーグラウンド",
+          "creator": "Suelette Dreyfus, Julian Assange 著 / 三木直子 訳",
+          "year": 2012,
+          "publisher": "春秋社",
+          "meta": { "original_title": "Underground 原著第2版の翻訳", "ndc9": "368.66" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I023623692", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-13T20:37:52+00:00" },
+          "researcher_note": "ハッカーによる機密システムへの侵入と情報流出の実話を取材したノンフィクション。"
+        },
+        {
+          "cand_id": "bok-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784309227863",
+          "title": "スノーデン独白 : 消せない記録",
+          "creator": "エドワード・スノーデン 著 / 山形浩生 訳",
+          "year": 2019,
+          "publisher": "河出書房新社",
+          "meta": { "original_title": "PERMANENT RECORD", "ndc10": "289.3" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030085369", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-13T20:37:52+00:00" },
+          "researcher_note": "NSA機密文書を暴露した当事者自身による手記。"
+        },
+        {
+          "cand_id": "bok-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784022515063",
+          "title": "パラダイス文書 = Paradise Papers : 連鎖する内部告発、パナマ文書を経て「調査報道」がいま暴く",
+          "creator": "奥山俊宏",
+          "year": 2017,
+          "publisher": "朝日新聞出版",
+          "meta": { "ndc10": "345.1" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028649963", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-13T20:37:52+00:00" },
+          "researcher_note": "内部告発を起点としたパナマ文書・パラダイス文書の国際調査報道を記者自身が記録した書籍。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1440738372",
+          "title": "Tha Carter III",
+          "creator": "Lil Wayne",
+          "year": 2008,
+          "publisher": "Cash Money Records Inc.",
+          "meta": { "track_count": 16, "primary_genre": "ヒップホップ／ラップ" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f9/6c/dc/f96cdc5c-09fe-06b6-4629-be4afeb71cca/08UMGIM15512.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/tha-carter-iii/1440738372?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-13T20:39:05+00:00" },
+          "researcher_note": "発売前に多数の未収録候補曲がインターネット上に流出し、収録内容の変更を招いたとされるアルバム。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1097862870",
+          "title": "Kid A",
+          "creator": "Radiohead",
+          "year": 2000,
+          "publisher": "XL Recordings Ltd",
+          "meta": { "track_count": 11, "primary_genre": "オルタナティブ" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/8e/13/bd8e1358-b367-a689-cb84-cebd0b067dc4/634904078263.png/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/kid-a/1097862870?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-13T20:39:05+00:00" },
+          "researcher_note": "正式発売前にファイル共有サービスを通じて広く流通し、インターネット流出アルバムの早い事例として知られる。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1587795158",
+          "title": "Donda",
+          "creator": "Kanye West",
+          "year": 2021,
+          "publisher": "Getting Out Our Dreams II, LLC / Def Jam Recordings",
+          "meta": { "track_count": 27, "primary_genre": "ヒップホップ／ラップ" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/62/13/7b/62137b3f-7722-59f5-2ee1-b5aff9426869/21UMGIM64738.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/donda/1587795158?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-13T20:39:05+00:00" },
+          "researcher_note": "正式リリースに先立ち複数年にわたり未完成版の音源がオンライン上に流出していたアルバム。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1631592477",
+          "title": "Michael",
+          "creator": "Michael Jackson",
+          "year": 2010,
+          "publisher": "MJJ Productions",
+          "meta": { "track_count": 7, "primary_genre": "ポップ" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/2f/3a/ed/2f3aed36-237b-22ec-752e-2a877ad06069/196589271624.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/michael/1631592477?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-13T20:39:05+00:00" },
+          "researcher_note": "没後に発表された未発表音源集で、収録曲の一部は生前から非公式に流通していたとされる。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1442966257",
+          "title": "The Life of Pablo",
+          "creator": "Kanye West",
+          "year": 2016,
+          "publisher": "Getting Out Our Dreams II, LLC / Def Jam",
+          "meta": { "track_count": 19, "primary_genre": "ヒップホップ／ラップ" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ec/fd/e0/ecfde04e-6db2-e55e-41fe-83c87a52b16e/00602547908339.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/the-life-of-pablo/1442966257?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-13T20:39:05+00:00" },
+          "researcher_note": "発売直前までタイトル・収録曲が変更され続け、発表前の未完成版が流通した経緯を持つアルバム。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

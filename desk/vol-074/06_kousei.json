@@ -1,0 +1,42 @@
+{
+  "vol": 74,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=3914990970027065298&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030085369",
+        "status": 200
+      },
+      {
+        "url": "https://music.apple.com/jp/album/kid-a/1097862870?uo=4",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[1](書籍)essay末尾「漏えいという一行の出来事の前に」",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "漏えい",
+      "teisei": "漏洩(表紙ロゴ・h1・og:title・folio欄はすべて「漏洩」表記であり、本号の主題語の表記が本文1箇所のみ仮名交じりで揺れている)"
+    },
+    {
+      "id": "P-02",
+      "location": "design.json の columns / .essay{column-count}",
+      "severity": "minor",
+      "type": "組版",
+      "genzai": "columns: 1(単段組)。本号は3件とも長文(本文325〜341字)の構成である",
+      "teisei": "art-directorスキルの基準(「長文3本なら2」)に照らすとcolumns: 2が基本形。同程度の長文3本構成だったvol-072はcolumns: 2を採用している。責了対応で再検討を検討されたい"
+    }
+  ]
+}
