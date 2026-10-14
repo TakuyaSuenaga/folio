@@ -1,0 +1,350 @@
+{
+  "vol": 75,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJm5qxvfBjGGAR1Ito__c6S0o",
+          "title": "東京国際空港管制塔",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都大田区羽田空港３丁目３−５", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd2wO1NyelaiFQKV5Ev6R-bBrKPG2M5i-cC7UGym5d-Qe7oSMYucIg-23-4oxZc--_ytolno9aSRNSfar-wRk309-YJvwgXesEvgPYFDm8Mc0238TWBktOVun6CSc3UDKLLxecQ3D9OArg=s4800-w984",
+            "source": "google-places",
+            "attributions": [ { "name": "Rob Rosemarie", "uri": "https://maps.google.com/maps/contrib/114790307905475041045" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=5353437418876341204&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-14T19:09:32+00:00" },
+          "researcher_note": "発注の『管制塔』に直接一致。塔内の管制官は在場だが、操作対象(航空機)は現場に無い制御の例として発注と距離がある点はエディター判断に委ねる"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJq4l0SsIA5TQRQu0r1BpJkUQ",
+          "title": "漢那ダム管理支所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "沖縄県国頭郡宜野座村漢那", "primary_type": "政府機関" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcfU3slFdhhyvbTfpLY4v2ULKFdHsr4nnDSvZLyZ6Hox0y0vCA5cypvB14XxtgrWJZn5auqCHlYyX97g4FZn-aR6q4xK3jn9y-uPgiiS6oCeTFGDU7BnKQUMyBwCwPtVszrUZk=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "半炒飯", "uri": "https://maps.google.com/maps/contrib/104202749993929330199" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=4940810645779770690&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-14T19:09:32+00:00" },
+          "researcher_note": "発注の『ダム管理棟』に一致するダム管理支所の一例"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJo7YU27dYc18Rb0Hq4Q5Q_mA",
+          "title": "金山ダム管理支所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "北海道空知郡南富良野町金山", "primary_type": "官公庁" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfISCK2pcxL_CagZ9mzzhfEqC_U0NtJaltF2kv6MC4x-8tRneYTipmn6MT9VkONvxcLL8ACTT-EK6ytPuz4BSbWZ60iaJhTeVG8H1zT16XM9OkSTMwDDkgTBV5TA68L4c1-X2KyDp--h30H=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "dr shino", "uri": "https://maps.google.com/maps/contrib/100888725896764926853" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=6989111696575578479&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-14T19:09:32+00:00" },
+          "researcher_note": "発注の『ダム管理棟』に一致するダム管理支所の一例"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJX16v7uxPA2AR0mWjMEB7sjI",
+          "title": "小里川ダム管理支所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "岐阜県恵那市山岡町田代１５６５−２１", "primary_type": "政府機関" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc5hO4T1P2f9009Zcgj9LZimiLIbmMrfg9FUVyzFJ_yxGom6Bdi-1gpV4mEe59SkWJSYRx8FE2YNI1etsKnAaqk4sPBzgVSptfwzuHVSXSdXqzUMaqT83tFp-f8ztoEBOZMhqlWJw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ニシマ", "uri": "https://maps.google.com/maps/contrib/100222566608313203777" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=3653117763375031762&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-14T19:09:32+00:00" },
+          "researcher_note": "発注の『ダム管理棟』に一致するダム管理支所の一例"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJC-AcD4r7H2ARv_v1cM-0KzQ",
+          "title": "大川ダム管理支所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "福島県会津若松市大戸町大字大川李平乙１２１", "primary_type": "政府機関" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe4hwM7nC8T9vBCrpDj-gsND8fci3c58ShfY4Dpaqt_3XGdsAhr5q-0eBdMpng5pBmkeFsfSCpuV1iaUqpjU2pf66w4SWxvGUN3SKYjGTHFftHzWdPcH_C-EWjklb50=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "SHINYA DX", "uri": "https://maps.google.com/maps/contrib/101875611099161142442" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=3759297117017209791&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-14T19:09:32+00:00" },
+          "researcher_note": "発注の『ダム管理棟』に一致するダム管理支所の一例"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJBRQbGrlqj18RNANg2TIGQSw",
+          "title": "湯田ダム管理支所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "岩手県和賀郡西和賀町杉名畑４４地割１６２−１５", "primary_type": "政府機関" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf_P_6301qC2n7xhwoyWUC_L_M_3FzMZbpjK0P2mfJE9jP33KZdurHipqHNBHemeQemPLMD5FRpqv0huMdJq7qe82bniyaxKD3l5dAviWsdq5KvesLHODQ9ZYbyT0urzGbOUHEVsQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "MC16NC30", "uri": "https://maps.google.com/maps/contrib/115584322665358290901" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=3188836826620101428&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-14T19:09:32+00:00" },
+          "researcher_note": "発注の『ダム管理棟』に一致するダム管理支所の一例"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJK2eObl3CRGERyF7koiyCqHs",
+          "title": "南鳥島気象観測所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都小笠原村南鳥島", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdvUZcmgk0_F8ahPt3-qkxOBeCvR731fxDhvIzwxic5HXcSP0PHGl2sn1QURmAvtHYm5uoe24feKu9LXkap4jAIS-pearpnghpYUJt3vD5hJ2TO-6O7A4B_wV7OEyIAax0QrMqE=s4800-w320",
+            "source": "google-places",
+            "attributions": [ { "name": "Media GAW BKT", "uri": "https://maps.google.com/maps/contrib/112298919409970359143" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=8910514990975573704&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-14T19:09:32+00:00" },
+          "researcher_note": "発注の『無人観測所』に直接一致。本土から約1800km離れた無人・自動観測拠点"
+        },
+        {
+          "cand_id": "arc-08",
+          "source_api": "google_places",
+          "source_id": "ChIJ50lu4eTNHWAR3KwqOhgoGoY",
+          "title": "軽井沢特別地域気象観測所(アメダス)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "長野県北佐久郡軽井沢町追分１１５１−２", "primary_type": "政府機関" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcrHwKQREU8waFJqf_h5o2laHpH98u29wEKWwW22EJjXxQ_dZ_vvmEUVZ0uwxSW7_59Nq9-Ow9d_qc7gca2VA5HSdCzTwTt-EHslEUdrN15h6CS8wElDolvG4zhOyWWjMpLvOCvbw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "jun ozawa", "uri": "https://maps.google.com/maps/contrib/105143730390355596044" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=9663080034997021916&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-14T19:09:32+00:00" },
+          "researcher_note": "発注の『無人観測所』に直接一致。アメダスは常時無人・自動観測"
+        },
+        {
+          "cand_id": "arc-09",
+          "source_api": "google_places",
+          "source_id": "ChIJWyGITjJfA2ARw6U6h_QXaUI",
+          "title": "豊田地域気象観測所(アメダス)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "愛知県豊田市高町東山１６−１２", "primary_type": "官公庁" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf6YuT6l8zmpPY37HpLUwEE53nMthNZUpPiHwG-o4QnIcQEbyie7oIO3_40AG_pPbaq1U3osEOpfiKiFWgxI-FYxjznk_U1WJW_ULqAjQcK3_Nzt0cpihEgnFaCbRyY-ogS06A3=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "376583 ygl", "uri": "https://maps.google.com/maps/contrib/105079690332434561005" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=4785382418066089411&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-14T19:09:32+00:00" },
+          "researcher_note": "発注の『無人観測所』に直接一致。アメダスは常時無人・自動観測"
+        },
+        {
+          "cand_id": "arc-10",
+          "source_api": "google_places",
+          "source_id": "ChIJaxISNoCcBGARtw5657nkA2A",
+          "title": "依佐美送信所記念館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "愛知県刈谷市高須町石山２", "primary_type": "博物館", "note": "旧日本海軍の長波送信所跡。現在は記念館として現存建屋の一部を保存" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeBfxei7hnUEu-_BK0mcb9WiHH83U0VnLGWL9PptDy0mIc0oSMY8wU8nV3uZHSsJpd9bYkjAqWEgeqM2FnmA_wqfSFhPkddeNNLgWbJm0Os0g5yBvhpOY8Ykz-fLx6rD47M0SEl=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "John Smith", "uri": "https://maps.google.com/maps/contrib/108951963465727729023" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=6918624939674832567&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-14T19:09:32+00:00" },
+          "researcher_note": "送信所としての遠隔通信の例だが現役設備ではなく記念館(保存建屋)。発注が求める『機能し続ける』実働施設とは距離がある"
+        },
+        {
+          "cand_id": "arc-11",
+          "source_api": "google_places",
+          "source_id": "ChIJW41HXADrGGARItheqvZlsEU",
+          "title": "TBSラジオ 954kHz 100kW 戸田送信所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "埼玉県戸田市氷川町３丁目３−５１", "primary_type": "テレビスタジオ" },
+          "image": null,
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=5021625694612805666&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-14T19:09:32+00:00" },
+          "researcher_note": "都心のスタジオから遠隔で稼働する現役送信所。写真は生存確認できたものが無く未採用"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1537634007",
+          "title": "Sing as One: Ten Years of Eric Whitacre's Virtual Choir",
+          "creator": "エリック・ウィテカー",
+          "year": 2020,
+          "publisher": "UNQUIET",
+          "meta": { "trackCount": 9, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bc/1f/3c/bc1f3c6e-27f6-2a12-c910-5600f61c2f33/195497264827.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/sing-as-one-ten-years-of-eric-whitacres-virtual-choir/1537634007?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-14T19:09:52+00:00" },
+          "researcher_note": "Virtual Choir各作の総括盤。参加者が各地で別々に録音した音声を重ねて一つの合唱に仕立てる手法そのものを発注が求める主題と一致する"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1441463371",
+          "title": "Deep Field",
+          "creator": "エリック・ウィテカー, ロイヤル・フィルハーモニー管弦楽団, エリック・ウィテカー・シンガーズ & Virtual Choir 5",
+          "year": 2018,
+          "publisher": "UNQUIET",
+          "meta": { "trackCount": 7, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/cc/7b/d8/cc7bd860-2652-651b-c07f-21b01d80ae4b/193483067506.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/deep-field/1441463371?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-14T19:09:52+00:00" },
+          "researcher_note": "Virtual Choir 5を含む作品。各地から個別に録音された声が一つの管弦楽曲に重ねられる"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1524066188",
+          "title": "Sing Gently",
+          "creator": "エリック・ウィテカー & Virtual Choir 6",
+          "year": 2020,
+          "publisher": "UNQUIET",
+          "meta": { "trackCount": 3, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/49/82/67/498267a6-6f5c-ebd5-d7d0-4b8ebea8e33c/195081901411.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/sing-gently/1524066188?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-14T19:09:52+00:00" },
+          "researcher_note": "Virtual Choir 6。各国の歌唱者が自宅で個別録音した音源を重ねた2020年作"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1629773598",
+          "title": "Songs Around the World (Digital Wide Version)",
+          "creator": "プレイング・フォー・チェンジ",
+          "year": 2009,
+          "publisher": "Timeless Media, LLC dba Playing For Change Records",
+          "meta": { "trackCount": 10, "primaryGenreName": "ポップ" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/2f/3a/b1/2f3ab1d6-4239-4465-6d9d-111d11d19b24/888072315723_cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/songs-around-the-world-digital-wide-version/1629773598?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-14T19:09:52+00:00" },
+          "researcher_note": "各国のミュージシャンを個別に収録し重ねた原点作。発注の『各地で別々に録られた音源を重ねた作品』に直接一致"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1629796132",
+          "title": "Playing for Change 3: Songs Around the World",
+          "creator": "プレイング・フォー・チェンジ",
+          "year": 2014,
+          "publisher": "Timeless Media, LLC d/b/a Playing For Change Records",
+          "meta": { "trackCount": 8, "primaryGenreName": "ワールド" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7c/73/97/7c73970a-2c73-1170-31e8-38696a673c66/192641486043_cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/playing-for-change-3-songs-around-the-world/1629796132?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-14T19:09:52+00:00" },
+          "researcher_note": "同シリーズ第3作。各地収録・重ね合わせの手法は同一"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1629797141",
+          "title": "Songs Around the World (10 Year Anniversary Edition)",
+          "creator": "プレイング・フォー・チェンジ",
+          "year": 2020,
+          "publisher": "Timeless Media, LLC d/b/a Playing For Change Records",
+          "meta": { "trackCount": 10, "primaryGenreName": "ポップ" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/40/81/ac/4081acfa-7dc2-8036-d9d6-d97e151855ab/192641497629_cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/songs-around-the-world-10-year-anniversary-edition/1629797141?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-14T19:09:52+00:00" },
+          "researcher_note": "原点作の10周年再編集盤"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1629795440",
+          "title": "PFC 2: Songs Around the World",
+          "creator": "プレイング・フォー・チェンジ",
+          "year": 2011,
+          "publisher": "Timeless Media, LLC d/b/a Playing For Change Records",
+          "meta": { "trackCount": 10, "primaryGenreName": "ポップ" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5e/c6/ea/5ec6ea33-943b-598e-9293-2babc7f19b6b/888072331044_cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/pfc-2-songs-around-the-world/1629795440?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-14T19:09:52+00:00" },
+          "researcher_note": "同シリーズ第2作"
+        },
+        {
+          "cand_id": "mus-08",
+          "source_api": "itunes",
+          "source_id": "1759630168",
+          "title": "Listen to the Music",
+          "creator": "プレイング・フォー・チェンジ",
+          "year": 2018,
+          "publisher": "Timeless Media, LLC dba Playing for Change under license to Motema Music, LLC",
+          "meta": { "trackCount": 12, "primaryGenreName": "ロック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/03/04/a6/0304a670-6dd9-f300-4c09-58c0366e86a0/181212002546_cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/listen-to-the-music/1759630168?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-14T19:09:52+00:00" },
+          "researcher_note": "同団体の近年作。手法は同一だが代表性はmus-04より弱い"
+        }
+      ]
+    },
+    {
+      "genre": "cafe",
+      "candidates": [
+        {
+          "cand_id": "caf-01",
+          "source_api": "google_places",
+          "source_id": "ChIJW37-maSJGGARAVfOsHNGMxg",
+          "title": "分身ロボットカフェ DAWN ver.β（Ory Cafe）",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都中央区日本橋本町３丁目８−３ １階", "primary_type": "カフェ・喫茶" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd_DHTtXQtbFcK2YZBBVAqyMZ2TCJ9LoRYRw2ckAsCYpV1oyDzXxulvFkBds2zhhROaa9C1oNJnbcudT30IsPZNQaNwiX6Jsr77SVj5lZWFQHmm2ZTQ4GEUSE6Mrb_B-nGhAec=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "分身ロボットカフェ DAWN ver.β（Ory Cafe）", "uri": "https://maps.google.com/maps/contrib/106663611033023626930" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=1743814943424009985&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-14T19:09:32+00:00" },
+          "researcher_note": "発注の『分身ロボット等の遠隔操作技術を用いて実際に接客する実在の店』に直接一致。OriHimeパイロットが外出困難な自宅等から接客する常設店"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "cafe: 分身ロボット等の遠隔操作技術を用いて実際に接客する実在の店",
+      "reason": "「テレプレゼンスロボット カフェ」「分身ロボット 店舗」「リモート接客 カフェ」「変身ロボット レストラン」等でも再検索したが、該当するGoogle Places候補は『分身ロボットカフェ DAWN ver.β（Ory Cafe）』1件のみで、他に実在の同種店舗は見つからなかった。候補ゼロではないため該当なしではないが、発注1件につき候補5点以上という目標には届かない"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "vol": 75,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=8910514990975573704&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://music.apple.com/jp/album/sing-as-one-ten-years-of-eric-whitacres-virtual-choir/1537634007?uo=4",
+        "status": 200
+      },
+      {
+        "url": "https://maps.google.com/?cid=1743814943424009985&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[2](カフェ)DATA欄「address」行",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "東京都中央区日本橋本町３丁目８−３ １階（全角数字３・８・１、全角マイナス記号U+2212「−」）",
+      "teisei": "東京都中央区日本橋本町3丁目8-3 1階（半角算用数字・半角ハイフンに統一。前号vol-074のaddress欄「赤坂1丁目13-1」は半角で統一済み）"
+    }
+  ]
+}
