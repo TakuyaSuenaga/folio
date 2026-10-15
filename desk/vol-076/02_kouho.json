@@ -1,0 +1,410 @@
+{
+  "vol": 76,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJ42urufCLGGARjDu21SoAR1g",
+          "title": "明治生命館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都千代田区丸の内２丁目１−１", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLctFBs4NJgM7DFTSRllp1YDZ5Y40pql-9xMx7ifaNLS8ifKfDIvc5TCiuKNt0egYK3ve0gp99YrRB5YaYD1KDNOTv41haRiU3J0gfIQvK5ZVJD5BjmE9EgEz8mPUhrBHSw7im6I=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "梅", "uri": "https://maps.google.com/maps/contrib/116895550169341939027" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=6361053182658231180&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:58:24+00:00" },
+          "researcher_note": "1997年に重要文化財指定(戦後建築として初)。指定後に免震レトロフィット工事を伴う保存・再生が行われた例として発注に一致"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJE9qjZ0-LGGARQiAs8hULJsg",
+          "title": "東京駅丸の内駅舎",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都千代田区丸の内１丁目９−１", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcpgm7cnSBPEcxlV9pwzR4f0Q0qFq4ywK8KCFlYSCWoVYu8p0mGm9MyRKDmfEsR4ZuEd8-ynlxO9wDjFxhL18bD0vI8Trgn_H8X2ZlFFmg7-1WknpXtt7YVYr5lqHuth6oFqDsh=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Albion Kwok", "uri": "https://maps.google.com/maps/contrib/105705102899276367891" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=14422227045585788994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:58:24+00:00" },
+          "researcher_note": "2003年に重要文化財指定。指定後、戦災で失った三階部分とドームを復元する事業が2012年に完成した例として発注に一致"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJgRaozOfmAGARmWOBQQdKkDU",
+          "title": "大阪市中央公会堂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "大阪府大阪市北区中之島１丁目１−２７", "primary_type": "イベント会場" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcLJ5IdsSA_FBzmJbdpH6OHup8nlEop0IelGr3sJcKyMuDYf2Op-gAoDIeHAOY4F9EsHTfLyDhauM3iFme_FnqYMbEnGqLuJyhXHvTQ4hj5jTKJc_PbhwkTTPmCNX5TwRsxx99wBLZqtl-e=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Goodday Cafe", "uri": "https://maps.google.com/maps/contrib/101599667891743214552" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=3859666275680740249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:58:24+00:00" },
+          "researcher_note": "2002年に重要文化財指定。指定前後で免震改修による保存・公開継続が行われた例として発注に一致"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJE7t5RL-LGGARcK_0zdY8yyU",
+          "title": "迎賓館赤坂離宮",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都港区元赤坂２丁目１−１", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcapadHzO6QeROUD5BV_-BrobSb9jdT7loSXxLtOqGDLbM_DKrOV9bnifj_rdrDq0zDzI818ndn2xTiObft1_5MxW8-Hj5pmLH4SRwmrtcjB_gYOvxQQ6OdwWqac4klnoX95ZzJKzWFxHCZ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "高矩", "uri": "https://maps.google.com/maps/contrib/113361573419290280280" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=2723337292951629680&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:58:24+00:00" },
+          "researcher_note": "2009年、明治以降の建造物として初めて国宝指定された例。指定後に公開条件(一般参観の拡大)が変化した点で発注に一致"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJtyvayxKiWjURgIGSanFnMPE",
+          "title": "広島平和記念資料館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "広島県広島市中区中島町１−２", "primary_type": "博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLew630yqiKOlbYwvm3F18iQby6VqApNZhK0AKNMt6WbJ8I0QNwEB2ACqKml53ggBP9_0syNv7REwXirC5iBskXcozbUFgp2Noz84-HkStTSy8IACOF553mD_7jpJbtMHAgVrU6XYg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Junior dos Reis", "uri": "https://maps.google.com/maps/contrib/111724947758006174882" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=17379504698839695744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:58:24+00:00" },
+          "researcher_note": "2006年に重要文化財指定(丹下健三設計の本館)。戦後建築の指定例として発注に一致するが、arc-01・arc-02ほど指定前後の扱いの変化が明確に語られる例ではない"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJ7VAL1S-LGGARvSiJU3Zw9Pk",
+          "title": "日本銀行本店 本館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都中央区日本橋本石町２丁目１−１", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfLcrquKdkOCCKX6-c-idHim8s3H9eIz8oEHuxRXZJYIqV-YQ3Z5wRTpwT37_Q4aUtzL692jSNNMcl3bhUZsFfkCMPTKW1q2OKaGjMWx60RhUwYNVlaxXHpEkZhB1Eq4YSN-93JwOi8AeY=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "アンクル浅草", "uri": "https://maps.google.com/maps/contrib/111399428220298175554" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=18011144463271405757&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:58:24+00:00" },
+          "researcher_note": "1974年に重要文化財指定。現役の中央銀行施設が指定を受けた例として発注に一致"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJv-mk7F5dGGARYAFXls2mqkc",
+          "title": "旧横浜正金銀行本店本館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "神奈川県横浜市中区南仲通５丁目６０−６０", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTRp1O0LkdADfZuMn54nTGqkLe-uCBbHc5TPPusyhVjXgVp_X-Vgp4f5nn2ciGNcDYUJoY9x18vs_Ysxv9CQEFn9ElOmz1xBmTvDoNLKKuN4oWpEQLNncRWM-uXBpav37Pp1eg1QmQ72sj=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "川北英隆", "uri": "https://maps.google.com/maps/contrib/105396192845383115969" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=5164123324654485856&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:58:24+00:00" },
+          "researcher_note": "1969年に重要文化財指定。指定後に銀行から神奈川県立歴史博物館へ用途が転換し、公開条件が変わった例として発注に一致"
+        },
+        {
+          "cand_id": "arc-08",
+          "source_api": "google_places",
+          "source_id": "ChIJRw_H56vznl8RMNpSnxrOimg",
+          "title": "旧函館区公会堂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "北海道函館市元町１１−１３", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLevFNteO2cx0a1m2BVe_cfl2CbSAtFO6VYT4iFRgpMoacS0X7GWj0ZIbFfyQwv_LdwvOOIfEUaGJGVipiQ7MeAGgg6W1MECzaxDxj9RY2k9Ia8pDfmC1-8eGziIm8InyP6Ulcd6=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Yuji Tanaka", "uri": "https://maps.google.com/maps/contrib/106463551796766303482" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=7533059940468054576&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:58:24+00:00" },
+          "researcher_note": "1974年に重要文化財指定。指定後に保存修理が行われ、観覧施設として公開されている例として発注に一致"
+        },
+        {
+          "cand_id": "arc-09",
+          "source_api": "google_places",
+          "source_id": "ChIJEX3XFIOOGGAR3XdJvRjWLyM",
+          "title": "東京国立博物館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都台東区上野公園１３−９", "primary_type": "博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfh00AsVUjA7vDCaUQX-RiNjSUGGfIq98S6Pb6up_grVpkpU1iBjlC7nAFOHSTVxzhCcohe21vtco46YPTKTrMyWX2tsaBfQFA-H1WK6KN-sdw22_zCnrXGuVj0uNmqw-Rlbe3l=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "山賀康弘", "uri": "https://maps.google.com/maps/contrib/108936589204256725438" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=2535480516976146397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:58:24+00:00" },
+          "researcher_note": "2001年に本館が重要文化財指定。現役の博物館建物が指定を受けた例として発注に一致するが、arc-01・arc-02ほど指定前後の扱いの変化が明確ではない"
+        },
+        {
+          "cand_id": "arc-10",
+          "source_api": "google_places",
+          "source_id": "ChIJf8xB-pyOGGARizzhlNTcI7s",
+          "title": "国立西洋美術館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都台東区上野公園７−７", "primary_type": "Art museum" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfHJlc5xizaSVihX2_U3SZYpIEyniTQI8upRX2zZMlRAIVW96bT_IRvZ5WuYoiTTPHT8JPxgNW-jpfsjjbvG-lsoNcrDhxqt_vTWLo_1yCPT1uUun9XCBCs927mbehwDLZbiutAImOivB7H=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Yee WANG (Architecte)", "uri": "https://maps.google.com/maps/contrib/113527247090638141727" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=13484864514866363531&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:58:24+00:00" },
+          "researcher_note": "2016年にユネスコ世界遺産(ル・コルビュジエの建築作品)として登録。国の重要文化財指定とは異なる国際的な認証の例であり、発注の『公的な認証・審査』にどこまで含めるかはエディター判断に委ねる"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "bok-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784863134898",
+          "title": "愛書狂の本棚 : 異能と夢想が生んだ奇書・偽書・稀覯書",
+          "creator": "エドワード・ブルック=ヒッチング 著 / 髙作自子 訳",
+          "year": 2022,
+          "publisher": "日経ナショナルジオグラフィック社",
+          "meta": { "series": "NATIONAL GEOGRAPHIC", "ndc10": "026", "original_title": "THE MADMAN'S LIBRARY" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032010201", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:58:32+00:00" },
+          "researcher_note": "偽書・奇書・稀覯書を集めた一冊。書物の真贋・来歴という発注の主題に直接一致"
+        },
+        {
+          "cand_id": "bok-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784642057516",
+          "title": "偽りの外交使節 : 室町時代の日朝関係",
+          "creator": "橋本雄 著",
+          "year": 2012,
+          "publisher": "吉川弘文館",
+          "meta": { "series": "歴史文化ライブラリー;351", "ndc9": "210.46" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I023855500", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:58:32+00:00" },
+          "researcher_note": "室町時代に偽造された外交使節(国書・信牌)を主題とする一冊。外交文書の真贋・認証という発注の主題に一致"
+        },
+        {
+          "cand_id": "bok-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784816925856",
+          "title": "「重要美術品」認定作品総覧",
+          "creator": "日外アソシエーツ株式会社 編",
+          "year": 2016,
+          "publisher": "日外アソシエーツ(紀伊國屋書店発売)",
+          "meta": { "ndc9": "703.8" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027101898", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:58:32+00:00" },
+          "researcher_note": "旧文化財保護法下の『重要美術品』認定(国による美術品輸出制限のための認定制度)作品の総覧。国家による美術品の公的認定という手続きそのものを主題とする点で発注に一致"
+        },
+        {
+          "cand_id": "bok-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784756248268",
+          "title": "美しい日本のくせ字",
+          "creator": "井原奈津子 著",
+          "year": 2017,
+          "publisher": "パイインターナショナル",
+          "meta": { "ndc10": "141.98", "subject": "筆跡学" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028156270", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:58:32+00:00" },
+          "researcher_note": "日本人の手書き文字の個性(くせ字)を集めた一冊。筆跡という主題は発注に重なるが、鑑定・認証という手続きそのものではなく文字の美を扱う点で発注とは距離がある"
+        },
+        {
+          "cand_id": "bok-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784560510421",
+          "title": "アーカイヴズ : 記録の保存・管理の歴史と実践",
+          "creator": "ブリュノ・ガラン 著 / 大沼太兵衛 訳",
+          "year": 2021,
+          "publisher": "白水社",
+          "meta": { "series": "文庫クセジュ;1042", "ndc10": "018.09", "original_title": "Les archives" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031258441", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:58:32+00:00" },
+          "researcher_note": "文書館による記録の保存・管理の歴史と実践を扱う一冊。文書の来歴管理に関わるが、真贋認証そのものではなくアーカイブズ制度一般を扱う点で発注とは距離がある"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJTXWDqZ-9QzURqBIB4heLJok",
+          "title": "ふく・長州料理 KATSUMOTO",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "山口県下関市田中町８−１１", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdiS9awOpYPEqbDdMJXCw2WcixBzJ_UiPsPQ2JbSvVCva7yGAG9818pjjdYQ1wGP9hyLdQRhK24CUvv3PCO0AHiZLgp52dGdrquovTZVGo5zui8DAgv6ulJA74MTtb6Fz4YgqQn1YSoLaDw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ふく・長州料理 KATSUMOTO", "uri": "https://maps.google.com/maps/contrib/103107171777726421679" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=9882739367003361960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:59:38+00:00" },
+          "researcher_note": "ふぐ調理師免許(都道府県等の認証資格)が無ければ提供できない料理を出す店。下関はふぐ調理師免許制度発祥の地であり、免許制度が存立条件となる発注に直接一致"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJ2fhgYGK9QzURYZBjQppeetA",
+          "title": "平家茶屋",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "山口県下関市みもすそ川町１−１", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfuBO-461Gbofa_hfEzYMYc3s6ITA60DjAVvFy_UTE1pXL0njIMfJRQFhzHUSKU9SneWjc97L_JMMHpX9K5FoghoEqdk65WDM-azhBUZRmf1Qoccr8NIiMFLTnLWN142QAKPM7oXg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "亀山容三", "uri": "https://maps.google.com/maps/contrib/109190862148701515759" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=15022423523679506529&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:59:38+00:00" },
+          "researcher_note": "下関のふぐ料理店。免許制度が存立条件となる発注に直接一致"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJ3aeddiCMGGARZMF7w6HfKnM",
+          "title": "玄品 上野",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都台東区上野２丁目１−６", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcmLc-bnrc_D7hc_iJT2tJePP4kvGrn0umGLuD5iwM55QC95G83ve9vFwdEqQkwoRtpd_5Ov0hCW5ZIqJbCAhqy3wavLFgLgTmpPcg7Wv5Q5hZ42bW96WgxtAXm8RCkQ0LO4crbZTzW8Y0=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Amy", "uri": "https://maps.google.com/maps/contrib/115792162939428103614" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=8298691149245956452&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:58:29+00:00" },
+          "researcher_note": "東京のふぐ料理専門チェーン店舗。免許制度が存立条件となる発注に直接一致"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJP6Ni6VWLGGARolDc1NxYG04",
+          "title": "とらふぐ亭 渋谷店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都渋谷区円山町５−６", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeZTJ519CPq45CZgu8PD6xUEfXhd3sLIvILyXHMC50J0jgbEaFwM6QoiuoAPUWdB_HlJq4460MBtIBV4ZpO0t44EZ1xA4IdQf8pBdL8k9nxynzoONP2MojhG8XnMIHtPmo7sHPDnQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "とらふぐ亭 渋谷店", "uri": "https://maps.google.com/maps/contrib/116351630979273227775" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=5628189864816824482&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:58:29+00:00" },
+          "researcher_note": "東京のとらふぐ専門チェーン店舗。免許制度が存立条件となる発注に直接一致"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ_8nAq-uLGGARcBfKliLXayU",
+          "title": "ふぐ倶楽部miyawaki",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都中央区銀座１丁目２２−１２", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfirT3FQytiNFgebBXIXxEw6glYoBP1A9mI2GFQVUWl7EjOBKr0vo1dVljYZd9MWusaMO-pYrC37gc6SpA2R7fMeG197xOsi0fJYViDsnqOrIlPJGmoKDMqA5Pgkx6iUfZ4gRWT=s4800-w1080",
+            "source": "google-places",
+            "attributions": [ { "name": "ふぐ倶楽部miyawaki", "uri": "https://maps.google.com/maps/contrib/111457824828821037866" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=2696485345470060400&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:58:29+00:00" },
+          "researcher_note": "銀座の独立系ふぐ料理店。免許制度が存立条件となる発注に直接一致"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJEXh-vRTnAGARLrRXlCYabIs",
+          "title": "玄品 法善寺 総本店 ふぐ・うなぎ・かに料理",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "大阪府大阪市中央区難波１丁目１−１３", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdtkLAiiRsMBuFuhIJelZdYhKHuds0o523tGR6njCyWjX4J_Jc2DPLDr7umhS9wzqI5kgrFdFSNQLpbsp0WSfW_Ghkkd9-X-jKwFdel0KwDPGlSdqgMeg5w-IdDwz5Luxoz0AvreTjwbpY_=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "許小咕", "uri": "https://maps.google.com/maps/contrib/114222122076872669000" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=10046433621756589102&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:58:29+00:00" },
+          "researcher_note": "大阪のふぐ料理専門チェーン総本店。免許制度が存立条件となる発注に直接一致"
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJ0d4j8U_nAGARYsqqVyHBzxM",
+          "title": "ふぐとかにの店 心斎橋 ふぐちん",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "大阪府大阪市中央区心斎橋筋１丁目４−３", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLegBxzW34dJDKUJlBkxLKRQD78kjyRt-n-hv1XLqCkUS9K1BoPUS490XQ_qpai-ix3CuW3NfwTtWQSH8v2kj4ClZnu-Fqqx-GCQVhMph4pzv1rdWClUWzrJeuPRAPYdnS3nRBFhsSm1LoiI=s4800-w414",
+            "source": "google-places",
+            "attributions": [ { "name": "ふぐとかにの店 心斎橋 ふぐちん", "uri": "https://maps.google.com/maps/contrib/114033055746502803391" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=1427571955848628834&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:58:29+00:00" },
+          "researcher_note": "大阪の独立系ふぐ・かに料理店。免許制度が存立条件となる発注に直接一致"
+        },
+        {
+          "cand_id": "res-08",
+          "source_api": "google_places",
+          "source_id": "ChIJ3VKwlevmAGARxWxC_XVGcxY",
+          "title": "ふぐ天神 梅田本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "大阪府大阪市北区曾根崎１丁目７−１３", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc-o1hWXY1AJKTFFPIOBvp3XdmtYorYoAW335CF97maaXG7eYM2Gl2wvAXldS9TGqDjJHsIwMfLzKV-qHn12MIPmvhfcAjVh4F_q6bWE7gfDyTqrzuJ2v66Y-OsLkOTWi9vPw9G=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ぴぴねこ", "uri": "https://maps.google.com/maps/contrib/115365209007991200015" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=1617714163730246853&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-15T18:58:29+00:00" },
+          "researcher_note": "大阪の独立系ふぐ料理店。免許制度が存立条件となる発注に直接一致"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

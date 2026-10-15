@@ -1,0 +1,42 @@
+{
+  "vol": 76,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=6361053182658231180&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I023855500",
+        "status": 200
+      },
+      {
+        "url": "https://maps.google.com/?cid=9882739367003361960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "lead(「河豚を出す免許」)と items[2](restaurant)essay(「ふぐを扱う」「ふぐ調理師免許」ほか)",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "leadでは「河豚」(漢字表記)、res-01のessayでは「ふぐ」(かな表記)と同一語が号内で表記不一致",
+      "teisei": "leadとessayのいずれかに表記を揃える(例: leadを「ふぐを出す免許」にする、またはessayを「河豚」表記に統一する)"
+    },
+    {
+      "id": "P-02",
+      "location": "okuzuke(奥付)末尾",
+      "severity": "minor",
+      "type": "組版",
+      "genzai": "<p>folio / VOL.076 / 2026-10-16 / 発行元 folio</p><p></p>",
+      "teisei": "内容のない末尾の<p></p>を削除する"
+    }
+  ]
+}
