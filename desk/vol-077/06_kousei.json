@@ -1,0 +1,50 @@
+{
+  "vol": 77,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=16774953747348392391&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://music.apple.com/jp/album/203093045?uo=4",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031375592",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[0] essay「『地下神殿』と呼び慣わされるその空間は」",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "『地下神殿』",
+      "teisei": "「地下神殿」(通称の引用・強調であり作品名ではないため『』ではなく「」を使う)"
+    },
+    {
+      "id": "P-02",
+      "location": "items[2] essay「秋の『露』と冬の『霜』もまた」",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "『露』『霜』",
+      "teisei": "「露」「霜」(語の引用・強調であり作品名ではないため『』ではなく「」を使う)"
+    },
+    {
+      "id": "P-03",
+      "location": "items[1] essay「池田亮司の『+/-』は」",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "+/-",
+      "teisei": "+ / - (見出し・DATA欄「題名」の表記「+ / -」と空白の有無が一致していない)"
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "vol": 77,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJNzPzVIW9GGARvTqmdAYs_hw",
+          "title": "首都圏外郭放水路",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "埼玉県春日部市上金崎720", "primary_type": "政府機関" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdRY_rv0OhCd810SPQ2-y6m8FmMSGHbFaVxkL5i1NQuYnzmD_jciGtdJsEQ0PH6IfX0rUEhmqD2MBAugRqZm5s1NQlnqK10t013LYdmkDp4pPwL5XQsAd-PiODdsGG_YEsFFNJV=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "心を燃やせ", "uri": "https://maps.google.com/maps/contrib/106526947337785292088" } ]
+          },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=2089155683384965821&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-16T18:40:57+00:00" },
+          "researcher_note": "江戸川区の洪水対策として国が整備した地下放水路。名称が示す『放水』は河川水位が基準を超えた際にのみ稼働する機構であり、発注の『外力が基準値を超えた瞬間にだけ作動する』に該当"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJ59w6bX-8GGARxwlPQo6bzOg",
+          "title": "外郭放水路調圧水槽",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "埼玉県春日部市上金崎720", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfPciLyV9cCUYmMl41CX5qRoygz-dTATySJqYzjGC4oxd-jAGkMu3ACkZqREJJZaSLqhr3KG8bzVYxkqpE59E78RKHLCFi6z7mOla9PT19fPOMCT_6LnSXyR3Iz-9Vmh89GHlSV=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Haptic 404", "uri": "https://maps.google.com/maps/contrib/107600383051504796287" } ]
+          },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=16774953747348392391&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-16T18:40:57+00:00" },
+          "researcher_note": "首都圏外郭放水路の『地下神殿』として知られる調圧水槽本体。水位が基準を超えた流入水の圧力を均す機構で、arc-01と同一施設の中核部分"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJ1XIoDYeIGGAREeOtzW4Dwio",
+          "title": "荒川ロックゲート",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都江戸川区小松川1丁目1−地先", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfOOUHA2-ED2rk8ijAXBoKIZMTei7TKOVNen8Em4VS03dDnvnaftngpz3gEUX0U9-ttnEofhIY5BDohkIaoXS__jLkAheNLr84X3qzkbST8Ob38IqX_RI7TbM8pvq73oz0UEufI=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "T Yasu", "uri": "https://maps.google.com/maps/contrib/116104816559586156502" } ]
+          },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=3081028869506851601&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-16T18:40:57+00:00" },
+          "researcher_note": "荒川と旧中川の水位差が生じた際に閘門を開閉して船を通す施設。水位差という基準値を境に稼働する点が発注に一致"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJNVTdj8sCI2ARlG1L7uaRFlU",
+          "title": "利根川河口堰",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "千葉県香取郡東庄町新宿2276", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfTwAE6CW1IiFXBUZ25SJCqNNjWBCVQylViGX88f5iHA1S-9OkHxV8uPFo-ORov0srGeQsDQvYVj046MH7wT7TICs3WITDtXizujI4H9_hYc6TB3LMZ2PwKowoO60KBkXWCnqM9=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "だてっち1091", "uri": "https://maps.google.com/maps/contrib/111770943535273799745" } ]
+          },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=6131248363737935252&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-16T18:40:57+00:00" },
+          "researcher_note": "利根川河口で塩水の遡上と洪水を制御する可動式の堰。河川水位という基準値を境に扉を動かす構造物"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJu8047yKHGGAR4d-41qpbnwY",
+          "title": "行徳可動堰",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都江戸川区東篠崎町2丁目250", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfWMcrnuUsNKe8C9Kpg5JYPmm0KgVF8y2lg7NH-8m7iFmyT9j_gbnj7uiYGi8bUtPS4xmiZLRf61znb8PsHztZ7tPNjTRm6odAO8GoxDJljwdFM4-bZ_luRfp2tcUAQXBufxBK8=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Keiichi Quriyama", "uri": "https://maps.google.com/maps/contrib/102865210874006713616" } ]
+          },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=477200874829570017&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-16T18:40:57+00:00" },
+          "researcher_note": "江戸川の水位に応じて堰扉を可動させ、上流の洪水と下流の塩水遡上を分ける施設。『可動』の名が示す閾値応答の構造"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJk0AOg76HGGARe7IkXjNVX08",
+          "title": "江戸川水閘門",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都江戸川区東篠崎1丁目11−15", "primary_type": "官公庁" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfHBcxb_Ai3FL2C2Vdu5K5FGem9KN9ZPzz7SUh_lhPtQ-uIWtwbR8AaQwb-OqZF63LR-DPp7C7MepHaGCw5y4Aw-3Whve0I3g77xnsR5hkbfE1a4i-_PeG0OQrEGOsJDyuRuLG9fg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "山地雅宏", "uri": "https://maps.google.com/maps/contrib/104568723033713327819" } ]
+          },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=5719383730894975611&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-16T18:40:57+00:00" },
+          "researcher_note": "江戸川と旧江戸川の間で水位差・水質差を分ける水門・閘門施設。水位基準を境に扉を操作する構造物"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "203093045",
+          "title": "+ / -",
+          "creator": "Ryoji Ikeda",
+          "year": 1996,
+          "publisher": "Touch",
+          "meta": { "trackCount": 10, "primaryGenreName": "エレクトロニック", "country": "JPN" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/83/23/4d/mzi.fzqzfebt.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/203093045?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-16T18:40:43+00:00" },
+          "researcher_note": "純音のサイン波を可聴帯域の上限・下限近くまで用いた池田亮司の初期作。可聴の閾値そのものを主題にした発注に一致"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1687016924",
+          "title": "test pattern",
+          "creator": "Ryoji Ikeda",
+          "year": 2008,
+          "publisher": "Ryoji Ikeda",
+          "meta": { "trackCount": 16, "primaryGenreName": "エレクトロニック", "country": "JPN" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cc/80/f7/cc80f7d4-6b68-131a-10d0-f79d6819fba7/4260115990931.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/test-pattern/1687016924?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-16T18:40:43+00:00" },
+          "researcher_note": "データを音と映像のパターンへ変換し、極端な高周波・低周波を扱う作品。周波数の閾値を主題にした発注に一致"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1687017550",
+          "title": "supercodex",
+          "creator": "Ryoji Ikeda",
+          "year": 2013,
+          "publisher": "Ryoji Ikeda",
+          "meta": { "trackCount": 20, "primaryGenreName": "エレクトロニック", "country": "JPN" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/47/1d/2e/471d2ece-9b3c-6713-73a9-6bbe629d3334/197188760472.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/supercodex/1687017550?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-16T18:40:43+00:00" },
+          "researcher_note": "datamaticsシリーズの一作。極小音と極大音・極端な周波数帯を往復する構成で、音量と周波数の閾値を主題にした発注に一致"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1687772116",
+          "title": "dataplex",
+          "creator": "Ryoji Ikeda",
+          "year": 2005,
+          "publisher": "Ryoji Ikeda",
+          "meta": { "trackCount": 20, "primaryGenreName": "エレクトロニック", "country": "JPN" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6c/5b/37/6c5b37ab-d80e-8f21-57fd-dd5c8850f181/4260115990689.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/dataplex/1687772116?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-16T18:40:43+00:00" },
+          "researcher_note": "データの音響化を主題とする作品。可聴限界付近の高周波を含む点で発注のテーマに合致"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "406490689",
+          "title": "4'33''",
+          "creator": "ジョン・ケージ",
+          "year": 2002,
+          "publisher": "The Sound Corporation",
+          "meta": { "trackCount": 1, "primaryGenreName": "クラシック", "country": "JPN" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/433/406490689?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-16T18:40:43+00:00" },
+          "researcher_note": "演奏者が無音を保つ楽曲。可聴/非可聴の境界そのものを主題とする点で発注に一致"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "281914115",
+          "title": "Pulse Demon",
+          "creator": "Merzbow",
+          "year": 1996,
+          "publisher": "Relapse Records",
+          "meta": { "trackCount": 8, "primaryGenreName": "オルタナティブ", "country": "JPN" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/36/52/1f/36521fe8-8108-9f76-c12d-417bb5c14e80/mzi.iiikcfmo.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/pulse-demon/281914115?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-16T18:40:43+00:00" },
+          "researcher_note": "極端な音量・歪みのノイズ作品として知られる一作。最強音という聴覚の閾値を主題にした発注に一致"
+        }
+      ]
+    },
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044008024",
+          "title": "角川 季語別俳句集成 秋",
+          "creator": "角川書店 編",
+          "year": null,
+          "publisher": "KADOKAWA",
+          "meta": { "ndc10": "911.308" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034281900", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-16T18:40:43+00:00" },
+          "researcher_note": "季語別に俳句を集成した秋の巻。露が霜へ転じる手前の季語群を収録し、季節の閾値を詠む発注に一致"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044008031",
+          "title": "角川 季語別俳句集成 冬",
+          "creator": "角川書店 編",
+          "year": null,
+          "publisher": "KADOKAWA",
+          "meta": { "ndc10": "911.308" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034281901", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-16T18:40:43+00:00" },
+          "researcher_note": "季語別に俳句を集成した冬の巻。『霜』の季語群を収録し、露から霜への転換を詠む発注に一致"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044005009",
+          "title": "角川俳句大歳時記 秋",
+          "creator": "茨木和生, 片山由美子, 長谷川櫂, 宇多喜代子, 高野ムツオ, 堀切実 編集委員 / 角川書店 編",
+          "year": 2022,
+          "publisher": "KADOKAWA",
+          "meta": { "ndc10": "911.307", "price_yen": 5450 },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032331082", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-16T18:40:43+00:00" },
+          "researcher_note": "季語の由来・例句を収めた大型歳時記の秋の巻。『露』を含む秋の季語群を収録し、発注の主題と一致"
+        },
+        {
+          "cand_id": "poe-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044005023",
+          "title": "角川俳句大歳時記 冬",
+          "creator": "茨木和生, 片山由美子, 長谷川櫂, 宇多喜代子, 高野ムツオ, 堀切実 編集委員 / 角川書店 編",
+          "year": 2022,
+          "publisher": "KADOKAWA",
+          "meta": { "ndc10": "911.307", "price_yen": 5450 },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032497234", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-16T18:40:43+00:00" },
+          "researcher_note": "季語の由来・例句を収めた大型歳時記の冬の巻。『霜』を含む冬の季語群を収録し、発注の主題と一致"
+        },
+        {
+          "cand_id": "poe-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784768314395",
+          "title": "季寄せ : 美しい日本の季節と俳句",
+          "creator": "濱田信義 編著 / 井上弘美 監修",
+          "year": 2021,
+          "publisher": "玄光社",
+          "meta": { "ndc10": "911.307", "price_yen": 1900 },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031375592", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-16T18:40:43+00:00" },
+          "researcher_note": "四季の季語を一冊にまとめた季寄せ。露・霜を含む季節の推移を一望できる構成で、発注の主題に一致"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
