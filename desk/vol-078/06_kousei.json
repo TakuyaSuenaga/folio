@@ -1,0 +1,25 @@
+{
+  "vol": 78,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      { "url": "https://maps.google.com/?cid=3388023307997280481&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "status": 200 },
+      { "url": "https://music.apple.com/jp/album/showa-o-kazatta-meikashu-tachi-vol-11-ikoku-no-oka/1606680560?uo=4", "status": 200 },
+      { "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000003674756", "status": 200 }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "奥付(footer.okuzuke)末尾の空の<p></p>",
+      "severity": "minor",
+      "type": "組版",
+      "genzai": "<p>folio / VOL.078 / 2026-10-18 / 発行元 folio</p><p></p></footer> — colophonが空のため中身のない<p>タグが残り、pタグのデフォルト余白分だけ奥付末尾に不要な空白が生じている",
+      "teisei": "colophonが空の場合は当該<p>要素自体を出力しないようにする(本号の本文・書誌の訂正ではなく責了時の版面調整で対応可)"
+    }
+  ]
+}

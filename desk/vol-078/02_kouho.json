@@ -1,0 +1,407 @@
+{
+  "vol": 78,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJvZ1eghCG_18R4fjrgz-tBC8",
+          "title": "舞鶴引揚記念館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒625-0133 京都府舞鶴市平1584 内 引揚記念公園",
+            "primary_type": "博物館"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdukP_yHuNu4b7XB1JnabsNlXY75JScAPgbvgLtV2zaPs5wFZTgw2xhVrabcNYRP1IjNpjuEShu4dFJE2xRg1pSXnLphReDTm-QtO31iwBVnEfpPNgaq6haZJ04EEUyMK38BkoGzQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "I T", "uri": "https://maps.google.com/maps/contrib/108919998208533977106" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3388023307997280481&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-17T17:50:17+00:00" },
+          "researcher_note": "発注の軸そのもの。引き揚げ者を迎えた港に建つ記念館本体。"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJl8dXVuWRQTURBQu3Rr0UxO0",
+          "title": "中央埠頭 博多港引揚記念碑",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒812-0031 福岡県福岡市博多区沖浜町7-1"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfKpm_3JW7Nqp-ZJ4-QbBfvvf86x_vzB5hxW9s7YBdHAMSy0YPi7nmpg2dWYHQRJxaKHQZO9U8FvRYZ0xfFgSGTSnZQnX4Z0p771-wPKm8oWLlwGWlmlKlgMAbaGzFFv686DfM=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "3 T", "uri": "https://maps.google.com/maps/contrib/104952851278417233317" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17132841685591984901&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-17T17:50:17+00:00" },
+          "researcher_note": "博多港に残る引揚記念碑。記念館ではなく碑であり、発注の『建物』とは性質が異なる。"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJH-jii8UVGGARBO_-ueT9NiQ",
+          "title": "浦賀港引揚記念の碑",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒239-0824 神奈川県横須賀市西浦賀1丁目11-2"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcznv3oIWODqf0znNoCSc3MXv-Au1gXMwVKINVblotuMJ4EAeqW23Ad2ozgzk_AxegfqjIdGVmkmOwJB5RxRA3-qU9Y8kOdTHwmn9pnaxpgpxqxGrEEQHvMkOfVB0y1511tIoIIMpih9i5-=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Aviator", "uri": "https://maps.google.com/maps/contrib/114457934067138780083" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2609552192922644228&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-17T17:50:17+00:00" },
+          "researcher_note": "浦賀に残る引揚記念碑。碑であり建物ではない。"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJUe54ZJK9ajURZM2uHqeavHo",
+          "title": "浦頭引揚記念館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒859-3454 長崎県佐世保市針尾北町824",
+            "primary_type": "歴史博物館"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfxkdICngMg05nepOEs7dzq7ZObQhxYn5FU5pg5nsta2wHo8fQhuXC3BkBArd70s3u8OZ6VobBPrVc2gBqUloc1HLYGfyTfVwVcHQ2JL2r4KCHcZFF26bm2qORGcTEXY-xSUno=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Shinji Nakagawa", "uri": "https://maps.google.com/maps/contrib/108718391758328743409" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8844113810813799780&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-17T17:50:17+00:00" },
+          "researcher_note": "佐世保・浦頭に建つ引揚記念館。舞鶴と並ぶ引き揚げ港の記念施設。"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJKWYZe5K9ajURyQVfTaAEoK4",
+          "title": "浦頭引揚記念平和公園",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒859-3454 長崎県佐世保市針尾北町824",
+            "primary_type": "公園"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdB2_-mbHgxeh8yPOgmdcBXduqGcYBlFxn1nypSnKNOEbCFRgaILqAThd6rRyCm9f-dRGdq6BUexMML05-ktDOyDTkriuDfSf9PSJ789lLUCdNjlJa9-ncX9FpnzqkrYyyZMdlHbw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "王春晋", "uri": "https://maps.google.com/maps/contrib/113393709488465002505" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12583062445412517321&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-17T17:50:17+00:00" },
+          "researcher_note": "浦頭引揚記念館に隣接する公園。施設ではなく公園。"
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJx8L4YxqG_18RKoWLlpSvKpI",
+          "title": "引揚記念公園",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒625-0133 京都府舞鶴市平1584 内",
+            "primary_type": "公園"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdf7O99NKupG4rT_fPCsDK_bmTqvUt_5Tewrz-wX5anYzwdJcprgWBPeZdcd7WsVVf2sjN_ai4kTfyR7DW5YcKio6aMr5_eJlRxeYr-KSiX_xRKVmDalXHcnzjXUVqdsQdPTeIyeg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "槇大ふー", "uri": "https://maps.google.com/maps/contrib/102859284957221761775" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10532423731275072810&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-17T17:50:17+00:00" },
+          "researcher_note": "舞鶴引揚記念館を含む公園一帯。建物単体ではなく公園。"
+        },
+        {
+          "cand_id": "arch-07",
+          "source_api": "google_places",
+          "source_id": "ChIJjxr63A-G_18RDqkHNMDh-5A",
+          "title": "平引揚桟橋（復元）",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒625-0133 京都府舞鶴市平",
+            "primary_type": "史跡"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdfzjzI3GmHC-n0gMuDkvnQ3R0PI-82Ies0tx1dSje47VDZr6XIuwWvA7E6kYDpMt3MBWbE5zaQT3ik8DD8jrLk5NVVUbvANtquV19ICHxVciplSignKfceOjsU6Svq7QbsQpWe=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "イルカさん", "uri": "https://maps.google.com/maps/contrib/105578995328801402380" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10447191976238885134&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-17T17:50:17+00:00" },
+          "researcher_note": "引き揚げ者が上陸した桟橋の復元構造物。記念館ではなく史跡。"
+        },
+        {
+          "cand_id": "arch-08",
+          "source_api": "google_places",
+          "source_id": "ChIJAx5NO6GTQTURBkQc7p94Em4",
+          "title": "福岡市市民福祉プラザ 資料展「引揚港・博多」",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒810-0062 福岡県福岡市中央区荒戸3丁目3-3",
+            "primary_type": "歴史博物館"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeVnO26jv-3EYBJgs0v9I8ZZPpb35czO7N2UGdaHt6xE1ACTKKiH2TFGBNJVCS1G7sEFvrBhuaSgw93xC20XWn7b7Gasr9-hyCjBxb5vIR8RubXzbTXL7u08PTwkw44Wx-k-mbaHWHDT_SR=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Richmundus Lichtenstein", "uri": "https://maps.google.com/maps/contrib/108637093223921956340" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=7931534522042827782&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-17T17:50:17+00:00" },
+          "researcher_note": "博多引揚の資料展示を行う市民福祉プラザ内の常設展示コーナー。独立した記念館ではない。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1606680560",
+          "title": "Showa O Kazatta Meikashu Tachi, Vol. 11 -Ikoku No Oka- Itsuro Takeyama",
+          "creator": "竹山逸郎",
+          "year": 1999,
+          "publisher": "",
+          "meta": { "trackCount": 16, "primaryGenreName": "歌謡曲", "copyright": "℗ 1999 Victor Entertainment" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6d/d2/8b/6dd28ba6-c253-cac6-29bb-e565764c926d/VICL-60336.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/showa-o-kazatta-meikashu-tachi-vol-11-ikoku-no-oka/1606680560?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-17T17:42:19+00:00" },
+          "researcher_note": "『異国の丘』を収録したアルバム。竹山逸郎による録音。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "647805675",
+          "title": "「ありがとう」「異国の丘~遠き故郷 2013 version~」「ぬくもり」 - Single",
+          "creator": "四宮功裕",
+          "year": 2013,
+          "publisher": "",
+          "meta": { "trackCount": 3, "primaryGenreName": "J-Pop", "copyright": "℗ 2013 ASIAN BEAT ENTERTAINMENT LLC." },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/8d/92/af/8d92af98-ca7c-4984-8bd8-d492c630486f/4538182297520_cov.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86-%E7%95%B0%E5%9B%BD%E3%81%AE%E4%B8%98-%E9%81%A0%E3%81%8D%E6%95%85%E9%83%B7-2013-version-%E3%81%AC%E3%81%8F%E3%82%82%E3%82%8A-single/647805675?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-17T17:42:19+00:00" },
+          "researcher_note": "『異国の丘~遠き故郷~』を2013年に新録したカバー版を収録。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1597854727",
+          "title": "Koichi Miura Collection - Gunka Meikyokushu",
+          "creator": "三浦洸一",
+          "year": 2021,
+          "publisher": "",
+          "meta": { "trackCount": 18, "primaryGenreName": "歌謡曲", "copyright": "℗ Victor Entertainment" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/48/ec/23/48ec232e-6bfe-f2ae-caea-f40ed678ebdd/VEATP-39306.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/koichi-miura-collection-gunka-meikyokushu/1597854727?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-17T17:42:19+00:00" },
+          "researcher_note": "三浦洸一による『異国の丘』収録盤。竹山逸郎とは別歌手による録音。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1024425497",
+          "title": "Ah Gunka 1 Tomo Yo Yasuraka Ni -Tanpopo No Hana",
+          "creator": "鶴田浩二",
+          "year": 2015,
+          "publisher": "",
+          "meta": { "trackCount": 20, "primaryGenreName": "歌謡曲", "copyright": "℗ Victor Entertainment" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/c1/cf/07/c1cf077d-bd16-2f3f-7bae-8f46ad3218e8/VEATP-32794.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/ah-gunka-1-tomo-yo-yasuraka-ni-tanpopo-no-hana/1024425497?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-17T17:42:19+00:00" },
+          "researcher_note": "鶴田浩二による『異国の丘』収録盤。別歌手による録音の一例。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1521193044",
+          "title": "Japanese Kayokyoku Star \"Itsuro Takeyama\" Greatest Hits",
+          "creator": "竹山逸郎",
+          "year": 2020,
+          "publisher": "",
+          "meta": { "trackCount": 24, "primaryGenreName": "歌謡曲", "copyright": "℗ 2020 JVCKENWOOD Victor Entertainment" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/51/ce/a1/51cea1f8-50da-32e7-8d4b-b18fe7255ac6/VICL-65395.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/japanese-kayokyoku-star-itsuro-takeyama-greatest-hits/1521193044?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-17T17:42:19+00:00" },
+          "researcher_note": "竹山逸郎のベスト盤。別編集での『異国の丘』再録。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1701949666",
+          "title": "歌い継ぐ!昭和の流行歌Ⅷ",
+          "creator": "三山ひろし",
+          "year": 2017,
+          "publisher": "",
+          "meta": { "trackCount": 12, "primaryGenreName": "演歌", "copyright": "℗ 2017 日本クラウン株式会社" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6a/37/69/6a376908-54a9-9caf-6817-310cbc0beaab/CRCN-20430.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E6%AD%8C%E3%81%84%E7%B6%99%E3%81%90-%E6%98%AD%E5%92%8C%E3%81%AE%E6%B5%81%E8%A1%8C%E6%AD%8C/1701949666?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-17T17:42:19+00:00" },
+          "researcher_note": "演歌歌手・三山ひろしによる現役カバー。タイトルが示す通り昭和歌謡の継承企画の一曲。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1042995329",
+          "title": "Moshimo Harmonica Ga Fuketa Nara...Fuite Mitai Meikyoku 35",
+          "creator": "森本恵夫(ハーモニカ)",
+          "year": 2015,
+          "publisher": "",
+          "meta": { "trackCount": 35, "primaryGenreName": "インストゥルメンタル", "copyright": "℗ Victor Entertainment" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/a2/4a/08/a24a08cf-df5c-79fc-e8bd-6ddc37cf7f15/VEATP-32905.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/moshimo-harmonica-ga-fuketa-nara-fuite-mitai-meikyoku-35/1042995329?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-17T17:42:19+00:00" },
+          "researcher_note": "ハーモニカ奏者によるインストゥルメンタル版。歌唱を伴わない器楽カバーの実例。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784122040632",
+          "title": "流れる星は生きている",
+          "creator": "藤原てい",
+          "year": 2002,
+          "publisher": "中央公論新社",
+          "meta": { "series": "中公文庫", "edition": "改版6版" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000003674756", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-17T17:48:55+00:00" },
+          "researcher_note": "発注の軸である藤原てい『流れる星は生きている』本体。openBDでISBN照合済み。openBDのcoverが空のため画像なし。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784122013377",
+          "title": "旅路",
+          "creator": "藤原てい",
+          "year": 1986,
+          "publisher": "中央公論社",
+          "meta": { "series": "中公文庫" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000001811375", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-17T17:48:55+00:00" },
+          "researcher_note": "『流れる星は生きている』の続編。藤原てい自身による続きの回想記。openBDのcoverが空のため画像なし。"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784344002234",
+          "title": "運命の足音",
+          "creator": "五木寛之",
+          "year": 2002,
+          "publisher": "幻冬舎",
+          "meta": {},
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004323267", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-17T17:48:55+00:00" },
+          "researcher_note": "著者自身の朝鮮からの引き揚げ体験を記した回想録(単行本)。openBDのcoverが空のため画像なし。"
+        },
+        {
+          "cand_id": "book-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784344403970",
+          "title": "運命の足音",
+          "creator": "五木寛之",
+          "year": 2003,
+          "publisher": "幻冬舎",
+          "meta": { "series": "幻冬舎文庫" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004384291", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-17T17:48:55+00:00" },
+          "researcher_note": "同作(book-03)の文庫版。単行本と同一内容の別版。openBDのcoverが空のため画像なし。"
+        },
+        {
+          "cand_id": "book-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784867800614",
+          "title": "アメリカから見た「シベリア抑留」",
+          "creator": "榊原（大島）晴子",
+          "year": 2024,
+          "publisher": "小鳥遊書房",
+          "meta": { "subtitle": "日系収容との比較を含めて" },
+          "image": { "url": "https://cover.openbd.jp/9784867800614.jpg", "source": "openbd" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033740468", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-17T17:48:55+00:00" },
+          "researcher_note": "シベリア抑留者へのインタビューによるオーラルヒストリー。舞鶴引揚記念館への言及と帰国(引き揚げ)章を含むが、主題は抑留体験であり発注の引き揚げ回想記そのものではない。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
