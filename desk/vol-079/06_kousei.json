@@ -1,0 +1,25 @@
+{
+  "vol": 79,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      { "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027092412", "status": 200 },
+      { "url": "https://music.apple.com/jp/album/arekara-single/1490364378?uo=4", "status": 200 },
+      { "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026427996", "status": 200 }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[1](MUSIC)DATA欄「trackCount」「primaryGenreName」行",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "DATA欄の見出しが「trackCount」「primaryGenreName」とAPIの生キー名(英語camelCase)のまま表示されており、同じ表内の他見出し(題名・作者・年・版元・入手)が日本語であるのに対して不統一である。",
+      "teisei": "「trackCount」→「トラック数」、「primaryGenreName」→「ジャンル」など日本語見出しに統一する。"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "vol": 79,
+  "genres": [
+    {
+      "genre": "photo",
+      "candidates": [
+        {
+          "cand_id": "photo-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784309226538",
+          "title": "アウシュヴィッツの囚人写真家",
+          "creator": "Luca Crippa, Maurizio Onnis(関口英子 訳)",
+          "year": 2016,
+          "publisher": "河出書房新社",
+          "meta": {},
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027092412", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-18T17:54:27+00:00" },
+          "researcher_note": "アウシュヴィッツで看守から生存目的で強制され、収容者の識別写真を数万枚撮影した実在の写真家ヴィルヘルム・ブラッセを題材とする評伝。肖像写真が本人証明として機能した実例の軸に合う。openBDのcoverが空のため画像なし。"
+        },
+        {
+          "cand_id": "photo-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784480689559",
+          "title": "写真のなかの「わたし」 : ポートレイトの歴史を読む",
+          "creator": "鳥原学",
+          "year": 2016,
+          "publisher": "筑摩書房",
+          "meta": { "series": "ちくまプリマー新書" },
+          "image": { "url": "https://cover.openbd.jp/9784480689559.jpg", "source": "openbd" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027129147", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-18T17:54:27+00:00" },
+          "researcher_note": "証明写真からポートレートの歴史までを通覧する新書。肖像写真が『本人であること』をどう担ってきたかを論じた一冊として発注に合う。"
+        },
+        {
+          "cand_id": "photo-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784336078834",
+          "title": "アイヌ、現代の肖像",
+          "creator": "宇井眞紀子",
+          "year": 2026,
+          "publisher": "国書刊行会",
+          "meta": {},
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034868267", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-18T17:54:27+00:00" },
+          "researcher_note": "アイヌの人々の現在を撮った肖像写真集。『現代の肖像』という題そのものが本人性の主題に重なる。openBDのcoverが空のため画像なし。"
+        },
+        {
+          "cand_id": "photo-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784140800287",
+          "title": "輝く明治の女たち : \"いま\"に生きる45人の肖像",
+          "creator": "笹本恒子",
+          "year": 1992,
+          "publisher": "日本放送出版協会",
+          "meta": {},
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002211005", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-18T17:54:27+00:00" },
+          "researcher_note": "明治生まれの女性45人を『いまを生きる本人』として撮った肖像写真集。古い書籍でopenBDのcoverは空のため画像なし。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1490364378",
+          "title": "Arekara - Single",
+          "creator": "美空ひばり",
+          "year": 2019,
+          "publisher": "Nippon Columbia Co., Ltd. / NIPPONOPHONE",
+          "meta": { "trackCount": 3, "primaryGenreName": "演歌" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0a/c1/d5/0ac1d559-4650-2027-c36b-c3523432dea2/COCA-17777.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/arekara-single/1490364378?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-18T17:54:36+00:00" },
+          "researcher_note": "2019年NHK紅白の企画でAI技術により歌声を再現した美空ひばりの新曲『あれから』。死去した本人の声そのものが『本人の識別子』として再生・論争の対象となった実例。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1488880064",
+          "title": "Arekara (NHK Special Version) - Single",
+          "creator": "美空ひばり",
+          "year": 2019,
+          "publisher": "Nippon Columbia Co., Ltd. / NIPPONOPHONE",
+          "meta": { "trackCount": 1, "primaryGenreName": "演歌" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d4/e4/c9/d4e4c988-097b-2eaa-594c-7c28c50b5f1a/COKM-42518.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/arekara-nhk-special-version-single/1488880064?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-18T17:54:36+00:00" },
+          "researcher_note": "mus-01と同一音源のNHKスペシャル版。放送局制作の別バージョンとして別候補に挙げる。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1502696658",
+          "title": "美空ひばり オールタイム・ベスト 〜あれから〜",
+          "creator": "美空ひばり",
+          "year": 2020,
+          "publisher": "Nippon Columbia Co., Ltd.",
+          "meta": { "trackCount": 21, "primaryGenreName": "演歌" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/03/df/49/03df494a-475f-cf49-5e59-b4f88597bca3/COZP-1637.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/%E7%BE%8E%E7%A9%BA%E3%81%B2%E3%81%B0%E3%82%8A-%E3%82%AA%E3%83%BC%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%A0-%E3%83%99%E3%82%B9%E3%83%88-%E3%81%82%E3%82%8C%E3%81%8B%E3%82%89/1502696658?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-18T17:54:36+00:00" },
+          "researcher_note": "『あれから』を表題に据えた美空ひばりのベストアルバム。本人名義の既存録音とAI新曲を並べた編成になっている点が発注に合う。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784163484402",
+          "title": "アンネの日記 : 完全版",
+          "creator": "Anne Frank(深町真理子 訳)",
+          "year": 1994,
+          "publisher": "文芸春秋",
+          "meta": {},
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002323365", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-18T17:54:27+00:00" },
+          "researcher_note": "ホロコースト否定論者から著者の真正性を攻撃され、オランダの公的機関による筆跡・紙質の鑑定で本人執筆と確認された実在の日記。openBDのcoverが空のため画像なし。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784093884211",
+          "title": "音楽という〈真実〉",
+          "creator": "新垣隆",
+          "year": 2015,
+          "publisher": "小学館",
+          "meta": {},
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026427996", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-18T17:54:27+00:00" },
+          "researcher_note": "佐村河内守のゴーストライターであったことを公表した新垣隆自身による著作。『本人名義』が崩れた当事者の手記。openBDのcoverが空のため画像なし。"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784582857726",
+          "title": "ゴーストライター論",
+          "creator": "神山典士",
+          "year": 2015,
+          "publisher": "平凡社",
+          "meta": { "series": "平凡社新書" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026294774", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-18T17:54:27+00:00" },
+          "researcher_note": "佐村河内守事件を暴いた記者による、代筆・著者名の真正性を主題にした新書。openBDのcoverが空のため画像なし。"
+        },
+        {
+          "cand_id": "book-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784863134898",
+          "title": "愛書狂の本棚 : 異能と夢想が生んだ奇書・偽書・稀覯書",
+          "creator": "Edward Brooke-Hitching(髙作自子 訳)",
+          "year": 2022,
+          "publisher": "日経BPマーケティング(発売)",
+          "meta": { "series": "NATIONAL GEOGRAPHIC" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032010201", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-18T17:54:27+00:00" },
+          "researcher_note": "偽書・著者偽装の歴史を通覧する一冊。個別事例ではなく偽書一般を扱うため、発注との距離はbook-01〜03より遠い。openBDのcoverが空のため画像なし。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
