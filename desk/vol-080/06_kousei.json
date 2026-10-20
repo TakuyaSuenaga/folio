@@ -1,0 +1,42 @@
+{
+  "vol": 80,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://music.apple.com/jp/album/%E3%82%B9%E3%83%88%E3%83%AD%E3%83%99%E3%83%AA%E3%83%BC-%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E3%82%BA-%E3%83%95%E3%82%A9%E3%83%BC%E3%82%A8%E3%83%90%E3%83%BC-2009-digital-remaster/1441163490?i=1441163771&uo=4",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970586434887825057",
+        "status": 200
+      },
+      {
+        "url": "https://maps.google.com/?cid=17184486324760060459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[0](MUSIC)DATA欄「collectionName」「collectionId」「trackTimeMillis」「primaryGenreName」「releaseDate」行",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "DATA欄の見出しがAPIの生キー名(英語camelCase)のまま表示されており、同じ表内の他見出し(題名・作者・年・入手)が日本語であるのに対して不統一(vol-079で既に同種の指摘あり)",
+      "teisei": "「collectionName」→「収録アルバム」、「collectionId」は非表示、「trackTimeMillis」→「再生時間」、「primaryGenreName」→「ジャンル」、「releaseDate」→「発売日」など日本語見出しに統一する"
+    },
+    {
+      "id": "P-02",
+      "location": "okuzuke(奥付)末尾",
+      "severity": "minor",
+      "type": "組版",
+      "genzai": "<p>folio / VOL.080 / 2026-10-21 / 発行元 folio</p><p></p></footer> — colophonが空のため中身のない<p>タグが残り、pタグのデフォルト余白分だけ奥付末尾に不要な空白が生じている(vol-076・vol-078で既に同種の指摘あり、未修正のまま残存)",
+      "teisei": "colophonが空の場合は当該<p>要素自体を出力しないようにする(本号の本文・書誌の訂正は不要。レンダラー側の恒久対応が望ましい)"
+    }
+  ]
+}

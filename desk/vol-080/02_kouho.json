@@ -1,0 +1,340 @@
+{
+  "vol": 80,
+  "genres": [
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1441163771",
+          "title": "ストロベリー・フィールズ・フォーエバー (2009 Digital Remaster)",
+          "creator": "ビートルズ",
+          "year": 1967,
+          "publisher": "",
+          "meta": {
+            "collectionName": "Magical Mystery Tour",
+            "collectionId": 1441163490,
+            "trackTimeMillis": 247320,
+            "primaryGenreName": "ロック",
+            "releaseDate": "1967-02-13T12:00:00Z"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/43/0e/37/430e3790-75d5-c96a-1380-f9d9803aa700/18UMGIM31245.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E3%82%B9%E3%83%88%E3%83%AD%E3%83%99%E3%83%AA%E3%83%BC-%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E3%82%BA-%E3%83%95%E3%82%A9%E3%83%BC%E3%82%A8%E3%83%90%E3%83%BC-2009-digital-remaster/1441163490?i=1441163771&uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-20T19:05:49+00:00" },
+          "researcher_note": "2本の別テイクを繋いだ際の速度・調の不一致がそのまま編集点に残り、訂正されず正式ミックスとして定着したという逸話で知られる一曲(逸話自体はAPI外の背景情報であり要ファクトチェック)。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "268443092",
+          "title": "Kind of Blue",
+          "creator": "マイルス・デイヴィス",
+          "year": 1959,
+          "publisher": "",
+          "meta": {
+            "trackCount": 5,
+            "primaryGenreName": "ジャズ",
+            "copyright": "℗ Originally released 1959 Sony Music Entertainment Inc.",
+            "releaseDate": "1959-08-17T07:00:00Z"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/7f/9f/d6/mzi.vtnaewef.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/kind-of-blue/268443092?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-20T19:05:49+00:00" },
+          "researcher_note": "テープ再生速度の不一致により一部曲が実際の演奏より高いピッチで収録され、そのまま長年正規盤として流通したという逸話で知られるアルバム(逸話自体はAPI外の背景情報であり要ファクトチェック)。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1065973699",
+          "title": "The Dark Side of the Moon",
+          "creator": "ピンク・フロイド",
+          "year": 1973,
+          "publisher": "",
+          "meta": {
+            "trackCount": 11,
+            "primaryGenreName": "ロック",
+            "copyright": "℗ 2016 The copyright in this sound recording is owned by Pink Floyd Music Ltd., marketed and distributed by Sony Music Entertainment",
+            "releaseDate": "1973-03-01T08:00:00Z"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/76/b0/3e76b0e3-762b-2286-a019-8afb19cee541/886445635829.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/the-dark-side-of-the-moon/1065973699?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-20T19:05:49+00:00" },
+          "researcher_note": "収録曲「Money」のテープ編集点で拍が1つ増えた状態のまま正規盤に収録され、以後の再発でも修正されていないという逸話で知られるアルバム(逸話自体はAPI外の背景情報であり要ファクトチェック)。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1440834224",
+          "title": "ヘイ・ジュード",
+          "creator": "ビートルズ",
+          "year": 1968,
+          "publisher": "",
+          "meta": {
+            "collectionName": "1",
+            "collectionId": 1440833098,
+            "trackTimeMillis": 425653,
+            "primaryGenreName": "ロック",
+            "releaseDate": "1968-08-26T12:00:00Z"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f2/98/fb/f298fb48-1e0e-6ad4-4cff-fb824b77f02e/15UMGIM59587.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E3%83%98%E3%82%A4-%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%89/1440833098?i=1440834224&uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-20T19:05:49+00:00" },
+          "researcher_note": "フェードアウト部分での収録時の小さな発言がそのまま残り、回収も訂正もされず正式なシングル音源として定着したという逸話で知られる一曲(逸話自体はAPI外の背景情報であり要ファクトチェック)。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1440872228",
+          "title": "Exile On Main Street (2010 Remaster)",
+          "creator": "ザ・ローリング・ストーンズ",
+          "year": 1972,
+          "publisher": "",
+          "meta": {
+            "trackCount": 18,
+            "primaryGenreName": "ロック",
+            "copyright": "℗ 2012 Promotone B.V., under exclusive licence to Universal International Music B.V.",
+            "releaseDate": "1972-05-12T07:00:00Z"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b6/7b/df/b67bdff8-4e30-d46d-e869-fc0f38462f4c/08UMGIM15728.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/exile-on-main-street-2010-remaster/1440872228?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-20T19:05:49+00:00" },
+          "researcher_note": "フランスでの録音時のテープの不調で一部トラックのピッチがわずかにずれたまま正規盤として発売され続けているという逸話で知られるアルバム(逸話自体はAPI外の背景情報であり要ファクトチェック)。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784101092027",
+          "title": "銀河鉄道の夜 （童話集）",
+          "creator": "宮沢賢治",
+          "year": 1961,
+          "publisher": "新潮社",
+          "meta": {
+            "series": "新潮文庫",
+            "ndl_isbn_10": "4101092028",
+            "ndl_issued": "1961.7"
+          },
+          "links": [
+            { "label": "国立国会図書館サーチ", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970586434887825057", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-20T19:05:57+00:00" },
+          "researcher_note": "没後に遺稿を弟・清六や草野心平らが複数の異稿から編んだ版が長く「決定版」として流通・定着し、後年の研究で本来は未確定の異文を含む編集版だったことが指摘されたという経緯で知られる作品(逸話自体はAPI外の背景情報であり要ファクトチェック)。openBDのcoverは空文字のためimageなし。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784480430670",
+          "title": "増補版　誤植読本",
+          "creator": "高橋輝次",
+          "year": 2013,
+          "publisher": "筑摩書房",
+          "meta": {
+            "series": "ちくま文庫",
+            "ndc": "749.13"
+          },
+          "image": { "url": "https://cover.openbd.jp/9784480430670.jpg", "source": "openbd" },
+          "links": [
+            { "label": "国立国会図書館サーチ", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024474578", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-20T19:05:57+00:00" },
+          "researcher_note": "出版史上の誤植の実例そのものを編んだアンソロジー。「訂正が及ばず定着した誤り」という発注テーマを資料面から裏づけられる一冊。"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784846014681",
+          "title": "誤植文学アンソロジー 校正者のいる風景",
+          "creator": "高橋輝次",
+          "year": 2015,
+          "publisher": "論創社",
+          "meta": {},
+          "image": { "url": "https://cover.openbd.jp/9784846014681.jpg", "source": "openbd" },
+          "links": [
+            { "label": "国立国会図書館サーチ", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026967316", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-20T19:05:57+00:00" },
+          "researcher_note": "book-02と同一編者(高橋輝次)による関連書。誤植という現象そのものを文学的に集めたアンソロジー。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "rest-01",
+          "source_api": "google_places",
+          "source_id": "ChIJ56riJvYS04kRjKh7sWD__kI",
+          "title": "Anchor Bar",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "1047 Main St, Buffalo, NY 14209 アメリカ合衆国",
+            "primary_type": "チキン ウイング レストラン"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc965qAR-qCMHAkh8PNxpXHwuObC3f4afLvbaffuLyXtDvKZ69DsrLQqevG47Zv27FoRsEVobc9dYi096HWYLaBRAAEHhqpswfXS5Uit1eKvJbXZas-E52J0zgpBjkEWd2GKeON8k2QZS27=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Anchor Bar", "uri": "https://maps.google.com/maps/contrib/100996568229318530623" } ]
+          },
+          "links": [
+            { "label": "Google マップ", "url": "https://maps.google.com/?cid=4827576641347365004&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-20T19:06:16+00:00" },
+          "researcher_note": "1964年、急な客の注文をさばくため余っていた手羽先を素揚げしてソースを絡めた即興の一皿が、そのまま看板料理「バッファローウィング」として定着したという逸話で知られる店(逸話自体はAPI外の背景情報であり要ファクトチェック)。"
+        },
+        {
+          "cand_id": "rest-02",
+          "source_api": "google_places",
+          "source_id": "ChIJT65tpeYn5UcRK6Lh2kOPe-4",
+          "title": "La Maison TATIN",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "5 Av. de Vierzon, 41600 Lamotte-Beuvron, フランス",
+            "primary_type": "ホテル"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeG69BL9lKnAV90ek85j8fv5mikbt2B1s8hOjkCo0Ne1E5zxQKGdPpYdy4dy1kBFoG_22Kjakqpqj1EIQr_TwTqf_SE-DI5MHxDyyTsamEUJ-2aVYTSYMiU5RTVu-QTa824WQpOkA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "La Maison TATIN", "uri": "https://maps.google.com/maps/contrib/103103589683427278539" } ]
+          },
+          "links": [
+            { "label": "Google マップ", "url": "https://maps.google.com/?cid=17184486324760060459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-20T19:06:16+00:00" },
+          "researcher_note": "タタン姉妹が通常と逆の手順でタルトを仕込んでしまった失敗がそのまま看板菓子「タルト・タタン」として定着したという逸話で知られる店(逸話自体はAPI外の背景情報であり要ファクトチェック)。"
+        },
+        {
+          "cand_id": "rest-03",
+          "source_api": "google_places",
+          "source_id": "ChIJYYQENqpJ2YARDl5QUJV_zUg",
+          "title": "シーザーレストラン",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "Av. Revolución 8190, Zona Centro, 22000 Tijuana, B.C., メキシコ",
+            "primary_type": "高級料理レストラン"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdNuNIYUu8yxg9cH_fqo7YYHbRIaOKdQ791Utrb_IdHIBuIzjRvAmkx8MOyCtaONJA-HAgzA0YXvoLZt_3ktx0e5hiqJS-Nz_NqwvsLqx8RyArRRZYKQIUGl-bYeSeUYTHWVzvKOcQKaJCa=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Caesar's Restaurante", "uri": "https://maps.google.com/maps/contrib/100317642068257452483" } ]
+          },
+          "links": [
+            { "label": "Google マップ", "url": "https://maps.google.com/?cid=5245989420230794766&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-20T19:06:16+00:00" },
+          "researcher_note": "仕込みの材料が尽きた厨房で有り合わせの材料から即興で作ったサラダが、そのまま看板料理「シーザーサラダ」として定着したという逸話で知られる店(逸話自体はAPI外の背景情報であり要ファクトチェック)。"
+        },
+        {
+          "cand_id": "rest-04",
+          "source_api": "google_places",
+          "source_id": "ChIJnwHZJOSLGGARVkzvTyfHi0Y",
+          "title": "煉瓦亭",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒104-0061 東京都中央区銀座３丁目５−１６",
+            "primary_type": "和食店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLewMY48GUnMTFtWBB2FgO4cCSWVUb7mxgNae21Geejt-drZvIi-yOM1JIIVBo1sCuO_A8NZJc869H_y9MO9UPy-RRSC1QA0fLQT2gl240mkY0UmJndEl8fUD72haLaEbTDPxMlBPextEMw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "金色のクラブマン", "uri": "https://maps.google.com/maps/contrib/104392487417155815670" } ]
+          },
+          "links": [
+            { "label": "Google マップ", "url": "https://maps.google.com/?cid=5083375576076471382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-20T19:06:33+00:00" },
+          "researcher_note": "忙しい時間帯の省力化のため、別々に出していたライスとオムレツを混ぜ合わせて即興で出したのが、そのまま看板料理「オムライス」の原型として定着したという逸話で知られる店(逸話自体はAPI外の背景情報であり要ファクトチェック)。"
+        },
+        {
+          "cand_id": "rest-05",
+          "source_api": "google_places",
+          "source_id": "ChIJk2Ihl-JcGGARN5ggEsEIfuY",
+          "title": "コーヒーハウス ザ・カフェ 横浜",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒231-8520 神奈川県横浜市中区山下町１０ ホテル ニューグランド本館 1F",
+            "primary_type": "和食店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfn_2Nf_26wbpIxRJ0cI7j90sz68sxslTDCgtzYvScSFpcUsgwdAEU-2D-CiUEkF6O1mhYM20JemcAL8d2BmTy3gbDp2RBrKa33cHSTyoyGJ6rF3doeijM0mAborGWf7m67hOpV=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ぐっち164", "uri": "https://maps.google.com/maps/contrib/100119114610929662994" } ]
+          },
+          "links": [
+            { "label": "Google マップ", "url": "https://maps.google.com/?cid=16608722101114804279&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-20T19:06:33+00:00" },
+          "researcher_note": "終戦直後、有り合わせの食材で即興でまとめた一皿が、そのまま看板料理「スパゲッティナポリタン」の原型として定着したという逸話で知られるホテル内レストラン(逸話自体はAPI外の背景情報であり要ファクトチェック)。"
+        },
+        {
+          "cand_id": "rest-06",
+          "source_api": "google_places",
+          "source_id": "ChIJwy8lmxZawokRtWUTg5wuv6I",
+          "title": "デルモニコス",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "56 Beaver St, New York, NY 10004 アメリカ合衆国",
+            "primary_type": "ステーキハウス"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcZcZDI2gamBYq-4aLCMK-3upm88IELGqPz2hp88XxT0d17EZNfbwVBLlUBmmG0_6aa6IQOL1GM75HQ11or79Kk_JbHV5SPrCBDAC-X63MmDWKDBAeqxPlqjd6LhVn4Z2tt1XWw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Delmonico's", "uri": "https://maps.google.com/maps/contrib/102545235519786681266" } ]
+          },
+          "links": [
+            { "label": "Google マップ", "url": "https://maps.google.com/?cid=11727143204444923317&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-20T19:06:33+00:00" },
+          "researcher_note": "常連客の急な注文に厨房が即興で対応して生まれた一皿が、そのまま看板料理「エッグベネディクト」として定着したという説がある店(発祥には複数の店が名乗る異説があり、逸話自体も要ファクトチェック)。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "book: 誤った版や記述がそのまま後世に伝わってしまった書物(補足)",
+      "reason": "NDLの any= 検索はキーワード一致が中心で『誤植が文化的に話題になった特定の著名作品』を直接特定できないため、openBDでISBN照合が取れた候補は3件に留まった(該当なしではない)。候補ゼロではないため休刊理由にはならない。"
+    }
+  ]
+}
