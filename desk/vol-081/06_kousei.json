@@ -1,0 +1,36 @@
+{
+  "vol": 81,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true,
+      "items[2].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://music.apple.com/jp/album/anthem/511074710?i=511074721&uo=4": true,
+        "https://maps.google.com/?cid=16027372432942249113&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true,
+        "https://ndlsearch.ndl.go.jp/books/R000000004-I027043859": true,
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I029472669": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      { "url": "https://music.apple.com/jp/album/anthem/511074710?i=511074721&uo=4", "status": 200 },
+      { "url": "https://maps.google.com/?cid=16027372432942249113&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "status": 200 },
+      { "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I027043859", "status": 200 },
+      { "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029472669", "status": 200 }
+    ]
+  },
+  "shiteki": []
+}

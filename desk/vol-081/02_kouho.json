@@ -1,0 +1,254 @@
+{
+  "vol": 81,
+  "genres": [
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "511074721",
+          "title": "Anthem",
+          "creator": "レナード・コーエン",
+          "year": 1992,
+          "publisher": "Sony Music Entertainment",
+          "meta": { "primaryGenreName": "シンガーソングライター", "collectionName": "The Future" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/ec/3a/8a/ec3a8af5-8926-508f-d35b-d12f3e748973/dj.tshkhwxb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/anthem/511074710?i=511074721&uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-21T19:13:59+00:00" },
+          "researcher_note": "「There is a crack in everything, that's how the light gets in」の一節で知られる楽曲。発注の主題に直接合致。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1392084511",
+          "title": "ひび割れた世界",
+          "creator": "majiko",
+          "year": 2018,
+          "publisher": "",
+          "meta": { "primaryGenreName": "J-Pop", "collectionName": "ひび割れた世界 - EP" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/13/f2/b2/13f2b29c-b5a0-6dc3-7dbf-9f339bc79280/18UMGIM30606.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/%E3%81%B2%E3%81%B3%E5%89%B2%E3%82%8C%E3%81%9F%E4%B8%96%E7%95%8C/1392084318?i=1392084511&uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-21T19:13:59+00:00" },
+          "researcher_note": "表題そのものが「ひび割れ」。ひびを肯定するモチーフかは原詞の確認が必要。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1687161134",
+          "title": "Kintsugi",
+          "creator": "ガブリエル・アプリン",
+          "year": 2019,
+          "publisher": "",
+          "meta": { "primaryGenreName": "シンガーソングライター", "collectionName": "Dear Happy" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d9/dc/b0/d9dcb04f-0b79-e0fb-f80c-0c31984a9171/cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/kintsugi/1687160774?i=1687161134&uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-21T19:13:59+00:00" },
+          "researcher_note": "金継ぎ(欠けを金で繕い可視化する技法)を題材にした楽曲。欠陥を肯定的に扱う主題に近い。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1655349406",
+          "title": "Kintsugi",
+          "creator": "ラナ・デル・レイ",
+          "year": 2023,
+          "publisher": "",
+          "meta": { "primaryGenreName": "ポップ", "collectionName": "Did you know that there's a tunnel under Ocean Blvd" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/7c/c4/e5/7cc4e501-6b09-b379-bb54-a40de4615aa3/22UM1IM33313.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/kintsugi/1655349115?i=1655349406&uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-21T19:13:59+00:00" },
+          "researcher_note": "同じく金継ぎを題材とする楽曲。破損からの再生・修復を歌う内容と見られる。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1537238951",
+          "title": "傷跡",
+          "creator": "Kalafina",
+          "year": 2009,
+          "publisher": "",
+          "meta": { "primaryGenreName": "アニメ", "collectionName": "Seventh Heaven" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/73/fe/38/73fe389e-fdb9-6685-7a00-bcb20066fd28/jacket_SECL00765B00Z_550.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/%E5%82%B7%E8%B7%A1/1537238701?i=1537238951&uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-21T19:13:59+00:00" },
+          "researcher_note": "「傷跡」という表題から瑕疵を主題とする可能性はあるが、肯定的モチーフかは原詞未確認。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1882567333",
+          "title": "KINTSUGI (feat. Koie)",
+          "creator": "NOISEMAKER",
+          "year": 2026,
+          "publisher": "",
+          "meta": { "primaryGenreName": "ロック", "collectionName": "KINTSUGI (feat. Koie) - Single" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9d/68/f9/9d68f918-b7a7-ff4a-3d39-40814d433984/PA00115912_1_241937_jacket.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/kintsugi-feat-koie/1882567323?i=1882567333&uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-21T19:13:59+00:00" },
+          "researcher_note": "日本のロックバンドによる金継ぎ題材曲。新曲であり原詞の確認が未了。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1802165959",
+          "title": "傷跡",
+          "creator": "ドロップワンドル",
+          "year": 2025,
+          "publisher": "",
+          "meta": { "primaryGenreName": "ロック", "collectionName": "月 - EP" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1b/fd/df/1bfddf42-1200-e010-383c-ed6e91d45695/4550706532719_cover.png/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/%E5%82%B7%E8%B7%A1/1802165936?i=1802165959&uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-21T19:13:59+00:00" },
+          "researcher_note": "同題の別アーティスト楽曲。幅のための収集であり、原詞の主題確認はエディター判断に委ねる。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJJUBUU2mNGGARm3TtWFYbG6c",
+          "title": "としまエコミューゼタウン(豊島区役所本庁舎)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒171-0022 東京都豊島区南池袋２丁目４５−１",
+            "primary_type": ""
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfSepJ06ACwQRcalrliU8aPcXyKcbXx-QWjyCNZQA-ZNVGsjGm-O-RYY14tQPUwHuY2bbHs7YJr5A5ZEwcs5lLlJeLSmGxEWQD7tAQOPc_8hY7rdCkggGHKJSOP68wIVkC4K5ny=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "フカヲタカシ", "uri": "https://maps.google.com/maps/contrib/108341343119407401038" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12041248086378247323&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" },
+            { "label": "豊島区議員協議会資料(2019-06-19)", "url": "https://ndlsearch.ndl.go.jp/books/R100000094-I184430", "kind": "other" },
+            { "label": "日経アーキテクチュア 免震偽装再び(2018)", "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I029311682", "kind": "other" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-21T19:11:12+00:00" },
+          "researcher_note": "KYB社製免震用オイルダンパーの性能データ改ざんが発覚し、豊島区が議員協議会資料で区本庁舎への影響を公表した実例。NDL文書(R100000094-I184430)が公表の事実を直接裏付ける。補強(ダンパー交換)の実施自体は未確認で、エディターによる追加確認が望ましい。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJsQlt7mNYGGARmTRppE-qbN4",
+          "title": "パークシティLala横浜",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒224-0053 神奈川県横浜市都筑区池辺町４０３５−１３ パークシティLala横浜",
+            "primary_type": "建造物"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16027372432942249113&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" },
+            { "label": "「杭偽装問題」と傾斜分譲マンション(建設政策165号)", "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I027043859", "kind": "other" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-21T19:14:28+00:00" },
+          "researcher_note": "2015年発覚の杭データ改ざん(旭化成建材)でマンション傾斜が発覚、公表後に建て替え対応がなされた実例。発注は「補強工事」だが実際の対処は建て替えであり、発注文言との距離はエディター判断が必要。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784798145624",
+          "title": "Webセキュリティ担当者のための脆弱性診断スタートガイド : 上野宣が教える情報漏えいを防ぐ技術",
+          "creator": "上野宣",
+          "year": 2016,
+          "publisher": "翔泳社",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027496188", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-21T19:14:02+00:00" },
+          "researcher_note": "openBDのcoverが空文字のためimage未付与。脆弱性の発見・診断の手順を扱う実務書。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784798159164",
+          "title": "Webセキュリティ担当者のための脆弱性診断スタートガイド : 上野宣が教える新しい情報漏えいを防ぐ技術",
+          "creator": "上野宣",
+          "year": 2019,
+          "publisher": "翔泳社",
+          "meta": { "edition": "第2版" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029472669", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-21T19:14:02+00:00" },
+          "researcher_note": "book-01の改訂版。openBDのcoverが空文字のためimage未付与。"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784297147488",
+          "title": "セキュリティエンジニアの知識地図",
+          "creator": "上野宣 監修, 井上圭 [ほか] 著",
+          "year": 2025,
+          "publisher": "技術評論社",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033935083", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-21T19:14:02+00:00" },
+          "researcher_note": "openBDのcoverが空文字のためimage未付与。脆弱性対応を含む情報セキュリティ実務の体系書。"
+        },
+        {
+          "cand_id": "book-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784822237981",
+          "title": "あなたのセキュリティ対応間違っています",
+          "creator": "辻伸弘",
+          "year": 2016,
+          "publisher": "日経BPマーケティング",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027645676", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-21T19:14:13+00:00" },
+          "researcher_note": "openBDのcoverが空文字のためimage未付与。セキュリティ対応の誤りと是正を扱う内容と見られ、糾弾的な論調か手続き的な論調かはエディターの原本確認が必要。"
+        },
+        {
+          "cand_id": "book-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784297118358",
+          "title": "CISOハンドブック : 業務執行のための情報セキュリティ実践ガイド",
+          "creator": "高橋正和 [ほか] 著",
+          "year": 2021,
+          "publisher": "技術評論社",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031204074", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-21T19:14:02+00:00" },
+          "researcher_note": "openBDのcoverが空文字のためimage未付与。経営層視点での脆弱性対応・インシデント手続きを扱う実務書。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
