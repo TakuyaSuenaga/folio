@@ -1,0 +1,347 @@
+{
+  "vol": 82,
+  "genres": [
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "354579273",
+          "title": "Supernatural (Remastered) [Bonus Track Version]",
+          "creator": "サンタナ",
+          "year": 1999,
+          "publisher": "RCA/JIVE Label Group",
+          "meta": { "primaryGenreName": "ロック", "trackCount": 14 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f5/97/4c/f5974c1e-06cb-f84c-1da9-5f7505a20a0c/mzi.etsqfvqq.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/supernatural-remastered-bonus-track-version/354579273?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-22T19:09:28+00:00" },
+          "researcher_note": "サンタナが自らRob Thomas・Maná・Lauryn Hill・Everlast等を指名して組んだ共演アルバム。選ぶ側に回る指名の最も直接的な例。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1443163836",
+          "title": "Duets (20th Anniversary Deluxe Edition)",
+          "creator": "フランク・シナトラ",
+          "year": 2013,
+          "publisher": "Capitol Records",
+          "meta": { "primaryGenreName": "ポップ", "trackCount": 33, "note": "releaseDateは2013年の20周年デラックス再発版。原盤の1993年発売はAPI上では別収録として確認できず" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/69/b0/03/69b0030d-67c2-23e0-d2b8-deefc1e627bb/00602537604746.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/duets-20th-anniversary-deluxe-edition/1443163836?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-22T19:09:28+00:00" },
+          "researcher_note": "シナトラが自ら共演歌手を指名して制作したデュエットアルバムの系譜。本データは20周年デラックス再発版。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "194452420",
+          "title": "Duets - An American Classic",
+          "creator": "トニー・ベネット",
+          "year": 2006,
+          "publisher": "Sony BMG Music Entertainment",
+          "meta": { "primaryGenreName": "ヴォーカル", "trackCount": 19 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Features6/v4/cb/74/5e/cb745e09-0c4e-cfde-05b0-9601cd5fa9cc/dj.xyqirqwx.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/duets-an-american-classic/194452420?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-22T19:09:28+00:00" },
+          "researcher_note": "ベネットが自ら共演歌手を指名して制作した80歳記念のデュエットアルバム。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "193943441",
+          "title": "Duets",
+          "creator": "バーブラ・ストライサンド",
+          "year": 2002,
+          "publisher": "Sony Music Entertainment",
+          "meta": { "primaryGenreName": "ポップ", "trackCount": 19 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ad/ab/bc/adabbc52-0758-0c9a-dc5d-344ada3748cb/696998612624.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/duets/193943441?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-22T19:09:28+00:00" },
+          "researcher_note": "ストライサンドが自ら共演者を指名して編んだデュエット編集盤。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1881488738",
+          "title": "Genius Loves Company",
+          "creator": "レイ・チャールズ",
+          "year": 2004,
+          "publisher": "Tangerine Records",
+          "meta": { "primaryGenreName": "ジャズ", "trackCount": 12 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7f/62/97/7f6297c0-9286-02fd-7930-1e1ca877643f/109416.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/genius-loves-company/1881488738?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-22T19:09:28+00:00" },
+          "researcher_note": "レイ・チャールズが自ら共演歌手を指名して制作し、没後に発表された遺作デュエットアルバム。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1440823233",
+          "title": "Cheek to Cheek (Deluxe Version)",
+          "creator": "トニー・ベネット & レディー・ガガ",
+          "year": 2014,
+          "publisher": "Columbia Records",
+          "meta": { "primaryGenreName": "ヴォーカル・ジャズ", "trackCount": 16 },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ac/f7/39/acf739f9-6759-d905-916a-cccf8a88eade/00602537972272.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/cheek-to-cheek-deluxe-version/1440823233?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-22T19:09:28+00:00" },
+          "researcher_note": "ベネットが自らレディー・ガガを指名して組んだデュエットアルバム。指名した側・された側の年齢差が大きい一点。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJKyzuKO-LGGAR6lRUjzKHgl4",
+          "title": "銀座 柳寿司 三代目",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都中央区銀座７丁目３−１４ 月光ビル Ｂ１", "primary_type": "寿司店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLePHlcODWP3m-c212is0_eNTkDVw46RZfrCJ1fVnhiVeRaca6c9V3eqGLKLSizVBGD_PDDmEjrzBeKzNL2mDY4qLamH7d4DF01rXigVSrAHq6tyUFgM8t2rIVMxU0St08ImT5SfcUgY9jE=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "銀座 柳寿司 三代目", "uri": "https://maps.google.com/maps/contrib/105802015388947067572" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6810154237760394474&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-22T19:09:46+00:00" },
+          "researcher_note": "屋号自体に「三代目」を掲げる寿司店。先代からの名指しの継承を示す候補だが、継承の経緯自体はPlacesデータでは確認できない。"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJ7cF_4WVqA2ARggi2qezeWh8",
+          "title": "美濃焼和食割烹 二代目 浪花",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "岐阜県多治見市栄町１丁目４６−４６ 浪花ビル", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdZq4Lj7jb2pGPcSNPu6JB31XuyKBOM57lzIQGjI45VYSjzciK6mo80evGsaKbzc7PGHzh10pXfolGLmElAwRZUaPWwdHRSspU6MPgxrBYbxmGF1vyymLm6H3VkNCDlVzvKVYKs=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "美濃焼和食割烹 二代目 浪花", "uri": "https://maps.google.com/maps/contrib/109851790252813353011" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2259363271120652418&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-22T19:09:46+00:00" },
+          "researcher_note": "屋号に「二代目」を掲げる割烹。継承時に名指しがあったかどうかの一次確認はPlacesデータの範囲外。"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJ5YkgESUJAWARyAMWEViNHVY",
+          "title": "京都祇園 うなぎ四代目菊川",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "京都府京都市東山区大和大路通新橋上る元吉町70番地7", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe4sYLIgTCFrsQuJYhDx-VNP4TyraLoKdZr8IBv38dT6q7lvIyz5QVYfQPimQYZx7R3ogqeH12jWUfR6V_HVfF3LKTqmbEo8aOXzQWyncJ5WtmJ13NKIfUH4PCKGHlrL5M_2UL8tBBbaliZ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "京都祇園 うなぎ四代目菊川", "uri": "https://maps.google.com/maps/contrib/113027679595778323977" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6205271270969705416&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-22T19:09:46+00:00" },
+          "researcher_note": "祇園の本店。屋号に「四代目」を掲げる鰻屋で、都内含め複数店舗を展開する同名チェーンの源流。"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJVby9v-WLGGARZXCGPfhHpA4",
+          "title": "東京・銀座 すきやばし次郎",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都中央区銀座４丁目２−１５ 塚本総業ビル B1階", "primary_type": "寿司店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcRV7hQTdy8kd2ETue3pYVuh4BbfNZe2CHabKcGYzFnS312RlWOrKBMpiICY0gVH4GbUC8fZl4FXFFnZ-b8YfhKYb6nFPKLoSGpV_gaSqtOo5BQRUghPUBiH9Eecl66S9_MJx_g=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Juan G Angel (TvAgro)", "uri": "https://maps.google.com/maps/contrib/113471339806277474996" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1055047344221220965&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-22T19:09:46+00:00" },
+          "researcher_note": "著名な寿司店。師から弟子への名指しの継承で広く知られるが、その経緯自体はPlacesデータでは確認できない。"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJX2Mb_eWLGGARvhx7F4hr3FA",
+          "title": "てんぷら 近藤",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都中央区銀座５丁目５−１３ 坂口ビル ９F", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdwTOv_sPx0fE0qJGlHq7F3PhVl3Hs5kEXRnvW2GeBdOSEMMr7bXJB_fhKvwEyoK_TRENhG8h_2qUwkj02U5erce-XK08xWIEAmhNjCIS1oW1_ifZgd5CyLR-3FhGz3i-LCzRCm=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "So M", "uri": "https://maps.google.com/maps/contrib/107784870113479778985" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5826650250164247742&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-22T19:09:46+00:00" },
+          "researcher_note": "名人として知られる天ぷら店。発注の「指名による継承」からは距離があり、職人個人の名声に寄る候補。"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJ6Q7mxn6MGGARDLt3TyArZnM",
+          "title": "板前鮨 はなれ 赤坂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都港区赤坂３丁目１１−１３ CONTINENTAL AKASAKAⅢ 1F", "primary_type": "寿司店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeHmLo06VOvYrY7-jkMpSuQK0sGDX2QYafK76FX9QOXTgDGEYgwV7WaLhZUJDl7vKuMKEBdzD4WoOvnMyZQX-kVDjXgvfVoGaGkcFtMZVX0mXh1NqzxRdEADWhMDcRWDKKHBC6oNgYw6-g=s4800-w710",
+            "source": "google-places",
+            "attributions": [ { "name": "板前 鮨 はなれ ‐ H A N A R E - 赤坂", "uri": "https://maps.google.com/maps/contrib/110220662814665872029" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8315381179758394124&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-22T19:09:46+00:00" },
+          "researcher_note": "「板前」を屋号に含む鮨店。個別の板前を指名できる店かどうかはPlacesデータでは未確認。"
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJ29Ik4BBcGGARk4OvipCnq0k",
+          "title": "割烹 田中家",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "神奈川県横浜市神奈川区台町１１−１", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcZ0VhIAKSu3pYbjO9LhSBC265aTP1bGsHVwuopPWGrrbm73IX6eFsnHJ1iw_qUdLN5a5-0NXlH8dto7e1C6DkCeNtkpVeOjo2pEq1JJdiTuTPv5k5Ea0u9ZVTJtN0T1MDRUrAMrA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "割烹 田中家", "uri": "https://maps.google.com/maps/contrib/106041623708835734823" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5308520825030149011&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-22T19:09:46+00:00" },
+          "researcher_note": "老舗の割烹。女将・板前の指名文化については一次確認が取れておらず、広めの候補として収集。"
+        }
+      ]
+    },
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784309004709",
+          "title": "サラダ記念日 : 俵万智歌集",
+          "creator": "俵万智",
+          "year": 1987,
+          "publisher": "河出書房新社",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000001866708", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-22T19:09:28+00:00" },
+          "researcher_note": "俵万智の第一歌集。1986年に『短歌研究』新人賞で佐佐木幸綱が無名のうちに評価・掲載したことが契機とされるが、その選出経緯自体が本書に記述されているかは未確認。openBDのcoverが空文字のためimage未付与。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784309025827",
+          "title": "かぜのてのひら : 俵万智歌集",
+          "creator": "俵万智",
+          "year": 2017,
+          "publisher": "河出書房新社",
+          "meta": { "edition": "新装版" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028221506", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-22T19:09:28+00:00" },
+          "researcher_note": "俵万智の第二歌集(新装版)。poe-01と同じ「無名時の指名」の文脈で参照できる同一歌人の別の一点。openBDのcoverが空文字のためimage未付与。"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784305706409",
+          "title": "寺山修司",
+          "creator": "寺山修司(選・鑑賞: 葉名尻竜一)",
+          "year": 2012,
+          "publisher": "笠間書院",
+          "meta": { "series": "コレクション日本歌人選", "volume": "40" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I023443807", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-22T19:09:28+00:00" },
+          "researcher_note": "寺山修司の秀歌アンソロジー。寺山は十代で中村草田男に俳句コンクールで無名のうちに指名された逸話で知られるが、本書の解説にその経緯が記述されているかは未確認。openBDのcoverが空文字のためimage未付与。"
+        },
+        {
+          "cand_id": "poe-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784894533103",
+          "title": "美しき独断 : 中城ふみ子全歌集",
+          "creator": "中城ふみ子",
+          "year": 2004,
+          "publisher": "北海道新聞社",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000007468208", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-22T19:09:28+00:00" },
+          "researcher_note": "中城ふみ子の全歌集。1954年『短歌研究』の五十首詠で中井英夫が無名の彼女を指名・掲載したことが契機とされるが、その経緯自体が本書に記述されているかは未確認。openBDのcoverが空文字のためimage未付与。"
+        },
+        {
+          "cand_id": "poe-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784776804956",
+          "title": "海よ聞かせて : 中城ふみ子の母性愛",
+          "creator": "山川純子",
+          "year": 2008,
+          "publisher": "本阿弥書店",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009443239", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-22T19:09:28+00:00" },
+          "researcher_note": "中城ふみ子の評伝。poe-04と同じ歌人を別の角度から扱う一点。中井英夫による指名への言及があるかは未確認。openBDのcoverが空文字のためimage未付与。"
+        },
+        {
+          "cand_id": "poe-06",
+          "source_api": "ndl+openbd",
+          "source_id": "9784806066200",
+          "title": "おのれが花 : 中城ふみ子論と鑑賞 5",
+          "creator": "菱川善夫",
+          "year": 2007,
+          "publisher": "沖積舎",
+          "meta": { "series": "菱川善夫著作集", "volume": "5" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009196277", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-22T19:09:28+00:00" },
+          "researcher_note": "中城ふみ子を論じた研究書。poe-04/poe-05と同じ歌人の評論として候補に追加。指名の経緯への言及があるかは未確認。openBDのcoverが空文字のためimage未付与。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
