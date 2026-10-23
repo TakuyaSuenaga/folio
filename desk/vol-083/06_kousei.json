@@ -1,0 +1,50 @@
+{
+  "vol": 83,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=9371841739971505474&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025002320",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024913186",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[1](PHOTO) essay内「MARS 火星」の空白",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "本文中は「MARS 火星」(半角スペース)。h2見出し・figure alt・DATA欄「題名」は「MARS　火星」(全角スペース)。",
+      "teisei": "本文の空白を全角スペースに統一し「MARS　火星」とする(見出し・DATA欄と三点一致させる)。"
+    },
+    {
+      "id": "P-02",
+      "location": "<head> og:description",
+      "severity": "minor",
+      "type": "組版",
+      "genzai": "leadの切り出しが「……そこから遠ざかる運動の折り返」で単語の途中(「折り返し点」の「し点」の手前)で終わっており、省略記号も付いていない。",
+      "teisei": "語の切れ目(例: 「……運動の折り返し点でもある。」まで、または「……運動の」までに三点リーダ「……」を付す)で切り出す。"
+    },
+    {
+      "id": "P-03",
+      "location": "奥付末尾の空の<p></p>",
+      "severity": "minor",
+      "type": "組版",
+      "genzai": "奥付最終行に内容のない<p></p>が残っている。",
+      "teisei": "空の<p>タグを削除する、または意図した文言(正誤表欄等)を補う。"
+    }
+  ]
+}

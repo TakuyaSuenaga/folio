@@ -1,0 +1,318 @@
+{
+  "vol": 83,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJmwsLFABBEF8RLeBYWXNmqbU",
+          "title": "宗谷岬展望台",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒098-6758 北海道稚内市宗谷岬２−８", "primary_type": "展望台" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLevANAOTprOFcLSo35Nz3eCMYU7uOcZR6SR95MI3OV9MvmpuM9YUYptjoJH0XL8Zr8PaA1bbYJE2qPcirYqIwK_7In_m3z20AY_Ro8h5y0T93ViBAmZvIKeQF1pe-mVPiP_v6GQ1fDNJsLh=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "1980s洋楽至上主義者・道の駅巡り中", "uri": "https://maps.google.com/maps/contrib/115821844883598587597" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13090106437535326253&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-23T19:03:57+00:00" },
+          "researcher_note": "宗谷海峡を挟んでサハリンに最も近い、宗谷岬に立つ展望台。海岸線・国境双方への近接という発注に対応する。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJ-wCCkEgvbF8RYqRGnnqsEkI",
+          "title": "望郷の家",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒087-0165 北海道根室市納沙布３６", "primary_type": "博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc-2tCa42p6EW6TlGrZVSuYmeJRpCg_FsjmYpp_u6yrs69fdbLegNDXWv7LF5d6kHHHgfFoHaPS4IMF6uT_WWxbDrd6YnyInylYBnj1YmfbfQvEwVwiD-_Tg01vkP6aZ6m0sNjoCA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "大", "uri": "https://maps.google.com/maps/contrib/113885570844688364891" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4761057398725452898&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-23T19:03:57+00:00" },
+          "researcher_note": "日本最東端の納沙布岬に建つ資料館兼展望施設。北方四島(国境)を望む最接近点に立つ。primary_typeは博物館でPlaces上は展望台登録ではない。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJ_-u7JOc8I2ARXxpaP0H_pnQ",
+          "title": "犬吠埼灯台",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒288-0012 千葉県銚子市犬吠埼９５７６", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLePzCTNJo3fgDMv-X4cZGxAxp6Z6sl2l8CzZcK5t8x7oukLIYKwPwZtJ_FTAoghwI7r4lqB2RVXjC8SG_AqCcyNSBHvvj5qQc_daQnAgBMf_A539fSOW7SqkRgTW0XEIRB5VwWjHknAKnU=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Martin Richardson", "uri": "https://maps.google.com/maps/contrib/110497399229048579332" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8405686410234436191&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-23T19:03:57+00:00" },
+          "researcher_note": "太平洋に突き出た犬吠埼の先端に立つ灯台。外海への近接という発注に対応する。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJDcTinH8lBmARjSaIkQvaN5w",
+          "title": "潮岬灯台",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒649-3502 和歌山県東牟婁郡串本町潮岬２８７７", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdCgIWbrZZpB6Hf-edwIEFpl3yVbP-F-dilNucKMQRTsRzE-TFxXewLEl-YPtdsDbGmZujwNZzkmOQlNcdtXSDhmXt7yEoC8LISz9Ir6CeNGR6rnowLafn-qMn9x8NX5kC_97bp=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Zhang Shutao", "uri": "https://maps.google.com/maps/contrib/116391656086947336448" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11256705536856958605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-23T19:03:57+00:00" },
+          "researcher_note": "本州最南端の潮岬に立つ灯台。外海(太平洋)への近接という発注に対応する。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJBZNilbadnl8R4_Li8vec37Y",
+          "title": "西吹付山展望台",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒039-4601 青森県下北郡大間町大間内山４８−１", "primary_type": "展望台" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdzqVRfGFZ40UiGd5zChLZXEORj7YNzCtE65Ag_wUoU7NqZiU83I_mS8O9ykbLyxFtTYOfp-TeR7_M2iVuW_dHDF3dBj-dqiUiHeNWKiQ6ga-RKtiwvJ8KODhvLax5NuDCQKBEk=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "j- n", "uri": "https://maps.google.com/maps/contrib/107788901184333130107" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13177423623455175395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-23T19:03:57+00:00" },
+          "researcher_note": "本州最北端に近い大間崎周辺の展望台。津軽海峡を挟んで北海道へ最も近づく地点に立つ。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJXxt9Ma9PZzQRQGtg_5iQynU",
+          "title": "日本國最西端之地の碑",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒907-1801 沖縄県八重山郡与那国町与那国", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeNK_1F2iTe9SVxvEndYgZFlfZytZA2UKnyZU0g2reDEcUHVyUF8DuKSnPFXj7fJEGA0RS04iAmXsoKIgU7L6kUO8N7X3rKRiQpiFbfW9VwgUgZi4bkLDi07qbI5o6GhkWDrKY=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "とんがりバナナ", "uri": "https://maps.google.com/maps/contrib/113557175629573674346" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8487755434527058752&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-23T19:03:57+00:00" },
+          "researcher_note": "日本最西端、国境(台湾側)に最も近い与那国島西端の碑。碑であり厳密には展望施設ではないが、最接近点の建造物という発注に近い。"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJh6t7N-k0PDURuboUysXygDs",
+          "title": "佐多岬灯台",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒893-2604 鹿児島県肝属郡南大隅町佐多馬籠４１７", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcmJl1r6bU84VZ7GP-oqAh09hYwSJ98yoiUccqQeygmf8qJCUcLZcTuB4_yawvmRskRXcO5fFOFOgFInUL7CBKiy71po-b5bFZTmkG_F_0g-1pjvnYciF4SoOFG-QSF0IG7BhlL=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "だんらん旅人宿そらうみ（そらうみビジョン）", "uri": "https://maps.google.com/maps/contrib/113623410776532841734" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4287693776569547449&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-23T19:03:57+00:00" },
+          "researcher_note": "本州・四国・九州の最南端、佐多岬の先端に立つ灯台。外海への近接という発注に対応する。"
+        },
+        {
+          "cand_id": "arc-08",
+          "source_api": "google_places",
+          "source_id": "ChIJ5Z--eanrbF8RQi0uimh4D4I",
+          "title": "羅臼国後展望塔",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒086-1834 北海道目梨郡羅臼町礼文町３２−１", "primary_type": "展望台" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLebrD6hrP_IOEblHrG-3TaBFUEvA4BxTbi9zwDb7nstgUMn_UgQE5Dr8C705smgcg80w2WvSisKlBdFKMJoTMxJwPXfAdGG5xV3aW-fzkF20k_-x25I6IG3X6N7g27iq-IDzD6oUg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Frank 成", "uri": "https://maps.google.com/maps/contrib/103117068335762128114" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9371841739971505474&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-23T19:03:57+00:00" },
+          "researcher_note": "羅臼町の海岸に立つ展望塔。その名が示すとおり国後島(ロシア)との国境海域に最も近い地点に建てられている。発注の『国境への近接』に最も直接対応する一点。"
+        }
+      ]
+    },
+    {
+      "genre": "photo",
+      "candidates": [
+        {
+          "cand_id": "photo-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784861524035",
+          "title": "MARS　火星 : 未知なる地表 : 惑星探査機MROが明かす、生命の起源",
+          "creator": "グザヴィエ・バラル",
+          "year": 2013,
+          "publisher": "青幻舎",
+          "meta": {},
+          "image": { "url": "https://cover.openbd.jp/9784861524035.jpg", "source": "openbd" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025002320", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-23T19:04:09+00:00" },
+          "researcher_note": "NASA火星探査機MRO搭載カメラHiRISEが撮影した火星表面の高精細画像集。探査機が最接近時に捉えた画像記録という発注に直接対応する。"
+        },
+        {
+          "cand_id": "photo-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784105451035",
+          "title": "プラネットフォール : 惑星着陸",
+          "creator": "Michael Benson/桧垣嗣子",
+          "year": 2013,
+          "publisher": "新潮社",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025072413", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-23T19:04:09+00:00" },
+          "researcher_note": "複数の探査機・着陸機が撮影した太陽系天体の表面画像を編んだ写真集。『最も近づいた瞬間』の視覚記録という発注に対応する。openBDのcoverが空文字のためimage未付与。"
+        },
+        {
+          "cand_id": "photo-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784416115466",
+          "title": "HSTハッブル宇宙望遠鏡のすべて : 驚異の画像でわかる宇宙のしくみ",
+          "creator": "沼沢茂美/脇屋奈々代",
+          "year": 2015,
+          "publisher": "誠文堂新光社",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026622818", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-23T19:04:09+00:00" },
+          "researcher_note": "ハッブル宇宙望遠鏡が撮影した宇宙の画像を解説した一冊。望遠鏡による撮影という発注の要素に対応するが、対象の多くは深宇宙で『最接近』性はphoto-01・photo-05より弱い。openBDのcoverが空文字のためimage未付与。"
+        },
+        {
+          "cand_id": "photo-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784800305695",
+          "title": "ハッブル宇宙望遠鏡がとらえた宇宙の絶景",
+          "creator": "県秀彦",
+          "year": 2015,
+          "publisher": "洋泉社",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025990760", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-23T19:04:09+00:00" },
+          "researcher_note": "ハッブル宇宙望遠鏡が撮影した天体画像集。photo-03と同じ望遠鏡を扱う別の一点。openBDのcoverが空文字のためimage未付与。"
+        },
+        {
+          "cand_id": "photo-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784621081747",
+          "title": "宇宙へのまなざし : すばる望遠鏡天体画像集",
+          "creator": "国立天文台",
+          "year": 2009,
+          "publisher": "丸善",
+          "meta": { "series": "ビジュアル天文学" },
+          "image": { "url": "https://cover.openbd.jp/9784621081747.jpg", "source": "openbd" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000010576028", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-23T19:04:09+00:00" },
+          "researcher_note": "国立天文台すばる望遠鏡が撮影した約七十点の天体画像を収めた一冊。地上の望遠鏡が捉えた画像記録という発注に対応する。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784061329812",
+          "title": "いつ起こる小惑星大衝突 : 恐竜絶滅と人類の危機をさぐる",
+          "creator": "地球衝突小惑星研究会",
+          "year": 1993,
+          "publisher": "講談社",
+          "meta": { "series": "ブルーバックス" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002271163", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-23T19:04:09+00:00" },
+          "researcher_note": "地球近傍小惑星の衝突リスクを扱うノンフィクション。発注の『衝突せず最も近づく』力学よりも衝突シナリオそのものに重心があり、距離感はエディター判断が必要。openBDのcoverが空文字のためimage未付与。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784845113347",
+          "title": "アイソン彗星観測ノート",
+          "creator": "県秀彦/中西昭雄",
+          "year": 2013,
+          "publisher": "旬報社",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024913186", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-23T19:04:09+00:00" },
+          "researcher_note": "2013年に太陽へ接近したサングレーザー、アイソン彗星の観測ガイド。衝突せず最も近づいて消失した事象を扱い、発注に近い一点。openBDのcoverが空文字のためimage未付与。"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784416617083",
+          "title": "麻布ハレー = AZABU HALLEY",
+          "creator": "松久淳/田中渉",
+          "year": 2017,
+          "publisher": "誠文堂新光社",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027993422", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-23T19:04:09+00:00" },
+          "researcher_note": "ハレー彗星を題材にした小説と見られる一冊。内容が『衝突せず最も近づく事象』をどう扱うかはAPIメタデータからは未確認で、本文確認が必要。openBDのcoverが空文字のためimage未付与。"
+        },
+        {
+          "cand_id": "book-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784065360132",
+          "title": "朝日新聞宇宙部",
+          "creator": "東山正宜",
+          "year": 2024,
+          "publisher": "講談社",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033558081", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-23T19:04:09+00:00" },
+          "researcher_note": "朝日新聞記者による宇宙取材のノンフィクション。探査機や天体の『最接近』を具体的に扱っているかはAPIメタデータからは未確認で、エディターによる本文確認が必要。openBDのcoverが空文字のためimage未付与。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
