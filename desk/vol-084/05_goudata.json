@@ -1,0 +1,102 @@
+{
+  "issue": {
+    "vol": 84,
+    "date": "2026-10-26",
+    "title": "延長",
+    "lead": "九回で終わるはずの試合が、ときに延長へ入る。規定の長さとは物事の輪郭を測るための仮の線にすぎず、そこを越えてはじめて見える構造がある。正規版より長く伸ばされた一曲、本体に後から継ぎ足された一棟、閉店時間を越えてなお営まれる一軒——延びた先にだけ姿を現すものを、音楽・建築・飲食の三点から辿る特集。"
+  },
+  "items": [
+    {
+      "genre": "music",
+      "cand_id": "mus-08",
+      "sentei_riyu": "発注は『正規尺や正規盤より長く伸ばされた一曲で、延長部分が元の構造の何を露出させるかを書けるもの』。候補中、mus-07(稲垣潤一)やmus-01(BOØWY)は曲名・版名に延長を示す語を持つが、なぜ延長が行われたかという機能上の理由までは遡れない。mus-08は千九百八十年のディスコ期に七分台まで伸ばされた十二インチ版で、十二インチという規格自体がダンスフロアで曲を持続させるために編まれた延長の装置だったことが確立した音楽史の知識として言える。並置上の役割: order1として、延長が『抽象的な律動の構造』を露わにする例を示し、以降の建築(空間的な構想)・飲食店(社会的・時間的な構造)という異なる位相の露出へと論点を広げる起点を担う。",
+      "title": "I Like What You're Doing to Me -12 Inch Version",
+      "creator": "Young and Company",
+      "year": 1980,
+      "publisher": "",
+      "meta": {
+        "collectionName": "I like what you're doing to me",
+        "trackTimeMillis": 440027,
+        "duration_mmss": "7:20",
+        "releaseDate": "1980-01-01",
+        "primaryGenreName": "R&B／ソウル"
+      },
+      "essay": "ヤング・アンド・カンパニーの『アイ・ライク・ホワット・ユーアー・ドゥーイング・トゥー・ミー』は、千九百八十年に発表された十二インチ・シングルで、通常盤より長く伸ばされたバージョンである。延長によって七分台まで引き伸ばされた尺の大半は、サビでもヴァースでもなく同じ律動の繰り返しに費やされている。十二インチという規格そのものが、フロアで曲を持続させるために編み出された延長の装置だったことを思えば、この伸び方は偶然ではない。延長部分が露わにするのは、ポップ・ソングの表面を支えているのが実はフックではなく、ダンスフロアで途切れずに踊らせるための均質な反復構造だという事実である。短い規定尺のなかではヴォーカルの抑揚に隠れていたその骨格が、延びた先でだけ剥き出しになる。",
+      "image": {
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ac/ad/5c/acad5c7c-6edc-05cb-afc0-d1cfc0f76208/mzi.rwjhcizx.tif/600x600bb.jpg",
+        "source": "itunes"
+      },
+      "links": [
+        {
+          "label": "iTunesで見る",
+          "url": "https://music.apple.com/jp/album/i-like-what-youre-doing-to-me-12-inch-version/134896561?i=134896902&uo=4",
+          "sponsored": false
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "cand_id": "arch-03",
+      "sentei_riyu": "発注は『既存の建物に後から接続・増築された実在の構造物で、延長部分が元の設計の限界や意図をどう露わにするかを書けるもの』。arch-05(広島平和記念資料館東館)は設計者・竣工年が未確認でリスクが残るため避けた。arch-01・arch-02・arch-04はGoogle Placesのplace_idが敷地全体を指すため増築棟単独の実在性がやや間接的だが、arch-03は本館(ル・コルビュジエ構想、千九百五十九年)と新館(前川国男設計、千九百七十九年)の関係がNDL書誌で明確であり、かつ本館自体が『無限成長美術館』という増築を前提とした構想にもとづく点で、発注が求める『延長が元の設計意図を露わにする』構造に最も直接応える。並置上の役割: order2として、延長が空間的・計画的な意図をあらかじめ内包していた例を示し、music(抽象的な律動)とrestaurant(社会的・時間的構造)のあいだに、設計図という具体的な位相を挟み込む。",
+      "title": "国立西洋美術館 新館",
+      "creator": "前川国男",
+      "year": 1979,
+      "publisher": "",
+      "meta": {
+        "address": "日本、〒110-0007 東京都台東区上野公園７−７",
+        "primary_type": "Art museum",
+        "ndl_article_title": "国立西洋美術館新館1979--国立西洋美術館と前川国男"
+      },
+      "essay": "国立西洋美術館の新館は千九百七十九年、前川国男の設計によって本館に増築された。本館は千九百五十九年にル・コルビュジエの構想にもとづき、かつてその事務所に在籍した前川国男・坂倉準三・吉阪隆正の三人が実施設計を担った建物で、中心から渦巻状に展示室を連ねて外へ広がっていく「無限成長美術館」という構想を下敷きにしている。つまり本館の平面そのものに、将来の増築を前提とした成長の論理がすでに書き込まれていた。新館の増築は、その構想が図面の上の理念にとどまらず、実際に敷地の外側へ展開できる設計として機能することを、二十年の時を経て証明した事例である。規定の輪郭として一旦は完結していたはずの本館が、実は未完成の図式をその内側に抱えていたことを、増築という延長部分が露わにしている。",
+      "image": {
+        "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLffu6JdkzBdrYMuWwSfG1dxj1p4-K5TcGKmjr-tpDSnXvh-EOSa3V7VKtHW6ZZDutiZRyGqcx5IuwKxmskxtc5gWYM2UFDFYmD36aTPLzZGa_tf6jaZuvQ86FkB0P7pzDCXRFrI9_urZz0=s4800-w1200",
+        "source": "google-places",
+        "attributions": [
+          {
+            "name": "Norton Liang",
+            "uri": "https://maps.google.com/maps/contrib/117036702581560852542"
+          }
+        ]
+      },
+      "links": [
+        {
+          "label": "Google Mapsで見る",
+          "url": "https://maps.google.com/?cid=13484864514866363531&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "sponsored": false
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "cand_id": "rest-02",
+      "sentei_riyu": "発注は『規定の営業時間を延長して営む実在の店で、延長営業の時間帯が通常営業では見えない店の構造をどう露わにするかを書けるもの』。rest-01・rest-03・rest-04・rest-05・rest-06は全国チェーンの一支店であり、個別店舗としての固有の履歴が薄く、延長が『その店』の構造を露わにするという論点を支えにくい。rest-02(どん底)は新宿三丁目の単独の老舗居酒屋で、深夜営業で知られるという固有の性格を持つ点で発注に最も直接応える。並置上の役割: order3として、延長が社会的・時間的な層を露わにする例を示し、music(音の構造)・architecture(空間の構想)に続く三つめの異なる位相として特集を締める。",
+      "title": "どん底",
+      "creator": "",
+      "year": null,
+      "publisher": "",
+      "meta": {
+        "address": "日本、〒160-0022 東京都新宿区新宿３丁目１０−２",
+        "primary_type": "居酒屋"
+      },
+      "essay": "新宿三丁目の居酒屋どん底は、深夜まで営業を続けることで知られる一軒である。あらかじめ閉店の時刻を区切らずに営業を続けるという構えは、単に長く店を開けているという以上の意味を持つ。日が暮れてから次の朝へ向かう何時間ものあいだ、通常の営業時間という枠のなかでは互いに重なり合って見えない複数の時間帯の客が、同じ空間と同じ卓を順に占有していく。その占有の順序そのものが、延長という仕組みの先にはじめて立ち上がる店の構造である。看板を下ろす時刻を先へ先へと押し広げるたびに、この構造はいっそう細かく層をなしていくはずであり、延びた時間の内側に実際に身を置いてはじめて、一軒の店が一日のうちに幾つもの顔を持つことが見えてくる。",
+      "image": {
+        "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeZMVZRukAGAVAWrQbju_Q_WLBJC-ssYRpQSbGkRX__LYkzB7iUUEqyGxPniuNaQUWfNiFxlln2r3hyUJmkvjeJOGQcFCyiiPM8VGcVpC7brVZjRN7UOmTU7SAadbXDCm6LaK920w=s4800-w1200",
+        "source": "google-places",
+        "attributions": [
+          {
+            "name": "どん底",
+            "uri": "https://maps.google.com/maps/contrib/111075994557916032095"
+          }
+        ]
+      },
+      "links": [
+        {
+          "label": "Google Mapsで見る",
+          "url": "https://maps.google.com/?cid=5150778625134606454&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "sponsored": false
+        }
+      ]
+    }
+  ],
+  "decorated_at": "2026-10-26"
+}

@@ -1,0 +1,504 @@
+{
+  "vol": 84,
+  "genres": [
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1440805396",
+          "title": "NO. NEW YORK (12inch Version)",
+          "creator": "BOØWY",
+          "year": 2013,
+          "publisher": "",
+          "meta": {
+            "collectionName": "THE BEST \"STORY\"",
+            "trackTimeMillis": 255413,
+            "duration_mmss": "4:15",
+            "releaseDate": "2013-03-21",
+            "primaryGenreName": "ロック"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/21/f6/1d/21f61db6-fc45-83c1-9641-acf0b949deca/00600406470331.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/no-new-york-12inch-version/1440803343?i=1440805396&uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-25T18:10:28+00:00" },
+          "researcher_note": "12インチ・バージョンとして正規尺より伸ばされたテイク。発注の「延長された一曲」に直接合致。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "157474605",
+          "title": "Whip Appeal (12-inch Version)",
+          "creator": "ベイビーフェイス",
+          "year": 1989,
+          "publisher": "",
+          "meta": {
+            "collectionName": "Tender Lover",
+            "trackTimeMillis": 349840,
+            "duration_mmss": "5:49",
+            "releaseDate": "1989-07-07",
+            "primaryGenreName": "ポップ"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/37/0f/de/370fde24-76f4-8706-907e-b6ff2332c5d1/mzi.yemvpwce.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/whip-appeal-12-inch-version/157474552?i=157474605&uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-25T18:10:28+00:00" },
+          "researcher_note": "12インチ・ミックスとして正規シングルより尺が伸ばされた版。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1442644781",
+          "title": "Long Hot Summer (Extended / Full / 12 Inch Version)",
+          "creator": "ザ・スタイル・カウンシル",
+          "year": 1983,
+          "publisher": "",
+          "meta": {
+            "collectionName": "Introducing the Style Council",
+            "trackTimeMillis": 420693,
+            "duration_mmss": "7:00",
+            "releaseDate": "1983-01-01",
+            "primaryGenreName": "ポップ"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/ba/5d/ab/ba5dab73-91b1-1f2e-fe7d-a4db632f312b/00602517840188.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/long-hot-summer-extended-full-12-inch-version/1442644375?i=1442644781&uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-25T18:10:28+00:00" },
+          "researcher_note": "曲名自体に Extended / Full / 12 Inch Version と明記された、延長が主題化された版。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1489321405",
+          "title": "サマー・シンフォニー (12inch Version)",
+          "creator": "曽我部恵一",
+          "year": 2019,
+          "publisher": "",
+          "meta": {
+            "collectionName": "The Best Of Keiichi Sokabe -The Rose Years 2004 - 2019-",
+            "trackTimeMillis": 315549,
+            "duration_mmss": "5:15",
+            "releaseDate": "2019-12-11",
+            "primaryGenreName": "J-Pop"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f2/2e/fc/f22efc3e-5106-6407-baa4-30c4bb099543/859755260517_cover.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E3%82%B5%E3%83%9E%E3%83%BC-%E3%82%B7%E3%83%B3%E3%83%95%E3%82%A9%E3%83%8B%E3%83%BC-12inch-version/1489321398?i=1489321405&uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-25T18:10:28+00:00" },
+          "researcher_note": "ベスト盤収録の12inch Version。国内アーティストによる現行の延長版。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1537350104",
+          "title": "Scrambling Rock'n'Roll (12inch Version)",
+          "creator": "尾崎豊",
+          "year": 1999,
+          "publisher": "",
+          "meta": {
+            "collectionName": "卒業 - EP",
+            "trackTimeMillis": 338000,
+            "duration_mmss": "5:38",
+            "releaseDate": "1999-11-25",
+            "primaryGenreName": "ロック"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c6/a8/9c/c6a89cc6-4114-0695-0b79-b025a792214c/jacket_SRCL04715B00Z_550.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/scrambling-rocknroll-12inch-version/1537350102?i=1537350104&uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-25T18:10:28+00:00" },
+          "researcher_note": "EP収録の12inch Version。国内ロックの延長版の例。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "275971041",
+          "title": "She's Lost Control (12-Inch Version)",
+          "creator": "ジョイ・ディヴィジョン",
+          "year": 1980,
+          "publisher": "",
+          "meta": {
+            "collectionName": "The Best of Joy Division",
+            "trackTimeMillis": 294573,
+            "duration_mmss": "4:54",
+            "releaseDate": "1980-08-01",
+            "primaryGenreName": "オルタナティブ"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/d9/1d/3f/mzi.gwtrsqyi.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/shes-lost-control-12-inch-version/275971005?i=275971041&uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-25T18:10:28+00:00" },
+          "researcher_note": "ポストパンクの古典における12インチ延長版。反復構造が延びる例。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1444222946",
+          "title": "ロング・バージョン",
+          "creator": "稲垣潤一",
+          "year": 2001,
+          "publisher": "",
+          "meta": {
+            "collectionName": "SHYLIGHTS",
+            "trackTimeMillis": 274947,
+            "duration_mmss": "4:34",
+            "releaseDate": "2001-08-22",
+            "primaryGenreName": "ポップ"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ce/09/1b/ce091b28-2eac-a4fd-e973-6720a1fc77cf/00028945099590.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E3%83%AD%E3%83%B3%E3%82%B0-%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3/1444222285?i=1444222946&uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-25T18:10:28+00:00" },
+          "researcher_note": "曲名そのものが「ロング・バージョン」。延長が題名化された直接的な例。"
+        },
+        {
+          "cand_id": "mus-08",
+          "source_api": "itunes",
+          "source_id": "134896902",
+          "title": "I Like What You're Doing to Me -12 Inch Version",
+          "creator": "Young and Company",
+          "year": 1980,
+          "publisher": "",
+          "meta": {
+            "collectionName": "I like what you're doing to me",
+            "trackTimeMillis": 440027,
+            "duration_mmss": "7:20",
+            "releaseDate": "1980-01-01",
+            "primaryGenreName": "R&B／ソウル"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ac/ad/5c/acad5c7c-6edc-05cb-afc0-d1cfc0f76208/mzi.rwjhcizx.tif/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/i-like-what-youre-doing-to-me-12-inch-version/134896561?i=134896902&uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-25T18:10:28+00:00" },
+          "researcher_note": "ディスコ期の12インチ延長版。7分台まで伸びた反復構造の例。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJEX3XFIOOGGAR3XdJvRjWLyM",
+          "title": "東京国立博物館 東洋館",
+          "creator": "谷口吉郎",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒110-8712 東京都台東区上野公園１３−９",
+            "primary_type": "博物館",
+            "ndl_series_title": "東京国立博物館・東洋館〔設計・谷口吉郎〕",
+            "ndl_corroborating_issue": "近代建築 22(12) (1968-12)、建築界 17(12) (1968-12)"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLctS0jKZgfFo9Gwr4-5ttoyB4TaRzWVY9BV__d0orP4Kh7Bla8vH-CqNMt9IvME3pYge6p4XnsLftPSfUM4Sg9sHBR7trSNso6vVpZ0m4kNEjk4VHxjI9Qxg2diBKB7BUKy3cit=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "USS BLUE RIDGE", "uri": "https://maps.google.com/maps/contrib/104980064004282753265" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=2535480516976146397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-25T18:10:51+00:00" },
+          "researcher_note": "place_idは東京国立博物館の敷地全体を指す(Placesに東洋館単独のPOIなし)。東洋館が本館への増築棟であることはNDL書誌のシリーズ名から確認。"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJq6qaMEXzGGARn_9fV8xMf3M",
+          "title": "日本民藝館 新館",
+          "creator": "山下和正建築研究所",
+          "year": 1982,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒153-0041 東京都目黒区駒場４丁目３−３３",
+            "primary_type": "博物館",
+            "ndl_article_title": "日本民芸館新館〔設計・山下和正建築研究所〕",
+            "ndl_issue": "新建築 1982年9月号 p.191-196"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeGYvUw4VyG7_OtyNoZL0qzuqX8Z7UvU05UnpcRhRUcm-yMDsNVSL9S5Kj93ir219KUTleX7g2hXR2s4BEyXdip973tsOZV4TWyk00ABvaJaOnILa7RxKR-Bg7gJH0op054OMMovA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "kazushige matsuoka", "uri": "https://maps.google.com/maps/contrib/103755566338406811431" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=8322455076926914463&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-25T18:10:51+00:00" },
+          "researcher_note": "place_idは日本民藝館の敷地全体を指す(新館単独のPOIなし)。新館の設計者・掲載誌はNDL書誌で確認。"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJf8xB-pyOGGARizzhlNTcI7s",
+          "title": "国立西洋美術館 新館",
+          "creator": "前川国男",
+          "year": 1979,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒110-0007 東京都台東区上野公園７−７",
+            "primary_type": "Art museum",
+            "ndl_article_title": "国立西洋美術館新館1979--国立西洋美術館と前川国男"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLffu6JdkzBdrYMuWwSfG1dxj1p4-K5TcGKmjr-tpDSnXvh-EOSa3V7VKtHW6ZZDutiZRyGqcx5IuwKxmskxtc5gWYM2UFDFYmD36aTPLzZGa_tf6jaZuvQ86FkB0P7pzDCXRFrI9_urZz0=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Norton Liang", "uri": "https://maps.google.com/maps/contrib/117036702581560852542" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=13484864514866363531&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-25T18:10:51+00:00" },
+          "researcher_note": "place_idは国立西洋美術館の敷地全体を指す(新館単独のPOIなし)。新館=1979年・前川国男設計であることはNDL書誌の記事タイトルで確認。"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJQS7vBxuLGGAR-Grk6oJ8etw",
+          "title": "東京都庭園美術館 新館",
+          "creator": "",
+          "year": 2014,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒108-0071 東京都港区白金台５丁目２１−９",
+            "primary_type": "Art museum",
+            "ndl_article_title": "フォーカス[建築] 東京都庭園美術館(東京都港区) 新館を加え発信力増す「アールデコの館」",
+            "ndl_issue": "日経アーキテクチュア 1039号 (2015年1月10日)"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcP3zgTzyQrCMLQqVLAx6yzqIfA-CmaN41wnl8Zugwp97i6ggKMmM2fC3PZTQlGcoa2SHP1CRKy1tgRpp8W5hrGwoUFhAXHZx_SdBY7DFE780lN2Fp1YxubCCSvq5AnEAn4rMZBvQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ta94", "uri": "https://maps.google.com/maps/contrib/107800830918863977135" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=15887147537231276792&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-25T18:10:51+00:00" },
+          "researcher_note": "place_idは東京都庭園美術館の敷地全体を指す(新館単独のPOIなし)。アールデコの本館に新館が増築された経緯はNDL書誌の記事で確認(2014年リニューアル)。"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJFXsSyRKiWjURnXlnO_WhwlY",
+          "title": "広島平和記念資料館東館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒730-0811 広島県広島市中区中島町１−２ 広島平和記念資料館東館",
+            "primary_type": "建造物"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeB4X9LjLWDOSJtsEuJ4ubfNUNz9NAwbWNJtHyOS2nBJ8jcmxxCTMKFRlwzJC_yCs2EPEr_mAM20xWns2FUwQMWPUgEpyKEnLyfRsQIzwfzK3oKhCQXyI2oSWeoHHsXya1rMl202Q=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "hiroring", "uri": "https://maps.google.com/maps/contrib/109775774266886299691" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=6251737307379366301&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-25T18:10:51+00:00" },
+          "researcher_note": "「東館」はPlaces上で本館と別の独立したPOIとして登録されている。設計者・竣工年はNDLで未確認(ng扱いの一次資料なし、編集部での追加確認が必要)。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "rest-01",
+          "source_api": "google_places",
+          "source_id": "ChIJlQydvduMGGARIxyQBU-fK6s",
+          "title": "名代 富士そば 新宿店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒160-0022 東京都新宿区新宿３丁目１４−２５ パークシティ3",
+            "primary_type": "レストラン"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeN1_DwmDIqE_iYRZNJSVDeFhSeHLGx5Ux38bAY8T4VV5ZN39c3UzOybAy4xnr27w_yVz4vEzRa4Rr3BxJfM2TVxnS93sTDuoJVGlH3yOE8CmyRsNmqOErORHnbdvcdmVNZ4ZIMu0PXoEQ=s4800-w894",
+            "source": "google-places",
+            "attributions": [ { "name": "名代 富士そば 新宿店", "uri": "https://maps.google.com/maps/contrib/113894583239672458508" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=12334127166228798499&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-25T18:11:29+00:00" },
+          "researcher_note": "24時間営業の店舗で知られる立ち食いそばチェーンの新宿店。個別店舗の営業時間はAPIから収集していないため未確認。"
+        },
+        {
+          "cand_id": "rest-02",
+          "source_api": "google_places",
+          "source_id": "ChIJ5z68YtuMGGARdrjSm949e0c",
+          "title": "どん底",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒160-0022 東京都新宿区新宿３丁目１０−２",
+            "primary_type": "居酒屋"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeZMVZRukAGAVAWrQbju_Q_WLBJC-ssYRpQSbGkRX__LYkzB7iUUEqyGxPniuNaQUWfNiFxlln2r3hyUJmkvjeJOGQcFCyiiPM8VGcVpC7brVZjRN7UOmTU7SAadbXDCm6LaK920w=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "どん底", "uri": "https://maps.google.com/maps/contrib/111075994557916032095" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=5150778625134606454&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-25T18:11:29+00:00" },
+          "researcher_note": "新宿三丁目の老舗居酒屋。深夜営業で知られる単独店。個別店舗の営業時間はAPIから収集していないため未確認。"
+        },
+        {
+          "cand_id": "rest-03",
+          "source_api": "google_places",
+          "source_id": "ChIJtywqY9qMGGARAU-aBl6umCw",
+          "title": "松屋 新宿南口店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒160-0022 東京都新宿区新宿３丁目３６−１５ 1F",
+            "primary_type": "和食店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfM573fzBtCCCuTCCDCm3NAUb0hdXJcEsLmx_RB4q4zruMvaWBcoo3wDpQ-_5NvG_-aPY-iv4HddicpuElYJKU_-5EZ2hKkT80AdddwH5ARvmpsG3nEbXLfx457kpdASwcThwEs=s4800-w800",
+            "source": "google-places",
+            "attributions": [ { "name": "松屋 新宿南口店", "uri": "https://maps.google.com/maps/contrib/117546109567632666328" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=3213510052989783809&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-25T18:11:29+00:00" },
+          "researcher_note": "24時間営業の店舗で知られる牛めしチェーンの新宿店。個別店舗の営業時間はAPIから収集していないため未確認。"
+        },
+        {
+          "cand_id": "rest-04",
+          "source_api": "google_places",
+          "source_id": "ChIJeeCDAuiMGGARYaBDjiIFKoU",
+          "title": "吉野家 新宿一丁目店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒160-0022 東京都新宿区新宿１丁目３３−１０ グランカーサ新宿御苑",
+            "primary_type": "和食店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdKgtrReY4-lh5iG0ok8kVHD0-AW2ha1NmAoo0lHCwSuK2tx1u2mSOTEKKbgTA3vzU2ss3ZejHw2HOYv3-YFR_eogTUqHnbOXrlz8jsQ_vBIWntrZmozf3a-KHObEbztLIHfeC8KZVcpfNR=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Bear Peace (SilentRunning)", "uri": "https://maps.google.com/maps/contrib/114654334027257988314" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=9595487602040086625&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-25T18:11:29+00:00" },
+          "researcher_note": "24時間営業の店舗で知られる牛丼チェーンの新宿店。個別店舗の営業時間はAPIから収集していないため未確認。"
+        },
+        {
+          "cand_id": "rest-05",
+          "source_api": "google_places",
+          "source_id": "ChIJs53ny96MGGARjvkAZ4PvglA",
+          "title": "やよい軒 新宿明治通り店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒160-0021 東京都新宿区歌舞伎町２丁目２−２０ グランドメゾン歌舞伎町 １Ｆ",
+            "primary_type": "和食店"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLex-dpEOcySbpqrnzhVxQF6P0KanHaXsjB7ZAotyQmVuS7VprLiJCSYVri8XJ8bWdx4_coNuQqm-DooPhR4Rgai2x1DG8CtxoAzP6iy8z0DtqoRZ6Yn8teCOvq0-hGVssY93byUXgCcreQe=s4800-w1080",
+            "source": "google-places",
+            "attributions": [ { "name": "やよい軒 新宿明治通り店", "uri": "https://maps.google.com/maps/contrib/117418260533349962800" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=5801462617654491534&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-25T18:11:29+00:00" },
+          "researcher_note": "歌舞伎町にある定食チェーンの店舗。一部店舗の24時間営業で知られる。個別店舗の営業時間はAPIから収集していないため未確認。"
+        },
+        {
+          "cand_id": "rest-06",
+          "source_api": "google_places",
+          "source_id": "ChIJmW3Or9eMGGARP1Hq5Nf3RPk",
+          "title": "ジョナサン 新宿西口大ガード店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒160-0023 東京都新宿区西新宿７丁目１−１ 新宿カレイドビル ３Ｆ",
+            "primary_type": "ファミリー レストラン"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcpQNUmy9xPl8Hz0UBEdZw-PgPRVkmFcEva_j_OzSmpQsrtILwA1QDRLC-1c3n226zhxtyyD4fS7Ij68ixjgHL9WH1_qjxqF-n1bu66nHUBCevlls7_6kf1aQ-a5vxahzHr9limI_Ti4PFA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ひのと", "uri": "https://maps.google.com/maps/contrib/112460348085920346997" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=17961753720490971455&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-25T18:11:29+00:00" },
+          "researcher_note": "一部店舗の24時間営業で知られるファミリーレストランチェーンの新宿店。個別店舗の営業時間はAPIから収集していないため未確認。"
+        },
+        {
+          "cand_id": "rest-07",
+          "source_api": "google_places",
+          "source_id": "ChIJD2_aY60JAWAR-H034WAQggc",
+          "title": "天下一品 総本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒606-8175 京都府京都市左京区一乗寺築田町９４ メゾン白川 1F",
+            "primary_type": "ラーメン屋"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLet2hxP5g9bRJhomBFTPO9Qr5UzyA4IU_V7qi8E-VpqmEEioNdI5PvlNVFoCtbuxD2QQZKKJ1sI8IiV7Kl2Y1AOGUPrV-ouFATVqX4JyXmZxrW-YI6a-Tfd78VIRUL1T13d7xEg26rqq1t8=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "天下一品 総本店", "uri": "https://maps.google.com/maps/contrib/105754000905856453210" } ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=541012913519295992&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-25T18:11:29+00:00" },
+          "researcher_note": "京都・一乗寺の本店。深夜まで続く営業で知られるラーメン店。個別店舗の営業時間はAPIから収集していないため未確認。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
