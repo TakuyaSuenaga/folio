@@ -1,0 +1,386 @@
+{
+  "vol": 85,
+  "genres": [
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784061289703",
+          "title": "新日本大歳時記 : カラー版 冬",
+          "creator": "飯田龍太・稲畑汀子・金子兜太・沢木欣一 監修、講談社 編",
+          "year": 1999,
+          "publisher": "講談社",
+          "meta": { "ndc": "911.3", "extent": "290p ; 31cm", "note": "季語索引あり" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000134-I000280138", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-27T19:57:14+00:00" },
+          "researcher_note": "講談社版歳時記シリーズの冬の巻。季語索引を持つ実在の歳時記で、霜は冬の部の季語として収録される位置にある。openBDのcoverは空文字のためimage未付与。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784061286443",
+          "title": "日本大歳時記 : カラー図説 冬",
+          "creator": "講談社 編",
+          "year": 1981,
+          "publisher": "講談社",
+          "meta": { "ndc": "911.3" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000001533129", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-27T19:57:14+00:00" },
+          "researcher_note": "poe-01と同系列の旧版(カラー図説)、冬の巻。同じ講談社歳時記シリーズの異なる刊年。openBDのcoverは空文字のためimage未付与。"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784897096612",
+          "title": "淺井霜崖全句集",
+          "creator": "浅井,霜崖,1926-",
+          "year": 2010,
+          "publisher": "邑書林",
+          "meta": { "extent": "315p" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I18111103893121", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-27T19:57:14+00:00" },
+          "researcher_note": "俳号「霜崖」を名のる俳人の全句集。発注が指すのは霜を季語として詠んだ句だが、本候補で確認できるのは著者の俳号に霜の字が含まれる点のみで、句の内容に霜が季語として現れるかはNDL/openBD書誌からは確認できない。距離のある候補として報告する。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJO8w-gdyMGGAR-4Chzri55f8",
+          "title": "焼肉わしの新宿本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒160-0022 東京都新宿区新宿３丁目１１−１１ ダイアン新宿 ４F", "primary_type": "焼肉店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf2gfFeg6voswdZxX2p25Mw6CONs8HWNnXpeJPhU7MHE6tiZc_G62kzn5E023Eqepa0EizrMYaAu1o5xvueVwwEP2AvYLC557dpkLFltFeQetwL7b1AMFk3yATSxqBCirLxdysV=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "焼肉わしの新宿本店", "uri": "https://maps.google.com/maps/contrib/112739590593944425617" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=18439348452730175739&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-27T19:56:32+00:00" },
+          "researcher_note": "新宿の焼肉店。「霜降り肉 焼肉」の検索語で該当した候補の一つ。等級表示の有無はPlacesデータの範囲外。"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJoR3vB8aMGGARBSJNR11a2UY",
+          "title": "和牛焼肉 肉たらし",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒151-0053 東京都渋谷区代々木１丁目３４−３ 第17菊地ビル 1F", "primary_type": "焼肉店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcTgpIDUXaqMo2E6ej_0E3kAyRyEOCZNHBgmLnZmandn8OtUPWA6mYZNkyx_MddveLQmgNscPlv2h2UYdF84cFTSmoPLDB3auw8_Jb5aN7KaHrAMDiWro3FSqPFxqOgMBcZaTQ8FEBuDohi=s4800-w795",
+            "source": "google-places",
+            "attributions": [ { "name": "和牛焼肉 肉たらし", "uri": "https://maps.google.com/maps/contrib/107985702911554215394" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5105211009275863557&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-27T19:56:32+00:00" },
+          "researcher_note": "「黒毛和牛 焼肉」「霜降り肉 焼肉」双方の検索語で該当した和牛専門の焼肉店。"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJV0OGUACLGGART1crwJOftjo",
+          "title": "銀座焼肉 肉匠ふるさと｜榊山牛(個室) ステーキ・焼肉",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒104-0061 東京都中央区銀座８丁目８−１１ 博品館ビル ５階", "primary_type": "焼肉店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcafH06J8SlhFj0zdtxF-iBy4bXY8T3bTiSj8Kt9cVlH7NqYj1RZkFvsb66rQabWBQJ2fmHTzeGw8b_heQe-zFetG0DkP9OWbnLCvCY-xYMxMdW5A2YusdilY_2srlqM2hT7EfqrppACd8=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "銀座焼肉 肉匠ふるさと｜榊山牛(個室) ステーキ・焼肉", "uri": "https://maps.google.com/maps/contrib/105881565498866968418" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4230744356894234447&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-27T19:56:32+00:00" },
+          "researcher_note": "焼肉とステーキの両業態を屋号に掲げる銀座の店。指定牛種(榊山牛)を店名に含む。"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJPdPZAQCNGGAR6E-VayO_trY",
+          "title": "WAGYU SUKIYAKI 極〜GOKU〜 Shinjuku Kabukicho",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒160-0021 東京都新宿区歌舞伎町１丁目１７−２ 小松ビル 2F", "primary_type": "レストラン" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcGNcqR4CDV_c5pQack7mQcIWUR0ICqIM_LkHprrUwsEClz69xyZDJg7dLbEerb8bRqcbgeg6jd9YS8RhioJFjFed_PggrbBwMifp7wFiYChsgEsV2zqQhXzOU08q4x5Lrke6W32aRhfKcd=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "권현준", "uri": "https://maps.google.com/maps/contrib/112572103754371434596" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13165920719513931752&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-27T19:56:32+00:00" },
+          "researcher_note": "すき焼き専業の和牛専門店。「すき焼き 老舗」の検索語で該当。歌舞伎町店。"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJO1X9reqOGGARjDtJYItFJTY",
+          "title": "米久本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒111-0032 東京都台東区浅草２丁目１７−１０", "primary_type": "レストラン" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcDH1wzF352fdOEjQUV8FZOMkUeqFk7tqOsVEE7pf5xAwLtt5i-YBl31t342pv9kkTR2IRAhEfE1GpXbHCQzZJ0_TeVK6myV_fr7Fn9kMYoIDb8oaTcoF5NJhslug1bmAodWA8HFj6p4oEr=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "フォックス", "uri": "https://maps.google.com/maps/contrib/108068033865610889922" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3901601117104585612&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-27T19:56:32+00:00" },
+          "researcher_note": "浅草のすき焼き店。「すき焼き 老舗」の検索語で該当。創業年はPlacesデータの範囲外のため未記載。"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJJxpbtaqPGGARh7GkXePTWTc",
+          "title": "神戸牛 和牛の刀 浅草本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒111-0032 東京都台東区浅草１丁目３６−２", "primary_type": "ステーキハウス" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd953W3LXC1Dlt3amrUt9zg_M4ZFpTxgZgMmzr9QuHxEEIMJf3cXu4LVkxpf_W41RwB1rc537M6BPYsX827GpJcohHK-pizatKaBkG4cIehanciaj5M5crZS7N5pbctb5cSvGIHn9kucmjb=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "神戸牛 和牛の刀 浅草本店", "uri": "https://maps.google.com/maps/contrib/105855331489746209265" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3988451918495396231&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-27T19:56:32+00:00" },
+          "researcher_note": "神戸牛(指定銘柄牛)を屋号に掲げるステーキハウス。「ステーキ 和牛 霜降り」の検索語で該当。"
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJsa3V4NCLGGARRjmzUIOaMVg",
+          "title": "和牛料理 一石三鳥 総本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒105-0004 東京都港区新橋４丁目２２−１ 新虎あずまビル 1階", "primary_type": "焼肉店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfWLDdw1Na7CFzZwzCq28ZU3JimmKG5MuLHJGqjxyX_1kp2clCmqtQb4-6_B9fUA-lvI0l0LYDc1De8ABW-IVRniOvXvhCpDtXvFKB6VgBQ0W5D1SB1oBIGmFVxzckO59NSMpxvo-d89gO1=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "新藤", "uri": "https://maps.google.com/maps/contrib/105883897304795548432" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6355030437981796678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-27T19:56:32+00:00" },
+          "researcher_note": "新橋の和牛専門店。「黒毛和牛 焼肉 名店」の検索語で該当した本店。"
+        },
+        {
+          "cand_id": "res-08",
+          "source_api": "google_places",
+          "source_id": "ChIJPdMNls5xA2ARTKLW5Q6twwE",
+          "title": "千賀牛園 栄本館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒460-0008 愛知県名古屋市中区栄３丁目１２−３ 1F", "primary_type": "焼肉店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeTCFDP2J3HmG_eNZVB7DplGzeJwG2dJimDDrPiL6p2dz5v5bPU-olj6ss3MxiVA1K8gx4gFP4Fv2D4gXIQryYqfSyQ7Ox9qeqDWh79SEyFvBYBSoQ2C6iLE-V3AcVdwPkapiiwF7dD-X-z=s4800-w640",
+            "source": "google-places",
+            "attributions": [ { "name": "千賀牛園 栄本館", "uri": "https://maps.google.com/maps/contrib/114079759321803668471" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=127135493993701964&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-27T19:56:32+00:00" },
+          "researcher_note": "名古屋・栄の焼肉店。東京以外の候補として地域の幅を持たせるために収集。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJeaWiyQ-pAWARBhe9-lebOxU",
+          "title": "氷室跡",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒603-0000 京都府京都市北区西賀茂氷室町２０", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcueRWqE5Ip_RCrsPxcYwCKobc4Xtdkd22RqvfEmKoMxwXieyMkbxh2OfN1QOGrw-awo28QFYyNIUd_go5TC8YPFCMCw-4MjtPgNjQAz3CiIuRS7zj9wtTi4FBrE1kyOeLod3P4=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "怒田玖", "uri": "https://maps.google.com/maps/contrib/115906825449481031927" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1529987300593571590&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-27T19:57:03+00:00" },
+          "researcher_note": "京都市北区西賀茂に残る氷室の史跡。地名「氷室町」そのものが低温貯蔵構造の存在を示す。冬の天然氷を夏まで保つための構造物。"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJhZavRBBKAWARthKsxsAY1mc",
+          "title": "都祁氷室の旧跡",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒632-0122 奈良県天理市福住町２１０５", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLff7_uJ5pi877DqElxYL3jV32EpdTKNe0HpdOLA-i7PQpgW2PXvFP22BEDnBaTKrYn1uzP2QnIkMHotwCLqO9H7Se9GATdGJtskqPaQ14jOjXpSjvwduK2joXLkpni7Ea0RUWqc=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Kuroda Atsushi", "uri": "https://maps.google.com/maps/contrib/111323181874340665362" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=7482195047168610998&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-27T19:57:03+00:00" },
+          "researcher_note": "奈良県天理市の氷室旧跡。arch-01と同種、低温貯蔵を目的とした古代施設の遺構。"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJqTx4xWvz9V8RDtmtDaFh_TU",
+          "title": "八海山雪室",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒949-7112 新潟県南魚沼市長森４５９", "primary_type": "酒店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcd53Hp8klFK67sEJLh9O0GIznuiIzsdwL9UGqVbqMD8bQpB6tgoOJ27fM5laZ00xq29XWNaS67vFyLOSnh9RVzim5Z2v0pf2O_qqWWajPlLt3ff2QUbtf8uSXScwOQOyuvlcpKCA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "お散歩フリーク", "uri": "https://maps.google.com/maps/contrib/104083731531480873653" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3890372997465102606&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-27T19:57:03+00:00" },
+          "researcher_note": "新潟県南魚沼市の酒造が運営する現役の雪室。積雪の冷熱を使う低温貯蔵施設として稼働中。"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJXwUCxQaR9V8RwYXe2wm3rrc",
+          "title": "ＪＡ魚沼 雪室米倉庫",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒946-0032 新潟県魚沼市板木１４６７−１", "primary_type": "協会/組織" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeG1p_US7-xtF8p2gwSqd06KnNQeIVpn7AX79qPTgIjFosn5KL-LxvqAyKbjk8vc0BX9TdaXSI9A6bkt_jWBWa1rBcsHVZ8NUgxq7qw3D0HmAtWZwolMD5i7RFxWYalkiTU_Tw_Fw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "HIRO", "uri": "https://maps.google.com/maps/contrib/113680816083809656063" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13235717607859848641&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-27T19:57:03+00:00" },
+          "researcher_note": "JA魚沼が運営する雪室式の米倉庫。雪の冷熱で庫内を低温に保ち米を貯蔵する農業施設。"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJe1F8GTnz9V8RZ92_ui2BF4U",
+          "title": "雪室千年こうじや",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒949-7112 新潟県南魚沼市長森４５９", "primary_type": "スーパーマーケット" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdBzBaJvziAg3XaNTQW9X0mFBFCX-LURLlo640WpJWJUEmGwYjW6PZUvWimq1-XuVPtO9B0PCOQ3XRmQHH75D3LXd2rSvcaBVbpjJ1d4MbAxljsIIwWwN7c5pbmX5jJ8yqJQiXR=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "けん", "uri": "https://maps.google.com/maps/contrib/106377917282574940581" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9590275964915408231&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-27T19:57:03+00:00" },
+          "researcher_note": "arch-03と同じ南魚沼市長森の雪室を利用した麹製品の店舗。低温貯蔵構造を店舗機能として運用する例。"
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJqRIymPwPj18RPqZJMCyPeOE",
+          "title": "横手市ふれあいセンター かまくら館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒013-0023 秋田県横手市中央町８−１２", "primary_type": "博物館" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfWKPEFCwwbwsmIG28r79vdnwUVN2e9aqSKRboGzfPthniI-er1nKNuC1XMNlfblSWWytih-QzsCEBHtdnGbLp_E_Axnh01_4qxLDK1WvcAuZnuddN-WFIdIdM1ubW2nmzq6QbNS4FaLc7r=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "横手市ふれあいセンター かまくら館", "uri": "https://maps.google.com/maps/contrib/114565865257741781115" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16246893075690530366&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-27T19:57:03+00:00" },
+          "researcher_note": "秋田県横手市の施設。屋内に氷点下運用を前提としたかまくら(雪の家)を常設展示する博物館。"
+        },
+        {
+          "cand_id": "arch-07",
+          "source_api": "google_places",
+          "source_id": "ChIJQeQtEQA7dV8R5V39wXgMdXA",
+          "title": "氷濤 氷の美術館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒066-0281 北海道千歳市支笏湖温泉番外地", "primary_type": "公園" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd8H-UPct0HutL8JQyJclcPZ18BeUa_UUCrMNclMUcGNJXH5gSie1_7J98wSfMgvka1-8DDr0N0LE5U5lQ4eTje2Uh4QCbMi2nuBCbXVl8m1D8uKaXDkflxeOeDpBHuJVp2R2dRNlZHcVA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "หนุ่ม พาเพลิน", "uri": "https://maps.google.com/maps/contrib/102480793470535353009" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8103396817313291749&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-27T19:57:03+00:00" },
+          "researcher_note": "支笏湖温泉で冬季に氷塊で造形物を組む氷濤まつりの会場。氷点下での運用を前提に毎年設営される構造物。恒久建築ではなく季節設営物である点は編集側の判断材料として明記する。"
+        },
+        {
+          "cand_id": "arch-08",
+          "source_api": "google_places",
+          "source_id": "ChIJsfKSzt-mRjURuMEJAUlkuiQ",
+          "title": "冨士見製氷 工場",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒874-0927 大分県別府市弓ケ浜町２−１８", "primary_type": "製造元" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeFgvJLYh-gHd8krLX2Q3UrPj8ZKe-1vGGQr42rPp3xNVch8GS96SmgXGESEDBrGqGNL4yQBUR5At5LT-dr09dkm0D9r3pv5huq6e_MR1G3lrnr4ZPZbxO9ZWHva_dVipcSWTGVLR79LJM=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "てんみりろん", "uri": "https://maps.google.com/maps/contrib/108981989579523954077" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2646537995746394552&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-27T19:57:03+00:00" },
+          "researcher_note": "大分県別府市の製氷工場。氷点下運用を前提とした冷凍設備を備える生産施設。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
