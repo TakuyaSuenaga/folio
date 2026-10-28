@@ -1,0 +1,389 @@
+{
+  "vol": 86,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJ9_rNIxO5AGARiI-QjZ-ncfE",
+          "title": "関西国際空港",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒549-0001 大阪府泉佐野市泉州空港北1番地",
+            "primary_type": "国際空港"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdqVKnXHW6MwrCmMoF8vhuQp355_ewfl86RfzNsUk9MVYkBHC_8pEH0tNZR4rcQf6cWDexBiUa1UhsOcrPKAPeutqhfus6Y7a4VbsEOzJDoZs40HjVs2bLQaOnhwu2es7p141S9lVpWkW3q=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "chamniphol taechaworaphong", "uri": "https://maps.google.com/maps/contrib/102553064737821427361" }
+            ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=17397871139225636744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-28T20:11:07+00:00" },
+          "researcher_note": "関西国際空港の旅客ターミナルビル。長大な一枚屋根の建物で伸縮継手を備えることが一般に知られるが、設計者・竣工年・継手の仕様はPlaces応答に含まれず未確認。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJex6dYtyJGGARAVoEdppQ0aQ",
+          "title": "東京ビッグサイト",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒135-0063 東京都江東区有明３丁目１１−１",
+            "primary_type": "コンベンション センター"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdApEcnWlXVPvUH0INQztMAp1ZrllwjMQk1IZ95yCG6WQRY3Bjir0MrlrJ5WZbo8goONj0aw_nUqWWUu4uQyn6WrZ_XeQfw6u79MbALCpQ5JneqjvYodL5A4Y0CKU2ztAP_MJyHUg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "王士榮", "uri": "https://maps.google.com/maps/contrib/112080550944761785945" }
+            ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=11876362316687890945&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-28T20:11:07+00:00" },
+          "researcher_note": "東京国際展示場。延床の長い展示棟群で、建物間や長大棟内に伸縮継手を持つ構造として一般に紹介されるが、Places応答自体には継手の記述はない。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJ378u1R-CImAR4EXtS5zAwM4",
+          "title": "幕張メッセ",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒261-8550 千葉県千葉市美浜区中瀬２丁目１",
+            "primary_type": "イベント会場"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdkobMtcAOFEeUpCqPzN4Z7GuO0vukWnk-gYFRGxF2jVQb0pVoPzwPReCHN-topH1B80WtJOqfFPGih9aVq-bRh96sN1DEFGBe1JXjAjfAyPo2xUPBdeNtJshfPLYO1CIH5eELJ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "幕張メッセ", "uri": "https://maps.google.com/maps/contrib/108769944335703103609" }
+            ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=14898119344862873056&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-28T20:11:07+00:00" },
+          "researcher_note": "巨大展示棟の連結構造。長大建築として伸縮継手の文脈で語られうるが、個別の継手仕様はPlaces応答の対象外。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJxeQ_6q-MGGARexvt6BPzdG4",
+          "title": "国立代々木競技場 第一体育館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒150-0041 東京都渋谷区神南２丁目１−１",
+            "primary_type": "アリーナ"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf0Cjax8qDtzyO9SXV1oGmIWlGjhmyU0fu1kz8voVAV1nh4D6l6g_ao9bys7QSu3OEpOVBFSX7aKdWAguqMlSjpAL82D6kK40kJu4dlUQknCF2QaRgqH0kjxO6WdAcTqCYUqKg4Sw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "ゆずたそ", "uri": "https://maps.google.com/maps/contrib/101329440211616360058" }
+            ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=7959253708308290427&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-28T20:11:07+00:00" },
+          "researcher_note": "吊り構造の屋根が温度変化で伸縮するため継手を備えると一般に紹介されるが、設計者・竣工年・継手の仕様はPlaces応答に含まれず未確認。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJv4Yp2QzBGGARnYRUdDcabFA",
+          "title": "GMOアリーナさいたま（さいたまスーパーアリーナ）",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒330-0081 埼玉県さいたま市中央区新都心８",
+            "primary_type": "アリーナ"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc3dGdSh82_TRKui-3tjGGVlxVIKN4f4hvWekoYM3ZQVlrf-_PD1zmXkOULT2_q4KIunVfxiRe18uX8S3RBkzRw5Y6mUqZunc4ggTwmcb2IsgKqJ_BlSPAjzVKjKfGNsFnr3t0aKQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "eno-san", "uri": "https://maps.google.com/maps/contrib/116995752432470654029" }
+            ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=5795035645996205213&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-28T20:11:07+00:00" },
+          "researcher_note": "可動式の大型アリーナ。可動構造ゆえに継手文脈で語られうる候補だが、具体的仕様はPlaces応答の対象外。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJU1q2SPRjGGARCVGfybuffMA",
+          "title": "羽田空港 第2旅客ターミナル",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒144-0041 東京都大田区羽田空港３丁目４−２ 羽田空港 第2旅客ターミナル",
+            "primary_type": "建造物"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLePtGaCUETts7XnQHeA5rdywD8LTwsqKH8xaAiNybGRVZNP7ttD3iIhpZ2ZXgrm2yR2OiWnazE-9qs-unnLsbUP9-TzBzn0lOPXB-UfbDL0Vf-0d3Q7JXXWQuxW7Qeo6Cpwbbw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Yossy", "uri": "https://maps.google.com/maps/contrib/111855112406731253346" }
+            ]
+          },
+          "links": [
+            { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=13870136581284647177&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-28T20:11:07+00:00" },
+          "researcher_note": "大型空港ターミナル。長大建築として伸縮継手の文脈で語られうるが、個別仕様はPlaces応答の対象外。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "6781027361",
+          "title": "Bohemian Rhapsody (The Original Soundtrack)",
+          "creator": "クイーン",
+          "year": 2018,
+          "publisher": "",
+          "meta": { "track_count": 22, "primary_genre": "ロック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/62/2e/97/622e97c4-d620-2ae1-2a47-a32e16a01492/602567988847.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/bohemian-rhapsody-the-original-soundtrack/6781027361?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-28T20:10:32+00:00" },
+          "researcher_note": "表題曲「ボヘミアン・ラプソディ」はオペラ風部分・バラード部分・ハードロック部分が切れ目なく繋がる構成として知られる一曲。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1206417421",
+          "title": "Beethoven: Symphony No. 5",
+          "creator": "ベネズエラ・シモン・ボリバル交響楽団 & グスターボ・ドゥダメル",
+          "year": 2017,
+          "publisher": "",
+          "meta": { "track_count": 5, "primary_genre": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/54/e1/9554e118-9fa1-8612-4e9b-564b97f7799f/cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/beethoven-symphony-no-5/1206417421?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-28T20:10:32+00:00" },
+          "researcher_note": "第3楽章から第4楽章へアタッカ(切れ目なく)接続する構成で知られる交響曲。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1452305163",
+          "title": "Beethoven: Symphony No. 5",
+          "creator": "ベルリン・フィルハーモニー管弦楽団 & カール・ベーム",
+          "year": 2004,
+          "publisher": "",
+          "meta": { "track_count": 8, "primary_genre": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5c/b4/c3/5cb4c303-75b9-4117-ebdb-3ef1800931df/00028947498421.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/beethoven-symphony-no-5/1452305163?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-28T20:10:32+00:00" },
+          "researcher_note": "mus-02と同一楽曲の別録音。第3楽章から第4楽章へのアタッカ接続という構成上の特徴は共通。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1458770241",
+          "title": "Sibelius: Symphony No. 2 (Live)",
+          "creator": "マリス・ヤンソンス & ロイヤル・コンセルトヘボウ管弦楽団",
+          "year": 2005,
+          "publisher": "",
+          "meta": { "track_count": 4, "primary_genre": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/b3/f5/3d/b3f53d1f-ebfb-7704-f688-50a1b07fa2c9/814337018597.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/sibelius-symphony-no-2-live/1458770241?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-28T20:10:32+00:00" },
+          "researcher_note": "楽章間の推移・楽想の連結が構成上の特徴として語られる交響曲。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "895639662",
+          "title": "Sibelius: Symphony No. 2",
+          "creator": "ヘルベルト・フォン・カラヤン & フィルハーモニア管弦楽団",
+          "year": 2014,
+          "publisher": "",
+          "meta": { "track_count": 5, "primary_genre": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/23/1a/6e/231a6e9c-0029-5f15-0d53-c29b3f171fd9/825646250912.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/sibelius-symphony-no-2/895639662?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-28T20:10:32+00:00" },
+          "researcher_note": "mus-04と同一楽曲の別録音(1961年録音のリマスター)。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1452642346",
+          "title": "Schumann: Symphony No. 4 in D Minor, Op. 120 - Dvořák: Symphony No. 8 in G Major, Op. 88",
+          "creator": "ウィーン・フィルハーモニー管弦楽団 & ヘルベルト・フォン・カラヤン",
+          "year": 1990,
+          "publisher": "",
+          "meta": { "track_count": 8, "primary_genre": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0f/13/36/0f1336c7-46d7-8b4e-ce56-8a522748909b/00028943109529.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/schumann-symphony-no-4-in-d-minor-op-120-dvo%C5%99%C3%A1k-symphony/1452642346?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-28T20:10:32+00:00" },
+          "researcher_note": "全楽章が切れ目なく連続して演奏される構成で知られる交響曲(作品120)。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1538839875",
+          "title": "Mendelssohn & Brahms: Violin Concertos",
+          "creator": "ヒラリー・ハーン",
+          "year": 2020,
+          "publisher": "",
+          "meta": { "track_count": 6, "primary_genre": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/77/60/9f/77609f11-8b02-b650-02a9-219b27de5a17/886443786431.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/mendelssohn-brahms-violin-concertos/1538839875?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-28T20:10:32+00:00" },
+          "researcher_note": "メンデルスゾーンのヴァイオリン協奏曲(ホ短調)は楽章間がブリッジ的な接続句で繋がる構成として知られる。"
+        },
+        {
+          "cand_id": "mus-08",
+          "source_api": "itunes",
+          "source_id": "1258075059",
+          "title": "Mendelssohn: Violin Concerto - Symphony No. 5 & The Hebrides",
+          "creator": "イザベル・ファウスト, フライブルク・バロック管弦楽団 & パブロ・エラス=カサド",
+          "year": 2017,
+          "publisher": "",
+          "meta": { "track_count": 9, "primary_genre": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/3f/c7/84/3fc7849a-4dbe-6778-f639-66e8afb76670/3149020929100.png/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/mendelssohn-violin-concerto-symphony-no-5-the-hebrides/1258075059?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-28T20:10:32+00:00" },
+          "researcher_note": "mus-07と同一楽曲の別録音(ピリオド楽器編成)。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784306094499",
+          "title": "明石海峡大橋 : 夢を実現し、さらなるロマンを追う",
+          "creator": "島田喜十郎",
+          "year": 2018,
+          "publisher": "鹿島出版会",
+          "meta": { "edition": "新版", "extent": "163p", "price": "1800円" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029179312", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-28T20:10:32+00:00" },
+          "researcher_note": "明石海峡大橋の設計・建設を記録した書籍。橋梁の構造・接合部に関する記述を含む可能性があるが、目次はopenBD応答に含まれず未確認。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784761530877",
+          "title": "イラストでわかる建築施工管理用語集",
+          "creator": "中井多喜雄、石田芳子",
+          "year": 2000,
+          "publisher": "学芸出版社",
+          "meta": { "price": "3000円" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002909910", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-28T20:10:32+00:00" },
+          "researcher_note": "建築施工管理の用語集。継手・ジョイント等の構造用語解説を含む可能性があるが、個別項目の有無はopenBD応答の対象外。"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784065363461",
+          "title": "最新図解鉄道の科学 : 車両・線路・運用のメカニズム",
+          "creator": "川辺謙一",
+          "year": 2024,
+          "publisher": "講談社",
+          "meta": { "series": "ブルーバックス", "volume": "B-2266", "price": "1100円" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033576554", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-28T20:10:32+00:00" },
+          "researcher_note": "鉄道の車両・線路・運用の仕組みを解説する一般向け書籍。線路継目の記述を含む可能性があるが、目次はopenBD応答に含まれず未確認。"
+        },
+        {
+          "cand_id": "book-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784800314086",
+          "title": "最新!鉄道の科学 : 日本の鉄道技術を徹底解説!",
+          "creator": "",
+          "year": 2018,
+          "publisher": "洋泉社",
+          "meta": { "series": "洋泉社MOOK", "price": "1300円" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028750731", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-28T20:10:32+00:00" },
+          "researcher_note": "日本の鉄道技術全般を解説するムック。レール・線路構造の記述を含む可能性があるが、目次はopenBD応答に含まれず未確認。"
+        },
+        {
+          "cand_id": "book-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784062575201",
+          "title": "図解・鉄道の科学 : 安全・快適・高速・省エネ運転のしくみ",
+          "creator": "宮本昌幸",
+          "year": 2006,
+          "publisher": "講談社",
+          "meta": { "series": "ブルーバックス", "volume": "B-1520", "price": "860円" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000008218197", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-28T20:10:32+00:00" },
+          "researcher_note": "book-03と同系統の鉄道科学解説書(旧版)。レール・線路構造の記述を含む可能性があるが未確認。"
+        },
+        {
+          "cand_id": "book-06",
+          "source_api": "ndl+openbd",
+          "source_id": "9784906732418",
+          "title": "鉄道と電車の技術 : 最新メカニズムの基礎知識",
+          "creator": "広岡友紀",
+          "year": 2013,
+          "publisher": "さくら舎",
+          "meta": { "price": "1600円" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024416457", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-28T20:10:32+00:00" },
+          "researcher_note": "鉄道・電車の技術基礎を解説する一般向け書籍。軌道構造の記述を含む可能性があるが未確認。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

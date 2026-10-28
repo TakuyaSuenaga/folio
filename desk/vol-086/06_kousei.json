@@ -1,0 +1,34 @@
+{
+  "vol": 86,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=17397871139225636744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://music.apple.com/jp/album/bohemian-rhapsody-the-original-soundtrack/6781027361?uo=4",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002909910",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "リード文(lead-v)「……継手という技術そのものを記した書物――三つの現場から……」",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "書物――三つの現場から(U+2015 HORIZONTAL BARを2倍)",
+      "teisei": "書物——三つの現場から(U+2014 EM DASHを2倍、FLOW.md表記規定「ダッシュは「——」(2倍)」および本文中の他のダッシュ全箇所と同一の文字種に統一)"
+    }
+  ]
+}
