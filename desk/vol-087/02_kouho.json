@@ -1,0 +1,477 @@
+{
+  "vol": 87,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJWYvJ99Vl5TQRBKsddSFXMwE",
+          "title": "平和の礎",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒901-0333 沖縄県糸満市摩文仁444番地",
+            "primary_type": ""
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfs_0xBWATB8y3j-UxrIM1j_eG8XF9Ksnnq71ePHIbafurRCFXg3kyExTcvwqsK0eYHelpsSpvSdPArUBXBeHc6FIgPG25nq32piFpa6LR6qlG2teaxZLaAijuTmRBJDls-9ha3=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Larry Suen", "uri": "https://maps.google.com/maps/contrib/101766765907249615956" }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=86508619060587268&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-29T20:11:24+00:00" },
+          "researcher_note": "沖縄戦の戦没者を国籍・軍人民間人の区別なく刻む刻銘碑群。「平和の礎」という名称で検索しPlacesから実在確認した。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJgxG_IcuOGGARLGR4xCz98vQ",
+          "title": "東京都慰霊堂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒130-0015 東京都墨田区横網２丁目３−２５",
+            "primary_type": ""
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc_NMl8XfIQq7SK2RyFe-qh-Zp43XaaEI0GiBjt1qq88xDZROk0Ql2kj2c3hqL4NiaYnGvg_544fz1pf4UGVunocFM8EHeiX2AQeYyzTzfzIeJUo1gd1xtEhZfiieqzDzxJjHRFiQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "net k-m", "uri": "https://maps.google.com/maps/contrib/107851301226051413725" }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=17650448258335007788&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-29T20:11:24+00:00" },
+          "researcher_note": "関東大震災・東京大空襲の身元不明者の遺骨を納め、過去帳を奉安する施設。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJ4-ZAhG6MGGAR2cgrR1pws5I",
+          "title": "千鳥ヶ淵戦没者墓苑",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒102-0075 東京都千代田区三番町２",
+            "primary_type": "墓地"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcQU5XCTyGi3fmkq5i9mfyA5OxG1RkOR8Be88dOOgqbzV4xeTBFmbGJHfTxvRCZgiWyuh6IxmPnwHU9xlLXFxAH1_xmHY7aYXYws8B17_w9Wjjd414wnmxwBDDY6-PNz7GicjkkwsQfAIp_=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "makei koda", "uri": "https://maps.google.com/maps/contrib/113888576464099713132" }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=10570916283412105433&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-29T20:11:24+00:00" },
+          "researcher_note": "海外の戦没者で遺族に引き渡せない遺骨を納める国立の墓苑。個人の氏名ではなく集合的な納骨施設である点は他候補と異なる。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJWXg1RQ2iWjURQU6ZpH4Cits",
+          "title": "国立広島原爆死没者追悼平和祈念館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒730-0811 広島県広島市中区中島町１−６",
+            "primary_type": "博物館"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe9SgKN3hceYPrendbS7aM4DRawtxHqeG28oZoeHtK9Lps2-RrHL9W486_MFWF1oilEEni3QffJqZKXrWR5111qBR8x98qqi-3OoK1UihrWjl3e6BRTHOP66j_USjLPL1GnVoePccwyd1Oa=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Erik Jard", "uri": "https://maps.google.com/maps/contrib/102399991064648303394" }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=15819459384042933825&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-29T20:11:24+00:00" },
+          "researcher_note": "原爆死没者名簿を奉安する祈念館。名簿そのものを収蔵する施設としてPlacesの館名で実在確認した。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ1019UG2iWjURf-imzPdOPEk",
+          "title": "広島平和都市記念碑（原爆死没者慰霊碑）",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒730-0811 広島県広島市中区中島町１ 平和記念公園",
+            "primary_type": ""
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfiu57Ytn6SUgP2XYoWVoUZYKUqzkmA6CxGrB6lSGGjnnE0tLjTiDN16QtsqA2Bb7y1aJezq9xD4Hgq8h7j4dl8y09_1hkPfKF-wAkSe5jLvjFfZtz4PbqvbD0ZbBQpRsFMMqlwFzIoXv4=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Thanos Metaxas", "uri": "https://maps.google.com/maps/contrib/118091682973486555013" }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=5277179689568757887&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-29T20:11:24+00:00" },
+          "researcher_note": "石室内に全原爆死没者名簿を納める慰霊碑。arc-04の祈念館とは別施設(石碑そのもの)として収集した。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJbzLBoTBTFTURqNFX4ktbd3I",
+          "title": "日本二十六聖人記念館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒850-0051 長崎県長崎市西坂町７−８",
+            "primary_type": "博物館"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcMPRjaJOPQEHPWkBcuDUD8Bgm9kVwE-RnpQcC-feE32jYGjPfZw6gZq_LvUH9YoROLsN5te9Pyt6_PAy_m7fZeJu4-jCs21AIvQi-giSwKGpVJEwgIBzjx76W5onEwJZ4p-HSl=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "ponsuke Ponsuke", "uri": "https://maps.google.com/maps/contrib/104838592737617715700" }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=8248161624030433704&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-29T20:11:24+00:00" },
+          "researcher_note": "1597年処刑された26人の殉教者の名を記念碑・記念館に刻む施設。身体でなく処刑された個々の名によって存在を留める点が発注に近い。"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJ17qStRWiHGAR4luXYvd91XE",
+          "title": "満蒙開拓平和記念館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒395-0303 長野県下伊那郡阿智村駒場７１１−１０",
+            "primary_type": "歴史博物館"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf3gTfmp8EH6M-z2TJkR8P94PFznqiQ2bS1yJLa0yXKVLJF7JJcWhWagPH9pbqsTYSOXYXGNHujpqTS_20Kn-_GnxIegpYwYkEF3hH1eywYAmnSr20zukXMjAHl2Q_FgE66W68r=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "満蒙開拓平和記念館", "uri": "https://maps.google.com/maps/contrib/118404896552203646157" }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=8202600797789707234&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-29T20:11:24+00:00" },
+          "researcher_note": "満蒙開拓で犠牲になった開拓団員を記録する記念館。名簿そのものを主題とする施設かはPlaces応答の範囲では未確認で、距離はやや遠い。"
+        },
+        {
+          "cand_id": "arc-08",
+          "source_api": "google_places",
+          "source_id": "ChIJWYvJ99Vl5TQR_jtpzxjAkoY",
+          "title": "沖縄平和祈念堂",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒901-0333 沖縄県糸満市摩文仁４４８",
+            "primary_type": ""
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcI0_ppkK7PZ58f8k7dnUBUWnKAOTIf34tE8VNDnJRYfzKxRGd1jeyt8JSEoAyLMaqJ6mhLqf2xNqbiXkLUeSCgj0QXQwNqpw7jj0aqOLmQb20y-EIAsaglzv8mXG4PTr11N8uaNQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "y33 kino", "uri": "https://maps.google.com/maps/contrib/101272079846479425290" }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=9697024160473627646&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-29T20:11:24+00:00" },
+          "researcher_note": "平和の礎(arc-01)と同じ摩文仁の丘にある祈念堂。本尊を祀る堂で名簿奉安の施設ではなく、発注との距離はarc-01より遠い。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784907365868",
+          "title": "芥川龍之介自伝作品 追憶・点鬼簿・本所両国 : 他",
+          "creator": "",
+          "year": 2014,
+          "publisher": "響林社",
+          "meta": {
+            "series": "しみじみ朗読文庫",
+            "price": "2600円",
+            "contents": "大導寺信輔の半生/点鬼簿/入社の辞/本所両国/追憶/大川の水/菊池寛「芥川の事ども」"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025575407",
+              "kind": "catalog"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-29T20:10:59+00:00" },
+          "researcher_note": "芥川龍之介の自伝的作品集で、収録作に「点鬼簿」を含む(openBD応答のコンテンツ紹介で確認)。朗読文庫(音声収録)形態。openBD応答にcreator欄なし。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784167911096",
+          "title": "原爆供養塔 : 忘れられた遺骨の70年",
+          "creator": "堀川惠子",
+          "year": 2018,
+          "publisher": "文藝春秋",
+          "meta": {
+            "series": "文春文庫",
+            "price": "880円"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029055112",
+              "kind": "catalog"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-29T20:10:59+00:00" },
+          "researcher_note": "広島の原爆供養塔に納められた身元不明の遺骨と、それを個人の名前に結びつけ直す調査を追ったノンフィクション。"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784041011294",
+          "title": "人間臨終図巻. 上",
+          "creator": "山田風太郎",
+          "year": 2014,
+          "publisher": "KADOKAWA",
+          "meta": {
+            "series": "角川文庫(山田風太郎ベストコレクション)",
+            "price": "840円"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025127042",
+              "kind": "catalog"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-29T20:10:59+00:00" },
+          "researcher_note": "歴史上の人物を死亡年齢順に配列し、各人の没し方を記す構成そのものが名簿形式をとる一冊。"
+        },
+        {
+          "cand_id": "book-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784065153635",
+          "title": "追悼私記",
+          "creator": "吉本隆明",
+          "year": 2019,
+          "publisher": "講談社",
+          "meta": {
+            "series": "講談社文芸文庫",
+            "price": "1800円",
+            "contents_sample": "清岡卓行/川上春雄/本多秋五/島成郎/江藤淳/美空ひばり/手塚治虫/三島由紀夫 他"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971712334703638836",
+              "kind": "catalog"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-29T20:10:59+00:00" },
+          "researcher_note": "著者が見送った人物を一人ずつ列記して綴った追悼文集(完全版)。openBD応答のコンテンツ紹介に収録人名の列が確認できる。"
+        },
+        {
+          "cand_id": "book-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784167296049",
+          "title": "怪しい来客簿",
+          "creator": "色川武大",
+          "year": 1989,
+          "publisher": "文芸春秋",
+          "meta": {
+            "series": "文春文庫",
+            "price": "400円(税込)"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002025506",
+              "kind": "catalog"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-29T20:10:59+00:00" },
+          "researcher_note": "著者が出会った市井の人々を一人ずつ記していく随筆集。「来客簿」という台帳形式の題名を持つ。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1847686532",
+          "title": "We Are The World (Remastered) [feat. Al Jarreau, Anita Pointer, B. Midler, Billy Joel, Bob Dylan, Bob Geldof, Bruce Springsteen, Cyndi Lauper, Dan Aykroyd, Daryl Hall, Diana Ross, Dionne Warwick, Harry Belafonte, Huey Lewis and the News, Jackie Jackson, James Ingram, Jeffrey Osborne, John Oates, June Pointer, Kenny Loggins, Kenny Rogers, Kim Carnes, La Toya Jackson, Lindsey Buckingham, Lionel Richie, Marlon Jackson, Michael Jackson, Paul Simon, Randy Jackson, Ray Charles, Ruth Pointer, Sheila E., Smokey Robinson, Steve Perry, Stevie Wonder, Tito Jackson, Tina Turner, Waylon Jennings & Willie Nelson] - Single",
+          "creator": "U.S.A. for Africa",
+          "year": 2025,
+          "publisher": "",
+          "meta": {
+            "track_count": 1,
+            "primary_genre": "ポップ",
+            "copyright": "℗ 2025 USA for Africa"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1a/a9/2b/1aa92bb3-f2ee-4f25-1bc9-ba252bd75be8/199806087862.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            {
+              "label": "Apple Musicで見る",
+              "url": "https://music.apple.com/jp/album/we-are-the-world-remastered-feat-al-jarreau-anita/1847686532?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-29T20:11:05+00:00" },
+          "researcher_note": "1985年のチャリティー・シングル。collectionNameに参加した39名の個人名がそのまま列記されており、クレジット表記自体が名簿として機能している。yearはiTunes配信(リマスター版)のreleaseDate。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1609248900",
+          "title": "Do They Know It's Christmas? - Single",
+          "creator": "バンド・エイド",
+          "year": 1984,
+          "publisher": "",
+          "meta": {
+            "track_count": 2,
+            "primary_genre": "ホリデー",
+            "copyright": "℗ 1984 Band Aid Trust, under exclusive license to Mercury Records Limited"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/68/89/d0/6889d069-7a24-3d79-ae78-3348e087c738/22UMGIM12905.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            {
+              "label": "Apple Musicで見る",
+              "url": "https://music.apple.com/jp/album/do-they-know-its-christmas-single/1609248900?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-29T20:11:05+00:00" },
+          "researcher_note": "「バンド・エイド」は1984年に集まった英国アーティストの臨時集合体名で、個々の参加者名はiTunesのcollectionName欄には現れない(mus-01と異なり本人名の列記はAPI応答に無い)。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "771645799",
+          "title": "花は咲く - EP",
+          "creator": "Various Artists",
+          "year": 2013,
+          "publisher": "",
+          "meta": {
+            "track_count": 5,
+            "copyright": "℗ 2013 Nippon Columbia Co., Ltd."
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/11/9b/63/119b6300-8c3d-1a25-43c7-e91495d47cfb/COCQ_85040.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            {
+              "label": "Apple Musicで見る",
+              "url": "https://music.apple.com/jp/album/%E8%8A%B1%E3%81%AF%E5%92%B2%E3%81%8F-ep/771645799?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-29T20:11:05+00:00" },
+          "researcher_note": "東日本大震災復興支援のためNHKが企画した合唱曲のEP。artistNameは「Various Artists」で、個々の歌唱者名はこの応答には含まれない。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1756134310",
+          "title": "Live Aid (Live, 13th July 1985)",
+          "creator": "Various Artists",
+          "year": 1985,
+          "publisher": "",
+          "meta": {
+            "track_count": 109,
+            "primary_genre": "ロック",
+            "copyright": "℗ 1985 The Band Aid Trust"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3a/45/25/3a4525cd-46e8-7e44-5b81-ae9ca6300166/cover.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            {
+              "label": "Apple Musicで見る",
+              "url": "https://music.apple.com/jp/album/live-aid-live-13th-july-1985/1756134310?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-29T20:11:05+00:00" },
+          "researcher_note": "1985年のチャリティー公演を収めた109曲構成のライブ盤。出演順にトラックが並び、全体として出演者の記録としての側面を持つ。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "music: 演奏や制作に加わった者の名を列記するクレジット・ライナーノーツが参加者名簿としての側面が強い実在の音源",
+      "reason": "iTunes Search APIのレスポンスにはアルバム単位のartistName/collectionNameしか含まれず、個々の演奏者・制作者を列記したライナーノーツの内容そのものはAPIの範囲外である。mus-01のようにcollectionName自体に参加者名が列記されている事例を優先的に採用し、それ以外はクレジットの多さが推測される実在の企画盤(チャリティー・コンピレーション)を広めに集めた。「Songs For Japan」「一万人の第九」など複数のクエリで該当盤を検索したが、iTunes(JP)の検索結果には一致するコレクションが見つからなかった。"
+    }
+  ]
+}

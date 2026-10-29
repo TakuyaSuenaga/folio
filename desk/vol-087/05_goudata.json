@@ -1,0 +1,90 @@
+{
+  "issue": {
+    "vol": 87,
+    "date": "2026-10-30",
+    "title": "名簿",
+    "lead": "事故や災害の報では、身体の確認に先立って乗客名簿の名が存在を示すことがある。名簿に名を書き連ねることでしか留め置けないものがある——死者を記す点鬼簿、慰霊に刻む銘板、演奏に加わった者を列記するクレジット。三つの現場から名簿という形式を読む特集。"
+  },
+  "items": [
+    {
+      "genre": "architecture",
+      "cand_id": "arc-01",
+      "sentei_riyu": "候補の中で平和の礎を選ぶのは、名簿を石に刻むという最も直接的な形で発注に応えるためである。祈念館(arc-04)や慰霊碑石室(arc-05)が名簿という「書類」を建物の内部に収蔵するのに対し、平和の礎は壁という建築そのものの表面に名を刻み、しかも毎年刻銘を更新し続ける点で、記録が完成せず現在も進行中であることを示せる。並置においては、書物(book)が紙に記す行為、音楽(music)が音として記録する行為を担うのに対し、建築は石に刻み続けるという最も物理的で持続的な記録のありかたを担う一点として機能する。",
+      "title": "平和の礎",
+      "creator": "",
+      "year": null,
+      "publisher": "",
+      "meta": {
+        "address": "日本、〒901-0333 沖縄県糸満市摩文仁444番地",
+        "primary_type": ""
+      },
+      "essay": "沖縄県糸満市摩文仁の丘に立つ平和の礎は、黒い花崗岩の壁を幾重にも並べ、扇状に開いて中央の平和の火へ収める構成を持つ。壁面には沖縄戦で亡くなった者の名が、国籍や軍人・民間人の区別なく刻まれている。竣工は一千九百九十五年、沖縄戦終結から五十年の節目にあたる六月二十三日である。この建築が異例なのは、刻銘が完成形として据え置かれていないことにある。身元の確認が進み新たに判明した名は、毎年六月の式日に合わせて壁へ追加で刻まれ続けており、礎は竣工した時点で閉じた記念物ではなく、今も記録が追いつく途中の空間としてある。遺体の確認が叶わぬまま時間が過ぎた者についても、名が壁に刻まれた瞬間、そこに存在したという事実が公に成立する。石という素材が選ばれているのも、名簿が紙の上で朽ちる速度に対して、刻む行為の持続を担保するためだと読める。",
+      "image": {
+        "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfs_0xBWATB8y3j-UxrIM1j_eG8XF9Ksnnq71ePHIbafurRCFXg3kyExTcvwqsK0eYHelpsSpvSdPArUBXBeHc6FIgPG25nq32piFpa6LR6qlG2teaxZLaAijuTmRBJDls-9ha3=s4800-w1200",
+        "source": "google-places",
+        "attributions": [
+          {
+            "name": "Larry Suen",
+            "uri": "https://maps.google.com/maps/contrib/101766765907249615956"
+          }
+        ]
+      },
+      "links": [
+        {
+          "label": "Google マップで見る",
+          "url": "https://maps.google.com/?cid=86508619060587268&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "sponsored": false
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "cand_id": "book-01",
+      "sentei_riyu": "点鬼簿を収めた本候補を選ぶのは、発注が明示する室生犀星『点鬼簿』という形式名に、別の作者による同題の作品で直接応えられるためである。吉本隆明『追悼私記』(book-04)は一人一章の形式が名簿的である一方、点鬼簿はより圧縮された台帳的な短文を連ねる点で発注の核心に近い。さらに本候補が朗読文庫として編まれている事実は、文字の記録と声の記録という二つの記す行為を一冊に併存させており、建築(石に刻む)と音楽(声を記録する)の間を架橋する役割を並置の中で担う。",
+      "title": "芥川龍之介自伝作品 追憶・点鬼簿・本所両国 : 他",
+      "creator": "",
+      "year": 2014,
+      "publisher": "響林社",
+      "meta": {
+        "series": "しみじみ朗読文庫",
+        "price": "2600円",
+        "contents": "大導寺信輔の半生/点鬼簿/入社の辞/本所両国/追憶/大川の水/菊池寛「芥川の事ども」"
+      },
+      "essay": "芥川龍之介の自伝的作品を集めた一冊に収められた『点鬼簿』は、肉親の死を一人ずつ数行で記した短文である。母、父、姉と続く記述は、生涯の要約ではなく死んだ日付と死に方だけを淡々と並べる構成を取る。感情を述べる言葉を削り、記録の体裁へ寄せることで、逆に行間へ感情を押し出す書き方である。この版は朗読文庫として編まれ、紙面で黙読される文字ではなく声に出して読まれることを前提に収められている。文字で名を記すだけでなく声で読み上げる行為が加わることで、『点鬼簿』は一段と台帳に近い性格を帯びる、読み上げられるたびに記された名がその都度呼び戻される形式である。一人の作家が肉親を見送るたびに綴った短文が連なるこの一冊は、名簿という形式が公共の記念碑だけでなく私的な記憶の保存にも使われることを示している。",
+      "links": [
+        {
+          "label": "国立国会図書館サーチで見る",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025575407",
+          "sponsored": false
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "cand_id": "mus-01",
+      "sentei_riyu": "We Are The Worldを選ぶのは、他候補(バンド・エイド、花は咲く、ライヴ・エイド)がAPI応答において個々の参加者名を持たないのに対し、本作のみが配信メタデータの収録アーティスト欄に三十九人の個人名をそのまま列記しており、クレジット自体が実在の名簿として機能することを機械的に確認できるためである。並置においては、建築が石に名を刻み、書物が文字で名を記すのに対し、音楽は声と録音という最も揮発性の高い媒体でなお名を列記しようとする点を担い、三者の記録媒体の違いを閉じる役割を持つ。",
+      "title": "We Are The World (Remastered) [feat. Al Jarreau, Anita Pointer, B. Midler, Billy Joel, Bob Dylan, Bob Geldof, Bruce Springsteen, Cyndi Lauper, Dan Aykroyd, Daryl Hall, Diana Ross, Dionne Warwick, Harry Belafonte, Huey Lewis and the News, Jackie Jackson, James Ingram, Jeffrey Osborne, John Oates, June Pointer, Kenny Loggins, Kenny Rogers, Kim Carnes, La Toya Jackson, Lindsey Buckingham, Lionel Richie, Marlon Jackson, Michael Jackson, Paul Simon, Randy Jackson, Ray Charles, Ruth Pointer, Sheila E., Smokey Robinson, Steve Perry, Stevie Wonder, Tito Jackson, Tina Turner, Waylon Jennings & Willie Nelson] - Single",
+      "creator": "U.S.A. for Africa",
+      "year": 2025,
+      "publisher": "",
+      "meta": {
+        "track_count": 1,
+        "primary_genre": "ポップ",
+        "copyright": "℗ 2025 USA for Africa"
+      },
+      "essay": "一千九百八十五年のチャリティー・シングル『ウィー・アー・ザ・ワールド』は、配信データの収録アーティスト欄に参加した三十九人の個人名がそのまま並べられている。通常この欄には楽曲名や演奏者の代表名だけが収まるが、この曲に限ってはクレジットが欄自体を占領し、検索結果の画面上でも歌手の名前の連なりを読むことになる。曲自体の構造も名簿的である。一人ひとりのソロ部分を順番に割り当てたヴァース進行は、斉唱へ合流するまで誰の声かを聴き手に意識させ続け、サビで声が重なった後も先に誰が歌ったかという順序の記憶は消えない。アフリカの飢餓支援という目的のために集められた臨時の歌唱陣は、録音が終われば解散する一回限りの集合体であり、この曲のクレジット表記こそが、誰がこの場に居たかを留める唯一の記録として残っている。四十年を経た現在、楽曲を検索するたびに、この名の連なりがそのまま呼び出される。",
+      "image": {
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1a/a9/2b/1aa92bb3-f2ee-4f25-1bc9-ba252bd75be8/199806087862.jpg/600x600bb.jpg",
+        "source": "itunes"
+      },
+      "links": [
+        {
+          "label": "Apple Musicで見る",
+          "url": "https://music.apple.com/jp/album/we-are-the-world-remastered-feat-al-jarreau-anita/1847686532?uo=4",
+          "sponsored": false
+        }
+      ]
+    }
+  ],
+  "decorated_at": "2026-10-30"
+}
