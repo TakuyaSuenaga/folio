@@ -1,0 +1,46 @@
+{
+  "vol": 88,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://maps.google.com/?cid=13285684797246623960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true,
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I000010080331": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=13285684797246623960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000010080331",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "lead(cover .lead-v)",
+      "severity": "blocking",
+      "type": "原稿不一致",
+      "genzai": "捕獲され山へ放された個体が、再び人の近くに現れて駆除された。一度目に許された猶予は、二度目には存在しない。同じ出来事の再発がはじめとは異なる重さの措置を招くという再犯の構造を、建築・書物・飲食の三点から読む特集。",
+      "teisei": "『建築・書物・飲食の三点から読む特集。』を実際の構成(architecture・bookの二点、restaurantは候補不適合で不採用)に合わせて『建築・書物の二点から読む特集。』等に修正する。04_koetsu.jsonのK-01(blocking)で既に指摘済みだが、03_genko.jsonのrevision_noteが『issue.leadは03_draft.jsonの出力範囲外のため今回は対応せず、editor-in-chiefによる校了工程での対応を要する』と記した通り未対応のままgera.htmlに残っている。"
+    }
+  ]
+}

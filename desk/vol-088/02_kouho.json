@@ -1,0 +1,208 @@
+{
+  "vol": 88,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJ__9ThIKLGGAR2FCxue47YLg",
+          "title": "六本木ヒルズ森タワー",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒106-0032 東京都港区六本木６丁目１０−１",
+            "primary_type": "ビジネス センター"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfCCrjrFEgBeBz-2piAOaSBpe74sVauhZF1ERUxEkkpP7D9r0gaM8ykzUyi8O5STLadjA2Vmk6lIixv7zX10oB0hsx6q6DM1UqQWb5dMKS46SZFwbvikuOdCfdJzgjwHph3KoH6ZC_ZGi1G=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Jeff Kirchoff (Jeff)", "uri": "https://maps.google.com/maps/contrib/108104018242672248413" }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=13285684797246623960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-31T19:09:24+00:00" },
+          "researcher_note": "2004年に正面玄関の大型回転ドアで児童が死亡する事故が起きたビルである。事故以前にも挟み込み等の不具合が報告され都度の調整(補修)で運用されていたとされ、死亡事故後に同型の大型回転ドアは撤去された。この経緯の年表的詳細はPlaces応答の範囲外であり、別途の事実確認を要する。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJq6rqBMmLGGAREtjSbbRc_-k",
+          "title": "シティハイツ竹芝",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒105-0014 東京都港区芝１丁目８−２３",
+            "primary_type": "集合住宅"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeFVHNaKT9cB1-2KnEtiCitfnXgjhRja0b2HJ4H93TU2V4jIABxSdVB69UBhrgIvgaNlAUxOO5ZcRqMATiKhxic9cgENKk_46fcrZk0SsO39KTNkFIuWkMJrvpT9vcu0bviqmHi7VFw8ys=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "ふるふる", "uri": "https://maps.google.com/maps/contrib/107460828517185300676" }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=16861297459904829458&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-31T19:09:24+00:00" },
+          "researcher_note": "2006年に高校生がエレベーターの事故で死亡した都営住宅である。当該号機は事故以前から不規則な動作が報告され都度補修されていたとされ、死亡事故後に号機自体が交換された。この経緯の詳細はPlaces応答の範囲外であり、別途の事実確認を要する。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJswOpUcJZGWARNF364bIJvto",
+          "title": "笹子トンネル",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、山梨県 笹子トンネル",
+            "primary_type": ""
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=15762046409743424820&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-31T19:09:24+00:00" },
+          "researcher_note": "2012年に天井板落下事故が起きたトンネルである。事故後は補強・改修を経て再開通しており、解体や閉鎖のような不可逆な措置には至っていない点で発注(二度目で不可逆な措置)との距離がある。参考候補として収集した。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784101338729",
+          "title": "累犯障害者",
+          "creator": "山本,譲司,1962-",
+          "year": 2009,
+          "publisher": "新潮社",
+          "meta": {
+            "series": "新潮文庫 ; や-60-2",
+            "price": "476円"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000010080331",
+              "kind": "catalog"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-31T19:12:16+00:00" },
+          "researcher_note": "知的障害を持つ者が福祉的支援の不在により軽微な罪を繰り返し刑務所に収容される実態を追ったノンフィクション。累犯となるほど量刑上の扱いが重くなる非対称性を記した一冊。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784635510424",
+          "title": "クマ問題を考える : 野生動物生息域拡大期のリテラシー",
+          "creator": "田口,洋美,1957-",
+          "year": 2017,
+          "publisher": "山と溪谷社",
+          "meta": {
+            "series": "ヤマケイ新書 ; YS035",
+            "price": "880円"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028098633",
+              "kind": "catalog"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-31T19:12:16+00:00" },
+          "researcher_note": "野生動物の生息域拡大に伴うクマの出没・捕獲・学習放獣・駆除という行政対応の現場を扱う新書。起点シードの『捕獲後に放獣、再出没で駆除』という構造を考える基礎文献として収集した。"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784870204522",
+          "title": "クマが棲む街で",
+          "creator": "秋田魁新報「クマ問題」取材班",
+          "year": 2026,
+          "publisher": "秋田魁新報社",
+          "meta": {
+            "price": "1800円"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034625454",
+              "kind": "catalog"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-31T19:12:16+00:00" },
+          "researcher_note": "秋田県内でのクマ出没・人身被害・捕獲後の再出没という現場を地方紙(秋田魁新報)の取材班が追った一冊。起点ニュースと同一の主題を扱う地方紙発のルポとして収集した。"
+        },
+        {
+          "cand_id": "book-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784130639675",
+          "title": "クマとともに : ホッキョクグマ・ヒグマ・ツキノワグマの未来",
+          "creator": "坪田敏男 佐藤喜和 山﨑晃司",
+          "year": 2026,
+          "publisher": "東京大学出版会",
+          "meta": {
+            "price": "3000円"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034500297",
+              "kind": "catalog"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-31T19:12:16+00:00" },
+          "researcher_note": "ヒグマ・ツキノワグマ等の生態・保護管理を専門家3名が解説する学術書。個体の保護管理行政(捕獲・放獣・駆除)の制度的位置づけを確認する基礎文献として収集した。"
+        },
+        {
+          "cand_id": "book-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784904561614",
+          "title": "居場所を探して : 累犯障害者たち",
+          "creator": "長崎新聞社",
+          "year": 2012,
+          "publisher": "長崎新聞社",
+          "meta": {
+            "price": "1600円"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024045626",
+              "kind": "catalog"
+            }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-10-31T19:12:16+00:00" },
+          "researcher_note": "累犯障害者問題を長崎新聞社の取材班が追ったルポルタージュ。book-01(山本譲司著)と同主題を別の取材者・媒体から扱う一冊として収集した。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "restaurant: 一度目は口頭注意や指導で済み、二度目の違反で営業許可取消・閉店など不可逆な措置に至った実例を一点。",
+      "reason": "Google Places APIのレスポンスは店舗名・所在地・地図URL・写真のみで、行政処分歴(口頭注意・営業停止・営業許可取消等)を一切含まない。NDL/openBD/iTunesも飲食店の行政処分記録を持たない。許可されたAPIの範囲内では『一度目は口頭注意、二度目で許可取消』という処分の経過を実在の店舗に結びつけて確認する手段がなく、記憶に基づいて店名を特定して候補にすることは実在チェーンの鉄則(APIレスポンス外の情報を補わない)に反するため、候補を提出しない。"
+    }
+  ]
+}
