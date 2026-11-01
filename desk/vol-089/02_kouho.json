@@ -1,0 +1,165 @@
+{
+  "vol": 89,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJsQlt7mNYGGARmTRppE-qbN4",
+          "title": "パークシティLala横浜",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒224-0053 神奈川県横浜市都筑区池辺町４０３５−１３ パークシティLala横浜",
+            "primary_type": "建造物"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16027372432942249113&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-01T19:28:44+00:00" },
+          "researcher_note": "旭化成建材の杭データ偽装(2015年発覚、2007年完成、報道で広く確認可能)の代表例。竣工年・発覚年はPlaces API外の公知情報のため、一次資料での確認はkoetsu工程に要する。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJMyXhOGwts1IRCB0D85ezkQk",
+          "title": "I-35W Saint Anthony Falls Bridge",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "アメリカ合衆国 〒55401 ミネソタ州 ミネアポリス",
+            "primary_type": "橋"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfnZi0k32I9ziuX-O2sAchVhzQ2lVFYT20KSGDd5j6yowe4UUVXKSI8hx4n5vjgJle8VzVyLYIb5A0IrpvYTn3pl-rIxIlYeALDffQwV4tngLTRsYB1PRGK_8ngmt3BMXt4L4el=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Deb Chinander", "uri": "https://maps.google.com/maps/contrib/108082519276896896422" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=689529683162897672&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-01T19:28:44+00:00" },
+          "researcher_note": "1967年建設の旧橋はガセットプレートの設計強度不足を抱えたまま2007年に崩落し発覚(米NTSB調査)。Placesが確認するのは2008年再建後の現橋であり、旧橋自体は現存しない点に注意。竣工・崩落年はPlaces API外の公知情報。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJPyetznycSIgRoW_B7eKwViw",
+          "title": "Silver Bridge Memorial Plaque",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "101-199 6th St, Point Pleasant, WV 25550 アメリカ合衆国",
+            "primary_type": "史跡"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdHtLBacuJFnlOp_Cc6y8DYa0heVCQ1LmriwPwcIDLHDUr6DCEJ_Kp1WzICd9_V2EgDQXblVbn8aTC9fpTRQvaktFYgzphtsx2ttmOyLufsrC8wXgA91N-K2R__8-GVaCtYLmUb=s4800-w540",
+            "source": "google-places",
+            "attributions": [ { "name": "Manuel Girisch", "uri": "https://maps.google.com/maps/contrib/107929753686843064879" } ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3194935474363920289&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-01T19:28:44+00:00" },
+          "researcher_note": "1928年建設のアイバー橋で、金属疲労による亀裂が進行したまま1967年崩落で初めて発覚(39年)。橋自体は現存せず、Placesが確認するのは現地の記念碑。竣工・崩落年はPlaces API外の公知情報。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1394173341",
+          "title": "Both Directions at Once: The Lost Album",
+          "creator": "ジョン・コルトレーン",
+          "year": 2018,
+          "publisher": "Verve Label Group, a Division of UMG Recordings, Inc.",
+          "meta": {
+            "collectionName": "Both Directions at Once: The Lost Album",
+            "copyright": "℗ 2018 Verve Label Group, a Division of UMG Recordings, Inc.",
+            "releaseDate": "2018-06-29T07:00:00Z",
+            "trackCount": 8,
+            "primaryGenreName": "ジャズ"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f9/e3/4c/f9e34cc8-d80d-bb3b-dd14-eee46b89101c/18UMGIM31408.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/both-directions-at-once-the-lost-album/1394173341?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-01T19:28:44+00:00" },
+          "researcher_note": "商品名自体に『The Lost Album』とあり、長期未発表盤として発表された音源。録音年の一次確認はエディター工程で別途行うこと。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1454825115",
+          "title": "Jazz in Detroit / Strata Concert Gallery / 46 Selden",
+          "creator": "チャールズ・ミンガス",
+          "year": 2019,
+          "publisher": "BBE Music",
+          "meta": {
+            "collectionName": "Jazz in Detroit / Strata Concert Gallery / 46 Selden",
+            "copyright": "℗ 2018 BBE Music",
+            "releaseDate": "2019-03-01T08:00:00Z",
+            "trackCount": 13,
+            "primaryGenreName": "ジャズ"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/85/64/23/8564237e-a92a-8334-4bbf-11bd0ac9a717/193483553412.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/jazz-in-detroit-strata-concert-gallery-46-selden/1454825115?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-01T19:28:44+00:00" },
+          "researcher_note": "ラジオ放送用に収録され長期間お蔵入りしていたライブ音源のボックス化とされる盤。収録年の一次確認はエディター工程で別途行うこと。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1090257198",
+          "title": "Some Other Time: The Lost Session from the Black Forest",
+          "creator": "ビル・エヴァンス",
+          "year": 2016,
+          "publisher": "Resonance Records",
+          "meta": {
+            "collectionName": "Some Other Time: The Lost Session from the Black Forest",
+            "copyright": "℗ 2016 Resonance Records",
+            "releaseDate": "2016-04-22T07:00:00Z",
+            "trackCount": 22,
+            "primaryGenreName": "ジャズ"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/69/d7/df/69d7df4d-9a98-5142-591c-c5d8c529015c/889326580898_Cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/some-other-time-the-lost-session-from-the-black-forest/1090257198?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-01T19:28:44+00:00" },
+          "researcher_note": "商品名自体に『The Lost Session』とあり、長期未発表のまま保管されたスタジオ録音として発表された音源。録音年の一次確認はエディター工程で別途行うこと。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1561643530",
+          "title": "Welcome 2 America",
+          "creator": "プリンス",
+          "year": 2021,
+          "publisher": "NPG Records, Inc. under exclusive license to Legacy Recordings",
+          "meta": {
+            "collectionName": "Welcome 2 America",
+            "copyright": "℗ 2021 NPG Records, Inc. under exclusive license to Legacy Recordings",
+            "releaseDate": "2021-07-30T07:00:00Z",
+            "trackCount": 12,
+            "primaryGenreName": "R&B／ソウル"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/55/46/19/55461993-6fd7-d703-9b39-03043f585203/886449187249.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/welcome-2-america/1561643530?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-01T19:28:44+00:00" },
+          "researcher_note": "本人の死後にリリースされた未発表アルバムとして報じられているが、タイトル自体には未発表表記が無くAPIからは『録音から長期間後の発表』という事実は確認できない。録音年・経緯の一次確認はエディター工程で別途行うこと。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "photo: 『潜伏』という切り口で、撮影されてから長期間現像・公開されずに保管され、後年になって発見・発表された写真作品を一点。撮影年と発見・発表年の間の空白期間が確認できる候補を選ぶこと。",
+      "reason": "該当なし。NDLサーチ+openBDの照合経路では一次資料となる和書を確認できなかった。ヴィヴィアン・マイヤー(未現像フィルムが死後発見された代表例)はNDLに写真集がヒットしたが、ISBNが欧米版(978-1-57687-577-3 / 0062305534)のみでopenBDに該当なし(null)。石川光陽(東京大空襲を秘密裏に撮影し長期間秘匿)は展覧会カタログ『警視庁カメラマンが撮った昭和モダンの情景』等がヒットしたがISBN無しのため同様に照合不能。メキシカン・スーツケース(ロバート・キャパのスペイン内戦ネガが70年後に発見された事例)はDVD(映像資料)のみでISBN無し。いずれもAPI障害ではなく、openBD照合条件を満たす和書が見つからなかったことによる該当なし。"
+    }
+  ]
+}
