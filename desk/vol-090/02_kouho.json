@@ -1,0 +1,259 @@
+{
+  "vol": 90,
+  "genres": [
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "594596368",
+          "title": "Barber: Adagio for Strings - Copland: Appalachian Spring, Rodeo & Billy the Kid",
+          "creator": "レナード・バーンスタイン & ニューヨーク・フィルハーモニック",
+          "year": 2013,
+          "publisher": "Sony Music Entertainment",
+          "meta": { "trackCount": 23, "primaryGenreName": "クラシック", "copyright": "℗ Originally released 1960, 1962, 1967, 1971 Sony Music Entertainment" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8a/37/b1/8a37b1ea-6c18-d5ab-bff6-ae62b8b91e50/886443706705.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/barber-adagio-for-strings-copland-appalachian-spring/594596368?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-02T23:04:00+00:00" },
+          "researcher_note": "弦楽四重奏曲作品11の第2(中間)楽章を弦楽合奏に編曲した版。元は四楽章構成の中間楽章であり、終楽章ではない。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1384560711",
+          "title": "Mahler: Adagietto - Sinfonie Nr. 5",
+          "creator": "ジェームス・コンロン & ケルン・ギュルツェニヒ管弦楽団",
+          "year": 1994,
+          "publisher": "Warner Music Group Germany Holding GmbH",
+          "meta": { "trackCount": 5, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d8/fc/5f/d8fc5fcb-ac1a-a492-b48c-bf9249ad08af/190295629915.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/mahler-adagietto-sinfonie-nr-5/1384560711?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-02T23:04:00+00:00" },
+          "researcher_note": "交響曲第5番(全5楽章)の第4楽章。終楽章(第5楽章)の手前に置かれた緩徐楽章。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1536172789",
+          "title": "Symphony No. 9 in D Minor, Op. 125: III. Adagio molto e cantabile - EP",
+          "creator": "ポーランド国立放送交響楽団",
+          "year": 2020,
+          "publisher": "Altara/Cosmos",
+          "meta": { "trackCount": 1, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b3/6f/16/b36f169b-5eac-d636-80a2-648021c3a56b/7332334441475.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/symphony-no-9-in-d-minor-op-125-iii-adagio-molto-e-cantabile-ep/1536172789?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-02T23:04:00+00:00" },
+          "researcher_note": "交響曲第9番(全4楽章)の第3楽章のみを収めたEP。合唱付き終楽章の手前に置かれた緩徐楽章。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1565147964",
+          "title": "Largo (from Symphony No. 9, Op. 95 \"From the New World\") - Single",
+          "creator": "ペーター・シュタイナー & コンスタンツェ・ホッホヴァルトナー",
+          "year": 2021,
+          "publisher": "Berlin Classics/Edel Germany GmbH",
+          "meta": { "trackCount": 1, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ad/94/1b/ad941b3f-6368-33f0-9ccf-d2837a844542/cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/largo-from-symphony-no-9-op-95-from-the-new-world-single/1565147964?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-02T23:04:00+00:00" },
+          "researcher_note": "交響曲第9番《新世界より》(全4楽章)の第2楽章のみの単独盤。終楽章ではない。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1694258470",
+          "title": "Piano Sonata No. 8 in C Minor, Op. 13 \"Pathétique\": II. Adagio cantabile - Single",
+          "creator": "Pio Palumbo",
+          "year": 2023,
+          "publisher": "Pio Palumbo",
+          "meta": { "trackCount": 1, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2a/1b/ed/2a1bed95-ccdb-2896-dbfc-7aa6ec50266e/70779.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/piano-sonata-no-8-in-c-minor-op-13-path%C3%A9tique-ii-adagio/1694258470?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-02T23:04:00+00:00" },
+          "researcher_note": "ピアノソナタ(全3楽章)の第2楽章のみの単独盤。交響曲・協奏曲ではなくソナタでの中間楽章の例。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1016320101",
+          "title": "コバケンのアダージェット",
+          "creator": "小林研一郎, 日本フィルハーモニー交響楽団 & チェコ・フィルハーモニー管弦楽団",
+          "year": 2006,
+          "publisher": "Octavia Records Inc.",
+          "meta": { "trackCount": 8, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/40/f0/d4/40f0d49b-739b-9820-12d7-466a14f61c5c/4538182560624.png/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/%E3%82%B3%E3%83%90%E3%82%B1%E3%83%B3%E3%81%AE%E3%82%A2%E3%83%80%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/1016320101?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-02T23:04:00+00:00" },
+          "researcher_note": "mus-02と同じマーラー交響曲第5番第4楽章(アダージェット)の別演奏(指揮:小林研一郎)。演奏の選択肢として併置。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJzwfbZdCmH2ARyt_bR3kZF9w",
+          "title": "御仮殿",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒321-1431 栃木県日光市山内", "primary_type": "寺院・礼拝所" },
+          "image": { "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeriJdHxDi9V-g3Xy6i1GBHY8mO8EuiaCY_oLea2OyTcQK4EXEuI_87lFPmKXMTGVd4oJqdq9pjgxBNWjq7mot2J3AX4Ra0avvMZ-YkEg9OOikqkBbOCaWT83iDD7ocwG40GpEc=s4800-w1200", "source": "google-places", "attributions": [ { "name": "じゅりぽん", "uri": "https://maps.google.com/maps/contrib/105629476540453028172" } ] },
+          "links": [ { "label": "地図で見る", "url": "https://maps.google.com/?cid=15859172621495820234&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-02T23:04:16+00:00" },
+          "researcher_note": "日光東照宮境内に実在する施設。Places上の正式名称が「御仮殿」そのものであり、発注の『仮殿』に直接合致する候補。竣工年・由緒はAPI外のため未確認。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJRztEUJE5AWARSFSzq-I4HEc",
+          "title": "移殿（内侍殿）",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒630-8212 奈良県奈良市春日野町１６０−７", "primary_type": "神社" },
+          "image": { "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcUhluELtzwDE3mOvn6QfXNWqBRh9VeGeQg4QYuuYhAaKCtIyRLCKEHIKtlsM2iOx4ywYLUnwoSP4-d0i0GemW91DgXsXCgG7mK-DgWDS7jrmHWOTjm_rUBitIGwk1G2Kh-rkLr1w=s4800-w1200", "source": "google-places", "attributions": [ { "name": "たっくん", "uri": "https://maps.google.com/maps/contrib/101465199502117907489" } ] },
+          "links": [ { "label": "地図で見る", "url": "https://maps.google.com/?cid=5124033022235202632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-02T23:04:16+00:00" },
+          "researcher_note": "春日大社境内に実在する施設。Places上の正式名称が「移殿」。本殿修理の間、神体を一時的に移す仮殿としての名称を持つ候補。竣工年・運用実績はAPI外のため未確認。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJPRlWKpRcVzUR74S6_K5qanA",
+          "title": "出雲大社",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒699-0701 島根県出雲市大社町杵築東１９５", "primary_type": "神社" },
+          "image": { "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcT0wxzkCgYzOzldSvyO4L5pQR7uV1KZy0eZ-N0sk30gkFIR0YVnQXH9UTfu0Ij_EUkco8tVxqTEkZYahcUMuPxeJmClBtF9zM_gceCv84vPkVOf1NMuNEkDaybdhRm-wnLs9ez6w=s4800-w1200", "source": "google-places", "attributions": [ { "name": "永嶺朝子", "uri": "https://maps.google.com/maps/contrib/117255053291976618307" } ] },
+          "links": [ { "label": "地図で見る", "url": "https://maps.google.com/?cid=8100404179576194287&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-02T23:04:16+00:00" },
+          "researcher_note": "Places上では境内全体の1件のみが返り、本殿修理期間中(2008〜2013年)に仮殿として用いられた拝殿を個別に識別できない。候補は境内全体としての実在確認であり、仮殿該当の個別施設はAPI外。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJNSAhU8WmH2ARlA7wenFbUKs",
+          "title": "日光東照宮",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒321-1431 栃木県日光市山内２３０１", "primary_type": "神社" },
+          "image": { "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcTmVSH-TX-qHhvQM5iPXJuhPx6ul3SsF_9LoxU6n1GknYo9XYP4leUZNJAjgFy-Cu7HGcUNSi_O3Cgj1SJcjl3GhvtFQbKcFbKt_GbBgZY8r7nFhxhS-A7IylpsMmQqEmcYy62fw=s4800-w1200", "source": "google-places", "attributions": [ { "name": "no future", "uri": "https://maps.google.com/maps/contrib/118302719777803300860" } ] },
+          "links": [ { "label": "地図で見る", "url": "https://maps.google.com/?cid=12344467121574514324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-02T23:04:16+00:00" },
+          "researcher_note": "arc-01『御仮殿』が属する境内全体の候補。参照用の文脈情報であり、本体は境内の社殿群であって仮殿ではない。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ1Wqwa8A5AWARlpXjgoPnl0w",
+          "title": "春日大社",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒630-8212 奈良県奈良市春日野町１６０", "primary_type": "神社" },
+          "image": { "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfxNOswKcW8A-DMtIaQ-RMfLHpYn3IPNTDAI1d7ePpF_PGrQoxbOj7GFroKdexfeQ2Ps6oWw6Z8UJAw0aQYshDji0TNC-MVjHQGhQiP4tB_8vgZExkcxxizhTyu-azcNxZYGASjPiRFMFsU=s4800-w1200", "source": "google-places", "attributions": [ { "name": "龍-Ryu-", "uri": "https://maps.google.com/maps/contrib/113435830871261047839" } ] },
+          "links": [ { "label": "地図で見る", "url": "https://maps.google.com/?cid=5519134420388517270&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-02T23:04:16+00:00" },
+          "researcher_note": "arc-02『移殿(内侍殿)』が属する境内全体の候補。参照用の文脈情報であり、本体は境内の社殿群であって仮殿ではない。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJw5-sbOAIAWAR3IVM2hFyg5A",
+          "title": "懐石料理 瓢亭",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒606-8437 京都府京都市左京区南禅寺草川町３５", "primary_type": "高級料理レストラン" },
+          "image": { "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdQvLN5xSRRHe7s4drA0jZK2RsAlR01jWgMFCN6YZrXbXuPC-cci2uRhUOTn_zk7t18TSTSJ2w4jBjZkW0JsuUdv-8GgR7VXSPapt6Fgtr_or483Z4y2u7z6CvkFVQQgZ_6Nso=s4800-w1200", "source": "google-places", "attributions": [ { "name": "岩間和彦", "uri": "https://maps.google.com/maps/contrib/112511113754353258860" } ] },
+          "links": [ { "label": "地図で見る", "url": "https://maps.google.com/?cid=10413292184413177308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-02T23:05:00+00:00" },
+          "researcher_note": "京都・南禅寺の老舗懐石店として実在確認。Places APIはコース構成を返さないため、強肴の有無・内容はAPI上で確認できず、店としての実在のみ保証する。"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJVVXF5doIAWARUetIixOU-sw",
+          "title": "菊乃井 本店",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒605-0825 京都府京都市東山区下河原通八坂鳥居前下る下河原町４５９", "primary_type": "和食店" },
+          "image": { "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfC3sDN0WmJy8FGs0k8k9sGyjOob-167X7gesThVJNQJRh8ZnWUBSsXBuXWcWI9w2RnPh-_XVhWAp6lwSSCk1w3sIFmt1IhKCm9TR7m4Hwj5akxtDt_pKYhs_zah96hZEE4lVIz=s4800-w1200", "source": "google-places", "attributions": [ { "name": "王正明", "uri": "https://maps.google.com/maps/contrib/111246993904466805261" } ] },
+          "links": [ { "label": "地図で見る", "url": "https://maps.google.com/?cid=14770280739577064273&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-02T23:05:00+00:00" },
+          "researcher_note": "京都・東山の老舗料亭として実在確認。Places APIはコース構成を返さないため、強肴の有無・内容はAPI上で確認できず、店としての実在のみ保証する。"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJSyur2H2MGGARv0oevuA_8XM",
+          "title": "懐石 辻留",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒107-0051 東京都港区元赤坂１丁目５−８ 虎屋第2ビル 地下１階", "primary_type": "和食店" },
+          "image": { "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcKcxvqisBhIrTR97PhCUb4iukG8YXM-5CeuD08kAcgGpc5rm77zLZ3IjN9Auvw0fFbA9MyhmJ082uOyixcS9N008iVm38ZzfQ4zK6XEBzRUr72PmvtNlDkrqygHIDTUVUQ7s0=s4800-w1200", "source": "google-places", "attributions": [ { "name": "りょうかいみちよ", "uri": "https://maps.google.com/maps/contrib/104972374958011851965" } ] },
+          "links": [ { "label": "地図で見る", "url": "https://maps.google.com/?cid=8354529018243861183&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-02T23:05:00+00:00" },
+          "researcher_note": "東京・赤坂の懐石料理店として実在確認。Places APIはコース構成を返さないため、強肴の有無・内容はAPI上で確認できず、店としての実在のみ保証する。"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJyfvrFuSLGGARFZYRu8hB55c",
+          "title": "銀座 吉兆",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒104-0061 東京都中央区銀座２丁目６−１２ 大倉本館4階", "primary_type": "和食店" },
+          "image": { "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcx3ydmtavnyIa2xECkPrXJaZ7MVmWaY4o5fUlgPBjOz93shHaK7nexHAZPzu677jbY72yS_P-PkZamDQdvfZj1KNEEebFUU6DJea4MCPz2id7Xb0S0W0GK3aCjsVG9ETYb2DEc=s4800-w1200", "source": "google-places", "attributions": [ { "name": "傅乃清", "uri": "https://maps.google.com/maps/contrib/110797689811681776754" } ] },
+          "links": [ { "label": "地図で見る", "url": "https://maps.google.com/?cid=10945789749735036437&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-02T23:05:00+00:00" },
+          "researcher_note": "東京・銀座の会席料理の老舗として実在確認。Places APIはコース構成を返さないため、強肴の有無・内容はAPI上で確認できず、店としての実在のみ保証する。"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ_9qJnWOJGGARiOIXMijrB1I",
+          "title": "つきじ 治作 JISAKU",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒104-0044 東京都中央区明石町１４−１９", "primary_type": "和食店" },
+          "image": { "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc6-CxTWE1cvEaBgzW9JZbgqtMtagNhAQbHUS6sv_LLGpQFYXB1IUfxg6AlprkVLsdlynl3q0PRIpBNzU-LECJZXPBDMef6Q9J-itSupcY5WxJCJOH5dLAihOBJpg-2MrnuPfKexw=s4800-w1024", "source": "google-places", "attributions": [ { "name": "つきじ 治作 JISAKU", "uri": "https://maps.google.com/maps/contrib/106997881477585342136" } ] },
+          "links": [ { "label": "地図で見る", "url": "https://maps.google.com/?cid=5910951593818710664&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-02T23:05:00+00:00" },
+          "researcher_note": "東京・築地の会席料理の老舗として実在確認。Places APIはコース構成を返さないため、強肴の有無・内容はAPI上で確認できず、店としての実在のみ保証する。"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJS7lVoWKMGGARrRkt6Q4U64M",
+          "title": "日本料理 紀尾井町 福田家",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒102-0094 東京都千代田区紀尾井町１−１３", "primary_type": "和食店" },
+          "image": { "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLemFUBpISj8gvJK3Co9RxrLwiex0RND7ZR45WP1USrp6OO7Y_K90AS6WAGC3U9NIemqjbBQOr-y9Lvx4wR9V1u6QPU1qJO62Ty9jhqrY_WjY35feipy4ZRtTqxKiQHLC93DujMXhg=s4800-w1000", "source": "google-places", "attributions": [ { "name": "日本料理 紀尾井町 福田家", "uri": "https://maps.google.com/maps/contrib/103659468023778862434" } ] },
+          "links": [ { "label": "地図で見る", "url": "https://maps.google.com/?cid=9505713492769708461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-02T23:05:00+00:00" },
+          "researcher_note": "東京・紀尾井町の日本料理店として実在確認。Places APIはコース構成を返さないため、強肴の有無・内容はAPI上で確認できず、店としての実在のみ保証する。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
