@@ -90,3 +90,4 @@ vol.087 | 2026-10-30 | 名簿 | architecture,book,music | 刻む・記す・列�
 vol.088 | 2026-11-01 | 再犯 | architecture,book | 回転ドア死亡事故と『累犯障害者』の二点で、一度目の猶予が二度目に消える非対称の構造を読む(restaurant落選・責了)
 vol.089 | 2026-11-02 | 潜伏 | architecture,music | 杭データ偽装が長い歳月を経て発覚したパークシティLala横浜と、録音から五十五年後に世に出たコルトレーンの未発表テープ『Both Directions at Once』の二点で、沈黙の長さが発覚の重みを決める構造を読む(photo落選・責了)
 vol.090 | 2026-11-03 | 中間 | music,architecture,restaurant | 終局を待たずに自立する中間点の強度を、緩徐楽章・仮殿・懐石の中盤の一品で示した号
+vol.091 | 2026-11-04 | 司令塔 | architecture,music,book | 管制塔・指揮者・御前会議の三点から、動かずに動かす統制の構造を読む

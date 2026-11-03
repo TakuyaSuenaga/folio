@@ -1,0 +1,360 @@
+{
+  "vol": 91,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJ_-u7JOc8I2ARXxpaP0H_pnQ",
+          "title": "犬吠埼灯台",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "千葉県銚子市犬吠埼9576", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeU1GG2Ird1Ot84ZibFw9YE48xJIRI6cPAsbLocAJQE4RgyCavRNCs8N6X1Kz39bhhdIwtOyrhg_PbNh5sxF9nb3XjZNYMbV3y4fGBDXqjsUWo1XpFWntbUSuXaGZk-BrHuO-X3sZJEAIQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Martin Richardson", "uri": "https://maps.google.com/maps/contrib/110497399229048579332" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8405686410234436191&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-03T20:46:18+00:00" },
+          "researcher_note": "現役灯台。発注の「見ることに特化した施設」に直接合致する候補の一つ。"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJy_1inSBcVzURvlBxk8uxSP8",
+          "title": "出雲日御碕灯台",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "島根県出雲市大社町日御碕1478", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd_D8UMDQO4j8DtROUhSAznT2tMoDSp2jgNsH_UZj3OEbR1ZCL5v6p-BMrwqTLa6vEm4JvSLwaUfRheURPvMugBXMeduR8unrsH2ZaVcMMCgMspPxcetKlRJbTMBUnwO8_dplnsMF9AryDp=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "村上真一", "uri": "https://maps.google.com/maps/contrib/113899479880025692892" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=18395148165904945342&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-03T20:46:18+00:00" },
+          "researcher_note": "現役灯台。国内最高部の石造灯台として「見る」構造の説明材料が多い。"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJm5qxvfBjGGAR1Ito__c6S0o",
+          "title": "東京国際空港管制塔",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都大田区羽田空港3丁目3-5", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfZkfOozTxMaUu-Bs0fgUoo9c1vEfiBoPuUef8HTHVLVnpJcaRoJ9mZp7qnKUr6zHO12FNQpdgCqEVvSD0uwWQc5CxTexA8TJ-Vvo0zZCqwcA1a63ThqqmLZa0d_CUtFzVrl0cmERSLcVxO=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "T TMBC", "uri": "https://maps.google.com/maps/contrib/103504638543262018916" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5353437418876341204&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-03T20:46:18+00:00" },
+          "researcher_note": "羽田空港の航空管制塔。「自らは動かず他を制御する」発注に最も直接合致する現役施設。"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJP0AhGGy5AGARzY8--sBaroQ",
+          "title": "関西国際空港管制塔",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "大阪府泉南郡田尻町泉州空港中1", "primary_type": "政府機関" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf2l8yuXi79UEV6H78HFO6qIUCrL0W4qF-R0QbOePwwuqbXH4gsw1cHGcprgV5X7TyiY4ieYleney_j1xpAb1azxhuflZAJQ24lLrIVFynu-o2lnDTqjDGSzOBgagomv8LUHFk=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "昭和ねこ", "uri": "https://maps.google.com/maps/contrib/107452564861661870999" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9560678843832766413&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-03T20:46:18+00:00" },
+          "researcher_note": "海上空港の管制塔。視界確保のための高さ・形状が設計上の論点になりうる。"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ1XIoDYeIGGAREeOtzW4Dwio",
+          "title": "荒川ロックゲート",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都江戸川区小松川1丁目1-地先", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdvWilGr7-HF70VZe4YGxr0v2DfxmxxxsRP10998fD8Rd5LNaKFfu1nRcl9JOChUs55kyGf6qwbQU0HRyP1ssSxedHIXny91aa2muHAo7d95KjRr6K7NuWTkW_fHaCLeD31qCkt=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "T Yasu", "uri": "https://maps.google.com/maps/contrib/116104816559586156502" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3081028869506851601&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-03T20:46:18+00:00" },
+          "researcher_note": "水位差を調整する閘門施設。水位監視・制御の管理棟が主題にしやすい。"
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJk0AOg76HGGARe7IkXjNVX08",
+          "title": "江戸川水閘門",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都江戸川区東篠崎1丁目11-15 メディカルビル", "primary_type": "官公庁" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLemLZxj2XoV8LLMc_fC9CO33nhPjn3z8S5ZyBACUdTfv9RRtQGYw8nOtc6IS-T7-sBdVj-0NH4Eo3-btiSb8yWaDTHf0WgCAme3poLOB0RAmneQ7VvBuHaVwroWYiwX9Lz_3cYM1g=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "山地雅宏", "uri": "https://maps.google.com/maps/contrib/104568723033713327819" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5719383730894975611&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-03T20:46:18+00:00" },
+          "researcher_note": "官公庁管理の水閘門。管理棟が監視機能を持つ施設として読める。"
+        },
+        {
+          "cand_id": "arch-07",
+          "source_api": "google_places",
+          "source_id": "ChIJu8047yKHGGAR4d-41qpbnwY",
+          "title": "行徳可動堰",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都江戸川区東篠崎町2丁目250", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdsKwCL-3j20ButQxBR4YjlY76BCnPQD3HsMItdkK28oc4akq9BmoFPPCW4fMBfynUWaiPkgYy0ip6Myz3C_zYhlVTr1guhqw127CZgX490wOPWm2fAHZKld6Hk11KOgq3KZbig=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Keiichi Quriyama", "uri": "https://maps.google.com/maps/contrib/102865210874006713616" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=477200874829570017&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-03T20:46:18+00:00" },
+          "researcher_note": "可動堰。江戸川水閘門と隣接し、同じ発注枠で比較材料になる。"
+        },
+        {
+          "cand_id": "arch-08",
+          "source_api": "google_places",
+          "source_id": "ChIJoQtlba_mAGARuHmOT9BfRjk",
+          "title": "毛馬閘門",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "大阪府大阪市都島区毛馬町3丁目7-8", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfv-MthOHgexMQV-cftwUUFKmBMrEizxTKdhadkCCXHROKtCrNc2behzepzUI9E5QAaqGO7ltvI-bjicWStqy3F7jn1LsaaJHjCTHzlG9Gqivxd12oFgwMhjZAVZOsmtO-LrkIfp679P2PF=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "赤星尚", "uri": "https://maps.google.com/maps/contrib/104970742774207353952" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4127091456824211896&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-03T20:46:18+00:00" },
+          "researcher_note": "明治期の旧毛馬第一閘門を含む歴史的な水位制御施設。古い管理技術の比較材料。"
+        },
+        {
+          "cand_id": "arch-09",
+          "source_api": "google_places",
+          "source_id": "ChIJIcKyjECJGGARZRZM4v4eSgA",
+          "title": "東京都建設局江東治水事務所水門管理センター",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都江東区清澄1丁目2-37", "primary_type": "サービス" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfhvhmns-OCIUUPSFrcaqdPqp54yjxnOVEvivR4Yhm7oEmoi1q4WPKbEpwXGsA6dVcruhdq3E3e1UcK9TRxgRkF0NRMngSZscoUTUCXJQf5aWwc4MnBG02SX7BykO1mSMjrQgR1=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "鍋山英孝", "uri": "https://maps.google.com/maps/contrib/112235561483096156662" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=20863228343752293&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-03T20:46:18+00:00" },
+          "researcher_note": "名称に「管理センター」を含み、複数の水門を遠隔監視する司令塔的機能が明示的な候補。"
+        },
+        {
+          "cand_id": "arch-10",
+          "source_api": "google_places",
+          "source_id": "ChIJp5g-I7nnAGARXM2X-mt-BW4",
+          "title": "安治川水門",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "大阪府大阪市港区弁天6丁目3-13", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfvSQaMBVlApGSssmlz5gNlmfJ38bFA5ZZjjB1mZ20-FZjAT5p65utmXSjVuwNkb73pXPD1GjMCJxBpyc4uFbF3uVvEgw1qOqpJe0uX1Xc15fSxUZQ2RfZoUP4THWY_2Jst0N3wbg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Akifumi Hirota", "uri": "https://maps.google.com/maps/contrib/111781844614951127637" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=7927881721286479196&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-03T20:46:18+00:00" },
+          "researcher_note": "高潮対策の水門。大阪港湾局が集中監視する防災系の制御施設。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1677635463",
+          "title": "Beethoven: 9 Symphonies",
+          "creator": "ベルリン・フィルハーモニー管弦楽団 & ヘルベルト・フォン・カラヤン",
+          "year": 1977,
+          "publisher": "Deutsche Grammophon GmbH, Berlin",
+          "meta": { "trackCount": 38, "primaryGenreName": "クラシック" },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c2/70/2b/c2702b80-dede-7752-2e90-9382344444cf/22UMGIM52644.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/beethoven-9-symphonies/1677635463?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-03T20:48:03+00:00" },
+          "researcher_note": "指揮者が主導した全集録音。発注の「音を出さずに統率する」の中心例。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1452263302",
+          "title": "Beethoven: Symphony No. 9 \"Choral\"",
+          "creator": "サイトウ・キネン・オーケストラ & 小澤征爾",
+          "year": 2002,
+          "publisher": "Decca Music Group Limited",
+          "meta": { "trackCount": 8, "primaryGenreName": "クラシック" },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/07/d2/8107d2f4-47ce-dc1b-ed50-6d78fe7e9457/00028948222544.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/beethoven-symphony-no-9-choral/1452263302?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-03T20:48:03+00:00" },
+          "researcher_note": "小澤征爾がサイトウ・キネン・オーケストラを統率した録音。国内の指揮者例。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1452194981",
+          "title": "Beethoven: Symphonies Nos. 5 & 7",
+          "creator": "ベルリン・フィルハーモニー管弦楽団 & ヴィルヘルム・フルトヴェングラー",
+          "year": 1989,
+          "publisher": "Deutsche Grammophon GmbH, Berlin",
+          "meta": { "trackCount": 8, "primaryGenreName": "クラシック" },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/38/4f/26/384f26d9-a9f9-8571-464a-2fa8ae353820/00028942777521.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/beethoven-symphonies-nos-5-7/1452194981?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-03T20:48:03+00:00" },
+          "researcher_note": "フルトヴェングラーの指揮録音。カラヤンとの統率スタイルの対比材料。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1452225107",
+          "title": "Mahler: Symphony No. 2 \"Resurrection\"",
+          "creator": "ニューヨーク・フィルハーモニック & レナード・バーンスタイン",
+          "year": 1987,
+          "publisher": "Deutsche Grammophon GmbH, Berlin",
+          "meta": { "trackCount": 25, "primaryGenreName": "クラシック" },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2f/37/37/2f3737e0-159f-a0a5-655c-59608ded3ebc/00028942339521.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/mahler-symphony-no-2-resurrection/1452225107?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-03T20:48:03+00:00" },
+          "researcher_note": "バーンスタインがニューヨーク・フィルを統率した大編成の録音。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1573250333",
+          "title": "Sgt. Pepper's Lonely Hearts Club Band (2017 Mix)",
+          "creator": "ビートルズ",
+          "year": 1967,
+          "publisher": "Calderstone Productions Limited / Apple Corps Limited",
+          "meta": { "trackCount": 13, "primaryGenreName": "ロック" },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/64/85/d2/6485d219-91ac-5481-2668-7eab1320436d/21UMGIM57007.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/sgt-peppers-lonely-hearts-club-band-2017-mix/1573250333?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-03T20:48:03+00:00" },
+          "researcher_note": "プロデューサー主導で統率される録音という発注の軸に沿うロック側候補。APIレスポンスにプロデューサー名の記載はなく、裏付けは編集部側の別途確認が必要。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1452204596",
+          "title": "Brahms: Symphony No. 1 in C Minor, Op. 68",
+          "creator": "サイトウ・キネン・オーケストラ & 小澤征爾",
+          "year": 2011,
+          "publisher": "Saito Kinen Festival",
+          "meta": { "trackCount": 4, "primaryGenreName": "クラシック" },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/46/14/ad/4614ad9b-ee31-2d3b-afdd-b6703438fe29/00044002119551.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/brahms-symphony-no-1-in-c-minor-op-68/1452204596?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-03T20:48:03+00:00" },
+          "researcher_note": "サイトウ・キネン・フェスティバルのライブ録音。小澤征爾の別録音としてmus-02と比較可能。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784121010087",
+          "title": "御前会議 : 昭和天皇十五回の聖断",
+          "creator": "大江志乃夫",
+          "year": 1991,
+          "publisher": "中央公論社",
+          "meta": { "series": "中公新書" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002104521", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-03T20:53:29+00:00" },
+          "researcher_note": "戦場から離れた御前会議という最高意思決定の場を記録した書籍。発注の「権限の構造」に直接合致する。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784166607587",
+          "title": "指揮官の決断 : 満州とアッツの将軍樋口季一郎",
+          "creator": "早坂隆",
+          "year": 2010,
+          "publisher": "文藝春秋",
+          "meta": { "series": "文春新書 ; 758" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000010899323", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-03T20:53:29+00:00" },
+          "researcher_note": "現場指揮官の決断を記録した書籍。司令部そのものではなく指揮官個人の視点である点に注意。"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784101283739",
+          "title": "日本海軍400時間の証言 : 軍令部・参謀たちが語った敗戦",
+          "creator": "NHKスペシャル取材班",
+          "year": 2014,
+          "publisher": "新潮社",
+          "meta": { "series": "新潮文庫 ; え-20-3" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025583495", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-03T20:53:29+00:00" },
+          "researcher_note": "海軍の最高統制機関である軍令部を記録した文庫版。book-04は同一著作の単行本初版。"
+        },
+        {
+          "cand_id": "book-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784104056033",
+          "title": "日本海軍400時間の証言 : 軍令部・参謀たちが語った敗戦",
+          "creator": "NHKスペシャル取材班",
+          "year": 2011,
+          "publisher": "新潮社",
+          "meta": { "series": "" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000011231604", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-03T20:53:29+00:00" },
+          "researcher_note": "book-03と同一著作の単行本初版(2011年)。版の選択はエディターに委ねる。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "book: 司令部・指令室など統制機能を担う実在の組織や出来事を記録した書籍",
+      "reason": "NDLで見つかった『勝つ司令部負ける司令部 : 東郷平八郎と山本五十六』(ISBN 978-4-404-03767-1)はopenBDに該当書誌が無く、実在チェーンの起点(openBD照合)を満たせないため候補から除外した。"
+    }
+  ]
+}
