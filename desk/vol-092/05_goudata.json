@@ -1,0 +1,91 @@
+{
+  "issue": {
+    "vol": 92,
+    "date": "2026-11-05",
+    "title": "拒絶反応",
+    "lead": "初演の客席からは怒号が上がり、最初の青写真には反対の署名が集まった。拒絶とは終わりを告げる合図ではなく、受け入れられるまでに必要な時間の長さを示す目盛りにすぎない。音楽・建築・書物、三つの拒まれた始まりをたどり、変化が定着するまでにかかる遅延という時間の構造を読む特集である。"
+  },
+  "items": [
+    {
+      "genre": "music",
+      "cand_id": "mus-01",
+      "sentei_riyu": "1913年パリ初演で客席の騒擾という拒絶が起きた記録が明確で、聴覚的な拒絶反応(耳が構造を受け入れられなかった)という、三点のうち最も直接的で瞬間的な拒絶を担う。音楽という時間芸術のため、拒絶から受容までの遅延は「同じ音を聴く耳の変化」として示せる。架構(議会・経済を巻き込む制度的・長期的対立)、書籍(司法による制度的検閲)と並べることで、拒絶の速度と主体(観客の生理的反応/制度/法)が三者で異なる三重奏になる。",
+      "title": "Stravinsky: The Rite of Spring - Bartók: Concerto for Orchestra",
+      "creator": "ベルリン・フィルハーモニー管弦楽団 & ヘルベルト・フォン・カラヤン",
+      "year": 2007,
+      "publisher": "Deutsche Grammophon GmbH, Berlin",
+      "meta": {
+        "collectionName": "Stravinsky: The Rite of Spring - Bartók: Concerto for Orchestra",
+        "copyright": "℗ 2007 Deutsche Grammophon GmbH, Berlin",
+        "releaseDate": "2007-01-01T08:00:00Z",
+        "trackCount": 19,
+        "primaryGenreName": "クラシック"
+      },
+      "essay": "一九一三年五月、パリのシャンゼリゼ劇場で初演されたストラヴィンスキーの『春の祭典』は、不規則に重なる変拍子と重量感のある不協和音の連打に客席が動揺し、怒号と喝采が入り乱れる騒ぎとなった。原始的な生命力を描く物語に沿って、旋律は分断され、拍節は絶えず組み替わる。聴き手に求められたのは物語の追走ではなく、拍の崩れそのものを受け止める耳である。初演の混乱から一世紀を経て、この響きは二十世紀音楽の座標として教科書に収まった。ヘルベルト・フォン・カラヤン指揮ベルリン・フィルハーモニー管弦楽団によるドイツ・グラモフォン録音は、拍の切断を正確に積み上げながらも音の重みを失わない演奏であり、客席を混乱させた構造がいかに緻密な設計であったかを聴かせる。",
+      "image": {
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/cc/a0/f4/cca0f47b-ef9e-8c1e-8733-eef9b3ee717d/00028947771609.rgb.jpg/600x600bb.jpg",
+        "source": "itunes"
+      },
+      "links": [
+        {
+          "label": "Apple Musicで見る",
+          "url": "https://music.apple.com/jp/album/stravinsky-the-rite-of-spring-bart%C3%B3k-concerto/1452255504?uo=4",
+          "sponsored": false
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "cand_id": "arch-03",
+      "sentei_riyu": "拒絶の主体が音楽(観客の生理的反応)とも書籍(司法の検閲)とも異なり、建設費と政治をめぐる議会・世論の対立という制度的・経済的な拒絶である点で並置上の役割を担う。設計者ウツソンが完成前に離脱する経緯は資料で確認でき、対立が人物の離脱という不可逆な結果を残しながらも建築自体は後年ランドマークとして定着した点が、本号の主題(拒絶は終わりでなく時間差の目盛り)を最も長い遅延の尺度で示す。",
+      "title": "シドニー・オペラハウス",
+      "creator": "",
+      "year": null,
+      "publisher": "",
+      "meta": {
+        "address": "Bennelong Point, Sydney NSW 2000 オーストラリア",
+        "primary_type": "劇場"
+      },
+      "essay": "二十世紀なかば、ベネロング岬に計画されたシドニー・オペラハウスは、設計競技で選ばれたヨーン・ウツソンの案そのものが建設費の増大とともに政治問題となり、着工から完成までの間に設計者自身が現場を去るという事態を招いた。白い帆のような曲面を連ねる屋根は、当初から造形の是非を問われ、工費をめぐる論争は議会を巻き込んで長期化した。設計者を欠いたまま進んだ工事は、都市の港を背にした劇場建築として一九七三年に完成する。帆のかたちは船の行き交う湾の輪郭をなぞり、建物そのものが港湾都市の地形を要約する。対立の記憶は竣工後も長く語られたが、湾を行く船上から見上げる屋根の連なりは、今では都市の輪郭そのものとして風景に組み込まれている。",
+      "image": {
+        "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdpIQ0_1nDRBkFlxk1jdBQ2voWTCkRHH-_lZDgSbvO8To-HILYbNbYa2fxUoRjyQ3xQRdUq2Q1F2Q54US4naKakKUxE_1SJcRlbjLYUOBE8un2I8udjfHX509tOSLGIHUUnpuNW5wuZ2GJc=s4800-w1200",
+        "source": "google-places",
+        "attributions": [
+          {
+            "name": "Fancy Day",
+            "uri": "https://maps.google.com/maps/contrib/103398473075021107082"
+          }
+        ]
+      },
+      "links": [
+        {
+          "label": "Google マップで見る",
+          "url": "https://maps.google.com/?cid=3545450935484072529&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "sponsored": false
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "cand_id": "bok-01",
+      "sentei_riyu": "拒絶の主体が音楽(観客)・建築(議会・世論)に続いて司法・法制度(猥褻文書頒布罪・検閲)である点で三者の最後を担い、三重奏を完結させる。チャタレイ事件は最高裁まで争われた記録が明確で、削除版から伏字を埋めた完訳への道のりそのものが、拒絶から受容までに要した時間の長さを物理的な本文の欠落と回復として最も具体的に示す一点である。",
+      "title": "チャタレイ夫人の恋人 : 完訳",
+      "creator": "D.H.ロレンス 著 / 伊藤整 訳, 伊藤礼 補訳",
+      "year": 1996,
+      "publisher": "新潮社",
+      "meta": {
+        "series": "新潮文庫",
+        "original_title": "Lady Chatterley's lover"
+      },
+      "essay": "ロレンスの『チャタレイ夫人の恋人』は、一九二八年に完全版がイタリアで私家版として出版された後、英国では長く検閲の対象となり、性描写を理由に流通が制限された書物である。日本語版も例外ではなく、伊藤整訳が猥褻文書頒布罪に問われたチャタレイ事件は最高裁まで争われ、削除を経た版が先に広まった。本書が新潮文庫で収めるのは、伊藤整訳に伊藤礼が補訳を加えて伏字と削除箇所を埋めた完訳である。読み進めると、階級の異なる男女の対話は性描写そのものよりも、言葉を交わす距離の近さの変化として読める構成になっている。検閲が切り取ろうとした部分を含めて読むとき、削除がいかに作品の呼吸を断っていたかが、埋められた箇所の文体の継ぎ目からも伝わってくる。",
+      "links": [
+        {
+          "label": "国立国会図書館サーチで見る",
+          "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002540936",
+          "sponsored": false
+        }
+      ]
+    }
+  ],
+  "decorated_at": "2026-11-05"
+}

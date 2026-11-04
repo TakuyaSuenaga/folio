@@ -1,0 +1,361 @@
+{
+  "vol": 92,
+  "genres": [
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1452255504",
+          "title": "Stravinsky: The Rite of Spring - Bartók: Concerto for Orchestra",
+          "creator": "ベルリン・フィルハーモニー管弦楽団 & ヘルベルト・フォン・カラヤン",
+          "year": 2007,
+          "publisher": "Deutsche Grammophon GmbH, Berlin",
+          "meta": {
+            "collectionName": "Stravinsky: The Rite of Spring - Bartók: Concerto for Orchestra",
+            "copyright": "℗ 2007 Deutsche Grammophon GmbH, Berlin",
+            "releaseDate": "2007-01-01T08:00:00Z",
+            "trackCount": 19,
+            "primaryGenreName": "クラシック"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/cc/a0/f4/cca0f47b-ef9e-8c1e-8733-eef9b3ee717d/00028947771609.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/stravinsky-the-rite-of-spring-bart%C3%B3k-concerto/1452255504?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-04T21:15:31+00:00" },
+          "researcher_note": "1913年パリ初演時に客席が混乱したとされる《春の祭典》の録音の一つ。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "881240687",
+          "title": "Stravinsky: The Rite of Spring",
+          "creator": "ロサンゼルス・フィルハーモニー管弦楽団 & エサ=ペッカ・サロネン",
+          "year": 2013,
+          "publisher": "Deutsche Grammophon GmbH, Berlin",
+          "meta": {
+            "collectionName": "Stravinsky: The Rite of Spring",
+            "copyright": "℗ 2012 Deutsche Grammophon GmbH, Berlin",
+            "releaseDate": "2013-01-29T08:00:00Z",
+            "trackCount": 17,
+            "primaryGenreName": "クラシック"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/72/ee/7c/72ee7c6c-94b5-c9df-7a78-db26adb028b6/UMG_cvrart_00028947911678_01_RGB72_1500x1500_12UMGIM57311.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/stravinsky-the-rite-of-spring/881240687?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-04T21:15:31+00:00" },
+          "researcher_note": "1913年パリ初演時に客席が混乱したとされる《春の祭典》の録音の一つ。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1160342909",
+          "title": "Stravinsky - Rite of Spring",
+          "creator": "リッカルド・ムーティ & フィラデルフィア管弦楽団",
+          "year": 2016,
+          "publisher": "Warner Music Group - X5 Music Group",
+          "meta": {
+            "collectionName": "Stravinsky - Rite of Spring",
+            "copyright": "℗ 2016 Warner Music Group - X5 Music Group",
+            "releaseDate": "2016-10-01T07:00:00Z",
+            "trackCount": 13,
+            "primaryGenreName": "クラシック"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/e6/8b/46/e68b4650-cdb1-e718-17d1-b31d19c821ce/7340070487473.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/stravinsky-rite-of-spring/1160342909?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-04T21:15:31+00:00" },
+          "researcher_note": "1913年パリ初演時に客席が混乱したとされる《春の祭典》の録音の一つ。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "696322017",
+          "title": "Puccini - Madama Butterfly",
+          "creator": "アンナ・ディ・スタジオ, ローマ歌劇場合唱団, ローマ歌劇場管弦楽団, レナータ・スコット, Silvana Padoan & ジョン・バルビローリ",
+          "year": 1989,
+          "publisher": "EMI Records Ltd",
+          "meta": {
+            "collectionName": "Puccini - Madama Butterfly",
+            "copyright": "℗ 1967 The copyright in this sound recording is owned by EMI Records Ltd. Digital remastering (P) 1986 by EMI Records Ltd",
+            "releaseDate": "1989-04-24T07:00:00Z",
+            "trackCount": 36,
+            "primaryGenreName": "クラシック"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/80/dc/04/80dc0463-57e0-0779-c3a3-c0b8a51a2484/dj.obtrvbgt.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/puccini-madama-butterfly/696322017?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-04T21:15:31+00:00" },
+          "researcher_note": "1904年ミラノ初演が不評で即座に改訂されたとされる《蝴蝶夫人》の録音。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1537589965",
+          "title": "Madama Butterfly",
+          "creator": "ベニアミーノ・ジーリ & トティ・ダル・モンテ",
+          "year": 1939,
+          "publisher": "DGD RECORDS [dist. Tratore]",
+          "meta": {
+            "collectionName": "Madama Butterfly",
+            "copyright": "℗ 1939 DGD RECORDS [dist. Tratore]",
+            "releaseDate": "1939-10-13T08:00:00Z",
+            "trackCount": 1,
+            "primaryGenreName": "クラシック"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f5/1e/bc/f51ebc50-554a-e815-4534-af73a018f8c7/7898422682651.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/madama-butterfly/1537589965?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-04T21:15:31+00:00" },
+          "researcher_note": "1904年ミラノ初演が不評で即座に改訂されたとされる《蝴蝶夫人》の歴史的録音(1939年)。収録は1トラックの抜粋盤である。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "818752952",
+          "title": "Bizet: Carmen",
+          "creator": "ベルリン・フィルハーモニー管弦楽団, Chor des Deutschen Staatsoper, ヨナス・カウフマン, マグダレナ・コジェナー & サイモン・ラトル",
+          "year": 2013,
+          "publisher": "Parlophone Records Limited",
+          "meta": {
+            "collectionName": "Bizet: Carmen",
+            "copyright": "A Warner Classics release, ℗ 2012 Parlophone Records Limited",
+            "releaseDate": "2013-03-01T08:00:00Z",
+            "trackCount": 66,
+            "primaryGenreName": "クラシック"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4a/7d/a4/4a7da4b3-8333-5f01-9848-d34d71a67780/dj.bhaviwgi.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/bizet-carmen/818752952?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-04T21:15:31+00:00" },
+          "researcher_note": "1875年パリ初演時の評が厳しかったとされる《カルメン》の録音の一つ。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "890309051",
+          "title": "Bizet: Carmen (Remastered 2014)",
+          "creator": "マリア・カラス, ローベル・マサール, ルネ・デュクロ合唱団, ニコライ・ゲッダ, パリ国立歌劇場管弦楽団, アンドレア・ギオー & ジョルジュ・プレートル",
+          "year": 1964,
+          "publisher": "Warner Classics, Warner Music UK Ltd.",
+          "meta": {
+            "collectionName": "Bizet: Carmen (Remastered 2014)",
+            "copyright": "℗ 1964 Warner Classics, Warner Music UK Ltd. Digital remastering (p) 2014 Warner Classics, Warner Music UK Ltd. A Warner Music Group Company",
+            "releaseDate": "1964-07-01T07:00:00Z",
+            "trackCount": 40,
+            "primaryGenreName": "クラシック"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/ff/f2/55/fff25591-6480-580e-c778-bd4be9cb67fc/825646266975.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/bizet-carmen-remastered-2014/890309051?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-04T21:15:31+00:00" },
+          "researcher_note": "1875年パリ初演時の評が厳しかったとされる《カルメン》の録音(1964年)。"
+        },
+        {
+          "cand_id": "mus-08",
+          "source_api": "itunes",
+          "source_id": "1650786457",
+          "title": "Rachmaninoff: Symphony No. 1",
+          "creator": "モスクワ フィルハーモニー 管弦楽団 & ユーリ・シモノフ",
+          "year": 2022,
+          "publisher": "Digital Classic",
+          "meta": {
+            "collectionName": "Rachmaninoff: Symphony No. 1",
+            "copyright": "℗ 2022 Digital Classic",
+            "releaseDate": "2022-10-13T07:00:00Z",
+            "trackCount": 4,
+            "primaryGenreName": "クラシック"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ef/82/23/ef8223d3-1b6f-3404-7a2d-17dc3fa05f0b/cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/rachmaninoff-symphony-no-1/1650786457?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-04T21:15:31+00:00" },
+          "researcher_note": "1897年の初演が不評だったとされるラフマニノフ交響曲第1番の録音。"
+        },
+        {
+          "cand_id": "mus-09",
+          "source_api": "itunes",
+          "source_id": "662867634",
+          "title": "ベートーヴェン:弦楽四重奏曲第13番&大フーガ",
+          "creator": "スメタナ四重奏団",
+          "year": 1975,
+          "publisher": "SUPRAPHON",
+          "meta": {
+            "collectionName": "ベートーヴェン:弦楽四重奏曲第13番&大フーガ",
+            "copyright": "℗ 1975 SUPRAPHON",
+            "releaseDate": "1975-01-01T00:00:00Z",
+            "trackCount": 7,
+            "primaryGenreName": "クラシック"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/c3/90/9b/c3909b82-a2de-5ef6-c87f-9064724f7207/COCO_73302.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/%E3%83%99%E3%83%BC%E3%83%88%E3%83%BC%E3%83%B4%E3%82%A7%E3%83%B3-%E5%BC%A6%E6%A5%BD%E5%9B%9B%E9%87%8D%E5%A5%8F%E6%9B%B2%E7%AC%AC13%E7%95%AA-%E5%A4%A7%E3%83%95%E3%83%BC%E3%82%AC/662867634?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-04T21:15:52+00:00" },
+          "researcher_note": "出版社・演奏者から当初理解されなかったとされる《大フーガ》単独収録盤。"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJLU7jZClu5kcR4PcOOO6p3I0",
+          "title": "エッフェル塔",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "Av. Gustave Eiffel, 75007 Paris, フランス", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdQDdsOsH9WSc8SkiOuMHCC-IdIUZhRh4kDmNWte1b_k3tDK810QX1NVW0k5Y9n5sij1YH8Lmu72v8ntfhi1h6yCMLHpKrXlsWr9by1xjMzmrKBDmox2_d-kUbQtCg-UNcMyBkXrQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Sampoi. kz", "uri": "https://maps.google.com/maps/contrib/107919122255732756595" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10222232094831998944&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-04T21:15:52+00:00" },
+          "researcher_note": "1889年完成時に著名芸術家らの反対声明が出たとされるパリの鉄塔建造物。"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJQdQyeiZu5kcRUfQHfB-OCLA",
+          "title": "ルーヴル・ピラミッド",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "フランス 〒75001 パリ", "primary_type": "文化的ランドマーク" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd5P4JommlCdwAvm6ob_MQA9Y_j1tnb5OOrsMyjZLxHZQBNaY4J8A1-QM5Xeo9WB2MLHWIppi5UB7Fh0XGPoHRxWht7XLYQMyHh_2Q1L4qRvRZgPppdhJdaxdu3TKcI1s608rrCLQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Tibor", "uri": "https://maps.google.com/maps/contrib/111454756680465895006" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12684544616365028433&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-04T21:15:52+00:00" },
+          "researcher_note": "1989年完成時にデザインへの反発が強かったとされる、ルーヴル美術館のガラス建造物。"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJ3S-JXmauEmsRUcIaWtf4MzE",
+          "title": "シドニー・オペラハウス",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "Bennelong Point, Sydney NSW 2000 オーストラリア", "primary_type": "劇場" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdpIQ0_1nDRBkFlxk1jdBQ2voWTCkRHH-_lZDgSbvO8To-HILYbNbYa2fxUoRjyQ3xQRdUq2Q1F2Q54US4naKakKUxE_1SJcRlbjLYUOBE8un2I8udjfHX509tOSLGIHUUnpuNW5wuZ2GJc=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Fancy Day", "uri": "https://maps.google.com/maps/contrib/103398473075021107082" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=3545450935484072529&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-04T21:15:52+00:00" },
+          "researcher_note": "建設費超過等をめぐる対立で設計者ウツソンが完成前に離脱した経緯で知られる劇場建築。"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJoyC4CRxu5kcRRTPcWX5srLc",
+          "title": "ポンピドゥー・センター",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "Place Georges-Pompidou, 75004 Paris, フランス", "primary_type": "カルチャー センター" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLel05NP2iBkarwJt6I-ypgHGel02FDaGL2ZCPPF3hCiRkddti-pPcs_PTAB4ycmAY5mvOhuzumrLOhW8_yuLwGsvyqZKmlhTgnBaixxT6RU6LS8TGNAnjrXxrVyleRwhnopb18yNA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Boshena Ka", "uri": "https://maps.google.com/maps/contrib/101665799050101516916" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13235072694864327493&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-04T21:15:52+00:00" },
+          "researcher_note": "1977年開館時に外観への批判が強かったとされる、パリの文化施設建造物。"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJtTFg3t5PTg0RrW2vzbeTiFA",
+          "title": "ビルバオ・グッゲンハイム美術館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "Abandoibarra Etorb., 2, Abando, 48009 Bilbao, Bizkaia, スペイン", "primary_type": "Art museum" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfCUuga_LHhlriRNG0E7O6QtcEsBiBCrcROWPrvGPwsFqJlUchY5hfUQAQn6JTEUmiKKj-3B15SoHDio8Weo1an2CsemUxs942Fauu3jfo74f_MDAJAp3sWUzysfmvN8_phsz5I=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Jalil MACHICHI", "uri": "https://maps.google.com/maps/contrib/107822494812430765487" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5803050537506008493&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-04T21:15:52+00:00" },
+          "researcher_note": "1997年開館時にコスト等をめぐる議論があったとされる、ビルバオの美術館建造物。"
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJ0xG7n03GwoARsDH_OyyMcrM",
+          "title": "ウォルト・ディズニー・コンサートホール",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "111 S Grand Ave, Los Angeles, CA 90012 アメリカ合衆国", "primary_type": "コンサート ホール" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfyL1whanQiLakkm9jopHCtGwewiiyUdTeua7jsobpWHYhyUr2-UtunKm_vcQimH_jo3NXdwtdy8zrjHH7FZ_hRtJBHvP7-VjOReb84B0QbfaPY_b5Tz5xBPRE4SUfWyh-rnGAE=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Jonathan Burgess", "uri": "https://maps.google.com/maps/contrib/101503078758151390186" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12930551601747145136&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-04T21:15:52+00:00" },
+          "researcher_note": "開館前に外壁の反射光が近隣に影響するとして批判があった経緯で知られるコンサートホール建築。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "bok-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784102070123",
+          "title": "チャタレイ夫人の恋人 : 完訳",
+          "creator": "D.H.ロレンス 著 / 伊藤整 訳, 伊藤礼 補訳",
+          "year": 1996,
+          "publisher": "新潮社",
+          "meta": { "series": "新潮文庫", "original_title": "Lady Chatterley's lover" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002540936", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-04T21:15:31+00:00" },
+          "researcher_note": "1950年代のチャタレイ事件(猥褻文書頒布罪での起訴)の対象となった伊藤整訳に、伊藤礼による補訳を加えた完訳版。"
+        },
+        {
+          "cand_id": "bok-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784102174036",
+          "title": "悪の華",
+          "creator": "シャルル・ボードレール 著 / 堀口大学 訳",
+          "year": 2002,
+          "publisher": "新潮社",
+          "meta": { "series": "新潮文庫", "edition": "改版" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971149384771670173", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-04T21:15:31+00:00" },
+          "researcher_note": "1857年にフランスで猥褻を理由に有罪判決(一部削除)を受けた原著『悪の華』の邦訳(新潮文庫改版)。"
+        },
+        {
+          "cand_id": "bok-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003253717",
+          "title": "悪の華",
+          "creator": "シャルル・ボードレール 著 / 鈴木信太郎 訳",
+          "year": 2008,
+          "publisher": "岩波書店",
+          "meta": { "first_published": "1961" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I30111100127999", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-04T21:15:31+00:00" },
+          "researcher_note": "同じ原著『悪の華』の別訳(岩波文庫版、底本は1961年刊)。"
+        },
+        {
+          "cand_id": "bok-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784309707358",
+          "title": "渋沢竜彦翻訳全集 5",
+          "creator": "マルキ・ド・サド 著 / 澁澤龍彦 訳",
+          "year": 1997,
+          "publisher": "河出書房新社",
+          "meta": { "series": "渋沢竜彦翻訳全集 5", "contains": "悪徳の栄え ; 悪徳の栄え(続) ; 削除箇所全文・補遺" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970586434812069284", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-04T21:15:31+00:00" },
+          "researcher_note": "1960年代の悪徳の栄え事件(猥褻文書頒布罪、最高裁まで争われた)の対象となった澁澤龍彦訳『悪徳の栄え』を収録する翻訳全集第5巻。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
