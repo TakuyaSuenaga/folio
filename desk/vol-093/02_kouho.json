@@ -1,0 +1,258 @@
+{
+  "vol": 93,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJkXsT3t6dnl8RppwcJ6UHCvw",
+          "title": "電源開発 大間原子力建設所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒039-4602 青森県下北郡大間町奥戸小奥戸", "primary_type": "サービス" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdzzrMvPLNy5oxi34e_YjuWBHP-OWw7XQR-TmFNG3hHVd3d0HRRp8wURLsU4zcfy1_KiNEEb9wWH7zmIFYkwR6WT2PLvJ9auivw5XDMp7p8wzavKbqBnIfDYTA8iB3Dn1d_pXVBLh7RHMuN=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "nico pag", "uri": "https://maps.google.com/maps/contrib/112630915637866813525" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=18161336853232131238&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-06T20:44:26+00:00" },
+          "researcher_note": "2011年の事故後に工事が中断し、約37%の工事進捗のまま運転開始に至っていない原子力発電所の建設地点。"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJORmFawAPVzURjObCMtwjI3I",
+          "title": "中国電力(株) 島根原子力発電所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒690-0324 島根県松江市鹿島町片句６５４−１", "primary_type": "製造元" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcGvX9lGfYrFnW7zGleQoaI4jI-Ws3Yc7olaz0D9Q7TT1EFiW8h6S0aO4ZjkogwZ99nJC8RWmchvxq0HhZR0MBMfuZpnh0epqre3yDCKVWieZEDnr6R06zolN8BOSJorH3hhdK-k08NxsTT=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "桑原健二", "uri": "https://maps.google.com/maps/contrib/109086221180700962103" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8224456773160068748&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-06T20:44:26+00:00" },
+          "researcher_note": "3号機は2011年に建設を完了したが、新規制基準の審査が続き営業運転を一度も開始していない。"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJL0UrwTqGnF8Rzz3b6aYyfxs",
+          "title": "日本原燃㈱ 再処理事業所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒039-3212 青森県上北郡六ヶ所村尾駮沖付４−１０８", "primary_type": "製造元" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfwce8IqcXlvhx2WinOXw1fGwBC4OcKkOLWbU7aKc1nP4fDVxrM704TCl3cWJD9dArwnz_aW6qntdVFpsXurEyrfJzRFamMbl1G_WJk7OEJA6Ez1hexO2BLN6fScbTA2-_kqwzRFw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "亜郁", "uri": "https://maps.google.com/maps/contrib/106896898761051340454" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1981358053535727055&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-06T20:44:26+00:00" },
+          "researcher_note": "1993年着工、竣工延期を重ね現在も本格運転(操業)を開始していない再処理施設。"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJAxabapNY_18RPLV3Sfhf7eU",
+          "title": "高速増殖原型炉もんじゅ",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒919-1279 福井県敦賀市白木２丁目１", "primary_type": "製造元" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd3WsEEt_mei_N5n1VACiUDkVt8N_JrWpFBXkIbYzaeyA9e6GO7oodb5_qMI5kRdg1UzWnreD3miKQRF0UHFbZvf9ZYk3ohlbycHn7RR88FxHD7dans8Q48PAFPHIQe-eDRMbWzU1pV1RaR=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Aviv “ぱるお”", "uri": "https://maps.google.com/maps/contrib/106745070662613730222" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16568004124155032892&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-06T20:44:26+00:00" },
+          "researcher_note": "1994年に臨界を達成したが、ナトリウム漏れ事故等で長期停止を繰り返し2016年に廃炉が決定した高速増殖原型炉。"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJKd8YYgCLImARMskbg0xlvxg",
+          "title": "成田新幹線 遺構",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒286-0021 千葉県成田市土屋１２６５", "primary_type": "史跡" },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1783255356753561906&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-06T20:44:26+00:00" },
+          "researcher_note": "1970年代に着工後1983年に計画が中止され、開業に至らなかった新幹線計画の遺構。"
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJM063NQBjPzURHMzhq7hPSa4",
+          "title": "川辺川ダム建設計画地",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒868-0101 熊本県球磨郡相良村四浦東藤田（相良", "primary_type": "観光名所" },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12558656690475617308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-06T20:44:26+00:00" },
+          "researcher_note": "1966年に計画着手、2009年に建設中止方針、2020年に正式撤回が表明され着工に至らなかったダム計画地。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "720113626",
+          "title": "Smile Sessions",
+          "creator": "ザ・ビーチ・ボーイズ",
+          "year": 1967,
+          "publisher": "Capitol Records, LLC",
+          "meta": {
+            "collectionName": "Smile Sessions",
+            "copyright": "℗ 2011 Capitol Records, LLC",
+            "releaseDate": "1967-10-28T07:00:00Z",
+            "trackCount": 41,
+            "primaryGenreName": "ロック"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/17/c3/26/17c326ce-9bfa-76c2-6957-a8a221224be1/05099931901857.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/smile-sessions/720113626?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-06T20:45:43+00:00" },
+          "researcher_note": "1966-67年に制作されたアルバム『SMiLE』は完成・発表されず頓挫し、未完のセッション素材が2011年に本作として編集・発表された。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1440771795",
+          "title": "Mozart: Requiem",
+          "creator": "ヘルベルト・フォン・カラヤン & ウィーン・フィルハーモニー管弦楽団",
+          "year": 1987,
+          "publisher": "Deutsche Grammophon GmbH, Berlin",
+          "meta": {
+            "collectionName": "Mozart: Requiem",
+            "copyright": "℗ 1987 Deutsche Grammophon GmbH, Berlin",
+            "releaseDate": "1987-01-01T08:00:00Z",
+            "trackCount": 14,
+            "primaryGenreName": "クラシック"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/a9/a8/da/a9a8da6b-39e9-3c91-19b1-e397f0c466aa/00028943902328.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/mozart-requiem/1440771795?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-06T20:45:43+00:00" },
+          "researcher_note": "作曲者の死(1791年)により未完のまま残され、弟子ジュスマイヤーの補筆で現行版が成立した鎮魂曲。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1585387022",
+          "title": "Schubert: Symphonies Nos. 3 & 8 \"Unfinished\"",
+          "creator": "ウィーン・フィルハーモニー管弦楽団 & カルロス・クライバー",
+          "year": 1979,
+          "publisher": "Deutsche Grammophon GmbH, Berlin",
+          "meta": {
+            "collectionName": "Schubert: Symphonies Nos. 3 & 8 \"Unfinished\"",
+            "copyright": "℗ 1979 Deutsche Grammophon GmbH, Berlin",
+            "releaseDate": "1979-01-01T08:00:00Z",
+            "trackCount": 6,
+            "primaryGenreName": "クラシック"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/61/89/7c6189b6-97a7-44e8-2352-bd5dd7b9efcf/21UM1IM08789.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/schubert-symphonies-nos-3-8-unfinished/1585387022?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-06T20:45:43+00:00" },
+          "researcher_note": "2楽章までで筆が止まり、作曲者の死(1828年)までの6年間、完成されなかった交響曲。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1452714372",
+          "title": "Puccini: Turandot",
+          "creator": "カティア・リッチャレッリ, ヘルベルト・フォン・カラヤン, プラシド・ドミンゴ & ウィーン・フィルハーモニー管弦楽団",
+          "year": 1982,
+          "publisher": "Deutsche Grammophon GmbH, Berlin",
+          "meta": {
+            "collectionName": "Puccini: Turandot",
+            "copyright": "This Compilation ℗ 1982 Deutsche Grammophon GmbH, Berlin",
+            "releaseDate": "1982-01-01T08:00:00Z",
+            "trackCount": 55,
+            "primaryGenreName": "クラシック"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9e/d6/72/9ed672c8-0aaf-b7d3-33c1-c4fbdaa6210d/00028942385528.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/puccini-turandot/1452714372?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-06T20:45:43+00:00" },
+          "researcher_note": "作曲者の死(1924年)により最終二重唱が未完のまま残され、弟子アルファーノの補筆で現行の上演版が成立した歌劇。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1761925595",
+          "title": "Bruckner: Symphony No. 9 in D Minor, WAB 109",
+          "creator": "ウィーン・フィルハーモニー管弦楽団 & カルロ・マリア・ジュリーニ",
+          "year": 1989,
+          "publisher": "Deutsche Grammophon GmbH, Berlin",
+          "meta": {
+            "collectionName": "Bruckner: Symphony No. 9 in D Minor, WAB 109",
+            "copyright": "℗ 1989 Deutsche Grammophon GmbH, Berlin",
+            "releaseDate": "1989-01-01T08:00:00Z",
+            "trackCount": 3,
+            "primaryGenreName": "クラシック"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a4/c4/c0/a4c4c043-e055-46dc-bd30-0b7b02df6714/24UMGIM72272.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/bruckner-symphony-no-9-in-d-minor-wab-109/1761925595?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-06T20:45:43+00:00" },
+          "researcher_note": "第4楽章が未完のまま作曲者が死去(1896年)し、3楽章のみで残された交響曲。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "bok-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784063779899",
+          "title": "MMR : マガジンミステリー調査班 : アンコール刊行 : ノストラダムスの大予言の恐怖",
+          "creator": "石垣,ゆうき",
+          "year": 2014,
+          "publisher": "講談社",
+          "meta": { "series": "講談社プラチナコミックス ; 2489" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025477963", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-06T20:52:07+00:00" },
+          "researcher_note": "1999年に予言された終末(ノストラダムスの大予言)が実現しなかった経緯を題材とする漫画作品。"
+        },
+        {
+          "cand_id": "bok-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784769817178",
+          "title": "幻の本土決戦と終戦工作",
+          "creator": "「丸」編集部",
+          "year": 2025,
+          "publisher": "潮書房光人新社",
+          "meta": { "series": "MARU Military Collection" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034202787", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-06T20:52:07+00:00" },
+          "researcher_note": "想定された本土決戦が実行される前に、終戦工作により回避された経緯を記録した書籍。"
+        },
+        {
+          "cand_id": "bok-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784121028679",
+          "title": "日本終戦史1944-1945 : 和平工作から昭和天皇の「聖断」まで",
+          "creator": "波多野澄雄",
+          "year": 2025,
+          "publisher": "中央公論新社",
+          "meta": { "series": "中公新書 ; 2867" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034186654", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-06T20:52:07+00:00" },
+          "researcher_note": "想定された本土決戦に至る前に、和平工作と聖断により戦争が終結した過程を記録した書籍。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

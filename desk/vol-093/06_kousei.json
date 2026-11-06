@@ -1,0 +1,42 @@
+{
+  "vol": 93,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=1783255356753561906&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://music.apple.com/jp/album/smile-sessions/720113626?uo=4",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025477963",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[2] essay「『アンコール刊行』と付された本書は」",
+      "severity": "minor",
+      "type": "規定違反",
+      "genzai": "『アンコール刊行』",
+      "teisei": "「アンコール刊行」(作品名ではなく版の呼称を指す語であり、規定では引用・強調に『』ではなく「」を用いる)"
+    },
+    {
+      "id": "P-02",
+      "location": "items[1] DATA欄「作者」行と本文essay冒頭の表記差",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "DATA欄: ザ・ビーチ・ボーイズ / 本文: ビーチ・ボーイズのブライアン・ウィルソンは",
+      "teisei": "本文を「ザ・ビーチ・ボーイズのブライアン・ウィルソンは」とし、DATA欄の表記と一致させる"
+    }
+  ]
+}
