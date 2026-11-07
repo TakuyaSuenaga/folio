@@ -1,0 +1,48 @@
+{
+  "vol": 94,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true,
+      "items[2].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://ndlsearch.ndl.go.jp/books/R000000004-I3624637": true,
+        "https://ndlsearch.ndl.go.jp/books/R000000004-I4026592": true,
+        "https://music.apple.com/jp/album/philip-glass-music-in-twelve-parts/284536884?uo=4": true,
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I025130315": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I3624637",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I4026592",
+        "status": 200
+      },
+      {
+        "url": "https://music.apple.com/jp/album/philip-glass-music-in-twelve-parts/284536884?uo=4",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025130315",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": []
+}

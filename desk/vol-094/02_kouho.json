@@ -1,0 +1,281 @@
+{
+  "vol": 94,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "ndl",
+          "source_id": "3624637",
+          "title": "東京国際フォーラム ガラス棟",
+          "creator": "ラファエル・ヴィニオリ建築士事務所",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "technical_feature": "大型ケーブルトラス構造(ガラス棟)",
+            "structural_engineer": "渡辺邦夫",
+            "source_articles": [
+              "大型ケーブルトラス構造の東京国際フォーラム・ガラス棟への適用(大林組技術研究所報51号,1995,著者:時野谷浩良,谷口英武,俵新)",
+              "構造設計と監理を終えて(新建築1996年9月号「特集 東京国際フォーラム--ラファエル・ヴィニオリ建築士事務所」,著者:渡辺邦夫)"
+            ]
+          },
+          "links": [
+            { "label": "国立国会図書館サーチで見る(構造技術)", "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I3624637", "kind": "catalog" },
+            { "label": "国立国会図書館サーチで見る(設計者確認)", "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I4026592", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-07T19:19:50+00:00" },
+          "researcher_note": "ガラス棟は大型ケーブルトラス構造で支持される。設計はラファエル・ヴィニオリ建築士事務所、構造設計は渡辺邦夫。竣工年はAPIレスポンスに明記されておらず、新建築1996年9月号の特集掲載時期から推定される範囲に留まる。"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784763017192",
+          "title": "吉岡徳仁光庵-ガラスの茶室 = TOKUJIN YOSHIOKA KOU-AN Glass Tea House",
+          "creator": "吉岡,徳仁",
+          "year": 2017,
+          "publisher": "求龍堂",
+          "meta": {},
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028453290", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-07T19:19:50+00:00" },
+          "researcher_note": "ガラスを構造材とする茶室「光庵」の作品集。発注の『硝子を構造の主要素とした建築作品』に直接合致する。"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "ndl",
+          "source_id": "2705956",
+          "title": "Pierre Chareau--ガラスの家〔メゾン・ド・ヴェール,ダルザス邸〕の今日的意味",
+          "creator": "Pierre Chareau",
+          "year": null,
+          "publisher": "",
+          "meta": { "article_journal": "SD : Space design : スペースデザイン(通号244) p.16-19, 鹿島出版会, 1985-01", "author_of_article": "西本直子" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R000000004-I2705956", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-07T19:19:50+00:00" },
+          "researcher_note": "ガラスブロックのファサードで知られるメゾン・ド・ヴェール(設計:Pierre Chareau)を扱った評論記事。竣工年はAPIレスポンスに記載がない。"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "ndl",
+          "source_id": "1574231876715104000",
+          "title": "日本長期信用銀行本店ビルのガラスキューブの設計と施工",
+          "creator": "原田公明,北村春幸,寺本隆幸,原田昭穂,竹内徹",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "technical_feature": "ガラス支持テンション架構(ガラスキューブの構造体)",
+            "source_articles": [
+              "その1 北側及び南側ガラスキューブの構造体の設計(学術講演梗概集.B,構造I 1994 p.2003-2004)",
+              "その2 ガラス支持テンション架構の設計および施工(学術講演梗概集.B,構造I 1994 p.2005-2006)"
+            ]
+          },
+          "links": [
+            { "label": "国立国会図書館サーチで見る(その1)", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1574231876715104000", "kind": "catalog" },
+            { "label": "国立国会図書館サーチで見る(その2)", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1570009752064456960", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-07T19:19:50+00:00" },
+          "researcher_note": "テンション架構でガラスを支持する構造体であることが学術講演梗概集(1994年)に記録されている。竣工年はAPIレスポンスに記載がない。"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784761531775",
+          "title": "ガラス建築 : 意匠と機能の知識",
+          "creator": "日本建築学会",
+          "year": 2009,
+          "publisher": "学芸出版社",
+          "meta": {},
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000010247572", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-07T19:19:50+00:00" },
+          "researcher_note": "特定の一作品ではなく、ガラス建築の意匠・機能知識を扱う技術書。発注が求める『一点』の選定には直接合致しないため、技術的背景の参考資料として扱う。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "203258539",
+          "title": "Glassworks (Expanded Edition)",
+          "creator": "フィリップ・グラス, マイケル・リーズマン & フィリップ・グラス・アンサンブル",
+          "year": 2003,
+          "publisher": "SONY BMG MUSIC ENTERTAINMENT",
+          "meta": { "collectionName": "Glassworks (Expanded Edition)", "copyright": "℗ 1982, 1987 SONY BMG MUSIC ENTERTAINMENT", "releaseDate": "2003-09-29T07:00:00Z", "trackCount": 11, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/cf/07/b3/cf07b334-2a4c-a068-1794-feacd2a253f7/dj.pvjwdybz.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/glassworks-expanded-edition/203258539?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-07T19:20:18+00:00" },
+          "researcher_note": "単純な音型を反復しながら層を重ねる手法で書かれた楽曲を収める、1982年作『Glassworks』の拡大再発版(11トラック)。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "284536884",
+          "title": "Philip Glass: Music in Twelve Parts",
+          "creator": "フィリップ・グラス・アンサンブル",
+          "year": 1993,
+          "publisher": "Orange Mountain Music",
+          "meta": { "collectionName": "Philip Glass: Music in Twelve Parts", "copyright": "℗ 2008 Orange Mountain Music", "releaseDate": "1993-01-01T00:00:00Z", "trackCount": 12, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/75/71/76/mzi.unwmnnuz.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/philip-glass-music-in-twelve-parts/284536884?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-07T19:20:18+00:00" },
+          "researcher_note": "一つの音型を12の部分にわたって段階的に変形・蓄積させる加算的作曲技法で書かれた作品。発注の『反復によって徐々に形を結ぶ』『蓄積的な構造』に直接合致する。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "637056287",
+          "title": "Philip Glass: Einstein on the Beach",
+          "creator": "フィリップ・グラス・アンサンブル",
+          "year": 1979,
+          "publisher": "Orange Mountain Music",
+          "meta": { "collectionName": "Philip Glass: Einstein on the Beach", "copyright": "℗ 2013 Orange Mountain Music", "releaseDate": "1979-01-01T00:00:00Z", "trackCount": 20, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/f2/be/e6/f2bee6ff-dcba-8ac4-6cc3-b53e9c3ca97a/EoB_cover_ns_300dpi.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/philip-glass-einstein-on-the-beach/637056287?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-07T19:20:18+00:00" },
+          "researcher_note": "数字や音節の反復を基調とする声楽パートを含む4幕の歌劇。蓄積的な構成を持つ作品。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1443150489",
+          "title": "Koyaanisqatsi (Original Soundtrack)",
+          "creator": "フィリップ・グラス",
+          "year": 1983,
+          "publisher": "UMG Recordings, Inc.",
+          "meta": { "collectionName": "Koyaanisqatsi (Original Soundtrack)", "copyright": "℗ 1983 UMG Recordings, Inc.", "releaseDate": "1983-01-01T08:00:00Z", "trackCount": 6, "primaryGenreName": "サウンドトラック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/85/a3/40/85a34058-bd90-6a2d-f2dc-db74a959db82/00042281404221.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/koyaanisqatsi-original-soundtrack/1443150489?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-07T19:20:18+00:00" },
+          "researcher_note": "反復する音型の積層によって展開する、ゴッドフリー・レジオ監督作品のための映画音楽。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "314215935",
+          "title": "Koyaanisqatsi (Complete Original Soundtrack)",
+          "creator": "フィリップ・グラス",
+          "year": 2009,
+          "publisher": "Orange Mountain Music",
+          "meta": { "collectionName": "Koyaanisqatsi (Complete Original Soundtrack)", "copyright": "℗ 2009 Orange Mountain Music", "releaseDate": "2009-05-15T07:00:00Z", "trackCount": 13, "primaryGenreName": "サウンドトラック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/19/c4/42/mzi.dkvomfnj.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/koyaanisqatsi-complete-original-soundtrack/314215935?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-07T19:20:18+00:00" },
+          "researcher_note": "mus-04と同一作品の完全版(13トラック)。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "457046120",
+          "title": "Glassworks",
+          "creator": "フィリップ・グラス・アンサンブル & マイケル・リースマン",
+          "year": 1982,
+          "publisher": "Sony Music Entertainment Inc.",
+          "meta": { "collectionName": "Glassworks", "copyright": "℗ 1982 Sony Music Entertainment Inc.", "releaseDate": "1982-01-01T00:00:00Z", "trackCount": 6, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/bd/1f/d4/mzi.fmjdnbwv.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/glassworks/457046120?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-07T19:20:18+00:00" },
+          "researcher_note": "mus-01と同一作品の1982年初版(6トラック)。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "637155239",
+          "title": "Philip Glass: Music In 12 Parts",
+          "creator": "フィリップ・グラス・アンサンブル",
+          "year": 2013,
+          "publisher": "Orange Mountain Music",
+          "meta": { "collectionName": "Philip Glass: Music In 12 Parts", "copyright": "℗ 2013 Orange Mountain Music", "releaseDate": "2013-04-23T07:00:00Z", "trackCount": 13, "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/c9/83/28/c9832878-8226-b6fb-c185-2fc41924d625/Music12Parts_ns_300dpi.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/philip-glass-music-in-12-parts/637155239?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-07T19:20:18+00:00" },
+          "researcher_note": "mus-02と同一作品の別録音・別装丁の再発版。"
+        }
+      ]
+    },
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784781406350",
+          "title": "霜柱 : 澤口航悠句集",
+          "creator": "澤口,航悠,1951-",
+          "year": 2014,
+          "publisher": "ふらんす堂",
+          "meta": {},
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025130315", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-07T19:28:08+00:00" },
+          "researcher_note": "『霜柱』を書名とする句集。霜柱は夜間に音もなく形成される現象であり、発注の『静かに降り積もる変化』に合致する。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784794226815",
+          "title": "音数で引く俳句歳時記・冬+新年",
+          "creator": "岸本,尚毅,1961- 監修 / 西原,天気,1955- 編",
+          "year": 2023,
+          "publisher": "草思社",
+          "meta": { "series": "音数で引く俳句歳時記" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033121388", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-07T19:28:08+00:00" },
+          "researcher_note": "冬・新年の季語を音数別に収めた歳時記。openBD紹介文に『立冬を迎えて』との記載があり、霜を含む冬の季語の例句・解説を収録する。"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044008031",
+          "title": "角川 季語別俳句集成 冬",
+          "creator": "角川書店 編",
+          "year": null,
+          "publisher": "KADOKAWA",
+          "meta": {},
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034281901", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-07T19:28:08+00:00" },
+          "researcher_note": "冬の季語ごとに例句を集成した書籍。霜を含む冬の季語を収録する歳時記。openBDに刊行日の記載がないため年は空欄とした。"
+        },
+        {
+          "cand_id": "poe-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044005023",
+          "title": "角川俳句大歳時記 冬",
+          "creator": "茨木,和生,1939- / 片山,由美子,1952- / 長谷川,櫂,1954- / 宇多,喜代子,1935- ほか",
+          "year": 2022,
+          "publisher": "KADOKAWA",
+          "meta": {},
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032497234", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-07T19:28:08+00:00" },
+          "researcher_note": "冬の部を収めた大型歳時記。霜を含む冬の季語の解説と例句を収録する。"
+        },
+        {
+          "cand_id": "poe-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784074528028",
+          "title": "いちばんわかりやすい俳句歳時記. 秋冬新年",
+          "creator": "辻,桃子,1945-2025 / 安部,元気,1943-",
+          "year": 2022,
+          "publisher": "主婦の友社",
+          "meta": {},
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032333681", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-07T19:28:08+00:00" },
+          "researcher_note": "秋冬新年の季語を収めた入門歳時記。霜を含む冬の季語を収録する。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "poetry: 霜または硝子(硝子戸・窓)を季語・主題として扱う詩集・歳時記から一篇",
+      "reason": "『硝子戸』を主題・書名に含む詩集・句集はNDLサーチで有意な候補が見つからなかった(検索語を複数パターンで試行)。本発注の候補は『霜』系(霜柱・冬の歳時記)に限られる。硝子戸を主題とする候補は該当なしとして除外した。"
+    },
+    {
+      "hacchu": "poetry: 霜柱(本井八重,本阿弥書店,2000,ISBN 4-89373-657-4)および霜柱(若林波留美,東京四季出版,2017,ISBN 978-4-8129-0904-1)",
+      "reason": "NDLで書誌が確認できたが、ISBN13変換後にopenBDへ照合した結果いずれも該当書誌が無く(null応答)、実在チェーンの起点(openBD照合)を満たせないため候補から除外した。"
+    },
+    {
+      "hacchu": "poetry: 霜月花のない道を : 山本恵三子詩集(花神社,1993,ISBN 4-7602-1272-8)",
+      "reason": "書名に『霜月』を含み起点の『霜月・立冬』との連想で検索したが、openBDに該当書誌が無く(null応答)実在チェーンを満たせないため候補から除外した。"
+    }
+  ]
+}
