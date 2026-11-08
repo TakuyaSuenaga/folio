@@ -1,0 +1,34 @@
+{
+  "vol": 95,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=4738160584357804402&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://maps.google.com/?cid=5261359971753289941&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032333681",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[2](poetry)見出し・DATA欄「題名」と本文冒頭の書名表記",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "見出し・DATA欄題名は「いちばんわかりやすい俳句歳時記. 秋冬新年」(句点あり)だが、本文冒頭は『いちばんわかりやすい俳句歳時記 秋冬新年』(句点なし・空白)",
+      "teisei": "本文の書名表記を見出し・DATA欄と一致させ『いちばんわかりやすい俳句歳時記. 秋冬新年』とする(または三箇所とも空白表記に統一する)"
+    }
+  ]
+}

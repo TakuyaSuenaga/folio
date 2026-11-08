@@ -1,0 +1,320 @@
+{
+  "vol": 95,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJKV_89RC3UzURZVLxycVgy_I",
+          "title": "うだつの町並み",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "徳島県美馬市脇町大字脇町92", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf3mUm1poFgkoXRceBjTIyTotFNZrul-Bq8aBmUoWTsD8oeIepW-EsTsHnwDSurfXmJ7YdQS-2GrjdBpq-ogYFQ5Y3AR4Zco_QOhhsMz8x1qqI3rduaBKS25qI8qBDz1NQ0a8mw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ORIHARA.H", "uri": "https://maps.google.com/maps/contrib/112766837772294823600" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17495183580063683173&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-08T19:30:31+00:00" },
+          "researcher_note": "脇町の商家町並み。隣家間延焼を防ぐ「うだつ」(卯建)という防火壁状の意匠が通りに連続する地区として知られる。個別建物ごとの構造詳細・築年はPlacesデータに含まれず未確認。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJYQc0J9XDAWAR2agI8lwqRJQ",
+          "title": "三宅区火の見やぐら",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "福井県三方上中郡若狭町三宅", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeWkhRUntsoctCh8GD2750LGmzdXQXePx5wu9SOqqsGbKVeRhGmSHtWn8ID2xvyJgUkNNbs4OI88DjWSvDktyKmb9WI121Bcucep7fhoybfycdVrjewkq5x--6YQekX9yUlo1iGSA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Qoota", "uri": "https://maps.google.com/maps/contrib/107204560683257937134" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10683710794715670745&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-08T19:30:31+00:00" },
+          "researcher_note": "史跡指定の火の見櫓。火災の早期発見・初期消火の合図を担う監視塔で、Places上でも史跡として分類されている。可燃性能や消火装置の詳細は未確認。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJgxqw8hqFTzURhjAyhZ7_rx0",
+          "title": "内子町並み",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "愛媛県喜多郡内子町内子", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdsniLGygq9EQSzHZ_NOSfyM2T6s1eOkHhyHf49yH83LLp3l4lWhG7CS2HA7RMIAM8JITyi2pEPki6nmYELzCB_jOxWP39dokBALydwSJLUzjOfsVq1o8YCfOQVhM-kxDZzo3s7=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Tiên Trần", "uri": "https://maps.google.com/maps/contrib/111597325185229685720" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2139209404328849542&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-08T19:30:31+00:00" },
+          "researcher_note": "木蝋商家で栄えた内子の町並み。重要伝統的建造物群保存地区で、漆喰塗り・うだつを備えた町家が連続する。個別建物の防火構造詳細は未確認。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJnxJWKTsCA2ARcnlnl_JTwUE",
+          "title": "うだつの上がる町並み",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "岐阜県美濃市加治屋町1959-1", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcY_Evs2327zEzm17RJhuuAU0eSBt2sAZkjXSnZ7KkX7V9bGTkFSLc29ZJVkh6QKldvHE-aLbI30q4nY0gaRHyI2d24E5z1qXLIZP0YaQh0G7UgQc6j_rwKB6eFXLJd6pcgpMdK=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "うだつの上がる町並み", "uri": "https://maps.google.com/maps/contrib/108850676585407344122" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4738160584357804402&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-08T19:30:31+00:00" },
+          "researcher_note": "美濃和紙の集散地として栄えた町家群。隣棟間の延焼を遮る「うだつ」を町名自体が冠する地区。構造上の耐火性能の一次資料は未確認。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ-2dBjGHaGGARM8QT2g6S8ic",
+          "title": "小江戸川越一番街商店街 蔵造りの町並み",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "埼玉県川越市幸町", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeqzHPkp6wqYIz7RGcZGwYNePDBsYC-QXWwRHnWan-_GbAut-YO9mfHpVFp2aX4eh2TlYKqs5Wf0uiXZ07SXqgy1YsdHrpt9uiRyVXpvVSEMY6SvKWDw_svkN0H95T6FrTyj3vi=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "JAPAN EnvironMentally FRIENDLY.", "uri": "https://maps.google.com/maps/contrib/106597985430717993946" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2878523704329094195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-08T19:30:31+00:00" },
+          "researcher_note": "明治26年の川越大火後に再建された蔵造り商家群。土蔵仕様の厚壁・塗籠戸で延焼を遮る構造として知られる。個別建物の耐火仕様の一次資料は未確認。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJc2Oftjooil8RGPpUe5AQINk",
+          "title": "郷土酒亭 元祖 炉ばた",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "宮城県仙台市青葉区国分町2丁目10-28 YSビックビル 1階B号室", "primary_type": "居酒屋" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdQsaxXPiK0icIa9HuP1WtQSsa4OiDXSLRIk6TVmeEBPODoryvnPC0yV3-DJKH4gTOwimSNbSZEJDhb9Ey0ta2pJ9J2jFFJXwvrxwRKygvSar4kY_kliYPyQAblivprVXPzzNmRdw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "郷土酒亭 元祖 炉ばた", "uri": "https://maps.google.com/maps/contrib/110647538525298424957" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15645523318215604760&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-08T19:30:40+00:00" },
+          "researcher_note": "店名に「元祖」を冠する仙台の炉端焼き店。店名自体が炉端焼き発祥を標榜する。発祥の典拠・継続して炭火を保つ具体的な作法はPlacesデータには含まれず未確認。"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJRf1c375x-F8R1WjQtwQbBEk",
+          "title": "いろり",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "岐阜県大野郡白川村荻町374-1", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe68asqTU4uW0dMBeAeIVlC4uJLm3piUfOk0Lps-uqrycQodFcg4hO3wvLrrOjindrFymBRoHGUx_Y5TAk1Bxk_MhmR2yIaIzJB2QDcC8riD1V_x52PfVChD8J9h33vaG_EIZjpqw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "白川郷 お食事処いろり", "uri": "https://maps.google.com/maps/contrib/100639169471811819724" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5261359971753289941&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-08T19:30:40+00:00" },
+          "researcher_note": "合掌造り集落・白川郷にある店名そのままの食事処「いろり」。囲炉裏を囲む郷土料理店として地区内に立地。常時火を絶やさぬ運用の有無は未確認。"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJH8tXyleLGGARLlfSduTu-JU",
+          "title": "鳥竹総本店",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "東京都渋谷区道玄坂1丁目6-1", "primary_type": "焼き鳥店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfuoEN5G6jX80FEUAb0cVdAmWKBTb4zJb8EyPrnx7VvSeEPDQRgfDG8NrH3BSt2oboZxX4xhFovDr7pG5jZ5DU1ZdBbkaE8tLC1SXSxNL4XHXlMZdRSDLVEj-RXU3mmEWUQ6DRx=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "鳥竹総本店", "uri": "https://maps.google.com/maps/contrib/113855880499976129709" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10806649970888955694&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-08T19:30:40+00:00" },
+          "researcher_note": "渋谷道玄坂の炭火焼き鳥老舗。炭火を保ち続ける串焼きが看板業態。創業年・炭の管理法の詳細は未確認。"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJKxKRqYCPGGARhRfti1NyVlQ",
+          "title": "囲炉裏屋 お猪口",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "東京都足立区千住2丁目62 富士ビル 2階 左", "primary_type": "居酒屋" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcdlraORwRlL3RAIyDRNiWr-nUT9nN652KJEecsDrEGLkXzmF8EgfwQvitPtI4rKDxmRHUUbRmYurVuIGwYw-c5tDLsaXVnfKqAD34e19FJNkd645DZmrKnTEbKSPfxcDXovYbc_oDerhpY=s4800-w1108",
+            "source": "google-places",
+            "attributions": [ { "name": "囲炉裏屋 お猪口", "uri": "https://maps.google.com/maps/contrib/105403188956242244310" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6077170450338486149&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-08T19:30:40+00:00" },
+          "researcher_note": "店名に「囲炉裏」を冠する千住の居酒屋。囲炉裏卓を業態の中心に据える店として分類されている。火の管理の具体的な作法は未確認。"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJlQc0ljtdAGAR2GhZv7JkJt4",
+          "title": "囲炉裏茶屋 里の家",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "兵庫県川辺郡猪名川町島内垣内23", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeWS23Ci4e5Rj0xsOmvryL40ca0QB-lYVhErOLfjNU0qdYsKG2LwQSQQZcUyHO-UM9kXWOmGFwxxpnvpBG9S1I56cwKx8snkxamn-j_ftCJCptSRadGld6qYM2mxgaTlUYw1XQZ8TUhCGXX=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Akun Cho", "uri": "https://maps.google.com/maps/contrib/107300320410738301074" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16007592644412270808&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-08T19:30:40+00:00" },
+          "researcher_note": "猪名川町の郊外にある囲炉裏茶屋。囲炉裏を囲む古民家風の食事処として立地。火の継続管理の具体的な運用は未確認。"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJoZoHeb93A2ARin8cBXsX1os",
+          "title": "炭火焼 鰻のうな輝名古屋本店",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "愛知県名古屋市中区錦2丁目13 第三錦ビル 1F", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfLM0b2exHogDKggByoI6M8eMh-ZmhJeHYqz3eMQdQ4Az_Nks--p39a7Ko-2eVVNXnWJfVhorFePpKWzGaYvSBUHpQS0vGT6qQfbdiI_ut56ThAJNDxWguSxkyV3kGv2FrBC1dUeUZBEDA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "炭火焼 鰻のうな輝名古屋本店", "uri": "https://maps.google.com/maps/contrib/110136574294630467175" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10076267033422233482&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-08T19:30:40+00:00" },
+          "researcher_note": "名古屋・錦の炭火焼鰻店。店名に炭火焼を明記。火加減を保ち続ける鰻焼きの具体的な技法は未確認。"
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJXd2vpD3hAGARVvJPkyeoBSA",
+          "title": "炭焼きうなぎの魚伊 本店",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "大阪府大阪市旭区高殿4丁目8-10", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLca3hlCGjRxywpCceH4HUtFUkuy0sPyQ7hGCnPVYoqz_Qpwgez8Zi0BQZhWYOR7kQSPaS_XIKEcyXWflPmjAKqQLiFsvJheU0x2h-4cCUZRwARSWgGXSDKTCC0jZSAv9RYm5xe_vfbvCW_5=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "炭焼きうなぎの魚伊 本店", "uri": "https://maps.google.com/maps/contrib/108563371826905917026" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2307435272025928278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-08T19:30:40+00:00" },
+          "researcher_note": "大阪・旭区の炭焼きうなぎ老舗。店名に炭焼きを明記。火を落とさず焼き続ける具体的な作法は未確認。"
+        }
+      ]
+    },
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784074528028",
+          "title": "いちばんわかりやすい俳句歳時記. 秋冬新年",
+          "creator": "辻, 桃子, 1945-2025 / 安部, 元気, 1943-",
+          "year": 2022,
+          "publisher": "主婦の友社",
+          "meta": { "ndl_link": "https://ndlsearch.ndl.go.jp/books/R100000002-I032333681" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032333681", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-08T19:30:21+00:00" },
+          "researcher_note": "秋冬新年の季語を収録した実用歳時記の最新版。冬の部に火を鎮める祭事系季語(御火焚き・鎮火祭など)が含まれる区分だが、個別季語の収録有無はopenBD/NDL書誌データには含まれず未確認。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784074204526",
+          "title": "いちばんわかりやすい俳句歳時記 秋冬新年",
+          "creator": "辻, 桃子, 1945- / 安部, 元気, 1943-",
+          "year": 2017,
+          "publisher": "主婦の友社",
+          "meta": { "ndl_link": "https://ndlsearch.ndl.go.jp/books/R100000002-I027849360" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027849360", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-08T19:30:21+00:00" },
+          "researcher_note": "poe-01の一つ前の版。同じ秋冬新年の季語区分を収録。版違いとしての参考候補。"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044007768",
+          "title": "今はじめる人のための俳句歳時記",
+          "creator": "角川書店",
+          "year": 2025,
+          "publisher": "KADOKAWA",
+          "meta": { "ndl_link": "https://ndlsearch.ndl.go.jp/books/R100000002-I033871579" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033871579", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-08T19:30:21+00:00" },
+          "researcher_note": "2025年刊の最新版・通年の入門歳時記。四季全体の季語を収録するが、冬の火祭り系季語の具体的な収録有無は未確認。"
+        },
+        {
+          "cand_id": "poe-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044065072",
+          "title": "今はじめる人のための俳句歳時記",
+          "creator": "角川学芸出版",
+          "year": 2011,
+          "publisher": "角川グループパブリッシング",
+          "meta": { "ndl_link": "https://ndlsearch.ndl.go.jp/books/R100000002-I000011302326" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000011302326", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-08T19:30:21+00:00" },
+          "researcher_note": "poe-03の旧版。同一シリーズの版違い候補。"
+        },
+        {
+          "cand_id": "poe-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784074184323",
+          "title": "いちばんわかりやすい俳句歳時記",
+          "creator": "辻, 桃子, 1945-2025 / 安部, 元気, 1943-",
+          "year": 2016,
+          "publisher": "主婦の友社",
+          "meta": { "ndl_link": "https://ndlsearch.ndl.go.jp/books/R100000002-I027625295" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027625295", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-08T19:30:21+00:00" },
+          "researcher_note": "通年版の実用歳時記。四季の区分を単行本一冊にまとめた版。"
+        },
+        {
+          "cand_id": "poe-06",
+          "source_api": "ndl+openbd",
+          "source_id": "9784072792100",
+          "title": "いちばんわかりやすい俳句歳時記 : 現代の生活に即した四季折々の新旧七千季語を収録 : 江戸の名句から最新のものまで、手本になる例句が満載",
+          "creator": "辻, 桃子, 1945-2025 / 安部, 元気, 1943-",
+          "year": 2012,
+          "publisher": "主婦の友社",
+          "meta": { "ndl_link": "https://ndlsearch.ndl.go.jp/books/R100000002-I023355278" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I023355278", "kind": "info" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-08T19:30:21+00:00" },
+          "researcher_note": "新旧七千季語収録を明記する通年版の旧版。版違いとしての参考候補。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "poetry(order 3): 火伏せ・鎮火・御火焚きなど、火を鎮める行為や祭事を主題とした実在の季語・歳時記・詩歌作品から一点。",
+      "reason": "NDLサーチは書誌カタログであり個々の俳句・短歌の本文検索はできない。「御火焚き」「鎮火祭」「火伏せ」を直接含む語でISBN付きの候補を探索したが、ヒットした関連書誌(例:『京都愛宕山と火伏せの祈り』ISBN 4-8122-0538-7)はopenBD照合が0件で鉄則により除外した。代わりに、冬の部に火伏せ系季語を含む実用歳時記(poe-01〜06)をopenBD照合済みで候補としたが、個々の季語本文が収録されているかはNDL/openBD書誌データの範囲外で確認できない。最終的な季語選定の精読は編集部に委ねる。"
+    }
+  ]
+}
