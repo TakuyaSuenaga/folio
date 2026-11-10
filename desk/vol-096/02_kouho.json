@@ -1,0 +1,388 @@
+{
+  "vol": 96,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJYei_JmyLGGARLbmAkN3F-SU",
+          "title": "中銀カプセルタワービル跡地",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒104-0061 東京都中央区銀座8丁目16-10",
+            "primary_type": "史跡"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfoX_4UL8as6jXc0T3BgqkusgrPhB6HU1D2B-hP88f7gzRvL4BjLtKjY0_t4AYXLNRcl8L_MHzvdu8VvkOp7bYcQHGatNFBlgUv3no1YNimy6cM-kpwWO_n6CbsNmy_s_OElkvf=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "中銀カプセルタワービル Nakagin Capsule Tower",
+                "uri": "https://maps.google.com/maps/contrib/113627572497252012085"
+              }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=2736435804007086381&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-09T23:50:16+00:00"
+          },
+          "researcher_note": "Google Placesで現地が「史跡」として登録されており、名称自体が跡地であることを示す。1972年築・2022年解体の建築の現況確認に当たる発注"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJY4HWjseLGGARIBjdW6fAwYs",
+          "title": "築地市場",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒104-0045 東京都中央区築地4丁目14-14",
+            "primary_type": "マーケット"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcsfcH3vGBz8fQpWaNMl6LI7MEuLML8nGl9DkMxYOG71_EDJU4h0SAuI-rGI1Z9ttdF8BtKMq3R_9b4fMiBN-yLVoHxyZhdRvMMSHzHbcgZ-hnLUALHJvwh6B-SbgUeA4dmgyGpg-0zMTI=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "Marcell Varga",
+                "uri": "https://maps.google.com/maps/contrib/113388043040939982494"
+              }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=10070542066810427424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-09T23:50:16+00:00"
+          },
+          "researcher_note": "築地場外市場(現存・隣接)とは別のplace_idで取得。旧卸売市場の所在地そのもので、2018年に豊洲へ移転・閉場した施設の現況確認に当たる発注"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJ1asBawCjWjUR8Lz4kjfV44A",
+          "title": "MEMORIAL OF THE HOME BASE(旧広島市民球場ホームベース跡)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒730-0011 広島県広島市中区基町5-25",
+            "primary_type": "観光名所"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdYgYiW1l35ocbdbbzYnZWL936-cWFvEB7D9tBp5dNytYSa3VqnFV-Nd2u3rnYUNpAQlzdknyedforHIZVHyTa5E2Yk6zsKUE2KyTzfHr-LnbbMdbKxPOOg6H2-RIU-Wcy6fe0=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "co",
+                "uri": "https://maps.google.com/maps/contrib/113789232940301479395"
+              }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=9287501291233787120&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-09T23:50:16+00:00"
+          },
+          "researcher_note": "旧広島市民球場(1957年開場・2009年閉場、解体後に現マツダスタジアムへ移転)の跡地に設置されたホームベース記念碑。名称そのものが解体後の現況を示す"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJv9NfcgDjAGARXPdVZaEADds",
+          "title": "エキスポタワー跡地",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒565-0826 大阪府吹田市千里万博公園1-1",
+            "primary_type": ""
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdorYs12yg606mCBiuNrlQdmcWsLTxIKjfy2Tu78VzBCYcGoxf-uMO_PSw7f4E24oi8AzhXFQkF8V2s4O7ng-T0f6OqZpXuSubExbQATztLXomP_9yHkTs21M3XFUM4OMAEspDSTux1C0ST=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "Yasuyuki Ikenaga",
+                "uri": "https://maps.google.com/maps/contrib/112469724317618687670"
+              }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=15784272962193323868&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-09T23:50:16+00:00"
+          },
+          "researcher_note": "1970年大阪万博のシンボル塔の一つで、万博後も展望塔として使われたが老朽化を理由に2003年に解体された。現地は万博記念公園内に跡地として登録"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "6781077697",
+          "title": "Made In Heaven",
+          "creator": "クイーン",
+          "year": 1995,
+          "publisher": "Hollywood Records, Inc. / Queen Productions Ltd.",
+          "meta": {
+            "trackCount": 13,
+            "primaryGenreName": "ロック"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/6e/37/4e6e37f0-3863-b8d8-d12d-4605a0b0f16a/602527800172.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/made-in-heaven/6781077697?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-09T23:50:16+00:00"
+          },
+          "researcher_note": "1991年のフレディ・マーキュリー死去後、本人が残した最後のボーカル録音を基に残りのメンバーが完成させ、クイーンとして発表した最後のスタジオアルバム"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "2521494",
+          "title": "The Wind",
+          "creator": "ウォーレン・ジヴォン",
+          "year": 2003,
+          "publisher": "Entertainment One",
+          "meta": {
+            "trackCount": 11,
+            "primaryGenreName": "ロック"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f4/df/f9/f4dff97c-fd5b-22c1-fc66-5d5303247efc/s03.nvsfgczt.tif/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/the-wind/2521494?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-09T23:50:16+00:00"
+          },
+          "researcher_note": "末期の肺癌と診断された後に制作・発表されたスタジオアルバムで、発表の約2週間後に本人は死去した"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1154297137",
+          "title": "You Want It Darker",
+          "creator": "レナード・コーエン",
+          "year": 2016,
+          "publisher": "Sony Music Entertainment",
+          "meta": {
+            "trackCount": 9,
+            "primaryGenreName": "ロック"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/5f/54/1f/5f541fad-83ea-ffaa-3979-4cf528496764/886446019253.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/you-want-it-darker/1154297137?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-09T23:50:16+00:00"
+          },
+          "researcher_note": "2016年10月21日発表、本人は同年11月7日に死去した。発表時点から本人の生前最後の作品として報じられたスタジオアルバム"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1440801725",
+          "title": "American VI: Ain't No Grave",
+          "creator": "ジョニー・キャッシュ",
+          "year": 2010,
+          "publisher": "American Recordings, LLC / The Island Def Jam Music Group",
+          "meta": {
+            "trackCount": 10,
+            "primaryGenreName": "カントリー"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c8/5e/9e/c85e9e2a-3ab7-36e3-f44f-eb64b3be4c49/00602527315621.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            {
+              "label": "iTunesで見る",
+              "url": "https://music.apple.com/jp/album/american-vi-aint-no-grave/1440801725?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-09T23:50:16+00:00"
+          },
+          "researcher_note": "American Recordingsシリーズ最終作。本人が2003年に死去する直前まで続けた録音を基に編まれ、シリーズの最後のスタジオアルバムとして発表された"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "bk-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784088807737",
+          "title": "こちら葛飾区亀有公園前派出所 第200巻",
+          "creator": "秋本治",
+          "year": 2016,
+          "publisher": "集英社",
+          "meta": {
+            "series": "ジャンプコミックス",
+            "pubdate": "201609"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027608197",
+              "kind": "catalog"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-09T23:50:16+00:00"
+          },
+          "researcher_note": "1976年から40年間連載された長期シリーズの完結第200巻。openBDに書誌が存在するがcoverは空文字のため画像なし"
+        },
+        {
+          "cand_id": "bk-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784065234174",
+          "title": "進撃の巨人 = Attack on Titan 34",
+          "creator": "諫山創",
+          "year": 2021,
+          "publisher": "講談社",
+          "meta": {
+            "pubdate": "202106"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971430859802769063",
+              "kind": "catalog"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-09T23:50:16+00:00"
+          },
+          "researcher_note": "2009年から2021年まで連載された長期シリーズの完結最終巻(通常版ISBNはopenBD未収載のため、英題併記版のISBNで照合)。coverは空文字のため画像なし"
+        },
+        {
+          "cand_id": "bk-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784757530546",
+          "title": "鋼の錬金術師 27",
+          "creator": "荒川弘",
+          "year": 2010,
+          "publisher": "スクウェア・エニックス",
+          "meta": {
+            "series": "ガンガンコミックス",
+            "pubdate": "201011"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000011048220",
+              "kind": "catalog"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-09T23:50:16+00:00"
+          },
+          "researcher_note": "2001年から2010年まで連載された長期シリーズの完結最終巻。coverは空文字のため画像なし"
+        },
+        {
+          "cand_id": "bk-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784091215802",
+          "title": "犬夜叉 56",
+          "creator": "高橋留美子",
+          "year": 2009,
+          "publisher": "小学館",
+          "meta": {
+            "series": "少年サンデーコミックス",
+            "pubdate": "200902"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000010041969",
+              "kind": "catalog"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-09T23:52:08+00:00"
+          },
+          "researcher_note": "1996年から2008年まで連載された長期シリーズの完結最終巻。coverは空文字のため画像なし"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
