@@ -1,0 +1,228 @@
+{
+  "vol": 97,
+  "genres": [
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784004311218",
+          "title": "歌仙の愉しみ",
+          "creator": "大岡信・岡野弘彦・丸谷才一",
+          "year": 2008,
+          "publisher": "岩波書店",
+          "meta": { "series": "岩波新書", "ndl_subject": "連句" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009321470", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-11T22:00:40+00:00" },
+          "researcher_note": "大岡信・岡野弘彦・丸谷才一の三人が交互に句を詠み継いだ歌仙の実践と解説を収める。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784653044154",
+          "title": "和漢聯句の楽しみ : 芭蕉・素堂両吟歌仙まで",
+          "creator": "大谷雅夫",
+          "year": 2019,
+          "publisher": "臨川書店",
+          "meta": { "ndl_subject": "和漢聯句" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030085348", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-11T22:00:40+00:00" },
+          "researcher_note": "芭蕉と素堂の二人が詠み継いだ両吟歌仙を扱う和漢聯句研究書。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "boo-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784622087113",
+          "title": "アーレント=ハイデガー往復書簡 : 1925-1975",
+          "creator": "ハンナ・アーレント、マルティン・ハイデガー[著]、ウルズラ・ルッツ編、大島かおり・木田元共訳",
+          "year": 2018,
+          "publisher": "みすず書房",
+          "meta": { "edition": "新装版", "original_period": "1925-1975" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028932310", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-11T22:00:40+00:00" },
+          "researcher_note": "アーレントとハイデガーが1925年から1975年にわたり交わした書簡を一冊にまとめた往復書簡集。"
+        },
+        {
+          "cand_id": "boo-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784000613682",
+          "title": "アーレント=ショーレム往復書簡",
+          "creator": "アーレント、ショーレム[著]、マリー・ルイーズ・クノット編集、細見和之・大形綾・関口彩乃・橋本紘樹訳",
+          "year": 2019,
+          "publisher": "岩波書店",
+          "meta": { "ndl_subject": "Arendt, Hannah, 1906-1975" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030023778", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-11T22:00:40+00:00" },
+          "researcher_note": "アーレントとショーレムの往復書簡を一冊にまとめた書簡集。"
+        },
+        {
+          "cand_id": "boo-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784101001265",
+          "title": "川端康成・三島由紀夫往復書簡",
+          "creator": "川端康成・三島由紀夫",
+          "year": 2000,
+          "publisher": "新潮社",
+          "meta": { "series": "新潮文庫" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002939361", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-11T22:00:40+00:00" },
+          "researcher_note": "川端康成と三島由紀夫が交わした書簡を一冊にまとめた往復書簡集。"
+        },
+        {
+          "cand_id": "boo-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003111161",
+          "title": "漱石・子規往復書簡集",
+          "creator": "夏目漱石・正岡子規[著]、和田茂樹編",
+          "year": 2002,
+          "publisher": "岩波書店",
+          "meta": { "series": "岩波文庫" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000003686021", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-11T22:00:40+00:00" },
+          "researcher_note": "夏目漱石と正岡子規が交わした書簡を一冊にまとめた往復書簡集。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1442227821",
+          "title": "Watch the Throne",
+          "creator": "ジェイ・Z & カニエ・ウェスト",
+          "year": 2011,
+          "publisher": "",
+          "meta": { "trackCount": 13, "primaryGenreName": "ヒップホップ／ラップ" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/8b/82/408b8223-24f4-38a1-47b0-709618af8481/00602527812519.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/watch-the-throne/1442227821?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-11T22:00:40+00:00" },
+          "researcher_note": "JAY-ZとKanye Westの二人が同一作品に歌と演奏を持ち寄ったコラボレーション・アルバム。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1469584174",
+          "title": "Ella and Louis",
+          "creator": "エラ・フィッツジェラルド & ルイ・アームストロング",
+          "year": 1956,
+          "publisher": "",
+          "meta": { "trackCount": 11, "primaryGenreName": "ジャズ" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ac/4b/53/ac4b5314-43aa-666b-43b2-845117e9c402/06UMGIM08714.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/ella-and-louis/1469584174?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-11T22:00:40+00:00" },
+          "researcher_note": "エラ・フィッツジェラルドとルイ・アームストロングが同一作品に歌を持ち寄ったデュエット・アルバム。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1469579486",
+          "title": "Diana & Marvin",
+          "creator": "ダイアナ・ロス & マービン・ゲイ",
+          "year": 1973,
+          "publisher": "",
+          "meta": { "trackCount": 10, "primaryGenreName": "モータウン" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/14/eb/86/14eb86be-88da-9cb4-c37b-d12f4c0e68b5/00602547135575.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/diana-marvin/1469579486?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-11T22:00:40+00:00" },
+          "researcher_note": "ダイアナ・ロスとマービン・ゲイが同一作品に歌を持ち寄ったデュエット・アルバム。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1400123971",
+          "title": "EVERYTHING IS LOVE",
+          "creator": "THE CARTERS",
+          "year": 2018,
+          "publisher": "",
+          "meta": { "trackCount": 10, "primaryGenreName": "ヒップホップ／ラップ" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9b/d8/af/9bd8afd3-9703-73d8-3110-cd1add65b0e4/886447179017.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/everything-is-love/1400123971?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-11T22:00:40+00:00" },
+          "researcher_note": "ビヨンセとJAY-Zがザ・カーターズ名義で同一作品に歌を持ち寄ったコラボレーション・アルバム。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1336148994",
+          "title": "Split Album",
+          "creator": "Horna & Pure",
+          "year": 2018,
+          "publisher": "",
+          "meta": { "trackCount": 8, "primaryGenreName": "メタル" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/85/c8/56/85c85610-6d4f-3772-ebe1-d0634e99ab69/191924610731.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/split-album/1336148994?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-11T22:00:40+00:00" },
+          "researcher_note": "HornaとPureの二つのバンドが互いの楽曲を一枚に収録したスプリット・アルバム。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1322427015",
+          "title": "split",
+          "creator": "Helsinki Lambda Club / teto",
+          "year": 2017,
+          "publisher": "",
+          "meta": { "trackCount": 6, "primaryGenreName": "ロック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/11/3e/54/113e54b2-4905-9d02-c1b9-65315c847025/HAMZ001.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/split-ep/1322427015?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-11T22:00:40+00:00" },
+          "researcher_note": "Helsinki Lambda Clubとtetoの二つのバンドが互いの楽曲を一枚に収録したスプリットEP。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1682983470",
+          "title": "Split Album",
+          "creator": "Moyan & OAK",
+          "year": 2023,
+          "publisher": "",
+          "meta": { "trackCount": 5, "primaryGenreName": "インディー・ロック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/42/eb/ae/42ebaeee-2618-7f13-3ecb-0292b4820c04/cover.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/split-album/1682983470?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-11T22:00:40+00:00" },
+          "researcher_note": "MoyanとOAKの二つのアーティストが互いの楽曲を一枚に収録したスプリット・アルバム。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "poetry: 連句・歌仙の実在する作品集を広く探索した補足",
+      "reason": "NDLサーチのany/title検索は完全一致ではなく緩い全文一致で、かつ関連度ではなく別基準でソートされるため、『芭蕉七部集』『歌仙の世界』『連句年鑑』など古典・学術書の多くはISBN非収録(openBD照合不可)で候補化できなかった。openBDに一致した現代刊行物2点のみを候補とした。"
+    }
+  ]
+}

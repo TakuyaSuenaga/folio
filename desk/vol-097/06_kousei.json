@@ -1,0 +1,52 @@
+{
+  "vol": 97,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true,
+      "items[2].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I000009321470": true,
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I028932310": true,
+        "https://music.apple.com/jp/album/split-ep/1322427015?uo=4": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009321470",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028932310",
+        "status": 200
+      },
+      {
+        "url": "https://music.apple.com/jp/album/split-ep/1322427015?uo=4",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "desk/vol-097/design.json spot_color および gera.html :root{--spot}",
+      "severity": "minor",
+      "type": "規定違反",
+      "genzai": "#1740C8(前号 vol-096・2026-11-10発行号のspot_colorと同一)",
+      "teisei": "前号(#1740C8)と明確に異なる特色一色へdesign.jsonのspot_colorを変更する(責了指示を経てart-directorが修正)"
+    }
+  ]
+}
