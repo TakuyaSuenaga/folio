@@ -1,0 +1,374 @@
+{
+  "vol": 98,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJu--RQl5T9V8RCeTZA2TWrBA",
+          "title": "末廣酒造 嘉永蔵",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒965-0861 福島県会津若松市日新町１２−３８", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdF_Or1aJ7Ui_u-aF_rEVblk2xnpaLUO3JznspVp2uUgxxv4M3WS_9snPsymPfPj3IxNSdLegea9M2OGJBWwzXnhZdaUQjLG8rY-Encbumddlrr5KW-oZNweAKi-pmRxI7z7B0=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "末廣酒造 嘉永蔵", "uri": "https://maps.google.com/maps/contrib/104076022200490944707" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1201570925650764809&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-12T21:46:13+00:00" },
+          "researcher_note": "名称に嘉永の年号を持つ現存の酒蔵建築。Google Placesに蔵見学施設として登録されている。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJK3S4ul3gCl8RqOD0wRgNyyM",
+          "title": "田中酒造 亀甲蔵",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒047-0016 北海道小樽市信香町２−２", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdVv8hJgQ7m2rQ1vCVGproaSNKjPQbJFusivB2_ymPjl1pfthUdPeo4SJYfpsYljitwj4xrp8_kesOYL-mYEOs3YOuzt9RJTvCUOLqha049IMwIjthPeFGJdfMHPFlMB77rP2aPgQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "田中酒造 亀甲蔵", "uri": "https://maps.google.com/maps/contrib/105442464363384741087" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2579169611584168104&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-12T21:46:13+00:00" },
+          "researcher_note": "小樽運河沿いの旧倉庫を転用した現存の酒蔵建築。Google Placesに蔵見学施設として登録されている。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJtVM_q4fJ9F8R3bKoV-jFpa8",
+          "title": "今代司酒造(株)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒950-0074 新潟県新潟市中央区鏡が岡１−１", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdXX0jrBDEBEHHnLL0fudsl7YlZYMZ-n9gzY8ZRicxukhHFAZ9YvRYJStALsJ_6XXZOInDAIA7X--jt6jZ1YnE-5lc0SU-tx8HhkfLuXUHCOf5dc4F_rkzzK_B2zdY4pzjrBU8=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "今代司酒造株式会社", "uri": "https://maps.google.com/maps/contrib/102931759099891982732" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12656739929488405213&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-12T21:46:13+00:00" },
+          "researcher_note": "新潟市中央区に現存し稼働中の酒蔵建築。Google Placesに蔵見学施設として登録されている。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJLT9UskyMAGARd29rrqJvjQ4",
+          "title": "神戸酒心館_蔵元ショップ東明蔵",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒658-0044 兵庫県神戸市東灘区御影塚町１丁目８−１７", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd5FJmaM_cXIRugmj4zWpvZWJqHktLOYFZVAJj8YTVZioVIvqeVSGTMBf14u6OktJqVGx8mU2IagIKL5GSIQpSCNB48Sg9w5OJ2KQvDb-dEEjYbtzcbgJHOVQkv70CP8_XXYebt=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Jプラリ", "uri": "https://maps.google.com/maps/contrib/111812283518840159013" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1048617032748855159&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-12T21:46:13+00:00" },
+          "researcher_note": "灘五郷のひとつ御影郷に現存する酒蔵「東明蔵」。蔵元ショップとして公開されている。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJDzwxpxPnGGARRkXgOgltIew",
+          "title": "豊島屋酒造株式会社",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒189-0003 東京都東村山市久米川町３丁目１４−１０", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfhMi4DKSriAwmQD2_ATiauT0NS51q81sKBc24YH_XTXc3Ht03vYwQ-XDwmDkwgZx613KhCwimN_lVHioBvWpTDyGLfZp9O4ZtB_uXUlRPBsrBkUYolBwfRFsTa0vWTTBXGWrjMng=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "豊島屋酒造株式会社", "uri": "https://maps.google.com/maps/contrib/110781687742662207945" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17015000753592354118&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-12T21:46:13+00:00" },
+          "researcher_note": "東京都東村山市に現存し稼働中の酒蔵建築。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJ2-StrvbJHmARhVhTb29OVeE",
+          "title": "秩父錦 酒づくりの森",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒368-0054 埼玉県秩父市別所１４３２", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcA68Uf6-29doYG8KSQ2SNAYOCE9sIiURl87Xg7GJXpTPqi2QVU40kNMxGK82q4jhWHJAwUiI-i6UjOblT24lO6a2-4NiZWy2_bnHC_UTm8sf_71GKOMh8qUMfcGJ3e9TcA2AvD2A=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "さらら", "uri": "https://maps.google.com/maps/contrib/102928525342067948234" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16236970272070260869&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-12T21:46:13+00:00" },
+          "researcher_note": "秩父地方に現存する酒造施設。見学施設として公開されている。"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJAQDVPEu9BGARq79_yhcqZfU",
+          "title": "まるや八丁味噌 みそ蔵見学 直売",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒444-0925 愛知県岡崎市八丁町52番地", "primary_type": "観光名所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeKKE9xs8ig8kwHSsyEEhocwrq29yBYHOHhNPY8m_0EEsGHfMc4AsS-iTOfm-lG4-knt9DZXykJyRrkkXogG18VJz_BxqY61_RYYNbdHkQaI5HdwegwsHh6q9KKdodTJhV-rKNzQA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "かとうひろし", "uri": "https://maps.google.com/maps/contrib/108756361282316514183" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17682585793610104747&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-12T21:46:13+00:00" },
+          "researcher_note": "八丁味噌の仕込蔵。Google Placesで「観光名所」として登録され、蔵見学施設として公開されている味噌蔵建築。"
+        },
+        {
+          "cand_id": "arc-08",
+          "source_api": "google_places",
+          "source_id": "ChIJw59FaMrHHmAR5I1eteK1XRs",
+          "title": "藤﨑摠兵衛商店・長瀞蔵",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒369-1305 埼玉県秩父郡長瀞町長瀞１１５８", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc-d7WDYfOXC6T1iZGq8MZb0vKO09G73sX991SI6MGb11P9qe0H8bmNLPuIc7p04g9ki2OGIzyYILXZSxxV3h5dKTwrfpoY5mF2PcBhMxkGJhf7cbZeS_fxnH_p3h9bebMVvYdp=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "藤﨑摠兵衛商店・長瀞蔵", "uri": "https://maps.google.com/maps/contrib/111687409054940245368" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=1971932197168254436&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-12T21:46:13+00:00" },
+          "researcher_note": "長瀞に現存する「長瀞蔵」の名を持つ酒造建築。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJkZh9o0ukGWARPcTDPYSEf7s",
+          "title": "(株)加藤兵太郎商店 (いいちみそ)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒250-0001 神奈川県小田原市扇町５丁目１５−６", "primary_type": "醸造所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc5JoE-xmcuBTc9WC40fiAX5RtfM-uhF1Nhc1M1786uBLzesCGJZj4eTUDh-L9o_kttgomIDK0CQYKc7kzyxaR_t3vPylLdq2fZPHWoBdf7rB0pdDIVCwqeqnNn4VFak_3QV4LAy6Huxouw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "maverick", "uri": "https://maps.google.com/maps/contrib/112732427324385844187" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13510663110641566781&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-12T21:46:13+00:00" },
+          "researcher_note": "味噌醸造業として登録。Places情報には仕込み時期の記載は無く、季節性の裏付けは原稿執筆時に別途確認が必要。酒蔵直営店ではない。"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJp8_DHeSLGGARRPKCBTvi2sc",
+          "title": "味噌蔵徳兵衛",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒104-0061 東京都中央区銀座３丁目６−１", "primary_type": "アジア食材店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe62Z6-Ru3eEprMmGt-oieQkAAiGK7L0vw_ei_AFrYpU1VnhPYzUeErbvuOmub3cmh5O_1NmG2RYasNoxJC3xgLXHp6vhTZi8iYaH0Vhv0DEfJwllnaJJPVix5MsLzwaV0ANg_nzZgkCQ-4=s4800-w1080",
+            "source": "google-places",
+            "attributions": [ { "name": "だいごとこはる", "uri": "https://maps.google.com/maps/contrib/110414283188125405577" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14401071501593997892&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-12T21:46:13+00:00" },
+          "researcher_note": "味噌を扱う食材店。Places情報には仕込み時期の記載は無く、季節性の裏付けは原稿執筆時に別途確認が必要。酒蔵直営店ではない。"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJy5WPmIkJAWAR-1tfKw5L-F8",
+          "title": "蔵代味噌",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒604-8117 京都府京都市中京区堀之上町１０６", "primary_type": "食料品店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdNUuINYzwZChTeopCEo3ycoyciRt7UzXdTbOfxgOSIAGX-sdHBL5PfJsWoHJgRwEVHNAYXaSTkVfFAUQqEEunAHQX5B82X0HDNQG6kfDWpRwbeAqVJiHXqokxj1SdtJfXnr0su=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "蔵代味噌", "uri": "https://maps.google.com/maps/contrib/109634695322214907932" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6915359752056691707&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-12T21:46:13+00:00" },
+          "researcher_note": "京都市中京区の味噌専門店。Places情報には仕込み時期の記載は無く、季節性の裏付けは原稿執筆時に別途確認が必要。酒蔵直営店ではない。"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJvQWwKnqKGGARcPcXqPYt6-M",
+          "title": "仙台味噌醸造所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒140-0011 東京都品川区東大井４丁目１−１０", "primary_type": "アジア食材店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdKsSeYnPPlJjflKodrrX9sEb3_jdalId6j_yzXcWX3EGBXEgO9-Nsit20nG791sHzIIlAy_pSMiRqo0LB0rp6-dL4owurS_p3C66FwAo37-hquqRJYLFcACMYeUJOcorK0Z2rs=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "川尻健裕", "uri": "https://maps.google.com/maps/contrib/116662685578950347450" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16423271003541993328&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-12T21:46:13+00:00" },
+          "researcher_note": "「仙台味噌」の名を持つ味噌醸造所。Places情報には仕込み時期の記載は無く、季節性の裏付けは原稿執筆時に別途確認が必要。酒蔵直営店ではない。"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJlR9yqbg5BGARpUlrUcRibSE",
+          "title": "蔵乃屋",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒519-2170 三重県多気郡多気町ヴィソン672番1 蔵前20", "primary_type": "食料品店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeyv8yF44bjGz72IRJ7J3v4INAbPDzL3wMd_g-Z79vp7iTSyIeZau2ibOyCOmA3pC_3ydgs8S79uVy1Aby4CGI4WXAmxGO-MnygDFx-W3OwbhQ8nSMZ2zLPQ21x_siZw40befj86w=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "呂効儒", "uri": "https://maps.google.com/maps/contrib/116764444857197136971" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2408689971032181157&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-12T21:46:13+00:00" },
+          "researcher_note": "三重県多気町の味噌・発酵食品店。Places情報には仕込み時期の記載は無く、季節性の裏付けは原稿執筆時に別途確認が必要。酒蔵直営店ではない。"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJDwFirHeiBGAR65kHAwKLUFA",
+          "title": "のだみそ（桝塚味噌）",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒470-1213 愛知県豊田市桝塚西町南山６", "primary_type": "製造元" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfCU-hVqB2y_YNF0ldjsBmaf-UALhRaH4L3XNfJZjzaKX_hpw-1487NNLgPacECWw9dtdWbhX6OEWX7DpdgiHthvPiKV8TX05_va7oc4_IxVsA1MZaLy8dlz6XHbIh_7KRkY9i-CQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "のだみそ（桝塚味噌）", "uri": "https://maps.google.com/maps/contrib/103514492524856264082" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5787278361928112619&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-12T21:46:13+00:00" },
+          "researcher_note": "桝塚味噌の製造元。Places情報には仕込み時期の記載は無く、季節性の裏付けは原稿執筆時に別途確認が必要。酒蔵直営店ではない。"
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJlzSiR6au-F8RU5SHU_SRG6c",
+          "title": "マルカワみそ",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒915-0006 福井県越前市杉崎町１２−６２", "primary_type": "醸造所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfnruY9nor0PtRf3aGWWVYQaejKpru9fVFBKJ8HMIFkfq2izhGb_V_3B3iqCSLWUGJHqb262Xb-QTooOjPp8RNOIjurKAqC1P73YqcaJcOZKymISf-bcWnSKUr9o-iWyZRbxD6w-Q=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "マルカワみそ", "uri": "https://maps.google.com/maps/contrib/112461077391480815940" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12041378507264595027&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-12T21:46:13+00:00" },
+          "researcher_note": "「寒仕込み 味噌」の検索語に合致した福井県越前市の味噌醸造所。酒蔵直営店ではない。"
+        },
+        {
+          "cand_id": "res-08",
+          "source_api": "google_places",
+          "source_id": "ChIJyU2CGpGJRjURqTJZGDt0oPM",
+          "title": "糀屋本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "日本、〒876-0831 大分県佐伯市大手町３丁目４−１１", "primary_type": "醸造所" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdQoE3VlnkmV2uTtKKEE-cy7aelPMwtCvi8cPFhI1t4Lo9AlRo8VpdCARvloFnQaVh34t9GQy8CO5IWPeuuCAPmqiWAYg0vFM-VWuJzMedNl6qjjZoihwkOlPPXirrHxgRV2A8=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "糀屋本店", "uri": "https://maps.google.com/maps/contrib/101657140103627000043" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17555159144650584745&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-12T21:46:13+00:00" },
+          "researcher_note": "麹・甘酒を手がける醸造所。Places情報には仕込み時期の記載は無く、季節性の裏付けは原稿執筆時に別途確認が必要。酒蔵直営店ではない。"
+        }
+      ]
+    },
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044005023",
+          "title": "角川俳句大歳時記 冬",
+          "creator": "茨木和生・片山由美子・長谷川櫂・宇多喜代子ほか",
+          "year": 2022,
+          "publisher": "KADOKAWA",
+          "meta": { "ndl_source_query": "寒造り" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032497234", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-12T21:46:13+00:00" },
+          "researcher_note": "冬の季語を収録した大歳時記の冬巻。立冬・寒造りはいずれも冬の季語として収録範囲に含まれる。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044008031",
+          "title": "角川　季語別俳句集成　冬",
+          "creator": "角川書店",
+          "year": null,
+          "publisher": "ＫＡＤＯＫＡＷＡ",
+          "meta": { "ndl_source_query": "立冬 俳句" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034281901", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-12T21:46:13+00:00" },
+          "researcher_note": "季語別に句を集成した冬巻。立冬を季語とする句の収録範囲に含まれる。"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784794226815",
+          "title": "音数で引く俳句歳時記・冬+新年",
+          "creator": "岸本尚毅監修・西原天気編",
+          "year": 2023,
+          "publisher": "草思社",
+          "meta": { "ndl_source_query": "立冬 俳句" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I033121388", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-12T21:46:13+00:00" },
+          "researcher_note": "音数索引を持つ冬・新年の歳時記。立冬の季語項を含む。"
+        },
+        {
+          "cand_id": "poe-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784140162750",
+          "title": "暦と暮らす : 語り継ぎたい季語と知恵",
+          "creator": "宇多喜代子",
+          "year": 2020,
+          "publisher": "NHK出版",
+          "meta": { "ndl_source_query": "立冬 俳句" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030353223", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-12T21:46:13+00:00" },
+          "researcher_note": "二十四節気・季語を暮らしの知恵として読み解く一冊。立冬の項を含む構成である。"
+        },
+        {
+          "cand_id": "poe-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784394550013",
+          "title": "暮らしの中の二十四節気 : 丁寧に生きてみる",
+          "creator": "黛まどか",
+          "year": 2021,
+          "publisher": "春陽堂書店",
+          "meta": { "ndl_source_query": "立冬 俳句" },
+          "links": [ { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031717244", "kind": "catalog" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-12T21:46:13+00:00" },
+          "researcher_note": "俳人による二十四節気の随筆集。立冬を含む節気ごとの項立てである。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

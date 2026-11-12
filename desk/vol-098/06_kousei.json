@@ -1,0 +1,34 @@
+{
+  "vol": 98,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=1201570925650764809&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://maps.google.com/?cid=12041378507264595027&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032497234",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[0] essay 冒頭「会津若松の末廣酒造嘉永蔵は」",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "末廣酒造嘉永蔵(本文、スペースなし)。h2見出し・DATA欄「題名」・画像alt・figcaption写真クレジットはいずれも「末廣酒造 嘉永蔵」(スペースあり)。",
+      "teisei": "末廣酒造 嘉永蔵(本文にもスペースを入れ、見出し・DATA欄と表記を一致させる)"
+    }
+  ]
+}
