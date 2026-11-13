@@ -1,0 +1,507 @@
+{
+  "vol": 99,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJWco6Ag70QDURMOTNdshmi14",
+          "title": "熊本城",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒860-0002 熊本県熊本市中央区本丸１−１",
+            "primary_type": "城"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLftkzgKpvafFvBUqFK6pQSbyQWOqmbiJ5MCbCB4jxSuHLI71T7C_RJfv1UY3hx6ZZ3ZKy8DmaOIUZ__xoiqoIGuUJX0yjuR4Cvwb4ZNetDXsnSZRqZBZn-D1ykravHnGxa-qGUI3gS7inw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Ugandan Knuckles", "uri": "https://maps.google.com/maps/contrib/103547288872315708723" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6812651872500704304&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-13T21:18:36+00:00" },
+          "researcher_note": "2016年熊本地震で天守・石垣等が被災した城郭として知られ、原形復元ではなく欠損を抱えたまま復旧工事を経て使用を再開した例として想定した。被災・復旧の経緯の事実確認はPlacesデータに含まれず未実施。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJwUdFdZ6biV8Rh8mo-3tHHU4",
+          "title": "瑞巌寺",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒981-0213 宮城県宮城郡松島町松島町内９１",
+            "primary_type": "仏教寺院"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc6Ck3-xBPBOHCVCeBpypInRMTv3iNo5Q-a8YCXl-2qNSKuvpqo0Ws_7N41Z1w7SMENRhFng9oIaN4hnUzfCvCqABKzFd0lsoQWf47C3Nbin-BckxducfUQMBDn__GzkrF2zgKe=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "瑞巌寺", "uri": "https://maps.google.com/maps/contrib/116794612044878495559" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5628733707111680391&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-13T21:18:36+00:00" },
+          "researcher_note": "東日本大震災で被災した松島の古刹として知られ、修復工事を経て使用が再開された例として想定した。被災・修復の経緯の事実確認はPlacesデータに含まれず未実施。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJZ9v0bP5r5TQRi0-esrqficA",
+          "title": "首里城",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒903-0815 沖縄県那覇市首里金城町１丁目２",
+            "primary_type": "城"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfVYF0P4JkkFCCAAeySvSZ66rarcpMH7OmspYy70RC9GLVfWaCu_SOILgFSeRuLJCKz76xXzP4qJ1t7srUDVllps59U4MBNdmsZv2kiM9glhfCXHLOv1i6pmySszwmElURHu7jAtxRCkUGJ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "H W", "uri": "https://maps.google.com/maps/contrib/116999157415590170885" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13873795751300976523&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-13T21:18:36+00:00" },
+          "researcher_note": "2019年の火災で焼失し再建が進められていると報じられる城郭。発注が想定する被災要因は地震・災害・老朽化であり、火災による焼失がこれに合致するかは編集判断を要する。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJNSAhU8WmH2ARlA7wenFbUKs",
+          "title": "日光東照宮",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒321-1431 栃木県日光市山内２３０１",
+            "primary_type": "神社"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfHOcCFeV4wpoVrOTpR8mB2VUf9cYdbEcUgJMayu8NwxO4tbVikPrGiiKEf2CRNZAvAfIdr6a4B2FM0Hd2d_3VBucdu55yVVDjbn9evizC7KsobBtjMmW8EWT3r4b6-PkPQX551Bw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "no future", "uri": "https://maps.google.com/maps/contrib/118302719777803300860" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12344467121574514324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-13T21:18:36+00:00" },
+          "researcher_note": "老朽化に伴う大規模な保存修理(平成の大修理等)が行われてきた社殿建築として想定した。修理内容・時期の事実確認はPlacesデータに含まれず未実施。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJsyQzogPgVDURsYG6bi-MT3o",
+          "title": "姫路城",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒670-0012 兵庫県姫路市本町６８",
+            "primary_type": "城"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfTuVoSPCbUdUAxDYcHu-LSBvTF7H4H8FlBeUxcvYt1HIArACzA4oaodytYyAvOUhLHKl9v0PqK3KMkFrxLWbPiHURAmgJHbGZON5TE76gzvNcvX5J9OaOgratksKejK6jdm_ha5NKxa80=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Allen Z.", "uri": "https://maps.google.com/maps/contrib/108702940200365245910" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8813417131136418225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-13T21:18:36+00:00" },
+          "researcher_note": "瓦・漆喰等の老朽化による保存修理(昭和・平成の大修理)が行われた国宝城郭として想定した。修理内容の事実確認はPlacesデータに含まれず未実施。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJHWZuaz40RTURCJfwPHOzVGY",
+          "title": "錦帯橋",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒741-0062 山口県岩国市岩国１丁目２",
+            "primary_type": "橋"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdYmSkVk-dl5BH4m_Xa5_yEKeJKuORFVI8-JuHTyLef6Gsi3CWwfT3ia451Oq7O-ym1hWz_fPGM1sLdXtX8ZwuALHbA8QIn6JSsMzmsFXj0XmMMNt2DKvyClnujkUVD49Cm5YJTOAWsx9E=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Aihara Mutsuhito", "uri": "https://maps.google.com/maps/contrib/114424429956879473907" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=7373715797437355784&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-13T21:18:36+00:00" },
+          "researcher_note": "木造ゆえの老朽化・流失により架け替え・修復が繰り返されてきた橋として想定した。架け替え経緯の事実確認はPlacesデータに含まれず未実施。"
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJw9u_XSsrAmARMIwpeAshKu4",
+          "title": "彦根城",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒522-0061 滋賀県彦根市金亀町１−１",
+            "primary_type": "城"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe-Fb_TcImvmpwNadM2jNuY5peUecn5Ydd0EQs7TBLpCMpNMptYvVGdqN0fscQSkki9raZ-v_CnBrlTOSg8pcCqDxhcopAQ2piBkqQ84X6NoJr2c1rwy0kSOnqBDvPasTfBMOqBfQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "駱弘偉", "uri": "https://maps.google.com/maps/contrib/115970559258081273041" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17161565663193041968&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-13T21:18:36+00:00" },
+          "researcher_note": "国宝天守を持つ城郭だが、大規模な被災記録はPlacesデータからは確認できず、老朽化修理の比較対象として収集した。発注との適合度は編集判断に委ねる。"
+        },
+        {
+          "cand_id": "arc-08",
+          "source_api": "google_places",
+          "source_id": "ChIJ3VvuU8gpil8Rmx_4_QZWdk4",
+          "title": "国宝 大崎八幡宮",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒980-0871 宮城県仙台市青葉区八幡４丁目６−１",
+            "primary_type": "神社"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdWoWzXKtR9Aa_fcYQNsmt2W2mVTAyCXg39Si_Rqhs7lMdQGdHcrjjCRpmcnpppzzUFEyc3VgnCPNQPz52Wbhd8uXUxpe3462eGAPRPQESfUCYlRNzkfp1-AfRKwvicQa7vcnhJ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "山口崇", "uri": "https://maps.google.com/maps/contrib/116030909526152997164" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5653800970240925595&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-13T21:18:36+00:00" },
+          "researcher_note": "東日本大震災で被災した国宝建築として知られ、修復を経て使用が再開された例として想定した。被災・修復の経緯の事実確認はPlacesデータに含まれず未実施。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "720113626",
+          "title": "Smile Sessions",
+          "creator": "ザ・ビーチ・ボーイズ",
+          "year": 1967,
+          "publisher": "Capitol Records, LLC",
+          "meta": {
+            "collectionName": "Smile Sessions",
+            "copyright": "℗ 2011 Capitol Records, LLC",
+            "releaseDate": "1967-10-28T07:00:00Z",
+            "trackCount": 41,
+            "primaryGenreName": "ロック"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/17/c3/26/17c326ce-9bfa-76c2-6957-a8a221224be1/05099931901857.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/smile-sessions/720113626?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-13T21:18:20+00:00" },
+          "researcher_note": "1966-67年に制作されながら未完成のまま散逸したセッションテープ群を、2011年に発見・編集して発表した一枚。テープの保存状態・欠落箇所の技術的詳細はiTunesメタデータに含まれず未確認。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "724119116",
+          "title": "The Smile Sessions (Box Set)",
+          "creator": "ザ・ビーチ・ボーイズ",
+          "year": 2011,
+          "publisher": "Capitol Records, LLC",
+          "meta": {
+            "collectionName": "The Smile Sessions (Box Set)",
+            "copyright": "This Compilation ℗ 2011 Capitol Records, LLC",
+            "releaseDate": "2011-10-28T07:00:00Z",
+            "trackCount": 139,
+            "primaryGenreName": "ロック"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/57/8b/83/578b8353-9973-ab60-d406-1f9804505a65/05099902765853.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/the-smile-sessions-box-set/724119116?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-13T21:18:20+00:00" },
+          "researcher_note": "mus-01と同一セッションの拡大版。収録トラック数139点で現存するセッション素材をより網羅する。復元の技術的経緯はメタデータに含まれず未確認。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1394173341",
+          "title": "Both Directions at Once: The Lost Album",
+          "creator": "ジョン・コルトレーン",
+          "year": 2018,
+          "publisher": "Verve Label Group, a Division of UMG Recordings, Inc.",
+          "meta": {
+            "collectionName": "Both Directions at Once: The Lost Album",
+            "copyright": "℗ 2018 Verve Label Group, a Division of UMG Recordings, Inc.",
+            "releaseDate": "2018-06-29T07:00:00Z",
+            "trackCount": 8,
+            "primaryGenreName": "ジャズ"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f9/e3/4c/f9e34cc8-d80d-bb3b-dd14-eee46b89101c/18UMGIM31408.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/both-directions-at-once-the-lost-album/1394173341?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-13T21:18:20+00:00" },
+          "researcher_note": "1963年に録音されながら長年所在不明とされていたマスターテープが発見され、2018年に復元・発表された一枚。テープの損傷状況の技術的詳細はメタデータに含まれず未確認。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1394187263",
+          "title": "Both Directions at Once: The Lost Album (Deluxe Version)",
+          "creator": "ジョン・コルトレーン",
+          "year": 2018,
+          "publisher": "Verve Label Group, a Division of UMG Recordings, Inc.",
+          "meta": {
+            "collectionName": "Both Directions at Once: The Lost Album (Deluxe Version)",
+            "copyright": "℗ 2018 Verve Label Group, a Division of UMG Recordings, Inc.",
+            "releaseDate": "2018-06-29T07:00:00Z",
+            "trackCount": 15,
+            "primaryGenreName": "ジャズ"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/09/36/67/093667d3-b916-6b94-c47a-816ff59e7529/18UMGIM31408.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/both-directions-at-once-the-lost-album-deluxe-version/1394187263?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-13T21:18:20+00:00" },
+          "researcher_note": "mus-03と同録音の拡大版。別テイクを追加収録する。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1441132606",
+          "title": "Let It Be... Naked",
+          "creator": "ビートルズ",
+          "year": 2003,
+          "publisher": "Apple Corps Limited/Calderstone Productions Limited (a division of Universal Music Group)",
+          "meta": {
+            "collectionName": "Let It Be... Naked",
+            "copyright": "℗ 2013 Apple Corps Limited/Calderstone Productions Limited (a division of Universal Music Group)",
+            "releaseDate": "2003-11-17T08:00:00Z",
+            "trackCount": 11,
+            "primaryGenreName": "ロック"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/41/d7/86/41d786b7-8d0a-ce27-a25a-c0ea71e7df80/00602567705468.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/let-it-be-naked/1441132606?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-13T21:18:20+00:00" },
+          "researcher_note": "1969-70年録音のマスターを2003年に再編集・ミックスし直して発表した版。元テープの劣化・欠落に関する技術的詳細はメタデータに含まれず未確認。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1582541991",
+          "title": "Let It Be (2021 Super Deluxe)",
+          "creator": "ビートルズ",
+          "year": 1970,
+          "publisher": "Calderstone Productions Limited (a division of Universal Music Group)",
+          "meta": {
+            "collectionName": "Let It Be (2021 Super Deluxe)",
+            "copyright": "This Compilation ℗ 2021 Calderstone Productions Limited (a division of Universal Music Group)",
+            "releaseDate": "1970-05-08T07:00:00Z",
+            "trackCount": 57,
+            "primaryGenreName": "ロック"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/ff/9a/5fff9a6a-bb13-6507-5e68-2793ef798834/21UMGIM61121.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/let-it-be-2021-super-deluxe/1582541991?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-13T21:18:20+00:00" },
+          "researcher_note": "1969-70年のセッション素材を2021年に未発表曲等を含めて再構成した拡大再編集盤。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1440797926",
+          "title": "Metamorphosis",
+          "creator": "ザ・ローリング・ストーンズ",
+          "year": 1975,
+          "publisher": "ABKCO Music & Records, Inc.",
+          "meta": {
+            "collectionName": "Metamorphosis",
+            "copyright": "℗ 2013 ABKCO Music & Records, Inc.",
+            "releaseDate": "1975-06-06T07:00:00Z",
+            "trackCount": 17,
+            "primaryGenreName": "ロック"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/e2/47/fd/e247fdff-f682-81d2-0bcf-25ace92ca675/00018771896623.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/metamorphosis/1440797926?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-13T21:18:20+00:00" },
+          "researcher_note": "1960年代のアウトテイク等を1975年に編集・発表したアルバム。元テープの状態に関する技術的詳細はメタデータに含まれず未確認。"
+        },
+        {
+          "cand_id": "mus-08",
+          "source_api": "itunes",
+          "source_id": "1886916918",
+          "title": "The Pet Sounds Sessions (Deluxe Edition)",
+          "creator": "ザ・ビーチ・ボーイズ",
+          "year": 2026,
+          "publisher": "Capitol Records, LLC",
+          "meta": {
+            "collectionName": "The Pet Sounds Sessions (Deluxe Edition)",
+            "copyright": "A Capitol Records release; ℗ 2026 Capitol Records, LLC",
+            "releaseDate": "2026-05-14T07:00:00Z",
+            "trackCount": 90,
+            "primaryGenreName": "ロック"
+          },
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/b1/01/efb101e2-4781-ade9-4c21-731de0e4a787/26UMGIM24796.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          },
+          "links": [
+            { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/the-pet-sounds-sessions-deluxe-edition/1886916918?uo=4", "kind": "stream" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-13T21:18:20+00:00" },
+          "researcher_note": "1966年のセッション素材を含む拡大再編集盤。収録に至った技術的経緯はメタデータに含まれず未確認。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "bk-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784130910910",
+          "title": "大日本古文書　家わけ第九（吉川家文書之一）",
+          "creator": "東京大学史料編纂所／編",
+          "year": null,
+          "publisher": "東京大学出版会",
+          "meta": {
+            "series": "大日本古文書",
+            "pubdate": "19700901"
+          },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970304959857875366", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-13T21:18:09+00:00" },
+          "researcher_note": "中世武家文書を家ごとに翻刻する史料編纂所の刊行事業の一冊。火災・散逸により欠失・虫損のある古文書を底本の欠落箇所を注記したうえで翻刻・刊行する叢書。openBDにcoverは無く画像なし。"
+        },
+        {
+          "cand_id": "bk-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784642041966",
+          "title": "吾妻鏡 : 吉川本 第1",
+          "creator": "早川,純三郎",
+          "year": 2008,
+          "publisher": "吉川弘文館",
+          "meta": {
+            "series": "国書刊行会本",
+            "pubdate": "200801"
+          },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009287010", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-13T21:18:09+00:00" },
+          "researcher_note": "鎌倉幕府編纂の史書『吾妻鏡』は完本が現存せず、吉川本・北条本等の複数の不完全な写本系統から校訂・刊行されてきた。本書はその吉川本系統の翻刻。欠巻箇所の注記の有無はNDL/openBDのメタデータからは未確認。openBDにcoverは無く画像なし。"
+        },
+        {
+          "cand_id": "bk-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784642027113",
+          "title": "吾妻鏡 : 現代語訳 4 (奥州合戦)",
+          "creator": "五味,文彦,1946- ; 本郷,和人,1960-",
+          "year": 2008,
+          "publisher": "吉川弘文館",
+          "meta": {
+            "pubdate": "200809"
+          },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009544279", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-13T21:18:09+00:00" },
+          "researcher_note": "bk-02と同じ『吾妻鏡』の現代語訳版。写本系統間の欠落箇所をどう注記しているかはメタデータからは未確認。openBDにcoverは無く画像なし。"
+        },
+        {
+          "cand_id": "bk-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784872945645",
+          "title": "水損史料を救う : 風水害からの歴史資料保全",
+          "creator": "松下,正和 ; 河野,未央",
+          "year": 2009,
+          "publisher": "岩田書院",
+          "meta": {
+            "series": "岩田書院ブックレット ; アーカイブズ系 A-12",
+            "pubdate": "200905"
+          },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000010273464", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-13T21:18:09+00:00" },
+          "researcher_note": "風水害で水損した古文書等の歴史資料を救出・修復する活動を記録した一冊。発注が想定する『欠落箇所を注記した校訂・刊行』そのものではなく、修復活動の報告書である点で距離がある。openBDにcoverは無く画像なし。"
+        },
+        {
+          "cand_id": "bk-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784621312360",
+          "title": "必携　文化財防災の手引き",
+          "creator": "国立文化財機構文化財防災センター ; 日髙真吾 ; 小谷竜介",
+          "year": null,
+          "publisher": "丸善出版",
+          "meta": {},
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034511799", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-13T21:18:09+00:00" },
+          "researcher_note": "文化財の災害対策全般を扱う手引書であり、特定の焼失・散逸原稿の校訂・復元そのものを主題とはしていない。発注との距離が大きく、補助的な候補として収集した。openBDにcoverは無く画像なし。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

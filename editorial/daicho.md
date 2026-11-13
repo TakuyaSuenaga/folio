@@ -98,3 +98,4 @@ vol.095 | 2026-11-09 | 鎮火 | architecture,restaurant,poetry | うだつの事
 vol.096 | 2026-11-10 | 終刊 | architecture,music,book | 中銀カプセル跡地・メイド・イン・ヘヴン・こち亀最終巻の三点で、不可逆に積み重ねた時間が完結によって輪郭を得る終刊の形を読んだ号
 vol.097 | 2026-11-12 | 交換 | poetry,book,music | 往復書簡・歌仙・スプリット盤から双方同時の譲渡という対称構造を読んだ三点構成
 vol.098 | 2026-11-13 | 寒造り | architecture,restaurant,poetry | 酒蔵建築・味噌の寒仕込み・歳時記の三点から、完成を急がず低温に時間を預ける寒造りの構えを読む
+vol.099 | 2026-11-14 | 復旧 | architecture,music,book | 熊本城の復旧工事・The Smile Sessionsの編集・吾妻鏡吉川本の校訂の三点で、原状回復ではなく欠落を抱えた再結線としての復旧を読んだ号
