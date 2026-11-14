@@ -1,0 +1,294 @@
+{
+  "vol": 100,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJE9qjZ0-LGGARQiAs8hULJsg",
+          "title": "東京駅丸の内駅舎",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒100-0005 東京都千代田区丸の内１丁目９−１",
+            "primary_type": ""
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcg_nPpzRp3WULMIjsb0uhyGq52biPeBL-sVEPaaNc8Wyi3P43wSPh3XEScZ0a26q37X8V5ITDpHOXMOn1pgse_UQoWTRULYYW6Vs_H7nBJoRG5QdYnUxmBZARZrNC4lW-yy_BAeQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Masahiko Motono", "uri": "https://maps.google.com/maps/contrib/110807531686252733131" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=14422227045585788994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-14T19:47:07+00:00" },
+          "researcher_note": "空襲(1945年)で屋根・ドームを焼失し、2012年に竣工当初の意匠へ復元された駅舎として知られるが、復元経緯の事実確認はPlacesデータに含まれず未実施。Placesは名称・所在地・実在のみ確認できる。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJleKGf8t2A2ARY_ZkNA5RTo8",
+          "title": "本丸御殿",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒460-0031 愛知県名古屋市中区本丸１−１",
+            "primary_type": "史跡",
+            "query": "名古屋城本丸御殿"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe3OIisWg0vgoEGMttq15DwwQi51zyhQTwxAnzZtTuWWMqzzZuYccqtk5P450tvrn1R2CvtM2rlr_ajymuWgw1RKnHIVVFHbh_T0iYM4WE9LlDgl1UN06lBRneKQupOIV0pD8vj3g=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "鄭HAO HAO", "uri": "https://maps.google.com/maps/contrib/107504134103416783471" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=10326280117057549923&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-14T19:47:07+00:00" },
+          "researcher_note": "空襲(1945年)で焼失し、2018年に史料に基づき木造で復元された御殿として知られるが、復元経緯の事実確認はPlacesデータに含まれず未実施。Placesの名称は「本丸御殿」のみで「名古屋城」を含まない。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJZ9v0bP5r5TQRi0-esrqficA",
+          "title": "首里城",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒903-0815 沖縄県那覇市首里金城町１丁目２",
+            "primary_type": "城",
+            "query": "首里城正殿"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfUiKL5siy0Bu-4GWaYxKLLtYMm8tGFyNywlsLuwHyjmILA9mr_iMHsQSpSPwiACZMrDeczC0xesO01UV0qkcuB_J9ZmjxZH1dAHT5OM_2EgTq2VC8DCDQbO_ehXDdZlw-abNRIdR-doZAF=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "H W", "uri": "https://maps.google.com/maps/contrib/116999157415590170885" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13873795751300976523&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-14T19:47:07+00:00" },
+          "researcher_note": "検索結果の名称は「首里城」であり「正殿」単体ではない。沖縄戦(1945年)焼失・1992年復元・2019年再焼失という経緯で知られるが、現在の正殿復元工事の進捗・完了状況はPlacesデータに含まれず未確認。発注の『正確な復元』の検証には別途一次確認が必要。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJD5-raTMlImARo-VH8VGCpAI",
+          "title": "水戸城 大手門",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒310-0011 茨城県水戸市三の丸２丁目９",
+            "primary_type": "史跡"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdq8qMqC7IXWMvlcUAYosMP4Cct4-wj9zpfZltcghkaM3JrsbJMebZVqqzoS08nTWhyH_iM7gEGX4Nj6UjMgCyMPhygSOsOcUYi_AEd7XIVevCv2OlF07lZXi_fgZDRF6SkcdsoSVOQ3fPL=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "陳宏文", "uri": "https://maps.google.com/maps/contrib/108174770232299202145" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=190420372708386211&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-14T19:47:07+00:00" },
+          "researcher_note": "空襲(1945年)で焼失し、2020年に絵図等の史料に基づき木造で復元された大手門として知られるが、復元経緯の事実確認はPlacesデータに含まれず未実施。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ7Y5Y6qaYWjUR6u_iNWbC8AU",
+          "title": "広島城天守閣",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒730-0011 広島県広島市中区基町２１−１",
+            "primary_type": "史跡"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc4wkr_EohPSAB4UbWGCDBGHt505001SAJPZ4sYDB--tN6h3zoh9QmsVJbfmyQJfBppgLYcmFu-EKqHIbaHg1NdohbUjf3VwphNWINyIK-bvHU2UuJKN300uWFOC0652-i-Kr2Pnbe7gsMn=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Fuku Islands", "uri": "https://maps.google.com/maps/contrib/110743601009431628878" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=428055708846714858&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-14T19:47:07+00:00" },
+          "researcher_note": "原爆(1945年)で倒壊し、1958年に鉄筋コンクリートで外観復元された天守として知られるが、復元経緯の事実確認はPlacesデータに含まれず未実施。外観復元(内部構造は非木造)である点は発注文の『正確な復元』との整合を編集判断する必要がある。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJ5X2jwWaxA2ARJc4Z9VYU3OM",
+          "title": "大垣城",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒503-0887 岐阜県大垣市郭町２丁目５２",
+            "primary_type": "城"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLegAoWZpmPX4wtJ5jzZWgrV4swOTbuM7tbhPemz8Fwe1M4Ngl3D_N_xJQ2qhESeEZfEIJ187NrrvCNqgBhKSoClBuM9pmbj3CusJ1AtLfCp805oVK914RMRG_tgmD7SHXIoJKOs=s4800-w600",
+            "source": "google-places",
+            "attributions": [
+              { "name": "日本の旅侍", "uri": "https://maps.google.com/maps/contrib/105746307133710431997" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16419020705197837861&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-14T19:47:07+00:00" },
+          "researcher_note": "空襲(1945年)で焼失し、1959年に鉄筋コンクリートで外観復元された天守として知られるが、復元経緯の事実確認はPlacesデータに含まれず未実施。外観復元(内部構造は非木造)である点は発注文の『正確な復元』との整合を編集判断する必要がある。"
+        }
+      ]
+    },
+    {
+      "genre": "photo",
+      "candidates": [
+        {
+          "cand_id": "pho-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784000080866",
+          "title": "法隆寺金堂壁画 : ガラス乾板から甦った白鳳の美",
+          "creator": "",
+          "year": null,
+          "publisher": "岩波書店",
+          "meta": { "pubdate": "201106" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000011241141", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-14T19:47:07+00:00" },
+          "researcher_note": "1949年の焼損で大部分が失われた法隆寺金堂壁画について、焼損前に撮影されたガラス乾板写真をもとに編まれた書籍。openBDにcoverは無く画像なし。"
+        },
+        {
+          "cand_id": "pho-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784805504703",
+          "title": "国宝高松塚古墳壁画",
+          "creator": "文化庁",
+          "year": null,
+          "publisher": "中央公論美術出版",
+          "meta": { "pubdate": "200406" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000007394497", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-14T19:47:07+00:00" },
+          "researcher_note": "発見(1972年)直後に撮影された壁画の記録写真を文化庁編で収めた書籍。現在の壁画は剥落・退色が進んでいる。openBDにcoverは無く画像なし。"
+        },
+        {
+          "cand_id": "pho-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784585221739",
+          "title": "文化財としてのガラス乾板 : 写真が紡ぎなおす歴史像",
+          "creator": "久留島典子・高橋則英・山家浩樹 編",
+          "year": null,
+          "publisher": "勉誠出版",
+          "meta": { "pubdate": "201703" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028073445", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-14T19:47:07+00:00" },
+          "researcher_note": "焼失・退色した文化財の姿を伝えるガラス乾板写真そのものを主題とする論集。個別の焼失事例ではなく技術・媒体を扱う一冊である点でpho-01/pho-02とは射程が異なる。openBDにcoverは無く画像なし。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "bk-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784787900012",
+          "title": "桐壺",
+          "creator": "山岸徳平",
+          "year": null,
+          "publisher": "新典社",
+          "meta": { "series": "青表紙本源氏物語 / [紫式部著]", "pubdate": "1981-01" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I23211001510116568", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-14T19:47:07+00:00" },
+          "researcher_note": "紫式部自筆原本は現存せず、藤原定家が校訂した青表紙本系統の写本を影印した叢刊『青表紙本源氏物語』の一冊(第一帖桐壺)。openBDにcoverは無く画像なし。"
+        },
+        {
+          "cand_id": "bk-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784890134632",
+          "title": "解体新書",
+          "creator": "Kulmus,JohannAdam ; 杉田玄白 ほか",
+          "year": null,
+          "publisher": "西村書店東京出版編集部",
+          "meta": { "pubdate": "201604", "ndl_edition": "復刻版" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I027193095", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-14T19:47:07+00:00" },
+          "researcher_note": "NDL書誌のdcndl:editionが『復刻版』と明記する、杉田玄白訳・クルムス原著の複製版。openBDにcoverは無く画像なし。"
+        },
+        {
+          "cand_id": "bk-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784305601155",
+          "title": "一条兼良自筆古今集童蒙抄〈影印付〉・校本古今三鳥剪紙伝授",
+          "creator": "武井和人",
+          "year": null,
+          "publisher": "笠間書院",
+          "meta": { "series": "古今集古注釈書集成 第7冊", "pubdate": "20131022" },
+          "image": { "url": "https://cover.openbd.jp/9784305601155.jpg", "source": "openbd" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024923622", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-14T19:47:07+00:00" },
+          "researcher_note": "書名に『影印付』を含み、一条兼良自筆本の影印を収めた笠間書院の注釈書集成シリーズ第7冊。openBDのcoverは生存確認済み。"
+        },
+        {
+          "cand_id": "bk-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784305402028",
+          "title": "御物更級日記 藤原定家筆",
+          "creator": "橋本不美男 編",
+          "year": null,
+          "publisher": "笠間書院",
+          "meta": { "series": "笠間影印叢刊", "pubdate": "19710901" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971712334817045121", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-14T19:47:07+00:00" },
+          "researcher_note": "菅原孝標女の自筆原本は現存せず、現存最古とされる藤原定家筆写本(宮内庁蔵御物)を影印した『笠間影印叢刊』の一冊。openBDにcoverは無く画像なし。"
+        },
+        {
+          "cand_id": "bk-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784022403414",
+          "title": "伊勢物語・伊勢物語愚見抄",
+          "creator": "冷泉家時雨亭文庫",
+          "year": null,
+          "publisher": "朝日新聞社",
+          "meta": { "series": "冷泉家時雨亭叢書 第41巻", "pubdate": "199808" },
+          "links": [
+            { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002702796", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-14T19:47:07+00:00" },
+          "researcher_note": "NDL書誌のdc:descriptionが『複製』と明記する、冷泉家時雨亭文庫蔵の古写本を影印した『冷泉家時雨亭叢書』第41巻。openBDにcoverは無く画像なし。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
