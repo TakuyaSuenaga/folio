@@ -1,0 +1,51 @@
+{
+  "vol": 101,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://ndlsearch.ndl.go.jp/books/R100000136-I1971430859869551890": true,
+        "https://cir.nii.ac.jp/crid/1971430859869551890": true,
+        "https://music.apple.com/jp/album/fearless-taylors-version/1552791073?uo=4": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971430859869551890",
+        "status": 200
+      },
+      {
+        "url": "https://cir.nii.ac.jp/crid/1971430859869551890",
+        "status": 202
+      },
+      {
+        "url": "https://music.apple.com/jp/album/fearless-taylors-version/1552791073?uo=4",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "L-01",
+      "location": "lead(リード文)",
+      "severity": "blocking",
+      "type": "原稿不一致",
+      "genzai": "入札不成立で仕組みを変えて再公募された工事、権利の制約で最初から録り直された録音、改稿を経て再び応募された原稿——三つの出直しを読む。",
+      "teisei": "入札不成立で仕組みを変えて再公募された工事、権利の制約で最初から録り直された録音——二つの出直しを読む。(colophonの通りbookジャンルは発注が求める経緯の一致を確認できず対象外となり、実際の掲載はarchitecture・musicの二点。leadが「改稿を経て再び応募された原稿」を含む「三つの出直し」のままで、実際の号立てと食い違っている。vol-034では同種のケース〔photo脱落でleadの「三つの現場」が号立てと不一致〕がblockingとして指摘・修正されている前例がある)"
+    }
+  ]
+}

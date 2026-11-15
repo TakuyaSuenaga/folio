@@ -1,0 +1,197 @@
+{
+  "vol": 101,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "ndl",
+          "source_id": "I1971430859869551890",
+          "title": "新国立競技場整備計画経緯検証委員会検証報告書",
+          "creator": "新国立競技場整備計画経緯検証委員会",
+          "year": 2015,
+          "publisher": "新国立競技場整備計画経緯検証委員会",
+          "meta": {
+            "category": "図書",
+            "nii_bib_id": "BB20856898",
+            "crid": "1971430859869551890"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1971430859869551890", "kind": "catalog" },
+            { "label": "CiNiiで見る", "url": "https://cir.nii.ac.jp/crid/1971430859869551890", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-15T20:16:36+00:00" },
+          "researcher_note": "新国立競技場の整備計画がいったん破綻し見直された経緯を検証する公的委員会の報告書。入札不成立との対応関係は本文確認が必要。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784822200572",
+          "title": "「新国立」破綻の構図 : 当事者が語る内幕",
+          "creator": "日経アーキテクチュア 編",
+          "year": 2015,
+          "publisher": "日経BP社",
+          "meta": {
+            "isbn": "9784822200572",
+            "ndc9": "780.67",
+            "price": "1700円"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026955834", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-15T20:16:36+00:00" },
+          "researcher_note": "新国立競技場の整備計画が一度破綻し計画変更に至った経緯を関係者取材で追った書籍。arc-01と同一事案の別ソース。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784622079491",
+          "title": "森のなかのスタジアム : 新国立競技場暴走を考える",
+          "creator": "森まゆみ",
+          "year": 2015,
+          "publisher": "みすず書房",
+          "meta": {
+            "isbn": "9784622079491",
+            "ndc9": "518.8",
+            "price": "2400円"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I026732734", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-15T20:16:36+00:00" },
+          "researcher_note": "同じ新国立競技場の計画見直しを景観・都市計画の観点から論じた書籍。arc-01/arc-02と同一事案の別ソース。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1552791073",
+          "title": "Fearless (Taylor's Version)",
+          "creator": "テイラー・スウィフト",
+          "year": 2021,
+          "publisher": "",
+          "meta": {
+            "trackCount": 26,
+            "copyright": "℗ 2021 Taylor Swift",
+            "releaseDate": "2021-04-09T07:00:00Z",
+            "primaryGenreName": "カントリー"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c3/d0/1c/c3d01c88-73e7-187e-fd62-e1744de979a6/21UMGIM09915.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/fearless-taylors-version/1552791073?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-15T20:16:36+00:00" },
+          "researcher_note": "旧所属レーベルとのマスター権利の対立を受けて、同内容を自身の新契約下で録り直した再録音アルバムの一つ。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1590368275",
+          "title": "Red (Taylor’s Version) (+ A Message from Taylor)",
+          "creator": "テイラー・スウィフト",
+          "year": 2021,
+          "publisher": "",
+          "meta": {
+            "trackCount": 31,
+            "copyright": "℗ 2021 Taylor Swift",
+            "releaseDate": "2021-11-12T08:00:00Z",
+            "primaryGenreName": "ポップ"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c6/27/9c/c6279c07-9329-827d-31c4-f5d4c7d99ff4/21UM1IM25046.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/red-taylors-version-a-message-from-taylor/1590368275?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-15T20:16:36+00:00" },
+          "researcher_note": "mus-01と同一シリーズの再録音アルバム。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1708308989",
+          "title": "1989 (Taylor's Version)",
+          "creator": "テイラー・スウィフト",
+          "year": 2023,
+          "publisher": "",
+          "meta": {
+            "trackCount": 21,
+            "copyright": "℗ 2023 Taylor Swift",
+            "releaseDate": "2023-10-27T07:00:00Z",
+            "primaryGenreName": "ポップ"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/11/a6/80/11a680e6-2e48-08fa-5e87-3f18e838d31f/23UM1IM11868.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/1989-taylors-version/1708308989?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-15T20:16:36+00:00" },
+          "researcher_note": "mus-01と同一シリーズの再録音アルバム。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1690839749",
+          "title": "Speak Now (Taylor's Version)",
+          "creator": "テイラー・スウィフト",
+          "year": 2023,
+          "publisher": "",
+          "meta": {
+            "trackCount": 23,
+            "copyright": "℗ 2023 Taylor Swift",
+            "releaseDate": "2023-07-07T07:00:00Z",
+            "primaryGenreName": "カントリー"
+          },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9f/3c/0a/9f3c0a60-f9e0-a34e-60e5-0be1f182896b/23UMGIM63932.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/speak-now-taylors-version/1690839749?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-15T20:16:36+00:00" },
+          "researcher_note": "mus-01と同一シリーズの再録音アルバム。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784062130554",
+          "title": "天使のナイフ",
+          "creator": "薬丸岳",
+          "year": 2005,
+          "publisher": "講談社",
+          "meta": {
+            "isbn": "9784062130554",
+            "ndc9": "913.6",
+            "price": "1600円",
+            "extent": "350p"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000007878795", "kind": "catalog" },
+            { "label": "版元ドットコムで見る", "url": "https://www.books.or.jp/book-details/9784062130554", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-15T20:17:05+00:00" },
+          "researcher_note": "第51回江戸川乱歩賞受賞作として刊行。公募での不採用・改稿の経緯はAPI外情報であり事実確認が必要。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784106027673",
+          "title": "オーデュボンの祈り",
+          "creator": "伊坂幸太郎",
+          "year": 2000,
+          "publisher": "新潮社",
+          "meta": {
+            "isbn": "9784106027673",
+            "ndc9": "913.6",
+            "price": "1700円",
+            "extent": "346p"
+          },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002948326", "kind": "catalog" },
+            { "label": "版元ドットコムで見る", "url": "https://www.books.or.jp/book-details/9784106027673", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-15T20:17:05+00:00" },
+          "researcher_note": "著者のデビュー作。公募最終候補となった後に単行本として刊行された経緯があるとされるが、受賞歴ではなく発注の「再応募し受賞」との一致度はAPI外情報であり事実確認が必要。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
