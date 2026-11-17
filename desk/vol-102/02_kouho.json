@@ -1,0 +1,321 @@
+{
+  "vol": 102,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJJVWNy2v0nl8RAtXEli295Kk",
+          "title": "五稜郭跡",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "北海道函館市五稜郭町44-44", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcPGSj2pBgp0QoxyBFwJKfqNJOCNM72pesGW7jfbQypvSS2efhuCJNx-6V2fbn-5rU9-5RMnw0y5WAadpW3RjclCOqyWltdri8E_TLL7yPTF7AOaknUYqvTyq5C5MY_qVGifNX4SVSzjfBo=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "T Tani (TANI)", "uri": "https://maps.google.com/maps/contrib/113186288834932942555" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=12242117690600510722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-16T23:39:45+00:00" },
+          "researcher_note": "幕末に建てられた国内初の稜堡式城郭。発注の『稜堡式』城郭建築の最有力候補。"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJdxYgG8MzHGAR4cjxASD8ir8",
+          "title": "龍岡城跡",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "長野県佐久市田口下町3000-1", "primary_type": "城" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLccMhPlUzFoRd-4gjwwpQj1AyI2ahE-_TkoRMwABnI8xGaFsbCT8rHKNEH7RAg2OKZiiY9Cf24COYyo3EuNSZEc24NdcyUtHf0HBQydvesvalaB9AOjh0pgGuPRMq5bpA71x8JnHw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "男梅", "uri": "https://maps.google.com/maps/contrib/101601463343264174575" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=13802121222432082145&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-16T23:39:45+00:00" },
+          "researcher_note": "日本に二つしかない稜堡式城郭の一つ(信州の五稜郭)。五稜郭跡との対比に使える候補。"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJjda0ktf1nl8RRWZ5OKn-WiA",
+          "title": "四稜郭跡",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "北海道函館市神山町", "primary_type": "史跡" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdgUr9NpvVUOnM6w0AwnSlIxU2IP6fSn1ysvP3MoSxD5JbPnPHOJJoKIv-THbwBbzr1MFwLl1MSOtQHXrlDk5UcrXMQAcTN9CIfjRPpFIoKWQ0ETYRnc-K-fBAHU8hr_3gVyBM3zA=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "beccho88", "uri": "https://maps.google.com/maps/contrib/108669594394954429036" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2331455759868061253&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-16T23:39:45+00:00" },
+          "researcher_note": "五稜郭を守るため急造された簡易な稜堡式陣地。簡素な縄張りで布陣の構えが読みやすい小規模候補。"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJhy8XBlaLGGAR_O8PEA4d-Xk",
+          "title": "品川第三台場",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都港区台場1丁目10-10番1号", "primary_type": "城" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf4wm97FNxHJgy2CbRCoWlV2TPZYLKYaHRzHgsZkCyd8ENPo1fOd0e0MNKufOS15Y_N5RqdSp2qlt6iwZ54DV2SLdlkw_on9g0bTAzz8LbRwYEITFIZHjytSpeSgvWxY5aJ-PC0=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "kazumi takahashi", "uri": "https://maps.google.com/maps/contrib/105360133370762783656" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8789088094026461180&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-16T23:39:45+00:00" },
+          "researcher_note": "黒船来航後に幕府が築いた砲台陣地。稜堡式ではないが来襲前提の防御構えの候補として併記。"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJGd8d9pdxPzURTa5LZFSnOwQ",
+          "title": "人吉城跡",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "熊本県人吉市麓町", "primary_type": "城" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdW5wsOaH7XA6SV1lno-sTTu-C9MP6MNEZ8D8eYN2OMmqpdU0E3R7Tq-nH5v1tdgC-ORKKlTYPrUuioL6IkCgwY5OfDYJhCO3pH11_Ho-Xlc-yC4qnJyFLOllp4fyW3lE29E93omC8fRu4=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Patek Muller", "uri": "https://maps.google.com/maps/contrib/110999833251688979755" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=305021380679413325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-16T23:39:45+00:00" },
+          "researcher_note": "幕末改修で西洋式の石垣・武者返しを導入した近世城郭。稜堡式ではないが防御先取りの構えの比較候補。"
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJsyQzogPgVDURsYG6bi-MT3o",
+          "title": "姫路城",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "兵庫県姫路市本町68", "primary_type": "城" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeL9Caq3DtBeSW5eKy4vXhFJ_dmU3tilSWQW-RDgkykC_gMB1mIEjvDGA4-rqREHkew6vBBCzwIM_7cnneDw50mxKZG_E1pkTLxMOEdhykghuNfL2LJ-y7IQDHG3pobTWwYC8EdB8-f61w=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Allen Z.", "uri": "https://maps.google.com/maps/contrib/108702940200365245910" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8813417131136418225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-16T23:39:45+00:00" },
+          "researcher_note": "螺旋状の縄張りと迷路的な通路配置を持つ近世城郭。稜堡式ではないが、攻め手の経路を設計時点で封じる構えの比較候補として付記。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "926616081",
+          "title": "Rossini: Overtures",
+          "creator": "アントニオ・パッパーノ & サンタ・チェチーリア国立アカデミー管弦楽団",
+          "year": 2014,
+          "publisher": "Warner Classics",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 8, "copyright": "℗ (p) 2014 Orchestra e Coro dell'Accademia Nazionale di Santa Cecilia under exclusive licence to Warner Classics" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/11/ef/b6/11efb67a-c628-8f72-e00b-0061820ad6bd/825646243440.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/rossini-overtures/926616081?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-16T23:40:20+00:00" },
+          "researcher_note": "ロッシーニの序曲集。本編オペラに先立つ『陣』の典型として複数収録。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1683682692",
+          "title": "Rossini: Overtures",
+          "creator": "ロンドン交響楽団 & クラウディオ・アバド",
+          "year": 2023,
+          "publisher": "Deutsche Grammophon",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 6, "copyright": "℗ 2023 Deutsche Grammophon GmbH, Berlin" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/88/eb/b1/88ebb1d0-5f0d-a2de-f1ae-9fd5a16e8606/23UMGIM07728.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/rossini-overtures/1683682692?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-16T23:40:20+00:00" },
+          "researcher_note": "同じロッシーニ序曲集の別録音(アバド指揮)。指揮者違いでの比較候補。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1452530186",
+          "title": "German Overtures",
+          "creator": "ウィーン・フィルハーモニー管弦楽団 & クリスティアン・ティーレマン",
+          "year": 2003,
+          "publisher": "Deutsche Grammophon",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 7, "copyright": "℗ 2003 Deutsche Grammophon GmbH, Berlin" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/97/82/79/978279fe-53cf-ee26-e1c0-b1960455f82e/00028947450221.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/german-overtures/1452530186?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-16T23:40:20+00:00" },
+          "researcher_note": "ドイツ系オペラ序曲集(ウェーバー・ワーグナー他)。独墺系の序曲作品を選ぶ場合の候補。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "693104953",
+          "title": "Tchaikovsky: Overtures & Fantasies",
+          "creator": "アントニオ・パッパーノ & サンタ・チェチーリア国立アカデミー管弦楽団",
+          "year": 2006,
+          "publisher": "Warner Classics",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 5, "copyright": "A Warner Classics release, ℗ 2006 Parlophone Records Limited" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/33/d4/d1/33d4d1df-0b86-ab62-8eab-f703209d29c6/dj.cqeykgnd.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/tchaikovsky-overtures-fantasies/693104953?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-16T23:40:20+00:00" },
+          "researcher_note": "チャイコフスキーの幻想序曲・序曲集。『ロメオとジュリエット』等、劇的内容を一息に示す序曲の候補。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1452595475",
+          "title": "Verdi: Overtures",
+          "creator": "ウィーン・フィルハーモニー管弦楽団 & ジュゼッペ・シノーポリ",
+          "year": 1985,
+          "publisher": "Universal International Music B.V.",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 9, "copyright": "℗ 1984 Universal International Music B.V." },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/6f/a3/dc6fa3d7-384e-db5b-c7ed-fdd079d04b32/00028941146922.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/verdi-overtures/1452595475?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-16T23:40:20+00:00" },
+          "researcher_note": "ヴェルディ・オペラの序曲集。『運命の力』等の候補を含む。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1452308867",
+          "title": "Beethoven: Overtures",
+          "creator": "ウィーン・フィルハーモニー管弦楽団 & クラウディオ・アバド",
+          "year": 2011,
+          "publisher": "Deutsche Grammophon",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 8, "copyright": "A Deutsche Grammophon release; This Compilation ℗ 2011 Universal Classics & Jazz" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/48/8a/98/488a98ff-2ffb-e2d5-d656-26a70437ab99/00028948271115.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/beethoven-overtures/1452308867?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-16T23:40:20+00:00" },
+          "researcher_note": "ベートーヴェンの序曲集(『エグモント』『コリオラン』等)。劇の筋に先立つ構えを一曲で示す候補として標準的。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1452223806",
+          "title": "Rossini & Suppé: Overtures",
+          "creator": "ベルリン・フィルハーモニー管弦楽団 & ヘルベルト・フォン・カラヤン",
+          "year": 1985,
+          "publisher": "Deutsche Grammophon",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 7, "copyright": "℗ 1985 Deutsche Grammophon GmbH, Berlin" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2b/94/2e/2b942e65-146c-4916-3d17-971486aa94b3/00028941537720.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/rossini-supp%C3%A9-overtures/1452223806?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-16T23:40:20+00:00" },
+          "researcher_note": "ロッシーニとスッペの序曲を併録。『軽騎兵』等、本編を離れて単独で演奏される序曲の候補。"
+        },
+        {
+          "cand_id": "mus-08",
+          "source_api": "itunes",
+          "source_id": "19270617",
+          "title": "Mendelssohn: Overtures",
+          "creator": "アンソニー・ブラモール & スロヴァキア・フィルハーモニー管弦楽団",
+          "year": 1998,
+          "publisher": "Naxos",
+          "meta": { "primaryGenreName": "クラシック", "trackCount": 8, "copyright": "℗ 1998 Naxos" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2004/m07/d25/h07/s05.gwlyhqlb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "iTunesで見る", "url": "https://music.apple.com/jp/album/mendelssohn-overtures/19270617?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-16T23:40:20+00:00" },
+          "researcher_note": "メンデルスゾーンの演奏会用序曲集(『フィンガルの洞窟』等)、オペラに拠らず単独で『陣』を示す序曲の候補。"
+        }
+      ]
+    },
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784004311218",
+          "title": "歌仙の愉しみ",
+          "creator": "大岡信,岡野弘彦,丸谷才一",
+          "year": 2008,
+          "publisher": "岩波書店",
+          "meta": { "series": "岩波新書", "price": "780円" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000009321470", "kind": "catalog" },
+            { "label": "版元ドットコムで見る", "url": "https://www.books.or.jp/book-details/9784004311218", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-16T23:46:14+00:00" },
+          "researcher_note": "歌仙(連句)の実作と鑑賞を三人の歌人・作家が語る対談。発句が場を定める様の直接的な解説書。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784909658326",
+          "title": "杞憂に終わる連句入門",
+          "creator": "鈴木千惠子",
+          "year": 2020,
+          "publisher": "文学通信",
+          "meta": { "extent": "152p", "price": "1500円" },
+          "image": { "url": "https://cover.openbd.jp/9784909658326.jpg", "source": "openbd" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030461031", "kind": "catalog" },
+            { "label": "版元ドットコムで見る", "url": "https://www.books.or.jp/book-details/9784909658326", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-16T23:46:14+00:00" },
+          "researcher_note": "連句のきほん用語と複数の歌仙作品を収録した入門書。発句・脇起りなど発句が規定する展開の実例が豊富。"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784892360282",
+          "title": "寺田寅彦の連句の世界",
+          "creator": "宇和川匠助",
+          "year": 1983,
+          "publisher": "古川書房",
+          "meta": { "series": "古川叢書", "price": "1700円" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000001627173", "kind": "catalog" },
+            { "label": "版元ドットコムで見る", "url": "https://www.books.or.jp/book-details/9784892360282", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-16T23:45:37+00:00" },
+          "researcher_note": "物理学者でもあった寺田寅彦の連句実作・評論を扱う。発句と全体構成の関係を専門外の視点から論じた候補。"
+        },
+        {
+          "cand_id": "poe-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003600252",
+          "title": "獺祭書屋俳話・芭蕉雑談",
+          "creator": "正岡子規",
+          "year": 2016,
+          "publisher": "岩波書店",
+          "meta": { "price": "", "note": "原著は明治期、2016年版は岩波文庫による改版" },
+          "links": [
+            { "label": "版元ドットコムで見る", "url": "https://www.books.or.jp/book-details/9784003600252", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-16T23:45:37+00:00" },
+          "researcher_note": "子規による芭蕉発句の評論集。発句単独の価値を論じた古典的批評で、連句の場を定める発句との対比に使える。"
+        },
+        {
+          "cand_id": "poe-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784897093932",
+          "title": "子規との対話",
+          "creator": "復本一郎",
+          "year": 2003,
+          "publisher": "邑書林",
+          "meta": { "extent": "354p", "price": "4500円" },
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004251496", "kind": "catalog" },
+            { "label": "版元ドットコムで見る", "url": "https://www.books.or.jp/book-details/9784897093932", "kind": "catalog" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-16T23:45:37+00:00" },
+          "researcher_note": "俳諧研究者による子規発句論。連句史における発句の位置づけを学術的に論じた候補。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
