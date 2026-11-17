@@ -1,0 +1,24 @@
+{
+  "vol": 103,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      { "url": "https://music.apple.com/jp/album/haydn-2032-vol-16-the-surprise/1767816649?uo=4", "status": 200 },
+      { "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029994228", "status": 200 }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "lead(cover直下 .lead-v)",
+      "severity": "blocking",
+      "type": "原稿不一致",
+      "genzai": "リードは「不意の強奏を構造に持つ交響曲、災害の直後に数日で立ち上がる仮設建築、低気圧の急変を追いかけた新書という三点」と三点構成を明記しているが、誌面に実際に組まれているitemsはmusicとbookの二点のみで、architecture(仮設建築)の記事が存在しない。読者はリードで予告された三点目の記事を誌面上で見つけられない。",
+      "teisei": "architectureジャンルが落ちた経緯(他誌での休刊時の注記、例: vol-069奥付の実例)に合わせ、リードを二点構成(交響曲・新書/事典)に書き換える、または奥付にジャンル減少の注記を加える。lead修正は編集長の責了指示を経てAD設定・決定論レンダラーで行う。"
+    }
+  ]
+}

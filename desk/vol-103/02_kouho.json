@@ -1,0 +1,264 @@
+{
+  "vol": 103,
+  "genres": [
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "278432097",
+          "title": "Haydn:\"Surprise Symphony\", Berlioz : Symphonie Fantastique",
+          "creator": "プラハ交響楽団, The Ljubljana Symphony Orchestra, Petre Altrichter & アントン・ナヌート",
+          "year": 1990,
+          "publisher": "Stradivari Classics",
+          "meta": { "trackCount": 9, "copyright": "℗ 1990 Stradivari Classics", "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/e8/ba/25/mzi.smkhzoqw.tif/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/haydn-surprise-symphony-berlioz-symphonie-fantastique/278432097?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-17T22:53:19+00:00" },
+          "researcher_note": "タイトルに「Surprise Symphony」と明記。発注が基準に挙げたハイドン『驚愕』交響曲そのもの"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1777184286",
+          "title": "ハイドン: 交響曲 第94番「驚愕」 - 第95番 - 第98番 - 第99番",
+          "creator": "パーヴォ・ヤルヴィ & The Deutsche Kammerphilharmonie Bremen",
+          "year": 2024,
+          "publisher": "Sony Music Labels Inc.",
+          "meta": { "trackCount": 16, "copyright": "℗ 2024 The Deutsche Kammerphilharmonie Bremen Under license to Sony Music Labels Inc.", "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/bb/bd/efbbbd5c-8244-6143-b42c-c98c44c2b201/4547366712520.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/%E3%83%8F%E3%82%A4%E3%83%89%E3%83%B3-%E4%BA%A4%E9%9F%BF%E6%9B%B2-%E7%AC%AC94%E7%95%AA-%E9%A9%9A%E6%84%95-%E7%AC%AC95%E7%95%AA-%E7%AC%AC98%E7%95%AA-%E7%AC%AC99%E7%95%AA/1777184286?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-17T22:53:19+00:00" },
+          "researcher_note": "タイトルに「第94番「驚愕」」と明記。2024年の新録"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1452331815",
+          "title": "Haydn: Symphonies Nos. 94 & 100",
+          "creator": "サー・ゲオルク・ショルティ & ロンドン・フィルハーモニー管弦楽団",
+          "year": 1984,
+          "publisher": "Decca Music Group Limited",
+          "meta": { "trackCount": 8, "copyright": "℗ 1984 Decca Music Group Limited", "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c6/49/6e/c6496e64-f62c-7744-8b86-759d227acaac/00028948319473.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/haydn-symphonies-nos-94-100/1452331815?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-17T22:53:19+00:00" },
+          "researcher_note": "タイトルに「Symphonies Nos. 94」と明記。ショルティ/LPOの旧録"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1603950498",
+          "title": "Haydn Symphonies Nos. 88, 94 & 101 - Legendary Recordings",
+          "creator": "ヴィルヘルム・フルトヴェングラー & ピエール・モントゥー",
+          "year": 2022,
+          "publisher": "Musical Concepts",
+          "meta": { "trackCount": 13, "copyright": "℗ 2021 Musical Concepts", "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8b/16/a2/8b16a2f6-b7b9-3531-b9e9-c131db1bd67c/5055354414398.png/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/haydn-symphonies-nos-88-94-101-legendary-recordings/1603950498?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-17T22:53:19+00:00" },
+          "researcher_note": "タイトルに「Symphonies Nos. 88, 94」と明記。歴史的録音の復刻編集盤"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1767816649",
+          "title": "Haydn 2032, Vol. 16: The Surprise",
+          "creator": "イル・ジャルディーノ・アルモニコ, バーゼル室内管弦楽団 & ジョヴァンニ・アントニーニ",
+          "year": 2024,
+          "publisher": "Alpha Classics / Outhere Music France",
+          "meta": { "trackCount": 14, "copyright": "℗ 2024 Joseph Haydn Stiftung Basel & Alpha Classics / Outhere Music France", "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/75/ac/39/75ac398c-621e-a7c7-0db0-0ce2d0d49c56/3760014196980.png/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/haydn-2032-vol-16-the-surprise/1767816649?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-17T22:53:19+00:00" },
+          "researcher_note": "タイトル副題「The Surprise」。ハイドン交響曲全曲録音シリーズ「Haydn 2032」の一枚"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "1363821007",
+          "title": "ハイドン交響曲集1:交響曲 第92番「オックスフォード」、第94番「驚愕」&第97番",
+          "creator": "ヤープ・ヴァン・ズヴェーデン/オランダ放送室内フィルハーモニー",
+          "year": 2008,
+          "publisher": "Octavia Records Inc.",
+          "meta": { "trackCount": 12, "copyright": "℗ 2008 Octavia Records Inc.", "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7f/53/5d/7f535d21-33ab-73b2-09ee-77a2b87c1f55/4538182748633.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/%E3%83%8F%E3%82%A4%E3%83%89%E3%83%B3%E4%BA%A4%E9%9F%BF%E6%9B%B2%E9%9B%861-%E4%BA%A4%E9%9F%BF%E6%9B%B2-%E7%AC%AC-92%E7%95%AA-%E3%82%AA%E3%83%83%E3%82%AF%E3%82%B9%E3%83%95%E3%82%A9%E3%83%BC%E3%83%89-%E7%AC%AC-94%E7%95%AA-%E9%A9%9A%E6%84%95-%E7%AC%AC-97%E7%95%AA/1363821007?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-17T22:53:19+00:00" },
+          "researcher_note": "タイトルに「第94番「驚愕」」と明記"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1601559414",
+          "title": "<ハイドン交響曲集Vol.13> 第94番「驚愕」、第1番、第64番「時の移ろい」",
+          "creator": "飯森範親 & 日本センチュリー交響楽団",
+          "year": 2021,
+          "publisher": "Octavia Records Inc.",
+          "meta": { "trackCount": 12, "copyright": "℗ 2021 Octavia Records Inc.", "primaryGenreName": "クラシック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d8/3a/cc/d83acc23-890a-3086-5da3-01b9ab38dfdb/4580789440656.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/%E3%83%8F%E3%82%A4%E3%83%89%E3%83%B3%E4%BA%A4%E9%9F%BF%E6%9B%B2%E9%9B%86vol-13-%E7%AC%AC94%E7%95%AA-%E9%A9%9A%E6%84%95-%E7%AC%AC1%E7%95%AA-%E7%AC%AC64%E7%95%AA-%E6%99%82%E3%81%AE%E7%A7%BB%E3%82%8D%E3%81%84/1601559414?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-17T22:53:19+00:00" },
+          "researcher_note": "タイトルに「第94番「驚愕」」と明記。日本センチュリー交響楽団による全集録音の一枚"
+        }
+      ]
+    },
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJSXDSYfnVaDQRvjiHI_5auAI",
+          "title": "紙教堂(Paper Dome)",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "545 台湾 Nantou County, Puli Township, Taomi Village, 桃米巷52-12號", "primary_type": "公園" },
+          "image": { "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc-r7Y43Li4pIAQF8GfFwEbEkAFQol7Pdp_LtIOWXQRuiwjZsVury6pI0NwRpWSHR-bznphzlz5W0h6kSjjwwaj3XDj3eoSCi5riJowVXSQ4sVudLNoxXVvHM3M3LKrofHCjz6j=s4800-w1200", "source": "google-places", "attributions": [ { "name": "Issa Lin", "uri": "https://maps.google.com/maps/contrib/105602981040233740680" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=196006631354874046&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-17T22:53:45+00:00" },
+          "researcher_note": "Placesでは台湾・桃米(Taomi)の現在地としてのみ確認できる。阪神大震災後に坂茂が設計した紙管仮設聖堂(神戸・鷹取教会)が2005年に移築された建物だが、設計者・移築経緯・原建設期間はPlacesレスポンスに含まれず未確認。genre-editorによる一次資料での追加確認が必要"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJb6NmLiOjiF8RWfbshGjZv5I",
+          "title": "みんなの家",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒029-2205 岩手県陸前高田市高田町馬場前88", "primary_type": "カフェ・喫茶" },
+          "image": { "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe6g7V6Ef7MCrrtXu-ayGBszmwoUQ62Xc5TfIoSsEz-szQk_FRVKfZ_jvVxC2LV253W2aj3mTg3DNuX79cvXeSFnNFQxWhhIO80gwCfh-U8FqqsZmiqr_2bLNzNNC_28VJIQcXX_RpH-3Y=s4800-w1200", "source": "google-places", "attributions": [ { "name": "t u", "uri": "https://maps.google.com/maps/contrib/102379650149132511999" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=10574409493019162201&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-17T22:53:45+00:00" },
+          "researcher_note": "名称・所在地から東日本大震災後の「みんなの家」プロジェクト(陸前高田)の施設と推定されるが、Placesレスポンスには設計者・竣工年・工期の記載がなく未確認。実在チェーンはPlaces上の現存カフェ施設としてのみ成立する"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJQxd6dwCPiV8R8ynfrpHQxbg",
+          "title": "みんなの家",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": { "address": "日本、〒985-0802 宮城県宮城郡七ヶ浜町吉田野山5-9", "primary_type": "コミュニティ センター" },
+          "image": { "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfTdt32hIrE1Cyc0BlmoWD27Z_5bAnWeT0ahcgeZalNV4-m3HpH83wOSOJmWz1qk8qGZ7ifnUyTb4yOYHgrGGqLA9uVBWxwyfrM3MGL6HNx1ACjnW7PlRAZs0cadLeK9xewKvkE=s4800-w1200", "source": "google-places", "attributions": [ { "name": "chalulu mint", "uri": "https://maps.google.com/maps/contrib/101743613879100537156" } ] },
+          "links": [ { "label": "Google Mapsで見る", "url": "https://maps.google.com/?cid=13314277197513435635&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-17T22:53:45+00:00" },
+          "researcher_note": "名称・所在地から東日本大震災後の「みんなの家」プロジェクト(七ヶ浜)の施設と推定されるが、同様に設計者・竣工年・工期はPlacesレスポンスに含まれず未確認"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784323074948",
+          "title": "異常気象図鑑",
+          "creator": "平井, 信行, 1967-",
+          "year": 2021,
+          "publisher": "金の星社",
+          "meta": { "ndl_search_query": "爆弾低気圧" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031862176", "kind": "detail" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-17T22:53:45+00:00" },
+          "researcher_note": "検索語「爆弾低気圧」でヒット。異常気象全般の図鑑で、爆弾低気圧個別の記述量は本文未確認"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784522431962",
+          "title": "いちばんやさしい天気と気象の事典",
+          "creator": "武田, 康男, 1960-",
+          "year": 2013,
+          "publisher": "永岡書店",
+          "meta": { "ndl_search_query": "爆弾低気圧" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024578561", "kind": "detail" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-17T22:53:45+00:00" },
+          "researcher_note": "検索語「爆弾低気圧」でヒット。天気・気象の用語事典で、個別項目としての扱いは本文未確認"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784760142521",
+          "title": "いま地球には不気味な変化が起きている",
+          "creator": "クライメートセントラル",
+          "year": 2013,
+          "publisher": "柏書房",
+          "meta": { "ndl_search_query": "爆弾低気圧" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I024387782", "kind": "detail" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-17T22:53:45+00:00" },
+          "researcher_note": "検索語「爆弾低気圧」でヒット。気候変動と異常気象を扱う一般向け書籍"
+        },
+        {
+          "cand_id": "book-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784860645915",
+          "title": "ニュース・天気予報がよくわかる気象キーワード事典",
+          "creator": "筆保, 弘徳, 1975-",
+          "year": 2019,
+          "publisher": "ベレ出版",
+          "meta": { "ndl_search_query": "台風 急速発達" },
+          "image": { "url": "https://cover.openbd.jp/9784860645915.jpg", "source": "openbd" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029994228", "kind": "detail" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-17T22:53:45+00:00" },
+          "researcher_note": "検索語「台風 急速発達」でヒット。天気予報・気象報道で使われる用語の事典で、急速発達・爆弾低気圧系の語を収録している可能性があるが本文未確認"
+        },
+        {
+          "cand_id": "book-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784860644154",
+          "title": "異常気象と気候変動についてわかっていることいないこと : ようこそ、そらの研究室へ",
+          "creator": "筆保, 弘徳, 1975-",
+          "year": 2014,
+          "publisher": "ベレ出版",
+          "meta": { "ndl_search_query": "筆保弘徳" },
+          "image": { "url": "https://cover.openbd.jp/9784860644154.jpg", "source": "openbd" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I10610530", "kind": "detail" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-17T22:53:45+00:00" },
+          "researcher_note": "異常気象・気候変動を一般向けに解説する書籍。爆弾低気圧個別の扱いは本文未確認"
+        },
+        {
+          "cand_id": "book-06",
+          "source_api": "ndl+openbd",
+          "source_id": "9784284204545",
+          "title": "気象キャラクター図鑑 : 天気のヒミツがめちゃくちゃわかる!",
+          "creator": "筆保, 弘徳, 1975-",
+          "year": 2019,
+          "publisher": "日本図書センター",
+          "meta": { "ndl_search_query": "筆保弘徳" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029972906", "kind": "detail" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-17T22:53:45+00:00" },
+          "researcher_note": "児童向けの気象キャラクター図鑑。発注の「一般向け書籍・新書」との対象年齢の距離が大きい"
+        },
+        {
+          "cand_id": "book-07",
+          "source_api": "ndl+openbd",
+          "source_id": "9784860646035",
+          "title": "地球温暖化で雪は減るのか増えるのか問題",
+          "creator": "川瀬, 宏明, 1980-",
+          "year": 2019,
+          "publisher": "ベレ出版",
+          "meta": { "ndl_search_query": "気象予報 難しさ" },
+          "image": { "url": "https://cover.openbd.jp/9784860646035.jpg", "source": "openbd" },
+          "links": [ { "label": "国立国会図書館サーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I030132540", "kind": "detail" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-17T22:53:45+00:00" },
+          "researcher_note": "気象予報の難しさを一般向けに論じた書籍だが、主題は雪・積雪で爆弾低気圧ではない。発注との距離は大きい"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "architecture: 災害直後など、通常の工期を経ずにごく短時間で展開・稼働する仮設建築・応急シェルターを一点",
+      "reason": "該当なし(部分)。Google Places APIは場所の実在確認はできるが、設計者・竣工年・工期といった「速度が設計要件」であることを裏付ける情報を持たない。NDL検索(応急仮設建築 等)でヒットするのは学会技術報告や行政告示などの専門文献のみで、誌面向けの単一実例として使える一般資料がなかった。紙教堂(台湾)とみんなの家2件をPlaces実在情報のみで候補として提示したが、いずれも工期・設計の裏付けは未確認のためgenre-editor側での一次資料確認が必要"
+    },
+    {
+      "hacchu": "book: 爆弾低気圧など急速に発達する気象現象を扱った一般向け書籍・新書を一点",
+      "reason": "該当なし(部分)。NDL検索は「爆弾低気圧」に一致する一般書を広く返すが、同現象そのものを主題とした新書・一般書はヒットせず、異常気象全般を扱う書籍群に留まった。NDL APIがレート制限(HTTP 429)にかかり検索語のバリエーションを絞らざるを得なかった"
+    }
+  ]
+}
