@@ -1,0 +1,746 @@
+{
+  "vol": 104,
+  "genres": [
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJX-yVohyMGGARUTdpnpXyQNQ",
+          "title": "神田 やぶそば",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都千代田区神田淡路町２丁目１０",
+            "primary_type": "レストラン",
+            "query": "手打ち蕎麦 老舗"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcVMHF1mxrV2ZB9pg_I2Ss7nILRfx0sDAgxEYuzbxhPJyuY3KCAlkABwQj-NcJNECcpxq4YWkE_VN50ERe3tqc3IBc7LaXGM1Nf67t7eIb28vqsyLgFaVXykoFjTQVeq4t5cGrK=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "かんだやぶそば",
+                "uri": "https://maps.google.com/maps/contrib/100781225505502931845"
+              }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=15294491058971948881&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:29+00:00"
+          },
+          "researcher_note": "Places検索「手打ち蕎麦 老舗」でヒット。神田の老舗蕎麦屋として知られる。手打ち製法の継続は原稿執筆時に別途確認が必要。"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJq6oF_saOGGARikXRyPA55vI",
+          "title": "並木藪蕎麦",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都台東区雷門２丁目１１−９",
+            "primary_type": "レストラン",
+            "query": "手打ち蕎麦 老舗"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcTm9HChZp2RxGA5Gl82VCwwBeIh71SCy9eKAR47vtO80QvkOXe5L4foc-cwvmoJVx0Qc4vjx2vdxtDM4cGg7y3OqxUQ8CDPnemhCMVdoBoCYJNgzFOynAmLO8C1EQmzee0GXdajQ=s4800-w640",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "鈴木定光",
+                "uri": "https://maps.google.com/maps/contrib/110778525394428117872"
+              }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=17502740708146103690&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:29+00:00"
+          },
+          "researcher_note": "Places検索「手打ち蕎麦 老舗」でヒット。浅草雷門の老舗蕎麦屋。手打ち継続の裏付けは原稿執筆時に別途確認が必要。"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJSzt-rSKdGGAR0nDOgINdfOE",
+          "title": "竹やぶ 柏本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "千葉県柏市柏１１４４−２",
+            "primary_type": "レストラン",
+            "query": "手打ち蕎麦 老舗"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfGw5WdazexlxhWiaFRFg_IbFT6M-TahwjFIGVqnI5_X4f4mCrDH15NFDgPbPyt6mbEyFs7xOZuDS13CHF83lcGNxzcVibqyZe0iFfGYIVG9A0e9NtZBaSPwc4NJfZykCSgpMiE=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "yukari k",
+                "uri": "https://maps.google.com/maps/contrib/101354134970415397212"
+              }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=16247964375029018834&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:29+00:00"
+          },
+          "researcher_note": "Places検索「手打ち蕎麦 老舗」でヒット。柏の人気蕎麦屋として知られる。手打ち継続の裏付けは原稿執筆時に別途確認が必要。"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJQ-hQ_FqMGGARXvSIGai2obk",
+          "title": "蕎楽亭",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都新宿区神楽坂３丁目６ 神楽坂館１階",
+            "primary_type": "レストラン",
+            "query": "手打ち蕎麦 老舗"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeo6SkmkcwCRiLzea1ayncz6J8c48ht3Tjg8qFAvdMk6hHLny8EdCE80gfcY124poCgDBWtM5ulaEcelBqaU4D6CYQvgaZLnmxKaYG97r76qnSIEWpWy2co7uZMaYeEk9EgcUrW2Lir-wQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "桃乃冴智",
+                "uri": "https://maps.google.com/maps/contrib/107112342732178629351"
+              }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=13376173201366250590&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:29+00:00"
+          },
+          "researcher_note": "Places検索「手打ち蕎麦 老舗」でヒット。神楽坂の蕎麦店。手打ち継続の裏付けは原稿執筆時に別途確認が必要。"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJZf6Xj3Ep9l8R0NIwGtOC1kA",
+          "title": "蕎麦 ふじおか",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "長野県長野市上ケ屋",
+            "primary_type": "レストラン",
+            "query": "手打ち蕎麦 老舗"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdRl8B5DexKso2URFbZaS51lkc5IZ8suJ68SUevNZbshpsVNdNUjcu_VdLgWTwbxqB8bxCRZvXhOPBu_HsWlubXhLLIL4iPi5kha-w_q6zQi7eEhkXNFIgu2hdKvMbJFNWYw7lzzdKI0-YL=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "やすし",
+                "uri": "https://maps.google.com/maps/contrib/109564339490774698110"
+              }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=4672065506632585936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:29+00:00"
+          },
+          "researcher_note": "Places検索「手打ち蕎麦 老舗」でヒット。長野市郊外の蕎麦店。手打ち継続の裏付けは原稿執筆時に別途確認が必要。"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJHXS5UxWLGGARvvtsf6Hh-I8",
+          "title": "板蕎麦 香り家 恵比寿店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "東京都渋谷区恵比寿４丁目３−１０ センチュリー・パーク 1F",
+            "primary_type": "レストラン",
+            "query": "手打ち蕎麦 老舗"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfHiTl2IQ6KX0vV01Vwn1YBjgNYLus8k0fOxse-gVJt5t3l1JzZEnq9Ye0zuYA9Oju0VwaLWB5n-W0C8b2CH23tQpemK8L3McwIUrpVMjiG8gyG_x0LejMhKfAvC1IW-hUDwCCE=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "大谷悦啓（COX）",
+                "uri": "https://maps.google.com/maps/contrib/105119781518774269608"
+              }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=10374289825391770558&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:29+00:00"
+          },
+          "researcher_note": "Places検索「手打ち蕎麦 老舗」でヒット。山形の板蕎麦系列の恵比寿店。手打ち継続の裏付けは原稿執筆時に別途確認が必要。"
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJHTq9C_6SUzURcamR_rZEdZA",
+          "title": "うどん本陣 山田家",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "香川県高松市牟礼町牟礼３１８６",
+            "primary_type": "和食店",
+            "query": "手打ちうどん 老舗"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdDI1g1pRD1JKJS-Zb0ukXL98yhUN-O9LXUEQjZQZiqPyB7KOz8qhrs1LF6UHfyg8ZW7IRM8JfMq-pAN-NRENzyXr1GzODFy0VlyhnawwYdXP_-qwRO2Tpu4ypBDpXVsJ2LGEwAOQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "うどん本陣 山田家",
+                "uri": "https://maps.google.com/maps/contrib/112341809679850937295"
+              }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=10409301666482465137&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:29+00:00"
+          },
+          "researcher_note": "Places検索「手打ちうどん 老舗」でヒット。讃岐うどんの古民家を使った有名店。手打ち継続の裏付けは原稿執筆時に別途確認が必要。"
+        },
+        {
+          "cand_id": "res-08",
+          "source_api": "google_places",
+          "source_id": "ChIJC_VmoZXrUzURqKwqDf9kWZg",
+          "title": "さか枝うどん 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "香川県高松市番町５丁目２−２３",
+            "primary_type": "和食店",
+            "query": "さか枝うどん 本店 高松"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfUHEzSLMLp9Z7rUUDphOXnjyNhxFg2Xb925cLOfVYf5JN8OoD-7yYiKcbMB9DbIsDbUIo2LVFPH_B7xuPNNsIH_lN-Aua9_m0U4-N9G8iV71kJo8YFrnLdE3U_uYcyCl2ZmJ-ZA1kGqppe=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "kamomekun",
+                "uri": "https://maps.google.com/maps/contrib/110731098797782910500"
+              }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=10977916613292633256&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:29+00:00"
+          },
+          "researcher_note": "高松の早朝から行列ができる老舗セルフうどん店として知られる。手打ち継続の裏付けは原稿執筆時に別途確認が必要。"
+        },
+        {
+          "cand_id": "res-09",
+          "source_api": "google_places",
+          "source_id": "ChIJv-XGf6jZUzUR8Yh3izjU3dA",
+          "title": "純手打うどん よしや",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "香川県丸亀市飯野町東二３４３−１",
+            "primary_type": "和食店",
+            "query": "手打ちうどん 老舗"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf4sIvHsPD15jnYhg_nINHWY9iXVwf0fmcGV_uysKKkHqP1OHAMHm13efYUImsfQc5Y5Kdvy5-XT1wQ2J9mBxKyKZCPTSzXzpfwZibrmV5CenHrppaCNtDFMyi3VxwLIct3qwCuRQ=s4800-w640",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "純手打うどん よしや",
+                "uri": "https://maps.google.com/maps/contrib/106862755370165483603"
+              }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=15050418869065189617&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:29+00:00"
+          },
+          "researcher_note": "店名に「純手打」を掲げる丸亀のうどん店。Places検索「手打ちうどん 老舗」でヒット。"
+        },
+        {
+          "cand_id": "res-10",
+          "source_api": "google_places",
+          "source_id": "ChIJMWyhJHbrUzURpONppDqqkeg",
+          "title": "手打十段 うどんバカ一代",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "香川県高松市多賀町１丁目６−７",
+            "primary_type": "和食店",
+            "query": "手打ちうどん 老舗"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLflI7UDImZNShhlE4u1-K9Mfk58VU0j1hYrKnLSAUqvqlUHIUSrloZTHargHkGckoCeL6KI-JbHynXJWYVDX-NIJJ-ykt4HM-HRJ_Ji7ZqqgM6kHduUC5-2ATDhHb3V5GNpLooL5Ow3zDTx=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "ground cover plants",
+                "uri": "https://maps.google.com/maps/contrib/118424970746127526149"
+              }
+            ]
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=16758362857265554340&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:29+00:00"
+          },
+          "researcher_note": "店名に「手打十段」を掲げる高松のうどん店。Places検索「手打ちうどん 老舗」でヒット。"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784797275087",
+          "title": "水俣病事件史〈下巻〉",
+          "creator": "辻, 信一",
+          "year": 2026,
+          "publisher": "信山社",
+          "meta": {
+            "ndl_search_query": "イタイイタイ病 和解",
+            "openbd_description": "水俣病事件の全体像を、現代的視点から考察。事件の背景から、現在に至る経緯を、今日までの最新の研究成果を踏まえて解説。"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I034663269",
+              "kind": "detail"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:09+00:00"
+          },
+          "researcher_note": "水俣病事件の経緯を記録した下巻。openBDでISBN照合済み。訴訟・交渉を経た和解の経緯が本文に含まれるかは本文未確認。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "4846104222",
+          "title": "検証・カネミ油症事件",
+          "creator": "川名, 英之",
+          "year": 2005,
+          "publisher": "緑風出版",
+          "meta": {
+            "ndl_search_query": "カネミ油症 和解"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000007617298",
+              "kind": "detail"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:09+00:00"
+          },
+          "researcher_note": "カネミ油症事件の検証記録。openBDでISBN照合済み。国・企業との和解・補償の経緯が具体的事例として記述されている可能性が高いが本文未確認。"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784846122171",
+          "title": "カルテがないC型肝炎患者の闘い : 薬害C型肝炎訴訟の記録",
+          "creator": "カルテがないC型肝炎東京弁護団",
+          "year": 2022,
+          "publisher": "緑風出版",
+          "meta": {
+            "ndl_search_query": "薬害 和解 記録"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032454420",
+              "kind": "detail"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:09+00:00"
+          },
+          "researcher_note": "薬害C型肝炎訴訟の記録。タイトルに「訴訟の記録」と明示され、発注の「具体的な事例を扱う書籍」に近い。openBDでISBN照合済み。"
+        },
+        {
+          "cand_id": "book-04",
+          "source_api": "ndl+openbd",
+          "source_id": "4000255517",
+          "title": "竜平とともに : 薬害エイズとたたかう日々",
+          "creator": "川田, 悦子",
+          "year": 1997,
+          "publisher": "岩波書店",
+          "meta": {
+            "ndl_search_query": "薬害 和解 記録"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002579498",
+              "kind": "detail"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:09+00:00"
+          },
+          "researcher_note": "薬害エイズ訴訟をたたかった母の記録。訴訟は和解で終結した事件として知られるが、本文での和解経緯の記述量は未確認。openBDでISBN照合済み。"
+        },
+        {
+          "cand_id": "book-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784594078935",
+          "title": "医療事故に「遭わない」「負けない」「諦めない」",
+          "creator": "石黒, 麻利子",
+          "year": 2018,
+          "publisher": "扶桑社",
+          "meta": {
+            "ndl_search_query": "示談 交渉"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I028709379",
+              "kind": "detail"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:09+00:00"
+          },
+          "researcher_note": "医療事故の示談交渉を含む実務ガイド。特定の一事例ではなく一般的な対応指南書である点が発注との距離。openBDでISBN照合済み。"
+        },
+        {
+          "cand_id": "book-06",
+          "source_api": "ndl+openbd",
+          "source_id": "4762004928",
+          "title": "環境問題と被害者運動",
+          "creator": "飯島, 伸子",
+          "year": 1993,
+          "publisher": "学文社",
+          "meta": {
+            "ndl_search_query": "水俣病 和解"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002480751",
+              "kind": "detail"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:09+00:00"
+          },
+          "researcher_note": "公害被害者運動の社会学的研究。複数の公害事件を扱う概説書で、単一事例の経緯記録ではない。openBDでISBN照合済み。"
+        },
+        {
+          "cand_id": "book-07",
+          "source_api": "ndl+openbd",
+          "source_id": "9784641137936",
+          "title": "ADR法制の現代的課題［民事手続法研究Ⅲ］",
+          "creator": "山本, 和彦",
+          "year": 2018,
+          "publisher": "有斐閣",
+          "meta": {
+            "ndl_search_query": "公害 和解"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I029344495",
+              "kind": "detail"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:09+00:00"
+          },
+          "researcher_note": "ADR(裁判外紛争解決)制度の研究書。示談・和解の制度論であり、具体的事例を記録した書籍ではない。openBDでISBN照合済み。"
+        },
+        {
+          "cand_id": "book-08",
+          "source_api": "ndl+openbd",
+          "source_id": "4902116677",
+          "title": "石牟礼道子の世界",
+          "creator": "岩岡, 中正",
+          "year": 2006,
+          "publisher": "弦書房",
+          "meta": {
+            "ndl_search_query": "水俣病 和解"
+          },
+          "image": {
+            "url": "https://cover.openbd.jp/9784902116670.jpg",
+            "source": "openbd"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000008354316",
+              "kind": "detail"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:09+00:00"
+          },
+          "researcher_note": "水俣病を描いた作家石牟礼道子の論集。示談・和解の経緯そのものの記録ではなく発注との距離がある。openBDでISBN照合済み。"
+        }
+      ]
+    },
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poe-01",
+          "source_api": "ndl+openbd",
+          "source_id": "4490105061",
+          "title": "季語辞典",
+          "creator": "大後, 美保",
+          "year": 1998,
+          "publisher": "東京堂出版",
+          "meta": {
+            "ndl_search_query": "季語辞典"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002738633",
+              "kind": "detail"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:14+00:00"
+          },
+          "researcher_note": "気象学者による季語辞典。新蕎麦が季語として収録されているかは本文未確認。openBDでISBN照合済み。"
+        },
+        {
+          "cand_id": "poe-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784756241825",
+          "title": "季語辞典 : 日本人なら知っておきたい美しい季節のことば",
+          "creator": "関屋, 淳子",
+          "year": 2012,
+          "publisher": "パイインターナショナル",
+          "meta": {
+            "ndl_search_query": "季語辞典"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I023328699",
+              "kind": "detail"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:14+00:00"
+          },
+          "researcher_note": "一般向けの季語辞典。新蕎麦の季語収録は本文未確認。openBDでISBN照合済み。"
+        },
+        {
+          "cand_id": "poe-03",
+          "source_api": "ndl+openbd",
+          "source_id": "4053013259",
+          "title": "季別季語辞典",
+          "creator": "宗田, 安正",
+          "year": 2002,
+          "publisher": "学習研究社",
+          "meta": {
+            "ndl_search_query": "季語辞典"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000003666534",
+              "kind": "detail"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:14+00:00"
+          },
+          "researcher_note": "季節別に編成された季語辞典。新蕎麦の収録は本文未確認。openBDでISBN照合済み。"
+        },
+        {
+          "cand_id": "poe-04",
+          "source_api": "ndl+openbd",
+          "source_id": "9784816929021",
+          "title": "逆引き季語辞典 : 末尾のことばから類語を探す",
+          "creator": "日外アソシエーツ株式会社",
+          "year": 2021,
+          "publisher": "日外アソシエーツ",
+          "meta": {
+            "ndl_search_query": "季語辞典"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031837206",
+              "kind": "detail"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:14+00:00"
+          },
+          "researcher_note": "末尾語から辿る逆引き形式の季語辞典。新蕎麦の収録は本文未確認。openBDでISBN照合済み。"
+        },
+        {
+          "cand_id": "poe-05",
+          "source_api": "ndl+openbd",
+          "source_id": "9784044006518",
+          "title": "季語ものしり事典",
+          "creator": "新海, 均",
+          "year": 2021,
+          "publisher": "KADOKAWA",
+          "meta": {
+            "ndl_search_query": "季語 新蕎麦"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031421763",
+              "kind": "detail"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:14+00:00"
+          },
+          "researcher_note": "季語の由来・雑学を扱う事典。「季語 新蕎麦」の検索でヒット。新蕎麦の項目有無は本文未確認。openBDでISBN照合済み。"
+        },
+        {
+          "cand_id": "poe-06",
+          "source_api": "ndl+openbd",
+          "source_id": "9784140162835",
+          "title": "厨に暮らす : 語り継ぎたい台所の季語",
+          "creator": "宇多, 喜代子",
+          "year": 2022,
+          "publisher": "NHK出版",
+          "meta": {
+            "ndl_search_query": "季語 新蕎麦"
+          },
+          "links": [
+            {
+              "label": "国立国会図書館サーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032101560",
+              "kind": "detail"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-18T22:37:14+00:00"
+          },
+          "researcher_note": "台所にまつわる季語を集めた一冊。「季語 新蕎麦」の検索でヒットし、新蕎麦が収録されている可能性が高いが本文未確認。openBDでISBN照合済み。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

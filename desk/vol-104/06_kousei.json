@@ -1,0 +1,34 @@
+{
+  "vol": 104,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=15294491058971948881&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032454420",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I032101560",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[0].essay 本文「神田淡路町に店を構える神田やぶそばは」",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "神田やぶそば(見出し・DATA欄の「神田 やぶそば」に対し、本文では店名中の空白が脱落している)",
+      "teisei": "神田 やぶそば"
+    }
+  ]
+}
