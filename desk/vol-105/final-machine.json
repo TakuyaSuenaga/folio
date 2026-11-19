@@ -1,0 +1,26 @@
+{
+  "genko_match": true,
+  "genko_detail": {
+    "lead": true,
+    "items[0].essay": true,
+    "items[1].essay": true,
+    "items[2].essay": true
+  },
+  "links_ok": true,
+  "links_detail": {
+    "present": {
+      "https://maps.google.com/?cid=7607011418486028435&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true,
+      "https://music.apple.com/jp/album/%E5%90%9B%E7%B9%8B%E3%83%95%E3%82%A1%E3%82%A4%E3%83%96%E3%82%A8%E3%83%A0/1536363189?uo=4": true,
+      "https://maps.google.com/?cid=8848242583707596085&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA": true
+    },
+    "unknown_external": [],
+    "unsafe_schemes": [],
+    "event_handlers": [],
+    "meta_refresh": false,
+    "css_external": []
+  },
+  "pr_labels_ok": true,
+  "html_ok": true,
+  "okuzuke_ok": true,
+  "url_status": "skip(FOLIO_CHECK_URLS未設定)"
+}

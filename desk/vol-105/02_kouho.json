@@ -1,0 +1,353 @@
+{
+  "vol": 105,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJnRVOt1CJGGARkzgz2ZSIkWk",
+          "title": "東京証券取引所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都中央区日本橋兜町2-1", "primary_type": "銀行/金融" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdcluqMIWSDPErsjfJdW-DhCAWGyd5LLV7cHAV23XQWwunGg9euGRl56vKGvZXwGYUPy8E_Wk-g5A_-_42WAs8YHk9a7BSlQ-p5tBPp65U4mJuz7pasmufPbNBEWK3OyBrRlOUXKBI2dCMQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "H U", "uri": "https://maps.google.com/maps/contrib/109043375384869319716" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=7607011418486028435&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-19T22:37:49+00:00" },
+          "researcher_note": "発注の核。日本橋兜町の現役の取引所建築。"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJWWE6Ct7mAGARkL0f9CYnuNY",
+          "title": "大阪取引所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "大阪府大阪市中央区北浜1丁目8-16", "primary_type": "銀行/金融" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd4WLSLqWrtih_bS80eWTxGuoR7YE1lu2EnsuCg4FovgKBXcMBHJ1Y-OeugMKRJvTKDCUlg6cQT4DjTXSoM-x5Jx7clcgq_zHL1iOZfYwUU6I-GHERy7fOBdDiDrq54UoDYgeG1-a4uzycK=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Ma Wa", "uri": "https://maps.google.com/maps/contrib/116425224450237485447" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15472159568089300368&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-19T22:37:49+00:00" },
+          "researcher_note": "北浜の円筒形建築。日本橋兜町との対比に使える。"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJodiAGRZawokRHXCBqdWXV54",
+          "title": "ニューヨーク証券取引所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "11 Wall St, New York, NY 10005, アメリカ合衆国", "primary_type": "銀行/金融" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfbiiBdZKgikZ_yUUoYG9DnBSgKL2uKRXUA10W24OIIhehNROcWCrq58mTTKToBgDRLHX-gemiEp-YwXhOGjpZni5CtIN2YJWwvuOKFONmNMhRZZJZ12ryijqZLqLB7lYSLL7grcH2Xcje5=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "viki akki", "uri": "https://maps.google.com/maps/contrib/117281334109458080259" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=11409755124894101533&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-19T22:37:49+00:00" },
+          "researcher_note": "ウォール街11番地。新古典様式のファサードが取引所制度の威厳を担う。"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJm5qCU6sEdkgRsl6FX7gRpf4",
+          "title": "ロンドン証券取引所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "10 Paternoster Sq., London EC4M 7LS, イギリス", "primary_type": "銀行/金融" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLddgAofal133WGHfDUZ5ahPWReGiW6qya_9k5QSPoVC8wN53fx8Yp-1QrDCjVp-t_Nifw6_V2b20o1dIWB9107pA1POkazE60T8zk8hj3jxEfmPOeXRzM6hgWWK-dsIbPHkPPMWpeLH4OMS=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Ibsen Boff", "uri": "https://maps.google.com/maps/contrib/109469490981382049341" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=18349091740365184690&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-19T22:37:49+00:00" },
+          "researcher_note": "パタノスター・スクエアの現本部。旧建物(王座裁判所跡)からの移転先。"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJVZUaQ64OvUcRKB-SBH3_XNQ",
+          "title": "フランクフルト証券取引所",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "Börsenpl. 4, 60313 Frankfurt am Main, ドイツ", "primary_type": "教育機関" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLebSKJRP6kUO_GWYv0gryR011lc0E4_Q-TbNcxBkZs96jw04jrC6l-0PU2WF1jPlIVwyGCaZx-TYkfMGuwpQ3CLKu9unds6FYeDuO7tVhG4UiIb4XL4_Qo6HrgjX9Vge2-itDev=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Deutsche Börse – Visitors Center", "uri": "https://maps.google.com/maps/contrib/102813428066731340209" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=15302386546310782760&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-19T22:37:49+00:00" },
+          "researcher_note": "ブル・ベア像で知られる建物。primary_typeが「教育機関」表記だがDeutsche Börse公式ビジターセンターと確認できる。"
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJSaMlfjxu5kcRt4BoKmOzElA",
+          "title": "パリ旧証券取引所(パレ・ブロニャール)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "16 Pl. de la Bourse, 75002 Paris, フランス", "primary_type": "イベント会場" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdXpw--1uOfh0WhNWhQ_txLwZnDLYfW4yjoY6oFGqooOdbyD_3wrOgE9UKza2WHveckXeBBRSlj7sdlY1Uf0G29C_7bCBJNGu6vEKo7mU20psSyODGoDzZtBZFP-XDaOR01lVUjxtD8eK2p=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Marcus Hearn", "uri": "https://maps.google.com/maps/contrib/118243963083648769940" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5769871311109652663&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-19T22:37:49+00:00" },
+          "researcher_note": "現在はイベント会場に転用済み。取引所機能が電子化で建物から抜けた後の姿として対照的に使える。"
+        },
+        {
+          "cand_id": "arch-07",
+          "source_api": "google_places",
+          "source_id": "ChIJ2SSF2FRYwokRl1TG5pAE8n0",
+          "title": "NASDAQマーケットサイト",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "151 W 42nd St Floors 26-28, New York, NY 10036, アメリカ合衆国", "primary_type": "イベント会場" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdgXqHAGmYqOZsC-drjiupreunJ2IV6O2vW5gwfHOklw06XNk1dmO_Bkyev0jmbMsmH2XYJkMqxL1I6jBVfuy92TpuGfvxC0lwtFtfGGgf_6KPjfj-4ujdgfuce9HyZcXgCIkh3=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Nasdaq MarketSite", "uri": "https://maps.google.com/maps/contrib/115376728481678856770" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9075321219498529943&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-19T22:37:49+00:00" },
+          "researcher_note": "NASDAQ自体は電子市場で立会場を持たず、この施設は広報・上場記念儀式専用の場。「儀式を収容する建築」として対照的。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1536363189",
+          "title": "君繋ファイブエム",
+          "creator": "ASIAN KUNG-FU GENERATION",
+          "year": 2003,
+          "publisher": "Sony Music Entertainment (Japan) Inc.",
+          "meta": { "primaryGenreName": "ロック", "trackCount": 12, "copyright": "℗ 2003 Sony Music Entertainment (Japan) Inc." },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/55/91/ca5591a2-41f4-7e86-70df-75c1855b2533/4560427295367.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/%E5%90%9B%E7%B9%8B%E3%83%95%E3%82%A1%E3%82%A4%E3%83%96%E3%82%A8%E3%83%A0/1536363189?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-19T22:37:49+00:00" },
+          "researcher_note": "インディーズ(undergraph)からKi/oon Records(Sony)契約後の最初の作品。発注の核に最も近い。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1538287743",
+          "title": "Tokyo Rendez-Vous",
+          "creator": "King Gnu",
+          "year": 2017,
+          "publisher": "King Gnu",
+          "meta": { "primaryGenreName": "オルタナティブ", "trackCount": 8, "copyright": "℗ 2017 King Gnu" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/10/ec/43/10ec43fa-e243-2e4e-ca49-013afaa7fee5/jacket_XSXX00356B00Z_550.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/tokyo-rendez-vous/1538287743?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-19T22:37:49+00:00" },
+          "researcher_note": "改名・レーベル移籍(前身バンドから)後のメジャーデビューミニアルバム。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1461733509",
+          "title": "Diamond",
+          "creator": "BUMP OF CHICKEN",
+          "year": 2000,
+          "publisher": "TOY'S FACTORY / LONGFELLOW",
+          "meta": { "primaryGenreName": "J-Pop", "trackCount": 2, "copyright": "℗ 2000 TOY'S FACTORY / LONGFELLOW", "format": "single" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d2/6c/51/d26c514e-1eec-06db-578a-4a7314189b2f/TFCC-87066WW.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/diamond-single/1461733509?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-19T22:37:49+00:00" },
+          "researcher_note": "インディーズ活動後のTOY'S FACTORYメジャーデビューシングル。アルバムではなくシングルである点に留意。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "715888150",
+          "title": "C",
+          "creator": "Base Ball Bear",
+          "year": 2006,
+          "publisher": "EMI Music Japan Inc.",
+          "meta": { "primaryGenreName": "ロック", "trackCount": 11, "copyright": "℗ 2006 EMI Music Japan Inc." },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/6f/3d/7f/6f3d7f36-abe5-c30b-383f-d6ce8b293a26/00094638060857.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/c/715888150?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-19T22:37:49+00:00" },
+          "researcher_note": "インディーズ(Tucker Records)からEMIメジャー契約後の1stフルアルバム。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "1440748840",
+          "title": "From Under the Cork Tree",
+          "creator": "Fall Out Boy",
+          "year": 2005,
+          "publisher": "The Island Def Jam Music Group",
+          "meta": { "primaryGenreName": "オルタナティブ", "trackCount": 13, "copyright": "℗ 2005 The Island Def Jam Music Group" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/ff/60/eaff603f-d108-2815-3dce-db39b990635f/06UMGIM11830.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/from-under-the-cork-tree/1440748840?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-19T22:37:49+00:00" },
+          "researcher_note": "インディーズ(Fueled by Ramen)からIsland Def Jam移籍後のメジャーデビューアルバム。海外の事例。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "307080788",
+          "title": "BRING YOUR BOARD!!",
+          "creator": "ELLEGARDEN",
+          "year": 2003,
+          "publisher": "Dynamord Label",
+          "meta": { "primaryGenreName": "ロック", "trackCount": 11, "copyright": "℗ 2003 Dynamord Label" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/7d/ce/fd/mzi.djsfforx.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/bring-your-board/307080788?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-19T22:37:49+00:00" },
+          "researcher_note": "copyright表記がDynamord Label(自主系)であり、メジャー契約作と確定できない。発注との距離がある候補。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1536265077",
+          "title": "BABY ACTION",
+          "creator": "SCANDAL",
+          "year": 2011,
+          "publisher": "Sony Music Entertainment (Japan) Inc.",
+          "meta": { "primaryGenreName": "J-Pop", "trackCount": 12, "copyright": "℗ 2011 Sony Music Entertainment (Japan) Inc." },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/bf/09/e9/bf09e933-7170-b3ad-1d97-707aac8cf2b0/jacket_ESCL03746B00Z_550.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/baby-action/1536265077?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-19T22:37:49+00:00" },
+          "researcher_note": "2011年発表作であり、Epic Recordsからのメジャーデビュー(2008年)作そのものではない。発注との距離が大きい候補。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJkVjY2NiLGGART2ndbHmeg_w",
+          "title": "吉野家 築地店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都中央区築地5丁目2-1 中央卸売市場フードC", "primary_type": "和食店", "parent_company": "吉野家ホールディングス(東証プライム 9861)" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe95Jxzn7vNIUC9_qj9187YMRG4JnAeJSYSciWGu8wi5TXsZkw0ZjTmFdM443NEGD5OvX_5NUOYZMjTfNs3TC0q-pRbjZtZu0Cby-UOn5URnC_pC33ymGDYeSrVW2IaO3mtsd7iTg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "peesuke ats", "uri": "https://maps.google.com/maps/contrib/118436296129354932766" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=18195561163861616975&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-19T22:37:49+00:00" },
+          "researcher_note": "旧築地市場内の老舗店舗。Places上は「1号店」の明記はなく、老舗性は編集部側で別途要確認。"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJm-67RdCGGGARf5SDmhDq3oc",
+          "title": "サイゼリヤ1号店教育記念館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "千葉県市川市八幡2丁目6-5", "primary_type": "観光名所", "parent_company": "サイゼリヤ(東証プライム 7581)" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcSANWzAo1RoQK6P7kTOL0pPGaHmrWSKyRwQKuvKZhDnZ69XmtsSHwsUQt8p2R0JtLV0o1JE5COPXr5LtYhj-A7M2ZnmNTZtuBgjF8PQIy0lUFELevHF1oUGqir4-EsYkzpZN9V=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "masabou", "uri": "https://maps.google.com/maps/contrib/112102142956706876809" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=9790519996982727807&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-19T22:37:49+00:00" },
+          "researcher_note": "primary_typeが「観光名所」であり、Places上では記念施設(非営業店舗)として扱われている。発注の「店舗としての日常運営」とは距離がある。"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJKWSBmT3YVDUR3CYuXFoilj4",
+          "title": "丸亀製麺加古川",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "兵庫県加古川市加古川町北在家140-1", "primary_type": "和食店", "parent_company": "トリドールホールディングス(東証プライム 3397)" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfPsUaahzH2z4iqMGM-7XYlKq4ZwU7p2fY5kWB710OvBl0j12lRTos2DT3I4eJEx39TEh-eObIkp-O5_b7j3OamWGMiq2s3ffI_4w2u4nyuLQHwdBRR3sJj3O5LRBbgm7YF9P1Soxamsz_5=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "すわにゃん", "uri": "https://maps.google.com/maps/contrib/102243588282237487574" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=4509829848347059932&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-19T22:37:49+00:00" },
+          "researcher_note": "丸亀製麺1号店が所在する加古川の店舗。Places上の名称自体に「1号店」の表記はない。"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJZwlJXQDfAGARoVdTG7otzyU",
+          "title": "鳥貴族記念館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "大阪府東大阪市永和1丁目26-22 2階", "primary_type": "焼き鳥店", "parent_company": "鳥貴族ホールディングス(東証プライム 3193)" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf2yU0VDdhlK9ABkndqOJl3Wtpf34HDOPk4YfOPHf8e-ZA6atqP4hlf8TkwbTw3xDixER3CxhmWtevCyWgce3C1imC7yv8eTUyzc-trDnaeOh7lyR83tak9JkStEx1OTm7jqzsuVWW6uIc=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "鳥貴族記念館", "uri": "https://maps.google.com/maps/contrib/107659186525688402270" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2724446576928053153&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-19T22:37:49+00:00" },
+          "researcher_note": "1号店跡の記念館。res-05(同一住所の俊徳店)と対で、起点の場所であることを示す。"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ65XhTQDfAGARNTVg-L9Fy3o",
+          "title": "鳥貴族 俊徳店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "大阪府東大阪市永和1丁目26-22", "primary_type": "焼き鳥店", "parent_company": "鳥貴族ホールディングス(東証プライム 3193)" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLflmWenRkGv21_7GCoBDJjTkUek-_TikjHN8w2RSS5lyeRJfn1C34bSPMbIg7C4uFj5jDpsZ0NCHV32pPUqZLtvRDaG2jBzHh74Zlk0FkuYfQR1WV5tYmEYRXPJOhqDzRyiY4ddfFq31QhC=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "ごやめし", "uri": "https://maps.google.com/maps/contrib/112634882403191455374" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=8848242583707596085&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-19T22:37:49+00:00" },
+          "researcher_note": "鳥貴族記念館(res-04)と同一住所にある現役営業店舗。1号店跡での日常営業を示す候補。"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJ0yJ1LqWMGGARKzPTHLYMoUc",
+          "title": "ドトールコーヒーショップ 原宿店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都渋谷区神宮前1丁目13-18 第2大英ビル", "primary_type": "カフェ・喫茶", "parent_company": "ドトール・日レスホールディングス(東証プライム 3087)" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcQaeusZqUSagoeeAZVSbwhUTdRqA5fGDZY1rHRpOppVuSaFRQVW3aylz0VXLZfz_I-98QN83EhgtLKnaQC6LIeKhXjAO2Eaw9w3LzHJPAY67jMeYonABKbsfAhNlIjjVczdQbySbA9T3c=s4800-w1080",
+            "source": "google-places",
+            "attributions": [ { "name": "ドトールコーヒーショップ 原宿店", "uri": "https://maps.google.com/maps/contrib/116585261034729065733" } ]
+          },
+          "links": [ { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5161420624250483499&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-19T22:37:49+00:00" },
+          "researcher_note": "カフェ業態であり発注の「restaurant」から外れる。ドトール日本発1号店(原宿)の系譲地。参考候補。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

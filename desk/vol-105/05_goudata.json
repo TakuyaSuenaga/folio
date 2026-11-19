@@ -1,0 +1,100 @@
+{
+  "issue": {
+    "vol": 105,
+    "date": "2026-11-20",
+    "title": "上場",
+    "lead": "霜月、立冬を過ぎて暦は冬を名乗るが、名乗った日に何かが変わるわけではない。同じ理屈で、ある企業が株式を公開した日も、その日限りの儀式ではなく、以後恒常的に晒され続ける契約の始まりにすぎない。上場という制度を、建築・音楽・飲食の三点から読む特集。"
+  },
+  "items": [
+    {
+      "genre": "architecture",
+      "cand_id": "arch-01",
+      "sentei_riyu": "発注が求める「上場を執行する物理的な場」に正面から応える、兜町の現役取引所建築。三点のうち、制度そのもの――上場という手続きを成立させる装置――に最も直接に肉薄する役割を担い、以後の音楽・飲食の二点が描く『契約した個人・店舗の側から見た継続』との対比項として、まず『制度を執行する側の建築』を示す位置に置く。",
+      "title": "東京証券取引所",
+      "creator": "",
+      "year": null,
+      "publisher": "",
+      "meta": {
+        "address": "東京都中央区日本橋兜町2-1",
+        "primary_type": "銀行/金融"
+      },
+      "essay": "東京証券取引所は日本橋兜町に立つ。日本橋は江戸期から商いの中心であった街で、その一角に、かつては証券会社の人間が声を交わして売買を成立させる立会場があったが、電子化によってその場は建物の外へ退いた。床に残るのは数字を映す盤面と、新規上場を迎える企業が式典を行うための広場的な空間である。ここで行われる上場記念式典は一度限りの儀式だが、式典が終わった後も建物の奥では、上場企業から届く開示情報を受け取り続けるシステムが動き続けている。つまりこの建物は、儀式を執行する装置であると同時に、儀式の一回性と、その後に恒常的に続く開示義務との落差を可視化する装置でもある。祝祭の空間と監督の空間は、同じ床の上に重なったまま、今日も変わらず営業を続ける。",
+      "image": {
+        "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdcluqMIWSDPErsjfJdW-DhCAWGyd5LLV7cHAV23XQWwunGg9euGRl56vKGvZXwGYUPy8E_Wk-g5A_-_42WAs8YHk9a7BSlQ-p5tBPp65U4mJuz7pasmufPbNBEWK3OyBrRlOUXKBI2dCMQ=s4800-w1200",
+        "source": "google-places",
+        "attributions": [
+          {
+            "name": "H U",
+            "uri": "https://maps.google.com/maps/contrib/109043375384869319716"
+          }
+        ]
+      },
+      "links": [
+        {
+          "label": "Google マップで見る",
+          "url": "https://maps.google.com/?cid=7607011418486028435&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "sponsored": false
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "cand_id": "mus-01",
+      "sentei_riyu": "インディーズから大手レーベル契約という、発注が求める『契約という一度の手続きが継続的供給義務を課す』構造をそのまま体現する作品。建築が示した制度の執行側に続き、契約を結んだ当事者の側から見た上場的構造を描く中間項として、三点目の飲食が示す日常の継続へ橋渡しする役割を担う。",
+      "title": "君繋ファイブエム",
+      "creator": "ASIAN KUNG-FU GENERATION",
+      "year": 2003,
+      "publisher": "Sony Music Entertainment (Japan) Inc.",
+      "meta": {
+        "primaryGenreName": "ロック",
+        "trackCount": 12,
+        "copyright": "℗ 2003 Sony Music Entertainment (Japan) Inc."
+      },
+      "essay": "『君繋ファイブエム』は、アンダーグラフという自主流通の体制で活動していたASIAN KUNG-FU GENERATIONが、Ki/oonという大手傘下のレーベルと契約を結んだ直後に出した作品である。契約という一度の署名は、全国の店頭に同じ盤を並べ続ける供給の体制、次作を定期的に送り出す生産の体制という、以後ずっと続く義務を同時に発生させる。収録される十二曲は、インディーズ期の荒さを残したギターの質感を保ちながらも、全国流通を前提にした整えられた音の鳴らし方で進む。自主制作の時期には許された間や粗さが、ここでは供給の規則性に沿って均されている。つまりこの一枚は、独立した場から大手の供給網へ移った瞬間の録音でありながら、一度の署名が生んだ継続の重みを、録音の奥に今も残す。",
+      "image": {
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/55/91/ca5591a2-41f4-7e86-70df-75c1855b2533/4560427295367.jpg/600x600bb.jpg",
+        "source": "itunes"
+      },
+      "links": [
+        {
+          "label": "Apple Musicで見る",
+          "url": "https://music.apple.com/jp/album/%E5%90%9B%E7%B9%8B%E3%83%95%E3%82%A1%E3%82%A4%E3%83%96%E3%82%A8%E3%83%A0/1536363189?uo=4",
+          "sponsored": false
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "cand_id": "res-05",
+      "sentei_riyu": "親会社が上場している外食チェーンの創業地にある現役営業店という、発注の『四半期開示に縛られながら店舗の日常運営がどう続くか』に最も正面から応える候補。建築・音楽が描いた制度・契約の抽象的な継続義務を、具体的な日々の現場仕事に落とし込み、特集全体を抽象から具体へと収める最終項の役割を担う。",
+      "title": "鳥貴族 俊徳店",
+      "creator": "",
+      "year": null,
+      "publisher": "",
+      "meta": {
+        "address": "大阪府東大阪市永和1丁目26-22",
+        "primary_type": "焼き鳥店",
+        "parent_company": "鳥貴族ホールディングス(東証プライム 3193)"
+      },
+      "essay": "鳥貴族俊徳店は、東大阪市永和にある。同じ番地には創業の地を示す記念館が並んで建ち、俊徳店はその隣で串を焼く火を絶やさずに営業を続けている。記念館が過去の一点を保存する場であるのに対し、俊徳店は同じ場所で今日も厨房を動かし続ける現役の店である。親会社の鳥貴族ホールディングスは東証プライムに名を連ね、四半期ごとに業績と見通しを開示する義務を負っているが、この店の厨房で繰り返されているのは、串に肉を刺し、炭に向け、客の前に置くという、上場以前から変わらない手順である。制度の時間は四半期ごとに区切られ、店の時間は注文が入るたびに巡る。創業の番地でこの一軒が示すのは、制度の時間と店の時間が、同じ場所で重なり続ける姿にほかならない。",
+      "image": {
+        "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLflmWenRkGv21_7GCoBDJjTkUek-_TikjHN8w2RSS5lyeRJfn1C34bSPMbIg7C4uFj5jDpsZ0NCHV32pPUqZLtvRDaG2jBzHh74Zlk0FkuYfQR1WV5tYmEYRXPJOhqDzRyiY4ddfFq31QhC=s4800-w1200",
+        "source": "google-places",
+        "attributions": [
+          {
+            "name": "ごやめし",
+            "uri": "https://maps.google.com/maps/contrib/112634882403191455374"
+          }
+        ]
+      },
+      "links": [
+        {
+          "label": "Google マップで見る",
+          "url": "https://maps.google.com/?cid=8848242583707596085&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "sponsored": false
+        }
+      ]
+    }
+  ],
+  "decorated_at": "2026-11-20"
+}

@@ -1,0 +1,25 @@
+{
+  "vol": 105,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=7607011418486028435&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://music.apple.com/jp/album/%E5%90%9B%E7%B9%8B%E3%83%95%E3%82%A1%E3%82%A4%E3%83%96%E3%82%A8%E3%83%A0/1536363189?uo=4",
+        "status": 200
+      },
+      {
+        "url": "https://maps.google.com/?cid=8848242583707596085&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": []
+}
