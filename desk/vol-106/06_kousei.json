@@ -1,0 +1,34 @@
+{
+  "vol": 106,
+  "machine": {
+    "genko_match": true,
+    "links_ok": true,
+    "html_ok": true,
+    "pr_labels_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      {
+        "url": "https://maps.google.com/?cid=16963126570834433777&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "status": 200
+      },
+      {
+        "url": "https://music.apple.com/jp/album/these-are-the-vistas/268602651?uo=4",
+        "status": 200
+      },
+      {
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I45111100813993",
+        "status": 200
+      }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "P-01",
+      "location": "items[2] 書物『三国志演義 上』本文1文目「『三国志演義』は、鼎立という語そのものの出典と呼ぶべき小説である。」",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "『三国志演義』",
+      "teisei": "『三国志演義 上』(見出し・DATA欄「題名」と同一表記に揃える)"
+    }
+  ]
+}
