@@ -1,0 +1,711 @@
+{
+  "vol": 107,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJZ9v0bP5r5TQRi0-esrqficA",
+          "title": "首里城",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒903-0815 沖縄県那覇市首里金城町１丁目２",
+            "primary_type": "城"
+          },
+          "links": [
+            {
+              "label": "Google Mapsで見る",
+              "url": "https://maps.google.com/?cid=13873795751300976523&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-21T20:47:49+00:00"
+          },
+          "researcher_note": "起点シードの首里城正殿。沖縄戦(1945年)焼失・1992年復元・2019年再焼失という経緯及び現在進行中の復元・落成式典の計画で知られるが、復元進捗・式典日程の事実確認はPlacesデータに含まれず未実施。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcY_KwBa4B7uz556qfpLr1qHaFyqe29_z4-pHsFoKcr2d6CYgPstM3u-Dik9-OfNXCrwfUU6dWto42yUG5PUJhGx5NmE2iDGdo6ChTuYbBMwirnRLMwfDZLJqpOYYwuMC6C8ymjKsCpqoNp=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "H W",
+                "uri": "https://maps.google.com/maps/contrib/116999157415590170885"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJe8E3D4hRBGARRVHODFAi_Dc",
+          "title": "皇大神宮 御正宮",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒516-0023 三重県伊勢市宇治館町１",
+            "primary_type": "神社"
+          },
+          "links": [
+            {
+              "label": "Google Mapsで見る",
+              "url": "https://maps.google.com/?cid=4034137093424697669&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-21T20:47:49+00:00"
+          },
+          "researcher_note": "式年遷宮では社殿新築後、遷御の儀という独立した儀礼を経て使用開始が確定する構造を持つ(内宮)として知られるが、直近の遷宮日程の事実確認はPlacesデータに含まれず未実施。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe-0d9YLQYQaAPA6aG1kLGoRPl87kaEXkEKInjiGEqv1kvhPjk4mHXBB4zIuwR0vqBSqy5c-bV8sR5RkeyBkX_oXulZos3pHJ2b0FvZLk1orKGbV4rpYv04Pet7qbW8YaOapP2quP6Kxn-6=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "ダリア姫",
+                "uri": "https://maps.google.com/maps/contrib/110759056988383779385"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJZwG7QIxaBGARhRtCR-Q5w_M",
+          "title": "御正殿",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒516-0042 三重県伊勢市豊川町２７９ 豊受大神宮内",
+            "primary_type": "神社"
+          },
+          "links": [
+            {
+              "label": "Google Mapsで見る",
+              "url": "https://maps.google.com/?cid=17564946624285907845&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-21T20:47:49+00:00"
+          },
+          "researcher_note": "式年遷宮では社殿新築後、遷御の儀という独立した儀礼を経て使用開始が確定する構造を持つ(外宮)として知られるが、直近の遷宮日程の事実確認はPlacesデータに含まれず未実施。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcghiWFB-m-lVJ-8A3wDoZqBr6xKHSz1Ve8isncYCDLCbshvq7WuzvTL0DLAsobsxBLlbZf_Q0K87YH2N5fs_LzEM7YNuvdXdeC88ZC1Onu72n7h-aYUEUzPddptE43UZ1BBL-bdNMyy8im=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "joshu komori",
+                "uri": "https://maps.google.com/maps/contrib/113897580751605327032"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJE9qjZ0-LGGARQiAs8hULJsg",
+          "title": "東京駅丸の内駅舎",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒100-0005 東京都千代田区丸の内１丁目９−１",
+            "primary_type": ""
+          },
+          "links": [
+            {
+              "label": "Google Mapsで見る",
+              "url": "https://maps.google.com/?cid=14422227045585788994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-21T20:47:49+00:00"
+          },
+          "researcher_note": "保存・復原工事(2012年竣工)の完了と、竣工を披露する式典とが別日に行われた近代建築として知られるが、工事完了日・式典日の事実確認はPlacesデータに含まれず未実施。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf0aUAlV_Pv6xjkwzM3gXfxNvWEC46fD1_L9-JupFkhmt_wH5d2tipTCgGDQ4CpUSZz41F4bCi0eJdpIuLMx43niiRZsTa_f2f1ZavX-C_F67gqBNtXXzhQEulducUN3CxhZhpvWw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "Masahiko Motono",
+                "uri": "https://maps.google.com/maps/contrib/110807531686252733131"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJWco6Ag70QDURMOTNdshmi14",
+          "title": "熊本城",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒860-0002 熊本県熊本市中央区本丸１−１",
+            "primary_type": "城"
+          },
+          "links": [
+            {
+              "label": "Google Mapsで見る",
+              "url": "https://maps.google.com/?cid=6812651872500704304&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-21T20:47:49+00:00"
+          },
+          "researcher_note": "地震被災からの復旧工事完了と、天守閣の復旧を披露する式典とが別日に行われた候補として知られるが、工事完了日・式典日の事実確認はPlacesデータに含まれず未実施。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcR3JQ4Frx87EiXpafGwPCZsr7ywo5IGaxiVzByuoRmblDc9_GVCEeOAM0FNu9WiZyoXEG_PkUh1lT3jt2AQMmJmayEYoritvmc66OUb3ItFnnl713AS2a_8Ic5oHJIcCfosVN8Ott4CLM=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "Ugandan Knuckles",
+                "uri": "https://maps.google.com/maps/contrib/103547288872315708723"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJPRlWKpRcVzUR74S6_K5qanA",
+          "title": "出雲大社",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒699-0701 島根県出雲市大社町杵築東１９５",
+            "primary_type": "神社"
+          },
+          "links": [
+            {
+              "label": "Google Mapsで見る",
+              "url": "https://maps.google.com/?cid=8100404179576194287&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-21T20:47:49+00:00"
+          },
+          "researcher_note": "本殿修造の完了と遷座の儀礼とが別日に行われる式年遷宮の構造を持つ候補として知られるが、直近の修造・遷座日程の事実確認はPlacesデータに含まれず未実施。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeLcDpYO92gn7F3whEslpMP0nHai5NTKmjycAqMIqjrEpU9p1ANT__IUujvDgdygFpwaXQyVRWR6v30Mtb4R_j2ZZFSAD4TbmXW7pmO-VsWYIZjANybpWb8i5j-cqTI9oj4cXEXwg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "永嶺朝子",
+                "uri": "https://maps.google.com/maps/contrib/117255053291976618307"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "arc-07",
+          "source_api": "google_places",
+          "source_id": "ChIJsyQzogPgVDURsYG6bi-MT3o",
+          "title": "姫路城",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒670-0012 兵庫県姫路市本町６８",
+            "primary_type": "城"
+          },
+          "links": [
+            {
+              "label": "Google Mapsで見る",
+              "url": "https://maps.google.com/?cid=8813417131136418225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-21T20:47:49+00:00"
+          },
+          "researcher_note": "保存修理工事の完了と、完成を披露する式典とが別日に行われた候補として知られるが、工事完了日・式典日の事実確認はPlacesデータに含まれず未実施。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc7yboNmio_pkAjHYB7B6vRlgwJfrarnqpSfvxxIaNIUN8ypKJOG6xrHI6Tk2tAIyEA9lUtf7ZfarE37nejBkZeNkqseaZ0ciqJmrHcbQ6aenx_975PLpTAsczLkYL9L53dXavXDLaldFw=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "Allen Z.",
+                "uri": "https://maps.google.com/maps/contrib/108702940200365245910"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJreMNLr2LGGARZuiWrMEdha8",
+          "title": "五代目 野田岩 麻布飯倉本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒106-0044 東京都港区東麻布１丁目５−４",
+            "primary_type": "和食店"
+          },
+          "links": [
+            {
+              "label": "Google Mapsで見る",
+              "url": "https://maps.google.com/?cid=12647547846201370726&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-21T20:47:49+00:00"
+          },
+          "researcher_note": "江戸期創業とされ暖簾分けの系譜を持つ鰻の老舗として知られるが、開業日と披露目式の日付の事実確認はPlacesデータに含まれず未実施。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd6AaVJRz6X4tOrqeePCU-AAMS6LG7lIZ_fsFHAs_JS8ZVOvsqpwlwpFEVBQajPrHto2PDpV773X0M7grrN1PW9UVPGqP6bXe9XHqFeBijLkN2AEMoQfM_zgqFRYv0cx8PFeRGn=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "いであidea522",
+                "uri": "https://maps.google.com/maps/contrib/105197261424325908683"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJu3eG8uiLGGAR14kVvD_YrHI",
+          "title": "銀座久兵衛 銀座 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒104-0061 東京都中央区銀座８丁目７−６",
+            "primary_type": "寿司店"
+          },
+          "links": [
+            {
+              "label": "Google Mapsで見る",
+              "url": "https://maps.google.com/?cid=8263217184568084951&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-21T20:47:49+00:00"
+          },
+          "researcher_note": "江戸前寿司の老舗として知られるが、開業と披露の儀礼が別日であったかの事実確認はPlacesデータに含まれず未実施。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdvNmzRLCBfYwtkfPnGQdhUljLzrDKWtfsvbA-Z_p9Fn0RkRKe-8by1a_zCZHsMNmGY3hokGVY3PCmMUdDvWaXmh6f_ah407mulLBPjtYnutQkcxijA0absRNWlgdi0aQH6AdNbMvQQzOoz=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "42 HIWA",
+                "uri": "https://maps.google.com/maps/contrib/102766497229212483735"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJgaK_91eJGGAR23JG-sDn-d8",
+          "title": "吉野鮨本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒103-0027 東京都中央区日本橋３丁目８−１１",
+            "primary_type": "寿司店"
+          },
+          "links": [
+            {
+              "label": "Google Mapsで見る",
+              "url": "https://maps.google.com/?cid=16139185555677541083&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-21T20:47:49+00:00"
+          },
+          "researcher_note": "明治創業とされる江戸前寿司の老舗として知られるが、開業日と披露目式の日付の事実確認はPlacesデータに含まれず未実施。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLesiVIP6RBPsz62ARnupZsMYKGZLWM8Sn5oyQivH_GkEaHpwdsQOY6bJHb1OOi6H6yXQwXKsCYW_2whpEbuZZqmGs8z5A8jrbaxhlkuawYJAHsjbJt_1kbLMqMeKlNNc1Zq6GmpkQ0hcno=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "みかど",
+                "uri": "https://maps.google.com/maps/contrib/111139316463867389106"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJq6oF_saOGGARikXRyPA55vI",
+          "title": "並木藪蕎麦",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒111-0034 東京都台東区雷門２丁目１１−９",
+            "primary_type": "レストラン"
+          },
+          "links": [
+            {
+              "label": "Google Mapsで見る",
+              "url": "https://maps.google.com/?cid=17502740708146103690&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-21T20:47:49+00:00"
+          },
+          "researcher_note": "藪御三家の一つで、暖簾分けによる店の分立の歴史を持つ蕎麦屋として知られるが、暖簾分けの日付の事実確認はPlacesデータに含まれず未実施。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfJ_vGIhKasAxHBzZ2OCj8US6WrG1g3bnkBwvCWbB2gPOXHhgdv0067tpGkPbMbTpQIhnslH7dkj0bCHe15MhKkQSoL6iAlKvCEEYRFhBMbUelbfG8YCxqi10XoawV3F9LeCg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "山雲海月",
+                "uri": "https://maps.google.com/maps/contrib/115665929955581317240"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJVVXF5doIAWARUetIixOU-sw",
+          "title": "菊乃井 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒605-0825 京都府京都市東山区下河原通八坂鳥居前下る下河原町４５９",
+            "primary_type": "和食店"
+          },
+          "links": [
+            {
+              "label": "Google Mapsで見る",
+              "url": "https://maps.google.com/?cid=14770280739577064273&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-21T20:47:49+00:00"
+          },
+          "researcher_note": "京都の老舗料亭として知られるが、創業と開業披露の儀礼が別日であったかの事実確認はPlacesデータに含まれず未実施。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcdfWsOsR1a8IW2zsoWAcpx3gY0A3x9i0TNL7pvJfz7WURCxnE6GlY_JRbiDiwrCA5Rv0c0pgk_aoca8LO6jsDZeYTjWuTsio6rQIxOwGUFCzp8W81BX8jx0wHBTEv55GKJQb3t-A=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "kumorim",
+                "uri": "https://maps.google.com/maps/contrib/102478027188926768179"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJv0lV1EMIAWAR4KjdVnmV0Ls",
+          "title": "下鴨茶寮 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒606-0801 京都府京都市左京区下鴨宮河町６２",
+            "primary_type": "和食店"
+          },
+          "links": [
+            {
+              "label": "Google Mapsで見る",
+              "url": "https://maps.google.com/?cid=13533481228629289184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-21T20:47:49+00:00"
+          },
+          "researcher_note": "京都の老舗料亭として知られるが、創業と開業披露の儀礼が別日であったかの事実確認はPlacesデータに含まれず未実施。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdnDSbeuQDaHwStZ8JuDwdVTwXBpXNO_3-vihIM2P43UincdrVhjrh2Qg9vh-S5invjLqw95B_fAFe1Pg7G2XEKyozqdSzkeVDD22Ix-c81LaSRbMueTW_2_9q2HTIkjquGnNp_ZOlpotV2=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "下鴨茶寮 本店",
+                "uri": "https://maps.google.com/maps/contrib/110308209438208423169"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJAQBwVecIAWAR2Uc4maKJl0E",
+          "title": "美濃吉本店 竹茂楼",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒606-8436 京都府京都市左京区粟田口鳥居町６５",
+            "primary_type": "和食店"
+          },
+          "links": [
+            {
+              "label": "Google Mapsで見る",
+              "url": "https://maps.google.com/?cid=4726397665396934617&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-21T20:47:49+00:00"
+          },
+          "researcher_note": "創業300年超とされる京都の老舗料亭として知られるが、創業日・披露目式の日付の事実確認はPlacesデータに含まれず未実施。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLezHABgFipt9o8QjLedqz8Hr2oDia46iWo9_RTAeItBdWdmcc7bxRhywverqQf5w5XDs1LzQrtTExcm7DyTTMjPBxGewBT2ZTbiT8cVOr6aqDgln4HKBLc8jn5XpMqBZ2HKerBltKH1Ogo=s4800-w633",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "美濃吉本店 竹茂楼",
+                "uri": "https://maps.google.com/maps/contrib/103781196669398083599"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "res-08",
+          "source_api": "google_places",
+          "source_id": "ChIJJRIRWR96A2AR1pCxwc4H298",
+          "title": "あつた蓬莱軒 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": {
+            "address": "日本、〒456-0043 愛知県名古屋市熱田区神戸町５０３",
+            "primary_type": "和食店"
+          },
+          "links": [
+            {
+              "label": "Google Mapsで見る",
+              "url": "https://maps.google.com/?cid=16130495074951860438&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-21T20:47:49+00:00"
+          },
+          "researcher_note": "ひつまぶし発祥とされる名古屋の老舗鰻屋として知られるが、開業日と披露目式の日付の事実確認はPlacesデータに含まれず未実施。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcO18Z_Zw1YylZgVfj2DW8MMddakp_VdfVgrd4OPaKE0fXsycc9OuQYEbkIrHDgZQ3dgKiiS8ZwgnJLUNtTfDw8cnqKEGo47Zsn37FWs1fVJfZjt2cUC7KIiESWjiAYlmgEGikldQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "何文良",
+                "uri": "https://maps.google.com/maps/contrib/112883581785951001547"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": 1440775500,
+          "title": "Wagner: Der Ring des Nibelungen",
+          "creator": "ウィーン・フィルハーモニー管弦楽団 & サー・ゲオルク・ショルティ",
+          "year": 1997,
+          "publisher": "℗ 2014 Decca Music Group Limited",
+          "meta": {
+            "primaryGenreName": "クラシック",
+            "trackCount": 179
+          },
+          "links": [
+            {
+              "label": "Apple Musicで見る",
+              "url": "https://music.apple.com/jp/album/wagner-der-ring-des-nibelungen/1440775500?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-21T20:47:31+00:00"
+          },
+          "researcher_note": "バイロイト祝祭劇場での1876年初演のために作曲され、劇場そのものが初演の式典用に建てられた『ニーベルングの指環』の代表的全曲録音として知られるが、作曲完了日・初演日の事実確認はiTunesレスポンスに含まれず未実施。",
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/cc/54/da/cc54da58-c7ca-4cf2-1307-5f6ad8e26400/00028947878582.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          }
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": 1440743071,
+          "title": "Beethoven: Symphony No. 9",
+          "creator": "ベルリン・フィルハーモニー管弦楽団 & ヘルベルト・フォン・カラヤン",
+          "year": 1984,
+          "publisher": "℗ 1984 Deutsche Grammophon GmbH, Berlin",
+          "meta": {
+            "primaryGenreName": "クラシック",
+            "trackCount": 5
+          },
+          "links": [
+            {
+              "label": "Apple Musicで見る",
+              "url": "https://music.apple.com/jp/album/beethoven-symphony-no-9/1440743071?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-21T20:47:31+00:00"
+          },
+          "researcher_note": "1824年の作曲完了と、同年ウィーンでの公式初演という儀礼的な演奏会とが分かれている作品として知られるが、作曲完了日・初演日の事実確認はiTunesレスポンスに含まれず未実施。",
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/ce/c6/9e/cec69efe-daa4-b308-905d-ec43844202e4/00028943900621.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          }
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": 467461593,
+          "title": "Kimigayo - Japanese Anthem - Single",
+          "creator": "君が代",
+          "year": 2011,
+          "publisher": "℗ 2011 Japan National Recordings",
+          "meta": {
+            "primaryGenreName": "クリスチャンミュージック",
+            "trackCount": 1
+          },
+          "links": [
+            {
+              "label": "Apple Musicで見る",
+              "url": "https://music.apple.com/jp/album/kimigayo-japanese-anthem-single/467461593?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-21T20:47:31+00:00"
+          },
+          "researcher_note": "1880年に旋律が完成し、1999年の国旗国歌法で初めて公式な国歌として制定されたとされる楽曲の録音だが、制定に至る経緯・日付の事実確認はiTunesレスポンスに含まれず未実施。",
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/6e/45/db/mzi.tlpxanyn.jpg/600x600bb.jpg",
+            "source": "itunes"
+          }
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": 1440758789,
+          "title": "Dvořák: Symphony No. 9 \"From the New World\" - Smetana: The Moldau",
+          "creator": "ウィーン・フィルハーモニー管弦楽団 & ヘルベルト・フォン・カラヤン",
+          "year": 1985,
+          "publisher": "℗ 1985 Deutsche Grammophon GmbH, Berlin",
+          "meta": {
+            "primaryGenreName": "クラシック",
+            "trackCount": 5
+          },
+          "links": [
+            {
+              "label": "Apple Musicで見る",
+              "url": "https://music.apple.com/jp/album/dvo%C5%99%C3%A1k-symphony-no-9-from-the-new-world-smetana-the-moldau/1440758789?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-21T20:47:31+00:00"
+          },
+          "researcher_note": "作曲完了後、1893年ニューヨークでの公式初演という儀礼的な演奏会の場で発表された作品として知られるが、作曲完了日・初演日の事実確認はiTunesレスポンスに含まれず未実施。",
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/05/ff/1305ff05-755a-7139-3017-52b260b7b6dc/06UMGIM49333.rgb.jpg/600x600bb.jpg",
+            "source": "itunes"
+          }
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": 1501125689,
+          "title": "信時潔/北原白秋:交声曲「海道東征」/「海ゆかば」",
+          "creator": "北原幸男(指揮)/東京交響楽団/東京混声合唱団 他",
+          "year": 2020,
+          "publisher": "℗ 2020 King Record Co.,Ltd.",
+          "meta": {
+            "primaryGenreName": "クラシック",
+            "trackCount": 10
+          },
+          "links": [
+            {
+              "label": "Apple Musicで見る",
+              "url": "https://music.apple.com/jp/album/%E4%BF%A1%E6%99%82%E6%BD%94-%E5%8C%97%E5%8E%9F%E7%99%BD%E7%A7%8B-%E4%BA%A4%E5%A3%B0%E6%9B%B2-%E6%B5%B7%E9%81%93%E6%9D%B1%E5%BE%81-%E6%B5%B7%E3%82%86%E3%81%8B%E3%81%B0/1501125689?uo=4",
+              "kind": "stream"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-21T20:47:31+00:00"
+          },
+          "researcher_note": "皇紀2600年奉祝式典のために作曲されたとされる作品として知られるが、作曲完了日・式典での初演日の事実確認はiTunesレスポンスに含まれず未実施。",
+          "image": {
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/95/d9/5d/95d95d9c-fbf4-9aab-8082-69becea7db6b/KICC-1504.jpg/600x600bb.jpg",
+            "source": "itunes"
+          }
+        }
+      ]
+    }
+  ],
+  "ng": []
+}

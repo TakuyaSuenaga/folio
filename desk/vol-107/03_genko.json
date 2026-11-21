@@ -1,0 +1,97 @@
+{
+  "issue": {
+    "vol": 107,
+    "date": "2026-11-22",
+    "title": "落成式",
+    "lead": "建物は最後の瓦を葺いた日に完成しない。竣工から時を置いて催される落成式という式典によって、工事は初めて公に完成の名を得る。首里城正殿の復元完成式を起点に、建築・音楽・飲食の三点から、物理的な終わりの瞬間と、それを社会に承認させる儀礼上の時間とが、別の手続きとして分かれている様子を読む。"
+  },
+  "items": [
+    {
+      "genre": "architecture",
+      "cand_id": "arc-02",
+      "sentei_riyu": "本号の三点のうち最初に置かれる建築枠。首里城正殿を起点とする企画の問いを、個別の復元計画(進捗・式典日程は未確認のため不使用)ではなく、式年遷宮という定期反復の制度を通じて示す。確立した知識のみに基づき、竣工と儀礼的確定の分離を建築史上の恒常的な制度として設定し、以降の音楽・飲食の二点がこの枠組みを個別の事例でどう展開するかの基準を作る役割を担う。",
+      "title": "皇大神宮 御正宮",
+      "creator": "",
+      "year": null,
+      "publisher": "",
+      "meta": {
+        "address": "日本、〒516-0023 三重県伊勢市宇治館町１",
+        "primary_type": "神社"
+      },
+      "links": [
+        {
+          "label": "Google Mapsで見る",
+          "url": "https://maps.google.com/?cid=4034137093424697669&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "kind": "map"
+        }
+      ],
+      "essay": "伊勢神宮の正殿は、二十年に一度、同じ形式で隣の御敷地に建て替えられる。だが新殿が建ち上がった時点では、まだ神は古殿にいる。竣工は空間の完成に過ぎず、神体を新殿へ送る遷御の儀を経てはじめて、その建築は宮としての機能を持つ。式年遷宮という制度は、建てることと、建てられた場所を聖地として確定することとを、あらかじめ別の手続きとして組み込んでいる。社殿は木と茅で組まれ、二十年という周期そのものが老朽化の尺度ではなく、完成と承認の時間差を定期的に反復するための仕組みとして機能する。宇治館町の森に建つこの正殿を訪れる者が目にするのは、すでに儀礼を経て確定した空間であり、竣工の瞬間そのものには誰も立ち会えない構造になっている。",
+      "image": {
+        "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe-0d9YLQYQaAPA6aG1kLGoRPl87kaEXkEKInjiGEqv1kvhPjk4mHXBB4zIuwR0vqBSqy5c-bV8sR5RkeyBkX_oXulZos3pHJ2b0FvZLk1orKGbV4rpYv04Pet7qbW8YaOapP2quP6Kxn-6=s4800-w1200",
+        "source": "google-places",
+        "attributions": [
+          {
+            "name": "ダリア姫",
+            "uri": "https://maps.google.com/maps/contrib/110759056988383779385"
+          }
+        ]
+      }
+    },
+    {
+      "genre": "music",
+      "cand_id": "mus-01",
+      "sentei_riyu": "建築編が示した「制度としての分離」を、今度は劇場建築に支えられた一度限りの上演という形で反復する。伊勢神宮の反復儀礼に対し、バイロイトは一回性の儀礼であり、両者を並べることで、完成と承認の分離が周期的制度にも一回的事件にも成り立つことを示す。視点を空間体験から聴取の体験へずらし、建築編と同じ結句型に落ちないよう構文を変える役割を担う。",
+      "title": "Wagner: Der Ring des Nibelungen",
+      "creator": "ウィーン・フィルハーモニー管弦楽団 & サー・ゲオルク・ショルティ",
+      "year": 1997,
+      "publisher": "℗ 2014 Decca Music Group Limited",
+      "meta": {
+        "primaryGenreName": "クラシック",
+        "trackCount": 179
+      },
+      "links": [
+        {
+          "label": "Apple Musicで見る",
+          "url": "https://music.apple.com/jp/album/wagner-der-ring-des-nibelungen/1440775500?uo=4",
+          "kind": "stream"
+        }
+      ],
+      "essay": "『ニーベルングの指環』は、台本から数えて四半世紀近い時間をかけて書き上げられたのち、作曲の完了そのものではなく、専用に建てられた劇場での上演という儀礼を待ってから世に出た楽劇である。バイロイト祝祭劇場は観客席を暗くし、舞台と客席のあいだにオーケストラピットを沈めるという、それまでの歌劇場にはない聴取の姿勢を強いる建物として設計された。この劇場が完成した時点では、まだ誰もこの作品を全曲通して聴いていない。千八百七十六年の上演という一度きりの出来事を経てはじめて、楽譜は作品として確定し、以後の歌劇場建築にも聴取の姿勢を強いる系譜を残した。音楽の完成は紙の上に書き終えた瞬間にはなく、それを聴くための場所と作法が整えられた瞬間に遅れてやってくる。",
+      "image": {
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/cc/54/da/cc54da58-c7ca-4cf2-1307-5f6ad8e26400/00028947878582.rgb.jpg/600x600bb.jpg",
+        "source": "itunes"
+      }
+    },
+    {
+      "genre": "restaurant",
+      "cand_id": "res-04",
+      "sentei_riyu": "建築・音楽で示した制度的・一回的な分離を、最後に市井の商慣習である暖簾分けという形で引き受ける。神殿や劇場という大きな儀礼に対し、一軒の蕎麦屋の暖簾分けという小さな儀礼を置くことで、完成と承認の分離が規模を問わず機能する手続きであることを示し、三点の並置を制度から日常の慣習へ降りていく構成に閉じる役割を担う。",
+      "title": "並木藪蕎麦",
+      "creator": "",
+      "year": null,
+      "publisher": "",
+      "meta": {
+        "address": "日本、〒111-0034 東京都台東区雷門２丁目１１−９",
+        "primary_type": "レストラン"
+      },
+      "links": [
+        {
+          "label": "Google Mapsで見る",
+          "url": "https://maps.google.com/?cid=17502740708146103690&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "kind": "map"
+        }
+      ],
+      "essay": "藪御三家と呼ばれる系譜に名を連ねる蕎麦屋の多くは、暖簾分けという儀礼によって初めて店としての身分を得た。厨房での仕込みが整い、暖簾を染め終えた時点では、まだ店は始まっていない。本家の名を分けることを許され、その披露が済んではじめて、同じ系譜に連なる一軒として公に認知される。並木藪蕎麦もこの分立の歴史を負う店の一つであり、雷門に近い通りに面した佇まいは、独立した準備の完了と、名乗りを許された日という、別々の起点を内側に抱えている。蕎麦を打つ技術がどれほど熟していても、暖簾分けという手続きを経ない限り、系譜のなかに位置を持つことはできない。店の歴史が語るのは技術の継承であると同時に、儀礼によって確定した身分の継承でもある。",
+      "image": {
+        "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfJ_vGIhKasAxHBzZ2OCj8US6WrG1g3bnkBwvCWbB2gPOXHhgdv0067tpGkPbMbTpQIhnslH7dkj0bCHe15MhKkQSoL6iAlKvCEEYRFhBMbUelbfG8YCxqi10XoawV3F9LeCg=s4800-w1200",
+        "source": "google-places",
+        "attributions": [
+          {
+            "name": "山雲海月",
+            "uri": "https://maps.google.com/maps/contrib/115665929955581317240"
+          }
+        ]
+      }
+    }
+  ]
+}
