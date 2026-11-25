@@ -1,0 +1,68 @@
+{
+  "vol": 108,
+  "machine": {
+    "genko_match": true,
+    "genko_detail": {
+      "lead": true,
+      "items[0].essay": true,
+      "items[1].essay": true
+    },
+    "links_ok": true,
+    "links_detail": {
+      "present": {
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I031357339": true,
+        "https://api.openbd.jp/v1/get?isbn=9784838731480": true,
+        "https://ndlsearch.ndl.go.jp/books/R100000002-I000007493103": true,
+        "https://api.openbd.jp/v1/get?isbn=9784861730580": true
+      },
+      "unknown_external": [],
+      "unsafe_schemes": [],
+      "event_handlers": [],
+      "meta_refresh": false,
+      "css_external": []
+    },
+    "pr_labels_ok": true,
+    "html_ok": true,
+    "okuzuke_ok": true,
+    "url_status": [
+      { "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031357339", "status": 200 },
+      { "url": "https://api.openbd.jp/v1/get?isbn=9784838731480", "status": 200 },
+      { "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000007493103", "status": 200 },
+      { "url": "https://api.openbd.jp/v1/get?isbn=9784861730580", "status": 200 }
+    ]
+  },
+  "shiteki": [
+    {
+      "id": "K-01",
+      "location": "リード文(lead-v)",
+      "severity": "blocking",
+      "type": "原稿不一致",
+      "genzai": "「……倒壊の危険が指摘されたまま取り壊されぬ建物、無実が確定する前の時間を書いた手記、判定を待つ宙吊りの心を詠んだ句。三つの実在が……」と、建物(architecture)を含めて『三つの実在』を謳っているが、architectureは候補5点とも行政の個別認定内容が未確認のため落選しており、本号の掲載itemはbook・poetryの2件のみ。リードが読者に存在しない特集対象を提示している。",
+      "teisei": "リードから建物(architecture)への言及と『三つの実在』の数量表現を外し、掲載2件(book・poetry)に対応する記述に改める。修正は編集長の責了指示を経てlead_finalとして反映する。"
+    },
+    {
+      "id": "K-02",
+      "location": "items[1](poetry)h2/DATA欄「題名」行 と essay 1文目の引用",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "h2・DATA欄の題名は「海鼠の日 : 角川春樹獄中俳句」(コロン区切り)だが、essay内の引用は「『海鼠の日——角川春樹獄中俳句』」(ダッシュ区切り)になっており、同一作品名の区切り記号が三点一致していない。",
+      "teisei": "essay内の引用をDATA欄・見出しと同じ区切り「 : 」に統一する(『海鼠の日 : 角川春樹獄中俳句』)。"
+    },
+    {
+      "id": "K-03",
+      "location": "奥付 colophon注記(architecture落選の説明文)",
+      "severity": "minor",
+      "type": "表記統一",
+      "genzai": "「候補5点(arch-01〜05)……企画時の3ジャンルから2ジャンルへの縮小だが、book・poetryの2点が……」で、数量を表す「5点」「3ジャンル」「2ジャンル」「2点」が算用数字になっている。",
+      "teisei": "本文の数量表記を漢数字に統一する:「候補五点」「三ジャンルから二ジャンルへ」「二点」。識別子「arch-01〜05」は型番相当のため算用数字のままでよい。"
+    },
+    {
+      "id": "K-04",
+      "location": "items[0]・items[1] DATA欄「入手」行",
+      "severity": "minor",
+      "type": "組版",
+      "genzai": "各itemのDATA欄「入手」行で、2本のリンク(NDLサーチで見る/openBDで見る)が区切りなしで連続しており、視覚的に「NDLサーチで見るopenBDで見る」と連結して見える。",
+      "teisei": "複数リンクの間に区切り(読点・スペース・中点等)を挿入して表示を分離する。"
+    }
+  ]
+}

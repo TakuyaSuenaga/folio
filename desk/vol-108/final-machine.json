@@ -1,0 +1,26 @@
+{
+  "genko_match": true,
+  "genko_detail": {
+    "lead": true,
+    "items[0].essay": true,
+    "items[1].essay": true
+  },
+  "links_ok": true,
+  "links_detail": {
+    "present": {
+      "https://ndlsearch.ndl.go.jp/books/R100000002-I031357339": true,
+      "https://api.openbd.jp/v1/get?isbn=9784838731480": true,
+      "https://ndlsearch.ndl.go.jp/books/R100000002-I000007493103": true,
+      "https://api.openbd.jp/v1/get?isbn=9784861730580": true
+    },
+    "unknown_external": [],
+    "unsafe_schemes": [],
+    "event_handlers": [],
+    "meta_refresh": false,
+    "css_external": []
+  },
+  "pr_labels_ok": true,
+  "html_ok": true,
+  "okuzuke_ok": true,
+  "url_status": "skip(FOLIO_CHECK_URLS未設定)"
+}

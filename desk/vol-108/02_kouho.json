@@ -1,0 +1,214 @@
+{
+  "vol": 108,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJg1rsUTOPAGARkWrSnoyJMUc",
+          "title": "旧摩耶観光ホテル",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "日本、〒657-0102 兵庫県神戸市灘区畑原344-7",
+            "primary_type": "史跡"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfO-jrjnLsgGpHqiZXv68-2lwWN4MluLLl6fbwS241XH3XPElNKVCteDxW2O5H8w0zHfPfOauJ8l4QboR9jaOPexNG4L6XO869poK3h6-OPxNMqT3NhvdJRyeFqk0zPzLk2mW81=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              { "name": "tameimongoogle raiden", "uri": "https://maps.google.com/maps/contrib/100782851595021946185" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=5130032687604722321&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-24T23:49:08+00:00" },
+          "researcher_note": "神戸市灘区の廃墟ホテル。老朽化による崩落危険が長年指摘される旧ホテルとして知られるが、行政の耐震診断・指導勧告の個別認定内容はPlacesレスポンスに含まれず未確認。所在地・現存のみ確認済み"
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJ___PYqGYWjUR3XotFTH_iPU",
+          "title": "市営基町高層アパート19号",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "日本、〒730-0011 広島県広島市中区基町19-1",
+            "primary_type": "アパート"
+          },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfWy6aEhuT0-XeTcN-Rm8LZLtIH7-YQKkc2WpNHqAtiQVdoQgNqXXIBWQcnA9gQTDGRgp11tS5KJsCiKRIXXSw9xqiLphJa7iVkI_ujYjDkxLw3F_X2N5WFssRMjdDjSb37_8VnWw=s4800-w678",
+            "source": "google-places",
+            "attributions": [
+              { "name": "Nanao", "uri": "https://maps.google.com/maps/contrib/102125182427144797045" }
+            ]
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=17692671722398776029&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-24T23:49:08+00:00" },
+          "researcher_note": "広島市中区基町の市営高層住宅群の一棟。老朽化・耐震性を巡る解体議論の対象として報道で言及される団地だが、個別棟の耐震診断結果や行政指導の認定内容はPlacesレスポンスに含まれず未確認。所在地・現存のみ確認済み"
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJGcJbwVyZWjURT3pQ_XTPJeA",
+          "title": "広島市営基町アパートNo.1",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "日本、〒730-0011 広島県広島市中区基町16-1",
+            "primary_type": "団地/共同住宅"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=16151543740007217743&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-24T23:49:08+00:00" },
+          "researcher_note": "arch-02と同じ基町高層住宅群の別棟。写真は取得できず(キー無し写真が無い)。行政認定の個別内容は未確認で、所在地・現存のみ確認済み"
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJuSJk9KPlAGARzwyQxnOTxlg",
+          "title": "府営吹田佐竹台住宅 2棟",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "日本、〒565-0855 大阪府吹田市佐竹台2丁目4-2",
+            "primary_type": "住宅団地"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=6396962446188219599&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-24T23:49:08+00:00" },
+          "researcher_note": "千里ニュータウン内の府営住宅。老朽化に伴う耐震性議論が知られる団地だが、個別の行政認定内容はPlacesレスポンス外のため未確認。所在地・現存のみ確認済み"
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJTeG9UqDlAGARBG4-BbmO3SI",
+          "title": "府営吹田佐竹台住宅 1棟",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "formatted_address": "日本、〒565-0855 大阪府吹田市佐竹台2丁目4-1",
+            "primary_type": "住宅団地"
+          },
+          "links": [
+            { "label": "Google マップで見る", "url": "https://maps.google.com/?cid=2512321092450676228&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-24T23:49:08+00:00" },
+          "researcher_note": "arch-04と同じ佐竹台住宅群の別棟。行政認定の個別内容は未確認で、所在地・現存のみ確認済み"
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784838731480",
+          "title": "俺の上には空がある広い空が",
+          "creator": "桜井,昌司,1947-",
+          "year": 2021,
+          "publisher": "マガジンハウス",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I031357339", "kind": "reference" },
+            { "label": "openBDで見る", "url": "https://api.openbd.jp/v1/get?isbn=9784838731480", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-24T23:54:25+00:00" },
+          "researcher_note": "布川事件で29年間収監され再審無罪を得た桜井昌司氏自身による手記。openBDのsummary.coverは空文字のためimage未付与"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784023304512",
+          "title": "冤罪 : ある日、私は犯人にされた",
+          "creator": "菅家,利和",
+          "year": 2009,
+          "publisher": "朝日新聞出版",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000010520757", "kind": "reference" },
+            { "label": "openBDで見る", "url": "https://api.openbd.jp/v1/get?isbn=9784023304512", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-24T23:54:25+00:00" },
+          "researcher_note": "足利事件で逮捕から再審無罪確定まで約18年を経た菅家利和氏自身による手記。openBDのsummary.coverは空文字のためimage未付与"
+        },
+        {
+          "cand_id": "book-03",
+          "source_api": "ndl+openbd",
+          "source_id": "9784778310462",
+          "title": "お父さんはやってない",
+          "creator": "矢田部,孝司 矢田部,あつ子",
+          "year": 2006,
+          "publisher": "太田出版",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000008392820", "kind": "reference" },
+            { "label": "openBDで見る", "url": "https://api.openbd.jp/v1/get?isbn=9784778310462", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-24T23:54:25+00:00" },
+          "researcher_note": "氷見事件の当事者である矢田部孝司氏と妻あつ子氏の共著手記。当事者本人の執筆分を含む点で発注に合致。openBDのsummary.coverは空文字のためimage未付与"
+        }
+      ]
+    },
+    {
+      "genre": "poetry",
+      "candidates": [
+        {
+          "cand_id": "poetry-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784861730580",
+          "title": "海鼠の日 : 角川春樹獄中俳句",
+          "creator": "角川,春樹,1942-",
+          "year": 2004,
+          "publisher": "文學の森",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000007493103", "kind": "reference" },
+            { "label": "openBDで見る", "url": "https://api.openbd.jp/v1/get?isbn=9784861730580", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-25T00:00:27+00:00" },
+          "researcher_note": "判決前の勾留期間中に詠まれた句をまとめた句集。嫌疑から判決確定までの『あいだ』の時間を詠む発注に直接合致。openBDのsummary.coverは空文字のためimage未付与"
+        },
+        {
+          "cand_id": "poetry-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784795290020",
+          "title": "氷歌 : 吉展ちゃん事件から二〇年犯人小原保の獄中歌集",
+          "creator": "小原,保 大浜,秀子",
+          "year": 1983,
+          "publisher": "中央出版企画",
+          "meta": {},
+          "links": [
+            { "label": "NDLサーチで見る", "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000001645955", "kind": "reference" },
+            { "label": "openBDで見る", "url": "https://api.openbd.jp/v1/get?isbn=9784795290020", "kind": "reference" }
+          ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-25T00:00:27+00:00" },
+          "researcher_note": "死刑確定後、執行を待つ期間に詠まれた歌集。判定確定『前』の宙吊りではなく確定『後』執行までの待機であり、発注の時間軸とは厳密には異なる点に留意。openBDのsummary.coverは空文字のためimage未付与"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "poetry: 判定や結論を待つ宙吊りの時間、保留や疑いの心情を詠んだ実在の句集・歌集を一点",
+      "reason": "候補点数が目標(5点)に届かず2点のみ。NDLサーチが同一セッション内で頻繁に429/タイムアウトを返し、新規クエリの多くが失敗した(菅家利和/菅家利和絡みの単独検索、東住吉事件関連、疑い・保留・宙吊り等の抽象語との組合せ検索など)。また『新しい俳句入門』(栗林一石路)や『橋本夢道全句集』、『石川一雄獄中歌集』など時代・版元の事情でISBNを持たない候補、『遺愛集』(島秋人)のようにISBNはあるがopenBDに未収録の候補は、鉄則によりいずれも候補から除外した"
+    },
+    {
+      "hacchu": "architecture: 耐震診断や行政の指導・勧告などで『危険性がある』と公式に認定されながら、解体や改修の最終決定がまだ下されていない保留状態にある実在の建築物を一点",
+      "reason": "Places APIのレスポンスには行政の耐震診断結果・指導勧告・認定の有無に関する情報が含まれないため、5件の候補いずれも『所在地・現存の確認』までで、発注が求める公式認定の事実そのものはAPI外であり未確認。選定・事実確認は編集部の次工程に委ねる"
+    }
+  ]
+}
