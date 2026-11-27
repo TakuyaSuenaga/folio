@@ -1,0 +1,520 @@
+{
+  "vol": 109,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arch-01",
+          "source_api": "google_places",
+          "source_id": "ChIJP9eKBdeMGGAR0zzBXJNVj5A",
+          "title": "新宿西口 思い出横丁",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "address": "日本、〒160-0023 東京都新宿区西新宿１丁目２−２",
+            "primary_type": "観光名所"
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=10416638554535967955&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-26T23:50:08+00:00"
+          },
+          "researcher_note": "新宿駅西口の飲食店街。戦後の露店整理で生まれたとされる街区だが、仮設起源や恒久建築への置換計画の有無はPlacesデータに含まれず未確認。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe2T7KTCtkfusQ77Sp1wQzNEgXGii-gFioyPOxnDODQzykFobO0ppKBuRZ6U5spNQ3_UaKqPM6uetXOX5WthZ6LcROZA8GF8l1v7xm_h7IX9FD1EfCtyW8GQJ3pfCdYf4NhbOqa0A=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "이상문 (DB_TERRY)",
+                "uri": "https://maps.google.com/maps/contrib/115317517455285598505"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "arch-02",
+          "source_api": "google_places",
+          "source_id": "ChIJYfGuBwCNGGARHf0hCoINWws",
+          "title": "思い出横丁",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "address": "日本、〒160-0023 東京都新宿区西新宿１丁目２−１３",
+            "primary_type": "観光名所"
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=818262609464786205&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-26T23:50:08+00:00"
+          },
+          "researcher_note": "西新宿1-2-13、思い出横丁の別区画としてPlacesに別件登録されている。arch-01との関係(同一街区の別棟か)はPlacesデータのみでは未確認。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeEcNEbnniKrkbuHyH2FqoUD90LfcvTTEW64c5uaXBFwNtLZ2rd6lqiLk5mhsS5bLx_j6Z6VtqLCLNA9R3el-SC936GBwx6BJ5hvYu9EPA4S-Y5PrYvUoEcUf-YVJsmfz9R4V6ZbOyeIvkk=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "janine leadbetter",
+                "uri": "https://maps.google.com/maps/contrib/112014804370817240832"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "arch-03",
+          "source_api": "google_places",
+          "source_id": "ChIJWUdcb5LmAGARtX99h-wZPKQ",
+          "title": "新梅田食道街",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "address": "日本、〒530-0017 大阪府大阪市北区角田町９−２６",
+            "primary_type": "フードコート"
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=11834362424498945973&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-26T23:50:08+00:00"
+          },
+          "researcher_note": "大阪・梅田の高架下飲食店街。戦後の闇市由来とされる通称を持つが、建設当初の恒久建築計画や仮設認可の経緯はPlacesデータに含まれず未確認。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdMMBUt6-M4FgY8Xjt0mKBr0dFs4UI5iwEhTjtewnjDET5HlsIGOygdcFYX_x6_jzXgz3Uv_BkAsFcZDNRIFmJRBswtk09jo-SBGsH9xSESwhMVU4YrGKngjrAS1Bzr8lhiPKEvwQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "新梅田食道街",
+                "uri": "https://maps.google.com/maps/contrib/111323555101539214117"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "arch-04",
+          "source_api": "google_places",
+          "source_id": "ChIJn1eNAViLGGARWCBP8zRKiUA",
+          "title": "のんべい横丁",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "address": "日本、〒150-0002 東京都渋谷区渋谷１丁目２５ のんべい横丁",
+            "primary_type": ""
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=4650329681517551704&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-26T23:50:08+00:00"
+          },
+          "researcher_note": "渋谷駅東側の飲食店横丁。戦後の闇市由来とされる通称を持つが、仮設としての建築経緯・本設化の有無はPlacesデータに含まれず未確認。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf3GUTkWDO3EPTkSpXxIpMwh_-_MO5_mTqTfbJkFFsQbOrCmcO8Z8rZzSLSGQiyG-9snbvRDbjftOYbWKX8BKeLpT8muoWvlTC8BNa93tuTE_HZ_a0txLEcNnFjwxt4F8EqXWyP=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "気になったら撮る",
+                "uri": "https://maps.google.com/maps/contrib/104177367056166668203"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "arch-05",
+          "source_api": "google_places",
+          "source_id": "ChIJr7mGZdmMGGARjxoMFeHApXE",
+          "title": "新宿ゴールデン街",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "address": "日本、〒160-0021 東京都新宿区歌舞伎町１丁目１−６ あかるい花園 五番街",
+            "primary_type": "観光名所"
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=8189163570396404367&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-26T23:50:08+00:00"
+          },
+          "researcher_note": "新宿区歌舞伎町の飲食店街区。戦後の露店街由来とされる通称を持つが、建築物としての仮設・本設の区分はPlacesデータに含まれず未確認。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLetUHWNF4Gnf52wI7utIrUparhvnWpvhiMfDz2gRSpGuLxMMmFz1Tda5g7YpiXV_0Kgp36MHqmcf2bO3Xk5imVMpVnEV-w-gGuysq4sC9yg9Qg-YgIcA-EWHd2PW4IevX3-RVntLtjaYbDJ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "Aly M.",
+                "uri": "https://maps.google.com/maps/contrib/106814965521331939806"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "arch-06",
+          "source_api": "google_places",
+          "source_id": "ChIJfRhEXFuPGGARAMGBAJfATR8",
+          "title": "立石仲見世通り",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "address": "日本、〒124-0012 東京都葛飾区立石１丁目１８−１８",
+            "primary_type": "サービス"
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=2255670743163584768&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-26T23:50:08+00:00"
+          },
+          "researcher_note": "葛飾区立石の商店街アーケード。戦後の闇市由来とされる通称を持つが、個別建築の仮設起源はPlacesデータに含まれず未確認。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeWIHR5tjSGlG2ubFSGNkor6sVeeQ3HntFY-i5COGhI0JfqvQTpSx8U7esTNK5OO_VhrX7ROLWMSsaoNvrHDp15OGrQ-5yT5ySyNaFOWGKtknCE_x8yqemXXfF_EgUY8y1Sasc0=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "うどんが主食",
+                "uri": "https://maps.google.com/maps/contrib/113577665052972196164"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJ8wsenQ-iWjUR1opIxHCTeBM",
+          "title": "お好み村",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "address": "日本、〒730-0034 広島県広島市中区新天地５−１３",
+            "primary_type": "和食店"
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=1403033396464618198&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-26T23:50:08+00:00"
+          },
+          "researcher_note": "広島・新天地のお好み焼き店が集まる商業ビル。路上の屋台が立ち退きで集約されたとされる通称を持つが、火災・仮設起源の事実確認はPlacesデータに含まれず未実施。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc0b6Nox_wOt7d-yNbP4dDtEFXmOJb8MUos4OFRIz40EZg0113WbvGvUufUhDpK26dfGlt4ibicHz7bFxp2ldlEbHbgMkuFaVlQ4on1odU_l3S6DFXTbsE9ClpNpWJK-iDrRt6SbJMbJM5G=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "Nicole Timmermans",
+                "uri": "https://maps.google.com/maps/contrib/106096644755031617653"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJf-Fl3gaiWjURK1tf2n6vCWQ",
+          "title": "お好み焼き 八昌",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "address": "日本、〒730-0016 広島県広島市中区幟町１４−１７",
+            "primary_type": "和食店"
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=7208485637947611947&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-26T23:50:08+00:00"
+          },
+          "researcher_note": "広島市中区幟町の店舗。「八昌」を名乗る複数店舗の一つで、発注が言う仮店舗からの継続性はPlacesデータのみでは未確認。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd64eg28hEik7uD31FyAQH3HSglLK2lOHxDW35FFj8DHTwxRzE-Ovs7m3so7hSSAMeKjSg3kgegqf0Uwmup7L_CETjWuNPr9jXg8KT1fYdKwYLC-DPKVwOLzSQNyWSZvhb4HyVp7PnxuHs-=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "Taka",
+                "uri": "https://maps.google.com/maps/contrib/106794309339310188822"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJNe7e_ASiWjURybECNyNYRLQ",
+          "title": "薬研堀 八昌",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "address": "日本、〒730-0027 広島県広島市中区薬研堀１０−６",
+            "primary_type": "和食店"
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=12989604133513376201&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-26T23:50:08+00:00"
+          },
+          "researcher_note": "広島市中区薬研堀の店舗。同名「八昌」系列の一つ。本店・系列関係・仮店舗史の事実確認はPlacesデータに含まれず未実施。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf-K328doK-qfhIjj_PouyHd4Y8mKw3_xd0Zc0G8JQXlhfeMaPer2HuI1SzqB4nJYEsv2S-WPaSgn86HnxWIDpO_WFrhwft_sqJ8SFCYbK6LECTJ9lUdnzd9A8e_dEl-l66cin2z9ktO3o4=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "Nissy",
+                "uri": "https://maps.google.com/maps/contrib/107086513758785665745"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJ33m1ExeiWjUR-aSJ0pO-TJk",
+          "title": "お好み焼 元祖 八昌",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "address": "日本、〒730-0048 広島県広島市中区竹屋町５−２１",
+            "primary_type": "和食店"
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=11046413528134690041&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-26T23:50:08+00:00"
+          },
+          "researcher_note": "広島市中区竹屋町の店舗。店名に「元祖」を冠するが、創業経緯・仮店舗からの継続性の事実確認はPlacesデータに含まれず未実施。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe7h5C7lU443-MJDUmAmfzFKsmagsTz6qyBpl8-VuXnWvhC1EVfEJhZYbxDS1vJZRUojXa_maf7TW3Q0fCbJKwiLqUHegUap_WU8IlBmsxmjDUlzYwGAgt-GbvAmIETuMWp5eLIoIjddXUP=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "なおみ",
+                "uri": "https://maps.google.com/maps/contrib/117138633080720494257"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJfS4-xgeiWjUR1J-uIF_hPns",
+          "title": "お好み焼みっちゃん総本店 八丁堀本店",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "address": "日本、〒730-0013 広島県広島市中区八丁堀６−７ チュリス八丁堀 １F",
+            "primary_type": "和食店"
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=8880783313907654612&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-26T23:50:08+00:00"
+          },
+          "researcher_note": "広島市中区八丁堀の店舗。「総本店」を名乗るが、創業時の仮店舗史はPlacesデータに含まれず未確認。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd3V9cym_5IKNdjkSMSx-46V8ItRI5-7xt6uCiwOkhDGdCQgyZvnTKnb4E8q3kQaWgkahjKU4MsnqeK79yjtE_gwGOCL8I32CLQfkFtFR5Y1fI1xh8iG3dH-bgSx8UQlbuRJJ8X=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "お好み焼みっちゃん総本店 八丁堀本店",
+                "uri": "https://maps.google.com/maps/contrib/111953619005986093242"
+              }
+            ]
+          }
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJW2cLzSGLGGARXAKXv6EkbqI",
+          "title": "築地場外市場",
+          "creator": null,
+          "year": null,
+          "publisher": null,
+          "meta": {
+            "address": "日本、〒104-0045 東京都中央区築地４丁目１６ および６丁目一部",
+            "primary_type": "卸売業"
+          },
+          "links": [
+            {
+              "label": "Google マップで見る",
+              "url": "https://maps.google.com/?cid=11704332758705177180&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+              "kind": "map"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-26T23:50:08+00:00"
+          },
+          "researcher_note": "primary_typeは「卸売業」で単一店舗ではなく市場区画。発注が求める個別店の仮店舗史には適合しない可能性が高い。",
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeP2Q9s-LRTZg2RDVD7Zt8vpJNUOmk1eIgTBiH1TaJGc0OQNB4O2I5BoT3iHN9GZ9XO-eLIHtrRD-_g-qvV-bbpLCpyRwDJbxdiOIEp2rC7r3du3_cOzxUDLOVge5wexIa-uXlmBu6SJyKk=s4800-w1200",
+            "source": "google-places",
+            "attributions": [
+              {
+                "name": "g",
+                "uri": "https://maps.google.com/maps/contrib/106840337884639586219"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "genre": "book",
+      "candidates": [
+        {
+          "cand_id": "book-01",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003233115",
+          "title": "小公子",
+          "creator": "Burnett,FrancesHodgson,1849-1924 / 若松,賤子,1865-1896",
+          "year": 1994,
+          "publisher": "岩波書店",
+          "meta": {
+            "series": "岩波文庫",
+            "ndl_search_query": "小公子 若松賤子 岩波文庫"
+          },
+          "links": [
+            {
+              "label": "NDLサーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002425785",
+              "kind": "reference"
+            },
+            {
+              "label": "openBDで見る",
+              "url": "https://api.openbd.jp/v1/get?isbn=9784003233115",
+              "kind": "reference"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-26T23:49:48+00:00"
+          },
+          "researcher_note": "若松賤子によるFrances Hodgson Burnett『小公子』の明治期抄訳(1890-92年連載)。openBDのsummary.coverは空文字のためimage未付与。完訳版との先後関係の事実確認は未実施。"
+        },
+        {
+          "cand_id": "book-02",
+          "source_api": "ndl+openbd",
+          "source_id": "9784003100516",
+          "title": "即興詩人 : アンデルセン 上巻",
+          "creator": "森鷗外",
+          "year": 2022,
+          "publisher": "岩波書店",
+          "meta": {
+            "series": "岩波文庫",
+            "ndl_search_query": "即興詩人 岩波文庫"
+          },
+          "links": [
+            {
+              "label": "NDLサーチで見る",
+              "url": "https://ndlsearch.ndl.go.jp/books/R100000134-IB01174345",
+              "kind": "reference"
+            },
+            {
+              "label": "openBDで見る",
+              "url": "https://api.openbd.jp/v1/get?isbn=9784003100516",
+              "kind": "reference"
+            }
+          ],
+          "verify": {
+            "id_confirmed": true,
+            "url_status": 200,
+            "checked_at": "2026-11-26T23:49:48+00:00"
+          },
+          "researcher_note": "森鷗外によるアンデルセン『即興詩人』の訳(初出1892-1901年連載)。openBDのsummary.coverは空文字のためimage未付与。下巻(ISBN 9784003100523)はopenBD未収載のため候補に含めず。抄訳か完訳かの性格は原文照合による事実確認が未実施。"
+        }
+      ]
+    }
+  ],
+  "ng": [
+    {
+      "hacchu": "書物(抄訳が定本化)の発注",
+      "reason": "NDLサーチがレート制限(HTTP 429)で断続し、追加クエリによる候補拡充ができなかった。確認できた候補は2点(目標5点に未達)"
+    }
+  ]
+}
