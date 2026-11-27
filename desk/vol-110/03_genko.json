@@ -1,0 +1,103 @@
+{
+  "issue": {
+    "vol": 110,
+    "date": "2026-11-28",
+    "title": "拒否権",
+    "lead": "所有者が替わっても、最後に首を振る権利だけは別の場所に留まることがある。東京電力の資本提携交渉に浮かんだ「国の了承」の一文を起点に、重要文化財建築の改修・原盤継承後も残る著作者人格権・老舗の屋号継承という三点から、譲られてもなお届かない一点を読む特集。"
+  },
+  "items": [
+    {
+      "genre": "architecture",
+      "cand_id": "arc-01",
+      "sentei_riyu": "発注は『代替わり後も改修・処分に国や自治体の承認が要る実在の建築』を求めた。ヨドコウ迎賓館(旧山邑家住宅)はフランク・ロイド・ライト設計で、所有が山邑家から淀川製鋼へ移った経緯が名称自体に刻まれており、重要文化財としての指定により改修・処分の一存が今も企業の外にある。並置上は、三点のうち最も物理的・不可逆な資産(建物)から出発し、後続の音楽・飲食が扱う「無形の名」への拒否権の移行を支える基点として置く。",
+      "title": "ヨドコウ迎賓館(旧山邑家住宅)",
+      "creator": "",
+      "year": null,
+      "publisher": "",
+      "meta": {
+        "address": "兵庫県芦屋市山手町3-10",
+        "primary_type": ""
+      },
+      "links": [
+        {
+          "label": "Googleマップで見る",
+          "url": "https://maps.google.com/?cid=13706395808593810547&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "kind": "map"
+        }
+      ],
+      "essay": "フランク・ロイド・ライトが手がけた旧山邑家住宅は、兵庫県芦屋市山手町の丘に建つ。所有は醸造家山邑家から鉄工メーカー淀川製鋼へと移り、社名の略称「ヨドコウ」が館の呼び名そのものに残った。急斜面に段状に積まれたテラスは、斜面を構法の一部として外へ開き、芦屋の丘陵の稜線と建物の輪郭を重ねて見せる。各階の開口は内部にいながら外の斜面を見上げ、見下ろす視線を同時に差し出す構えを取る。だが所有者が代わっても、壁の線一本を動かす権利は企業の手へ単純に渡ったわけではない。重要文化財としての指定が、改修や処分の判断に国の承認という外部の一存を割り込ませている。経営資産としての建物と、文化財としての建物が同じ壁の内側で重なり、どちらの名の下で開けるかが問われ続けている。",
+      "image": {
+        "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd-aCXD_TxXoPeF5N-FvD-lLxnclUHb3FXwIShooVqYrewQiPg7jzHKfchDCbieTjuStWDHsaV1u-jUfBsyxe2hrd9Y7mwf43rNcDg7x7N9cIk4TR6-e5zrRVI31o7070ZsCSM8wg=s4800-w1200",
+        "source": "google-places",
+        "attributions": [
+          {
+            "name": "粟飯原広基",
+            "uri": "https://maps.google.com/maps/contrib/107916182191347655949"
+          }
+        ]
+      }
+    },
+    {
+      "genre": "music",
+      "cand_id": "mus-08",
+      "sentei_riyu": "発注は『原盤権が売却・相続で移っても、改変・使用には著作者側の承認が要る実在の録音』を求めた。『ミルク・アンド・ハニー』は著作権表記が「オノ・ヨーコ名義からレーベルへの使用許諾」という形を取り、原盤の流通権と使用を許す一存の分離を一次情報として直接示す。並置上は、建築が示した「不動の物」への拒否権を、相続・遺族という「人」が握る拒否権へ転換し、三点目の屋号という「名」へ橋渡しする役割を担う。",
+      "title": "Milk and Honey",
+      "creator": "ジョン・レノン & オノ・ヨーコ",
+      "year": 1984,
+      "publisher": "Yoko Ono Lennon under exclusive license to Capitol Records, LLC",
+      "meta": {
+        "trackCount": 13,
+        "copyright": "℗ 2010 Yoko Ono Lennon under exclusive license to Capitol Records, LLC",
+        "primaryGenreName": "ロック"
+      },
+      "links": [
+        {
+          "label": "Apple Musicで見る",
+          "url": "https://music.apple.com/jp/album/milk-and-honey/1440815083?uo=4",
+          "kind": "stream"
+        }
+      ],
+      "essay": "『ミルク・アンド・ハニー』は、前作『ダブル・ファンタジー』と同じ時期に録られた音源を土台に、ジョン・レノンの急逝後、オノ・ヨーコの手で編まれて世に出された共作盤である。録音には完成前の粗さがそのまま残り、整えられた仕上がりより、二人が共に過ごした時間の質感に耳を預けるような聴き方を求めてくる。スタジオでの対話の気配を残したまま聴くべき作品であり、完成品として配信で流し聴きする類の音とは距離がある。原盤の著作権表記を見ると、権利はレーベルへ単純に売り渡されたのではなく、オノ・ヨーコ名義のまま「使用許諾」として貸し出される形を取っている。レコード会社の資本と流通網を使って世に送り出すことと、その音源をどう扱うかを最終的に決めることとは、同じ契約の中であえて分けて置かれている。遺された録音を世に残す者が、その録音の扱い方までは手放していない。",
+      "image": {
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/a0/be/58/a0be5840-9dd2-1867-d3a2-5b09e81d1d86/00602537994472.rgb.jpg/600x600bb.jpg",
+        "source": "itunes"
+      }
+    },
+    {
+      "genre": "restaurant",
+      "cand_id": "res-01",
+      "sentei_riyu": "発注は『経営権・店舗がのれん分けされても、屋号や製法の使用には創業家・本家の承認がなお要る実在の店』を求めた。総本家更科堀井は信州更科蕎麦の暖簾分けの一系統として知られ、店名に残る「総本家」の二文字が、暖簾を分けた側の由緒を名乗る符号になっている。並置上は、建築の「不動の物」、音楽の「相続された人」に続き、最も日常的で小さな単位である「一枚の暖簾」に拒否権を宿し、特集を店先まで引き寄せて締める役割を担う。",
+      "title": "総本家更科堀井 本店",
+      "creator": "",
+      "year": null,
+      "publisher": "",
+      "meta": {
+        "address": "東京都港区元麻布3丁目11-4",
+        "primary_type": "レストラン"
+      },
+      "links": [
+        {
+          "label": "Googleマップで見る",
+          "url": "https://maps.google.com/?cid=4799624521792605391&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "kind": "map"
+        }
+      ],
+      "essay": "麻布の総本家更科堀井は、江戸期に信州更科蕎麦として創業した布屋太兵衛の家系に連なる一軒である。暖簾分けとは、分かれて出た店が本家の屋号や製法を名乗ることを本家が許すという、古くからの商いの型である。この店の名に残る「総本家」の二文字は、暖簾を分けられた側ではなく、分けた側の由緒を名乗る符号であり、経営の実務が何代を経ても、名乗りを許す一存の出どころがどこにあるかを示している。白く晒した更科粉の蕎麦は同じ系譜を名乗る店でも供されるが、屋号と製法を分けて名乗ることは、分家した側の判断だけで完結する話ではない。店が代替わりし、経営のかたちが変わっても、暖簾の名乗りを許す一存は、分けた家の側に留まり続ける。麻布の土地に積もった年月は、器の中の一杯が背負う由緒の重さとして今も残っている。",
+      "image": {
+        "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLen0QpqS3GXpc77F69gEGYXgqEWEmm0Yg-bv8lQtgKp5k-mj4jxktwJTndbQsPgpYzNyZQCE1jEPMhW7dbbZly08LaKS-es8YtXH4E9TanohQHhvxf_Rx3-8Q6tDPX8EQCKdI8h2Tt_B7Gj=s4800-w1200",
+        "source": "google-places",
+        "attributions": [
+          {
+            "name": "Luna",
+            "uri": "https://maps.google.com/maps/contrib/101949209843736515467"
+          }
+        ]
+      }
+    }
+  ],
+  "revision_note": [
+    "K-01(blocking): items[0].essayから『日本に現存するライト設計の住宅建築としては、この一棟のみが当初の姿を保っている。』を削除。02のmeta/researcher_noteが裏づけない排他的最上級主張のため。",
+    "K-02(blocking): items[2].essayの『布屋太兵衛の家系から分かれ出た一軒である』を『布屋太兵衛の家系に連なる一軒である』に修正。後段の『暖簾を分けられた側ではなく、分けた側の由緒を名乗る符号』との方向性の自己矛盾を解消するため、総本家更科堀井を分家側と確定させる記述を取り除いた。",
+    "K-03(caution): 対応不要と校閲が判断したため見送り。発行前にdesk側で重要文化財指定年の典拠確認を推奨。"
+  ]
+}

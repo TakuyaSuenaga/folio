@@ -1,0 +1,403 @@
+{
+  "vol": 110,
+  "genres": [
+    {
+      "genre": "architecture",
+      "candidates": [
+        {
+          "cand_id": "arc-01",
+          "source_api": "google_places",
+          "source_id": "ChIJE8oU1yzzAGARcxQjSl7mNr4",
+          "title": "ヨドコウ迎賓館(旧山邑家住宅)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "兵庫県芦屋市山手町3-10", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd-aCXD_TxXoPeF5N-FvD-lLxnclUHb3FXwIShooVqYrewQiPg7jzHKfchDCbieTjuStWDHsaV1u-jUfBsyxe2hrd9Y7mwf43rNcDg7x7N9cIk4TR6-e5zrRVI31o7070ZsCSM8wg=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "粟飯原広基", "uri": "https://maps.google.com/maps/contrib/107916182191347655949" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=13706395808593810547&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:29+00:00" },
+          "researcher_note": "山邑家から淀川製鋼(ヨドコウ)へ所有者が移った設計者フランク・ロイド・ライトの住宅建築。Places APIは実在・所在地のみ確認、重要文化財指定の事実は別途エディター側で典拠確認が必要。"
+        },
+        {
+          "cand_id": "arc-02",
+          "source_api": "google_places",
+          "source_id": "ChIJCeVTIf7xAGARhkhBt0swI58",
+          "title": "武庫川女子大学甲子園会館(旧甲子園ホテル)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "兵庫県西宮市戸崎町1-13", "primary_type": "大学" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLd12IyxyXkuHhDlVyTNjRjTKCbBUiHb9wnvhh0Xzo1UZqpQoSjKveiKqZ1BRYzm7ku7FoUYE2xh6qEMD6rv31PgHoI-TFfEwWWnFYQHNitPKLJTjAd-bd_S-F7rNojes6vphang=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "elizabeth276", "uri": "https://maps.google.com/maps/contrib/106163491661873509397" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=11467062177970604166&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:29+00:00" },
+          "researcher_note": "旧甲子園ホテルから武庫川女子大学へ所有者が移った建築。重要文化財指定の事実はPlaces APIの範囲外のため別途確認が必要。"
+        },
+        {
+          "cand_id": "arc-03",
+          "source_api": "google_places",
+          "source_id": "ChIJwd8fs1yNGGARq4MyvrPEIZI",
+          "title": "自由学園明日館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都豊島区西池袋2丁目31-3", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLf9sCGYH50BDRWCfXgpbendo1OeoiVlOBGsz76P5ImTk8_P5Ia6qrA2Q3kFtTuvfc8PEu8m4uwzCh8PcJNlSMM38MBt4eW3T5fsCcMCPyGhLNmANP1OCZrBTQQoGc8ffixMxNUb=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Raven kisses", "uri": "https://maps.google.com/maps/contrib/104234940698931303596" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=10529913680038101931&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:29+00:00" },
+          "researcher_note": "学校法人自由学園が管理する建築。管理者の代替わり・承認構造の詳細はエディター側で典拠確認が必要。"
+        },
+        {
+          "cand_id": "arc-04",
+          "source_api": "google_places",
+          "source_id": "ChIJ2Y72Po6NGGARFuKRcvGNpUQ",
+          "title": "旧古河邸 大谷美術館",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都北区西ケ原1丁目27-39 内 旧古河庭園", "primary_type": "Art museum" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLediNDCe0WatcfWfIc1xDqC_BuTNtdQzIPi5wv7A9cNb2fJInFfSVVmhM2EHNcNbTwPaybREMPxuLeoE4Ms6iDdovDsTkGc85xxvOFPlILriTXtx4r4HBWXpbIwwmayd8CfK8ey=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "優待太郎", "uri": "https://maps.google.com/maps/contrib/103521756816067986635" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=4946515833885155862&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:29+00:00" },
+          "researcher_note": "古河家から東京都(旧古河庭園)・大谷美術館運営へ移った建築。文化財指定区分はエディター側で典拠確認が必要。"
+        },
+        {
+          "cand_id": "arc-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ6dw-eGK-GWARkZ03HC9scYk",
+          "title": "旧日向家熱海別邸",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "静岡県熱海市春日町8-37", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLccUEtynv8_84E5f262W96Fp4Naw8fVnH9UlAXD8iJaGzUfGdeB3HhaEQagBOIhcraJHxPsTQvQFy3QC-AIO0cLTFyxytOhuPqjbmOQD9N_SMgwYa5My22ou7Zb69ZIgnhZJGdv=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Carl Zhang", "uri": "https://maps.google.com/maps/contrib/109228847234940084198" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=9903816005157100945&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:29+00:00" },
+          "researcher_note": "日向家から熱海市へ所有が移った別邸建築(地下室がブルーノ・タウト設計として知られる)。重要文化財指定の事実はエディター側で典拠確認が必要。"
+        },
+        {
+          "cand_id": "arc-06",
+          "source_api": "google_places",
+          "source_id": "ChIJZ6YCvkIIAWARmGwJaHsXx8M",
+          "title": "旧三井家下鴨別邸",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "京都府京都市左京区下鴨宮河町58-2", "primary_type": "" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcerO_AI2dQAh3vhRq_qM-853H3zEsyjJby991xix5KxRkJQFPvNFmRssNzpQ9oXKcD0R4BtcnH_fHZCW3JsWoJux2I1BwfDwnrSQHMNoW60XwUnEQF_05GYrXs4AgVKabjIJd_0qW7Og4=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "旧三井家下鴨別邸", "uri": "https://maps.google.com/maps/contrib/106407478073877603531" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=14107270176555232408&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:29+00:00" },
+          "researcher_note": "三井家から京都市へ所有が移った別邸建築。重要文化財指定の事実はエディター側で典拠確認が必要。"
+        }
+      ]
+    },
+    {
+      "genre": "music",
+      "candidates": [
+        {
+          "cand_id": "mus-01",
+          "source_api": "itunes",
+          "source_id": "1818923949",
+          "title": "Hibari Misora: The Eternal Songs",
+          "creator": "美空ひばり",
+          "year": 2025,
+          "publisher": "Nippon Columbia Co., Ltd./NIPPONOPHONE",
+          "meta": { "trackCount": 14, "copyright": "℗ 2025 Nippon Columbia Co., Ltd./NIPPONOPHONE", "primaryGenreName": "演歌" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0f/ed/79/0fed7937-3f94-34c1-44f4-5c8c886bbdcf/COKM-45824.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/hibari-misora-the-eternal-songs/1818923949?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:38+00:00" },
+          "researcher_note": "歌手没後も原盤元レーベルから継続的に発売される編集盤。遺族・財団側の承認構造の詳細はエディター側で典拠確認が必要。"
+        },
+        {
+          "cand_id": "mus-02",
+          "source_api": "itunes",
+          "source_id": "1488880064",
+          "title": "Arekara (NHK Special Version) - Single",
+          "creator": "美空ひばり",
+          "year": 2019,
+          "publisher": "Nippon Columbia Co., Ltd. / NIPPONOPHONE",
+          "meta": { "trackCount": 1, "copyright": "℗ 2019 Nippon Columbia Co., Ltd. / NIPPONOPHONE", "primaryGenreName": "演歌" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d4/e4/c9/d4e4c988-097b-2eaa-594c-7c28c50b5f1a/COKM-42518.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/arekara-nhk-special-version-single/1488880064?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:38+00:00" },
+          "researcher_note": "NHK特別企画に関連する没後の新録版。企画制作時の遺族側承認の有無はAPI外のためエディター側で典拠確認が必要。"
+        },
+        {
+          "cand_id": "mus-03",
+          "source_api": "itunes",
+          "source_id": "1537530998",
+          "title": "ALL TIME BEST",
+          "creator": "尾崎豊",
+          "year": 2013,
+          "publisher": "Sony Music Entertainment (Japan) Inc.",
+          "meta": { "trackCount": 14, "copyright": "℗ 2013 Sony Music Entertainment (Japan) Inc.", "primaryGenreName": "ロック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6c/6a/4d/6c6a4d8b-c0c9-7d3b-c9c0-1a9c0c7c5f4b/jacket_SRXX01408B00Z_550.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/all-time-best/1537530998?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:38+00:00" },
+          "researcher_note": "没後に発売された編集盤。遺族側の使用許諾構造の詳細はエディター側で典拠確認が必要。"
+        },
+        {
+          "cand_id": "mus-04",
+          "source_api": "itunes",
+          "source_id": "1537563404",
+          "title": "誕生",
+          "creator": "尾崎豊",
+          "year": 1990,
+          "publisher": "Sony Music Entertainment (Japan) Inc.",
+          "meta": { "trackCount": 20, "copyright": "℗ 2013 Sony Music Entertainment (Japan) Inc.", "primaryGenreName": "ロック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f6/34/6e/f6346ef6-7cdb-39e4-e8d9-4dae227fa3b0/jacket_SRXX01792B00Z_550.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/%E8%AA%95%E7%94%9F/1537563404?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:38+00:00" },
+          "researcher_note": "没後に編まれた音源集。収録判断に遺族側の意向が関わるか否かはエディター側で典拠確認が必要。"
+        },
+        {
+          "cand_id": "mus-05",
+          "source_api": "itunes",
+          "source_id": "214145071",
+          "title": "Controversy",
+          "creator": "プリンス",
+          "year": 1981,
+          "publisher": "NPG Records, Inc. under exclusive license to Warner Records Inc.",
+          "meta": { "trackCount": 8, "copyright": "℗ 1981 NPG Records, Inc. under exclusive license to Warner Records Inc.", "primaryGenreName": "R&B／ソウル" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/bd/d6/17/mzi.sgmsiwad.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/controversy/214145071?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:38+00:00" },
+          "researcher_note": "本人が設立したNPG Records名義がレーベル配給契約の下で残る表記。没後の権利管理構造(プリンス・エステート)の詳細はエディター側で典拠確認が必要。"
+        },
+        {
+          "cand_id": "mus-06",
+          "source_api": "itunes",
+          "source_id": "6773830957",
+          "title": "Timeless",
+          "creator": "プリンス",
+          "year": 2026,
+          "publisher": "NPG Records, Inc. under exclusive license to Legacy Recordings",
+          "meta": { "trackCount": 10, "copyright": "℗ 2026 NPG Records, Inc. under exclusive license to Legacy Recordings", "primaryGenreName": "R&B／ソウル" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/f2/8b/2cf28b94-807a-c553-bc14-8f2213146904/196874446201.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/timeless/6773830957?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:38+00:00" },
+          "researcher_note": "没後最新の編集盤でもNPG Records名義のライセンス配給という表記形式が継続している。管理主体(エステート)側の承認権限の詳細はエディター側で典拠確認が必要。"
+        },
+        {
+          "cand_id": "mus-07",
+          "source_api": "itunes",
+          "source_id": "1428571018",
+          "title": "Imagine (The Ultimate Collection)",
+          "creator": "ジョン・レノン",
+          "year": 1971,
+          "publisher": "Calderstone Productions Limited (a division of Universal Music Group) / Yoko Ono Lennon",
+          "meta": { "trackCount": 61, "copyright": "This Compilation ℗ 2018 Calderstone Productions Limited (a division of Universal Music Group) / Yoko Ono Lennon", "primaryGenreName": "ロック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/d8/a9/51d8a94b-311b-db29-af0e-44dff1351b48/18UMGIM51037.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/imagine-the-ultimate-collection/1428571018?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:38+00:00" },
+          "researcher_note": "copyright欄にUniversal Music Groupとヨーコ・オノ・レノンの名義が併記される。原盤権と著作者側承認権の分離構造を示す一次表記として扱える。"
+        },
+        {
+          "cand_id": "mus-08",
+          "source_api": "itunes",
+          "source_id": "1440815083",
+          "title": "Milk and Honey",
+          "creator": "ジョン・レノン & オノ・ヨーコ",
+          "year": 1984,
+          "publisher": "Yoko Ono Lennon under exclusive license to Capitol Records, LLC",
+          "meta": { "trackCount": 13, "copyright": "℗ 2010 Yoko Ono Lennon under exclusive license to Capitol Records, LLC", "primaryGenreName": "ロック" },
+          "image": { "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/a0/be/58/a0be5840-9dd2-1867-d3a2-5b09e81d1d86/00602537994472.rgb.jpg/600x600bb.jpg", "source": "itunes" },
+          "links": [ { "label": "Apple Musicで見る", "url": "https://music.apple.com/jp/album/milk-and-honey/1440815083?uo=4", "kind": "stream" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:38+00:00" },
+          "researcher_note": "copyright欄がヨーコ・オノ・レノン名義からレーベルへの「exclusive license」表記であり、原著作者側(遺族)が権利の根元を保持したまま使用許諾のみ出す構造を直接示す。"
+        }
+      ]
+    },
+    {
+      "genre": "restaurant",
+      "candidates": [
+        {
+          "cand_id": "res-01",
+          "source_api": "google_places",
+          "source_id": "ChIJOVajM56LGGARz8yztBKxm0I",
+          "title": "総本家更科堀井 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都港区元麻布3丁目11-4", "primary_type": "レストラン" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLen0QpqS3GXpc77F69gEGYXgqEWEmm0Yg-bv8lQtgKp5k-mj4jxktwJTndbQsPgpYzNyZQCE1jEPMhW7dbbZly08LaKS-es8YtXH4E9TanohQHhvxf_Rx3-8Q6tDPX8EQCKdI8h2Tt_B7Gj=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "Luna", "uri": "https://maps.google.com/maps/contrib/101949209843736515467" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=4799624521792605391&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:35+00:00" },
+          "researcher_note": "信州更科蕎麦・永坂更科(布屋太兵衛)の暖簾分けの一系統として知られる店。暖簾・製法使用の承認関係の詳細はエディター側で典拠確認が必要。"
+        },
+        {
+          "cand_id": "res-02",
+          "source_api": "google_places",
+          "source_id": "ChIJZz5_XZ-LGGARAgtUEa3O7Cg",
+          "title": "永坂更科 布屋太兵衛(ながさかさらしなぬのやたへえ) 麻布総本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都港区麻布十番1丁目8-7 麻布十番第三小林ビル", "primary_type": "レストラン" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLc2YTETQ1yCxMyc-GI3tCuf7b_m5bQkoa9m8hTffyJyRvfcbODZKekpUdXXidNV3tthS4Sz19ale5-FFwNQhcjbvMgwUH1Ahkc8tzT6nvwg3epv8-zKPWRQ09mjkXDt-Q4vof3BTA0obiCL=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "かずよし", "uri": "https://maps.google.com/maps/contrib/112508218675275751490" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=2948959098736216834&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:35+00:00" },
+          "researcher_note": "更科堀井と同系統から分かれた暖簾分け店。本家・創業家側との関係の詳細はエディター側で典拠確認が必要。"
+        },
+        {
+          "cand_id": "res-03",
+          "source_api": "google_places",
+          "source_id": "ChIJWSg4quxQBGARedThzZrhSC0",
+          "title": "赤福 本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "三重県伊勢市宇治中之切町26-26", "primary_type": "デザート ショップ" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLegWOm8ktwb1CmbtM_ldOkr5OdqntKrO2ZLVd098JAZFLLrVs8sWhsyC_OTlp7qctVWtkTe63-bwqRXV7EK8HK4wapT-qAvGDMtMYMtivhJ4ibS_L5qVH1aFi2di0TppkPU_6Gamjcwt1U=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "北江神川", "uri": "https://maps.google.com/maps/contrib/105864291503811701068" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=3263105985025266809&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:35+00:00" },
+          "researcher_note": "創業家(濱田家)が経営を続ける老舗。経営権と屋号・製法承認の分離構造の有無はエディター側で典拠確認が必要。"
+        },
+        {
+          "cand_id": "res-04",
+          "source_api": "google_places",
+          "source_id": "ChIJ36cDtmuNGGAR_I6H18yfPgk",
+          "title": "とらや 赤坂店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都港区赤坂4丁目9-22", "primary_type": "カフェ・喫茶" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdrNdxjzFv8ySuO_tNai_TpdI2uTQsy41H7xGmOb-ViOW4wle8cfR09LcnDliJyEzTDjdkExy3zPqqoaEu4W2lYqqKPklx9N60gjdQUBnmwK26NgO77_CcMPRjbH_STT_QFoF8U=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "とらや 赤坂店", "uri": "https://maps.google.com/maps/contrib/107251537740645626318" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=666145497035542268&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:35+00:00" },
+          "researcher_note": "創業家(黒川家)が経営を続ける老舗和菓子店。発注の「のれん分け」性は低いため、経営権分離型の他候補と比較した上での採否をエディターに委ねる。"
+        },
+        {
+          "cand_id": "res-05",
+          "source_api": "google_places",
+          "source_id": "ChIJ1wh3zAKoAWARHuwaS-Dp0W8",
+          "title": "あぶり餅 一和(一文字屋 和輔)",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "京都府京都市北区紫野今宮町69-69", "primary_type": "デザート ショップ" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLectTLwfWGvwzi_L-Wr6f7c317Xx0V9NG8kUkvWkPqfW3yhdDpIZ21usw-YokWalgq0zKzzotQmOZaDz2IVXY1NKFMl15zms64qXZBvSrMosTAY9ksjfO0pYdEEAYwnpM1U7f0_=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "あぶり餅 一和(一文字屋 和輔)", "uri": "https://maps.google.com/maps/contrib/109557023118546354632" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=8057478357884529694&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:35+00:00" },
+          "researcher_note": "創業千年超とされる一文字屋和輔が営む店。経営権譲渡の事例は確認できず、発注の「譲渡・のれん分け後」の条件との合致度はエディター確認による。"
+        },
+        {
+          "cand_id": "res-06",
+          "source_api": "google_places",
+          "source_id": "ChIJX-yVohyMGGARUTdpnpXyQNQ",
+          "title": "神田 やぶそば",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都千代田区神田淡路町2丁目10", "primary_type": "レストラン" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeHehPWUUhaDYbEQHpsl_NXZZlgPNoBDLKhSAYtKLUuADPXPuir5DygfAA5fAxwIQ3lhx7bhGZi7vSKln4l1dRn5pTW3mwwGzmIkwZ9YhURJ7rBTciPN47ln_0bFq02-RQYasrU=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "かんだやぶそば", "uri": "https://maps.google.com/maps/contrib/100781225505502931845" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=15294491058971948881&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:35+00:00" },
+          "researcher_note": "並木藪蕎麦・上野藪そばと同じ藪蕎麦の暖簾を分ける系統の一店。暖簾使用に関する一族間の承認構造の詳細はエディター側で典拠確認が必要。"
+        },
+        {
+          "cand_id": "res-07",
+          "source_api": "google_places",
+          "source_id": "ChIJq6oF_saOGGARikXRyPA55vI",
+          "title": "並木藪蕎麦",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都台東区雷門2丁目11-9", "primary_type": "レストラン" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdwf4_4ynkjYuDIjCS86_aqjfrcLfT2vR5zJqdO2jrvnKTjBOxfvegQ_F-tms50kDwnpbpv4CJmo3kzBeMjkuwngOeSXXvxPeZ2R3dw2GE7qQ9GKRnHn9lZlyadlw6RKokiww=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "山雲海月", "uri": "https://maps.google.com/maps/contrib/115665929955581317240" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=17502740708146103690&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:35+00:00" },
+          "researcher_note": "神田やぶそば・上野藪そばと同じ藪蕎麦の暖簾を分ける系統の一店。res-06と同様に承認構造の詳細はエディター側で典拠確認が必要。"
+        },
+        {
+          "cand_id": "res-08",
+          "source_api": "google_places",
+          "source_id": "ChIJAQCZAJ-OGGARq9UxjdESVw4",
+          "title": "上野 藪そば",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都台東区上野6丁目9-16", "primary_type": "レストラン" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfdxFX3ZnmQfiqwa5bljVEn1H_HrsI4dk3PJVkyX_CPf_J1X8xNwpiYn-Lqgl4-kC38tbXQKdklhxpCHyRwn4QWSZR3eVA528vGv6ITI6pn7dsaKVBjBKiVyPhIzorMN76t5hyRzQ=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "上野 藪そば", "uri": "https://maps.google.com/maps/contrib/102504692004326717603" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=1033315330731136427&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:35+00:00" },
+          "researcher_note": "神田やぶそば・並木藪蕎麦と同じ藪蕎麦の暖簾を分ける系統の一店(検索クエリ「池之端藪蕎麦」でこの店が返った)。承認構造の詳細はエディター側で典拠確認が必要。"
+        },
+        {
+          "cand_id": "res-09",
+          "source_api": "google_places",
+          "source_id": "ChIJreMNLr2LGGARZuiWrMEdha8",
+          "title": "五代目 野田岩 麻布飯倉本店",
+          "creator": "",
+          "year": null,
+          "publisher": "",
+          "meta": { "address": "東京都港区東麻布1丁目5-4", "primary_type": "和食店" },
+          "image": {
+            "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdrJwe7GLmy3o06mhZmev4JMpwXFTIkLY_-0h1lkiwYxdipGl_9i2BpE2CQNI6qBskdY5jPCKEyNL_PCtSNpnXnhcdX5FWYAqC0eFbabZxXcOr62GJFQtd9rAUFVneQV2VPiL9y=s4800-w1200",
+            "source": "google-places",
+            "attributions": [ { "name": "いであidea522", "uri": "https://maps.google.com/maps/contrib/105197261424325908683" } ]
+          },
+          "links": [ { "label": "Googleマップで見る", "url": "https://maps.google.com/?cid=12647547846201370726&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA", "kind": "map" } ],
+          "verify": { "id_confirmed": true, "url_status": 200, "checked_at": "2026-11-27T23:09:35+00:00" },
+          "researcher_note": "店名の「五代目」が示す通り代替わりを経た鰻商。屋号・製法承認の構造(創業家と経営の関係)の詳細はエディター側で典拠確認が必要。"
+        }
+      ]
+    }
+  ],
+  "ng": []
+}
